@@ -53,6 +53,18 @@
 			species_name += "[species.cyborg_noun] [species.get_bodytype(src)]"
 		else
 			species_name += "[species.name]"
+
+//#######################################################################################################
+//########### MITHRA ADDS CUSTOM SPECIES TO proc/human/examine() ########################################
+//############################################################# VESTA.BAY ###############################
+
+			if(custom_species)
+				species_name = "[custom_species]"
+
+//#######################################################################################################
+//########### MITHRA ADDS CUSTOM SPECIES TO proc/human/examine() ########################################
+//############################################################# VESTA.BAY ###############################
+
 		msg += ", <b><font color='[species.get_flesh_colour(src)]'>\a [species_name]!</font></b>[(user.can_use_codex() && SScodex.get_codex_entry(get_codex_value())) ?  SPAN_NOTICE(" \[<a href='?src=\ref[SScodex];show_examined_info=\ref[src];show_to=\ref[user]'>?</a>\]") : ""]"
 
 	var/extra_species_text = species.get_additional_examine_text(src)

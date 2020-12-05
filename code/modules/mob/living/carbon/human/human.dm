@@ -726,7 +726,7 @@
 		handle_additional_vomit_reagents(splat)
 		splat.update_icon()
 
-/mob/living/carbon/human/proc/vomit(var/timevomit = 1, var/level = 3, var/deliberate = FALSE)
+/mob/living/carbon/human/proc/vomit(timevomit = 1, level = 3, delay = 0, deliberate = FALSE)
 
 	set waitfor = 0
 
@@ -747,6 +747,8 @@
 	level = Clamp(level, 1, 3)
 
 	lastpuke = TRUE
+	if(delay)
+		sleep(delay)
 	to_chat(src, SPAN_WARNING("You feel nauseous..."))
 	if(level > 1)
 		sleep(150 / timevomit)	//15 seconds until second warning
@@ -1212,6 +1214,17 @@
 	// Rebuild the HUD and visual elements.
 	if(client)
 		Login()
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	if(config && config.use_cortical_stacks && client && client.prefs.has_cortical_stack)
+		create_stack()
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
 
 	full_prosthetic = null
 

@@ -1039,6 +1039,12 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cl)
+"bW" = (
+/obj/effect/landmark/start{
+	name = "AI"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/bridge)
 "bX" = (
 /obj/machinery/door/blast/shutters{
 	density = 0;
@@ -24331,7 +24337,7 @@ Wv
 eP
 cy
 Af
-hn
+bW
 hn
 HK
 hn

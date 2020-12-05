@@ -22,8 +22,10 @@
 /obj/machinery/telecomms/hub/preset
 	id = "Hub"
 	network = "tcommsat"
+//### VESTA.BAY Custom BoH content # Original list, added new element ################################
 	autolinkers = list("hub", "relay", "c_relay", "s_relay", "m_relay", "r_relay", "b_relay", "1_relay", "2_relay", "3_relay", "4_relay", "5_relay", "s_relay", "science", "medical",
-	"supply", "service", "common", "command", "engineering", "security", "receiverA", "broadcasterA")
+	"supply", "service", "common", "command", "engineering", "security", "receiverA", "broadcasterA", "infantry", "exploration")
+//### VESTA.BAY Custom BoH content # Original list, added new element ################################
 
 /obj/machinery/telecomms/hub/preset_cent
 	id = "CentComm Hub"
@@ -55,7 +57,16 @@
 	id = "Receiver A"
 	network = "tcommsat"
 	autolinkers = list("receiverA") // link to relay
-	freq_listening = list(AI_FREQ, SCI_FREQ, MED_FREQ, SUP_FREQ, SRV_FREQ, COMM_FREQ, ENG_FREQ, SEC_FREQ, ENT_FREQ, HAIL_FREQ)
+
+//#############################################################################################################
+//# VESTA.BAY Adds INF_FREQ to T-Comms ####### ORIGINAL BAY CODE, ADDED ELEMENT TO LIST #######################
+//############################################################################### VESTA.BAY ###################
+
+	freq_listening = list(AI_FREQ, SCI_FREQ, MED_FREQ, SUP_FREQ, SRV_FREQ, COMM_FREQ, ENG_FREQ, SEC_FREQ, ENT_FREQ, HAIL_FREQ, INF_FREQ)
+
+//#############################################################################################################
+//# VESTA.BAY Adds INF_FREQ to T-Comms ####### ORIGINAL BAY CODE, ADDED ELEMENT TO LIST #######################
+//############################################################################### VESTA.BAY ###################
 
 	//Common and other radio frequencies for people to freely use
 	New()
@@ -106,8 +117,10 @@
 /obj/machinery/telecomms/bus/preset_three
 	id = "Bus 3"
 	network = "tcommsat"
-	freq_listening = list(SEC_FREQ, COMM_FREQ)
-	autolinkers = list("processor3", "security", "command")
+	freq_listening = list(SEC_FREQ, COMM_FREQ, INF_FREQ)
+//### VESTA.BAY Custom BoH content # Original list, added new element ################################
+	autolinkers = list("processor3", "security", "command", "infantry")
+//### VESTA.BAY Custom BoH content # Original list, added new element ################################
 
 /obj/machinery/telecomms/bus/preset_four
 	id = "Bus 4"
@@ -271,6 +284,20 @@
 	channel_tags = list(list(ERT_FREQ, "Response Team", COMMS_COLOR_CENTCOMM), list(DTH_FREQ, "Special Ops", COMMS_COLOR_SYNDICATE))
 	produces_heat = 0
 	autolinkers = list("centcomm")
+
+//###############################################################################################################################
+//# VESTA.BAY Custom BoH content ################################################################################################
+//#################################################################################### VESTA.BAY ################################
+
+/obj/machinery/telecomms/server/presets/infantry
+	id = "Infantry Server"
+	freq_listening = list(INF_FREQ)
+	channel_tags = list(list(INF_FREQ, "Infantry", COMMS_COLOR_SKRELL))
+	autolinkers = list("infantry")
+
+//###############################################################################################################################
+//# VESTA.BAY Custom BoH content ################################################################################################
+//#################################################################################### VESTA.BAY ################################
 
 
 //Broadcasters

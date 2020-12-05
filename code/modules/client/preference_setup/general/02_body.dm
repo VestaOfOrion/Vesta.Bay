@@ -33,6 +33,16 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	var/icon/bgstate = "000"
 	var/list/bgstate_options = list("000", "FFF", MATERIAL_STEEL, "white")
 
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	var/has_cortical_stack = FALSE
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
 /datum/category_item/player_setup_item/physical/body
 	name = "Body"
 	sort_order = 2
@@ -65,6 +75,16 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	pref.preview_icon = null
 	pref.bgstate = R.read("bgstate")
 
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	pref.has_cortical_stack = R.read("has_cortical_stack")
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
 /datum/category_item/player_setup_item/physical/body/save_character(datum/pref_record_writer/W)
 	W.write("species", pref.species)
 	W.write("hair_red", pref.r_hair)
@@ -91,6 +111,16 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	W.write("body_descriptors", pref.body_descriptors)
 	W.write("bgstate", pref.bgstate)
 
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	W.write("has_cortical_stack", pref.has_cortical_stack)
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
 /datum/category_item/player_setup_item/physical/body/sanitize_character(var/savefile/S)
 	pref.r_hair			= sanitize_integer(pref.r_hair, 0, 255, initial(pref.r_hair))
 	pref.g_hair			= sanitize_integer(pref.g_hair, 0, 255, initial(pref.g_hair))
@@ -108,10 +138,31 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	pref.b_eyes			= sanitize_integer(pref.b_eyes, 0, 255, initial(pref.b_eyes))
 	pref.b_type			= sanitize_text(pref.b_type, initial(pref.b_type))
 
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	pref.has_cortical_stack = sanitize_bool(pref.has_cortical_stack, initial(pref.has_cortical_stack))
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
 	if(!pref.species || !(pref.species in playable_species))
 		pref.species = SPECIES_HUMAN
 
 	var/datum/species/mob_species = all_species[pref.species]
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	if(mob_species && mob_species.spawn_flags & SPECIES_NO_LACE)
+		pref.has_cortical_stack = FALSE
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
 
 	var/low_skin_tone = mob_species ? (35 - mob_species.max_skin_tone()) : -185
 	sanitize_integer(pref.s_tone, low_skin_tone, 34, initial(pref.s_tone))
@@ -160,6 +211,23 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	. += "<table><tr style='vertical-align:top'><td><b>Body</b> "
 	. += "(<a href='?src=\ref[src];random=1'>&reg;</A>)"
 	. += "<br>"
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	if(config.use_cortical_stacks)
+		. += "Neural lace: "
+		if(mob_species.spawn_flags & SPECIES_NO_LACE)
+			. += "incompatible."
+		else
+			. += pref.has_cortical_stack ? "present." : "<b>not present.</b>"
+			. += " \[<a href='byond://?src=\ref[src];toggle_stack=1'>toggle</a>\]"
+		. += "<br>"
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
 
 	. += "Blood Type: <a href='?src=\ref[src];blood_type=1'>[pref.b_type]</a><br>"
 
@@ -322,6 +390,18 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 				if(choice && mob_species.descriptors[desc_id]) // Check in case they sneakily changed species.
 					pref.body_descriptors[desc_id] = descriptor.chargen_value_descriptors[choice]
 					return TOPIC_REFRESH
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	else if(href_list["toggle_stack"])
+		pref.has_cortical_stack = !pref.has_cortical_stack
+		return TOPIC_REFRESH
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
 
 	else if(href_list["blood_type"])
 		var/new_b_type = input(user, "Choose your character's blood-type:", CHARACTER_PREFERENCE_INPUT_TITLE) as null|anything in valid_bloodtypes

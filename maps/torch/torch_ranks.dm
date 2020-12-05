@@ -36,7 +36,7 @@
 			/datum/mil_branch/skrell_fleet
 		)
 	)
-
+			//VESTA.BAY Added Plasmasans to only be civ and SG
 	species_to_branch_whitelist = list(
 		/datum/species/diona        = list(/datum/mil_branch/civilian),
 		/datum/species/nabber       = list(/datum/mil_branch/civilian),
@@ -44,7 +44,8 @@
 		/datum/species/unathi       = list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
 		/datum/species/unathi/yeosa = list(/datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
 		/datum/species/adherent     = list(/datum/mil_branch/civilian),
-		/datum/species/vox          = list(/datum/mil_branch/alien)
+		/datum/species/vox          = list(/datum/mil_branch/alien),
+		/datum/species/plasmasans	= list(/datum/mil_branch/civilian, /datum/mil_branch/solgov),
 	)
 
 	species_to_rank_blacklist = list(
