@@ -938,6 +938,9 @@
 						H.brainmob.mind.transfer_to(src)
 						qdel(H)
 
+	if(config && config.use_cortical_stacks && client && client.prefs.has_cortical_stack)
+		create_stack()
+
 	losebreath = 0
 
 	..()
