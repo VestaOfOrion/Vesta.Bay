@@ -496,6 +496,19 @@
 		new_character.dna.SetSEState(GLOB.GLASSESBLOCK,1,0)
 		new_character.disabilities |= NEARSIGHTED
 
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+	// Give them their cortical stack if we're using them.
+	if(config && config.use_cortical_stacks && client && client.prefs.has_cortical_stack /*&& new_character.should_have_organ(BP_BRAIN)*/)
+		new_character.create_stack()
+
+//#######################################################################################################################
+//# VESTA.BAY # PORT NEURAL LACES #######################################################################################
+//################################################################################## VESTA.BAY ##########################
+
+
 	// Do the initial caching of the player's body icons.
 	new_character.force_update_limbs()
 	new_character.update_eyes()

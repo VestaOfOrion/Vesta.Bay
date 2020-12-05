@@ -9,8 +9,22 @@
 	icon = 'icons/obj/surgery.dmi'
 	icon_state = "brain1"
 
+//#############################################################################################################
+//# VESTA.BAY #### PORT CLONNING ##############################################################################
+//#############################################################################################################
+
+	var/clone_source = FALSE
+
+	var/list/descriptors = null	//The brain will now carry flavor_texts and descriptors from it's holder
+	var/list/flavor_texts = null //So when people gets scanned only from the brain, they can keep it
+
+//#############################################################################################################
+//# VESTA.BAY #### PORT CLONNING ##############################################################################
+//#############################################################################################################
+
 /mob/living/carbon/brain/New()
 	create_reagents(1000)
+
 	..()
 
 /mob/living/carbon/brain/Destroy()

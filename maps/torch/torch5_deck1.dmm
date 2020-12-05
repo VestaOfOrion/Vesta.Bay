@@ -2561,7 +2561,7 @@
 /obj/machinery/door/airlock/glass/medical{
 	autoset_access = 0;
 	name = "Medical Foyer";
-	req_access = list(list(access_medical,access_morgue,access_forensics_lockers))
+	req_access = list(list("ACCESS_MEDICAL","ACCESS_MORGUE","ACCESS_FORENSICS"))
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/monotile,
@@ -19371,6 +19371,10 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/hardstorage/aux)
+"hRe" = (
+/obj/machinery/dna_scannernew,
+/turf/simulated/floor/tiled/white,
+/area/medical/sleeper)
 "hUb" = (
 /obj/machinery/door/blast/shutters{
 	density = 0;
@@ -24891,6 +24895,10 @@
 /obj/effect/floor_decal/corner/research,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
+"oQt" = (
+/obj/machinery/computer/cloning,
+/turf/simulated/floor/tiled/white,
+/area/medical/sleeper)
 "oRb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -28453,6 +28461,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
+"sGR" = (
+/obj/machinery/resleever,
+/turf/simulated/floor/tiled/white,
+/area/medical/sleeper)
 "sHb" = (
 /obj/structure/closet/secure_closet/medical_torchsenior,
 /obj/effect/floor_decal/corner/paleblue/mono,
@@ -28739,6 +28751,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/xenobiology)
+"sWC" = (
+/obj/machinery/clonepod/full,
+/turf/simulated/floor/tiled/white,
+/area/medical/sleeper)
 "sWP" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
@@ -51206,7 +51222,7 @@ poS
 qGx
 hwx
 ewb
-fEb
+sGR
 fEb
 adB
 dZb
@@ -51613,7 +51629,7 @@ pPa
 xTh
 fvb
 adL
-dZb
+sWC
 afD
 lHO
 afH
@@ -51815,7 +51831,7 @@ pPa
 ezb
 fKb
 adL
-dZb
+oQt
 afK
 gyV
 agH
@@ -52017,7 +52033,7 @@ eAb
 eUb
 mvE
 adL
-dZb
+hRe
 afK
 gyV
 siI
