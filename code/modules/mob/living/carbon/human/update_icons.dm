@@ -140,7 +140,28 @@ Please contact me on #coderbus IRC. ~Carn x
 #define HO_L_HAND_LAYER     24
 #define HO_R_HAND_LAYER     25
 #define HO_FIRE_LAYER       26 //If you're on fire
-#define TOTAL_LAYERS        26
+
+//######################################################################################################
+//######### MITHRA Adds constants to Human Overlay Indexes #############################################
+//######################################################################################################
+
+#define WING_LAYER			27		//BastionStation edit. Simply move this up a number if things are added.
+#define TAIL_LAYER_ALT		28	//BastionStation edit. Simply move this up a number if things are added.
+
+//######################################################################################################
+//######### MITHRA Adds constants to Human Overlay Indexes #############################################
+//######################################################################################################
+
+//#####################################################################################################
+//######## BAYSTATION ORIGINAL CONSTANT UPDATED TO ADD 2 MORE CUSTOM LAYERS ###########################
+//#####################################################################################################
+
+#define TOTAL_LAYERS        28
+
+//#####################################################################################################
+//######## BAYSTATION ORIGINAL CONSTANT UPDATED TO ADD 2 MORE CUSTOM LAYERS ###########################
+//#####################################################################################################
+
 //////////////////////////////////
 
 /mob/living/carbon/human
@@ -413,6 +434,17 @@ var/global/list/damage_icon_parts = list()
 	//tail
 	update_tail_showing(0)
 
+//######################################################################################################
+//######### MITHRA Calls wings to update icons on the mob ##############################################
+//######################################################################################################
+
+	update_wing_showing()
+
+//######################################################################################################
+//######### MITHRA Calls wings to update icons on the mob ##############################################
+//######################################################################################################
+
+
 	if(update_icons)
 		queue_icon_update()
 
@@ -637,9 +669,31 @@ var/global/list/damage_icon_parts = list()
 	if(wear_suit)
 		overlays_standing[HO_SUIT_LAYER]	= wear_suit.get_mob_overlay(src,slot_wear_suit_str)
 		update_tail_showing(0)
+
+//######################################################################################################
+//######### MITHRA Calls wings to update icons on the mob ##############################################
+//######################################################################################################
+
+		update_wing_showing()
+
+//######################################################################################################
+//######### MITHRA Calls wings to update icons on the mob ##############################################
+//######################################################################################################
+
 	else
 		overlays_standing[HO_SUIT_LAYER]	= null
 		update_tail_showing(0)
+
+//######################################################################################################
+//######### MITHRA Calls wings to update icons on the mob ##############################################
+//######################################################################################################
+
+		update_wing_showing()
+
+//######################################################################################################
+//######### MITHRA Calls wings to update icons on the mob ##############################################
+//######################################################################################################
+
 		update_inv_w_uniform(0)
 		update_inv_shoes(0)
 		update_inv_gloves(0)
@@ -716,7 +770,12 @@ var/global/list/damage_icon_parts = list()
 /mob/living/carbon/human/proc/update_tail_showing(var/update_icons=1)
 	overlays_standing[HO_TAIL_LAYER] = null
 
-	var/species_tail = species.get_tail(src)
+//###############################################################################
+//#### A L E R T - ALERT - OVERRIDE DONE BY MITHRA INTO BAY'S ORIGINAL PROC #####
+//########## ORIGINAL BAYSTATION12 MASTER PROC ########## VESTA.BAY #############
+//###############################################################################
+
+/*	var/species_tail = species.get_tail(src)
 
 	if(species_tail && !(wear_suit && wear_suit.flags_inv & HIDETAIL))
 		var/icon/tail_s = get_tail_icon()
@@ -724,7 +783,41 @@ var/global/list/damage_icon_parts = list()
 		animate_tail_reset(0)
 
 	if(update_icons)
-		queue_icon_update()
+		queue_icon_update()*/
+
+//###############################################################################
+//#### A L E R T - ALERT - OVERRIDE DONE BY MITHRA/BOH INTO BAY'S ORIGINAL PROC #
+//########## ORIGINAL BAYSTATION12 MASTER PROC ########## VESTA.BAY #############
+//###############################################################################
+
+//###############################################################################
+//#### A L E R T - ALERT - OVERRIDE DONE BY MITHRA INTO BAY'S ORIGINAL PROC #####
+//########## ORIGINAL MITHRA/BOH MODULE PROC ########## VESTA.BAY ###############
+//###############################################################################
+
+	var/used_tail_layer = tail_alt ? TAIL_LAYER_ALT : HO_TAIL_LAYER
+	var/species_tail = species.get_tail(src)
+	var/image/vr_tail_image = get_tail_image()
+
+	if(vr_tail_image)
+		vr_tail_image.layer = used_tail_layer
+		overlays_standing[HO_TAIL_LAYER] = vr_tail_image
+		animate_tail_reset(0)
+		if(update_icons)
+			queue_icon_update()
+
+	else if(species_tail && !(wear_suit && wear_suit.flags_inv & HIDETAIL))
+		var/icon/tail_s = get_tail_icon()
+		overlays_standing[HO_TAIL_LAYER] = image(tail_s, icon_state = "[species_tail]_s")
+		animate_tail_reset(0)
+		if(update_icons)
+			queue_icon_update()
+
+//###############################################################################
+//#### A L E R T - ALERT - OVERRIDE DONE BY MITHRA INTO BAY'S ORIGINAL PROC #####
+//########## ORIGINAL MITHRA/BOH MODULE PROC ########## VESTA.BAY ###############
+//###############################################################################
+
 
 /mob/living/carbon/human/proc/get_tail_icon()
 	var/icon_key = "[species.get_race_key(src)][r_skin][g_skin][b_skin][r_hair][g_hair][b_hair]"
@@ -732,7 +825,26 @@ var/global/list/damage_icon_parts = list()
 	if(!tail_icon)
 		//generate a new one
 		var/species_tail_anim = species.get_tail_animation(src)
-		if(!species_tail_anim) species_tail_anim = 'icons/effects/species.dmi'
+
+//#############################################################################
+//####### MITHRA - ADDS CUSTOM TAIL ICONS ROUTINES TO CARBON/HUMANS ###########
+//#############################################################################
+
+		if(species.modular_tail)
+			species_tail_anim = species.modular_tail
+		else if(!species_tail_anim)
+			species_tail_anim = 'icons/effects/species.dmi'
+
+//#############################################################################
+
+		//############################################################################ VESTA.BAY #####################
+		//######################### ALERT - MITHRA DIDNT HAD THIS IF #################################################
+
+		if(!species_tail_anim) species_tail_anim = 'icons/effects/species.dmi'	//## ALERT - MITHRA DIDNT HAD THIS IF#
+
+		//######################### ALERT - MITHRA DIDNT HAD THIS IF #################################################
+		//############################################################################ VESTA.BAY #####################
+
 		tail_icon = new/icon(species_tail_anim)
 		tail_icon.Blend(rgb(r_skin, g_skin, b_skin), species.tail_blend)
 		// The following will not work with animated tails.
@@ -799,6 +911,23 @@ var/global/list/damage_icon_parts = list()
 
 	if(update_icons)
 		queue_icon_update()
+
+//##########################################################################################
+//############ MITHRA - CREATES human/proc/update_wing_showing() ###########################
+//################################################### VESTA.BAY ############################
+
+/mob/living/carbon/human/proc/update_wing_showing()
+	if(QDESTROYING(src))
+		return
+
+	var/image/vr_wing_image = get_wing_image()
+	if(vr_wing_image)
+		vr_wing_image.layer = WING_LAYER
+		overlays_standing[WING_LAYER] = vr_wing_image
+
+//##########################################################################################
+//############ MITHRA - CREATES human/proc/update_wing_showing() ###########################
+//################################################### VESTA.BAY ############################
 
 
 //Adds a collar overlay above the helmet layer if the suit has one

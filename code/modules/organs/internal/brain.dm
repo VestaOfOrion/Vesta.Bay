@@ -45,6 +45,7 @@
 
 /obj/item/organ/internal/brain/New(var/mob/living/carbon/holder)
 	..()
+
 	if(species)
 		set_max_damage(species.total_health)
 	else
@@ -70,6 +71,19 @@
 		brainmob.real_name = H.real_name
 		brainmob.dna = H.dna.Clone()
 		brainmob.timeofhostdeath = H.timeofdeath
+
+//###########################################################################################################################
+//# VESTA.BAY # Copy the holder descriptor and flavor texts to the brainmob, so it will be scannable from brains ############
+//####################################################################################################### VESTA.BAY #########
+
+		if(istype(H, /mob/living/carbon/human))	//Check if its a carbon/human to run away from runtimes @r4iser
+			var/mob/living/carbon/human/user = H
+			brainmob.descriptors = user.descriptors
+			brainmob.flavor_texts = user.flavor_texts
+
+//###########################################################################################################################
+//# VESTA.BAY # Copy the holder descriptor and flavor texts to the brainmob, so it will be scannable from brains ############
+//####################################################################################################### VESTA.BAY #########
 
 	if(H.mind)
 		H.mind.transfer_to(brainmob)

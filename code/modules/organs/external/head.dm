@@ -145,6 +145,26 @@
 						hair_s.Blend(rgb(h_col[1], h_col[2], h_col[3]), hair_style.blend)
 					res.overlays |= hair_s
 
+//################################################################################################
+//####### MITHRA ADDS CUSTOM EARS TO proc/get_hair_icon() ########################################
+//################################################################## VESTA.BAY ###################
+
+	if(owner.ear_style)
+		if(owner.ear_style && !(owner.head && (owner.head.flags_inv & BLOCKHEADHAIR)))
+			var/icon/ears_s = new/icon("icon" = owner.ear_style.icon, "icon_state" = owner.ear_style.icon_state)
+			if(owner.ear_style.do_colouration)
+				ears_s.Blend(rgb(owner.r_ears, owner.g_ears, owner.b_ears), owner.ear_style.color_blend_mode)
+			if(owner.ear_style.extra_overlay)
+				var/icon/overlay = new/icon("icon" = owner.ear_style.icon, "icon_state" = owner.ear_style.extra_overlay)
+				overlay.Blend(rgb(owner.r_ears2, owner.g_ears2, owner.b_ears2), owner.ear_style.color_blend_mode)
+				ears_s.Blend(overlay, ICON_OVERLAY)
+				qdel(overlay)
+			res.overlays |= ears_s
+
+//################################################################################################
+//####### MITHRA ADDS CUSTOM EARS TO proc/get_hair_icon() ########################################
+//################################################################## VESTA.BAY ###################
+
 	for (var/M in markings)
 		var/datum/sprite_accessory/marking/mark_style = markings[M]["datum"]
 		if (mark_style.draw_target == MARKING_TARGET_HAIR)

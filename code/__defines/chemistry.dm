@@ -58,3 +58,14 @@
 
 #define HANDLE_REACTIONS(_reagents)  SSchemistry.active_holders[_reagents] = TRUE
 #define UNQUEUE_REACTIONS(_reagents) SSchemistry.active_holders -= _reagents
+
+//################################################################################################################
+//# MITHRA Adds specific customs into global chemistry defines ### Mithra had trouble locating these out of here #
+//##################################################################### VESTA.BAY ################################
+
+#define IS_CARNIVORE 1
+#define IS_HERBIVORE 2
+
+//################################################################################################################
+//# MITHRA Adds specific customs into global chemistry defines ### Mithra had trouble locating these out of here #
+//##################################################################### VESTA.BAY ################################
