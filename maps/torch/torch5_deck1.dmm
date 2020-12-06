@@ -9498,12 +9498,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/foreport)
 "aFf" = (
-/obj/machinery/atmospherics/valve/shutoff/supply,
 /obj/structure/railing/mapped{
 	dir = 8;
 	icon_state = "railing0-1"
 	},
-/obj/machinery/atmospherics/valve/shutoff/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/foreport)
 "aFg" = (
@@ -9721,13 +9721,13 @@
 /turf/simulated/floor/tiled,
 /area/operations_storage/engineering)
 "aGw" = (
-/obj/machinery/atmospherics/valve/shutoff/supply,
 /obj/structure/railing/mapped{
 	dir = 8;
 	icon_state = "railing0-1"
 	},
 /obj/structure/railing/mapped,
-/obj/machinery/atmospherics/valve/shutoff/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralport)
 "aGx" = (
@@ -12848,16 +12848,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralport)
 "aRO" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9;
 	pixel_y = 0
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/security/solitary)
 "aRX" = (
@@ -17720,16 +17715,8 @@
 /turf/simulated/wall/r_wall/hull,
 /area/command/armoury)
 "eSP" = (
-/obj/machinery/alarm{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_y = -22
-	},
-/obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -22350,9 +22337,6 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
 "kSc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
 /obj/effect/floor_decal/corner/red{
 	dir = 5
 	},
@@ -22365,6 +22349,15 @@
 	},
 /turf/simulated/wall/prepainted,
 /area/maintenance/substation/firstdeck)
+"kSo" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/maintenance/firstdeck/foreport)
 "kTb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -22632,6 +22625,18 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
+"lhk" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/maintenance/firstdeck/foreport)
 "lib" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -23354,6 +23359,20 @@
 /obj/item/weapon/book/manual/solgov_law,
 /turf/simulated/floor/tiled,
 /area/security/detectives_office)
+"mgk" = (
+/obj/machinery/alarm{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/maintenance/firstdeck/foreport)
 "mhb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -24408,14 +24427,11 @@
 /turf/simulated/floor/blackgrid,
 /area/security/nuke_storage)
 "nne" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -25748,10 +25764,10 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "oTX" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -26896,6 +26912,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/resleever,
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery2)
 "qkb" = (
@@ -27003,9 +27020,11 @@
 /turf/simulated/floor/tiled/freezer,
 /area/medical/washroom)
 "qtY" = (
-/obj/machinery/resleever,
-/turf/simulated/floor/tiled/white,
-/area/medical/sleeper)
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/security/solitary)
 "qvX" = (
 /obj/structure/hygiene/shower{
 	dir = 4;
@@ -27875,6 +27894,9 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -30255,12 +30277,10 @@
 /turf/simulated/floor/tiled/white,
 /area/security/detectives_office)
 "tKE" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/security/solitary)
 "tLL" = (
@@ -30308,6 +30328,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/security/brig)
 "tTN" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock,
 /turf/simulated/floor/tiled,
 /area/security/solitary)
 "tTY" = (
@@ -31034,9 +31055,7 @@
 /turf/simulated/wall/prepainted,
 /area/security/brig)
 "vrM" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	dir = 4
-	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock,
 /obj/effect/floor_decal/corner/red{
 	dir = 9
 	},
@@ -41809,7 +41828,7 @@ mCi
 tkr
 tTN
 tKE
-tTN
+qtY
 tAS
 tAS
 cLU
@@ -42214,7 +42233,7 @@ tkr
 aRo
 aSn
 nne
-tAS
+lhk
 tAS
 cLU
 aaa
@@ -42416,7 +42435,7 @@ tkr
 aRp
 aSo
 eSP
-tAS
+mgk
 tAS
 cLU
 aaa
@@ -42618,7 +42637,7 @@ tkr
 ssc
 aSp
 aRO
-tAS
+kSo
 tAS
 tAS
 aaa
@@ -53094,7 +53113,7 @@ eUb
 mvE
 adL
 dZb
-qtY
+ezb
 gyV
 siI
 aGx
