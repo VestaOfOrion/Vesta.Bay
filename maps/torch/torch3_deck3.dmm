@@ -9242,7 +9242,7 @@
 /area/hallway/primary/thirddeck/aft)
 "ub" = (
 /turf/simulated/wall/walnut,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "ue" = (
 /obj/effect/floor_decal/corner/green/half,
 /obj/structure/cable/green{
