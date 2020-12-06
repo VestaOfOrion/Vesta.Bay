@@ -27,7 +27,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/cos/fleet
-	name = OUTFIT_JOB_NAME("Chief of Security - Marine Corps")
+	name = OUTFIT_JOB_NAME("Chief of Security - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
@@ -64,7 +64,7 @@
 // Exploration
 
 /decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder/fleet
-	name = OUTFIT_JOB_NAME("Pathfinder")
+	name = OUTFIT_JOB_NAME("Pathfinder - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
 	shoes = /obj/item/clothing/shoes/dutyboots
 
