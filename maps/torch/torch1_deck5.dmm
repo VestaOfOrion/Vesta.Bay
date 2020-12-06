@@ -2571,6 +2571,9 @@
 	dir = 9
 	},
 /obj/structure/table/woodentable/walnut,
+/obj/machinery/light/spot{
+	dir = 8
+	},
 /turf/simulated/floor/wood/walnut,
 /area/infantry)
 "eQ" = (
@@ -7594,31 +7597,29 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/expedition)
 "pV" = (
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/dark,
-/area/infantry)
-"pW" = (
-/obj/effect/floor_decal/corner/blue/bordercorner{
-	dir = 1
+/obj/machinery/door/window/brigdoor{
+	autoclose = 1;
+	dir = 1;
+	name = "Squad Leader";
+	req_access = list("ACCESS_INFCOM")
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+/obj/structure/window/reinforced{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/infantry/infcom)
+"pW" = (
+/obj/effect/floor_decal/corner/blue/bordercorner{
+	dir = 1
 	},
 /obj/structure/cable/green{
 	d1 = 2;
@@ -7630,6 +7631,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
 "pY" = (
@@ -11912,18 +11915,15 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/isolation)
 "Bv" = (
-/obj/machinery/alarm{
-	dir = 4;
-	pixel_x = -23
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
 	},
-/obj/effect/floor_decal/corner/blue/border{
-	dir = 1
-	},
-/obj/machinery/light/spot{
-	dir = 8
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/infantry)
+/area/infantry/infcom)
 "Bx" = (
 /obj/structure/closet/l3closet/scientist/multi,
 /turf/simulated/floor/tiled/white/monotile,
@@ -12648,6 +12648,12 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/infantry)
 "DN" = (
@@ -13176,17 +13182,13 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
 "FO" = (
@@ -13638,11 +13640,10 @@
 	pixel_y = -24
 	},
 /obj/machinery/light/spot,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	pixel_y = 0
-	},
 /obj/structure/cable/green,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/infantry/infcom)
 "Hr" = (
@@ -14173,12 +14174,6 @@
 "Jc" = (
 /obj/effect/floor_decal/corner/blue/border{
 	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
 	},
 /obj/structure/cable/green{
 	d1 = 4;
@@ -14743,6 +14738,15 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/toxins)
+"La" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
+/area/infantry)
 "Lb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -15674,6 +15678,12 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
 /turf/simulated/floor/wood/walnut,
 /area/infantry)
 "Of" = (
@@ -16116,10 +16126,6 @@
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/petrov/toxins)
 "PH" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+006
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -16332,6 +16338,10 @@
 	},
 /obj/structure/bed/chair/office/comfy/blue{
 	dir = 1
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -23
 	},
 /turf/simulated/floor/wood/walnut,
 /area/infantry)
@@ -17443,9 +17453,6 @@
 /obj/item/weapon/rig/military/infantry,
 /obj/item/weapon/storage/firstaid/adv,
 /obj/item/clothing/accessory/storage/black_vest,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
 /obj/item/device/radio,
 /obj/item/device/binoculars,
 /obj/item/device/scanner/health,
@@ -17454,6 +17461,9 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/detox,
 /obj/item/modular_computer/tablet/lease/preset/command,
+/obj/machinery/light/spot{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
 "Ub" = (
@@ -18103,12 +18113,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/phoron)
 "WA" = (
-/obj/machinery/door/window/brigdoor{
-	autoclose = 1;
-	dir = 1;
-	name = "Squad Leader";
-	req_access = list("ACCESS_INFCOM")
-	},
 /obj/structure/window/reinforced{
 	dir = 4
 	},
@@ -18484,11 +18488,11 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
@@ -30990,7 +30994,7 @@ SG
 ZH
 ZH
 ZH
-ZH
+La
 Jc
 aM
 ZP

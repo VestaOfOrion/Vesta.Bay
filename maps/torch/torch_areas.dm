@@ -734,10 +734,6 @@
 	name = "\improper Vacant Armory"
 	icon_state = "Tactical"
 
-/area/vacant/cabin
-	name = "\improper Vacant Cabins"
-	icon_state = "crew_quarters"
-
 /area/vacant/mess
 	name = "\improper Old Mess"
 	icon_state = "bar"
@@ -1063,6 +1059,11 @@
 /area/security/hangcheck
 	name = "\improper Fourth Deck Security Checkpoint"
 	icon_state = "checkpoint"
+
+/area/security/solitary
+	name = "\improper Security - Solitary Holding"
+	icon_state = "security"
+	req_access = list(access_brig)
 
 // Medbay
 

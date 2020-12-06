@@ -7392,7 +7392,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "pw" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -8275,7 +8275,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "sb" = (
 /turf/simulated/wall/walnut,
 /area/crew_quarters_boh/cabin_main/c1)
@@ -8917,6 +8917,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
+"sY" = (
+/turf/simulated/wall/walnut,
+/area/crew_quarters_boh/cabin_main)
 "sZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -11834,7 +11837,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "BU" = (
 /obj/machinery/alarm{
 	dir = 4;
@@ -12349,7 +12352,7 @@
 /area/maintenance/thirddeck/port)
 "Dn" = (
 /turf/simulated/wall/prepainted,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Do" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -12887,14 +12890,14 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "ED" = (
 /obj/machinery/button/alternate/door/bolts{
 	pixel_y = 24
 	},
 /obj/structure/bed,
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "EE" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/aftport)
@@ -13109,7 +13112,7 @@
 	pixel_y = 21
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Fh" = (
 /obj/structure/hygiene/shower{
 	dir = 8;
@@ -13122,7 +13125,7 @@
 	},
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/freezer,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Fi" = (
 /obj/machinery/light{
 	dir = 8;
@@ -13352,7 +13355,7 @@
 "FJ" = (
 /obj/structure/bedsheetbin,
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "FK" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -13365,7 +13368,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "FL" = (
 /obj/structure/hygiene/shower{
 	dir = 8;
@@ -13374,7 +13377,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "FM" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -13391,7 +13394,7 @@
 "FN" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "FO" = (
 /obj/machinery/power/rad_collector,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -13535,7 +13538,7 @@
 	pixel_y = 21
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Gk" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -13558,7 +13561,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Gm" = (
 /obj/structure/bed/chair/office/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -13800,13 +13803,13 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "GJ" = (
 /obj/structure/bed/chair/comfy/beige{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "GK" = (
 /obj/item/device/radio/intercom/entertainment{
 	dir = 1;
@@ -13816,10 +13819,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "GL" = (
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "GN" = (
 /obj/structure/table/steel,
 /obj/machinery/microwave{
@@ -13917,7 +13920,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Hj" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -13925,7 +13928,7 @@
 	pixel_y = -22
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Hk" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14338,7 +14341,7 @@
 	pixel_y = -22
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Ik" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 10
@@ -14498,7 +14501,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "IJ" = (
 /obj/random_multi/single_item/punitelly,
 /obj/structure/railing/mapped{
@@ -16879,7 +16882,7 @@
 "Ox" = (
 /obj/structure/plushie/drone,
 /turf/simulated/floor/carpet/blue3,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main)
 "Oy" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 5
@@ -41714,11 +41717,11 @@ AN
 Ez
 zZ
 Hn
-ub
-ub
+sY
+sY
 rV
-ub
-ub
+sY
+sY
 zd
 Yq
 HE
@@ -41916,11 +41919,11 @@ TV
 AN
 RT
 Np
-ub
+sY
 Gj
 GI
 Hi
-ub
+sY
 sS
 KY
 KY
@@ -42118,11 +42121,11 @@ nu
 YZ
 Ts
 CE
-ub
+sY
 GL
 II
 Hj
-ub
+sY
 vk
 or
 or
@@ -42324,7 +42327,7 @@ ub
 FJ
 II
 GJ
-ub
+sY
 dL
 LK
 LK
@@ -42522,11 +42525,11 @@ Cw
 AN
 Ov
 hF
-ub
+sY
 ED
 II
 FN
-ub
+sY
 ko
 ny
 Hf
@@ -42724,7 +42727,7 @@ Cx
 AN
 TN
 JV
-ub
+sY
 Ox
 II
 GK
@@ -42926,11 +42929,11 @@ Cy
 AN
 tZ
 EB
-ub
+sY
 FK
 BT
 GL
-ub
+sY
 xm
 Hf
 Hf

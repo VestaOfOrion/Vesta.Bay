@@ -5339,8 +5339,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/medical)
 "akE" = (
-/turf/simulated/wall/prepainted,
-/area/medical/counselor)
+/turf/simulated/wall/r_wall/prepainted,
+/area/security/solitary)
 "akK" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -12463,7 +12463,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "aRp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -12475,7 +12475,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "aRq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -12487,8 +12487,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/maintenance{
+	name = "Security Wing Maintenance";
+	secured_wires = 1
+	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "aRr" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
@@ -12907,7 +12911,7 @@
 	name = "Solitary Holding"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "aSn" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -12917,20 +12921,20 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "aSo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "aSp" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 4;
 	target_pressure = 200
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "aSq" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1379;
@@ -17688,7 +17692,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "eTb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -22313,7 +22317,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "kSi" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 8;
@@ -22970,7 +22974,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "lAC" = (
 /obj/structure/table/standard,
 /obj/structure/closet/medical_wall/filled{
@@ -24371,7 +24375,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "nob" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/blackgrid,
@@ -25708,7 +25712,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "oUb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -27826,7 +27830,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "rqI" = (
 /obj/machinery/recharger/wallcharger{
 	dir = 4;
@@ -30190,7 +30194,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "tLL" = (
 /obj/item/weapon/storage/briefcase,
 /obj/structure/table/rack,
@@ -30237,7 +30241,7 @@
 /area/security/brig)
 "tTN" = (
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "tTY" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -30972,7 +30976,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "vsz" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -31014,7 +31018,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
+/area/security/solitary)
 "vyq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -41932,9 +41936,9 @@ aNH
 aNH
 aNH
 tkr
-aBb
+akE
 aSm
-aBb
+akE
 tAS
 tAS
 cLU
@@ -56047,11 +56051,11 @@ kZb
 bhy
 aeX
 afv
-akE
+xYM
 ais
 atf
-akE
-akE
+xYM
+xYM
 tQi
 bWA
 ygK
