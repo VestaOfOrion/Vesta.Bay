@@ -35,7 +35,7 @@
 //# VESTA.BAY # PORT NEURAL LACES #######################################################################################
 //################################################################################## VESTA.BAY ##########################
 
-	var/obj/item/organ/internal/stack/s = get_organ(BP_STACK)
+	var/obj/item/organ/internal/stack/s = internal_organs_by_name[BP_STACK]
 	if(s)
 		s.do_backup()
 

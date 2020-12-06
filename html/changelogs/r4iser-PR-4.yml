@@ -8,3 +8,4 @@ changes:
   - imageadd: "Adds Vesta custom plate carriers, armguards and legguards."
   - rscadd: "Adds Vesta custom plate carriers, armguards and legguards."
   - rscadd: "Adds Security Cadet locker"
+  - bugfix: "Neural Lace do_backup() after death fixed"
