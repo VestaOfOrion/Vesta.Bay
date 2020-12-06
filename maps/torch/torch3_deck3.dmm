@@ -6983,9 +6983,8 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/gym)
 "oD" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/chapel/office)
+/turf/simulated/wall/prepainted,
+/area/radio_host)
 "oF" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -6995,7 +6994,7 @@
 	id = "cmo_windows"
 	},
 /turf/simulated/floor/plating,
-/area/chapel/office)
+/area/radio_host)
 "oH" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -7532,11 +7531,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/crew_quarters/recreation)
-"pN" = (
-/obj/structure/table/rack,
-/obj/random/maintenance/solgov,
-/turf/simulated/floor/tiled/techfloor,
-/area/chapel/office)
 "pO" = (
 /turf/simulated/open,
 /area/hallway/primary/thirddeck/fore)
@@ -7780,9 +7774,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/observation)
-"qz" = (
-/turf/simulated/wall/r_wall/hull,
-/area/chapel/office)
 "qC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/wood/walnut,
@@ -8014,7 +8005,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "rp" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -8523,9 +8514,6 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/center)
-"sq" = (
-/turf/simulated/floor/tiled/techfloor,
-/area/chapel/office)
 "sr" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -8916,7 +8904,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "sU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -9075,7 +9063,7 @@
 "tz" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "tA" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -9708,13 +9696,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
-"vv" = (
-/obj/structure/cable/green,
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "cmo_windows"
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/foreport)
 "vy" = (
 /obj/item/weapon/beach_ball,
 /turf/simulated/floor/grass,
@@ -10381,7 +10362,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "xx" = (
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "chapoff_windows"
@@ -11546,7 +11527,7 @@
 	},
 /obj/structure/table/woodentable/mahogany,
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "AP" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 4
@@ -11602,7 +11583,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "AV" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 9;
@@ -11815,12 +11796,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/storage/tools)
-"BE" = (
-/obj/structure/bed/chair/comfy/black{
-	dir = 8
-	},
-/turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
 "BF" = (
 /obj/effect/floor_decal/spline/fancy/black,
 /obj/item/device/radio/intercom/entertainment{
@@ -12459,9 +12434,6 @@
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
-"Dr" = (
-/turf/simulated/floor/plating,
-/area/chapel/office)
 "Dt" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -32
@@ -12803,7 +12775,7 @@
 	},
 /obj/item/weapon/pen/green,
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "Eg" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/random/trash,
@@ -13719,7 +13691,7 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/chapel/office)
+/area/maintenance/thirddeck/foreport)
 "Gv" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -13992,10 +13964,6 @@
 "Hf" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/thirddeck/port)
-"Hg" = (
-/obj/structure/table/woodentable/mahogany,
-/turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
 "Hh" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -14180,7 +14148,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "HD" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -14518,7 +14486,7 @@
 	},
 /obj/structure/table/woodentable/mahogany,
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "Iw" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/structure/ship_munition/disperser_charge/explosive,
@@ -15224,7 +15192,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "JO" = (
 /obj/effect/catwalk_plated,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -15389,7 +15357,7 @@
 "Kd" = (
 /obj/structure/table/woodentable/mahogany,
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "Kf" = (
 /obj/machinery/atmospherics/unary/engine{
 	dir = 8
@@ -15855,7 +15823,7 @@
 "Lf" = (
 /obj/machinery/light/spot,
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "Lh" = (
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -16038,7 +16006,7 @@
 /area/engineering/hardstorage)
 "LA" = (
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "LB" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -16080,7 +16048,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "LH" = (
 /obj/machinery/atmospherics/unary/vent_pump/tank{
 	dir = 8;
@@ -16788,7 +16756,7 @@
 	id = "cmo_windows"
 	},
 /turf/simulated/floor/plating,
-/area/chapel/office)
+/area/radio_host)
 "NM" = (
 /obj/machinery/media/jukebox/old,
 /obj/effect/decal/cleanable/dirt,
@@ -17237,7 +17205,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "Pj" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -17636,7 +17604,7 @@
 	pixel_y = 5
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "Qp" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 9
@@ -18087,7 +18055,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/chapel/office)
+/area/radio_host)
 "RM" = (
 /obj/machinery/atmospherics/valve/digital{
 	dir = 4;
@@ -18498,7 +18466,7 @@
 "SR" = (
 /obj/machinery/door/airlock/hatch/maintenance,
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "SS" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -18555,7 +18523,7 @@
 	icon_state = "comfychair_preview"
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "SY" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/computer/modular/preset/engineering{
@@ -20428,7 +20396,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "XX" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -20483,7 +20451,7 @@
 	},
 /obj/structure/table/woodentable/mahogany,
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "Yd" = (
 /obj/structure/cable/green,
 /obj/machinery/power/apc{
@@ -20493,7 +20461,7 @@
 /obj/item/weapon/storage/box/glasses/pint,
 /obj/structure/table/woodentable/mahogany,
 /turf/simulated/floor/wood/mahogany,
-/area/maintenance/thirddeck/foreport)
+/area/radio_host)
 "Ye" = (
 /obj/machinery/light/small,
 /obj/machinery/meter,
@@ -20992,7 +20960,7 @@
 	},
 /obj/structure/table/woodentable/mahogany,
 /turf/simulated/floor/wood/mahogany,
-/area/chapel/office)
+/area/radio_host)
 "ZD" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -29939,15 +29907,15 @@ yH
 Ef
 ro
 Lf
-TE
-sq
-sq
-Dr
-sq
-qz
-qz
-qz
-qz
+oD
+Yb
+Yb
+BX
+Yb
+BV
+BV
+BV
+BV
 BV
 aa
 aa
@@ -30141,15 +30109,15 @@ yH
 ZC
 LA
 LA
-zS
+oD
 BX
 BX
 BX
 BX
 BV
 BV
-qz
-qz
+BV
+BV
 BV
 BV
 aa
@@ -30340,18 +30308,18 @@ yu
 Yr
 PH
 yH
-TE
-zS
+oD
+oD
 SR
-zS
-vv
-zS
-zS
+oD
+NL
+oD
+oD
 BX
 BX
 BX
 BX
-qz
+BV
 BV
 BV
 BV
@@ -30548,12 +30516,12 @@ LA
 Ph
 LA
 AO
-zS
+oD
 zS
 zS
 zS
 BX
-qz
+BV
 BV
 BV
 BV
@@ -30745,17 +30713,17 @@ Yr
 yI
 yH
 Yc
-Hg
+Kd
 LA
 LF
 LA
 Iv
-zS
+oD
 GV
 RV
 YC
 Yb
-sq
+Yb
 BV
 BV
 BV
@@ -30947,12 +30915,12 @@ Yr
 Zn
 yH
 Kd
-Hg
+Kd
 LA
 AU
 xw
 Yd
-zS
+oD
 Yb
 Ur
 Ur
@@ -31149,17 +31117,17 @@ ZX
 zB
 yH
 JN
-BE
+JN
 LA
 XV
 tz
 sT
-zS
+oD
 Mf
 Es
 zS
 Yb
-oD
+Ur
 BV
 BV
 BV
@@ -31356,12 +31324,12 @@ NL
 HC
 NL
 NL
-TE
-TE
-TE
-TE
-pN
 oD
+zS
+zS
+zS
+CM
+Ur
 BV
 BV
 BV

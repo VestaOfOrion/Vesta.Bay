@@ -1750,3 +1750,9 @@ area/assembly/robotics/office
 //Radio Host
 /area/radio_host
 	name = "\improper Radio Host Office"
+
+//SMC attache
+/area/command/msea
+	name = "\improper Solarian Marine Corps Attache Office"
+	icon_state = "heads_sea"
+	req_access = list(access_senadv)
