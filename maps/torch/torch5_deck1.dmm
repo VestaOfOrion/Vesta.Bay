@@ -16096,8 +16096,11 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "cLU" = (
-/turf/simulated/wall/r_wall/hull,
-/area/space)
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/security/solitary)
 "cMb" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 8;
@@ -18475,6 +18478,20 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/sleeper)
+"glz" = (
+/obj/machinery/alarm{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/security/solitary)
 "gnt" = (
 /obj/structure/bed/chair/padded/blue,
 /obj/effect/floor_decal/scglogo{
@@ -22349,15 +22366,6 @@
 	},
 /turf/simulated/wall/prepainted,
 /area/maintenance/substation/firstdeck)
-"kSo" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
 "kTb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -22625,18 +22633,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
-"lhk" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
 "lib" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -23359,20 +23355,6 @@
 /obj/item/weapon/book/manual/solgov_law,
 /turf/simulated/floor/tiled,
 /area/security/detectives_office)
-"mgk" = (
-/obj/machinery/alarm{
-	dir = 1;
-	icon_state = "alarm0";
-	pixel_y = -22
-	},
-/obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/maintenance/firstdeck/foreport)
 "mhb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -27020,7 +27002,13 @@
 /turf/simulated/floor/tiled/freezer,
 /area/medical/washroom)
 "qtY" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -27814,6 +27802,15 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/rnd/xenobiology/xenoflora)
+"rkX" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/security/solitary)
 "rlb" = (
 /obj/machinery/atmospherics/unary/freezer{
 	dir = 1;
@@ -41022,7 +41019,7 @@ pud
 gMC
 tAS
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -41224,7 +41221,7 @@ aqx
 sHN
 tAS
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -41426,7 +41423,7 @@ vrM
 rqu
 vvE
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -41828,10 +41825,10 @@ mCi
 tkr
 tTN
 tKE
-qtY
-tAS
-tAS
 cLU
+tAS
+tAS
+tAS
 aaa
 aaa
 aaa
@@ -42033,7 +42030,7 @@ aSm
 akE
 tAS
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -42233,9 +42230,9 @@ tkr
 aRo
 aSn
 nne
-lhk
+qtY
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -42435,9 +42432,9 @@ tkr
 aRp
 aSo
 eSP
-mgk
+glz
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -42637,7 +42634,7 @@ tkr
 ssc
 aSp
 aRO
-kSo
+rkX
 tAS
 tAS
 aaa
@@ -44053,7 +44050,7 @@ aSt
 tAS
 tAS
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -44255,7 +44252,7 @@ aSu
 tAS
 tAS
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -44457,7 +44454,7 @@ aSv
 tAS
 tAS
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
@@ -44659,7 +44656,7 @@ aSw
 tAS
 tAS
 tAS
-cLU
+tAS
 aaa
 aaa
 aaa
