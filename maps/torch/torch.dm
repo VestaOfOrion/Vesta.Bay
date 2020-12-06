@@ -23,7 +23,7 @@
 
 	#include "datums/uniforms.dm"
 	#include "datums/uniforms_expedition.dm"
-//	#include "datums/uniforms_fleet.dm" //Modular overwrite. Go check modular_boh for the NTEF version!
+	#include "datums/uniforms_fleet.dm"
 	#include "datums/game_modes/torch_traitor.dm"
 	#include "datums/game_modes/torch_revolution.dm"
 	#include "datums/game_modes/torch_siege.dm"
@@ -63,7 +63,7 @@
 	#include "items/mecha.dm"
 	#include "items/summarydocuments.dm"
 
-/*	#include "items/clothing/ec_skillbadges.dm"		//Modular Vesta overwrite. Check modular_boh for these files!
+	#include "items/clothing/ec_skillbadges.dm"
 	#include "items/clothing/solgov-accessory.dm"
 	#include "items/clothing/solgov-armor.dm"
 	#include "items/clothing/solgov-feet.dm"
@@ -76,7 +76,7 @@
 	#include "items/clothing/terran-hands.dm"
 	#include "items/clothing/terran-head.dm"
 	#include "items/clothing/terran-suit.dm"
-	#include "items/clothing/terran-under.dm" */
+	#include "items/clothing/terran-under.dm"
 
 	#include "items/weapon/storage/wallets.dm"
 
