@@ -1665,3 +1665,88 @@ area/assembly/robotics/office
 /area/tdome/tdomeobserve
 	name = "\improper Thunderdome (Observer.)"
 	icon_state = "purple"
+
+
+/////////
+// BoH Areas
+/////////
+
+/area/crew_quarters_boh/cabin_main
+	name = "\improper Cabin Primary"
+	icon_state = "crew_quarters"
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	sound_env = MEDIUM_SOFTFLOOR
+
+/area/crew_quarters_boh/cabin_main/c1
+	name = "\improper Cabin One"
+	icon_state = "Sleep"
+
+/area/crew_quarters_boh/cabin_main/c2
+	name = "\improper Cabin Two"
+	icon_state = "Sleep"
+
+/area/crew_quarters_boh/cabin_main/c3
+	name = "\improper Cabin Three"
+	icon_state = "Sleep"
+
+/area/crew_quarters_boh/cabin_main/janitorial
+	name = "\improper Cabin Janitorial"
+	icon_state = "janitor"
+
+//Psionic Advisor
+/area/crew_quarters/heads/office/psiadvisor
+	name = "\improper Psionic Advisor"
+	icon_state = "heads"
+	req_access = list(access_psiadvisor)
+
+//Infantry
+
+/area/infantry
+	name = "\improper Infantry Lounge"
+	icon_state = "green"
+	sound_env = SMALL_ENCLOSED
+	req_access = list(access_infantry)
+
+/area/infantry/infcom
+	name = "\improper Squad Leader's Cabin"
+	req_access = list(access_infcom)
+
+/area/infantry/inftech
+	name = "\improper Infantry Technician's Cabin"
+	req_access = list(access_inftech)
+
+//Operations storage
+
+/area/operations_storage
+	name = "\improper Operations Storage Hallway"
+	icon_state = "yellow"
+	sound_env = SMALL_ENCLOSED
+
+/area/operations_storage/medical
+	name = "\improper Medical Operations Storage"
+	icon_state = "green"
+	req_access = list(access_medical)
+
+/area/operations_storage/security
+	name = "\improper Security Operations Storage"
+	icon_state = "red"
+	req_access = list(access_security)
+
+/area/operations_storage/science
+	name = "\improper Research Operations Storage"
+	icon_state = "purple"
+	req_access = list(access_research)
+
+/area/operations_storage/engineering
+	name = "\improper Engineering Operations Storage"
+	icon_state = "orange"
+	req_access = list(access_engine)
+
+/area/operations_storage/robotics
+	name = "\improper Robotics Operations Storage"
+	icon_state = "pink"
+	req_access = list(access_robotics)
+
+//Radio Host
+/area/radio_host
+	name = "\improper Radio Host Office"
