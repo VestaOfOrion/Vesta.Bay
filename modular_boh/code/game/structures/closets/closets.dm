@@ -141,3 +141,25 @@
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack, /obj/item/weapon/storage/backpack/satchel/grey)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger))
 	)
+
+//## VESTA.BAY # SECURITY CADET #############
+
+/obj/structure/closet/secure_closet/security_torch/cadet
+	name = "cadet locker"
+
+/obj/structure/closet/secure_closet/security_torch/cadet/WillContain()
+	return list(
+		/obj/item/clothing/suit/armor/pcarrier/light/security,
+		/obj/item/clothing/head/helmet/solgov/security,
+		/obj/item/device/radio/headset/headset_sec,
+		/obj/item/device/radio/headset/headset_sec/alt,
+		/obj/item/device/flash,
+		/obj/item/weapon/reagent_containers/spray/pepper,
+		/obj/item/weapon/melee/baton/loaded,
+		/obj/item/clothing/glasses/sunglasses/sechud/goggles,
+		/obj/item/taperoll/police,
+		/obj/item/clothing/accessory/storage/black_vest,
+		/obj/item/clothing/gloves/thick,
+		/obj/item/device/holowarrant,
+		/obj/item/device/flashlight/maglight,
+		/obj/item/weapon/storage/belt/security)

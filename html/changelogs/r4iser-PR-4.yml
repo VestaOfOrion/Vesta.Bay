@@ -5,3 +5,6 @@ delete-after: True
 changes: 
   - bugfix: "Neural Laces are now properly recovered when calling rejuvenate(mob)"
   - rscadd : "Adds SMC Attache Closet, Headsets and encryption key"
+  - imageadd: "Adds Vesta custom plate carriers, armguards and legguards."
+  - rscadd: "Adds Vesta custom plate carriers, armguards and legguards."
+  - rscadd: "Adds Security Cadet locker"
