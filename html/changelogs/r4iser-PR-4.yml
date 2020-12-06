@@ -1,0 +1,7 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - bugfix: "Neural Laces are now properly recovered when calling rejuvenate(mob)"
+  - rscadd : "Adds SMC Attache Closet, Headsets and encryption key"
