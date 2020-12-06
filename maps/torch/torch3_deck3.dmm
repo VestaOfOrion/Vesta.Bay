@@ -5878,7 +5878,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "lT" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/emcloset,
@@ -6984,16 +6984,6 @@
 /area/crew_quarters/gym)
 "oD" = (
 /turf/simulated/wall/prepainted,
-/area/radio_host)
-"oF" = (
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "cmo_windows"
-	},
-/turf/simulated/floor/plating,
 /area/radio_host)
 "oH" = (
 /obj/structure/railing/mapped{
@@ -8287,11 +8277,8 @@
 /turf/simulated/floor/tiled,
 /area/vacant/cabin)
 "sb" = (
-/obj/effect/floor_decal/corner/green{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
-/area/vacant/cabin)
+/turf/simulated/wall/walnut,
+/area/crew_quarters_boh/cabin_main/c1)
 "sc" = (
 /obj/effect/floor_decal/corner/green/half{
 	dir = 1;
@@ -8697,7 +8684,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
-/area/vacant/cabin)
+/area/maintenance/thirddeck/port)
 "sE" = (
 /obj/effect/catwalk_plated,
 /obj/structure/disposalpipe/segment{
@@ -12181,17 +12168,8 @@
 /turf/simulated/floor/plating,
 /area/crew_quarters/galley)
 "CP" = (
-/obj/structure/catwalk,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/foreport)
+/turf/simulated/wall/prepainted,
+/area/crew_quarters_boh/cabin_main/c1)
 "CQ" = (
 /obj/structure/sign/floorplaque{
 	pixel_x = 2;
@@ -13194,7 +13172,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "Fl" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -13435,7 +13413,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "FN" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/carpet/blue3,
@@ -13623,7 +13601,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "Gn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -13644,11 +13622,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "Gp" = (
 /obj/structure/undies_wardrobe,
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "Gq" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance{
@@ -13889,7 +13867,7 @@
 	pixel_y = 6
 	},
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "GO" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -13898,14 +13876,11 @@
 	},
 /obj/structure/table/steel,
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "GP" = (
 /obj/structure/flora/pottedplant/dead,
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
-"GQ" = (
-/turf/simulated/floor/plating,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "GS" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -14000,7 +13975,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
-/area/vacant/cabin)
+/area/maintenance/thirddeck/aftport)
 "Hl" = (
 /obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -14549,7 +14524,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "II" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -15332,7 +15307,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/vacant/cabin)
+/area/maintenance/thirddeck/port)
 "Kb" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/cable/green{
@@ -18039,21 +18014,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3starboard)
 "RL" = (
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "cmo_windows"
-	},
-/obj/structure/cable/green,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
+/obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
 /area/radio_host)
 "RM" = (
@@ -18462,7 +18423,7 @@
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/mime,
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "SR" = (
 /obj/machinery/door/airlock/hatch/maintenance,
 /turf/simulated/floor/plating,
@@ -19465,7 +19426,7 @@
 /area/maintenance/thirddeck/starboard)
 "Vw" = (
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "Vx" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/security/habcheck)
@@ -20440,7 +20401,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/carpet/magenta,
-/area/vacant/cabin)
+/area/crew_quarters_boh/cabin_main/c1)
 "Yb" = (
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
@@ -31318,12 +31279,12 @@ yH
 yH
 yH
 yH
-oF
 RL
-NL
+RL
+RL
 HC
-NL
-NL
+RL
+RL
 oD
 zS
 zS
@@ -31520,7 +31481,7 @@ ts
 xI
 mj
 ot
-CP
+Gk
 Gk
 Gk
 Wf
@@ -41626,11 +41587,11 @@ Dv
 Ny
 LK
 DT
-sb
+LK
 JZ
 sD
-sb
-sb
+LK
+LK
 ox
 OR
 Hf
@@ -43241,7 +43202,7 @@ AN
 AN
 AN
 jt
-Dn
+Bc
 Dn
 Dn
 Gl
@@ -43443,7 +43404,7 @@ iC
 vh
 Ba
 CE
-GQ
+Ba
 Dn
 Fg
 EC
@@ -43645,7 +43606,7 @@ AS
 vh
 Ba
 CE
-GQ
+Ba
 Dn
 Fh
 FL
@@ -43847,7 +43808,7 @@ AQ
 vh
 Ba
 CE
-GQ
+Ba
 Dn
 Dn
 Dn
@@ -44049,12 +44010,12 @@ Uw
 vh
 Ba
 CE
-GQ
-ub
+Ba
+sb
 Vw
 Vw
 Vw
-ub
+sb
 Ba
 jZ
 jZ
@@ -44251,12 +44212,12 @@ AS
 vh
 Nq
 CU
-GQ
-ub
+Ba
+sb
 FM
 Go
 GN
-ub
+sb
 Ba
 jZ
 jZ
@@ -44458,7 +44419,7 @@ Fk
 IH
 Gm
 GO
-ub
+sb
 Ba
 jZ
 jZ
@@ -44655,12 +44616,12 @@ RG
 RG
 RG
 CU
-GQ
-ub
+Ba
+sb
 Ya
 lS
 GP
-ub
+sb
 Ba
 jZ
 jZ
@@ -44857,12 +44818,12 @@ BO
 CI
 RG
 Lr
-GQ
-ub
+Ba
+sb
 Vw
 Gp
-ub
-ub
+sb
+sb
 Ba
 jZ
 jZ
@@ -45059,11 +45020,11 @@ BP
 CJ
 RG
 CU
-GQ
-ub
+Ba
+sb
 Vw
-ub
-ub
+sb
+sb
 IJ
 Tk
 jZ
@@ -45261,10 +45222,10 @@ ZW
 BF
 RG
 CU
-GQ
-ub
+Ba
+sb
 SQ
-Bc
+CP
 EE
 EE
 EE
@@ -45463,10 +45424,10 @@ BP
 CJ
 RG
 CU
-GQ
-Dn
-Dn
-Bc
+Ba
+CP
+CP
+CP
 EE
 EE
 EE
