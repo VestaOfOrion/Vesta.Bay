@@ -17526,20 +17526,6 @@
 	},
 /turf/simulated/floor/wood/mahogany,
 /area/radio_host)
-"Qp" = (
-/obj/effect/floor_decal/corner/green{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled,
-/area/maintenance/thirddeck/port)
 "Qq" = (
 /turf/simulated/wall/r_wall/hull,
 /area/command/disperser)
@@ -41122,7 +41108,7 @@ hL
 hL
 FI
 Kj
-Qp
+Fe
 Fe
 UB
 Qy
