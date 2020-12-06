@@ -16678,13 +16678,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/thirddeck/foreport)
-"NL" = (
-/obj/structure/cable/green,
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "cmo_windows"
-	},
-/turf/simulated/floor/plating,
-/area/radio_host)
 "NM" = (
 /obj/machinery/media/jukebox/old,
 /obj/effect/decal/cleanable/dirt,
@@ -19438,11 +19431,6 @@
 /turf/simulated/floor/tiled,
 /area/crew_quarters/gym)
 "VG" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/aft)
@@ -30224,7 +30212,7 @@ oD
 oD
 SR
 oD
-NL
+oD
 oD
 oD
 BX

@@ -5969,6 +5969,11 @@
 	name = "Deliberation Room";
 	secured_wires = 0
 	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
 "nJ" = (
@@ -8956,6 +8961,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room/deliberation)
 "we" = (
@@ -9270,6 +9280,10 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/disciplinary_board_room/deliberation)
 "wI" = (
@@ -9286,15 +9300,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room/deliberation)
 "wJ" = (
-/obj/machinery/firealarm{
-	dir = 1;
-	pixel_y = -24
-	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
+	},
+/obj/structure/cable/green,
+/obj/machinery/power/apc{
+	dir = 2;
+	name = "south bump";
+	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room/deliberation)
@@ -15436,20 +15452,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/cl)
-"Ue" = (
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "sea_windows"
-	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/plating,
-/area/bridge/disciplinary_board_room)
 "Uf" = (
 /obj/structure/bed/chair/padded/beige,
 /obj/machinery/atmospherics/unary/vent_pump/on,
@@ -16436,11 +16438,6 @@
 "Yf" = (
 /obj/effect/floor_decal/corner/blue/three_quarters,
 /obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable/green{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
@@ -16450,6 +16447,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
@@ -16589,16 +16591,6 @@
 	},
 /turf/simulated/open,
 /area/maintenance/bridge/forestarboard)
-"YN" = (
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "sea_windows"
-	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
-/area/bridge/disciplinary_board_room)
 "YQ" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow{
@@ -30396,7 +30388,7 @@ pG
 yW
 rk
 qz
-YN
+Pi
 tA
 uo
 uT
@@ -30598,7 +30590,7 @@ zY
 qt
 rl
 zF
-Ue
+Pi
 tB
 up
 uU
