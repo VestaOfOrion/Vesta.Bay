@@ -977,11 +977,6 @@
 	sound_env = SMALL_SOFTFLOOR
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
-/area/crew_quarters/sleep/cryo/aux
-	name = "\improper First Deck Cryogenic Storage"
-	icon_state = "Sleep"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-
 /area/crew_quarters/adherent
 	name = "\improper Adherent Maintenence"
 	icon_state = "robotics"
@@ -1112,10 +1107,6 @@
 	ambience = list('sound/ambience/signal.ogg')
 	req_access = list(access_psychiatrist)
 	sound_env = SMALL_SOFTFLOOR
-
-/area/medical/counselor/therapy
-	name = "\improper Counselor's Therapy Room"
-	icon_state = "medbay3"
 
 /area/medical/sleeper
 	name = "\improper Emergency Treatment Centre"
@@ -1680,18 +1671,6 @@ area/assembly/robotics/office
 /area/crew_quarters_boh/cabin_main/c1
 	name = "\improper Cabin One"
 	icon_state = "Sleep"
-
-/area/crew_quarters_boh/cabin_main/c2
-	name = "\improper Cabin Two"
-	icon_state = "Sleep"
-
-/area/crew_quarters_boh/cabin_main/c3
-	name = "\improper Cabin Three"
-	icon_state = "Sleep"
-
-/area/crew_quarters_boh/cabin_main/janitorial
-	name = "\improper Cabin Janitorial"
-	icon_state = "janitor"
 
 //Psionic Advisor
 /area/crew_quarters/heads/office/psiadvisor
