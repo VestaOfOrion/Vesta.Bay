@@ -207,10 +207,11 @@
 	dir = 5;
 	icon_state = "intact"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+/obj/structure/disposalpipe/junction{
+	dir = 4;
+	icon_state = "pipe-j1"
 	},
+/obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "aA" = (
@@ -425,6 +426,9 @@
 	icon_state = "intact"
 	},
 /obj/effect/catwalk_plated,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "aV" = (
@@ -443,21 +447,29 @@
 	dir = 4;
 	icon_state = "intact"
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/aft)
 "aW" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
@@ -5891,6 +5903,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "ny" = (
@@ -6168,6 +6181,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/msea)
 "ot" = (
@@ -7631,9 +7645,6 @@
 /turf/simulated/floor/airless,
 /area/aquila/cockpit)
 "ss" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
 /obj/machinery/door/airlock/external{
 	autoset_access = 0;
 	frequency = 1331;
@@ -10678,6 +10689,20 @@
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
+"Bv" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/hallway/primary/bridge/aft)
 "Bw" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -12140,10 +12165,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
@@ -12824,9 +12845,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/storage)
 "Jg" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	dir = 8;
 	display_name = "Bridge Deck Dock";
@@ -13442,9 +13460,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "Mc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
 /obj/machinery/door/airlock/glass/command{
 	id_tag = null;
 	name = "Aquila Dock";
@@ -15061,6 +15076,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/aft)
 "SQ" = (
@@ -15661,9 +15680,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
 "Vg" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -16168,11 +16184,13 @@
 /turf/simulated/floor/carpet/blue2,
 /area/bridge/meeting_room)
 "Xh" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
 /obj/machinery/camera/network/command{
 	c_tag = "Solarian Marine Corps Attache - Office";
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -33400,7 +33418,7 @@ is
 hK
 DN
 kU
-aV
+Bv
 ne
 Zy
 Sh
@@ -33602,7 +33620,7 @@ DN
 DN
 DN
 kU
-aV
+Bv
 ne
 Zy
 Th
@@ -33804,7 +33822,7 @@ ad
 ad
 DN
 kU
-aV
+Bv
 ne
 Zy
 oY
@@ -34006,7 +34024,7 @@ ad
 ad
 DN
 kU
-aV
+Bv
 HA
 QL
 hG
@@ -34208,7 +34226,7 @@ ad
 ad
 DN
 kU
-aV
+Bv
 Sw
 QL
 Tw
