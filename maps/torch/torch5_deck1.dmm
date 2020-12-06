@@ -32018,7 +32018,7 @@
 /area/rnd/office)
 "xYM" = (
 /turf/simulated/wall/prepainted,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "ybv" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
