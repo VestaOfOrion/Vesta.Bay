@@ -1090,11 +1090,6 @@
 	icon_state = "locker"
 	req_access = list(access_medical_equip)
 
-/area/medical/physicianoffice
-	name = "\improper Physician's Paperwork Office"
-	icon_state = "locker"
-	req_access = list(access_senmed)
-
 /area/medical/washroom
 	name = "\improper Medical Washroom"
 	icon_state = "toilet"

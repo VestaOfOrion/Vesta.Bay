@@ -4667,7 +4667,7 @@
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/bed/psych,
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "aiG" = (
 /obj/machinery/alarm{
 	dir = 8;
@@ -5338,6 +5338,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/medical)
+"akE" = (
+/turf/simulated/wall/prepainted,
+/area/medical/counselor)
 "akK" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -6370,7 +6373,7 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "arb" = (
 /obj/machinery/door/airlock/vault/bolted{
 	autoset_access = 0;
@@ -6573,7 +6576,7 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "ask" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -6754,13 +6757,13 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "atg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "atm" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
@@ -7290,7 +7293,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "avu" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -7305,7 +7308,7 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "avx" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -15152,7 +15155,7 @@
 /obj/machinery/disposal,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "bMb" = (
 /turf/simulated/wall/prepainted,
 /area/engineering/hardstorage/aux)
@@ -16982,7 +16985,7 @@
 	pixel_y = -6
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "dTb" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 8;
@@ -17313,7 +17316,7 @@
 	icon_state = "comfychair_preview"
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "epb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -17915,7 +17918,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "frA" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4;
@@ -18678,7 +18681,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "gGO" = (
 /obj/item/device/radio/intercom/department/security{
 	pixel_y = 23
@@ -19963,7 +19966,7 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "iqb" = (
 /obj/structure/bed/chair/comfy/lime,
 /turf/simulated/floor/tiled/dark,
@@ -21539,7 +21542,7 @@
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/foundation,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "jZb" = (
 /obj/effect/wallframe_spawn/reinforced/polarized/no_grille{
 	id = "misc_lab"
@@ -22008,7 +22011,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "kyt" = (
 /obj/effect/floor_decal/techfloor,
 /obj/effect/floor_decal/techfloor{
@@ -23406,7 +23409,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "mlw" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -23433,7 +23436,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "mmP" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/research{
@@ -24588,7 +24591,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "nDx" = (
 /obj/machinery/door/airlock/medical{
 	name = "Operating Room 2"
@@ -28925,7 +28928,7 @@
 	id = "counselor_office"
 	},
 /turf/simulated/floor/plating,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "srR" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -30204,7 +30207,7 @@
 /area/rnd/office)
 "tQi" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "tRz" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -30690,7 +30693,7 @@
 /area/assembly/chargebay)
 "uSr" = (
 /turf/simulated/floor/tiled/white,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "uSP" = (
 /obj/structure/table/steel,
 /obj/item/weapon/paper_bin{
@@ -31806,7 +31809,7 @@
 /obj/item/weapon/folder/blue,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
-/area/medical/physicianoffice)
+/area/medical/counselor)
 "xBk" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -56044,11 +56047,11 @@ kZb
 bhy
 aeX
 afv
-xYM
+akE
 ais
 atf
-xYM
-xYM
+akE
+akE
 tQi
 bWA
 ygK
