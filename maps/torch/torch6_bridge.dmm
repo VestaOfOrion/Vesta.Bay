@@ -212,7 +212,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/plating,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "aA" = (
 /obj/structure/catwalk,
 /obj/machinery/door/firedoor,
@@ -446,24 +446,19 @@
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/aft)
 "aW" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/structure/cable/green{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/effect/catwalk_plated,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "aY" = (
@@ -3956,11 +3951,6 @@
 	pixel_y = -25;
 	req_access = list("ACCESS_TORCH_SENIOR_ADVISOR")
 	},
-/obj/machinery/button/windowtint{
-	id = "sea_windows";
-	pixel_x = 9;
-	pixel_y = -24
-	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/msea)
 "hV" = (
@@ -4711,7 +4701,7 @@
 /obj/machinery/door/firedoor,
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/steel_ridged,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "jY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/airlock/external{
@@ -4933,14 +4923,14 @@
 	icon_state = "bordercolorhalf"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "kN" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "kO" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -4954,7 +4944,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "kP" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 32
@@ -5240,7 +5230,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "lH" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -5256,7 +5246,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "lI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5644,7 +5634,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "mT" = (
 /obj/structure/table/woodentable/walnut,
 /turf/simulated/floor/wood/walnut,
@@ -5661,7 +5651,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "mW" = (
 /obj/machinery/camera/network/bridge{
 	c_tag = "Bridge Hallway - Lift";
@@ -5676,11 +5666,11 @@
 /obj/structure/cable/green,
 /obj/effect/floor_decal/corner/blue/half,
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "mX" = (
 /obj/effect/floor_decal/corner/blue/half,
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "mY" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -5695,13 +5685,24 @@
 	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "nb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "nc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5882,6 +5883,16 @@
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"nx" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "ny" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Infirmary"
@@ -6144,7 +6155,7 @@
 /obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
-/area/maintenance/bridge/aftport)
+/area/hallway/primary/bridge/aft)
 "ol" = (
 /obj/machinery/door/airlock/sol{
 	name = "Solarian Marine Corps Attache Room"
@@ -11070,7 +11081,7 @@
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/structure/disposalpipe/junction,
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "CV" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/wood/walnut,
@@ -11415,7 +11426,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "En" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
@@ -11473,7 +11484,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "Ez" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/corner/white/full,
@@ -12158,16 +12169,6 @@
 /obj/random/obstruction,
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/aftport)
-"Hj" = (
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "sea_windows"
-	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
-/area/command/msea)
 "Ho" = (
 /obj/machinery/door/airlock/sol{
 	id_tag = "hopdoor";
@@ -14237,17 +14238,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/maintenance)
 "Qc" = (
-/obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "sea_windows"
-	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/structure/cable/green{
-	d2 = 8;
-	icon_state = "0-8"
-	},
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/command/msea)
 "Qd" = (
@@ -15050,11 +15041,28 @@
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "SN" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 5
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/bridge/fore)
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/hallway/primary/bridge/aft)
 "SQ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1;
@@ -15671,6 +15679,11 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/aft)
 "Vh" = (
@@ -15854,7 +15867,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "VR" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack{
@@ -16613,7 +16626,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/hallway/primary/bridge/fore)
+/area/hallway/primary/bridge/aft)
 "YX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -31366,7 +31379,7 @@ gm
 gm
 gm
 jV
-SN
+kU
 YS
 VP
 of
@@ -31568,7 +31581,7 @@ gm
 gm
 gm
 jV
-SN
+kU
 YS
 VP
 og
@@ -32783,7 +32796,7 @@ DN
 kQ
 aU
 ne
-Hj
+Qc
 Qh
 Xh
 di
@@ -33185,8 +33198,8 @@ hJ
 hJ
 jZ
 jV
-aV
-jV
+SN
+nx
 ol
 Ty
 Zh

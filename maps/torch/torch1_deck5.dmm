@@ -13633,11 +13633,6 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/structure/cable/green{
-	d2 = 4;
-	dir = 4;
-	icon_state = "0-4"
-	},
 /obj/machinery/power/apc{
 	name = "Squad Leader";
 	pixel_y = -24
@@ -13647,6 +13642,7 @@
 	dir = 9;
 	pixel_y = 0
 	},
+/obj/structure/cable/green,
 /turf/simulated/floor/tiled/dark,
 /area/infantry/infcom)
 "Hr" = (
@@ -15289,11 +15285,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/structure/cable/green{
-	d2 = 4;
-	dir = 4;
-	icon_state = "0-4"
-	},
+/obj/structure/cable/green,
 /turf/simulated/floor/tiled/dark,
 /area/infantry/inftech)
 "MG" = (
@@ -16581,6 +16573,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/vacant/infirmary)
+"Rh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/infantry/inftech)
 "Ri" = (
 /obj/machinery/door/airlock/research{
 	id_tag = null;
@@ -31596,7 +31598,7 @@ IJ
 IJ
 Yt
 er
-ET
+Rh
 ET
 ME
 xw
