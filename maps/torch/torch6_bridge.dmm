@@ -830,12 +830,6 @@
 /obj/structure/flora/pottedplant/large,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
-"bH" = (
-/obj/structure/hygiene/toilet{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/maintenance/bridge/foreport)
 "bI" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -4396,10 +4390,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
-"jc" = (
-/obj/structure/hygiene/drain,
-/turf/simulated/floor/tiled/freezer,
-/area/maintenance/bridge/foreport)
 "jj" = (
 /obj/machinery/disperser/middle{
 	dir = 1
@@ -5329,10 +5319,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/disciplinary_board_room)
-"lT" = (
-/obj/item/taperoll/bog,
-/turf/simulated/floor/tiled/freezer,
-/area/maintenance/bridge/foreport)
 "lW" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -12243,13 +12229,7 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/bridge/hallway/starboard)
 "Ht" = (
-/obj/item/weapon/soap,
-/obj/item/weapon/bikehorn/rubberducky,
-/obj/structure/hygiene/shower{
-	dir = 8;
-	icon_state = "shower"
-	},
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/floor/plating,
 /area/maintenance/bridge/foreport)
 "Hv" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
@@ -13973,18 +13953,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
-"Oi" = (
-/obj/structure/hygiene/sink{
-	dir = 4;
-	icon_state = "sink";
-	pixel_x = 11;
-	pixel_y = 0
-	},
-/obj/item/weapon/storage/mirror{
-	pixel_x = 28
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/maintenance/bridge/foreport)
 "Oj" = (
 /obj/machinery/computer/rdconsole{
 	dir = 4;
@@ -14649,12 +14617,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters/heads/office/rd)
-"Rl" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/maintenance/bridge/foreport)
 "Rp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -15072,12 +15034,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/msea)
 "SV" = (
-/obj/machinery/door/airlock/civilian{
-	autoset_access = 0;
-	name = "Head"
-	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/freezer,
+/turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/heads/cobed)
 "Ta" = (
 /obj/structure/table/standard{
@@ -25694,11 +25651,11 @@ bq
 bq
 uy
 uy
-uy
-uy
 SV
-uy
-uy
+SV
+SV
+SV
+SV
 tg
 tg
 aa
@@ -25897,9 +25854,9 @@ sB
 sB
 sB
 sB
-Rl
-jc
-bH
+sB
+wS
+wS
 wS
 tg
 tg
@@ -26099,8 +26056,8 @@ vj
 vO
 ww
 sB
-Oi
-lT
+sB
+oB
 Ht
 wS
 tg
@@ -26301,9 +26258,9 @@ vk
 vP
 IE
 sB
-wS
-wS
-wS
+sB
+Ht
+oB
 wS
 tg
 tg
@@ -26503,9 +26460,9 @@ Nn
 Ck
 mz
 sB
-wS
-wS
-wS
+sB
+Ht
+oB
 wS
 tg
 tg
@@ -26705,7 +26662,7 @@ vl
 vQ
 wx
 sB
-wS
+sB
 Ji
 KZ
 Ma
