@@ -189,6 +189,7 @@
 	#include "../../modular_boh/code/modules/jobs/torch_jobs_vesta.dm"
 	#include "../../modular_boh/code/modules/jobs/outfits/vesta_outfits.dm"
 	#include "../../modular_boh/code/modules/modular_computer/card.dm"
+	#include "../../modular_boh/maps/boh_areas.dm"
 
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
