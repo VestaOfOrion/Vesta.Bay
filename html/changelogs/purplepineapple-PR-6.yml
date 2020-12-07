@@ -1,0 +1,6 @@
+author: PurplePineapple
+
+delete-after: True
+
+changes: 
+  - rscdel: "Blackscreen has been removed when unconscious."
