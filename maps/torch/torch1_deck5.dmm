@@ -92,6 +92,21 @@
 /obj/effect/paint/silver,
 /turf/simulated/wall/ocp_wall,
 /area/shuttle/petrov/toxins)
+"ak" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/infantry/infcom)
 "al" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -813,6 +828,24 @@
 	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/crew)
+"bF" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/obj/item/weapon/storage/box/fragshells{
+	pixel_y = 2
+	},
+/turf/simulated/floor/tiled/dark,
+/area/infantry)
 "bG" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -2258,7 +2291,7 @@
 "eg" = (
 /obj/effect/floor_decal/industrial/outline/orange,
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup{
-	start_pressure = 7498.00
+	start_pressure = 7498
 	},
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -2397,22 +2430,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/atmos)
-"er" = (
-/obj/machinery/door/window/brigdoor{
-	autoclose = 1;
-	dir = 1;
-	name = "Combat Technician";
-	req_access = list("ACCESS_INFTECH")
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/infantry/inftech)
 "es" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
@@ -7596,27 +7613,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/expedition)
-"pV" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/door/window/brigdoor{
-	autoclose = 1;
-	dir = 1;
-	name = "Squad Leader";
-	req_access = list("ACCESS_INFCOM")
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark,
-/area/infantry/infcom)
 "pW" = (
 /obj/effect/floor_decal/corner/blue/bordercorner{
 	dir = 1
@@ -15778,29 +15774,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/shuttle/petrov/cell1)
-"Ov" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+006
-	},
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/door/window/brigdoor{
-	autoclose = 1;
-	dir = 8;
-	req_access = list("ACCESS_INFTECH")
-	},
-/obj/machinery/light/spot{
-	dir = 4
-	},
-/obj/item/weapon/storage/box/fragshells{
-	pixel_y = 2
-	},
-/turf/simulated/floor/tiled/dark,
-/area/infantry)
 "Ow" = (
 /obj/structure/handrai{
 	dir = 4;
@@ -16544,7 +16517,7 @@
 	icon_state = "map_connector"
 	},
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup{
-	start_pressure = 7498.00
+	start_pressure = 7498
 	},
 /turf/simulated/floor/plating,
 /area/guppy_hangar/start)
@@ -30591,7 +30564,7 @@ YB
 zu
 EF
 Oe
-pV
+ak
 WA
 Hq
 RQ
@@ -31601,7 +31574,7 @@ IJ
 IJ
 IJ
 Yt
-er
+ET
 Rh
 ET
 ME
@@ -31798,7 +31771,7 @@ aa
 aa
 an
 an
-Ov
+bF
 gf
 gf
 se
