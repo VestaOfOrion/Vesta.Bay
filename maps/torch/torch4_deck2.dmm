@@ -3842,10 +3842,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod10/station)
-"hy" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/tiled/dark,
-/area/medical/morgue)
 "hz" = (
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod11/station)
@@ -6796,10 +6792,6 @@
 "pi" = (
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
-"pj" = (
-/obj/machinery/dna_scannernew,
-/turf/simulated/floor/tiled/dark,
-/area/medical/morgue)
 "pk" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable,
@@ -11142,10 +11134,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/incinerator)
-"AB" = (
-/obj/machinery/clonepod,
-/turf/simulated/floor/tiled/dark,
-/area/medical/morgue)
 "AD" = (
 /obj/machinery/power/apc{
 	dir = 2;
@@ -11704,7 +11692,6 @@
 	pixel_x = -24;
 	pixel_y = 0
 	},
-/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
@@ -15354,6 +15341,10 @@
 /obj/random/junk,
 /turf/simulated/floor/airless,
 /area/engineering/engine_room)
+"MT" = (
+/obj/machinery/dna_scannernew,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "MW" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -16018,6 +16009,10 @@
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/aftport)
+"OT" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "OU" = (
 /obj/structure/sign/warning/compressed_gas{
 	dir = 8;
@@ -17763,6 +17758,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod11/station)
+"Us" = (
+/obj/machinery/clonepod,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "Uz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/industrial/warning{
@@ -18459,7 +18458,7 @@
 	name = "Cyborg Upload Blast Doors";
 	pixel_x = -6;
 	pixel_y = -26;
-	req_access = list(access_ai_upload)
+	req_access = list("ACCESS_AI_UPLOAD")
 	},
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -41807,7 +41806,7 @@ aa
 GW
 GW
 GW
-AB
+Us
 oK
 oK
 Lk
@@ -42211,7 +42210,7 @@ aa
 GW
 GW
 GW
-pj
+MT
 oK
 bW
 Lk
@@ -43020,7 +43019,7 @@ GW
 GW
 GW
 aT
-hy
+OT
 SB
 cB
 dE
