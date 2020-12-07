@@ -48,16 +48,6 @@
 	qdel(src)
 	user.put_in_active_hand(s_drill)
 
-/*/obj/item/weapon/wrench/power/attack(mob/user)
-	if(user.a_intent == "harm")
-		playsound(get_turf(user),'modular_boh/sounds/items/drill_use.ogg',50,1)
-	..()
-
-/obj/item/weapon/screwdriver/power/attack(mob/user)
-	if(user.a_intent == "harm")
-		playsound(get_turf(user),'modular_boh/sounds/items/drill_use.ogg',50,1)
-	..()*/
-
 /obj/item/weapon/screwdriver/power/resolve_attackby(atom/A, mob/user)
 	..()
 	if(istype(A, /mob/))
