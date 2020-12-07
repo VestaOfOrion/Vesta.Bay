@@ -1747,9 +1747,6 @@ area/assembly/robotics/office
 	sound_env = SMALL_ENCLOSED
 	req_access = list(access_ai_upload)
 
-/area/ai_monitored
-	name = "AI Monitored Area"
-
 /area/turret_protected/ai
 	name = "\improper AI Chamber"
 	icon_state = "ai_chamber"
