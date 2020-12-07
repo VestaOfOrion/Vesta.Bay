@@ -18537,6 +18537,9 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/security/processing)
+"guu" = (
+/turf/space,
+/area/command/armoury)
 "guP" = (
 /obj/structure/table/rack,
 /obj/item/weapon/storage/firstaid/regular{
@@ -21343,6 +21346,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
+"jLJ" = (
+/turf/simulated/wall/r_wall/hull,
+/area/space)
 "jMb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/research{
@@ -28607,6 +28613,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
+"sbk" = (
+/obj/structure/stairs/north,
+/turf/space,
+/area/command/armoury)
 "sbJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -31668,6 +31678,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/command/armoury/access)
+"wRw" = (
+/turf/simulated/floor/tiled/dark,
+/area/command/armoury)
 "wWc" = (
 /obj/structure/sign/warning/secure_area{
 	dir = 4;
@@ -61175,11 +61188,11 @@ dVw
 dVw
 dVw
 dVw
-eRU
-eRU
-eRU
-eRU
-eRU
+wRw
+wRw
+wRw
+wRw
+wRw
 eRU
 eRU
 eRU
@@ -61377,11 +61390,11 @@ dVw
 dVw
 dVw
 dVw
-eRU
-eRU
-eRU
-eRU
-eRU
+sbk
+guu
+wRw
+wRw
+wRw
 eRU
 eRU
 eRU
@@ -61579,11 +61592,11 @@ dVw
 dVw
 dVw
 dVw
-aaa
-aaa
-aaa
-aaa
-aaa
+jLJ
+jLJ
+jLJ
+jLJ
+jLJ
 eRU
 eRU
 eRU
@@ -61780,13 +61793,13 @@ aaa
 aaa
 aaa
 aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+jLJ
+jLJ
+jLJ
+jLJ
+jLJ
+jLJ
+jLJ
 aaa
 aaa
 aaa
