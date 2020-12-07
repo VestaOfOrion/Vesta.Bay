@@ -16382,7 +16382,6 @@
 	},
 /obj/effect/floor_decal/corner/research{
 	dir = 6;
-	tag = "icon-corner_white (SOUTHEAST)"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/operations_storage)
@@ -18008,7 +18007,6 @@
 	},
 /obj/effect/floor_decal/corner/research{
 	dir = 4;
-	tag = "icon-corner_white (EAST)"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/operations_storage)
