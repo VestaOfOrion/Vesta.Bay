@@ -379,6 +379,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/computer/cloning{
+	req_access = list("ACCESS_SURGERY")
+	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue)
 "aI" = (
@@ -522,6 +525,10 @@
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/morgue{
+	dir = 2;
+	icon_state = "morgue1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue)
@@ -3835,6 +3842,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod10/station)
+"hy" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "hz" = (
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod11/station)
@@ -6785,6 +6796,10 @@
 "pi" = (
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
+"pj" = (
+/obj/machinery/dna_scannernew,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "pk" = (
 /obj/machinery/power/terminal,
 /obj/structure/cable,
@@ -11127,6 +11142,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/incinerator)
+"AB" = (
+/obj/machinery/clonepod,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "AD" = (
 /obj/machinery/power/apc{
 	dir = 2;
@@ -11685,16 +11704,8 @@
 	pixel_x = -24;
 	pixel_y = 0
 	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
+/obj/structure/ladder,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
 "Cf" = (
@@ -15543,8 +15554,8 @@
 "NB" = (
 /obj/structure/cable/green{
 	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
@@ -17580,8 +17591,16 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/forestarboard)
 "TV" = (
-/obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
 "TW" = (
@@ -41788,7 +41807,7 @@ aa
 GW
 GW
 GW
-oK
+AB
 oK
 oK
 Lk
@@ -42192,8 +42211,8 @@ aa
 GW
 GW
 GW
-aU
-Xr
+pj
+oK
 bW
 Lk
 eP
@@ -43001,7 +43020,7 @@ GW
 GW
 GW
 aT
-oK
+hy
 SB
 cB
 dE
