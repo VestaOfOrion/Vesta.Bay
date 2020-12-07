@@ -6907,10 +6907,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "ov" = (
@@ -8880,11 +8876,8 @@
 /turf/simulated/floor/tiled,
 /area/maintenance/thirddeck/port)
 "sT" = (
-/obj/machinery/disposal,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
+/obj/structure/table/woodentable/mahogany,
+/obj/item/weapon/storage/box/glasses/pint,
 /turf/simulated/floor/wood/mahogany,
 /area/radio_host)
 "sU" = (
@@ -8917,9 +8910,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
-"sY" = (
-/turf/simulated/wall/walnut,
-/area/crew_quarters_boh/cabin_main)
 "sZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -9045,10 +9035,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/command/disperser)
-"tz" = (
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/wood/mahogany,
-/area/radio_host)
 "tA" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -9168,7 +9154,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/fore)
 "tS" = (
@@ -9718,6 +9703,7 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
 "vM" = (
@@ -10012,9 +9998,11 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/structure/disposalpipe/junction{
-	dir = 1
+/obj/structure/disposalpipe/segment{
+	dir = 1;
+	icon_state = "pipe-c"
 	},
+/obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
 "wJ" = (
@@ -10405,7 +10393,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
 "xM" = (
@@ -11035,10 +11022,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
@@ -13547,7 +13530,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "Gl" = (
@@ -14080,9 +14062,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/simulated/floor/wood/mahogany,
@@ -19606,10 +19585,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
 "Wh" = (
@@ -20280,10 +20255,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
-	},
 /turf/simulated/floor/wood/mahogany,
 /area/radio_host)
 "XX" = (
@@ -20346,7 +20317,6 @@
 /obj/machinery/power/apc{
 	pixel_y = -19
 	},
-/obj/item/weapon/storage/box/glasses/pint,
 /obj/item/weapon/storage/box/glasses/pint,
 /obj/structure/table/woodentable/mahogany,
 /turf/simulated/floor/wood/mahogany,
@@ -31009,7 +30979,7 @@ JN
 JN
 LA
 XV
-tz
+LA
 sT
 oD
 Mf
@@ -41717,11 +41687,11 @@ AN
 Ez
 zZ
 Hn
-sY
-sY
+ub
+ub
 rV
-sY
-sY
+ub
+ub
 zd
 Yq
 HE
@@ -41919,11 +41889,11 @@ TV
 AN
 RT
 Np
-sY
+ub
 Gj
 GI
 Hi
-sY
+ub
 sS
 KY
 KY
@@ -42121,11 +42091,11 @@ nu
 YZ
 Ts
 CE
-sY
+ub
 GL
 II
 Hj
-sY
+ub
 vk
 or
 or
@@ -42327,7 +42297,7 @@ ub
 FJ
 II
 GJ
-sY
+ub
 dL
 LK
 LK
@@ -42525,11 +42495,11 @@ Cw
 AN
 Ov
 hF
-sY
+ub
 ED
 II
 FN
-sY
+ub
 ko
 ny
 Hf
@@ -42727,7 +42697,7 @@ Cx
 AN
 TN
 JV
-sY
+ub
 Ox
 II
 GK
@@ -42929,11 +42899,11 @@ Cy
 AN
 tZ
 EB
-sY
+ub
 FK
 BT
 GL
-sY
+ub
 xm
 Hf
 Hf
