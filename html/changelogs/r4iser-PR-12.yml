@@ -1,0 +1,9 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - rscadd: "Added power drill code."
+  - imageadd: "Power drill icons."
+  - soundadd: "Power drill sounds for use and change drill bit."
+  - tweak: "Added power drill to Engineering closets, Engivendor and Robotics Vendor."

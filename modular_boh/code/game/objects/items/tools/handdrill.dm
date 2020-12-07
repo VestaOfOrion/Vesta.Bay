@@ -59,7 +59,7 @@
 	else if(istype(A, /obj/structure))
 		if(istype(A, /obj/structure/catwalk) || istype(A, /obj/structure/ladder))
 			return
-		else if(istype(A), /obj/structure/closet/)
+		else if(istype(A, /obj/structure/closet/))
 			return
 	else if(istype(A, /obj/machinery/))
 	else
@@ -77,7 +77,7 @@
 	else if(istype(A, /obj/structure))
 		if(istype(A, /obj/structure/catwalk) || istype(A, /obj/structure/ladder))
 			return
-		else if(istype(A), /obj/structure/closet/)
+		else if(istype(A, /obj/structure/closet/))
 			return
 	else if(istype(A, /obj/machinery/))
 		if(istype(A, /obj/machinery/door/airlock/))	//Sound gets called for wrench without being used
