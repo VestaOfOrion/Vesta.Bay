@@ -20,6 +20,13 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/substation/thirddeck)
+"ac" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/port)
 "ad" = (
 /turf/simulated/wall/r_wall/hull,
 /area/vacant/brig)
@@ -20488,14 +20495,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d3starboard)
-"Yh" = (
-/obj/structure/ladder/updown,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
 "Yj" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -40842,7 +40841,7 @@ hL
 Fi
 OR
 Ez
-Yh
+ac
 Ez
 Zl
 Zh
