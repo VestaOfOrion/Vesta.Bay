@@ -2309,7 +2309,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "dX" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "dY" = (
@@ -3806,6 +3806,12 @@
 	id_tag = "heavy_ai_doors";
 	name = "Internal Chamber Lockdown"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai)
 "hb" = (
@@ -4995,6 +5001,12 @@
 /obj/machinery/computer/ship/engines,
 /turf/simulated/floor/tiled/monotile,
 /area/turret_protected/ai_outer_chamber)
+"kp" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/turret_protected/ai)
 "kv" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -5551,6 +5563,12 @@
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_foyer)
@@ -6531,6 +6549,7 @@
 	id_tag = "heavy_ai_doors";
 	name = "Internal Chamber Lockdown"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai)
 "ot" = (
@@ -7907,6 +7926,12 @@
 	},
 /turf/simulated/wall/titanium,
 /area/aquila/cockpit)
+"rH" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/turret_protected/ai)
 "rI" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 8;
@@ -9508,12 +9533,11 @@
 	pixel_y = 24;
 	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_EXPLO_HELM"))
 	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_foyer)
 "vC" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "vD" = (
@@ -9657,6 +9681,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "vW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "vX" = (
@@ -10173,6 +10200,9 @@
 /obj/item/device/radio/intercom/locked/ai_private{
 	dir = 4;
 	pixel_x = -22
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
@@ -11697,6 +11727,12 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/forestarboard)
+"Be" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/bluegrid,
+/area/turret_protected/ai)
 "Bi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -12309,6 +12345,9 @@
 /obj/item/device/radio/intercom/locked/ai_private{
 	dir = 4;
 	pixel_x = -22
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
 	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
@@ -13115,6 +13154,22 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/airless,
 /area/space)
+"FP" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/turret_protected/ai)
 "FQ" = (
 /obj/effect/paint/black,
 /turf/simulated/wall/r_wall/hull,
@@ -13806,6 +13861,20 @@
 /obj/effect/overmap/visitable/ship/torch,
 /turf/simulated/floor/tiled/dark,
 /area/bridge)
+"HM" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/monotile,
+/area/turret_protected/ai)
 "HP" = (
 /obj/machinery/computer/modular/preset/supply_public{
 	dir = 1;
@@ -15221,6 +15290,7 @@
 	id_tag = "heavy_ai_doors";
 	name = "Internal Chamber Lockdown"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai)
 "MP" = (
@@ -16415,6 +16485,12 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "QG" = (
@@ -16785,6 +16861,9 @@
 /obj/structure/cable/green{
 	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_foyer)
@@ -43421,7 +43500,7 @@ vW
 Ki
 SP
 Ki
-vW
+Be
 Vt
 SS
 QP
@@ -43623,7 +43702,7 @@ vW
 Ki
 OH
 Ki
-vW
+Be
 AF
 ir
 Rv
@@ -43825,7 +43904,7 @@ vW
 Ki
 Ki
 Ki
-vW
+Be
 Vt
 RX
 qM
@@ -44022,13 +44101,13 @@ on
 ST
 CT
 Sq
-xA
-vW
+HM
+kp
 dX
 Bi
 vC
-vW
-AF
+rH
+FP
 ir
 gs
 zm
