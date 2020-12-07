@@ -7077,7 +7077,6 @@
 /obj/structure/railing/mapped{
 	dir = 8;
 	icon_state = "railing0-1";
-	tag = "icon-railing0 (EAST)"
 	},
 /obj/machinery/door/blast/regular{
 	dir = 4;
@@ -15551,7 +15550,6 @@
 /obj/structure/bed/chair/office/comfy/black{
 	dir = 4;
 	icon_state = "comfyofficechair_preview";
-	tag = "icon-comfyofficechair_preview (EAST)"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_outer_chamber)
@@ -19059,13 +19057,11 @@
 /obj/structure/railing/mapped{
 	dir = 4;
 	icon_state = "railing0-1";
-	tag = "icon-railing0 (EAST)"
 	},
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
 	dir = 8;
 	icon_state = "railing0-1";
-	tag = "icon-railing0 (EAST)"
 	},
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
