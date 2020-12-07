@@ -335,9 +335,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
-"aK" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/crew_quarters/heads/cobed)
 "aL" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
@@ -838,7 +835,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/heads/cobed)
+/area/maintenance/bridge/foreport)
 "bI" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -4402,7 +4399,7 @@
 "jc" = (
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/heads/cobed)
+/area/maintenance/bridge/foreport)
 "jj" = (
 /obj/machinery/disperser/middle{
 	dir = 1
@@ -5335,7 +5332,7 @@
 "lT" = (
 /obj/item/taperoll/bog,
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/heads/cobed)
+/area/maintenance/bridge/foreport)
 "lW" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -12253,7 +12250,7 @@
 	icon_state = "shower"
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/heads/cobed)
+/area/maintenance/bridge/foreport)
 "Hv" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
 	id = "meeting_windows"
@@ -13987,7 +13984,7 @@
 	pixel_x = 28
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/heads/cobed)
+/area/maintenance/bridge/foreport)
 "Oj" = (
 /obj/machinery/computer/rdconsole{
 	dir = 4;
@@ -14657,7 +14654,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/crew_quarters/heads/cobed)
+/area/maintenance/bridge/foreport)
 "Rp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -25903,7 +25900,7 @@ sB
 Rl
 jc
 bH
-aK
+wS
 tg
 tg
 aa
@@ -26105,7 +26102,7 @@ sB
 Oi
 lT
 Ht
-aK
+wS
 tg
 tg
 aa
@@ -26304,10 +26301,10 @@ vk
 vP
 IE
 sB
-aK
-aK
-aK
-aK
+wS
+wS
+wS
+wS
 tg
 tg
 tg
