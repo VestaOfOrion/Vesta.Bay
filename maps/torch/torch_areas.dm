@@ -933,10 +933,6 @@
 	name = "\improper Mess Hall"
 	icon_state = "cafeteria"
 
-/area/crew_quarters/recreation
-	name = "\improper Recreation"
-	icon_state = "crew_quarters"
-
 /area/crew_quarters/observation
 	name = "\improper Observation"
 	icon_state = "fitness"
@@ -1753,11 +1749,6 @@ area/assembly/robotics/office
 
 /area/ai_monitored
 	name = "AI Monitored Area"
-
-/area/ai_monitored/storage/eva
-	name = "\improper EVA Storage"
-	icon_state = "eva"
-	req_access = list(access_eva)
 
 /area/turret_protected/ai
 	name = "\improper AI Chamber"

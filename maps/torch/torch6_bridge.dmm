@@ -11676,7 +11676,7 @@
 	pixel_x = 0
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
@@ -18982,11 +18982,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/bridge/forestarboard)
 "Yw" = (
-/obj/structure/cable{
-	d1 = 32;
-	d2 = 8;
-	icon_state = "32-8"
-	},
 /obj/structure/railing/mapped{
 	dir = 4;
 	icon_state = "railing0-1";
@@ -19001,6 +18996,11 @@
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers,
 /obj/machinery/atmospherics/pipe/zpipe/down/supply,
 /obj/structure/disposalpipe/down,
+/obj/structure/cable{
+	d1 = 32;
+	d2 = 8;
+	icon_state = "32-8"
+	},
 /turf/simulated/open,
 /area/turret_protected/ai_data_chamber)
 "Yz" = (

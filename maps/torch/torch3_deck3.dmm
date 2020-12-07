@@ -1734,6 +1734,9 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
+"dJ" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/hallway/primary/thirddeck/fore)
 "dK" = (
 /obj/machinery/door/airlock/civilian{
 	name = "Head"
@@ -8308,11 +8311,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/machinery/camera/network/command{
 	c_tag = "AI Upload - Access"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1;
+	icon_state = "map-scrubbers"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_upload_foyer)
@@ -8356,6 +8360,11 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/fore)
 "sg" = (
@@ -8987,8 +8996,10 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
 "tp" = (
-/obj/machinery/ai_status_display,
-/turf/simulated/wall/r_wall/prepainted,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_upload_foyer)
 "ts" = (
 /obj/structure/cable/green{
@@ -9413,12 +9424,15 @@
 /turf/simulated/floor/airless,
 /area/command/disperser)
 "uI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/catwalk_plated,
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/plating,
-/area/hallway/primary/thirddeck/fore)
+/obj/item/device/radio/intercom/locked/ai_private{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/turret_protected/ai_upload_foyer)
 "uK" = (
 /obj/machinery/status_display,
 /turf/simulated/wall/r_wall/prepainted,
@@ -12834,6 +12848,7 @@
 /obj/structure/sign/warning/secure_area{
 	dir = 1
 	},
+/obj/machinery/ai_status_display,
 /turf/simulated/wall/r_wall/prepainted,
 /area/turret_protected/ai_upload_foyer)
 "Ep" = (
@@ -16313,13 +16328,9 @@
 /area/hallway/primary/thirddeck/center)
 "MB" = (
 /obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/catwalk_plated,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/fore)
 "MC" = (
@@ -17988,20 +17999,16 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/obj/item/device/radio/intercom/locked/ai_private{
-	dir = 1;
-	pixel_y = -28
-	},
 /obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -33948,7 +33955,7 @@ DH
 Xg
 Xg
 Rx
-Xg
+uI
 Xg
 XI
 oR
@@ -34151,7 +34158,7 @@ pO
 Xg
 sc
 tp
-VU
+dJ
 ob
 qL
 xT
@@ -34353,7 +34360,7 @@ pO
 En
 QO
 zK
-VU
+dJ
 QJ
 sN
 ip
@@ -34555,7 +34562,7 @@ pP
 Xg
 se
 Xg
-VU
+dJ
 VU
 fC
 iI
@@ -34757,7 +34764,7 @@ mZ
 mZ
 sf
 MB
-uI
+tl
 tl
 gF
 LC
