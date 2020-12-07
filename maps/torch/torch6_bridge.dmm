@@ -10124,7 +10124,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/monotile,
-/area/crew_quarters/heads/office/sea)
+/area/command/msea)
 "zC" = (
 /obj/structure/table/rack,
 /obj/item/weapon/storage/box/PDAs{
