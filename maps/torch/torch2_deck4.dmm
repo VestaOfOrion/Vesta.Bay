@@ -2,6 +2,10 @@
 "aa" = (
 /turf/space,
 /area/space)
+"ab" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/maintenance/fourthdeck/port)
 "ac" = (
 /obj/effect/shuttle_landmark/skipjack/deck5{
 	name = "4th Deck, Aft Starboard"
@@ -7926,11 +7930,6 @@
 /obj/effect/floor_decal/corner/brown/half,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
-"AC" = (
-/obj/structure/ladder/up,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/maintenance/fourthdeck/port)
 "AD" = (
 /obj/structure/closet/crate/freezer,
 /obj/random/single/cola,
@@ -36225,7 +36224,7 @@ GZ
 Dq
 FL
 GW
-AC
+ab
 ok
 ok
 GW
