@@ -1,0 +1,13 @@
+author: PurplePineapple
+
+delete-after: True
+
+# Any changes you've made.  See valid prefix list above.
+# INDENT WITH TWO SPACES.  NOT TABS.  SPACES.
+# SCREW THIS UP AND IT WON'T WORK.
+# Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
+# Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
+changes: 
+  - rscadd: "Added new files in modular_boh as edits to baystation12's uniforms. UCG/Marines/NTEF now use the correct uniform icons and descriptions"
+  - imageadd: "Vesta uniforms' .dmi have all been ported"
+  - tweak: "Job files have been updated with correct uniform usage for all branches. Medical Resident and Scientists have been given extra ranks to reflect the BoH counterparts."

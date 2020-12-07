@@ -4,6 +4,7 @@
 	name = OUTFIT_JOB_NAME("Commanding Officer - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/command
 	shoes = /obj/item/clothing/shoes/dutyboots
+	head = /obj/item/clothing/head/soft/solgov/fleet/ntef
 
 /decl/hierarchy/outfit/job/torch/crew/command/XO/marine
 	name = OUTFIT_JOB_NAME("Executive Officer - Marine Corps")
@@ -23,6 +24,11 @@
 /decl/hierarchy/outfit/job/torch/crew/command/cos/marine
 	name = OUTFIT_JOB_NAME("Chief of Security - Marine Corps")
 	uniform = /obj/item/clothing/under/solgov/utility/army/security
+	shoes = /obj/item/clothing/shoes/dutyboots
+
+/decl/hierarchy/outfit/job/torch/crew/command/cos/fleet
+	name = OUTFIT_JOB_NAME("Chief of Security - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/sea/marineattache
@@ -56,10 +62,24 @@
 /***/
 
 // Exploration
+
+/decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder/fleet
+	name = OUTFIT_JOB_NAME("Pathfinder - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+
 /decl/hierarchy/outfit/job/torch/crew/exploration/explorer/marine
 	name = OUTFIT_JOB_NAME("Explorer - Marine Corps")
 	uniform = /obj/item/clothing/under/solgov/utility/army/exploration
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+/decl/hierarchy/outfit/job/torch/crew/exploration/fleet
+	name = OUTFIT_JOB_NAME("Explorer - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_types = list(/obj/item/weapon/card/id/torch/crew/explorer)
+	pda_type = /obj/item/modular_computer/pda/explorer
+	l_ear = /obj/item/device/radio/headset/exploration
 
 /decl/hierarchy/outfit/job/torch/crew/exploration/technician
 	name = OUTFIT_JOB_NAME("Technician Explorer")
@@ -81,9 +101,42 @@
 
 /***/
 
+//Research
+/decl/hierarchy/outfit/job/torch/crew/research/fleet
+	name = OUTFIT_JOB_NAME("Research Assistant - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_types = list(/obj/item/weapon/card/id/torch/crew/research)
+	pda_type = /obj/item/modular_computer/pda/science
+	l_ear = /obj/item/device/radio/headset/torchnanotrasen
+
+/decl/hierarchy/outfit/job/torch/crew/research/fleet/scientist
+	name = OUTFIT_JOB_NAME("Scientist - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
+	id_types = list(/obj/item/weapon/card/id/torch/crew/research/scientist)
+
+/decl/hierarchy/outfit/job/torch/crew/research/fleet/senior_scientist
+	name = OUTFIT_JOB_NAME("Senior Scientist - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
+	id_types = list(/obj/item/weapon/card/id/torch/crew/research/senior_scientist)
+
+/decl/hierarchy/outfit/job/torch/crew/research/fleet/cso
+	name = OUTFIT_JOB_NAME("Chief Science Officer - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
+	l_ear = /obj/item/device/radio/headset/heads/torchntdirector
+	id_types = list(/obj/item/weapon/card/id/torch/silver/research)
+	pda_type = /obj/item/modular_computer/pda/heads/rd
+
+/***/
+
 // Medical
 /decl/hierarchy/outfit/job/torch/crew/medical/senior/marine
 	name = OUTFIT_JOB_NAME("Physician - Marine Corps")
+	uniform = /obj/item/clothing/under/solgov/utility/army/medical
+	shoes = /obj/item/clothing/shoes/dutyboots
+
+/decl/hierarchy/outfit/job/torch/crew/medical/junior/marine
+	name = OUTFIT_JOB_NAME("Medical Resident - Marine Corps")
 	uniform = /obj/item/clothing/under/solgov/utility/army/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 
@@ -145,6 +198,18 @@
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
+/decl/hierarchy/outfit/job/torch/crew/security/brig_chief/fleet
+	name = OUTFIT_JOB_NAME("Brig Chief - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_types = list(/obj/item/weapon/card/id/torch/crew/security/brigchief)
+	pda_type = /obj/item/modular_computer/pda/security
+
+/decl/hierarchy/outfit/job/torch/crew/security/forensic_tech/fleet
+	name = OUTFIT_JOB_NAME("Forensic Technician - Fleet")
+	uniform =  /obj/item/clothing/under/solgov/utility/fleet/security
+	shoes = /obj/item/clothing/shoes/dutyboots
+
 /***/
 
 // Service
@@ -167,6 +232,7 @@
 	name = OUTFIT_JOB_NAME("Chaplain - Marine Corps")
 	uniform = /obj/item/clothing/under/solgov/utility/army/service
 	shoes = /obj/item/clothing/shoes/dutyboots
+
 /***/
 
 // Supply

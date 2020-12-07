@@ -12,10 +12,10 @@
 //# VESTA.BAY ################### ADDED SPECIES TO JOB BLACKLIST
 #define HUMAN_ONLY_JOBS /datum/job/captain, /datum/job/hop, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/representative, /datum/job/sea, /datum/job/pathfinder, /datum/job/rd
 	species_to_job_blacklist = list(
-		/datum/species/unathi  = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden), //Other jobs unavailable via branch restrictions,
-		/datum/species/unathi/yeosa = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden),
-		/datum/species/skrell  = list(HUMAN_ONLY_JOBS),
-		///datum/species/machine = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/psychiatrist), //Commented out previous and originals @r4iser
+		///datum/species/unathi  = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden), //Other jobs unavailable via branch restrictions,
+		///datum/species/unathi/yeosa = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden),
+		///datum/species/skrell  = list(HUMAN_ONLY_JOBS),
+		///datum/species/machine = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/psychiatrist), //Commented out previous and originals @r4iser | fully commented out, we don't need it for anything but legacy @purplepineapple
 		///datum/species/diona   = list(HUMAN_ONLY_JOBS, /datum/job/officer, /datum/job/bodyguard, /datum/job/liaison, /datum/job/warden, /datum/job/doctor, /datum/job/medical_trainee),	//Other jobs unavailable via branch restrictions,
 		/datum/species/adherent = list(/datum/job/psiadvisor, /datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/detective),
 		/datum/species/machine = list(/datum/job/psiadvisor),
