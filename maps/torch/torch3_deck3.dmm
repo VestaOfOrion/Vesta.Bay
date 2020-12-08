@@ -4660,6 +4660,7 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
 "jo" = (
+/obj/machinery/telecomms/server/presets/infantry,
 /turf/simulated/floor/bluegrid,
 /area/tcommsat/chamber)
 "jp" = (
@@ -9748,19 +9749,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/foreport)
-"vN" = (
-/obj/structure/bed/padded,
-/obj/item/weapon/bedsheet,
-/obj/item/weapon/storage/secure/safe{
-	pixel_x = -22;
-	pixel_y = 0
-	},
-/obj/item/weapon/book/manual/sol_sop,
-/obj/machinery/button/alternate/door/bolts{
-	pixel_y = 24
-	},
-/turf/simulated/floor/carpet/green,
-/area/crew_quarters/sleep/bunk)
 "vO" = (
 /obj/machinery/door/airlock/civilian{
 	name = "Bunk Room"
@@ -35788,7 +35776,7 @@ PD
 Br
 Yb
 uM
-vN
+xY
 wW
 xY
 wW
