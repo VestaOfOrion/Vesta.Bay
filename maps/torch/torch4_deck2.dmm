@@ -379,6 +379,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/computer/cloning{
+	req_access = list("ACCESS_SURGERY")
+	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue)
 "aI" = (
@@ -522,6 +525,10 @@
 	},
 /obj/machinery/light{
 	dir = 1
+	},
+/obj/structure/morgue{
+	dir = 2;
+	icon_state = "morgue1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/morgue)
@@ -11685,16 +11692,7 @@
 	pixel_x = -24;
 	pixel_y = 0
 	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
 "Cf" = (
@@ -15343,6 +15341,10 @@
 /obj/random/junk,
 /turf/simulated/floor/airless,
 /area/engineering/engine_room)
+"MT" = (
+/obj/machinery/dna_scannernew,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "MW" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -15543,8 +15545,8 @@
 "NB" = (
 /obj/structure/cable/green{
 	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
@@ -16007,6 +16009,10 @@
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/aftport)
+"OT" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "OU" = (
 /obj/structure/sign/warning/compressed_gas{
 	dir = 8;
@@ -17580,8 +17586,16 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/forestarboard)
 "TV" = (
-/obj/structure/ladder,
-/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
 "TW" = (
@@ -17744,6 +17758,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod11/station)
+"Us" = (
+/obj/machinery/clonepod,
+/turf/simulated/floor/tiled/dark,
+/area/medical/morgue)
 "Uz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/industrial/warning{
@@ -18440,7 +18458,7 @@
 	name = "Cyborg Upload Blast Doors";
 	pixel_x = -6;
 	pixel_y = -26;
-	req_access = list(access_ai_upload)
+	req_access = list("ACCESS_AI_UPLOAD")
 	},
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -41788,7 +41806,7 @@ aa
 GW
 GW
 GW
-oK
+Us
 oK
 oK
 Lk
@@ -42192,8 +42210,8 @@ aa
 GW
 GW
 GW
-aU
-Xr
+MT
+oK
 bW
 Lk
 eP
@@ -43001,7 +43019,7 @@ GW
 GW
 GW
 aT
-oK
+OT
 SB
 cB
 dE

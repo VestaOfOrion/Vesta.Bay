@@ -203,6 +203,7 @@
 	#include "../../modular_boh/code/items/clothing/terran-head.dm"
 	#include "../../modular_boh/code/items/clothing/terran-suit.dm"
 	#include "../../modular_boh/code/items/clothing/terran-under.dm"
+  #include "../../modular_boh/maps/boh_areas.dm"
 
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################

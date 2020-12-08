@@ -733,11 +733,11 @@
 /area/vacant/armory
 	name = "\improper Vacant Armory"
 	icon_state = "Tactical"
-
+/*
 /area/vacant/cabin
 	name = "\improper Vacant Cabins"
 	icon_state = "crew_quarters"
-
+*/
 /area/vacant/mess
 	name = "\improper Old Mess"
 	icon_state = "bar"
@@ -936,11 +936,11 @@
 /area/crew_quarters/mess
 	name = "\improper Mess Hall"
 	icon_state = "cafeteria"
-
+/*
 /area/crew_quarters/recreation
 	name = "\improper Recreation"
 	icon_state = "crew_quarters"
-
+*/
 /area/crew_quarters/observation
 	name = "\improper Observation"
 	icon_state = "fitness"
@@ -976,12 +976,12 @@
 	icon_state = "Sleep"
 	sound_env = SMALL_SOFTFLOOR
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-
+/*
 /area/crew_quarters/sleep/cryo/aux
 	name = "\improper First Deck Cryogenic Storage"
 	icon_state = "Sleep"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-
+*/
 /area/crew_quarters/adherent
 	name = "\improper Adherent Maintenence"
 	icon_state = "robotics"
@@ -1094,12 +1094,12 @@
 	name = "\improper Medical Locker Room"
 	icon_state = "locker"
 	req_access = list(access_medical_equip)
-
+/*
 /area/medical/physicianoffice
 	name = "\improper Physician's Paperwork Office"
 	icon_state = "locker"
 	req_access = list(access_senmed)
-
+*/
 /area/medical/washroom
 	name = "\improper Medical Washroom"
 	icon_state = "toilet"
@@ -1112,11 +1112,11 @@
 	ambience = list('sound/ambience/signal.ogg')
 	req_access = list(access_psychiatrist)
 	sound_env = SMALL_SOFTFLOOR
-
+/*
 /area/medical/counselor/therapy
 	name = "\improper Counselor's Therapy Room"
 	icon_state = "medbay3"
-
+*/
 /area/medical/sleeper
 	name = "\improper Emergency Treatment Centre"
 	icon_state = "exam_room"
