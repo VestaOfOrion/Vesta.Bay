@@ -6306,14 +6306,6 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/grass,
 /area/crew_quarters/observation)
-"mR" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 26
-	},
-/turf/simulated/floor/grass,
-/area/crew_quarters/observation)
 "mS" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -6653,15 +6645,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/habcheck)
-"nJ" = (
-/obj/machinery/portable_atmospherics/hydroponics/soil,
-/turf/simulated/floor/grass,
-/area/crew_quarters/observation)
-"nL" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/grass,
-/area/crew_quarters/observation)
 "nO" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -7074,14 +7057,6 @@
 	},
 /turf/simulated/open,
 /area/maintenance/thirddeck/starboard)
-"oJ" = (
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/light/spot{
-	dir = 4
-	},
-/turf/simulated/floor/grass,
-/area/crew_quarters/observation)
 "oL" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -7477,6 +7452,30 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/thruster/d3port)
+"pv" = (
+/obj/effect/floor_decal/corner/green/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "d3fore_shutters";
+	name = "Garden Shutter Control";
+	pixel_x = -7;
+	pixel_y = 23
+	},
+/obj/structure/closet/crate{
+	name = "Picnic rug storage crate"
+	},
+/obj/item/stack/tile/carpetgreen,
+/obj/item/stack/tile/carpetgreen,
+/obj/item/stack/tile/carpetgreen,
+/obj/item/stack/tile/carpetgreen,
+/obj/item/stack/tile/carpetgreen,
+/obj/item/stack/tile/carpetgreen,
+/obj/item/stack/tile/carpetgreen,
+/obj/item/weapon/crowbar/red,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/crew_quarters/observation)
 "pw" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -11294,6 +11293,15 @@
 /obj/effect/floor_decal/industrial/outline/orange,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/thruster/d3starboard)
+"Am" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 26
+	},
+/obj/machinery/portable_atmospherics/hydroponics/soil,
+/turf/simulated/floor/grass,
+/area/crew_quarters/observation)
 "Ap" = (
 /obj/effect/floor_decal/spline/plain/red,
 /obj/structure/window/reinforced,
@@ -12749,6 +12757,11 @@
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/aft)
+"Eo" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/portable_atmospherics/hydroponics/soil,
+/turf/simulated/floor/grass,
+/area/crew_quarters/observation)
 "Ep" = (
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 2;
@@ -18814,19 +18827,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
-"UM" = (
-/obj/effect/floor_decal/corner/green/half{
-	dir = 1;
-	icon_state = "bordercolorhalf"
-	},
-/obj/machinery/button/blast_door{
-	id_tag = "d3fore_shutters";
-	name = "Garden Shutter Control";
-	pixel_x = -7;
-	pixel_y = 23
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/crew_quarters/observation)
 "UN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/catwalk_plated/dark,
@@ -20180,6 +20180,14 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
+"YI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light/spot{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/hydroponics/soil,
+/turf/simulated/floor/grass,
+/area/crew_quarters/observation)
 "YJ" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -29244,16 +29252,16 @@ ZN
 ZN
 ZN
 vt
-UM
+pv
 mL
-nJ
-nJ
+Yr
+Yr
 mN
 Yr
 Th
 Yr
 mL
-Yr
+vy
 mN
 Yr
 IX
@@ -29448,15 +29456,15 @@ ZN
 Ww
 lW
 mM
-ZZ
-nJ
+Yr
+Yr
 ZU
 Yr
 Th
 Yr
 Yr
-vy
-Yr
+ZL
+ZL
 Yr
 KZ
 yH
@@ -29650,8 +29658,8 @@ aM
 Ww
 lX
 mN
-nJ
-nJ
+Yr
+Yr
 mN
 fJ
 Th
@@ -29852,7 +29860,7 @@ ku
 Ww
 lY
 ZU
-mL
+ZU
 mO
 mL
 fJ
@@ -30054,8 +30062,8 @@ kv
 Ww
 lZ
 mO
-nJ
-nJ
+Yr
+Yr
 mM
 fJ
 Th
@@ -30257,14 +30265,14 @@ Ww
 ma
 Yr
 ZZ
-nJ
+Yr
 ZU
 Yr
 Th
 Yr
 ZU
-Yr
-mL
+ZL
+ZL
 Yr
 yI
 yH
@@ -30458,8 +30466,8 @@ kx
 Ww
 ma
 mN
-nJ
-nJ
+Yr
+Yr
 mL
 Yr
 Th
@@ -30659,9 +30667,9 @@ jB
 ky
 Ww
 mc
-mR
-nL
-oJ
+Am
+Eo
+YI
 pD
 qC
 rP
