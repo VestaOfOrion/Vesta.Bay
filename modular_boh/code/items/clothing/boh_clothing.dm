@@ -105,7 +105,7 @@
 	icon_state = "labcoat_long_open"
 	icon_open = "labcoat_long_open"
 	icon_closed = "labcoat_long"
-	color = "#FEFFFF"
+	color = "#feffff"
 
 /obj/item/clothing/suit/storage/toggle/labcoat/rd
 	icon = 'modular_boh/icon/boh/obj/clothing/longlabcoats.dmi'
