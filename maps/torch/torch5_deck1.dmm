@@ -4168,6 +4168,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/closet/secure_closet/psiadvisor,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/psiadvisor)
 "ahx" = (
@@ -8847,6 +8848,7 @@
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/weapon/gun/energy/gun/small/secure,
+/obj/structure/closet/secure_closet/security_torch/cadet,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "aCv" = (
@@ -10310,8 +10312,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "aJm" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "aJn" = (
@@ -10467,6 +10468,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/brig)
 "aJE" = (
@@ -11176,6 +11178,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/brig)
 "aMO" = (
@@ -16381,7 +16384,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/research{
-	dir = 6;
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/operations_storage)
@@ -16572,6 +16575,14 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
+"dlj" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
+	},
+/obj/effect/floor_decal/techfloor/corner,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/command/armoury)
 "dmb" = (
 /obj/machinery/atmospherics/unary/freezer{
 	dir = 1;
@@ -18006,7 +18017,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/research{
-	dir = 4;
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/operations_storage)
@@ -18382,7 +18393,11 @@
 	dir = 9;
 	pixel_y = 0
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "geb" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -19034,7 +19049,11 @@
 	},
 /obj/machinery/atmospherics/pipe/zpipe/up/supply,
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 4;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "hgb" = (
 /obj/structure/cable/green{
@@ -21372,8 +21391,23 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "jLJ" = (
-/turf/simulated/wall/r_wall/hull,
-/area/space)
+/obj/effect/floor_decal/techfloor{
+	dir = 1;
+	icon_state = "techfloor_edges"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/command/armoury)
 "jMb" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/research{
@@ -23978,11 +24012,6 @@
 /turf/simulated/floor/tiled,
 /area/security/detectives_office)
 "mKq" = (
-/obj/machinery/computer/rdconsole/robotics{
-	dir = 8;
-	name = "security fabrication console";
-	req_access = list("ACCESS_BRIG")
-	},
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = 21
@@ -25248,6 +25277,7 @@
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/weapon/gun/energy/gun/small/secure,
+/obj/structure/closet/secure_closet/security_torch/cadet,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "omb" = (
@@ -25556,6 +25586,7 @@
 /area/assembly/robotics/laboratory)
 "oLz" = (
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/computer/modular/preset/security,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "oLK" = (
@@ -25913,7 +25944,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor/corner{
+	dir = 8;
+	icon_state = "techfloor_corners"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "pdb" = (
 /obj/structure/cable/green{
@@ -26299,6 +26334,7 @@
 	id_tag = "prisonexit";
 	name = "Brig Entry"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/brig)
 "pzb" = (
@@ -30811,7 +30847,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 5;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "uMP" = (
 /obj/structure/closet/bombclosetsecurity,
@@ -31068,7 +31108,6 @@
 	dir = 8;
 	icon_state = "techfloor_corners"
 	},
-/obj/effect/floor_decal/techfloor/corner,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -31246,7 +31285,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 8;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "vDD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -31767,7 +31810,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/command/armoury/access)
 "wRw" = (
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "wWc" = (
 /obj/structure/sign/warning/secure_area{
@@ -32194,7 +32239,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 6;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "xYM" = (
 /turf/simulated/wall/prepainted,
@@ -32220,7 +32269,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/effect/floor_decal/techfloor{
+	dir = 10;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "ycp" = (
 /obj/effect/floor_decal/corner/research/half,
@@ -60886,7 +60939,7 @@ nWP
 aBc
 cZd
 vkW
-uCe
+dlj
 uCe
 lGw
 uCe
@@ -61087,7 +61140,7 @@ bCX
 uMP
 aBc
 aJl
-rFK
+jLJ
 aJm
 wjP
 fLg
@@ -61692,11 +61745,11 @@ dVw
 dVw
 dVw
 dVw
-jLJ
-jLJ
-jLJ
-jLJ
-jLJ
+eRU
+eRU
+eRU
+eRU
+eRU
 eRU
 eRU
 eRU
@@ -61893,13 +61946,13 @@ aaa
 aaa
 aaa
 aaa
-jLJ
-jLJ
-jLJ
-jLJ
-jLJ
-jLJ
-jLJ
+eRU
+eRU
+eRU
+eRU
+eRU
+eRU
+eRU
 aaa
 aaa
 aaa
