@@ -487,10 +487,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
-"bM" = (
-/obj/effect/shuttle_landmark/merchant/out,
-/turf/space,
-/area/space)
 "bN" = (
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
@@ -674,14 +670,7 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/fourthdeck/fore)
 "cu" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1380;
-	icon_state = "closed";
-	id_tag = "merchant_shuttle_station_exterior";
-	locked = 1;
-	name = "Docking Port Airlock"
-	},
-/obj/machinery/shield_diffuser,
+/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "cv" = (
@@ -934,11 +923,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/storage/auxillary/starboard)
 "dh" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 2;
-	id_tag = "merchant_shuttle_station_pump"
-	},
-/obj/effect/floor_decal/industrial/warning/full,
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
 	id_tag = "merchant_shuttle_station_sensor";
@@ -952,6 +936,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "dj" = (
@@ -2883,6 +2868,14 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"jQ" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 2;
+	id_tag = "merchant_shuttle_station_pump"
+	},
+/obj/effect/floor_decal/industrial/warning/full,
+/turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
 "jX" = (
 /obj/machinery/door/blast/regular/escape_pod,
 /turf/simulated/floor/reinforced/airless,
@@ -8047,6 +8040,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
+"AQ" = (
+/obj/effect/shuttle_landmark/merchant/out,
+/turf/space,
+/area/space)
 "AT" = (
 /obj/structure/sign/warning/bomb_range{
 	pixel_y = 32
@@ -9981,6 +9978,17 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/port)
+"If" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "closed";
+	id_tag = "merchant_shuttle_station_exterior";
+	locked = 1;
+	name = "Docking Port Airlock"
+	},
+/obj/machinery/shield_diffuser,
+/turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
 "Ii" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotile,
@@ -28310,12 +28318,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
 Nv
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 cv
 ek
@@ -28511,12 +28519,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-bM
+AQ
+If
+jQ
+cu
+cu
+cu
 cu
 dh
 dK
@@ -28714,12 +28722,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
 YK
+WZ
+WZ
+WZ
+WZ
+WZ
 WZ
 WZ
 XD
