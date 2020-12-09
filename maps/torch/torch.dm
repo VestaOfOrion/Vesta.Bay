@@ -205,7 +205,7 @@
 	#include "../../modular_boh/code/items/clothing/terran-under.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts_helpers.dm"
-	#include "../../modular_boh//code/modules/torch_security_state.dm"
+	#include "../../modular_boh/code/modules/torch_security_state.dm"
 
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
