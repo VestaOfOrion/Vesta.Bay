@@ -620,8 +620,8 @@
 		LIGHTMODE_NIGHTMODE = list(l_outer_range = 4, l_max_bright = 0.75, l_color = "#ffbb73"),
 		LIGHTMODE_VIOLET = list(l_outer_range = 4, l_max_bright = 1, l_color = "#8a11c2"),
 		LIGHTMODE_ORANGE = list(l_outer_range = 4, l_max_bright = 1, l_color = "#f59c16"),
-		LIGHTMODE_RED = list(l_outer_range = 4, l_max_bright = 1, l_color = "#f50c0c"),
-		LIGHTMODE_DELTA = list(l_outer_range = 4, l_max_bright = 1, l_color = "#ffd000"),
+		LIGHTMODE_RED = list(l_outer_range = 4, l_max_bright = 1, l_color = "#f5420c"),
+		LIGHTMODE_DELTA = list(l_outer_range = 4, l_max_bright = 1, l_color = "#9500ff"),
 		LIGHTMODE_BLUE = list(l_outer_range = 4, l_max_bright = 1, l_color = "#0d45fc")
 		)
 	sound_on = 'sound/machines/lightson.ogg'
