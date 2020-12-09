@@ -4046,7 +4046,7 @@
 	},
 /obj/effect/floor_decal/corner/red/full,
 /obj/item/weapon/tank/emergency/oxygen/double,
-/obj/item/weapon/rig/command/security/equipped,
+/obj/item/weapon/rig/hazard/equipped,
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "hU" = (
@@ -18273,7 +18273,7 @@
 	name = "CSO's suit storage";
 	req_access = list("ACCESS_RESEARCH_DIRECTOR")
 	},
-/obj/item/weapon/rig/command/science/equipped,
+/obj/item/weapon/rig/hazmat/equipped,
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "VT" = (
