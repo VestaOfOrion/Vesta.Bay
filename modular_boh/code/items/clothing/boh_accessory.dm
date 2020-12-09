@@ -1,9 +1,15 @@
 // marine patch
 
+/obj/item/clothing/accessory/solgov/smc_patch
+	name = "\improper Marine Corps Patch"
+	desc = "A robust shoulder patch, carrying the symbol-mascot of Xenoic division, yellow-eyed devil dog."
+	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
+	icon_state = "smcpatch"
 
 /obj/item/clothing/accessory/solgov/smc_patch/xeno
-	name = "\improper Xenoic Division of Marine Corps patch"
+	name = "\improper Xenoic Division of the Marine Corps patch"
 	desc = "A robust shoulder patch, carrying the symbol-mascot of Xenoic division, yellow-eyed devil dog."
+	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
 	icon_state = "smcpatch13"
 
 // Sixth Fleet Patch, as for bonus
