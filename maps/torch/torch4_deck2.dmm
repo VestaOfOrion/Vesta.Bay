@@ -11693,6 +11693,7 @@
 	pixel_y = 0
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/ladder,
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/cargo)
 "Cf" = (

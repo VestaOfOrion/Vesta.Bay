@@ -25,6 +25,7 @@
 /obj/machinery/light/small{
 	dir = 8
 	},
+/obj/structure/ladder/updown,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "ad" = (
