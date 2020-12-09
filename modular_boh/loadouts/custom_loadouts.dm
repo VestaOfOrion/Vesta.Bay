@@ -1,0 +1,570 @@
+/datum/configuration //Modular call to set max_gear_cost
+	max_gear_cost = 25 // Used in chargen for accessory loadout limit. 0 disables loadout, negative allows infinite points.
+
+/datum/gear
+	var/implanted = FALSE //is this item implanted? Used for augments / Implants.
+
+//##### LOADOUT BOH DEFINES -> + General defines to keep it modular
+
+//The following is a list of defs to be used for the Torch loadout.
+
+//For jobs that allow for decorative or ceremonial clothing //#VESTA.BAY Added /datum/job/psiadvisor
+#define FORMAL_ROLES list(/datum/job/liaison, /datum/job/bodyguard, /datum/job/rd, /datum/job/senior_scientist, /datum/job/scientist, /datum/job/scientist_assistant, /datum/job/psychiatrist, /datum/job/representative, /datum/job/assistant, /datum/job/bartender, /datum/job/merchant, /datum/job/detective, /datum/job/chaplain, /datum/job/submap/bearcat_captain, /datum/job/submap/bearcat_crewman, /datum/job/submap/CTI_pilot, /datum/job/submap/CTI_engineer, /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher, /datum/job/submap/colonist, /datum/job/submap/pod, /datum/job/chef, /datum/job/submap/scavver_pilot, /datum/job/submap/scavver_doctor, /datum/job/submap/scavver_engineer, /datum/job/psiadvisor)
+
+//For civilian jobs that may have a uniform, but not a strict one //#VESTA.BAY Added /datum/job/psiadvisor
+#define SEMIFORMAL_ROLES list(/datum/job/assistant, /datum/job/mining, /datum/job/scientist_assistant, /datum/job/psychiatrist, /datum/job/bartender, /datum/job/merchant, /datum/job/nt_pilot, /datum/job/scientist, /datum/job/senior_scientist, /datum/job/detective, /datum/job/chaplain, /datum/job/roboticist, /datum/job/submap/bearcat_captain, /datum/job/submap/bearcat_crewman, /datum/job/submap/colonist, /datum/job/submap/pod, /datum/job/chef, /datum/job/submap/scavver_pilot, /datum/job/submap/scavver_doctor, /datum/job/submap/scavver_engineer, /datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/doctor, /datum/job/submap/CTI_pilot, /datum/job/submap/CTI_engineer, /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher, /datum/job/psiadvisor)
+
+//For civilian jobs that may have a strict uniform. //#VESTA.BAY Added /datum/job/psiadvisor
+#define SEMIANDFORMAL_ROLES list(/datum/job/assistant, /datum/job/mining, /datum/job/scientist_assistant, /datum/job/psychiatrist, /datum/job/bartender, /datum/job/merchant, /datum/job/nt_pilot, /datum/job/liaison, /datum/job/bodyguard, /datum/job/rd, /datum/job/senior_scientist, /datum/job/scientist, /datum/job/representative, /datum/job/detective, /datum/job/chaplain, /datum/job/submap/bearcat_captain, /datum/job/submap/bearcat_crewman, /datum/job/submap/colonist, /datum/job/submap/pod, /datum/job/chef, /datum/job/submap/scavver_pilot, /datum/job/submap/scavver_doctor, /datum/job/submap/scavver_engineer, /datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/doctor, /datum/job/submap/CTI_pilot, /datum/job/submap/CTI_engineer, /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher, /datum/job/psiadvisor)
+
+//For civilian jobs with no uniform or formal clothing requirements. //#VESTA.BAY Added /datum/job/psiadvisor
+#define CASUAL_ROLES list(/datum/job/assistant, /datum/job/janitor, /datum/job/chef, /datum/job/bartender, /datum/job/cargo_tech, /datum/job/roboticist, /datum/job/mining, /datum/job/chaplain, /datum/job/merchant, /datum/job/submap/bearcat_captain, /datum/job/submap/bearcat_crewman, /datum/job/submap/colonist, /datum/job/submap/pod, /datum/job/submap/scavver_pilot, /datum/job/submap/scavver_doctor, /datum/job/submap/scavver_engineer, /datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/doctor, /datum/job/scientist, /datum/job/senior_scientist, /datum/job/scientist_assistant, /datum/job/submap/CTI_pilot, /datum/job/submap/CTI_engineer, /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher, /datum/job/psiadvisor)
+
+//For roles that would have a higher level of education, typically doctors and other scientists
+#define DOCTOR_ROLES list(/datum/job/cmo, /datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/chemist, /datum/job/psychiatrist, /datum/job/roboticist, /datum/job/rd, /datum/job/senior_scientist, /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher, /datum/job/scientist)
+
+//For members of the medical department
+#define MEDICAL_ROLES list(/datum/job/cmo, /datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/doctor, /datum/job/psychiatrist, /datum/job/chemist, /datum/job/medical_trainee)
+
+//For members of the medical department, roboticists, and some Research
+#define STERILE_ROLES list(/datum/job/cmo, /datum/job/senior_doctor, /datum/job/junior_doctor, /datum/job/doctor, /datum/job/chemist, /datum/job/psychiatrist, /datum/job/roboticist, /datum/job/rd, /datum/job/senior_scientist, /datum/job/scientist, /datum/job/scientist_assistant, /datum/job/medical_trainee)
+
+//For members of the engineering department
+#define ENGINEERING_ROLES list(/datum/job/chief_engineer, /datum/job/senior_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/engineer_trainee)
+
+//For members of Engineering, Cargo, and Research
+#define TECHNICAL_ROLES list(/datum/job/senior_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/qm, /datum/job/cargo_tech, /datum/job/mining, /datum/job/scientist_assistant, /datum/job/merchant, /datum/job/rd, /datum/job/senior_scientist, /datum/job/scientist, /datum/job/chief_engineer, /datum/job/janitor, /datum/job/engineer_trainee)
+
+//For members of the security department	//#VESTA.BAY ADDED /datum/job/seccadet
+#define SECURITY_ROLES list(/datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/officer, /datum/job/seccadet)
+
+//For members of the supply department
+#define SUPPLY_ROLES list(/datum/job/qm, /datum/job/cargo_tech)
+
+//For members of the service department
+#define SERVICE_ROLES list(/datum/job/janitor, /datum/job/chef, /datum/job/crew, /datum/job/bartender, /datum/job/chaplain)
+
+//For members of the exploration department
+#define EXPLORATION_ROLES list(/datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/explorer)
+
+//For members of the research department and jobs that are scientific	//#VESTA.BAY Added /datum/job/psiadvisor
+#define RESEARCH_ROLES list(/datum/job/rd, /datum/job/scientist, /datum/job/mining, /datum/job/scientist_assistant, /datum/job/assistant, /datum/job/nt_pilot, /datum/job/senior_scientist, /datum/job/roboticist, /datum/job/psiadvisor)
+
+//For jobs that spawn with weapons in their lockers //## VESTA.BAY # ADDED /datum/job/grunt, /datum/job/combat_tech, /datum/job/squad_lead, /datum/job/seccadet
+#define ARMED_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/sea, /datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/merchant, /datum/job/bodyguard, /datum/job/submap/CTI_pilot, /datum/job/submap/CTI_engineer, /datum/job/submap/scavver_pilot, /datum/job/submap/scavver_doctor, /datum/job/submap/scavver_engineer, /datum/job/grunt, /datum/job/combat_tech, /datum/job/squad_lead, /datum/job/seccadet)
+
+//For jobs that spawn with armor in their lockers	//## VESTA.BAY # ADDED /datum/job/grunt, /datum/job/combat_tech, /datum/job/squad_lead, /datum/job/seccadet
+#define ARMORED_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/qm, /datum/job/sea, /datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/merchant, /datum/job/submap/skrellscoutship_crew, /datum/job/submap/skrellscoutship_crew/leader, /datum/job/submap/scavver_pilot, /datum/job/submap/scavver_doctor, /datum/job/submap/scavver_engineer, /datum/job/grunt, /datum/job/combat_tech, /datum/job/squad_lead, /datum/job/seccadet)
+
+#define UNIFORMED_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet)
+
+#define CIVILIAN_BRANCHES list(/datum/mil_branch/civilian, /datum/mil_branch/solgov)
+
+#define SOLGOV_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet, /datum/mil_branch/solgov)
+
+#define NT_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet)
+
+//#### BOH-ONLY DEFINES #######################################################
+
+#define TACTICOOL_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet, /datum/mil_branch/solgov, /datum/mil_branch/private_security, /datum/mil_branch/marine_corps)
+
+//For members of the command and command support department. Why wasn't this here before?
+#define COMMAND_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/sea, /datum/job/sea/marine, /datum/job/bridgeofficer, /datum/job/liaison, /datum/job/bodyguard, /datum/job/psiadvisor, /datum/job/representative)
+
+//For jobs that have at least O-1 in either NTEF or SMC, but aren't considered Command or Command Support.
+#define OFFICER_ROLES list(/datum/job/scientist, /datum/job/biomech, /datum/job/qm, /datum/job/roboticist, /datum/job/chaplain, /datum/job/psychiatrist, /datum/job/senior_doctor, /datum/job/pathfinder)
+
+//For members of Command, Command Support and all other officer roles. Basically COMMAND_ROLES and OFFICER_ROLES merged together as a last resort.
+#define COMMANDANDOFFICER_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/sea, /datum/job/sea/marine, /datum/job/bridgeofficer, /datum/job/liaison, /datum/job/bodyguard, /datum/job/psiadvisor, /datum/job/representative, /datum/job/scientist, /datum/job/qm, /datum/job/chaplain, /datum/job/psychiatrist, /datum/job/senior_doctor, /datum/job/pathfinder)
+
+//############### GENERAL BOH UTILITY #####################
+
+/datum/gear/utility/flashlight
+	display_name = "flashlight"
+	path = /obj/item/device/flashlight
+
+/datum/gear/utility/crowbar
+	display_name = "crowbar"
+	path = /obj/item/weapon/crowbar
+
+datum/gear/utility/crayonmre
+	display_name = "Crayon MRE"
+	cost = 26
+	path = /obj/item/weapon/storage/mre/menu11
+
+/datum/gear/cooler_ipc
+	display_name = "cooling unit (IPC)"
+	path = /obj/item/device/suit_cooling_unit
+	sort_category = "Xenowear"
+	whitelisted = list(SPECIES_IPC, SPECIES_SHELL)
+	cost = 0
+
+/datum/gear/utility/instrument
+	display_name = "Instrument Selection"
+	description = "An instrument to play beautiful music. Talent not included."
+	path = /obj/item/device/synthesized_instrument
+	cost = 4
+/datum/gear/utility/instrument/New()
+	..()
+	var/instruments = list()
+	instruments["Guitar"] = /obj/item/device/synthesized_instrument/guitar
+	instruments["Electric Guitar"] = /obj/item/device/synthesized_instrument/guitar/multi
+	instruments["Synthesizer"] = /obj/item/device/synthesized_instrument/synthesizer
+	instruments["Trumpet"] = /obj/item/device/synthesized_instrument/trumpet
+	instruments["Violin"] = /obj/item/device/synthesized_instrument/violin
+	gear_tweaks += new/datum/gear_tweak/path(instruments)
+
+/datum/gear/suit/highvis
+	display_name = "high-visibility jacket"
+	path = /obj/item/clothing/suit/storage/toggle/highvis
+	cost = 1
+
+/datum/gear/suit/labcoat_long
+	display_name = "long labcoat, corporate colors"
+	path = /obj/item/clothing/suit/storage/toggle/labcoat/roles/science/
+	allowed_roles = RESEARCH_ROLES
+
+/datum/gear/suit/labcoat_long/New()
+	..()
+	var/longlabcoats = list()
+	longlabcoats += /obj/item/clothing/suit/storage/toggle/labcoat/roles/science/nanotrasen
+	longlabcoats += /obj/item/clothing/suit/storage/toggle/labcoat/roles/science/heph
+	longlabcoats += /obj/item/clothing/suit/storage/toggle/labcoat/roles/science/zeng
+	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(longlabcoats)
+
+/datum/gear/suit/labcoat_long_colorable
+	display_name = "long labcoat, colour select"
+	path = /obj/item/clothing/suit/storage/toggle/labcoat/lclabcoat
+	flags = GEAR_HAS_COLOR_SELECTION
+
+/datum/gear/mre
+	display_name = "MRE selection"
+	description = "A vacuum-sealed bag containing a day's worth of nutrients for an adult in strenuous situations."
+	cost = 2
+	path = /obj/item/weapon/storage/mre
+
+/datum/gear/mre/New()
+	..()
+	var/mre = list()
+	mre["standard mre"] = /obj/item/weapon/storage/mre/random
+	mre["vegan mre"] = /obj/item/weapon/storage/mre/menu9
+	mre["protein mre"] = /obj/item/weapon/storage/mre/menu10
+	gear_tweaks += new /datum/gear_tweak/path(mre)
+
+/datum/gear/accessory/custom_medal
+	display_name = "custom medal"
+	description = "A selection of medals, awarded to personnel for significant (or not) accomplishments."
+	path = /obj/item/clothing/accessory/medal
+	cost = 2
+
+/datum/gear/accessory/custom_medal/New()
+	..()
+	var/cmedals = list()
+	cmedals["iron"] = /obj/item/clothing/accessory/medal/iron
+	cmedals["bronze"] = /obj/item/clothing/accessory/medal/bronze
+	cmedals["silver"] = /obj/item/clothing/accessory/medal/silver
+	cmedals["gold"] = /obj/item/clothing/accessory/medal/gold
+	gear_tweaks += new/datum/gear_tweak/path(cmedals)
+
+/datum/gear/clothing/cloak
+	display_name = "cloak, colored"
+	path = /obj/item/clothing/accessory/cloak
+	slot = slot_wear_suit
+	flags = GEAR_HAS_COLOR_SELECTION
+
+//################# GENERAL BOH ACESSORIES ##############################
+
+/datum/gear/accessory/custom_ribbon
+	display_name = "custom ribbon"
+	description = "A military decoration awarded to personnel for significant (or not) accomplishments."
+	path = /obj/item/clothing/accessory/ribbon/solgov/custom
+	cost = 2
+
+/datum/gear/accessory/custom_ribbon/color
+	display_name = "custom ribbon, colorable"
+	path = /obj/item/clothing/accessory/ribbon/solgov/custom/color
+	flags = GEAR_HAS_COLOR_SELECTION
+
+/datum/gear/accessory/armband_ma
+	display_name = "master-at-arms brassard"
+	path = /obj/item/clothing/accessory/armband/solgov/ma
+	allowed_roles = SECURITY_ROLES
+
+/datum/gear/accessory/armband_mp
+	display_name = "military police brassard"
+	path = /obj/item/clothing/accessory/armband/solgov/mp
+	allowed_roles = SECURITY_ROLES
+
+/datum/gear/accessory/smc_patch
+	display_name = "Marine Corps patch"
+	path = /obj/item/clothing/accessory/solgov/smc_patch
+	allowed_branches = list(/datum/mil_branch/marine_corps)
+	cost = 0
+	whitelisted = list(SPECIES_HUMAN, SPECIES_IPC)
+
+/datum/gear/accessory/smc_patch_xenos
+	display_name = "Marine Corps patch (xenoic division)"
+	path = /obj/item/clothing/accessory/solgov/smc_patch/xeno
+	cost = 0
+	allowed_branches = list(/datum/mil_branch/marine_corps)
+
+/datum/gear/tactical/civ_tag
+	display_name = "Civilian tag"
+	path = /obj/item/clothing/accessory/armor/tag/civ
+	allowed_branches = CIVILIAN_BRANCHES
+
+/datum/gear/tactical/med_tag
+	display_name = "Medical tag"
+	path = /obj/item/clothing/accessory/armor/tag/solgov/medic
+	allowed_skills = list(SKILL_MEDICAL = SKILL_BASIC)
+
+/datum/gear/tactical/med_tag/alt
+	display_name = "Medical tag, alt"
+	path = /obj/item/clothing/accessory/armor/tag/civ/med
+
+/datum/gear/accessory/tags/marine
+	display_name = "dog tags, solar marine corps"
+	description = "Plain identification tags made from a durable metal. This one is issued to marines."
+	path = /obj/item/clothing/accessory/badge/solgov/tags/marine
+	allowed_branches = list(/datum/mil_branch/marine_corps)
+	cost = 0
+
+/datum/gear/accessory/tags/fleet
+	display_name = "dog tags, expeditionary fleet"
+	description = "Plain identification tags made from a durable metal. This one is issued to fleet."
+	path = /obj/item/clothing/accessory/badge/solgov/tags/fleet
+	allowed_branches = list(/datum/mil_branch/fleet)
+	cost = 0
+
+// Separating main's certain armor customization items.
+/datum/gear/tactical/blood_patch
+	display_name = "blood patch selection"
+	description = "A selection of blood type patches. Attaches to plate carrier."
+	path = /obj/item/clothing/accessory/armor/tag/
+	cost = 0 // Life-saving.
+
+/datum/gear/tactical/blood_patch/New()
+	..()
+	var/blood_type = list()
+	blood_type["A+"] = /obj/item/clothing/accessory/armor/tag/apos
+	blood_type["A-"] = /obj/item/clothing/accessory/armor/tag/aneg
+	blood_type["B+"] = /obj/item/clothing/accessory/armor/tag/bpos
+	blood_type["B-"] = /obj/item/clothing/accessory/armor/tag/bneg
+	blood_type["AB+"] = /obj/item/clothing/accessory/armor/tag/abpos
+	blood_type["AB-"] = /obj/item/clothing/accessory/armor/tag/abneg
+	blood_type["O+"] = /obj/item/clothing/accessory/armor/tag/opos
+	blood_type["O-"] = /obj/item/clothing/accessory/armor/tag/oneg
+	gear_tweaks += new/datum/gear_tweak/path(blood_type)
+
+/datum/gear/tactical/solgov
+	display_name = "SCG Flag tag"
+	path = /obj/item/clothing/accessory/armor/tag/solgov
+	allowed_branches = SOLGOV_BRANCHES
+	cost = 0 // Uniformed branches would require one.
+
+/datum/gear/tactical/nt
+	display_name = "NanoTrasen tag"
+	path = /obj/item/clothing/accessory/armor/tag/nt/dagon
+	allowed_branches = NT_BRANCHES
+	cost = 0 // Ditto.
+
+/// Limb guards
+// Arms
+/datum/gear/tactical/arm_guards
+	display_name = "arm guards selection"
+	description = "A selection of military arm guards. Attaches to plate carrier."
+	path = /obj/item/clothing/accessory/armguards
+	cost = 1
+	allowed_roles = ARMORED_ROLES
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/arm_guards/New()
+	..()
+	var/arm_guards = list()
+	arm_guards["black arm guards"] = /obj/item/clothing/accessory/armguards
+	arm_guards["navy arm guards"] = /obj/item/clothing/accessory/armguards/navy
+	arm_guards["blue arm guards"] = /obj/item/clothing/accessory/armguards/blue
+	arm_guards["green arm guards"] = /obj/item/clothing/accessory/armguards/green
+	arm_guards["tan arm guards"] = /obj/item/clothing/accessory/armguards/tan
+	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
+
+/datum/gear/tactical/arm_guards_light
+	display_name = "arm pads selection"
+	description = "A selection of military arm pads. They're weaker than normal guards."
+	path = /obj/item/clothing/accessory/armguards/light
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/arm_guards_light/New()
+	..()
+	var/arm_guards = list()
+	arm_guards["black arm pads"] = /obj/item/clothing/accessory/armguards/light
+	arm_guards["navy arm pads"] = /obj/item/clothing/accessory/armguards/light/navy
+	arm_guards["blue arm pads"] = /obj/item/clothing/accessory/armguards/light/blue
+	arm_guards["green arm pads"] = /obj/item/clothing/accessory/armguards/light/green
+	arm_guards["tan arm pads"] = /obj/item/clothing/accessory/armguards/light/tan
+	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
+
+/datum/gear/tactical/arm_guards_grey
+	display_name = "grey arm pads"
+	path = /obj/item/clothing/accessory/armguards/light/grey
+
+// Legs
+/datum/gear/tactical/leg_guards
+	display_name = "leg guards selection"
+	description = "A selection of military leg guards. Attaches to plate carrier."
+	path = /obj/item/clothing/accessory/legguards
+	cost = 1
+	allowed_roles = ARMORED_ROLES
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/leg_guards/New()
+	..()
+	var/leg_guards = list()
+	leg_guards["black leg guards"] = /obj/item/clothing/accessory/legguards
+	leg_guards["navy leg guards"] = /obj/item/clothing/accessory/legguards/navy
+	leg_guards["blue leg guards"] = /obj/item/clothing/accessory/legguards/blue
+	leg_guards["green leg guards"] = /obj/item/clothing/accessory/legguards/green
+	leg_guards["tan leg guards"] = /obj/item/clothing/accessory/legguards/tan
+	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
+
+/datum/gear/tactical/leg_guards_light
+	display_name = "leg pads selection"
+	description = "A selection of military leg pads. They're weaker than normal guards."
+	path = /obj/item/clothing/accessory/legguards/light
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/leg_guards_light/New()
+	..()
+	var/leg_guards = list()
+	leg_guards["black leg pads"] = /obj/item/clothing/accessory/legguards/light
+	leg_guards["navy leg pads"] = /obj/item/clothing/accessory/legguards/light/navy
+	leg_guards["blue leg pads"] = /obj/item/clothing/accessory/legguards/light/blue
+	leg_guards["green leg pads"] = /obj/item/clothing/accessory/legguards/light/green
+	leg_guards["tan leg pads"] = /obj/item/clothing/accessory/legguards/light/tan
+	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
+
+/datum/gear/tactical/leg_guards_grey
+	display_name = "grey leg pads"
+	path = /obj/item/clothing/accessory/legguards/light/grey
+
+/datum/gear/tactical/combatknife
+	display_name = "combat knife"
+	path = /obj/item/weapon/material/knife/combat
+	cost = 3
+	allowed_roles = ARMORED_ROLES
+	allowed_branches = TACTICOOL_BRANCHES
+
+// Too lazy to adjust outfit
+/datum/gear/accessory/nt_blaze
+	display_name = "blaze, janitor"
+	path = /obj/item/clothing/accessory/solgov/specialty/janitor
+	allowed_branches = NT_BRANCHES
+	allowed_roles = list(/datum/job/janitor)
+	cost = 0
+
+/datum/gear/accessory/nt_blaze/brig
+	display_name = "blaze, brig chief"
+	path = /obj/item/clothing/accessory/solgov/specialty/brig
+	allowed_roles = list(/datum/job/warden)
+
+/datum/gear/accessory/nt_blaze/detective
+	display_name = "blaze, forenscics"
+	path = /obj/item/clothing/accessory/solgov/specialty/forensic
+	allowed_roles = list(/datum/job/detective)
+
+/datum/gear/accessory/nt_blaze/atmos
+	display_name = "blaze, atmospherics"
+	path = /obj/item/clothing/accessory/solgov/specialty/atmos
+	allowed_roles = ENGINEERING_ROLES
+
+/datum/gear/accessory/nt_blaze/chemist
+	display_name = "blaze, chemist"
+	path = /obj/item/clothing/accessory/solgov/specialty/chemist
+	allowed_roles = list(/datum/job/chemist)
+
+/datum/gear/accessory/nt_blaze/counselor
+	display_name = "blaze, counselor"
+	path = /obj/item/clothing/accessory/solgov/specialty/counselor
+	allowed_roles = list(/datum/job/psychiatrist)
+
+// Alternative cloak
+/datum/gear/clothing/cloak/alt
+	display_name = "cloak, colored (alt)"
+	path = /obj/item/clothing/accessory/cloak/boh
+
+//################# HEAD EC OVERRIDE ####################
+
+/datum/gear/head/ECdepartment
+	display_name = "NTEF department beret selection"
+	description = "A beret sporting departmental colours for NTEF personnel."
+	path = /obj/item/clothing/head/beret/solgov/expedition
+	allowed_branches = NT_BRANCHES
+
+datum/gear/head/ECdepartment/New()
+	..()
+	var/berets = list()
+	berets["NTEF service beret"] = /obj/item/clothing/head/beret/solgov/expedition/service
+	berets["NTEF security beret"] = /obj/item/clothing/head/beret/solgov/expedition/security
+	berets["NTEF command beret"] = /obj/item/clothing/head/beret/solgov/expedition/command
+	berets["NTEF engineering beret"] = /obj/item/clothing/head/beret/solgov/expedition/engineering
+	berets["NTEF medical beret"] = /obj/item/clothing/head/beret/solgov/expedition/medical
+	berets["NTEF beret"] = /obj/item/clothing/head/beret/solgov/expedition
+	berets["NTEF supply beret"] = /obj/item/clothing/head/beret/solgov/expedition/supply
+	berets["NTEF exploration beret"] = /obj/item/clothing/head/beret/solgov/expedition/exploration
+	gear_tweaks += new/datum/gear_tweak/path(berets)
+
+//################# CUSTOM_ARMOR ########################
+
+/datum/gear/tactical/pcarrier_grey
+	display_name = "grey plate carrier"
+	path = /obj/item/clothing/suit/armor/pcarrier/grey
+	slot = slot_wear_suit
+
+/datum/gear/tactical/pcarrier
+	display_name = "plate carrier selection"
+	description = "A selection of military plate carriers. They can be equipped with armor plates, but provides no protection of their own."
+	path = /obj/item/clothing/suit/armor/pcarrier
+	cost = 1
+	slot = slot_wear_suit
+	allowed_branches = TACTICOOL_BRANCHES
+
+// # Adds general custom armours option to original /tactical/pcarrier
+/datum/gear/tactical/pcarrier/New()
+	..()
+	var/armors = list()
+	armors["black plate carrier"] = /obj/item/clothing/suit/armor/pcarrier
+	armors["navy plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy
+	armors["blue plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue
+	armors["black ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/ipc
+	armors["navy ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy/ipc
+	armors["blue ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue/ipc
+	armors["green ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/green/ipc
+	armors["tan ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/tan/ipc
+	gear_tweaks += new/datum/gear_tweak/path(armors)
+
+/datum/gear/tactical/kevlar
+	display_name = "kevlar selection"
+	description = "A selection of kevlar vests. They can be equipped with armor plates, but provides no protection of their own."
+	path = /obj/item/clothing/suit/armor/pcarrier
+	cost = 1
+	slot = slot_wear_suit
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/kevlar/New()
+	..()
+	var/armors = list()
+	armors["tan kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/tan
+	armors["navy kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/navy
+	armors["blue kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/blue
+	armors["green kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/green
+	gear_tweaks += new/datum/gear_tweak/path(armors)
+
+//################# XENOWEAR ############################
+
+/datum/gear/accessory/nabber_gloves
+	display_name = "GAS Insuls"
+	path = /obj/item/clothing/gloves/nabber
+	description = "A set of insulated gloves meant for GAS."
+	whitelisted = list(SPECIES_NABBER)
+	sort_category = "Xenowear"
+
+//################# MARINE UNIFORMS #####################
+
+/datum/gear/uniform/misc_military
+	display_name = "marine fatigue selection"
+	description = "A selection of marine uniforms."
+	path = /obj/item/clothing/under
+	cost = 0
+	allowed_branches = list(/datum/mil_branch/marine_corps)
+
+/datum/gear/uniform/misc_military/New()
+	..()
+	var/uniform = list()
+	uniform += /obj/item/clothing/under/solgov/utility/army/urban
+	uniform += /obj/item/clothing/under/solgov/utility/army/tan
+	uniform += /obj/item/clothing/under/solgov/utility/fleet/combat/marine
+	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
+
+/datum/gear/uniform/fleet
+	display_name = "fleet fatigue"
+	path = /obj/item/clothing/under/solgov/utility/fleet
+	cost = 0
+	allowed_branches = NT_BRANCHES
+
+/datum/gear/uniform/fleet/officer
+	display_name = "fleet officer fatigues"
+	path = /obj/item/clothing/under/solgov/utility/fleet/officer
+	cost = 0
+	allowed_branches = NT_BRANCHES
+	allowed_roles = COMMANDANDOFFICER_ROLES
+
+//############# MILITARY HEAD LOADOUTS ##########################
+
+/datum/gear/head/misc_military_cover
+	display_name = "marine cover selection"
+	description = "A selection of marine covers."
+	path = /obj/item/clothing/head
+	cost = 0
+	allowed_branches = list(/datum/mil_branch/marine_corps)
+
+/datum/gear/head/misc_military_cover/New()
+	..()
+	var/cover = list()
+	cover += /obj/item/clothing/head/solgov/utility/army
+	cover += /obj/item/clothing/head/solgov/utility/army/urban
+	cover += /obj/item/clothing/head/solgov/utility/army/tan
+	cover += /obj/item/clothing/head/solgov/utility/fleet/marine
+	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
+
+/datum/gear/head/self_protection_helmet
+	display_name = "civilian self-protection helmet"
+	path = /obj/item/clothing/head/hardhat/self_protection
+	cost = 2
+	allowed_branches = CIVILIAN_BRANCHES
+
+/datum/gear/head/fleetcap
+	display_name = "fleet cap"
+	path = /obj/item/clothing/head/soft/solgov/fleet
+	cost = 0
+	allowed_branches = NT_BRANCHES
+
+/datum/gear/head/corpsecberet
+	display_name = "corporate security beret"
+	path = /obj/item/clothing/head/beret/guard
+	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/private_security)
+
+//################# AUGMENTS ###############################
+
+/datum/gear/augmentation/
+	sort_category = "Augmentations"
+	category = /datum/gear/augmentation/
+	//slot = slot_tie /// not used, doesn't matter here ...?
+	implanted = TRUE
+
+/datum/gear/augmentation/implanted_surgical
+	display_name = "surgical polytool - left arm (ROBOTIC)"
+	path = /obj/item/organ/internal/augment/active/polytool/surgical/left
+	cost = 4
+	allowed_roles = STERILE_ROLES
+
+/datum/gear/augmentation/implanted_surgical/right
+	display_name = "surgical polytool - right arm (ROBOTIC)"
+	path = /obj/item/organ/internal/augment/active/polytool/surgical/right
+
+/datum/gear/augmentation/implanted_toolkit
+	display_name = "mechanical polytool - left arm (ROBOTIC)"
+	path = /obj/item/organ/internal/augment/active/polytool/engineer/left
+	cost = 4
+
+/datum/gear/augmentation/implanted_toolkit/right
+	display_name = "mechanical polytool - right arm (ROBOTIC)"
+	path = /obj/item/organ/internal/augment/active/polytool/engineer/right
+
+/datum/gear/augmentation/implanted_circuitkit
+	display_name = "circuit augment - left arm (ROBOTIC)"
+	path = /obj/item/organ/internal/augment/active/simple/circuit/left
+	cost = 4
+
+/datum/gear/augmentation/implanted_circuitkit/right
+	display_name = "circuit augment - right arm (ROBOTIC)"
+	path = /obj/item/organ/internal/augment/active/simple/circuit/right
