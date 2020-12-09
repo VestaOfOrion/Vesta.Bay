@@ -169,7 +169,7 @@
 	desc = "A \"confidential\" notice issued to Sol Government Representatives, informing them of an office fire caused by improper cigarette ash management."
 
 /obj/item/document/generic/scgr/boringreports
-	name = "\improper Torch project status update #132"
+	name = "\improper Dagon project status update #132"
 	desc = "A \"confidential\" report containing nothing you'd like to read, featuring updates that you knew about three weeks ago."
 
 /obj/item/document/generic/scgr/documentdamage
@@ -182,7 +182,7 @@
 
 /obj/item/documents/generic/scgr/yourjob
 	name = "\improper SCG and you"
-	desc = "Some \"confidential\" briefing documents, detailing the job of the SCGR in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the SEV Torch. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."
+	desc = "Some \"confidential\" briefing documents, detailing the job of the SCGR in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the NTSS Dagon. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."
 
 /obj/item/document/generic/scgr/perdiemdeny
 	name = "per diem denials"
@@ -298,7 +298,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/eng/repairs
 	name = "maintenance reports"
-	desc = "Some \"confidential\" reports regarding the state of the SEV Torch. Of note are the rusty cistern, faulty disposal pipes, clogged sinks, and an under-sized atmospheric system."
+	desc = "Some \"confidential\" reports regarding the state of the NTSS Dagon. Of note are the rusty cistern, faulty disposal pipes, clogged sinks, and an under-sized atmospheric system."
 
 /obj/item/documents/generic/eng/shieldsoff
 	name = "shielding recommendations"
@@ -422,7 +422,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/explo/cigarettes
 	name = "cigarettes with helmets"
-	desc = "Some \"internal use only\" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a \"No Smoking\" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the SEV Torch and not when wearing a helmet."
+	desc = "Some \"internal use only\" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a \"No Smoking\" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the NTSS Dagon and not when wearing a helmet."
 
 /obj/item/documents/generic/explo/documentplease
 	name = "on documentation of sites"
@@ -470,11 +470,11 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/corp/stipendcut
 	name = "corporate spending records"
-	desc = "A \"confidential\" memo on the current usage of funds provided to SEV Torch corporate liaisons; apparently there's threats of a strike over a cut to the cost-of-living stipends by the head office."
+	desc = "A \"confidential\" memo on the current usage of funds provided to NTSS Dagon corporate liaisons; apparently there's threats of a strike over a cut to the cost-of-living stipends by the head office."
 
 /obj/item/documents/generic/corp/LPArenting
 	name = "\improper LPA usage notice"
-	desc = "A \"confidential\" notice to the corporate liaison aboard the SEV Torch that their security staff are for their use only, and renting them out as extra manpower to security is a gross violation of their contract."
+	desc = "A \"confidential\" notice to the corporate liaison aboard the NTSS Dagon that their security staff are for their use only, and renting them out as extra manpower to security is a gross violation of their contract."
 
 /obj/item/documents/generic/corp/uniondues
 	name = "union dues reminder"
@@ -490,7 +490,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/corp/exointerest
 	name = "\improper EXO and you"
-	desc = "Some \"confidential\" corporate documents directed to the corporate liasion, informing them that their job is to represent EXO and its immediate interests, which are to ensure the SEV Torch is able to maintain the currently defined direction that is within the interests of EXO as a whole. "
+	desc = "Some \"confidential\" corporate documents directed to the corporate liasion, informing them that their job is to represent EXO and its immediate interests, which are to ensure the NTSS Dagon is able to maintain the currently defined direction that is within the interests of EXO as a whole. "
 
 /obj/item/documents/generic/corp/thequarterly
 	name = "quarterly budget report"

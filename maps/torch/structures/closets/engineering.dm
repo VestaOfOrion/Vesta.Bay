@@ -1,5 +1,5 @@
 /*
- * Torch Engineering
+ * Dagon Engineering
  */
 
 /decl/closet_appearance/secure_closet/torch/engineering

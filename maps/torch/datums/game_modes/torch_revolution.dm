@@ -17,7 +17,7 @@
 					you won't let yourself be canned up like a sardine for even one more jump. Take control of your situation and use the Torch for your own ends, or \
 					even just to return home."
 
-	victory_text = "The Torch has fallen to the mutiny, and its future is now in question."
+	victory_text = "The Dagon has fallen to the mutiny, and its future is now in question."
 	loss_text = "The attempted mutiny has failed, but the crew questions what happens now."
 
 	//Inround revs.
@@ -30,13 +30,13 @@
 /datum/antagonist/loyalists
 
 
-	victory_text = "The Torch is free of the mutineers, although the cost has yet to be discovered in full."
-	loss_text = "The mutineers have won; the Torch will never be the same."
+	victory_text = "The Dagon is free of the mutineers, although the cost has yet to be discovered in full."
+	loss_text = "The mutineers have won; the Dagon will never be the same."
 
 
 /datum/antagonist/loyalists/Initialize()
 	..()
-	welcome_text = "The SEV Torch has been on this mission for some time, and there is still much to accomplish. \
+	welcome_text = "The NTSS Dagon has been on this mission for some time, and there is still much to accomplish. \
 					However, whispers abound about malcontents, saboteurs and mutineers - the very ship faces threats from within!\
 					To protect your way of life, those who would change it must be pacified or eliminated, and those that remain \
 					must know not to intrude on your status."

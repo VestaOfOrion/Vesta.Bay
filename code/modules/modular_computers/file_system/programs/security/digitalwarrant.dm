@@ -231,7 +231,7 @@ LEGACY_RECORD_STRUCTURE(all_warrants, warrant)
 		activewarrant = null
 
 
-//SEV Torch Arrest Warrant
+//NTSS Dagon Arrest Warrant
 //System: Geneva 291
 //
 //Suspect Name: Joe Schmoe

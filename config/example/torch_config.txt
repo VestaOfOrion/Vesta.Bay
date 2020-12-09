@@ -20,8 +20,8 @@
 #AWAY_SITE_BUDGET 3
 
 ## The names of various entities to use for reports, listing, etc.
-#STATION_NAME Sev Torch
-#STATION_SHORT Torch
+#STATION_NAME NTSS Dagon
+#STATION_SHORT Dagon
 #DOCK_NAME TBD
 #BOSS_NAME Expeditionary Command
 #BOSS_SHORT Command

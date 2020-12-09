@@ -1,5 +1,5 @@
 /*
- * Torch Supply
+ * Dagon Supply
  */
 /decl/closet_appearance/secure_closet/torch/cargo
 	extra_decals = list(
