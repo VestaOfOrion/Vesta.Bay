@@ -12735,6 +12735,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
 "Ea" = (
@@ -13638,6 +13639,15 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/random/junk,
 /obj/random/junk,
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/super/critical{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/port)
 "Gh" = (
@@ -14066,6 +14076,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftport)
 "Hl" = (
@@ -16651,25 +16662,14 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/thirddeck/center)
 "Np" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/aftport)
+/area/maintenance/thirddeck/port)
 "Nq" = (
 /obj/structure/closet/crate/trashcart,
 /obj/random/junk,
@@ -17281,12 +17281,18 @@
 /turf/simulated/floor/wood/mahogany,
 /area/radio_host)
 "Pi" = (
-/obj/effect/floor_decal/corner/green{
-	dir = 9
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/maintenance/thirddeck/port)
 "Pj" = (
 /obj/structure/railing/mapped{
@@ -18261,17 +18267,6 @@
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor/reinforced,
 /area/thruster/d3port)
-"RT" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	pixel_y = 14
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/aftport)
 "RV" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/techfloor,
@@ -38739,7 +38734,7 @@ uP
 uP
 uP
 uP
-Lk
+Np
 EL
 Hf
 Hf
@@ -38941,7 +38936,7 @@ Ew
 Fd
 Nj
 Gf
-Lk
+Pi
 EL
 Hf
 Hf
@@ -41559,7 +41554,7 @@ Gi
 Yw
 oS
 DV
-Pi
+DV
 DV
 Dk
 Gn
@@ -42168,8 +42163,8 @@ zE
 Bz
 TV
 AN
-RT
-Np
+EE
+CU
 ub
 Gj
 GI
