@@ -1,9 +1,0 @@
-author: PurplePineapple
-
-delete-after: True
-
-
-  - rscadd: "Uplink files are now in modular_boh"
-  - rscadd: "Traitor Combat Chemicals"
-  - tweak: "Uplink items changed to be more like hestia's, meaning antags can purchase AMRs/ARs/Grenades"
-  - tweak: "Traitor skills were changed to be more like hesita's, meaning antags can chose 1 master skill"
