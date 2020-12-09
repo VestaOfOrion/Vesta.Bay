@@ -3810,7 +3810,7 @@
 /obj/structure/catwalk,
 /obj/machinery/light,
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "hG" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/techfloor,
@@ -4713,7 +4713,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "ju" = (
 /obj/machinery/light/small,
 /obj/item/weapon/stool/wood,
@@ -7689,7 +7689,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "ql" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan,
 /obj/machinery/meter,
@@ -9283,7 +9283,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "ua" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 10
@@ -12978,7 +12978,7 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "EC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -14094,7 +14094,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "Ho" = (
 /obj/structure/closet/secure_closet/personal,
 /obj/effect/floor_decal/corner/lime{
@@ -15355,7 +15355,7 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "JX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -16669,7 +16669,7 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "Nq" = (
 /obj/structure/closet/crate/trashcart,
 /obj/random/junk,
@@ -17024,7 +17024,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "Ow" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -18271,7 +18271,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "RV" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/techfloor,
@@ -18401,7 +18401,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "Sp" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -18943,7 +18943,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/thirddeck/port)
+/area/maintenance/thirddeck/aftport)
 "TO" = (
 /obj/machinery/door/airlock/hatch/maintenance,
 /obj/machinery/door/firedoor,
@@ -41966,7 +41966,7 @@ AN
 AN
 AN
 AN
-Ez
+Bc
 Hn
 ub
 ub
@@ -42370,8 +42370,8 @@ AI
 BA
 nu
 YZ
-Ts
-CE
+EE
+CU
 ub
 GL
 II
@@ -42783,7 +42783,7 @@ FN
 ub
 ko
 ny
-Hf
+jZ
 Qq
 Qq
 Qq
@@ -42984,9 +42984,9 @@ II
 GK
 ub
 ug
-Hf
-Hf
-Hf
+jZ
+jZ
+jZ
 aI
 aa
 Qq
@@ -43186,9 +43186,9 @@ BT
 GL
 ub
 xm
-Hf
-Hf
-Hf
+jZ
+jZ
+jZ
 aI
 aa
 Qq
@@ -43388,9 +43388,9 @@ Gl
 Dn
 Dn
 xm
-Hf
-Hf
-Hf
+jZ
+jZ
+jZ
 aI
 aa
 Qq
@@ -43582,7 +43582,7 @@ XB
 iC
 vh
 Ba
-CE
+CU
 Ba
 Dn
 Fg
@@ -43784,7 +43784,7 @@ AP
 AS
 vh
 Ba
-CE
+CU
 Ba
 Dn
 Fh
@@ -43986,7 +43986,7 @@ RR
 AQ
 vh
 Ba
-CE
+CU
 Ba
 Dn
 Dn
@@ -44188,7 +44188,7 @@ LQ
 Uw
 vh
 Ba
-CE
+CU
 Ba
 sb
 Vw
