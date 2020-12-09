@@ -18564,7 +18564,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/security/processing)
 "guu" = (
-/turf/space,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "guP" = (
 /obj/structure/table/rack,
@@ -28702,7 +28702,7 @@
 /area/rnd/research)
 "sbk" = (
 /obj/structure/stairs/north,
-/turf/space,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
 "sbJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
