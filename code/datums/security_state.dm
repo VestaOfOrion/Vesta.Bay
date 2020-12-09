@@ -193,6 +193,7 @@
 	notify_station()
 
 /decl/security_level/default/proc/notify_station()
+	set waitfor = FALSE
 	for(var/obj/machinery/firealarm/FA in SSmachines.machinery)
 		if(FA.z in GLOB.using_map.contact_levels)
 			FA.update_icon()
