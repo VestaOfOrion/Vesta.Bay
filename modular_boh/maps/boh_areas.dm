@@ -118,3 +118,8 @@
 	name = "\improper Security - Solitary Holding"
 	icon_state = "security"
 	req_access = list(access_brig)
+
+/area/command/bridge_quarters
+	name = "\improper Bridge - Officer Quarters"
+	icon_state = "crew_quarters"
+	req_access = list(access_bridge)
