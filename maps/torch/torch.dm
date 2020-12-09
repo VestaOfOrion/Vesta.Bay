@@ -14,7 +14,7 @@
 	#include "torch_presets.dm"
 	#include "torch_procs.dm"
 	#include "torch_ranks.dm"
-	#include "torch_security_state.dm"
+//	#include "torch_security_state.dm" //Modular overwrite for alert level lighting.
 	#include "torch_setup.dm"
 	#include "torch_shuttles.dm"
 	#include "torch_submaps.dm"
@@ -205,6 +205,7 @@
 	#include "../../modular_boh/code/items/clothing/terran-under.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts_helpers.dm"
+	#include "../../modular_boh//code/modules/torch_security_state.dm"
 
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
