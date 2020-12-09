@@ -123,3 +123,7 @@
 	name = "\improper Bridge - Officer Quarters"
 	icon_state = "crew_quarters"
 	req_access = list(access_bridge)
+
+/area/hallway/primary/thirddeck/ofd
+	name = "\improper Third Deck OFD Hallway"
+	icon_state = "apmaint"
