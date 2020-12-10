@@ -6,7 +6,7 @@
 	url = "https://soundcloud.com/luke-leimer/torch-a-light-in-the-darkness"
 
 /*
-'Dagon: A Light in the Darkness' composed by: Loren Luke Leimer, (c) 2017
+'Torch: A Light in the Darkness' composed by: Loren Luke Leimer, (c) 2017
 
 Licensed for use under Creative Commons License: CC BY-SA 3.0
 
