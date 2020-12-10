@@ -39,7 +39,6 @@
 
 /obj/item/clothing/head/helmet/space/rig/recon
 	light_overlay = "helmet_light_dual_green"
-	camera = /obj/machinery/camera/network/bridge
 
 //Marine Deathsquad. Don't hand these out casually.
 /obj/item/weapon/rig/recon/deathsquad
