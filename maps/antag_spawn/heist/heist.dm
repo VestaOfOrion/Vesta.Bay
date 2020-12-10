@@ -1,30 +1,58 @@
+#include "objects/signs.dm"
+
 /datum/map_template/ruin/antag_spawn/heist
-	name = "Heist Base"
+	name = "Pirate Ship"
 	suffixes = list("heist/heist_base.dmm")
-	shuttles_to_initialise = list(/datum/shuttle/autodock/multi/antag/skipjack)
-	apc_test_exempt_areas = list(
-		/area/map_template/skipjack_station = NO_SCRUBBER|NO_VENT|NO_APC
+	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/skipjack)
+
+/obj/effect/overmap/visitable/ship/pirate_ship
+	name = "SDV Gentle Rammer"
+	color = "#46783d"
+	vessel_mass = 30000
+	max_speed = 1/(10 SECONDS)
+	burn_delay = 4 SECONDS
+	fore_dir = NORTH
+	desc = "Sensor array detects a medium SCG gunship with minor structural damage."
+	in_space = 1
+	icon_state = "ship"
+	moving_state = "ship_moving"
+	hide_from_reports = TRUE
+	initial_generic_waypoints = list(
+		"nav_pirate_1",
+		"nav_pirate_2",
+		"nav_pirate_3",
+		"nav_pirate_4"
 	)
 
-/datum/shuttle/autodock/multi/antag/skipjack
-	name = "Skipjack"
-	defer_initialisation = TRUE
-	warmup_time = 0
-	destination_tags = list(
-		"nav_skipjack_dock",
-		"nav_skipjack_start"
-		)
-	shuttle_area =  /area/map_template/skipjack_station/start
+/obj/effect/overmap/visitable/ship/landable/skipjack
+	name = "Hades"
+	desc = "Sensors detect a small shuttlecraft registered to the Sol Cental Government."
+	shuttle = "Hades"
+	fore_dir = SOUTH
+	vessel_size = SHIP_SIZE_SMALL
+	vessel_mass = 2000
+
+/datum/shuttle/autodock/overmap/skipjack
+	name = "Hades"
+	move_time = 90
+	shuttle_area = list(/area/map_template/pirate_ship/skipjack_shuttle)
 	dock_target = "skipjack_shuttle"
 	current_location = "nav_skipjack_start"
 	landmark_transition = "nav_skipjack_transition"
-	announcer = "Proximity Sensor Array"
-	home_waypoint = "nav_skipjack_start"
-	arrival_message = "Attention, vessel detected entering vessel proximity."
-	departure_message = "Attention, vessel detected leaving vessel proximity."
+	sound_takeoff = 'sound/effects/rocket.ogg'
+	sound_landing = 'sound/effects/rocket_backwards.ogg'
+	defer_initialisation = TRUE
+	ceiling_type = /turf/simulated/floor/shuttle_ceiling/skipjack
+	warmup_time = 5
+	range = 1
+	fuel_consumption = 5
+	skill_needed = SKILL_BASIC
+
+/turf/simulated/floor/shuttle_ceiling/skipjack
+	color = COLOR_BLUE
 
 /obj/effect/shuttle_landmark/skipjack/start
-	name = "Raider Outpost"
+	name = "Hades Dock"
 	landmark_tag = "nav_skipjack_start"
 	docking_controller = "skipjack_base"
 
@@ -38,23 +66,33 @@
 	docking_controller = "skipjack_shuttle_dock_airlock"
 
 //Areas
-/area/map_template/skipjack_station
-	name = "Raider Outpost"
-	icon_state = "yellow"
-	requires_power = 0
-	req_access = list(access_syndicate)
-
-/area/map_template/skipjack_station/start
-	name = "\improper Skipjack"
+/area/map_template/pirate_ship
+	name = "SDV Gentle Rammer"
 	icon_state = "yellow"
 	req_access = list(access_syndicate)
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
-/area/map_template/syndicate_mothership/raider_base
-	name = "\improper Raider Base"
-	requires_power = 0
-	dynamic_lighting = 0
+/area/map_template/pirate_ship/dormitories
+	name = "Dormitories"
+	icon_state = "purple"
+
+/area/map_template/pirate_ship/bridge
+	name = "Bridge"
+	icon_state = "bridge"
+
+/area/map_template/pirate_ship/engineering
+	name = "engineering"
+	icon_state = "engine"
+	
+/area/map_template/pirate_ship/hallway
+	name = "hallways"
+	icon_state = "sub_maint_aft"
+
+/area/map_template/pirate_ship/skipjack_shuttle
+	name = "\improper Hades"
+	icon_state = "yellow"
 	req_access = list(access_syndicate)
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 // The following mirror is ~special~.
 /obj/item/weapon/storage/mirror/raider
@@ -64,7 +102,7 @@
 	shattered = 1
 
 /obj/item/weapon/storage/mirror/raider/use_mirror(mob/living/carbon/human/user)
-	if(istype(get_area(src),/area/map_template/syndicate_mothership))
+	if(istype(get_area(src),/area/map_template/pirate_ship/dormitories))
 		if(istype(user) && user.mind && user.mind.special_role == "Raider" && user.species.name != SPECIES_VOX && is_alien_whitelisted(user, SPECIES_VOX))
 			var/choice = input("Do you wish to become a true Vox of the Shoal? This is not reversible.") as null|anything in list("No","Yes")
 			if(choice && choice == "Yes")

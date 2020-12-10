@@ -142,7 +142,7 @@ GLOBAL_DATUM_INIT(raiders, /datum/antagonist/raider, new)
 		return 0
 
 	for(var/datum/mind/player in current_antagonists)
-		if(!player.current || get_area(player.current) != locate(/area/map_template/skipjack_station/start))
+		if(!player.current || get_area(player.current) != locate(/area/map_template/pirate_ship/skipjack_shuttle))
 			return 0
 	return 1
 
