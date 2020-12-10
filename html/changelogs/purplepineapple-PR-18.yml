@@ -1,0 +1,7 @@
+author: PurplePineapple
+
+delete-after: True
+
+changes: 
+  - rscadd: "Adds hestia's alert level lighting, colours have been toned down a bit to be easier on the eyes."
+  - tweak: "A definition and a datums file have been edited because they, in fact, did not appreciate being modularly overwritten."
