@@ -5,15 +5,17 @@
 
 /datum/map/torch/get_map_info()
 	. = list()
-	. +=  "You're aboard the " + replacetext("<b>[station_name]</b>", "\improper", "") + ", an Expeditionary Corps starship. Its primary mission is looking for undiscovered sapient alien species, and general exploration along the way."
-	. +=  "The vessel is staffed with a mix of SCG government personnel and hired contractors."
-	. +=  "This area of space is uncharted, away from SCG territory. You might encounter remote outposts or drifting hulks, but no recognized government holds claim on this sector."
+	. += "Congratulations on your employment aboard the NTSS (NanoTrasen Solarian Ship) Dagon."
+	. += "It is an Epsilon Class Vessel outfitted with state of the art medical, research, and security facilities for all your needs!"
+	. += ""
+	. += "It is a re-commissioned science vessel revamped to be closer to a military vessel."
+	. += "Capable of responding both to deal with most minor insurrectionist threats in a rapid fashion as well as explore any 'forgotten' planets in these sectors."
 	return jointext(., "<br>")
 
 /datum/map/torch/send_welcome()
 	var/obj/effect/overmap/visitable/ship/torch = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/torch)
 
-	var/welcome_text = "<center><img src = sollogo.png /><br /><font size = 3><b>SEV Torch</b> Sensor Readings:</font><br>"
+	var/welcome_text = "<center><img src = sollogo.png /><br /><font size = 3><b>NTSS Dagon</b> Sensor Readings:</font><br>"
 	welcome_text += "Report generated on [stationdate2text()] at [stationtime2text()]</center><br /><br />"
 	welcome_text += "<hr>Current system:<br /><b>[torch ? system_name() : "Unknown"]</b><br /><br>"
 
@@ -53,5 +55,5 @@
 			welcome_text += "<br>No distress calls logged.<br />"
 		welcome_text += "<hr>"
 
-	post_comm_message("SEV Torch Sensor Readings", welcome_text)
+	post_comm_message("NTSS Dagon Sensor Readings", welcome_text)
 	minor_announcement.Announce(message = "New [GLOB.using_map.company_name] Update available at all communication consoles.")

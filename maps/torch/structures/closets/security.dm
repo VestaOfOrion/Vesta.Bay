@@ -1,5 +1,5 @@
 /*
- * Torch Security
+ * Dagon Security
  */
 
 /decl/closet_appearance/secure_closet/torch/security

@@ -169,7 +169,7 @@
 	desc = "A \"confidential\" notice issued to Sol Government Representatives, informing them of an office fire caused by improper cigarette ash management."
 
 /obj/item/document/generic/scgr/boringreports
-	name = "\improper Torch project status update #132"
+	name = "\improper Dagon project status update #132"
 	desc = "A \"confidential\" report containing nothing you'd like to read, featuring updates that you knew about three weeks ago."
 
 /obj/item/document/generic/scgr/documentdamage
@@ -182,7 +182,7 @@
 
 /obj/item/documents/generic/scgr/yourjob
 	name = "\improper SCG and you"
-	desc = "Some \"confidential\" briefing documents, detailing the job of the SCGR in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the SEV Torch. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."
+	desc = "Some \"confidential\" briefing documents, detailing the job of the SCGR in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the NTSS Dagon. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."
 
 /obj/item/document/generic/scgr/perdiemdeny
 	name = "per diem denials"
@@ -198,7 +198,7 @@
 
 /obj/item/documents/generic/sol/unathiwork
 	name = "Sinta'unathi behavioral guide"
-	desc = "An \"internal use only\" memo from a mid-level officer at Expeditionary Command containing common sinta'unathi behaviors that help explain some of their quirky behaviors. A bullet list contains various hints such as \"thumping the tail is a sign of itchiness\", \"unathi hiss when they are angry\", and \"letting you touch their tail is a sign of great trust\". The document seems very hastily-made and you're not sure you trust it fully."
+	desc = "An \"internal use only\" memo from a mid-level officer at Central Command containing common sinta'unathi behaviors that help explain some of their quirky behaviors. A bullet list contains various hints such as \"thumping the tail is a sign of itchiness\", \"unathi hiss when they are angry\", and \"letting you touch their tail is a sign of great trust\". The document seems very hastily-made and you're not sure you trust it fully."
 
 /obj/item/document/generic/sol/blastpain
 	name = "incident report"
@@ -238,7 +238,7 @@
 
 obj/item/documents/generic/sol/realitybreak
 	name = "\improper Bluespace drive apparitions"
-	desc = "An \"internal use only\" memo sent from Expeditionary Command, based on a document from Krri'gli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace \"double\" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of irrecoverable catatonia in those who have."
+	desc = "An \"internal use only\" memo sent from Central Command, based on a document from Krri'gli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace \"double\" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of irrecoverable catatonia in those who have."
 
 /obj/item/documents/generic/sol/njprules
 	name = "non-judicial punishments"
@@ -250,15 +250,15 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/sup/skrellcookery
 	name = "food for alien species memo"
-	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Expeditionary Command detailing how to provision meals for Skrell crew. The memo seems to be vaguely misinformed and claims that Skrell should only be given hallucinogenic mushrooms and toast."
+	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Central Command detailing how to provision meals for Skrell crew. The memo seems to be vaguely misinformed and claims that Skrell should only be given hallucinogenic mushrooms and toast."
 
 /obj/item/documents/generic/sup/gasprovisioning
 	name = "food for alien species memo"
-	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of expeditionary command detailing how to provision meals for Giant Armored Serpentid staff. It implies quite heavily that cost is a concern, and they should not be given meat except in exceptional circumstances and should otherwise only be given cheap cabbage."
+	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Central Command detailing how to provision meals for Giant Armored Serpentid staff. It implies quite heavily that cost is a concern, and they should not be given meat except in exceptional circumstances and should otherwise only be given cheap cabbage."
 
 /obj/item/documents/generic/sup/shotgunblues
 	name = "in defense of the bar"
-	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Expeditionary Command detailing that the service department does not need self-defense weapons, and any arguments to the contrary will be handled internally. A personal memo has been added; an underlined \"STOP ASKING US\" penned onto the page."
+	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Central Command detailing that the service department does not need self-defense weapons, and any arguments to the contrary will be handled internally. A personal memo has been added; an underlined \"STOP ASKING US\" penned onto the page."
 
 /obj/item/documents/generic/sup/officelocation
 	name = "supply office location reminder"
@@ -298,7 +298,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/eng/repairs
 	name = "maintenance reports"
-	desc = "Some \"confidential\" reports regarding the state of the SEV Torch. Of note are the rusty cistern, faulty disposal pipes, clogged sinks, and an under-sized atmospheric system."
+	desc = "Some \"confidential\" reports regarding the state of the NTSS Dagon. Of note are the rusty cistern, faulty disposal pipes, clogged sinks, and an under-sized atmospheric system."
 
 /obj/item/documents/generic/eng/shieldsoff
 	name = "shielding recommendations"
@@ -422,7 +422,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/explo/cigarettes
 	name = "cigarettes with helmets"
-	desc = "Some \"internal use only\" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a \"No Smoking\" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the SEV Torch and not when wearing a helmet."
+	desc = "Some \"internal use only\" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a \"No Smoking\" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the NTSS Dagon and not when wearing a helmet."
 
 /obj/item/documents/generic/explo/documentplease
 	name = "on documentation of sites"
@@ -470,11 +470,11 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/corp/stipendcut
 	name = "corporate spending records"
-	desc = "A \"confidential\" memo on the current usage of funds provided to SEV Torch corporate liaisons; apparently there's threats of a strike over a cut to the cost-of-living stipends by the head office."
+	desc = "A \"confidential\" memo on the current usage of funds provided to NTSS Dagon corporate liaisons; apparently there's threats of a strike over a cut to the cost-of-living stipends by the head office."
 
 /obj/item/documents/generic/corp/LPArenting
 	name = "\improper LPA usage notice"
-	desc = "A \"confidential\" notice to the corporate liaison aboard the SEV Torch that their security staff are for their use only, and renting them out as extra manpower to security is a gross violation of their contract."
+	desc = "A \"confidential\" notice to the corporate liaison aboard the NTSS Dagon that their security staff are for their use only, and renting them out as extra manpower to security is a gross violation of their contract."
 
 /obj/item/documents/generic/corp/uniondues
 	name = "union dues reminder"
@@ -490,7 +490,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/corp/exointerest
 	name = "\improper EXO and you"
-	desc = "Some \"confidential\" corporate documents directed to the corporate liasion, informing them that their job is to represent EXO and its immediate interests, which are to ensure the SEV Torch is able to maintain the currently defined direction that is within the interests of EXO as a whole. "
+	desc = "Some \"confidential\" corporate documents directed to the corporate liasion, informing them that their job is to represent EXO and its immediate interests, which are to ensure the NTSS Dagon is able to maintain the currently defined direction that is within the interests of EXO as a whole. "
 
 /obj/item/documents/generic/corp/thequarterly
 	name = "quarterly budget report"
@@ -502,7 +502,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/corp/spellchecker
 	name = "spellchecking and you"
-	desc = "Some \"internal use only\" corporate memos reminding corporate liaisons to proofread reports. It details various reasons behind why correct spelling and punctuation help in making EXO and Expeditionary Command take your report seriously."
+	desc = "Some \"internal use only\" corporate memos reminding corporate liaisons to proofread reports. It details various reasons behind why correct spelling and punctuation help in making EXO and Central Command take your report seriously."
 
 /obj/item/documents/generic/corp/assistants
 	name = "misuse of delegated personnel"
