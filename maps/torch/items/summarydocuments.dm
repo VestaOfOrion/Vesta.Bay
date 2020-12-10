@@ -198,7 +198,7 @@
 
 /obj/item/documents/generic/sol/unathiwork
 	name = "Sinta'unathi behavioral guide"
-	desc = "An \"internal use only\" memo from a mid-level officer at Expeditionary Command containing common sinta'unathi behaviors that help explain some of their quirky behaviors. A bullet list contains various hints such as \"thumping the tail is a sign of itchiness\", \"unathi hiss when they are angry\", and \"letting you touch their tail is a sign of great trust\". The document seems very hastily-made and you're not sure you trust it fully."
+	desc = "An \"internal use only\" memo from a mid-level officer at Central Command containing common sinta'unathi behaviors that help explain some of their quirky behaviors. A bullet list contains various hints such as \"thumping the tail is a sign of itchiness\", \"unathi hiss when they are angry\", and \"letting you touch their tail is a sign of great trust\". The document seems very hastily-made and you're not sure you trust it fully."
 
 /obj/item/document/generic/sol/blastpain
 	name = "incident report"
@@ -238,7 +238,7 @@
 
 obj/item/documents/generic/sol/realitybreak
 	name = "\improper Bluespace drive apparitions"
-	desc = "An \"internal use only\" memo sent from Expeditionary Command, based on a document from Krri'gli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace \"double\" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of irrecoverable catatonia in those who have."
+	desc = "An \"internal use only\" memo sent from Central Command, based on a document from Krri'gli Engineering. It states that any humanoid figures seen during a bluespace jump are incorporeal apparitions and no mind should be paid to them, even if they appear familiar. In addition, it notes the existence of a bluespace \"double\" that living crew may experience and strongly urges them not to touch said double, as tempting as it may be, citing many cases of irrecoverable catatonia in those who have."
 
 /obj/item/documents/generic/sol/njprules
 	name = "non-judicial punishments"
@@ -250,15 +250,15 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/sup/skrellcookery
 	name = "food for alien species memo"
-	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Expeditionary Command detailing how to provision meals for Skrell crew. The memo seems to be vaguely misinformed and claims that Skrell should only be given hallucinogenic mushrooms and toast."
+	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Central Command detailing how to provision meals for Skrell crew. The memo seems to be vaguely misinformed and claims that Skrell should only be given hallucinogenic mushrooms and toast."
 
 /obj/item/documents/generic/sup/gasprovisioning
 	name = "food for alien species memo"
-	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of expeditionary command detailing how to provision meals for Giant Armored Serpentid staff. It implies quite heavily that cost is a concern, and they should not be given meat except in exceptional circumstances and should otherwise only be given cheap cabbage."
+	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Central Command detailing how to provision meals for Giant Armored Serpentid staff. It implies quite heavily that cost is a concern, and they should not be given meat except in exceptional circumstances and should otherwise only be given cheap cabbage."
 
 /obj/item/documents/generic/sup/shotgunblues
 	name = "in defense of the bar"
-	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Expeditionary Command detailing that the service department does not need self-defense weapons, and any arguments to the contrary will be handled internally. A personal memo has been added; an underlined \"STOP ASKING US\" penned onto the page."
+	desc = "An \"internal use only\" memo sent from the Executive Officer on behalf of Central Command detailing that the service department does not need self-defense weapons, and any arguments to the contrary will be handled internally. A personal memo has been added; an underlined \"STOP ASKING US\" penned onto the page."
 
 /obj/item/documents/generic/sup/officelocation
 	name = "supply office location reminder"
@@ -502,7 +502,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/corp/spellchecker
 	name = "spellchecking and you"
-	desc = "Some \"internal use only\" corporate memos reminding corporate liaisons to proofread reports. It details various reasons behind why correct spelling and punctuation help in making EXO and Expeditionary Command take your report seriously."
+	desc = "Some \"internal use only\" corporate memos reminding corporate liaisons to proofread reports. It details various reasons behind why correct spelling and punctuation help in making EXO and Central Command take your report seriously."
 
 /obj/item/documents/generic/corp/assistants
 	name = "misuse of delegated personnel"

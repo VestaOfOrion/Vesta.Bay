@@ -79,7 +79,7 @@
 	var/obj/effect/overmap/visitable/torch = map_sectors["[z]"]
 	var/memo = {"
 	<tt><center><b><font color='red'>SECRET - CODE WORDS: DAGON</font></b>
-	<h3>SOL CENTRAL GOVERNMENT EXPEDITIONARY COMMAND</h3>
+	<h3>NANOTRANSEN CENTRAL COMMAND</h3>
 	<img src = sollogo.png>
 	</center>
 	<b>FROM:</b> ADM William Lau<br>
@@ -106,7 +106,7 @@
 	Report all findings via bluespace comm buoys during inter-system jumps.<br>
 
 	<i>ADM Lau.</i></tt>
-	<i>This paper has been stamped with the stamp of SCG Expeditionary Command.</i>
+	<i>This paper has been stamped with the stamp of NT Central Command.</i>
 	"}
 	new/obj/item/weapon/paper(src, memo, "Standing Orders")
 	new/obj/item/weapon/paper/umbra(src)
@@ -131,7 +131,7 @@
 	<b>SUBJECT:</b> UMBRA protocol<br>
 	<hr>
 	This is a small addendum to the usual operating procedures. Unlike the rest of SOP, this is not left to the Commanding Officer's discretion and is mandatory. As unconventional as this is, we felt it is essential for smooth operation of this mission.<br>
-	Procedure can be initiated only by transmission from SCG Expeditionary Command via secure channel. The sender may not introduce themselves, but you shouldn't have trouble confirming the transmission source, I believe.<br>
+	Procedure can be initiated only by transmission from NT Central Command via secure channel. The sender may not introduce themselves, but you shouldn't have trouble confirming the transmission source, I believe.<br>
 	The signal to initiate the procedure are codewords 'GOOD NIGHT WORLD' used in this order as one phrase. You do not need to send acknowledgement.
 	<li>Information about this expedition's findings is to be treated as secret and vital to SCG's national security, and is protected under codeword UMBRA. Only SCG government employees and Skrell citizens aboard the NTSS Dagon are allowed access to this information on a need-to-know basis.</li>
 	<li>The secrecy of this information is to be applied retroactively. Any non-cleared personnel who were exposed to such information are to be secured and transferred to DIA on arrival at home port.</li>

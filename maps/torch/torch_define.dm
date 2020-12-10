@@ -18,10 +18,10 @@
 	station_name  = "\improper NTSS Dagon"
 	station_short = "\improper Dagon"
 	dock_name     = "TBD"
-	boss_name     = "Expeditionary Command"
+	boss_name     = "Central Command"
 	boss_short    = "Command"
-	company_name  = "Sol Central Government"
-	company_short = "SolGov"
+	company_name  = "NanoTransen"
+	company_short = "NT"
 
 	map_admin_faxes = list(
 		"Expeditionary Corps Command",

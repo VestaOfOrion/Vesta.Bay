@@ -23,10 +23,10 @@
 #STATION_NAME NTSS Dagon
 #STATION_SHORT Dagon
 #DOCK_NAME TBD
-#BOSS_NAME Expeditionary Command
+#BOSS_NAME Central Command
 #BOSS_SHORT Command
-#COMPANY_NAME Sol Central Government
-#COMPANY_SHORT SolGov
+#COMPANY_NAME Nanotransen
+#COMPANY_SHORT NT
 
 ## Messages to use for different round-end conditions. %ETA% is replaced with a time.
 #SHUTTLE_DOCKED_MESSAGE Attention all hands: Jump preparation complete. The bluespace drive is now spooling up, secure all stations for departure. Time to jump: approximately %ETD%.
