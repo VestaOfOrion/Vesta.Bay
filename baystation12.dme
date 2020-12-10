@@ -3202,6 +3202,7 @@
 #include "modular_boh\code\modules\material.dm"
 #include "modular_boh\code\modules\augment\augments.dm"
 #include "modular_boh\code\modules\circuitboards\circuitboards.dm"
+#include "modular_boh\code\modules\clothing\spacesuits\rig\suit\infantry.dm"
 #include "modular_boh\code\modules\datums\access.dm"
 #include "modular_boh\code\modules\designs\designs_arms_ammo.dm"
 #include "modular_boh\code\modules\mob\mob.dm"
