@@ -12460,7 +12460,7 @@
 	dir = 8
 	},
 /obj/machinery/button/blast_door{
-	id_tag = "Prison Gate";
+	id_tag = "Solitary";
 	name = "Cell Bolt Control";
 	pixel_x = 6;
 	pixel_y = 24
@@ -12940,6 +12940,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/highsecurity{
+	id_tag = "Solitary";
 	name = "Solitary Holding"
 	},
 /obj/machinery/door/firedoor,
@@ -22422,6 +22423,9 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 5
 	},
+/obj/machinery/camera/network/security{
+	c_tag = "Brig - Solitary Holding"
+	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
 "kSi" = (
@@ -24476,6 +24480,10 @@
 "nne" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/machinery/camera/network/security{
+	c_tag = "Brig - Solitary Holding - Lobby";
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)

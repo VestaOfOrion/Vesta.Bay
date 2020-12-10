@@ -6463,6 +6463,13 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/substation/thirddeck)
+"ns" = (
+/obj/machinery/door/airlock/civilian{
+	id_tag = "Cabin3";
+	name = "Bunk Room"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bunk)
 "nt" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /obj/machinery/computer/HolodeckControl{
@@ -8316,6 +8323,7 @@
 /area/turret_protected/ai_upload)
 "rV" = (
 /obj/machinery/door/airlock{
+	id_tag = "Dorm1";
 	name = "Cabin"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8574,6 +8582,13 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/thirddeck/center)
+"sq" = (
+/obj/machinery/door/airlock/civilian{
+	id_tag = "Cabin2";
+	name = "Bunk Room"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bunk)
 "sr" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -9722,6 +9737,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
+"vv" = (
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "Dorm1";
+	pixel_y = 24
+	},
+/turf/simulated/floor/carpet/blue3,
+/area/crew_quarters_boh/cabin_main)
 "vy" = (
 /obj/item/weapon/beach_ball,
 /turf/simulated/floor/grass,
@@ -9775,6 +9797,7 @@
 /area/maintenance/thirddeck/foreport)
 "vO" = (
 /obj/machinery/door/airlock/civilian{
+	id_tag = "Cabin1";
 	name = "Bunk Room"
 	},
 /turf/simulated/floor/carpet,
@@ -9790,6 +9813,7 @@
 	pixel_y = 0
 	},
 /obj/machinery/button/alternate/door/bolts{
+	id_tag = "Cabin6";
 	pixel_y = 24
 	},
 /turf/simulated/floor/carpet/green,
@@ -9878,6 +9902,13 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/turret_protected/ai_upload)
+"wf" = (
+/obj/machinery/door/airlock/civilian{
+	id_tag = "Cabin4";
+	name = "Bunk Room"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bunk)
 "wg" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -10631,6 +10662,7 @@
 	pixel_y = 0
 	},
 /obj/machinery/button/alternate/door/bolts{
+	id_tag = "Cabin1";
 	pixel_y = 24
 	},
 /turf/simulated/floor/carpet/green,
@@ -10740,6 +10772,19 @@
 /obj/item/weapon/storage/box/cups,
 /turf/simulated/floor/tiled/white/monotile,
 /area/crew_quarters/sleep/cryo)
+"yn" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet,
+/obj/item/weapon/storage/secure/safe{
+	pixel_x = -22;
+	pixel_y = 0
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "Cabin2";
+	pixel_y = 24
+	},
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/sleep/bunk)
 "yp" = (
 /obj/structure/ladder,
 /obj/effect/floor_decal/corner/brown{
@@ -11060,6 +11105,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/command/disperser)
+"zk" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet,
+/obj/item/weapon/storage/secure/safe{
+	pixel_x = -22;
+	pixel_y = 0
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "Cabin3";
+	pixel_y = 24
+	},
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/sleep/bunk)
 "zl" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -11283,6 +11341,7 @@
 	},
 /obj/random/plushie,
 /obj/machinery/button/alternate/door/bolts{
+	id_tag = "Cabin4";
 	pixel_y = 24
 	},
 /turf/simulated/floor/carpet/green,
@@ -12479,6 +12538,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/ofd)
+"Dy" = (
+/obj/machinery/door/airlock/civilian{
+	id_tag = "Cabin5";
+	name = "Bunk Room"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bunk)
 "Dz" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/reagent_dispensers/fueltank,
@@ -12990,9 +13056,6 @@
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters_boh/cabin_main)
 "ED" = (
-/obj/machinery/button/alternate/door/bolts{
-	pixel_y = 24
-	},
 /obj/structure/bed,
 /turf/simulated/floor/carpet/blue3,
 /area/crew_quarters_boh/cabin_main)
@@ -13246,6 +13309,7 @@
 /area/hallway/primary/thirddeck/ofd)
 "Fk" = (
 /obj/machinery/door/airlock{
+	id_tag = "Dorm2";
 	name = "Cabin"
 	},
 /obj/machinery/door/firedoor,
@@ -14158,6 +14222,19 @@
 /obj/item/modular_computer/laptop/preset/custom_loadout/cheap,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/thirddeck)
+"Hw" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet,
+/obj/item/weapon/storage/secure/safe{
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "Cabin5";
+	pixel_y = 24
+	},
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/sleep/bunk)
 "Hx" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -18839,6 +18916,13 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
+"Ty" = (
+/obj/machinery/door/airlock/civilian{
+	id_tag = "Cabin6";
+	name = "Bunk Room"
+	},
+/turf/simulated/floor/carpet,
+/area/crew_quarters/sleep/bunk)
 "TA" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -20566,6 +20650,7 @@
 /area/maintenance/thirddeck/forestarboard)
 "Ya" = (
 /obj/machinery/button/alternate/door/bolts{
+	id_tag = "Dorm2";
 	pixel_y = 24
 	},
 /turf/simulated/floor/carpet/magenta,
@@ -35903,9 +35988,9 @@ Yb
 uM
 xY
 wW
-xY
+yn
 wW
-xY
+zk
 uM
 LW
 BV
@@ -36105,9 +36190,9 @@ Cm
 uM
 vO
 wW
-vO
+sq
 wW
-vO
+ns
 uM
 Bq
 BV
@@ -36507,11 +36592,11 @@ uM
 Bt
 Co
 wW
-vO
+Ty
 wW
-vO
+Dy
 wW
-vO
+wf
 uM
 Bq
 GW
@@ -36711,7 +36796,7 @@ Cp
 wW
 vQ
 wW
-vQ
+Hw
 wW
 zT
 uM
@@ -42368,7 +42453,7 @@ YZ
 EE
 CU
 ub
-GL
+vv
 II
 Hj
 ub
