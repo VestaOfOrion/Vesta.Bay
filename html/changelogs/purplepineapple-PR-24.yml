@@ -2,5 +2,5 @@ author: PurplePineapple
 
 delete-after: True
 
- - rscadd: "Code and icons for infantry/recon's new hardsuit, the ''recon hardsuit control module''. Comes with a regular variant known as ''advanced recon'', infantry's version which is just ''recon'', and a Deathsquad version called ''Advanced assault''"
+ - rscadd: "Code and icons for infantry and recon's new hardsuit, the 'recon hardsuit control module'. Comes with a regular variant known as 'advanced recon', infantry's version which is just 'recon' and a Deathsquad version called 'Advanced assault'."
  - bugfix: "Fixes the CO spawning with an invisible hat"
