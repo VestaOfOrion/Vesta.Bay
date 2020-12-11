@@ -1,0 +1,9 @@
+author: PurplePineapple
+
+delete-after: True
+
+changes: 
+  - rscadd: "Added Tajaran Languages/Cultures."
+  - rscadd: "Added Shell IPC sprites."
+  - tweak: "Fixed Shell IPC equipment to be less of a hackjob"
+  - tweak: "Vox no longer have to be less than 90 years old. Humans/Aliens of all types must be 18+. IPCs can be any age between 1-100 because robot."

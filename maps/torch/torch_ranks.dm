@@ -110,7 +110,7 @@
 /datum/mil_branch/expeditionary_corps
 	name = "Expeditionary Corps"
 	name_short = "SCGEC"
-	email_domain = "torch.ec.scg"
+	email_domain = "dagon.ec.scg"
 
 	rank_types = list(
 		/datum/mil_rank/ec/e3,
@@ -141,7 +141,7 @@
 /datum/mil_branch/fleet
 	name = "Fleet"
 	name_short = "SCGF"
-	email_domain = "torch.fleet.mil"
+	email_domain = "dagon.fleet.mil"
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,
@@ -249,7 +249,7 @@
 /datum/mil_branch/solgov
 	name = "SolGov Employee"
 	name_short = "SCG"
-	email_domain = "torch.scg"
+	email_domain = "dagon.scg"
 
 	rank_types = list(
 		/datum/mil_rank/sol/gov,

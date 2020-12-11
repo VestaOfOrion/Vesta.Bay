@@ -1,0 +1,8 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - tweak: "Names NTSS Dagon properly."
+  - rscadd: "NTSS Dagon welcome message."
+  - imageadd: "Custom NTSS Dagon lobby images."

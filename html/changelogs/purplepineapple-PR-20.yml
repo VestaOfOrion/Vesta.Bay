@@ -1,0 +1,7 @@
+author: PurplePineapple
+
+delete-after: True
+
+changes: 
+  - rscadd: "Beanbag shotgun and Z2 Hornet are added to the game along with their ammo boxes."
+  - rscadd: "New sprites for every 'Z' type weapon"
