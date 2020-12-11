@@ -3,4 +3,4 @@ author: PurplePineapple
 delete-after: True
 
   - rscadd: "Code and icons for infantry and recon's new hardsuit."
- - bugfix: "Fixes the CO spawning with an invisible hat"
+  - bugfix: "Fixes the CO spawning with an invisible hat"
