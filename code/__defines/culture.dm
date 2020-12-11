@@ -212,6 +212,11 @@
 #define CULTURE_SYMBIOTIC		"Symbiote Host"
 #define CULTURE_UNATHI			"Moghes Hegemony"
 #define CULTURE_SERGAL			"The Sergals"
+#define CULTURE_NAJRRO 			"Naj'rro' Ak'han (Those of the Free Spirit)"
+#define CULTURE_RAKARZIZ 		"Ra'kar'ziz Tajara (Seeker of the Faith)"
+#define CULTURE_NEERROM 		"Nee'rro'm Zan (Wanderers of the Tundra)"
+#define CULTURE_ZHAN 			"Zhan Tajara (Keepers of the Oath)"
+#define CULTURE_TAJARAN_OTHER 	"Other Tajaran"
 
 ///## FACTION UNATHI ###########################
 

@@ -1,0 +1,15 @@
+author: Lamasmaster
+
+delete-after: True
+
+changes: 
+  - maptweak: Added SMC attach office in between EVA and CMO office on bridge deck, extended bridge deck hallway to aquila which now looks like byahkee again
+  - maptweak: Added AI back in with it being on back of bridge deck (armory being vented is a feature)
+  - maptweak: AI upload is now on D2 and on D3 (indeed intentional)
+  - maptweak: New hallway leading to OFD with brand new maintdorms on deck 3
+  - maptweak: Infantry prep is on D5 and auxiliary infarmy was moved south, there is new hallway leading to infantry prep.
+  - maptweak: PADV office is now on D1 (where SMC attache used to be) only office and waiting room
+  - maptweak: Bigger RnD office contains an chemlab now and is bit longer
+  - maptweak: Added relacer to OR1 and cloning into morgue
+  - maptweak: Replaced Tactical armory (the one in Earm because we had two) with Militia armory which contains bare minimum for your mob of validhunters
+  - maptweak: Bridge officer dorms readded and now them with CO and XO spawn in their respective rooms (only roundstart), cameras added to each room on bridge.

@@ -42,3 +42,9 @@
 	desc = "A high-power bullet casing."
 	caliber = CALIBER_PISTOL_MAGNUM_LARGE
 	projectile_type = /obj/item/projectile/bullet/pistol/large
+
+/obj/item/projectile/bullet/rifle/military/large
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/hornet.ogg'
+	damage = 45
+	armor_penetration = 30
+	distance_falloff = 0.50

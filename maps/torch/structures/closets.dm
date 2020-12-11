@@ -1,5 +1,5 @@
 /*
- * Torch Excavation
+ * Dagon Excavation
  */
 
 /obj/structure/closet/toolcloset/excavation

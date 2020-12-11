@@ -1,0 +1,15 @@
+author: Peekaboom
+
+delete-after: True
+
+changes:
+  - rscadd: "Long labcoats."
+  - imageadd: "Long labcoats."
+  - rscadd: "Custom Kevlars colors."
+  - imageadd: "Custom Kevlars colors."
+  - rscadd: "Custom light plated arm/legguards."
+  - imageadd: "Custom light plated arm/legguards."
+  - rscadd: "Self-protection helmet: Civillian protection hats."
+  - imageadd: "Self-protection helmet: Civillian protection hats."
+  - rscadd: "Custom loadout selection: Augments for mechanical arms."
+  - rscadd: "Custom items selection into loadout preferences."
