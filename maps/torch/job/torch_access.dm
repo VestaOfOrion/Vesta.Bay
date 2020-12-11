@@ -1,5 +1,5 @@
 /************
-* SEV Torch *
+* NTSS Dagon *
 ************/
 /var/const/access_hangar = "ACCESS_TORCH_HANGAR" //73
 /datum/access/hangar
@@ -213,5 +213,5 @@
 /var/const/access_torch_helm = "ACCESS_TORCH_HELM"
 /datum/access/torch_helm
 	id = access_torch_helm
-	desc = "Torch Helm"
+	desc = "Dagon Helm"
 	region = ACCESS_REGION_COMMAND

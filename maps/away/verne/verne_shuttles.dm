@@ -55,7 +55,7 @@
 	landmark_tag = "nav_verne_4"
 
 /obj/effect/shuttle_landmark/nav_verne/torch
-	name = "SEV Torch Venerable Catfish Dock"
+	name = "NTSS Dagon Venerable Catfish Dock"
 	landmark_tag = "nav_verne_5"
 
 /obj/effect/shuttle_landmark/transit/verne

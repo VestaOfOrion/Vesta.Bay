@@ -1,13 +1,13 @@
 //army outfits
 /decl/hierarchy/outfit/job/torch/army
-	name = OUTFIT_JOB_NAME("SCGA Soldier - Torch")
+	name = OUTFIT_JOB_NAME("SCGA Soldier - Dagon")
 	uniform = /obj/item/clothing/under/solgov/utility/army
 	head = /obj/item/clothing/head/solgov/utility/army
 	back = /obj/item/weapon/storage/backpack/rucksack/green
 	shoes = /obj/item/clothing/shoes/jungleboots
 
 /decl/hierarchy/outfit/job/torch/armyservice
-	name = OUTFIT_JOB_NAME("SCGA Service - Torch")
+	name = OUTFIT_JOB_NAME("SCGA Service - Dagon")
 	uniform = /obj/item/clothing/under/solgov/service/army
 	head = /obj/item/clothing/head/solgov/service/army
 	suit = /obj/item/clothing/suit/storage/solgov/service/army
@@ -29,7 +29,7 @@
 	uniform = /obj/item/clothing/under/solgov/service/army/command/skirt
 
 /decl/hierarchy/outfit/job/torch/armydress
-	name = OUTFIT_JOB_NAME("SCGA Dress - Torch")
+	name = OUTFIT_JOB_NAME("SCGA Dress - Dagon")
 	uniform = /obj/item/clothing/under/solgov/mildress/army
 	head = /obj/item/clothing/head/solgov/dress/army
 	suit = /obj/item/clothing/suit/dress/solgov/army

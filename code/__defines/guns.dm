@@ -41,6 +41,7 @@
 
 #define CALIBER_SABOT			"sabot"
 #define CALIBER_PISTOL_MAGNUM_LARGE ".454mm"
+#define CALIBER_RIFLE_MILITARY_LARGE "12mmR"
 
 //###################################################################################################################
 //# VESTA.BAY BoH custom items port #################################################################################

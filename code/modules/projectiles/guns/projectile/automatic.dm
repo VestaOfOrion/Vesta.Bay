@@ -170,7 +170,7 @@
 /obj/item/weapon/gun/projectile/automatic/bullpup_rifle
 	name = "bullpup assault rifle"
 	desc = "The Hephaestus Industries Z8 Bulldog is an older model bullpup carbine. Makes you feel like a space marine when you hold it."
-	icon = 'icons/obj/guns/bullpup_rifle.dmi'
+	icon = 'modular_boh/icon/boh/items/z8.dmi'
 	icon_state = "carbine"
 	item_state = "z8carbine"
 	w_class = ITEM_SIZE_HUGE
@@ -265,7 +265,7 @@
 	mag_insert_sound = 'sound/weapons/guns/interaction/lmg_magin.ogg'
 	mag_remove_sound = 'sound/weapons/guns/interaction/lmg_magout.ogg'
 	can_special_reload = FALSE
-	
+
 	//LMG, better sustained fire accuracy than assault rifles (comparable to SMG), higer move delay and one-handing penalty
 	//No single-shot or 3-round-burst modes since using this weapon should come at a cost to flexibility.
 	firemodes = list(

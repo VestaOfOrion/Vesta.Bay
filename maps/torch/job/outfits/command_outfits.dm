@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/torch/crew/command
-	name = OUTFIT_JOB_NAME("Torch Command Outfit")
+	name = OUTFIT_JOB_NAME("Dagon Command Outfit")
 	hierarchy_type = /decl/hierarchy/outfit/job/torch/crew/command
 	l_ear = /obj/item/device/radio/headset/headset_com
 
@@ -33,7 +33,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/cmo
-	name = OUTFIT_JOB_NAME("Chief Medical Officer - Torch")
+	name = OUTFIT_JOB_NAME("Chief Medical Officer - Dagon")
 	l_ear  =/obj/item/device/radio/headset/heads/cmo
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/officer/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
@@ -51,7 +51,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer
-	name = OUTFIT_JOB_NAME("Chief Engineer - Torch")
+	name = OUTFIT_JOB_NAME("Chief Engineer - Dagon")
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/officer/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_ear = /obj/item/device/radio/headset/heads/ce
