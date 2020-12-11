@@ -164,12 +164,16 @@
 	name = "Z9 Pitbull"
 	desc = "The Hephaestus Industries Z9 Pitbull is a newer generation bullpup carbine. It appears to be heavily modified: forcing the feed of one round type, a permanent semi-auto setting and the removal of the auto-eject function. Lame. \
 	Still has the kickass grenade launcher, though! The aforementioned forced munition is a highly specialized frangible bullet. Designed to minimize crossfire damage, alongside civilian casualties."
+	icon = 'modular_boh/icon/boh/items/z9.dmi'
+	icon_state = "carbine"
+	item_state = "z9carbine"
+	wielded_item_state = "z9carbine-wielded"
 	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3)
 	ammo_type = /obj/item/ammo_casing/rifle/military/low
 	magazine_type = /obj/item/ammo_magazine/mil_rifle/sec
 	allowed_magazines = list(/obj/item/ammo_magazine/mil_rifle/sec, /obj/item/ammo_magazine/mil_rifle/sec/large)
 	auto_eject = 0
-	starts_loaded = 1
+	starts_loaded = 0
 	one_hand_penalty = 6 //lower power rounds
 	jam_chance = 5
 	req_access = list(access_infantry)
@@ -185,6 +189,10 @@
 	name = "Z9B Pitbull"
 	desc = "The Hephaestus Industries Z9B Pitbull is an experimental design of the standard Z9. Having an enforced fire-rate for use aboard civilian heavy areas, it does away with some of the use. \
 	Because of the limited fire-rate, and how the mechanism functions, it has a much higher jam rate."
+	icon = 'modular_boh/icon/boh/items/z9b.dmi'
+	icon_state = "carbine"
+	item_state = "z9carbine"
+	wielded_item_state = "z9bcarbine-wielded"
 	jam_chance = 15
 	req_access = list(access_brig)
 	firemodes = list(
@@ -197,6 +205,10 @@
 	name = "Z6 Komodo"
 	desc = "The Hephaestus Industries Z6 Komodo is an old bullpup carbine conversion. \
 	It adds the possibility of automatic fire, though at the cost of likely jams."
+	icon = 'modular_boh/icon/boh/items/z6.dmi'
+	icon_state = "carbine"
+	item_state = "z6carbine"
+	wielded_item_state = "z6carbine-wielded"
 	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3)
 	auto_eject = 1
 	one_hand_penalty = 8
@@ -213,6 +225,76 @@
 	It appears to have a firing restrictor installed, to prevent firing without authorization aboard the Dagon."
 	req_access = list(access_infantry)
 	authorized_modes = list(UNAUTHORIZED)
+
+//Beanbag shotgun, AKA, the ranged dick kick
+/obj/item/weapon/gun/projectile/shotgun/pump/beanbag
+	name = "KS-40b"
+	desc = "Built for close quarters combat, the Hephaestus Industries KS-40 is widely regarded as a weapon of choice for repelling boarders. \
+	This one appears to be modified to fire nothing but beanbags, and has an orange paintjob on the slide. Trying to fire lethals doesn't seem like a good idea."
+	icon = 'modular_boh/icon/boh/items/shotguns.dmi'
+	icon_state = "bshotgun"
+	item_state = "bshotgun"
+	wielded_item_state = "cshotgun-wielded"
+	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
+	max_shells = 7
+	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
+	one_hand_penalty = 8
+	var/explosion_chance = 100
+
+/obj/item/weapon/gun/projectile/shotgun/pump/beanbag/on_update_icon()
+	..()
+	if(length(loaded) > 3)
+		for(var/i = 0 to length(loaded) - 4)
+			var/image/I = image(icon, "bshell")
+			I.pixel_x = i * 2
+			overlays += I
+
+/obj/item/weapon/gun/projectile/shotgun/pump/beanbag/special_check()
+	if(chambered && chambered.BB && prob(explosion_chance))
+		var/damage = chambered.BB.get_structure_damage()
+		if(istype(chambered.BB, /obj/item/projectile/bullet/pellet))
+			var/obj/item/projectile/bullet/pellet/PP = chambered.BB
+			damage = PP.damage*PP.pellets
+		if(damage > 30)
+			var/mob/living/carbon/C = loc
+			if(istype(loc))
+				C.visible_message("<span class='danger'>[src] explodes in [C]'s hands!</span>", "<span class='danger'>[src] explodes in your face!</span>")
+				C.drop_from_inventory(src)
+				for(var/zone in list(BP_L_HAND, BP_R_HAND, BP_HEAD))
+					C.apply_damage(rand(10,20), def_zone=zone)
+			else
+				visible_message("<span class='danger'>[src] explodes!</span>")
+			explosion(get_turf(src), -1, -1, 1)
+			qdel(src)
+			return FALSE
+	return ..()
+
+//Z2 Hornet. Insert "Meet the Sniper"
+/obj/item/weapon/gun/projectile/hornetsniper
+	name = "Z2 Hornet"
+	desc = "The Z2 Hornet, is an older cousin of the Z9 Pitbull Carbine. This however, is a DMR up-chambered in to 12mm-Sparrow. Accuracy is improved by a side mounted ballistic computer."
+	icon = 'modular_boh/icon/boh/items/hornet.dmi'
+	icon_state = "z2"
+	item_state = "z2hornet"
+	w_class = ITEM_SIZE_HUGE
+	force = 10
+	slot_flags = SLOT_BACK
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 2, TECH_ESOTERIC = 8)
+	caliber = CALIBER_RIFLE_MILITARY_LARGE
+	screen_shake = 0
+	handle_casings = EJECT_CASINGS
+	load_method = SINGLE_CASING
+	max_shells = 5
+	ammo_type = /obj/item/ammo_casing/rifle/military/large
+	one_hand_penalty = 6
+	accuracy = 0
+	bulk = 8
+	scoped_accuracy = 6
+	scope_zoom = 1
+	wielded_item_state = "z2hornet-wielded"
+	load_sound = 'sound/weapons/guns/interaction/shotgun_instert.ogg'
+	fire_delay = 20
+
 
 /////////
 // Laser Carbine
