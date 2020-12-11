@@ -115,6 +115,12 @@ h1.alert, h2.alert		{color: #000080;}
 .say_quote				{font-family: Georgia, Verdana, sans-serif;}
 .adherent				{color: #526c7a;}
 
+/* Vesta.Bay Edits start */
+
+.tajaran				{color: #7a8ad7;}
+
+/* Vesta.Bay Edits end */
+
 .chinese				{color: #d4a52a;}
 .indian					{color: #422863;}
 .iberian				{color: #ff6600;}
