@@ -5,6 +5,10 @@
 	ammo_type = /obj/item/ammo_casing/rifle/military/low
 	max_ammo = 30
 
+/obj/item/ammo_magazine/mil_rifle/sec
+	name = "frangible munitions rifle magazine"
+	ammo_type = /obj/item/ammo_casing/rifle/military/low
+
 //Hornet rifle ammo box
 /obj/item/weapon/storage/box/ammo/hornetammo
 	name = "box of 12mmR rounds"
