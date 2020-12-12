@@ -68,7 +68,7 @@
 /obj/item/weapon/folder/nt/rd
 
 /obj/item/weapon/folder/envelope/captain
-	desc = "A thick envelope. The SCG crest is stamped in the corner, along with 'TOP SECRET - DAGON UMBRA'."
+	desc = "A thick envelope. The NTEF crest is stamped in the corner, along with 'TOP SECRET - DAGON UMBRA'."
 
 /obj/item/weapon/folder/envelope/captain/Initialize()
 	..()
@@ -80,7 +80,7 @@
 	var/memo = {"
 	<tt><center><b><font color='red'>SECRET - CODE WORDS: DAGON</font></b>
 	<h3>NANOTRANSEN CENTRAL COMMAND</h3>
-	<img src = sollogo.png>
+	<img src = nteflogo.png>
 	</center>
 	<b>FROM:</b> ADM William Lau<br>
 	<b>TO:</b> Commanding Officer of NTSS Dagon<br>
@@ -112,7 +112,7 @@
 	new/obj/item/weapon/paper/umbra(src)
 
 /obj/item/weapon/folder/envelope/rep
-	desc = "A thick envelope. The SCG crest is stamped in the corner, along with 'TOP SECRET - DAGON UMBRA'."
+	desc = "A thick envelope. The NTEF crest is stamped in the corner, along with 'TOP SECRET - DAGON UMBRA'."
 
 /obj/item/weapon/folder/envelope/rep/Initialize()
 	. = ..()
@@ -123,7 +123,7 @@
 	info = {"
 	<tt><center><b><font color='red'>TOP SECRET - CODE WORDS: DAGON UMBRA</font></b>
 	<h3>OFFICE OF THE SECRETARY GENERAL OF SOL CENTRAL GOVERNMENT</h3>
-	<img src = sollogo.png>
+	<img src = nteflogo.png>
 	</center>
 	<b>FROM:</b> Johnathan Smitherson, Special Aide of the Secretary General<br>
 	<b>TO:</b> Commanding Officer of the NTSS Dagon<br>
