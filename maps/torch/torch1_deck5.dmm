@@ -105,6 +105,11 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/window/southright{
+	dir = 1;
+	name = "Recon Leader";
+	req_access = list(infcom)
+	},
 /turf/simulated/floor/tiled/dark,
 /area/infantry/infcom)
 "al" = (
@@ -10522,6 +10527,21 @@
 /obj/structure/table/rack,
 /turf/simulated/floor/tiled/dark,
 /area/infantry/inftech)
+"wC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/southright{
+	dir = 1;
+	name = "Recon Technician";
+	req_access = list(inftech)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/infantry/inftech)
 "wD" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/structure/cable{
@@ -10847,7 +10867,6 @@
 /area/maintenance/fifthdeck/fore)
 "xR" = (
 /obj/structure/closet/secure_closet/infantry,
-/obj/item/weapon/rig/military/infantry,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+006
@@ -10856,6 +10875,7 @@
 /obj/item/device/radio,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/pouch_auto/inaprovaline,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/weapon/rig/recon/infantry,
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
 "xS" = (
@@ -16982,7 +17002,6 @@
 	health = 1e+006
 	},
 /obj/structure/closet/secure_closet/inftech,
-/obj/item/weapon/rig/military/infantry,
 /obj/item/ammo_magazine/mil_rifle/sec/large,
 /obj/item/ammo_magazine/mil_rifle/sec/large,
 /obj/structure/window/reinforced{
@@ -17007,6 +17026,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/weapon/rig/recon/infantry,
 /turf/simulated/floor/tiled/dark,
 /area/infantry/inftech)
 "SG" = (
@@ -17455,7 +17475,6 @@
 /area/shuttle/petrov/maint)
 "Ua" = (
 /obj/structure/closet/secure_closet/squad_lead,
-/obj/item/weapon/rig/military/infantry,
 /obj/item/weapon/storage/firstaid/adv,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/device/radio,
@@ -17469,6 +17488,7 @@
 /obj/machinery/light/spot{
 	dir = 8
 	},
+/obj/item/weapon/rig/recon/infantry,
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
 "Ub" = (
@@ -17720,7 +17740,7 @@
 	},
 /obj/structure/cable/green,
 /obj/machinery/door/firedoor,
-/turf/space,
+/turf/simulated/floor/plating,
 /area/infantry)
 "Ve" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -17757,7 +17777,6 @@
 /area/maintenance/fifthdeck/aftstarboard)
 "Vn" = (
 /obj/structure/closet/secure_closet/infantry,
-/obj/item/weapon/rig/military/infantry,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+006
@@ -17769,6 +17788,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/weapon/rig/recon/infantry,
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
 "Vo" = (
@@ -18179,7 +18199,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/door/firedoor,
-/turf/space,
+/turf/simulated/floor/plating,
 /area/infantry)
 "WL" = (
 /obj/machinery/vending/security/infantry,
@@ -19180,7 +19200,6 @@
 /area/shuttle/petrov/analysis)
 "ZW" = (
 /obj/structure/closet/secure_closet/infantry,
-/obj/item/weapon/rig/military/infantry,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8;
@@ -19193,6 +19212,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/weapon/rig/recon/infantry,
 /turf/simulated/floor/tiled/dark,
 /area/infantry)
 "ZY" = (
@@ -31606,7 +31626,7 @@ IJ
 IJ
 IJ
 Yt
-ET
+wC
 Rh
 ET
 ME
