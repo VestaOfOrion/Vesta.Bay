@@ -12652,6 +12652,10 @@
 	},
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/cl)
+"Eh" = (
+/obj/structure/sign/solgov,
+/turf/simulated/wall/r_wall/prepainted,
+/area/crew_quarters/heads/office/sgr)
 "El" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -14144,6 +14148,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
+"Iw" = (
+/obj/structure/sign/solgov,
+/turf/simulated/wall/prepainted,
+/area/command/msea)
 "Iz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -15656,8 +15664,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/medical)
 "Ob" = (
-/obj/structure/sign/solgov,
 /obj/effect/paint/hull,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/titanium,
 /area/aquila/airlock)
 "Oc" = (
@@ -16157,6 +16165,10 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/co)
+"PH" = (
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/prepainted,
+/area/crew_quarters/safe_room/bridge)
 "PL" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -29559,7 +29571,7 @@ fT
 rQ
 ti
 ti
-ti
+PH
 ti
 ti
 ti
@@ -31778,7 +31790,7 @@ fF
 mE
 xZ
 hu
-sL
+Eh
 DZ
 qB
 SL
@@ -36418,7 +36430,7 @@ DN
 kU
 Bv
 ne
-Zy
+Iw
 oY
 oY
 oY
