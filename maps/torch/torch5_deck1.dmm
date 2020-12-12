@@ -11620,12 +11620,18 @@
 /area/security/storage)
 "aOG" = (
 /obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
-/obj/effect/floor_decal/corner/red{
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/table/steel,
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
+	},
+/obj/item/weapon/storage/box/cdeathalarm_kit{
+	pixel_y = 7
+	},
+/obj/item/weapon/storage/toolbox/syndicate,
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "aOI" = (
@@ -15115,11 +15121,10 @@
 	dir = 8;
 	health = 1e+006
 	},
-/obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/door/window/brigdoor/westright{
 	dir = 4;
-	name = "Laser Carbines Case"
+	name = "Hornet Case"
 	},
 /obj/structure/window/reinforced{
 	health = 1e+007
@@ -15127,8 +15132,9 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/item/weapon/gun/energy/laser/secure,
-/obj/item/weapon/gun/energy/laser/secure,
+/obj/structure/table/rack,
+/obj/item/weapon/gun/projectile/hornetsniper,
+/obj/item/weapon/storage/box/ammo/hornetammo,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "bIb" = (
@@ -17295,6 +17301,7 @@
 	name = "Beanbag Shotgun Case"
 	},
 /obj/structure/window/reinforced,
+/obj/item/weapon/gun/projectile/shotgun/pump/beanbag,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "emb" = (
@@ -17832,10 +17839,11 @@
 	dir = 8;
 	health = 1e+006
 	},
+/obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/door/window/brigdoor/westright{
 	dir = 4;
-	name = "Hornet Case"
+	name = "Laser Carbines Case"
 	},
 /obj/structure/window/reinforced{
 	health = 1e+007
@@ -17843,7 +17851,8 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/structure/table/rack,
+/obj/item/weapon/gun/energy/laser/secure,
+/obj/item/weapon/gun/energy/laser/secure,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "fjM" = (
@@ -18811,8 +18820,10 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/weapon/gun/projectile/automatic/sec_smg,
-/obj/item/weapon/gun/projectile/automatic/sec_smg,
+/obj/item/ammo_magazine/smg_top/rubber,
+/obj/item/ammo_magazine/smg_top/rubber,
+/obj/item/ammo_magazine/smg_top/rubber,
+/obj/item/ammo_magazine/smg_top/rubber,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/storage)
 "gQb" = (
@@ -19277,6 +19288,17 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury)
+"hrS" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/machinery/recharger/wallcharger{
+	dir = 4;
+	pixel_x = -23;
+	pixel_y = -3
+	},
+/turf/simulated/floor/tiled/dark,
+/area/security/storage)
 "hsb" = (
 /obj/structure/sign/science_1{
 	dir = 1;
@@ -21107,6 +21129,7 @@
 	},
 /obj/structure/window/reinforced,
 /obj/structure/table/rack,
+/obj/item/weapon/storage/box/ammo/beanbags/full,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "jxa" = (
@@ -22062,12 +22085,17 @@
 	},
 /obj/structure/table/steel,
 /obj/item/weapon/storage/box/cdeathalarm_kit,
-/obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/alarm{
 	pixel_y = 24
 	},
-/obj/item/weapon/storage/box/chemimp,
+/obj/item/weapon/storage/box/chemimp{
+	pixel_y = 6
+	},
 /obj/item/weapon/storage/box/trackimp,
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "kwG" = (
@@ -22584,20 +22612,13 @@
 	c_tag = "Security Wing - Armory";
 	dir = 8
 	},
-/obj/item/ammo_magazine/smg_top/rubber,
-/obj/item/ammo_magazine/smg_top/rubber,
-/obj/structure/table/rack,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/item/ammo_magazine/smg_top/rubber,
-/obj/item/ammo_magazine/smg_top/rubber,
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = 21
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 6;
+	icon_state = "corner_white"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
@@ -24020,7 +24041,9 @@
 	dir = 4;
 	pixel_x = 21
 	},
-/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "mKw" = (
@@ -27628,13 +27651,20 @@
 "qWF" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/window/reinforced,
-/obj/item/weapon/gun/energy/taser/carbine,
-/obj/item/weapon/gun/energy/taser/carbine,
-/obj/item/weapon/gun/energy/taser/carbine,
 /obj/structure/table/rack,
 /obj/structure/window/reinforced{
 	dir = 8;
 	health = 1e+006
+	},
+/obj/item/weapon/gun/energy/taser/carbine,
+/obj/item/weapon/gun/energy/taser/carbine,
+/obj/item/weapon/gun/energy/taser/carbine,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 1;
+	name = "Electrolaser Carbine case"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/storage)
@@ -31318,8 +31348,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/structure/table/steel,
-/obj/item/weapon/storage/toolbox/syndicate,
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "vFa" = (
@@ -31327,6 +31355,18 @@
 /obj/machinery/light,
 /obj/structure/window/reinforced,
 /obj/structure/table/rack,
+/obj/item/weapon/gun/projectile/automatic/sec_smg,
+/obj/item/weapon/gun/projectile/automatic/sec_smg,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 1;
+	name = "Submachinegun Case"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/storage)
 "vFj" = (
@@ -40765,7 +40805,7 @@ kJu
 aOF
 oXx
 qyX
-daN
+hrS
 qWF
 tAS
 tAS
