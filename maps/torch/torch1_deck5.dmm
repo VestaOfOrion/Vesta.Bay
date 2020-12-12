@@ -108,7 +108,7 @@
 /obj/machinery/door/window/southright{
 	dir = 1;
 	name = "Recon Leader";
-	req_access = list(infcom)
+	req_access = list(ACCESS_INFCOM)
 	},
 /turf/simulated/floor/tiled/dark,
 /area/infantry/infcom)
@@ -6012,6 +6012,21 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftport)
+"mW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/window/southright{
+	dir = 1;
+	name = "Recon Technician";
+	req_access = list(ACCESS_INFTECH)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/infantry/inftech)
 "mX" = (
 /obj/machinery/atmospherics/valve/shutoff/supply,
 /obj/structure/railing/mapped{
@@ -10525,21 +10540,6 @@
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack,
-/turf/simulated/floor/tiled/dark,
-/area/infantry/inftech)
-"wC" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/door/window/southright{
-	dir = 1;
-	name = "Recon Technician";
-	req_access = list(inftech)
-	},
 /turf/simulated/floor/tiled/dark,
 /area/infantry/inftech)
 "wD" = (
@@ -31626,7 +31626,7 @@ IJ
 IJ
 IJ
 Yt
-wC
+mW
 Rh
 ET
 ME
