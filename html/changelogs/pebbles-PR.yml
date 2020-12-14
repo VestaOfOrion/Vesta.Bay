@@ -1,0 +1,24 @@
+
+
+# Your name.  
+author: Pebbles the 2nd
+
+# Any changes you've made.  See valid prefix list above.
+# INDENT WITH TWO SPACES.  NOT TABS.  SPACES.
+# SCREW THIS UP AND IT WON'T WORK.
+# Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
+# Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
+changes: 
+  - rscadd: "Spriting: Reskinned Chemmaster, Dispenser"    - rscadd: "Pill bottles 1 pixel wider. Reason: A little bit less aesthetic but a lot more user-friendly, very often used object."
+  - rscadd: "Spriting: New Reagent scanner, Spectroscope icons. New tint to beakers and chems glass."
+  - rscadd: "Added new object, child of grinder, identical, only new skin to fit the new Lab theme."
+  - rscadd: "Spriting: Modified bottle-3 and the reagents linked to give option for larger bottle in Chemmaster."
+  - rscadd: "Spriting: Tape roll resized slightly, new binoculars, modified locator, modified excavation pickholder. Reason: Fit the theme, size streamlining, aesthetic."
+  - rscadd: "Spriting: Replaced icon and made onmob sprited for ballistic launcher. Reason: Old used shotgun onmob sprites and new one is themed."
+  - rscadd: "Spriting: Recoloured and modifed icons for anomaly containers, stasis Cage, atmos scanner. Reason: Expedition theme."
+  - rscadd: "Spriting: Replaced the flaregun icon. Reason: Colour match emergency expedition gear. Slightly smaller to avoid stacking issues. Based on photo of flaregun."
+  - rscadd: "Spriting: Replaced all icons for solar panels. New yellow-gold tint, aesthetic lift. Tweaks to other icons in power.dmi, minor shading, highlights mostly."
+  - maptweak: "Removed decals on B-deck solars. Added catwalks instead. Reason: Aesthetic."
+  - maptweak: "Replaced Grinders on 1st Deck in Medical and Science with Chem Grinder. Cloned item with another skin. Reason: Match colour theme."
+  
+ 

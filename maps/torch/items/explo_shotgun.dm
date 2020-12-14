@@ -11,6 +11,8 @@
 		)
 	var/explosion_chance = 50
 	var/obj/item/pipe/reinforced
+	item_state = "expshotgun"
+	wielded_item_state = "expshotgun-wielded"
 
 /obj/item/weapon/gun/projectile/shotgun/pump/get_mechanics_info()
 	. = ..()
