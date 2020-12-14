@@ -4,7 +4,7 @@
 #define LANGUAGE_HUMAN_ARABIC    "Prototype Standard Arabic"
 #define LANGUAGE_HUMAN_INDIAN    "New Dehlavi"
 #define LANGUAGE_HUMAN_IBERIAN   "Iberian"
-#define LANGUAGE_HUMAN_RUSSIAN   "Gilgamesh Colonial Standard"
+#define LANGUAGE_HUMAN_RUSSIAN   "Gilgamesh Confederal Standard"
 #define LANGUAGE_HUMAN_SELENIAN  "Selenian"
 #define LANGUAGE_HUMAN_GAIAN "Zaphorozian"
 
