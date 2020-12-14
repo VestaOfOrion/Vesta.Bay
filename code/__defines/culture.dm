@@ -257,6 +257,7 @@
 
 //Locations (planets)
 #define HOME_SYSTEM_UCG "Komarov"
+#define HOME_SYSTEM_AIGAION "Aigaion"
 
 //Cultures
 #define CULTURE_HUMAN_UCG "Terran"
