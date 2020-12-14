@@ -11,7 +11,7 @@
 	habitats, and celestial bodies. However, it is large, cumbersome, divided and slow to respond to issues due to \
 	its massive bureaucracy and the distance between worlds. Through its member states, the SCG governs as one of the \
 	most advanced and powerful civilisations in the known galaxy."
-
+/*
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
 	description = "The Fleet is the primary component of the SCG Defence Forces. It mostly protects SCG space from pirates, smugglers, \
@@ -50,6 +50,7 @@
 	economic_power = 0.9
 	subversive_potential = 50
 
+
 /decl/cultural_info/faction/remote
 	name = FACTION_EXPEDITIONARY
 	description = "The Expeditionary Corps is an SCG agency tasked with exploration of uncharted space and worlds, \
@@ -60,7 +61,7 @@
 	While not military, it was modelled in a naval style, with employees having ranks and uniforms. \
 	Any SCG citizen of age (18 and older) with no outstanding SCG-wide warrants can sign up for a 2-year contract. \
 	Officer candidates are required to have at least a bachelor's degree in a relevant field (astrogation, engineering, xenoarcheology, etc)."
-
+*/
 /decl/cultural_info/faction/police
 	name = FACTION_SPACECOPS
 	description = "The Sol Federal (SFP) is a government law enforcement agency tasked with enforcing Sol Central Government law, \
