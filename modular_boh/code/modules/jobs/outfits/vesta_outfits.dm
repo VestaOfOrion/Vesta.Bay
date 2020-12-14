@@ -307,28 +307,6 @@
 	id_types = list(/obj/item/weapon/card/id/torch/crew/representative)
 	pda_type = /obj/item/modular_computer/pda/heads/paperpusher
 
-//-> Biomech
-
-/decl/hierarchy/outfit/job/torch/crew/medical/biomech
-	name = OUTFIT_JOB_NAME("Biomechanical Technician")
-	uniform =  /obj/item/clothing/under/solgov/utility/fleet/medical
-	shoes = /obj/item/clothing/shoes/dutyboots
-	id_types = list(/obj/item/weapon/card/id/torch/crew/medical/biomech)
-
-/decl/hierarchy/outfit/job/torch/crew/medical/biomech/fleet
-	name = OUTFIT_JOB_NAME("Biomechanical Technician - Fleet")
-	uniform = /obj/item/clothing/under/solgov/utility/fleet/medical
-	shoes = /obj/item/clothing/shoes/dutyboots
-
-/decl/hierarchy/outfit/job/torch/crew/medical/biomech/marine
-	name = OUTFIT_JOB_NAME("Biomechanical Technician - Marine")
-	uniform = /obj/item/clothing/under/solgov/utility/army/medical
-	shoes = /obj/item/clothing/shoes/dutyboots
-
-/decl/hierarchy/outfit/job/torch/crew/medical/contractor/biomech
-	name = OUTFIT_JOB_NAME("Biomechanical Technician - Contractor")
-	id_types = list(/obj/item/weapon/card/id/torch/contractor/medical/biomech)
-
 //#######
 
 //# INFANTRY
