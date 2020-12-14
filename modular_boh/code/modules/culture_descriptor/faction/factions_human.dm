@@ -13,10 +13,16 @@
 
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
-    description = "Nanotrasen Expeditionary Fleet (Currently placeholder)"
+    description = "NanoTrasen Expeditionary Fleet, also known as NTEF, remains one of the largest exploration, research and surveying fleets in all of Sol-Gov space. \
+	It’s rise to prominence after the last near 20 years started with the sale of outdated SCG corvettes to NanoTrasen to be refitted into scientific exploration vessels.\
+	In recent years NTEF has varied in its application; while officially a research and exploration branch of NT its operations appear to vary between that as described while doubling as a near paramilitary force for the corporation."
     economic_power = 1.1
 
 /decl/cultural_info/faction/scg/smc
     name = FACTION_SMC
-    description = "Solarian Marine Corps (Currently placeholder)"
+    description = "The Solarian Marine Corp boasts itself as the ‘elite few’ of the Sol government, \
+	specializing as elite naval infantry and advertised ‘heroes’ of the Aigaion conflict. \
+	The Marines, while closely associated with the SCG Fleet, maintain an independence in branch and culture from their naval counterparts. \
+	The SMC, however, has notably laxed its recruiting standards due to the unemployment crisis within Sol as a way to create loyal government jobs as well as bolster the struggling military. \
+	This has created a flood of new recruits, leaving tensions between the ‘elite’ veterans and newly employed ex-civilians."
     economic_power = 1
