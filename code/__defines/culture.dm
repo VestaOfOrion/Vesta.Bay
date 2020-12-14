@@ -12,12 +12,12 @@
 
 // Cultural IDs.
 #define FACTION_SOL_CENTRAL    "Sol Central Government"
-//#define FACTION_INDIE_CONFED  "Gilgamesh Colonial Confederation" // Not used for our current lore
+#define FACTION_INDIE_CONFED  "Gilgamesh Colonial Confederation"
 #define FACTION_NANOTRASEN     "NanoTrasen"
 #define FACTION_FREETRADE      "Free Trade Union"
 #define FACTION_HEPHAESTUS     "Hephaestus Industries"
 #define FACTION_XYNERGY        "Xynergy"
-//#define FACTION_FLEET          "SCG Fleet" // Not used for our current lore
+#define FACTION_FLEET          "SCG Fleet" 
 //#define FACTION_EXPEDITIONARY  "Expeditionary Corps" // Not used for our current lore
 #define FACTION_PCRC           "Proxima Centauri Risk Control"
 #define FACTION_SAARE          "Strategic Assault and Asset Retention Enterprises"
@@ -35,14 +35,14 @@
 #define HOME_SYSTEM_PLUTO      "Pluto"
 #define HOME_SYSTEM_TAU_CETI   "Ceti Epsilon"
 #define HOME_SYSTEM_HELIOS	   "Eos"
-//#define HOME_SYSTEM_TERRA 	   "Terra"// Not used for our current lore (technically)
+#define HOME_SYSTEM_TERRA 	   "Komarov"
 #define HOME_SYSTEM_TERSTEN    "Tersten"
 #define HOME_SYSTEM_LORRIMAN   "Lorriman"
 #define HOME_SYSTEM_CINU       "Cinu"
 #define HOME_SYSTEM_YUKLID     "Yuklid V"
 #define HOME_SYSTEM_LORDANIA   "Lordania"
 #define HOME_SYSTEM_KINGSTON   "Kingston"
-//#define HOME_SYSTEM_GAIA       "Gaia"// Not used for our current lore
+#define HOME_SYSTEM_GAIA       "Aigaion"
 #define HOME_SYSTEM_MAGNITKA   "Magnitka"
 #define HOME_SYSTEM_STATELESS  "Stateless"
 #define HOME_SYSTEM_OTHER      "Other System"
@@ -251,15 +251,5 @@
 
 //Humans
 //Factions
-#define FACTION_NTEF "Nanotrasen Expeditionary Fleet"
 #define FACTION_SMC "Solarian Marine Corps"
-#define FACTION_UCG "United Colonies of Gilgamesh"
-
-//Locations (planets)
-#define HOME_SYSTEM_UCG "Komarov"
-#define HOME_SYSTEM_AIGAION "Aigaion"
-
-//Cultures
-#define CULTURE_HUMAN_UCG "Terran"
-
 //

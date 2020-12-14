@@ -1,5 +1,5 @@
-/decl/cultural_info/location/human/ucg
-	name = HOME_SYSTEM_UCG
+/decl/cultural_info/location/human/terra
+	name = HOME_SYSTEM_TERRA
 	description = "Komarov, in the Gilgamesh system. Komarov is the home of the United Colonies of Gilgamesh, and the capital of that \
 	particular superpower. Komarov is one of the many affiliated planets in the UCG and the one that is perhaps the most important. Komarov, much like most of the UCG, is isolationist, with a minimal \
 	non-human presence. Much of Komarov is heavily industrialised, with a lower standard of living than on equivalent SCG planets. Much of the population works in services, industry or the military. \
@@ -12,8 +12,8 @@
 	ruling_body = "Gilgamesh Colonial Confederation"
 	language = LANGUAGE_HUMAN_RUSSIAN
 
-/decl/cultural_info/location/human/aigaion
-	name = HOME_SYSTEM_AIGAION
+/decl/cultural_info/location/human/gaia
+	name = HOME_SYSTEM_GAIA
 	distance = "14 light years"
 	description = "Aigaion is the sole planet in the Aigaionion system, serving as the DMZ between the SCG and the UCG. \
 	It is an agricultural world, though various conflicts across the planet's surface have left it scarred. The planet is divided into \
