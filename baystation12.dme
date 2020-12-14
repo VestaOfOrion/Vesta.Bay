@@ -3264,5 +3264,4 @@
 #include "modular_mithra\code\modules\sprite_accessories\accessory_humanathi.dm"
 #include "modular_mithra\code\modules\sprite_accessories\accessory_tajara.dm"
 #include "~code\global_init.dm"
-#include "modular_boh\loadouts\custom_gear_tweaks.dm"
 // END_INCLUDE
