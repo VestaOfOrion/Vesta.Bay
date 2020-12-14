@@ -915,6 +915,12 @@
 			return global.z_levels;
 		if("zone_blocked")
 			return global.zone_blocked;
+//#VESTA.BAY# GLOBAL ACESS ###############################
+		if("gear_tweak_free_desc")
+			return global.gear_tweak_free_desc;
+		if("gear_tweak_free_name")
+			return global.gear_tweak_free_name;
+//#VESTA.BAY# GLOBAL ACESS ###############################
 /proc/writeglobal(which, newval)
 	switch(which)
 		if("ANTAG_FREQS")
@@ -1831,6 +1837,12 @@
 			global.z_levels=newval;
 		if("zone_blocked")
 			global.zone_blocked=newval;
+//#VESTA.BAY# GLOBAL ACESS ###############################
+		if("gear_tweak_free_desc")
+			global.gear_tweak_free_desc=newval;
+		if("gear_tweak_free_name")
+			global.gear_tweak_free_name=newval;
+//#VESTA.BAY# GLOBAL ACESS ###############################
 /var/list/_all_globals=list(
 	"ANTAG_FREQS",
 	"AWAY_FREQS_ASSIGNED",
@@ -2288,4 +2300,8 @@
 	"worths",
 	"wrapped_species_by_ref",
 	"z_levels",
-	"zone_blocked")
+	"zone_blocked",
+//#VESTA.BAY# GLOBAL ACESS ###############################
+	"gear_tweak_free_name"
+//#VESTA.BAY# GLOBAL ACESS ###############################
+)
