@@ -1,6 +1,0 @@
-author: Peekaboom
-
-delete-after: True
-
-changes: 
-  - bugfix: "Fix the bug that wouldnt let mobs use ladders."
