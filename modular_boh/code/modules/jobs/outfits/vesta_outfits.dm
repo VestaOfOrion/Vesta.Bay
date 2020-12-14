@@ -362,3 +362,17 @@
 	l_ear = /obj/item/device/radio/headset/sea
 	id_types = list(/obj/item/weapon/card/id/torch/crew/sea)
 	pda_type = /obj/item/modular_computer/pda/heads
+
+//## RESEARCH ROBOTICIST
+
+/decl/hierarchy/outfit/job/torch/crew/research/roboticist
+	name = OUTFIT_JOB_NAME("Roboticist - Torch")
+	uniform = /obj/item/clothing/under/rank/roboticist
+	shoes = /obj/item/clothing/shoes/black
+	id_types = list(/obj/item/weapon/card/id/torch/crew/research/roboticist)
+	pda_type = /obj/item/modular_computer/pda/roboticist
+
+/decl/hierarchy/outfit/job/torch/crew/research/roboticist/fleet
+	name = OUTFIT_JOB_NAME("Roboticist - NTEF")
+	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/research
+	shoes = /obj/item/clothing/shoes/dutyboots

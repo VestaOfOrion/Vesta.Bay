@@ -352,3 +352,50 @@ var/const/INF               =(1<<11)
 		/datum/mil_rank/marine_corps/o2,
 		/datum/mil_rank/marine_corps/o3
 	)
+
+//## RESEARCH ROBOTICIST
+
+/datum/job/roboticist
+	title = "Roboticist"
+	department = "Science"
+	department_flag = SCI
+
+	total_positions = 2
+	spawn_positions = 2
+	minimal_player_age = 0
+	minimum_character_age = list(SPECIES_HUMAN = 25)
+	supervisors = "the Chief Science Officer and the Corporate Liaison."
+	selection_color = "#633d63"
+	economic_power = 6
+	alt_titles = list(
+		"Mechsuit Technician",
+		)
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/roboticist
+	allowed_branches = list(
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/research/roboticist/fleet,
+		/datum/mil_branch/civilian)
+	allowed_ranks = list(
+		/datum/mil_rank/fleet/e4,
+		/datum/mil_rank/fleet/e5,
+		/datum/mil_rank/fleet/e6,
+		/datum/mil_rank/fleet/o1,
+		/datum/mil_rank/fleet/o2,
+		/datum/mil_rank/civ/contractor
+		)
+	min_skill = list(   SKILL_COMPUTER		= SKILL_ADEPT,
+	                    SKILL_DEVICES		= SKILL_ADEPT,
+	                    SKILL_EVA           = SKILL_ADEPT,
+	                    SKILL_ANATOMY       = SKILL_ADEPT,
+	                    SKILL_MECH          = HAS_PERK)
+
+	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
+	                    SKILL_ELECTRICAL   = SKILL_MAX,
+	                    SKILL_ATMOS        = SKILL_EXPERT,
+	                    SKILL_ENGINES      = SKILL_EXPERT,
+	                    SKILL_DEVICES      = SKILL_MAX,
+	                    SKILL_MEDICAL      = SKILL_EXPERT,
+	                    SKILL_ANATOMY      = SKILL_EXPERT)
+	skill_points = 20
+
+	access = list(access_maint_tunnels, access_research, access_robotics, access_nanotrasen, access_solgov_crew)
+	minimal_access = list()

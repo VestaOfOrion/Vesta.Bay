@@ -20,3 +20,6 @@
 
 /obj/item/weapon/card/id/torch/crew/medical/biomech
 	job_access_type = /datum/job/biomech
+
+/obj/item/weapon/card/id/torch/crew/research/roboticist
+	job_access_type = /datum/job/roboticist

@@ -49,7 +49,7 @@
 /datum/job/senior_engineer/get_description_blurb()
 	return "You are the Senior Engineer. You are a veteran SNCO. You are subordinate to the Chief Engineer though you may have many years more experience than them and your subordinates are the rest of engineering. You should be an expert in practically every engineering area and familiar and possess leadership skills. Coordinate the team and ensure the smooth running of the department along with the Chief Engineer."
 
-/datum/job/engineer
+//datum/job/engineer
 	title = "Engineer"
 	total_positions = 6
 	spawn_positions = 6
@@ -159,6 +159,8 @@
 /datum/job/engineer_trainee/get_description_blurb()
 	return "You are an Engineer Trainee. You are learning how to operate the various onboard engineering systems from senior engineering staff. You are subordinate to all of the other engineers aboard."
 
+/* Vesta's roboticist is a research job, and thus modular and not in the core files.
+
 /datum/job/roboticist
 	title = "Roboticist"
 	department = "Engineering"
@@ -204,3 +206,4 @@
 
 /datum/job/roboticist/get_description_blurb()
 	return "You are the Roboticist. You are responsible for repairing, upgrading and handling ship synthetics (like robots). You are also responsible for the production of exosuits(mechs) and bots for various departments. You answer to the Chief Engineer."
+*/
