@@ -77,6 +77,10 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/fuelbay/aux)
+"aal" = (
+/obj/machinery/reagentgrinder/chemistry,
+/turf/simulated/floor/tiled/white/monotile,
+/area/medical/chemistry)
 "aam" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -523,6 +527,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
+"abg" = (
+/obj/machinery/reagentgrinder/chemistry,
+/turf/simulated/floor/tiled/dark,
+/area/rnd/misc_lab)
 "abi" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 1;
@@ -572,17 +580,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/white/monotile,
-/area/medical/chemistry)
-"abn" = (
-/obj/effect/floor_decal/corner/beige/mono,
-/obj/structure/closet/secure_closet/medical_wall{
-	name = "Pill Cabinet";
-	pixel_x = 0;
-	pixel_y = 32
-	},
-/obj/machinery/reagentgrinder,
-/obj/item/weapon/reagent_containers/glass/beaker/large,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/chemistry)
 "abo" = (
@@ -2543,7 +2540,7 @@
 /obj/machinery/door/airlock/glass/medical{
 	autoset_access = 0;
 	name = "Medical Foyer";
-	req_access = list(list(access_medical,access_morgue,access_forensics_lockers))
+	req_access = list(list("ACCESS_MEDICAL","ACCESS_MORGUE","ACCESS_FORENSICS"))
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/monotile,
@@ -21934,11 +21931,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
-"kpb" = (
-/obj/machinery/reagentgrinder,
-/obj/item/weapon/reagent_containers/glass/beaker/large,
-/turf/simulated/floor/tiled/dark,
-/area/rnd/misc_lab)
 "kqb" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
@@ -54065,7 +54057,7 @@ sde
 ayD
 dnb
 dDb
-abn
+aal
 abt
 abC
 abT
@@ -57723,7 +57715,7 @@ esz
 fjM
 aiq
 cva
-kpb
+abg
 pjb
 pEb
 iqb

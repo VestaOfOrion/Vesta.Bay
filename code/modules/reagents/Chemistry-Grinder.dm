@@ -34,6 +34,12 @@
 	var/grinding
 
 
+/obj/machinery/reagentgrinder/chemistry
+	name = "chemical reagent grinder"
+	desc = "A laboratory reagent grinder with heavy carbide cutting blades."
+	icon = 'icons/obj/chemical.dmi'
+	icon_state = "chemgrinder"
+
 /obj/machinery/reagentgrinder/proc/detach(mob/user)
 	if (!container)
 		return

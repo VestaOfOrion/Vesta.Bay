@@ -50,6 +50,21 @@
 		/obj/item/weapon/stock_parts/power/apc/buildable = 1
 	)
 
+/obj/item/weapon/stock_parts/circuitboard/chemicalgrinder
+	name = T_BOARD("chemical grinder")
+	build_path = /obj/machinery/reagentgrinder/chemistry
+	board_type = "machine"
+	origin_tech = list(TECH_BIO = 1, TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+	req_components = list(
+		/obj/item/weapon/stock_parts/matter_bin = 2,
+		/obj/item/weapon/stock_parts/manipulator = 2,
+		/obj/item/weapon/stock_parts/capacitor = 2
+	)
+	additional_spawn_components = list(
+		/obj/item/weapon/stock_parts/power/apc/buildable = 1
+	)
+
+
 /obj/item/weapon/stock_parts/circuitboard/juicer
 	name = T_BOARD("blender")
 	build_path = /obj/machinery/reagentgrinder/juicer
