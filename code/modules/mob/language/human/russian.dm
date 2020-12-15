@@ -3,7 +3,7 @@
 	desc = "The official language of the Independent Colonial Confederation of Gilgamesh, originally established in 2122 by the short-lived United Slavic Confederation on Earth."
 	colour = "russian"
 	key = "r"
-	shorthand = "Slav"
+	shorthand = "GCS"
 	partial_understanding = list(
 		LANGUAGE_HUMAN_EURO = 5,
 		LANGUAGE_HUMAN_SELENIAN = 10,
