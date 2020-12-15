@@ -352,5 +352,5 @@
 
 /decl/hierarchy/outfit/job/torch/crew/research/roboticist/fleet
 	name = OUTFIT_JOB_NAME("Roboticist - NTEF")
-	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/research
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
 	shoes = /obj/item/clothing/shoes/dutyboots
