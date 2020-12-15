@@ -12,7 +12,7 @@
 	subversive_potential = 50
 
 /decl/cultural_info/faction/scg/fleet
-	name = FACTION_FLEET
+    name = FACTION_FLEET
     description = "NanoTrasen Expeditionary Fleet also known as NTEF,\
 	remains one of the largest exploration, research and surveying fleets in all of Sol-Gov space.\
 	It’s rise to prominence after the last near 20 years started with the sale of outdated SCG corvettes to NanoTrasen to be refitted into scientific exploration vessels.\
