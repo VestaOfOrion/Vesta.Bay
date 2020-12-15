@@ -15,7 +15,7 @@
 /decl/cultural_info/location/human/gaia
     name = HOME_SYSTEM_GAIA
     distance = "14 light years"
-	description = "Aigaion is the sole planet in the Aigaionion system, serving as the DMZ between the SCG and the UCG. \
+    description = "Aigaion is the sole planet in the Aigaionion system, serving as the DMZ between the SCG and the UCG. \
 	It is an agricultural world, though various conflicts across the planet's surface have left it scarred. The planet is divided into \
 	Sol-Controlled <b>Southern Aigaion</b> and Independent-Controlled <b>Northern Aigaion</b>, with New Venice remaining a neutral zone inside the DMZ. \
 	The planet's population remain divided even 10 years after the Aigaion Conflict. New Venice sits on the edge of Lake Cabot. While Aigaion is divided \
