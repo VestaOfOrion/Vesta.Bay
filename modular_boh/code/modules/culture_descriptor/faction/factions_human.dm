@@ -22,8 +22,8 @@
 
 /decl/cultural_info/faction/scg/smc
     name = FACTION_SMC
-    description = "The Solarian Marine Corp boasts itself as the ‘elite few’ of the Sol government, \
-	specializing as elite naval infantry and advertised ‘heroes’ of the Aigaion conflict. \
+    description = "The Solarian Marine Corp boasts itself as the elite few of the Sol government, \
+	specializing as elite naval infantry and advertised heroes of the Aigaion conflict. \
 	The Marines, while closely associated with the SCG Fleet, maintain an independence in branch and culture from their naval counterparts. \
 	The SMC, however, has notably laxed its recruiting standards due to the unemployment crisis within Sol as a way to create loyal government jobs as well as bolster the struggling military. \
 	This has created a flood of new recruits, leaving tensions between the ‘elite’ veterans and newly employed ex-civilians."
