@@ -26,5 +26,5 @@
 	specializing as elite naval infantry and advertised heroes of the Aigaion conflict. \
 	The Marines, while closely associated with the SCG Fleet, maintain an independence in branch and culture from their naval counterparts. \
 	The SMC, however, has notably laxed its recruiting standards due to the unemployment crisis within Sol as a way to create loyal government jobs as well as bolster the struggling military. \
-	This has created a flood of new recruits, leaving tensions between the ‘elite’ veterans and newly employed ex-civilians."
+	This has created a flood of new recruits, leaving tensions between the elite veterans and newly employed ex-civilians."
     economic_power = 1
