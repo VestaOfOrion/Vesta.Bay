@@ -118,7 +118,7 @@
 	capital = "Surya"
 	economic_power = 1.3
 	distance = "10 light years"
-
+/*
 /decl/cultural_info/location/human/terra
 	name = HOME_SYSTEM_TERRA
 	description = "Terra, in the Gilgamesh system. Is not the planet Earth as some may be lead to believe. No, Terra is the home of the Gilgamesh Colonial Confederation, and the capital of that \
@@ -132,7 +132,7 @@
 	economic_power = 0.9
 	ruling_body = "Gilgamesh Colonial Confederation"
 	language = LANGUAGE_HUMAN_RUSSIAN
-
+*/
 /decl/cultural_info/location/human/tersten
 	name = HOME_SYSTEM_TERSTEN
 	distance = "52 light years"
@@ -221,7 +221,7 @@
 	Typically dark in skin due to the planet's proximity to it's sun, Kingstonians come in various forms."
 	capital = "New Havana"
 	economic_power = 1.1
-
+/*
 /decl/cultural_info/location/human/gaia
 	name = HOME_SYSTEM_GAIA
 	distance = "14 light years"
@@ -233,7 +233,7 @@
 	once again.  They suffered hard twenty years prior, and fear they may suffer again."
 	capital = "New Venice"
 	economic_power = 1.0
-
+*/
 /decl/cultural_info/location/human/magnitka
 	name = HOME_SYSTEM_MAGNITKA
 	distance = "24 light years"

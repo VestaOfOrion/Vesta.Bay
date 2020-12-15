@@ -1,0 +1,11 @@
+author: lamasmaster
+
+
+delete-after: True
+
+changes: 
+  - rscadd: "Zaphorozian language added back, previously known as neo-cossack, now uses ,v instead of ,c"
+  - rscadd: "Pan-slav is now called Gilgamesh Confederate Standard"
+  - rscdel: "Deleted EC EXO SCGF and GCC as they arent used in our lore."
+  - rscadd: "Added NTEF and SMC with UCG as pickable faction"
+  - rscadd: "Changed Gaia to Aigiaion and Terra to Komarov"

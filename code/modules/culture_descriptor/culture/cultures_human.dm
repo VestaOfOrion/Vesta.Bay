@@ -129,7 +129,7 @@
 	technology. An independent sort, people on the frontier are more likely to be isolationist and self-driven."
 	economic_power = 0.9
 	language = LANGUAGE_SPACER
-
+/*
 /decl/cultural_info/culture/human/confederate
 	name = CULTURE_HUMAN_CONFED
 	description = "You are from Terra (not Earth), in the Gilgamesh system. The capital world of the Gilgamesh Colonial Confederation, your people embody what it means to be a part of the GCC. \
@@ -138,7 +138,7 @@
 	resentful about their loss in the Gaia Conflict. An upbringing on Terra emphasises an odd mix of service to the state, liberalism and militarism."
 	language = LANGUAGE_HUMAN_RUSSIAN
 	economic_power = 0.9
-
+*/
 /decl/cultural_info/culture/human/other
 	name = CULTURE_HUMAN_OTHER
 	description = "Some people are from places no one has ever heard of or places too wild and fantastical to make it into Encyclopedia Galactica. You are one of these. "
