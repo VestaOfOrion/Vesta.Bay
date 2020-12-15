@@ -108,6 +108,18 @@
 	gender = FEMALE
 	flags = HAIR_TIEABLE
 
+/datum/sprite_accessory/hair/ponytail7_alt
+	name = "Ponytail 7 alt"
+	icon_state = "hair_ponytail7_alt"
+	gender = FEMALE
+	flags = HAIR_TIEABLE
+
+/datum/sprite_accessory/hair/half_pati
+	name = "Half-Pati"
+	icon_state = "hair_halfpati"
+	gender = FEMALE
+	flags = HAIR_TIEABLE
+
 /datum/sprite_accessory/hair/sideponytail
 	name = "Side Ponytail"
 	icon_state = "hair_stail"
@@ -789,7 +801,7 @@
 /datum/sprite_accessory/hair/regmohawk2
 	name = "Regulation Mohawk 2"
 	icon_state = "hair_mohawk_shavedback"
-	
+
 /datum/sprite_accessory/hair/mohawkshaved4
 	name = "Low Mohawk"
 	icon_state = "hair_mohawk_shavedbacklong"
@@ -829,7 +841,7 @@
 
 /datum/sprite_accessory/hair/baldingboddicker
 	name = "Balding Boddicker"
-	icon_state = "hair_balding_boddicker"	
+	icon_state = "hair_balding_boddicker"
 
 /datum/sprite_accessory/hair/librarianbun
 	name = "Librarian Bun"
