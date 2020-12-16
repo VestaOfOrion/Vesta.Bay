@@ -6979,6 +6979,10 @@
 "oD" = (
 /turf/simulated/wall/prepainted,
 /area/radio_host)
+"oF" = (
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/command/disperser)
 "oH" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -41857,9 +41861,9 @@ Hf
 Qq
 Qq
 Qq
-Qq
+oF
 HU
-Vo
+Ia
 Ia
 Ia
 iz

@@ -15548,7 +15548,7 @@
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "Nx" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fifthdeck/aftport)
 "Ny" = (
@@ -17799,7 +17799,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/security)
 "Vr" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fifthdeck/aftstarboard)
 "Vv" = (

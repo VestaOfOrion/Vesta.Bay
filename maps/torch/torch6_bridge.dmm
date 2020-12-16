@@ -6428,7 +6428,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bridgecheck)
 "oa" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/bridge/aft)
 "ob" = (
@@ -14541,6 +14541,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
+"JX" = (
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/auxsolarbridge)
 "JY" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -16106,6 +16110,10 @@
 "Pt" = (
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/co)
+"Pv" = (
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/prepainted,
+/area/bridge/storage)
 "Px" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -16957,6 +16965,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/turret_protected/ai)
+"RY" = (
+/obj/effect/paint/black,
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/turret_protected/ai_data_chamber)
 "Sb" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack{
@@ -17617,9 +17630,6 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
-	},
-/obj/structure/sign/solgov{
-	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
@@ -19442,10 +19452,6 @@
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
-	},
-/obj/structure/sign/solgov{
-	pixel_x = -32;
-	pixel_y = 32
 	},
 /turf/simulated/floor/airless,
 /area/solar/bridge)
@@ -27325,7 +27331,7 @@ XB
 XB
 XB
 Ys
-qO
+Pv
 qO
 Gr
 rz
@@ -37654,7 +37660,7 @@ QL
 Vs
 Vs
 Ij
-Vs
+JX
 CN
 CN
 ad
@@ -47538,7 +47544,7 @@ FQ
 EU
 FQ
 FQ
-FQ
+RY
 FQ
 FQ
 OU
