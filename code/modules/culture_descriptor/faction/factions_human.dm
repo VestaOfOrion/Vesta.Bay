@@ -11,7 +11,7 @@
 	habitats, and celestial bodies. However, it is large, cumbersome, divided and slow to respond to issues due to \
 	its massive bureaucracy and the distance between worlds. Through its member states, the SCG governs as one of the \
 	most advanced and powerful civilisations in the known galaxy."
-
+/*
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
 	description = "The Fleet is the primary component of the SCG Defence Forces. It mostly protects SCG space from pirates, smugglers, \
@@ -27,7 +27,7 @@
 /decl/cultural_info/faction/torchco
 	name = FACTION_CORPORATE
 	description = "The Expeditionary Corps Organisation is a government-owned, publically traded limited liability company assembled from the corporate \
-	backers who asssisted in funding the Torch project when it opened five years ago. Major players include NanoTrasen, Xynergy and \
+	backers who asssisted in funding the Dagon project when it opened five years ago. Major players include NanoTrasen, Xynergy and \
 	Hephaestus Industries, as well as dozens of others. The Expeditionary Corps Organisation reports its earnings and operation plans directly to a board of \
 	directors, made up of corporate representatives and members of Expeditionary Corps command and the Committee for the Economy. \
 	While on the surface the Expeditionary Corps Organisation appears to have noble goals, it is in reality a compromise between the noble ideals of pioneering \
@@ -50,6 +50,7 @@
 	economic_power = 0.9
 	subversive_potential = 50
 
+
 /decl/cultural_info/faction/remote
 	name = FACTION_EXPEDITIONARY
 	description = "The Expeditionary Corps is an SCG agency tasked with exploration of uncharted space and worlds, \
@@ -60,7 +61,7 @@
 	While not military, it was modelled in a naval style, with employees having ranks and uniforms. \
 	Any SCG citizen of age (18 and older) with no outstanding SCG-wide warrants can sign up for a 2-year contract. \
 	Officer candidates are required to have at least a bachelor's degree in a relevant field (astrogation, engineering, xenoarcheology, etc)."
-
+*/
 /decl/cultural_info/faction/police
 	name = FACTION_SPACECOPS
 	description = "The Sol Federal (SFP) is a government law enforcement agency tasked with enforcing Sol Central Government law, \
@@ -136,7 +137,7 @@
 	description = "Deimos Advanced Information Systems (DAIS) is a large corporation specializing in information technology such as computer hardware \
 	and software, telecommunications equipment, and networking equipment based on Mars. It is the number one supplier of computer technology in The Sol Central \
 	 Government, its systems used by most consumers and businesses within SolGov. DAIS is actually older than the Sol Central Government and is one of the very \
-	few corporate members of the Solar Assembly. DAIS is also a major investor in the Torch project, and is on the Expeditionary Corps Organization board of directors. \
+	few corporate members of the Solar Assembly. DAIS is also a major investor in the Dagon project, and is on the Expeditionary Corps Organization board of directors. \
 	Currently DAIS is invested in bluespace computing research and artificial intelligence research. Despite recent intrusions by NanoTrasen into their sector with NTNet \
 	and related products, they still remain the market leader in computer technologies."
 	economic_power = 1.1

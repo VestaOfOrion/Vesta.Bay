@@ -12,16 +12,16 @@
 
 // Cultural IDs.
 #define FACTION_SOL_CENTRAL    "Sol Central Government"
-#define FACTION_INDIE_CONFED  "Gilgamesh Colonial Confederation"
+#define FACTION_INDIE_CONFED  "United Colonies of Gilgamesh"
 #define FACTION_NANOTRASEN     "NanoTrasen"
 #define FACTION_FREETRADE      "Free Trade Union"
 #define FACTION_HEPHAESTUS     "Hephaestus Industries"
 #define FACTION_XYNERGY        "Xynergy"
-#define FACTION_FLEET          "SCG Fleet"
-#define FACTION_EXPEDITIONARY  "Expeditionary Corps"
+#define FACTION_FLEET          "Nanotrasen Expeditionary Fleet" 
+//#define FACTION_EXPEDITIONARY  "Expeditionary Corps" // Not used for our current lore
 #define FACTION_PCRC           "Proxima Centauri Risk Control"
 #define FACTION_SAARE          "Strategic Assault and Asset Retention Enterprises"
-#define FACTION_CORPORATE       "Expeditionary Corps Organisation"
+//#define FACTION_CORPORATE       "Expeditionary Corps Organisation" // Not used for our current lore
 #define FACTION_DAIS           "Deimos Advanced Information Systems"
 #define FACTION_OTHER          "Other Faction"
 #define FACTION_TEST_SUBJECTS  "Test Subjects"
@@ -35,14 +35,14 @@
 #define HOME_SYSTEM_PLUTO      "Pluto"
 #define HOME_SYSTEM_TAU_CETI   "Ceti Epsilon"
 #define HOME_SYSTEM_HELIOS	   "Eos"
-#define HOME_SYSTEM_TERRA 	   "Terra"
+#define HOME_SYSTEM_TERRA 	   "Komarov"
 #define HOME_SYSTEM_TERSTEN    "Tersten"
 #define HOME_SYSTEM_LORRIMAN   "Lorriman"
 #define HOME_SYSTEM_CINU       "Cinu"
 #define HOME_SYSTEM_YUKLID     "Yuklid V"
 #define HOME_SYSTEM_LORDANIA   "Lordania"
 #define HOME_SYSTEM_KINGSTON   "Kingston"
-#define HOME_SYSTEM_GAIA       "Gaia"
+#define HOME_SYSTEM_GAIA       "Aigaion"
 #define HOME_SYSTEM_MAGNITKA   "Magnitka"
 #define HOME_SYSTEM_STATELESS  "Stateless"
 #define HOME_SYSTEM_OTHER      "Other System"
@@ -212,6 +212,11 @@
 #define CULTURE_SYMBIOTIC		"Symbiote Host"
 #define CULTURE_UNATHI			"Moghes Hegemony"
 #define CULTURE_SERGAL			"The Sergals"
+#define CULTURE_NAJRRO 			"Naj'rro' Ak'han (Those of the Free Spirit)"
+#define CULTURE_RAKARZIZ 		"Ra'kar'ziz Tajara (Seeker of the Faith)"
+#define CULTURE_NEERROM 		"Nee'rro'm Zan (Wanderers of the Tundra)"
+#define CULTURE_ZHAN 			"Zhan Tajara (Keepers of the Oath)"
+#define CULTURE_TAJARAN_OTHER 	"Other Tajaran"
 
 ///## FACTION UNATHI ###########################
 
@@ -240,3 +245,11 @@
 //##############################################################################################################
 //# MITHRA Adds specific customs into global culture defines ### Mithra had trouble locating these out of here #
 //##################################################################### VESTA.BAY ##############################
+
+//BoH specific factions/cultures/locations//
+//Use this when changing hestia related stuff or I will clap you - lamasmaster//
+
+//Humans
+//Factions
+#define FACTION_SMC "Solarian Marine Corps"
+//

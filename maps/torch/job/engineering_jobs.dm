@@ -159,6 +159,8 @@
 /datum/job/engineer_trainee/get_description_blurb()
 	return "You are an Engineer Trainee. You are learning how to operate the various onboard engineering systems from senior engineering staff. You are subordinate to all of the other engineers aboard."
 
+/* Vesta's roboticist is a research job, and thus modular and not in the core files.
+
 /datum/job/roboticist
 	title = "Roboticist"
 	department = "Engineering"
@@ -204,3 +206,4 @@
 
 /datum/job/roboticist/get_description_blurb()
 	return "You are the Roboticist. You are responsible for repairing, upgrading and handling ship synthetics (like robots). You are also responsible for the production of exosuits(mechs) and bots for various departments. You answer to the Chief Engineer."
+*/

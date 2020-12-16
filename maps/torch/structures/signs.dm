@@ -1,10 +1,10 @@
 /obj/structure/sign/dedicationplaque
-	name = "\improper SEV Torch dedication plaque"
+	name = "\improper NTSS Dagon dedication plaque"
 	icon_state = "lightplaque"
 
 /obj/structure/sign/dedicationplaque/Initialize()
 	. = ..()
-	desc = "S.E.V. Torch - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [game_year-5] - Sol Central Government - 'Never was anything great achieved without danger.'"
+	desc = "N.T.S.S Dagon - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [game_year-5] - Sol Central Government - 'Never was anything great achieved without danger.'"
 
 /obj/structure/sign/ecplaque
 	name = "\improper Expeditionary Directives"
@@ -61,6 +61,12 @@
 	desc = "A sign which signifies who this vessel belongs to."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 	icon_state = "solgovseal"
+
+/obj/structure/sign/ntefcrest
+	name = "\improper NTEF Crest"
+	desc = "A sign which signifies who this vessel belongs to."
+	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
+	icon_state = "ntefcrest"
 
 /obj/structure/sign/double/solgovflag
 	name = "Sol Central Government Flag"

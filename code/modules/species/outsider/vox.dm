@@ -40,10 +40,10 @@
 	cold_level_1 = 80
 	cold_level_2 = 50
 	cold_level_3 = -1
-	
+
 	min_age = 1
-	max_age = 100
-	
+	max_age = 300 //You can now play old Vox, oorah
+
 	gluttonous = GLUT_TINY|GLUT_ITEM_NORMAL
 	stomach_capacity = 12
 
@@ -136,7 +136,7 @@
 /datum/species/vox/disfigure_msg(var/mob/living/carbon/human/H)
 	var/datum/gender/T = gender_datums[H.get_gender()]
 	return "<span class='danger'>[T.His] beak-segments are cracked and chipped! [T.He] [T.is] not even recognizable.</span>\n"
-	
+
 /datum/species/vox/skills_from_age(age)
 	. = 8
 

@@ -122,15 +122,15 @@
 	landmark_tag = "nav_hangar_gantry_six"
 
 /obj/effect/shuttle_landmark/scavver_gantry/torch
-	name = "SEV Torch ITV The Reclaimer Dock"
+	name = "NTSS Dagon ITV The Reclaimer Dock"
 	landmark_tag = "nav_hangar_gantry_torch"
 
 /obj/effect/shuttle_landmark/scavver_gantry/torch/two
-	name = "SEV Torch ITV Vulcan Dock"
+	name = "NTSS Dagon ITV Vulcan Dock"
 	landmark_tag = "nav_hangar_gantry_torch_two"
 
 /obj/effect/shuttle_landmark/scavver_gantry/torch/three
-	name = "SEV Torch ITV Spiritus Dock"
+	name = "NTSS Dagon ITV Spiritus Dock"
 	landmark_tag = "nav_hangar_gantry_torch_three"
 
 /obj/effect/shuttle_landmark/transit/scavver_gantry/three

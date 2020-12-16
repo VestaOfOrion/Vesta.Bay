@@ -4,8 +4,9 @@
 #define LANGUAGE_HUMAN_ARABIC    "Prototype Standard Arabic"
 #define LANGUAGE_HUMAN_INDIAN    "New Dehlavi"
 #define LANGUAGE_HUMAN_IBERIAN   "Iberian"
-#define LANGUAGE_HUMAN_RUSSIAN   "Pan-Slavic"
+#define LANGUAGE_HUMAN_RUSSIAN   "Gilgamesh Confederal Standard"
 #define LANGUAGE_HUMAN_SELENIAN  "Selenian"
+#define LANGUAGE_HUMAN_GAIAN "Zaphorozian"
 
 //Human misc
 #define LANGUAGE_GUTTER         "Gutter"
@@ -38,6 +39,10 @@
 #define LANGUAGE_MANTID_NONVOCAL   "Ascent-Glow"
 #define LANGUAGE_MANTID_VOCAL      "Ascent-Voc"
 #define LANGUAGE_MANTID_BROADCAST  "Worldnet"
+
+//###################### Vesta.Bay definitions #######################
+#define LANGUAGE_ZARROZ            "Tajaran Za'rro'z"
+//###################### Vesta.Bay definitions #######################
 
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.

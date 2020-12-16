@@ -27,6 +27,31 @@
 	//blood_color = "#5e280d"
 	includes_tail = 1
 	unavailable_at_fab = 1
+
+/datum/robolimb/shellipc
+	company = "Zeng Hu Shell MK3"
+	desc = "A cheap, mass produced chassis meant for Shell IPCs. Uncanny."
+	icon = 'modular_mithra/icons/mob/human_races/cyberlimbs/zenghu/zenghumk3_main.dmi'
+	unavailable_at_fab = 1
+	can_eat = 1
+	skintone = 1
+	allowed_bodytypes = list(SPECIES_SHELL)
+
+/datum/robolimb/shellipc/old
+	company = "Zeng Hu Shell MK2"
+	desc = "A dated, mass produced chassis meant for Shell IPCs. Not very human, is it?"
+	icon = 'modular_mithra/icons/mob/human_races/cyberlimbs/zenghu/zenghumk2_main.dmi'
+	skintone = null
+
+/datum/robolimb/shellipc/highend
+	company = "Zeng Hu Shell MK4"
+	desc = "A scarily advanced prosthetic, nearly indistinguishable from a human limb. Is it really mechanical?"
+	icon = 'icons/mob/human_races/cyberlimbs/veymed/veymed_main.dmi'
+
+/datum/robolimb/jovian
+	company = "Jovian Industries"
+	desc = "A lightweight, skeletal prosthesis made by Jovian Industries. Budget designer wear."
+	icon = 'modular_mithra/icons/mob/human_races/cyberlimbs/jovian/jovian_main.dmi'
 /*
 /obj/item/weapon/disk/limb/eggnerdltdred
 	company = "Eggnerd Prototyping Ltd. (Red)"

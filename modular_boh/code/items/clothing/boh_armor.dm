@@ -108,7 +108,31 @@
 	icon_state = "pcarrier_merc"
 	starting_accessories = list(/obj/item/clothing/accessory/armorplate/merc, /obj/item/clothing/accessory/armguards/merc, /obj/item/clothing/accessory/legguards/merc, /obj/item/clothing/accessory/storage/pouches/large)
 
-//#VESTA.BAY # CUSTOM PLATE CARRIERS
+//#VESTA.BAY # CUSTOM KEVLARS
+
+/obj/item/clothing/suit/armor/pcarrier/kevlar/tan
+	name = "tan kevlar"
+	desc = "A lightweight tan kevlar vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
+	icon_state = "kevlar_tan"
+
+/obj/item/clothing/suit/armor/pcarrier/kevlar/navy
+	name = "tan kevlar"
+	desc = "A lightweight tan kevlar vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
+	icon_state = "kevlar_navy"
+
+/obj/item/clothing/suit/armor/pcarrier/kevlar/blue
+	name = "tan kevlar"
+	desc = "A lightweight tan kevlar vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
+	icon_state = "kevlar_blue"
+
+/obj/item/clothing/suit/armor/pcarrier/kevlar/green
+	name = "tan kevlar"
+	desc = "A lightweight tan kevlar vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
+	icon_state = "kevlar_green"
 
 //#VESTA.BAY $ CUSTOM ARMGUARDS
 
@@ -205,7 +229,79 @@
 		)
 	siemens_coefficient = 0.3
 
-//#VESTA.BAY # CUSTOM LEGGUARDS
+//#VESTA.BAY # CUSTOM LIGHT-PLATED ARMGUARDS AND LEGGUARDS ##########
+
+// Light-plated
+/obj/item/clothing/accessory/armguards/light
+	name = "arm pads"
+	desc = "A pair of arm pads. Attaches to a plate carrier."
+	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
+	armor = list(
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_MINOR
+	)
+
+/obj/item/clothing/accessory/legguards/light
+	name = "leg pads"
+	desc = "A pair of leg pads. Attaches to a plate carrier."
+	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
+	armor = list(
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_MINOR
+	)
+
+// Modular sprites.
+/obj/item/clothing/accessory/armguards/light/grey
+	desc = "A pair of arm pads in grey. Attaches to a plate carrier."
+	icon_override = 'modular_boh/icon/boh/mob/onmob/onmob_modular_armor.dmi'
+	accessory_icons = list(slot_tie_str = 'modular_boh/icon/boh/mob/onmob/onmob_modular_armor.dmi', slot_wear_suit_str = 'modular_boh/icon/boh/mob/onmob/onmob_modular_armor.dmi')
+	icon_state = "armguards_grey"
+
+/obj/item/clothing/accessory/legguards/light/grey
+	desc = "A pair of leg pads in grey. Attaches to a plate carrier."
+	icon_override = 'modular_boh/icon/boh/mob/onmob/onmob_modular_armor.dmi'
+	accessory_icons = list(slot_tie_str = 'modular_boh/icon/boh/mob/onmob/onmob_modular_armor.dmi', slot_wear_suit_str = 'modular_boh/icon/boh/mob/onmob/onmob_modular_armor.dmi')
+	icon_state = "legguards_grey"
+
+// Colored light arm guards
+/obj/item/clothing/accessory/armguards/light/blue
+	desc = "A pair of arm pads in blue. Attaches to a plate carrier."
+	icon_state = "armguards_blue"
+
+/obj/item/clothing/accessory/armguards/light/navy
+	desc = "A pair of arm pads in navy blue. Attaches to a plate carrier."
+	icon_state = "armguards_navy"
+
+/obj/item/clothing/accessory/armguards/light/green
+	desc = "A pair of arm pads in green. Attaches to a plate carrier."
+	icon_state = "armguards_green"
+
+/obj/item/clothing/accessory/armguards/light/tan
+	desc = "A pair of arm pads in tan. Attaches to a plate carrier."
+	icon_state = "armguards_tan"
+
+// Colored light leg guards
+/obj/item/clothing/accessory/legguards/light/blue
+	desc = "A pair of leg pads in blue. Attaches to a plate carrier."
+	icon_state = "legguards_blue"
+
+/obj/item/clothing/accessory/legguards/light/navy
+	desc = "A pair of leg pads in navy blue. Attaches to a plate carrier."
+	icon_state = "legguards_navy"
+
+/obj/item/clothing/accessory/legguards/light/green
+	desc = "A pair of leg pads in green. Attaches to a plate carrier."
+	icon_state = "legguards_green"
+
+/obj/item/clothing/accessory/legguards/light/tan
+	desc = "A pair of leg pads in tan. Attaches to a plate carrier."
+	icon_state = "legguards_tan"
 
 //#VESTA.BAY # CUSTOM ARMOR TAGS
 
