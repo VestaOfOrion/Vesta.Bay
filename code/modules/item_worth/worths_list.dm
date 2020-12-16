@@ -732,5 +732,3 @@ var/list/worths = list(
 					/obj/machinery/bookbinder = -1200,
 					/obj/machinery = -1000,
 					) //Must be in descending order. Child before parents, otherwise it doesn't work.,
-
-*/
