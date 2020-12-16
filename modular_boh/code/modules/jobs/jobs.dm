@@ -152,54 +152,6 @@ var/const/INF               =(1<<11)
 /datum/job/grunt/get_description_blurb()
 	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a Marine! Your duty is to listen to the Squad Leader. If they're not present, the Combat Technician may pull rank. Do your best not to die, while also taking orders. Oorah!"
 
-//########################### MEDICAL
-
-/datum/job/biomech
-	title = "Biomechanical Technician"
-	department = "Medical"
-	department_flag = MED
-	minimal_player_age = 0
-	minimum_character_age = list(SPECIES_HUMAN = 25)
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Chief Medical Officer"
-	selection_color = "#013d3b"
-	economic_power = 8
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/biomech
-	allowed_branches = list(
-		/datum/mil_branch/expeditionary_corps,
-		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/medical/biomech/marine,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/medical/biomech/fleet,
-		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/torch/crew/medical/contractor/biomech
-	)
-	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/o2,
-		/datum/mil_rank/marine_corps/o3,
-		/datum/mil_rank/fleet/o2,
-		/datum/mil_rank/fleet/o3,
-		/datum/mil_rank/civ/contractor
-	)
-	min_skill = list(	SKILL_MEDICAL       = SKILL_ADEPT,
-	                    SKILL_ANATOMY       = SKILL_EXPERT,
-						SKILL_MECH          = HAS_PERK,
-	                    SKILL_DEVICES       = SKILL_EXPERT)
-
-	max_skill = list(   SKILL_MEDICAL     = SKILL_EXPERT,
-	                    SKILL_ANATOMY     = SKILL_EXPERT,
-						SKILL_DEVICES     = SKILL_PROF,
-						SKILL_SCIENCE     = SKILL_EXPERT,
-	                    SKILL_CHEMISTRY   = SKILL_ADEPT)
-	skill_points = 16
-
-	access = list(access_maint_tunnels, access_research, access_petrov, access_petrov_maint,
-					access_research, access_robotics, access_medical,
-					access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
-			        access_crematorium, access_chemistry, access_surgery,
-			        access_medical_equip, access_solgov_crew, access_senmed, access_hangar)
-
-	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
-							 /datum/computer_file/program/camera_monitor)
-
 //############# PSYKER
 
 /datum/job/psiadvisor
@@ -352,3 +304,51 @@ var/const/INF               =(1<<11)
 		/datum/mil_rank/marine_corps/o2,
 		/datum/mil_rank/marine_corps/o3
 	)
+
+//## RESEARCH ROBOTICIST
+
+/datum/job/roboticist
+	title = "Roboticist"
+	department = "Science"
+	department_flag = SCI
+
+	total_positions = 2
+	spawn_positions = 2
+	minimal_player_age = 0
+	minimum_character_age = list(SPECIES_HUMAN = 25)
+	supervisors = "the Chief Science Officer and the Corporate Liaison."
+	selection_color = "#633d63"
+	economic_power = 6
+	alt_titles = list(
+		"Mechsuit Technician",
+		"Biomechanical Technician"
+		)
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/roboticist
+	allowed_branches = list(
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/research/roboticist/fleet,
+		/datum/mil_branch/civilian)
+	allowed_ranks = list(
+		/datum/mil_rank/fleet/e4,
+		/datum/mil_rank/fleet/e5,
+		/datum/mil_rank/fleet/e6,
+		/datum/mil_rank/fleet/o1,
+		/datum/mil_rank/fleet/o2,
+		/datum/mil_rank/civ/contractor
+		)
+	min_skill = list(   SKILL_COMPUTER		= SKILL_ADEPT,
+	                    SKILL_DEVICES		= SKILL_ADEPT,
+	                    SKILL_EVA           = SKILL_ADEPT,
+	                    SKILL_ANATOMY       = SKILL_ADEPT,
+	                    SKILL_MECH          = HAS_PERK)
+
+	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
+	                    SKILL_ELECTRICAL   = SKILL_MAX,
+	                    SKILL_ATMOS        = SKILL_EXPERT,
+	                    SKILL_ENGINES      = SKILL_EXPERT,
+	                    SKILL_DEVICES      = SKILL_MAX,
+	                    SKILL_MEDICAL      = SKILL_EXPERT,
+	                    SKILL_ANATOMY      = SKILL_EXPERT)
+	skill_points = 20
+
+	access = list(access_maint_tunnels, access_research, access_robotics, access_nanotrasen, access_solgov_crew, access_surgery, access_medical)
+	minimal_access = list()

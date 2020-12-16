@@ -15,8 +15,5 @@
 	job_access_type = /datum/job/psiadvisor
 	detail_color = COLOR_COMMAND_BLUE
 
-/obj/item/weapon/card/id/torch/contractor/medical/biomech
-	job_access_type = /datum/job/biomech
-
-/obj/item/weapon/card/id/torch/crew/medical/biomech
-	job_access_type = /datum/job/biomech
+/obj/item/weapon/card/id/torch/crew/research/roboticist
+	job_access_type = /datum/job/roboticist
