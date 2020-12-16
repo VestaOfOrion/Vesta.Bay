@@ -19650,17 +19650,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
-"Vo" = (
-/obj/effect/wallframe_spawn/reinforced/hull,
-/obj/structure/sign/solgov,
-/obj/machinery/door/blast/regular/open{
-	dir = 4;
-	icon_state = "pdoor0";
-	id_tag = "bsa-window";
-	name = "Observation Blast Door"
-	},
-/turf/simulated/floor/plating,
-/area/command/disperser)
 "Vp" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -41867,7 +41856,7 @@ Ia
 Ia
 Ia
 iz
-Vo
+Ia
 IA
 Qq
 aa
@@ -44087,7 +44076,7 @@ aa
 aa
 Qq
 Qq
-Qq
+oF
 Qq
 Qq
 aa

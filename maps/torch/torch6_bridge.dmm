@@ -10717,6 +10717,11 @@
 /area/maintenance/auxsolarbridge)
 "yi" = (
 /obj/effect/floor_decal/corner/blue/three_quarters,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "yk" = (
@@ -14148,10 +14153,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
-"Iw" = (
-/obj/structure/sign/solgov,
-/turf/simulated/wall/prepainted,
-/area/command/msea)
 "Iz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -17046,10 +17047,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
 "Sh" = (
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
-	},
 /obj/machinery/light_switch{
 	pixel_x = 23;
 	pixel_y = 24
@@ -19403,7 +19400,8 @@
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/ce)
 "Zy" = (
-/turf/simulated/wall/prepainted,
+/obj/structure/sign/solgov,
+/turf/simulated/wall/r_wall/prepainted,
 /area/command/msea)
 "ZA" = (
 /obj/machinery/shield_diffuser,
@@ -35224,14 +35222,14 @@ DN
 kP
 aV
 ne
-Zy
-Zy
-Zy
-Zy
-Zy
-Zy
-Zy
-Zy
+oY
+oY
+oY
+oY
+oY
+oY
+oY
+oY
 oh
 oh
 Pc
@@ -35433,7 +35431,7 @@ di
 qi
 yi
 Bp
-Zy
+oY
 Pc
 Pc
 Pc
@@ -35635,7 +35633,7 @@ BU
 TQ
 Rz
 SU
-Zy
+oY
 Pc
 Pc
 Pc
@@ -35837,7 +35835,7 @@ hi
 pR
 yD
 Fi
-Zy
+oY
 Pc
 Pc
 Pc
@@ -36039,7 +36037,7 @@ Fv
 QE
 Ai
 hU
-Zy
+oY
 Pc
 Pc
 Pc
@@ -36234,14 +36232,14 @@ DN
 kU
 Bv
 ne
-Zy
+oY
 Th
 Dq
 Uh
 fH
 bk
 zz
-Zy
+oY
 oh
 oh
 Pc
@@ -36436,7 +36434,7 @@ DN
 kU
 Bv
 ne
-Iw
+oY
 oY
 oY
 oY
