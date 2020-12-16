@@ -22,6 +22,14 @@
 	armor_penetration = 80
 	damage_flags = DAM_EDGE
 
+/obj/item/projectile/bullet/magnetic/skrell_flechette
+	name = "flechette"
+	icon_state = "flechette"
+	damage = 40
+	armor_penetration = 100
+	fire_sound = 'sound/weapons/rapidslice.ogg'
+	distance_falloff = 0.5
+
 /obj/item/projectile/bullet/pistol/large
 	fire_sound = 'sound/weapons/gunshot/revolver_1.ogg'
 	damage = 50

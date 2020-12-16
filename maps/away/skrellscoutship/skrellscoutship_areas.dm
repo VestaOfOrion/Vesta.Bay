@@ -39,7 +39,7 @@
 	ambience = list('sound/ambience/ambigen3.ogg','sound/ambience/ambigen4.ogg','sound/ambience/ambigen5.ogg','sound/ambience/ambigen6.ogg','sound/ambience/ambigen7.ogg','sound/ambience/ambigen8.ogg','sound/ambience/ambigen9.ogg','sound/ambience/ambigen10.ogg','sound/ambience/ambigen11.ogg','sound/ambience/ambieng1.ogg')
 
 /area/ship/skrellscoutship/command/bridge
-	name = "\improper SSV Helm"
+	name = "\improper SSV Auxiliary Helm"
 	icon_state = "bridge"
 	
 /area/ship/skrellscoutship/command/armory
@@ -47,7 +47,7 @@
 	icon_state = "shuttlered"
 	
 /area/ship/skrellscoutshuttle
-	name = "\improper SSV Shuttle"
+	name = "\improper SSV Bridge/Shuttle"
 	icon_state = "bridge"
 	base_turf = /turf/simulated/floor/plating
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
@@ -59,9 +59,17 @@
 	name = "\improper Port Corridor"
 	icon_state = "green"
 
+/area/ship/skrellscoutship/command/vuxix
+	name = "\improper Vuxix Office"
+	icon_state = "bridge"
+
 /area/ship/skrellscoutship/wings/starboard
 	name = "\improper Starboard Corridor"
 	icon_state = "green"
+
+/area/ship/skrellscoutship/command/brig
+	name = "\improper Security Wing"
+	icon_state = "red"
 
 /area/ship/skrellscoutship/brig
 	name = "\improper Holding Cell"
@@ -87,7 +95,7 @@
 	name = "\improper Central Corridor"
 	icon_state = "blue"
 
-/area/ship/skrellscoutship/crew/quarters
+/area/ship/skrellscoutship/crew/dormitories
 	name = "\improper Quarters"
 	icon_state = "crew_quarters"
 
