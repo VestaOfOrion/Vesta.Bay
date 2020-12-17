@@ -3762,10 +3762,16 @@
 "agF" = (
 /obj/structure/table/steel,
 /obj/item/weapon/hand_labeler,
+/obj/effect/floor_decal/corner/blue/three_quarters{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/conference)
 "agG" = (
 /obj/machinery/photocopier,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/conference)
 "agH" = (
@@ -4254,11 +4260,9 @@
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/psiadvisor)
 "ahK" = (
-/obj/effect/floor_decal/corner/blue/three_quarters{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/firstdeck/forestarboard)
 "ahL" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate,
@@ -5124,30 +5128,14 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/fore)
 "ajW" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
-"ajX" = (
-/obj/structure/bed/chair/padded/blue,
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "bottom-left"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
-"ajZ" = (
-/obj/structure/bed/chair/padded/blue,
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "top-left"
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
@@ -5419,29 +5407,6 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/fore)
-"akX" = (
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "2,1"
-	},
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "center-right"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
-"akY" = (
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "1,0"
-	},
-/obj/structure/bed/chair/padded/blue,
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "bottom-center"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "akZ" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
@@ -5676,20 +5641,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
-"amg" = (
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "bottom-right"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
-"amh" = (
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "top-right"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "ami" = (
 /obj/structure/hygiene/toilet{
 	dir = 4
@@ -6014,15 +5965,9 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/sleeper)
 "aoa" = (
-/obj/effect/floor_decal/corner/blue/three_quarters,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/firstdeck/centralstarboard)
 "aob" = (
 /obj/machinery/button/windowtint{
 	id = "conference_window";
@@ -6039,6 +5984,9 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
@@ -6196,6 +6144,9 @@
 /area/medical/equipstorage)
 "apT" = (
 /obj/machinery/papershredder,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/conference)
 "apZ" = (
@@ -6607,9 +6558,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/command/armoury/tactical)
 "asq" = (
-/obj/effect/floor_decal/corner/blue/three_quarters{
-	dir = 4
-	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -14532,11 +14480,11 @@
 /turf/space,
 /area/space)
 "aXb" = (
-/obj/structure/sign/solgov{
-	pixel_y = -32
+/obj/effect/floor_decal/corner/blue/three_quarters{
+	dir = 1
 	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/tiled/dark,
+/area/command/conference)
 "aXh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /turf/simulated/floor/tiled/techfloor,
@@ -14921,11 +14869,9 @@
 /turf/simulated/floor/tiled,
 /area/assembly/chargebay)
 "bxz" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/firstdeck/centralport)
 "bxK" = (
 /obj/machinery/cryopod/robot{
 	dir = 4
@@ -14956,11 +14902,9 @@
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
 "bBb" = (
-/obj/structure/sign/solgov{
-	pixel_y = 32
-	},
-/turf/space,
-/area/space)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/firstdeck/foreport)
 "bBm" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /obj/machinery/light{
@@ -16209,13 +16153,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/aftstarboard)
-"cSj" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
-/obj/structure/bed/chair/padded/blue,
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "cTb" = (
 /obj/structure/table/standard,
 /obj/item/weapon/storage/firstaid/surgery,
@@ -16752,6 +16689,9 @@
 /area/command/conference)
 "dBF" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
 "dDb" = (
@@ -17773,12 +17713,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
-"eUW" = (
-/obj/effect/floor_decal/scglogo{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "eVQ" = (
 /turf/simulated/floor/tiled,
 /area/security/brig)
@@ -18350,6 +18284,9 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
 "fZn" = (
@@ -18528,14 +18465,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
-"gnt" = (
-/obj/structure/bed/chair/padded/blue,
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "top-center"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "gnC" = (
 /turf/simulated/wall/r_wall/hull,
 /area/security/detectives_office)
@@ -18874,9 +18803,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/medical/washroom)
 "gVR" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
-	},
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "west bump";
@@ -18890,6 +18816,9 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
 "gWb" = (
@@ -18934,13 +18863,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/foyer/storeroom)
-"gZT" = (
-/obj/effect/floor_decal/scglogo{
-	dir = 8;
-	icon_state = "center-left"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "haT" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 1;
@@ -19661,11 +19583,8 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/development)
 "hJq" = (
-/obj/effect/floor_decal/corner/blue/three_quarters{
-	dir = 1
-	},
-/obj/structure/sign/double/solgovflag/right{
-	pixel_y = 32
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
@@ -20153,9 +20072,6 @@
 /turf/simulated/floor/tiled,
 /area/operations_storage)
 "isR" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
-	},
 /obj/machinery/alarm{
 	dir = 4;
 	icon_state = "alarm0";
@@ -20168,6 +20084,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
 "itb" = (
@@ -20396,7 +20315,7 @@
 /area/security/questioning)
 "iEb" = (
 /obj/effect/floor_decal/corner/blue{
-	dir = 9
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
@@ -20554,12 +20473,12 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/rnd/entry)
 "iPj" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
 /obj/machinery/camera/network/first_deck{
 	c_tag = "Briefing Room";
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
@@ -21963,9 +21882,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/misc_lab)
 "kqb" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -21975,6 +21891,9 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
 "krc" = (
@@ -22200,11 +22119,11 @@
 /turf/simulated/wall/prepainted,
 /area/medical/surgery)
 "kCl" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 9
-	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
@@ -30698,12 +30617,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/equipstorage)
-"uBg" = (
-/obj/structure/sign/double/solgovflag/left{
-	pixel_y = 32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "uBm" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -31583,13 +31496,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
-"whd" = (
-/obj/effect/floor_decal/corner/blue{
-	dir = 6
-	},
-/obj/structure/bed/chair/padded/blue,
-/turf/simulated/floor/tiled/dark,
-/area/command/conference)
 "whm" = (
 /obj/structure/closet/secure_closet/brig{
 	id = "Cell 2";
@@ -43186,8 +43092,8 @@ aaa
 aaa
 aaa
 aaa
-aXb
-hBr
+aaa
+ahK
 hBr
 acb
 acr
@@ -43235,8 +43141,8 @@ aST
 aTp
 aTZ
 tAS
-tAS
 bBb
+aaa
 aaa
 aaa
 aaa
@@ -44004,13 +43910,13 @@ jkm
 aeL
 njj
 apT
-ahK
-cSj
-cSj
-cSj
-iEb
-iEb
-aoa
+alZ
+hIl
+hIl
+hIl
+alZ
+alZ
+qgw
 pXm
 aqc
 mhb
@@ -44208,9 +44114,9 @@ njj
 agG
 alZ
 hIl
-ajX
-akY
-amg
+hIl
+hIl
+alZ
 ang
 aob
 njj
@@ -44410,9 +44316,9 @@ njj
 njj
 vhs
 alZ
-gZT
-eUW
-akX
+alZ
+alZ
+alZ
 sOd
 qgw
 imK
@@ -44610,11 +44516,11 @@ adY
 uXJ
 aiX
 njj
-uBg
+hJq
 hIl
-ajZ
-gnt
-amh
+hIl
+hIl
+alZ
 scD
 aoc
 imK
@@ -44813,11 +44719,11 @@ jjK
 tnV
 njj
 hJq
-whd
-whd
-whd
-bxz
-bxz
+hIl
+hIl
+hIl
+alZ
+alZ
 asq
 imK
 qiL
@@ -45014,7 +44920,7 @@ hBr
 sbJ
 tTY
 njj
-alZ
+aXb
 kCl
 iEb
 iPj
@@ -49248,8 +49154,8 @@ aaa
 aaa
 aaa
 aaa
-aXb
-abP
+aaa
+aoa
 abP
 abP
 abP
@@ -49293,7 +49199,7 @@ jjh
 jjh
 jjh
 jjh
-jjh
+bxz
 aaa
 aaa
 aaa
@@ -50056,8 +49962,8 @@ aaa
 aaa
 aaa
 aaa
-aXb
-abP
+aaa
+aoa
 abP
 abP
 abP
@@ -50101,7 +50007,7 @@ jjh
 jjh
 jjh
 jjh
-jjh
+bxz
 aaa
 aaa
 aaa
@@ -50909,7 +50815,7 @@ jjh
 jjh
 jjh
 jjh
-jjh
+bxz
 aaa
 aaa
 aaa

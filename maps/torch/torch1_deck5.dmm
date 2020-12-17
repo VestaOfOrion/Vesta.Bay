@@ -565,7 +565,7 @@
 	pixel_y = 32
 	},
 /obj/effect/paint/hull,
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cockpit)
 "bg" = (
@@ -659,7 +659,7 @@
 	pixel_y = 32
 	},
 /obj/effect/paint/hull,
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/crew)
 "bp" = (
@@ -11479,7 +11479,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/isolation)
 "zS" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fifthdeck/aft)
 "zV" = (
@@ -15548,7 +15548,7 @@
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "Nx" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fifthdeck/aftport)
 "Ny" = (
@@ -16454,7 +16454,7 @@
 /area/shuttle/petrov/phoron)
 "QJ" = (
 /obj/effect/paint/hull,
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "QK" = (
@@ -17799,7 +17799,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/security)
 "Vr" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fifthdeck/aftstarboard)
 "Vv" = (
