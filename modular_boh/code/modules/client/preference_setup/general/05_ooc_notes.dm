@@ -9,7 +9,7 @@
 	pref.flavor_texts["OOC"] = R.read("flavor_texts_OOC")
 
 /datum/category_item/player_setup_item/physical/ooc_notes/save_character(datum/pref_record_writer/W)
-    W.write("flavor_texts_OOC", pref.flavor_texts["OOC"])
+	W.write("flavor_texts_OOC", pref.flavor_texts["OOC"])
 
 /datum/category_item/player_setup_item/physical/ooc_notes/sanitize_character()
 	if(!istype(pref.flavor_texts))        pref.flavor_texts = list()    
