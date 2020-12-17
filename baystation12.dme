@@ -3204,6 +3204,7 @@
 #include "modular_boh\code\modules\clothing\spacesuit\void.dm"
 #include "modular_boh\code\modules\clothing\spacesuits\rig\suit\infantry.dm"
 #include "modular_boh\code\modules\culture_descriptor\culture\cultures_human.dm"
+#include "modular_boh\code\modules\culture_descriptor\culture\cultures_ipc.dm"
 #include "modular_boh\code\modules\culture_descriptor\faction\factions_human.dm"
 #include "modular_boh\code\modules\culture_descriptor\location\locations_human.dm"
 #include "modular_boh\code\modules\datums\access.dm"
