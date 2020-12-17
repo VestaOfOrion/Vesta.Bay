@@ -13,6 +13,6 @@ changes:
   - rscadd: "Spriting: Replaced icon and made onmob sprited for ballistic launcher. Reason: Old used shotgun onmob sprites and new one is themed."
   - rscadd: "Spriting: Recoloured and modifed icons for anomaly containers, stasis Cage, atmos scanner. Reason: Expedition theme."
   - rscadd: "Spriting: Replaced the flaregun icon. Reason: Colour match emergency expedition gear. Slightly smaller to avoid stacking issues. Based on photo of flaregun."
-  - rscadd: "Spriting: Placeholder icons for solars, new ones finished, waiting for PR to finish then opening a new one immediatly for final icon set. Tweaks to other icons in power.dmi, minor shading, highlights mostly."
+  
 
 
