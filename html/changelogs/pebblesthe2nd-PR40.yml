@@ -14,6 +14,5 @@ changes:
   - rscadd: "Spriting: Recoloured and modifed icons for anomaly containers, stasis Cage, atmos scanner. Reason: Expedition theme."
   - rscadd: "Spriting: Replaced the flaregun icon. Reason: Colour match emergency expedition gear. Slightly smaller to avoid stacking issues. Based on photo of flaregun."
   - rscadd: "Spriting: Replaced all icons for solar panels. New yellow-gold tint, aesthetic lift. Tweaks to other icons in power.dmi, minor shading, highlights mostly."
-  - maptweak: "Removed decals on B-deck solars. Added catwalks instead. Reason: Aesthetic."
-  - maptweak: "Replaced Grinders on 1st Deck in Medical and Science with Chem Grinder. Cloned item with another skin. Reason: Match colour theme."
+
 
