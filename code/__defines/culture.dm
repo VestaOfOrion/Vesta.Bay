@@ -138,7 +138,7 @@
 
 #define HOME_SYSTEM_ROOT       "Root"
 
-//#define FACTION_POSITRONICS    "Positronic Union" //Overriden by Synthetic union
+#define FACTION_POSITRONICS    "Synthetic Union"
 
 // Diona cultures.
 #define CULTURE_DIONA          "Diona Chorus"
@@ -258,5 +258,3 @@
 //IPCs
 //Cultures
 #define CULTURE_POSITRONICS_GENERIC   "Integrated Positronic Chassis"
-//Factions
-#define FACTION_POSITRONICS    "Synthetic Union"
