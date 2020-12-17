@@ -14,7 +14,7 @@
 /datum/category_item/player_setup_item/physical/ooc_notes/sanitize_character()
 	if(!istype(pref.flavor_texts))        pref.flavor_texts = list()    
 
--/datum/category_item/player_setup_item/physical/ooc_notes/proc/SetFlavorText(mob/user)
+/datum/category_item/player_setup_item/physical/ooc_notes/proc/SetFlavorText(mob/user)
 	var/HTML = "<body>"
 	HTML += "<a href='?src=\ref[src];flavor_text=OOC'>OOC:</a> "
 	HTML += TextPreview(pref.flavor_texts["OOC"])
