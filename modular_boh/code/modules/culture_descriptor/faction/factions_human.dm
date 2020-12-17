@@ -28,3 +28,13 @@
 	The SMC, however, has notably laxed its recruiting standards due to the unemployment crisis within Sol as a way to create loyal government jobs as well as bolster the struggling military. \
 	This has created a flood of new recruits, leaving tensions between the elite veterans and newly employed ex-civilians."
 	economic_power = 1
+
+/decl/cultural_info/faction/scg/sfp
+	name = FACTION_SFP
+	description = "The Sol Federal Police (SFP) is a government law enforcement agency tasked with enforcing Sol Central Government law, \
+	investigating breaches of law, fugitive recovery and transport, and securing ports of entry. \
+	Some Agents embedded with other organizations and are expected to answer to their superiours from those organizations. \
+	Notable units are Organized Crime & Vice (self-explanatory), Territory Support (ports of entry and helping local law enforcement), \
+	Special Investigations (sensitive and urgent cases) and Fugitive Recovery Division (for when local authorities are unable or unwilling to arrest someone). \
+	The contractor SFP Trackers are also used find and arrest low-profile fugitives from justice."
+	economic_power = 1
