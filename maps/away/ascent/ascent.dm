@@ -4,10 +4,6 @@
 #include "ascent_jobs.dm"
 #include "ascent_shuttles.dm"
 
-// Hestia Ascent stuff and fluff - lamasmaster//
-#include "../../modular_boh/code/modules/ascent/ascent_general.dm"
-#include "../../modular_boh/code/modules/ascent/ascent_implants.dm"
-//
 // Map template data.
 /datum/map_template/ruin/away_site/ascent_seedship
 	name = ASCENT_COLONY_SHIP_NAME
