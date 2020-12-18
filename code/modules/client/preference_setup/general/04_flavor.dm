@@ -16,6 +16,7 @@
 	pref.flavor_texts["hands"] = R.read("flavor_texts_hands")
 	pref.flavor_texts["legs"] = R.read("flavor_texts_legs")
 	pref.flavor_texts["feet"] = R.read("flavor_texts_feet")
+	pref.flavor_texts["NSFW"] = R.read("flavor_texts_NSFW") //Hestia edit
 
 	//Flavour text for robots.
 	pref.flavour_texts_robot["Default"] = R.read("flavour_texts_robot_Default")
@@ -32,6 +33,7 @@
 	W.write("flavor_texts_hands", pref.flavor_texts["hands"])
 	W.write("flavor_texts_legs", pref.flavor_texts["legs"])
 	W.write("flavor_texts_feet", pref.flavor_texts["feet"])
+	W.write("flavor_texts_NSFW", pref.flavor_texts["NSFW"]) //Hestia edit
 
 	W.write("flavour_texts_robot_Default", pref.flavour_texts_robot["Default"])
 	for(var/module in SSrobots.all_module_names)
@@ -108,7 +110,10 @@
 	HTML += "<br>"
 	HTML += "<a href='?src=\ref[src];flavor_text=feet'>Feet:</a> "
 	HTML += TextPreview(pref.flavor_texts["feet"])
-	HTML += "<br>"
+	HTML += "<br>" 
+	HTML += "<a href='?src=\ref[src];flavor_text=NSFW'>NSFW:</a> " //Hestia edit
+	HTML += TextPreview(pref.flavor_texts["NSFW"])
+	HTML += "<br>" //
 	HTML += "<hr />"
 	HTML += "<tt>"
 	show_browser(user, HTML, "window=flavor_text;size=430x300")
