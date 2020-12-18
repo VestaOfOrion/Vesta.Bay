@@ -138,7 +138,7 @@
 
 #define HOME_SYSTEM_ROOT       "Root"
 
-#define FACTION_POSITRONICS    "Positronic Union"
+#define FACTION_POSITRONICS    "Synthetic Union"
 
 // Diona cultures.
 #define CULTURE_DIONA          "Diona Chorus"
@@ -252,4 +252,9 @@
 //Humans
 //Factions
 #define FACTION_SMC "Solarian Marine Corps"
+#define FACTION_SFP "Solarian Federal Police"
 //
+
+//IPCs
+//Cultures
+#define CULTURE_POSITRONICS_GENERIC   "Integrated Positronic Chassis"
