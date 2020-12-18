@@ -10947,13 +10947,12 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/item/weapon/airlock_brace,
-/obj/item/weapon/airlock_brace,
-/obj/item/weapon/airlock_brace,
 /obj/effect/floor_decal/corner/red/full,
 /obj/structure/table/rack{
 	dir = 8
 	},
+/obj/item/device/radio,
+/obj/item/device/radio,
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aLV" = (
@@ -11234,6 +11233,7 @@
 /obj/structure/table/rack{
 	dir = 8
 	},
+/obj/item/weapon/storage/box/teargas,
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aNc" = (
@@ -11407,6 +11407,7 @@
 /obj/structure/table/rack{
 	dir = 8
 	},
+/obj/item/weapon/storage/box/flashbangs,
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aOb" = (
@@ -11417,13 +11418,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aOc" = (
-/obj/item/weapon/storage/box/teargas,
-/obj/item/weapon/storage/box/flashbangs,
 /obj/effect/floor_decal/corner/red{
 	dir = 10
-	},
-/obj/structure/table/rack{
-	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
@@ -12413,11 +12409,14 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/button/blast_door{
+/obj/machinery/firealarm{
+	pixel_y = 20
+	},
+/obj/machinery/button/alternate/door/bolts{
 	id_tag = "Solitary";
-	name = "Cell Bolt Control";
-	pixel_x = 6;
-	pixel_y = 24
+	name = "Solitary Cell Bolt Button";
+	pixel_x = -23;
+	req_access = list("ACCESS_BRIG")
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -12438,8 +12437,7 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
+	pixel_y = 20
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -18472,6 +18470,12 @@
 /obj/structure/table/rack,
 /obj/effect/floor_decal/corner/red/mono,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
+/obj/item/clothing/mask/gas/half,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "gos" = (
@@ -19084,11 +19088,17 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/aft)
 "hjk" = (
-/obj/structure/sign/warning/high_voltage{
-	dir = 4;
-	icon_state = "shock"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/turf/simulated/wall/prepainted,
+/obj/machinery/light_switch{
+	pixel_x = -22
+	},
+/turf/simulated/floor/tiled,
 /area/security/brig)
 "hku" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
@@ -24423,9 +24433,8 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/camera/network/security{
-	c_tag = "Brig - Solitary Holding - Lobby";
-	dir = 4
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -27031,6 +27040,10 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
+/obj/machinery/camera/network/security{
+	c_tag = "Brig - Solitary Holding - Lobby";
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
 "qvX" = (
@@ -29089,9 +29102,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
+/obj/machinery/light_switch{
+	pixel_x = 5;
+	pixel_y = 26
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -29914,16 +29927,11 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "tiG" = (
-/obj/item/device/radio,
-/obj/item/device/radio,
 /obj/structure/cable/green,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "east bump";
 	pixel_x = 24
-	},
-/obj/structure/table/rack{
-	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
@@ -31118,6 +31126,7 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 5
 	},
+/obj/structure/bed/padded,
 /turf/simulated/floor/tiled,
 /area/security/solitary)
 "vsz" = (
@@ -31161,6 +31170,9 @@
 	dir = 4;
 	pixel_x = -23;
 	pixel_y = 0
+	},
+/obj/structure/hygiene/toilet{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/security/solitary)
@@ -32109,6 +32121,13 @@
 "xPU" = (
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d1port)
+"xQq" = (
+/obj/structure/sign/warning/high_voltage{
+	dir = 4;
+	icon_state = "shock"
+	},
+/turf/simulated/wall/prepainted,
+/area/security/brig)
 "xRh" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/security/processing)
@@ -43536,7 +43555,7 @@ aKH
 aKH
 pyg
 aKH
-aGP
+aKH
 aNH
 tkr
 aRt
@@ -44139,10 +44158,10 @@ xoo
 aIg
 aJw
 aKJ
-hjk
-aMN
 aKH
-aGP
+aMN
+xQq
+aKH
 aGP
 aGP
 aRv
@@ -44341,7 +44360,7 @@ bSz
 sTT
 xCn
 aLK
-aLK
+hjk
 uUC
 eVQ
 uVw
@@ -44748,7 +44767,7 @@ iuB
 aKH
 vpA
 aKH
-aGP
+aKH
 aGP
 ozm
 aRw

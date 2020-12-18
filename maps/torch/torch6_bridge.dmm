@@ -444,10 +444,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9;
-	icon_state = "intact"
-	},
+/obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "aY" = (
@@ -3741,6 +3738,13 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/fore)
+"gS" = (
+/obj/structure/closet/secure_closet/guncabinet/antiboarding/mask,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/mask/gas/swat,
+/obj/item/clothing/mask/gas/swat,
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "gT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -3997,6 +4001,33 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"hR" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/item/clothing/accessory/storage/bandolier,
+/obj/item/clothing/accessory/storage/bandolier,
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
+"hS" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "hT" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack{
@@ -4976,6 +5007,19 @@
 /obj/machinery/computer/ship/engines,
 /turf/simulated/floor/tiled/monotile,
 /area/turret_protected/ai_outer_chamber)
+"kl" = (
+/obj/structure/closet/secure_closet/guncabinet/antiboarding,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/gun/projectile/shotgun/pump/combat,
+/obj/item/weapon/gun/projectile/shotgun/pump/combat,
+/obj/item/weapon/storage/box/ammo/shotgunammo,
+/obj/item/weapon/storage/box/ammo/shotgunammo,
+/obj/machinery/firealarm{
+	dir = 2;
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "kp" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -5624,6 +5668,11 @@
 	dir = 1;
 	pixel_y = -28
 	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 8;
+	frequency = 1331;
+	id_tag = "aquila_shuttle_dock_pump"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
 "lY" = (
@@ -5942,6 +5991,14 @@
 /obj/structure/table/woodentable/walnut,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
+"mU" = (
+/obj/machinery/computer/modular/preset/security{
+	dir = 4;
+	icon_state = "console"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "mV" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -7011,14 +7068,6 @@
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
 /area/security/bridgecheck)
-"pH" = (
-/obj/structure/sign/double/icarus/solgovflag/right{
-	dir = 1;
-	icon_state = "solgovflag-right";
-	pixel_z = -32
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/crew_quarters/heads/office/sgr)
 "pI" = (
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced/polarized{
@@ -8182,6 +8231,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
@@ -10022,6 +10074,11 @@
 	pixel_x = 3;
 	pixel_y = -4
 	},
+/obj/structure/sign/double/icarus/solgovflag/right{
+	dir = 1;
+	icon_state = "solgovflag-right";
+	pixel_z = -32
+	},
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "wG" = (
@@ -10905,6 +10962,9 @@
 	},
 /turf/space,
 /area/space)
+"zd" = (
+/turf/simulated/wall/r_wall/hull,
+/area/security/antiboarding)
 "zf" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 4;
@@ -11121,6 +11181,20 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/medical)
+"zH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/security{
+	name = "Security - Anti-Boarding Control"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/security/antiboarding)
 "zI" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -11145,6 +11219,9 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarbridge)
+"zJ" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/security/antiboarding)
 "zL" = (
 /obj/machinery/ai_status_display,
 /turf/simulated/wall/r_wall/hull,
@@ -11758,6 +11835,9 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "Bw" = (
@@ -11886,6 +11966,25 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/turret_protected/ai_outer_chamber)
+"BP" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/effect/catwalk_plated,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/hallway/primary/bridge/aft)
 "BQ" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/maintenance/auxsolarbridge)
@@ -13597,6 +13696,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/effect/floor_decal/corner/blue/half{
+	dir = 4;
+	icon_state = "bordercolorhalf"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/aft)
 "Hh" = (
@@ -13679,6 +13785,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/xo)
+"Hq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "Hs" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -13827,6 +13943,15 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
+"HJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "HK" = (
 /obj/effect/overmap/visitable/ship/torch,
 /turf/simulated/floor/tiled/dark,
@@ -14357,6 +14482,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/bridge/aft)
@@ -15086,6 +15214,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/bridge/aft)
@@ -15837,6 +15968,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cl)
+"OF" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/camera/network/security{
+	c_tag = "Security Armory - Boarding Control";
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "OG" = (
 /obj/structure/cable/yellow,
 /obj/machinery/power/solar_control{
@@ -16870,6 +17011,16 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
 /turf/simulated/floor/airless,
 /area/aquila/maintenance)
+"RI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "RK" = (
 /obj/machinery/firealarm{
 	dir = 2;
@@ -17215,10 +17366,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
-	},
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 8;
@@ -17229,6 +17376,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
@@ -17972,10 +18122,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/blue/half{
-	dir = 4;
-	icon_state = "bordercolorhalf"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
@@ -17987,7 +18133,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/catwalk_plated,
+/turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "Vh" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
@@ -18268,6 +18418,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
+"VU" = (
+/obj/structure/closet/secure_closet/guncabinet/antiboarding/grenades,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/storage/box/smokes,
+/obj/item/weapon/storage/box/flashbangs,
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "VW" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/captain,
@@ -31388,7 +31548,7 @@ uN
 Sf
 vY
 wE
-pH
+sL
 JG
 GI
 BG
@@ -36214,8 +36374,8 @@ ad
 ad
 ad
 ad
-ad
 oa
+DN
 DN
 DN
 DN
@@ -36416,12 +36576,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+zJ
+zJ
+zJ
+zJ
 kU
 Bv
 ne
@@ -36618,12 +36778,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+kl
+hS
+mU
+zJ
 kU
 Bv
 HA
@@ -36820,14 +36980,14 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
-kU
-Bv
+zd
+zJ
+VU
+HJ
+Hq
+zH
+RI
+BP
 Sw
 QL
 Tw
@@ -37022,12 +37182,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+gS
+OF
+hR
+zJ
 Xp
 Vg
 CD
@@ -37224,12 +37384,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+zJ
+zJ
+zJ
+zJ
 Kc
 Hg
 Nc
@@ -37426,12 +37586,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zd
+zd
+zd
+zd
+zd
 FK
 Mc
 Lg
