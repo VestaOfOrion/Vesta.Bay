@@ -3233,6 +3233,8 @@
 #include "modular_boh\code\modules\telecomms\headset.dm"
 #include "modular_boh\code\modules\telecomms\preset.dm"
 #include "modular_boh\loadouts\custom_gear_tweaks.dm"
+#include "modular_boh\code\modules\ascent\ascent_implants.dm"
+#include "modular_boh\code\modules\ascent\ascent_general.dm"
 #include "modular_boh\code\modules\client\preference_setup\general\05_ooc_notes.dm"
 #include "modular_mithra\code\__defines\misc.dm"
 #include "modular_mithra\code\__defines\species.dm"
