@@ -1,0 +1,12 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - rscadd: "Added boarding control room on B-deck."
+  - maptweak: "Fixes the bolting issue with solitary cell."
+  - maptweak: "Adds light switch and light to the room before solitary cell."
+  - maptweak: "Fixed random reinforced walls in brig."
+  - maptweak: "Fixed aquila starting undocked."
+  - maptweak: "Readjusted security auxilary storage room empty racks."
+  - maptweak: "Fixed rogue solflag in SGR office."
