@@ -1,4 +1,3 @@
-/*
 /decl/cultural_info/culture/ipc
 	name = CULTURE_POSITRONICS
 	description = "Union members are a significant chunk of the positronic population, belonging to a \
@@ -19,4 +18,3 @@
 
 /decl/cultural_info/culture/ipc/sanitize_name(var/new_name)
 	return sanitizeName(new_name, allow_numbers = 1)
-*/
