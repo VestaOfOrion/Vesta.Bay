@@ -37,3 +37,5 @@ changes:
   - tweak: "Replaced 'baystation 12' with 'Vesta of Orion.'"
   - tweak: "Changed job descriptions and supervisors to match Dagon/NT/NTEF/SMC."
   - tweak: "Changed email paths to make some more sense, removed meme oorah mail title from SMC."
+  - tweak: "Added 'Off-Duty' 'Intern' and 'Assistant' to Passenger role alternate titles."
+  - tweak: "Removes Liasion Bodyguard's responibility to 'obey the law' when protecting their charge."
