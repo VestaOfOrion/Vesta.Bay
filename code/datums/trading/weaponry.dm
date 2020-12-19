@@ -1,3 +1,5 @@
+/*  #### We are using the weaponry.dm inside the Modular_boh folder ####
+
 /datum/trader/ship/gunshop
 	name = "Gun Shop Employee"
 	name_language = TRADER_DEFAULT_NAME
@@ -96,3 +98,5 @@
 								/obj/item/weapon/gun/energy/laser/dogan                 = TRADER_THIS_TYPE,
 								/obj/item/weapon/gun/projectile/automatic/machine_pistol/usi  = TRADER_THIS_TYPE,
 								/obj/item/clothing/accessory/storage/holster                    = TRADER_ALL)
+
+*/

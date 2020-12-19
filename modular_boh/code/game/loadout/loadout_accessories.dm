@@ -28,7 +28,7 @@
 /datum/gear/accessory/solawardminor/New()
 	..()
 	var/solminors = list()
-	solminors["expeditionary medal"] = /obj/item/clothing/accessory/medal/solgov/iron/sol
+	solminors["surveyor Corps medal"] = /obj/item/clothing/accessory/medal/solgov/iron/sol
 	solminors["operations medal"] = /obj/item/clothing/accessory/medal/solgov/bronze/sol
 	solminors["frontier ribbon"] = /obj/item/clothing/accessory/ribbon/solgov/frontier
 	solminors["instructor ribbon"] = /obj/item/clothing/accessory/ribbon/solgov/instructor
@@ -40,21 +40,21 @@
 	custom_setup_proc = /obj/item/clothing/accessory/badge/solgov/tags/proc/loadout_setup
 
 /datum/gear/accessory/ec_scarf
-	display_name = "Expeditionary Corps scarf"
+	display_name = "surveyor Corps scarf"
 	path = /obj/item/clothing/accessory/solgov/ec_scarf
-	description = "A section-specific scarf for Expeditionary Corps uniforms."
+	description = "A section-specific scarf for Surveryor Corps uniforms."
 	flags = GEAR_HAS_TYPE_SELECTION
-	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/accessory/ec_patch
-	display_name = "Expeditionary Corps patch"
+	display_name = "surveyor Corps patch"
 	path = /obj/item/clothing/accessory/solgov/ec_patch
-	description = "A shoulder patch representing the Expeditionary Corps."
+	description = "A shoulder patch representing the Surveyor Corps."
 	flags = GEAR_HAS_TYPE_SELECTION
-	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/accessory/torch_patch
-	display_name = "Dagon mission patch"
+	display_name = "dagon mission patch"
 	path = /obj/item/clothing/accessory/solgov/torch_patch
 	description = "A shoulder patch representing the NTSS Dagon and its mission. Given to all the oddjobs pulled from various branches to work on the Dagon."
 
@@ -62,16 +62,13 @@
 	display_name = "pilot's qualification pin"
 	path = /obj/item/clothing/accessory/solgov/specialty/pilot
 	allowed_skills = list(SKILL_PILOT = SKILL_ADEPT)
-	allowed_branches = list(
-		/datum/mil_branch/fleet,
-		/datum/mil_branch/expeditionary_corps
-	)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/accessory/fleetpatch
 	display_name = "fleet patch"
 	path = /obj/item/clothing/accessory/solgov/fleet_patch
 	flags = GEAR_HAS_TYPE_SELECTION
-	allowed_branches = list(/datum/mil_branch/fleet)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/accessory/armband_ma
 	display_name = "master at arms brassard"
@@ -156,7 +153,7 @@
 	allowed_roles = ARMORED_ROLES
 
 /datum/gear/tactical/press_tag
-	display_name = "Press tag"
+	display_name = "press tag"
 	path = /obj/item/clothing/accessory/armor/tag/press
 	allowed_roles = list(/datum/job/assistant)
 
@@ -225,12 +222,12 @@
 	display_name = "black UBAC shirt"
 	path = /obj/item/clothing/accessory/ubac
 	allowed_roles = ARMORED_ROLES
-	allowed_branches = list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/civilian)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/tactical/ubac/blue
 	display_name = "navy blue UBAC shirt"
 	path = /obj/item/clothing/accessory/ubac/blue
-	allowed_branches = list(/datum/mil_branch/fleet)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/tactical/ubac/misc
 	display_name = "miscellaneous UBAC shirt selection"
@@ -253,7 +250,7 @@
 /datum/gear/tactical/armor_pouches/navy
 	display_name = "navy armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches/navy
-	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/civilian)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/tactical/armor_pouches/misc
 	display_name = "miscellaneous armor pouches selection"
@@ -276,7 +273,7 @@
 /datum/gear/tactical/large_pouches/navy
 	display_name = "navy large armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches/large/navy
-	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/civilian)
+	allowed_branches = NT_BRANCHES
 
 /datum/gear/tactical/large_pouches/misc
 	display_name = "miscellaneous large armor pouches selection"

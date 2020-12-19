@@ -1,0 +1,7 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - tweak: "Renamed default lawset to NTEF Expeditionary and changed references to SCG."
+  - tweak: "Renamed military lawset to NT Military and changed references to SCG."

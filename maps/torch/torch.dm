@@ -211,6 +211,7 @@
 	#include "../../modular_boh/code/modules/culture_descriptor/faction/factions_human.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/location/locations_human.dm"
 	#include "../../modular_boh/code/modules/mob/language/human/gaian.dm"
+	#include "../../modular_boh/code/modules/culture_descriptor/culture/cultures_ipc.dm"
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
 //###########################################################################################################
