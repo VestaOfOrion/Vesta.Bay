@@ -1,6 +1,6 @@
 /obj/machinery/porta_turret/stationary/ssv
 	name = "Skrellian anti-personnel battery"
-	desc = "A turret of Skrellian manufacture. Made by Qerr’Kimikruuv Technologies."
+	desc = "A turret of Skrellian manufacture. Made by Qerr-Kimikruuv Technologies."
 	enabled = 1
 	ailock = 1
 	lethal = 1
@@ -13,4 +13,3 @@
 	installation = /obj/item/weapon/gun/energy/pulse_rifle/skrell/vesta
 	req_access = list(access_skrellscoutship)
 	color = COLOR_DARK_GRAY
-	req_access = list(list(access_skrellscoutship))
