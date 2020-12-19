@@ -3,12 +3,12 @@
  
 author: Pebblesthe2nd
 
+delete-after: True
+
 changes: 
-  - rscadd: "Spriting: Reskinned Chemmaster, Dispenser"   
-  - rscadd: "Pill bottles 1 pixel wider. Reason: A little bit less aesthetic but a lot more user-friendly, very often used object."
+  - rscadd: "Spriting: Reskinned Chemmaster, Dispenser, Grinder"   
+  - rscadd: "Slightly larger pill bottle and bottle-3."
   - rscadd: "Spriting: New Reagent scanner, Spectroscope icons. New tint to beakers and chems glass."
-  - rscadd: "Spriting: New skin grinder. Tried making new object. Spent a whole day on it now I want to die. Replacing the old one."
-  - rscadd: "Spriting: Modified bottle-3 and the reagents linked to give option for larger bottle in Chemmaster."
   - rscadd: "Spriting: Tape roll resized slightly, new binoculars, modified locator, modified excavation pickholder. Reason: Fit the theme, size streamlining, aesthetic."
   - rscadd: "Spriting: Replaced icon and made onmob sprited for ballistic launcher. Reason: Old used shotgun onmob sprites and new one is themed."
   - rscadd: "Spriting: Recoloured and modifed icons for anomaly containers, stasis Cage, atmos scanner. Reason: Expedition theme."
