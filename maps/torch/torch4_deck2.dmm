@@ -3704,12 +3704,9 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/aftstarboard)
 "hf" = (
-/obj/structure/sign/solgov{
-	pixel_x = 32;
-	pixel_y = 32
-	},
-/turf/space,
-/area/space)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/seconddeck/forestarboard)
 "hg" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -9594,12 +9591,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/atmos)
 "wb" = (
-/obj/structure/sign/solgov{
-	pixel_x = 32;
-	pixel_y = -32
-	},
-/turf/space,
-/area/space)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/auxsolarstarboard)
 "wc" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 4
@@ -17369,12 +17363,9 @@
 /turf/simulated/floor/plating,
 /area/engineering/engine_smes)
 "Te" = (
-/obj/structure/lattice,
-/obj/structure/sign/solgov{
-	pixel_y = -32
-	},
-/turf/space,
-/area/space)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/seconddeck/foreport)
 "Tg" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -19136,12 +19127,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/engineering/drone_fabrication)
 "Zk" = (
-/obj/structure/lattice,
-/obj/structure/sign/solgov{
-	pixel_y = 32
-	},
-/turf/space,
-/area/space)
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/maintenance/auxsolarport)
 "Zl" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -28484,7 +28472,7 @@ aa
 aa
 aa
 aa
-hf
+aa
 aa
 aa
 aa
@@ -28506,7 +28494,7 @@ aa
 aa
 aa
 aa
-wb
+aa
 aa
 aa
 aa
@@ -28685,7 +28673,7 @@ aa
 aa
 aa
 JX
-JX
+hf
 VT
 VT
 VT
@@ -28709,7 +28697,7 @@ Vr
 Vr
 Vr
 Vr
-Wp
+Te
 Wp
 aa
 aa
@@ -33725,7 +33713,7 @@ aa
 aa
 aa
 aa
-wb
+aa
 uZ
 lk
 lk
@@ -33928,7 +33916,7 @@ aa
 aa
 aa
 aa
-JX
+hf
 JX
 bb
 JX
@@ -38169,8 +38157,8 @@ ag
 ag
 am
 ag
-Te
-aD
+ag
+wb
 aD
 aD
 bO
@@ -38212,8 +38200,8 @@ Db
 Dv
 Ir
 Ir
-Ir
 Zk
+ag
 ag
 EE
 ag

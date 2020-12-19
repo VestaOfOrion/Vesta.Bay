@@ -4060,6 +4060,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"nM" = (
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/r_wall/hull,
+/area/eva)
 "nT" = (
 /obj/structure/bed/roller/ironingboard,
 /obj/effect/floor_decal/corner/blue/diagonal,
@@ -11741,7 +11745,7 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "Nv" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fourthdeck/fore)
 "Nw" = (
@@ -12633,7 +12637,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fourthdeck/starboard)
 "Qd" = (
-/obj/structure/sign/solgov,
+/obj/structure/sign/ntefcrest,
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fourthdeck/aft)
 "Qe" = (
@@ -24703,7 +24707,7 @@ aa
 aa
 aa
 zj
-zj
+nM
 qQ
 ew
 zj

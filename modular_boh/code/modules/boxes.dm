@@ -6,7 +6,6 @@
 
 /obj/item/gunbox/attack_self(mob/living/user)
 	var/list/options = list()
-	options["Ballistic - Military Pistol"] = list(/obj/item/weapon/gun/projectile/pistol/military,/obj/item/ammo_magazine/pistol/double/rubber)
 	options["Energy - Smartgun"] = list(/obj/item/weapon/gun/energy/gun/secure)
 	options["Taser - Stun Revolver"] = list(/obj/item/weapon/gun/energy/stunrevolver/secure)
 	var/choice = input(user,"What type of equipment?") as null|anything in options

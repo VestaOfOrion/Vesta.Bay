@@ -185,8 +185,12 @@ obj/machinery/resleever/Process()
 
 		if(istype(M, /mob/living/carbon/human))	//Failsafe mob check #VESTA.BAY
 			var/mob/living/carbon/human/H = M
+			var/datum/species/SP = H.species
 			if(!H.has_brain())	//Nope, you're not resleeving brainless people #VESTA.BAY
 				to_chat(usr, "[grab.affecting:name] is brainless. You cannot resleeve him.")
+				return
+			else if(SP.spawn_flags & SPECIES_NO_LACE)
+				to_chat(user, "<span class='notice'>[grab.affecting:name]'s species is incompatible with Neural Laces.</span>")
 				return
 
 		visible_message("[user] starts putting [grab.affecting:name] into \the [src].", 3)

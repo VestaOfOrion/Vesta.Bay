@@ -161,7 +161,7 @@
 /datum/mil_branch/fleet
 	name = "Expeditionary Fleet"
 	name_short = "NTEF"
-	email_domain = "dagon.nt.exp"
+	email_domain = "dagon.ef.nt"
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,
@@ -225,7 +225,7 @@
 /datum/mil_branch/marine_corps
 	name = "Solar Marine Corps"
 	name_short = "SMC"
-	email_domain = "dagon.oorah.mil"
+	email_domain = "dagon.smc.mil"
 
 // Uses SCG Army's uniforms, at least for now.
 	rank_types = list(
@@ -553,7 +553,7 @@
 
 /datum/mil_rank/marine_corps/e8_alt
 	name = "First Sergeant"
-	name_short = "1stSg"
+	name_short = "1SG"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/marine_corps/enlisted/e8_alt)
 	sort_order = 8
 
@@ -699,7 +699,7 @@
 /datum/mil_branch/private_security
 	name = "Security Company"
 	name_short = "Sec"
-	email_domain = "dagon.sec"
+	email_domain = "dagon.sec.nt"
 
 	rank_types = list(
 		/datum/mil_rank/private_security/pcrc,

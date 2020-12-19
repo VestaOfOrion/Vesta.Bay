@@ -1,0 +1,6 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - rscdel: "Removes 10mm military ballistic pistol from the equipment box MaAs get."

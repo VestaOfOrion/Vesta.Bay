@@ -34,6 +34,8 @@ Civilian
 	alt_titles = list(
 		"Journalist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/journalist,
 		"Historian",
+		"Assistant",
+		"Off-Duty",
 		"Botanist",
 		"Investor" = /decl/hierarchy/outfit/job/torch/passenger/passenger/investor,
 		"Psychologist" = /decl/hierarchy/outfit/job/torch/passenger/passenger/psychologist,

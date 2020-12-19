@@ -56,14 +56,17 @@
 //For jobs that spawn with armor in their lockers	//## VESTA.BAY # ADDED /datum/job/grunt, /datum/job/combat_tech, /datum/job/squad_lead, /datum/job/seccadet
 #define ARMORED_ROLES list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/qm, /datum/job/sea, /datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/merchant, /datum/job/submap/skrellscoutship_crew, /datum/job/submap/skrellscoutship_crew/leader, /datum/job/submap/scavver_pilot, /datum/job/submap/scavver_doctor, /datum/job/submap/scavver_engineer, /datum/job/grunt, /datum/job/combat_tech, /datum/job/squad_lead, /datum/job/seccadet)
 
-#define UNIFORMED_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet)
+#define UNIFORMED_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet, /datum/mil_branch/marine_corps)
 
 #define CIVILIAN_BRANCHES list(/datum/mil_branch/civilian, /datum/mil_branch/solgov)
 
 #define SOLGOV_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet, /datum/mil_branch/solgov)
 
 #define NT_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet)
+//#### These two for code uniformity####//
+#define SMC_BRANCHES list(/datum/mil_branch/marine_corps)
 
+#define SECURITY_COMPANY_BRANCHES list(/datum/mil_branch/private_security)
 //#### BOH-ONLY DEFINES #######################################################
 
 #define TACTICOOL_BRANCHES list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/fleet, /datum/mil_branch/solgov, /datum/mil_branch/private_security, /datum/mil_branch/marine_corps)
@@ -80,11 +83,11 @@
 //############### GENERAL BOH UTILITY #####################
 
 /datum/gear/utility/flashlight
-	display_name = "flashlight"
+	display_name = "Flashlight"
 	path = /obj/item/device/flashlight
 
 /datum/gear/utility/crowbar
-	display_name = "crowbar"
+	display_name = "Crowbar"
 	path = /obj/item/weapon/crowbar
 
 datum/gear/utility/crayonmre
@@ -93,7 +96,7 @@ datum/gear/utility/crayonmre
 	path = /obj/item/weapon/storage/mre/menu11
 
 /datum/gear/cooler_ipc
-	display_name = "cooling unit (IPC)"
+	display_name = "Cooling unit (IPC)"
 	path = /obj/item/device/suit_cooling_unit
 	sort_category = "Xenowear"
 	whitelisted = list(SPECIES_IPC, SPECIES_SHELL)
@@ -115,12 +118,12 @@ datum/gear/utility/crayonmre
 	gear_tweaks += new/datum/gear_tweak/path(instruments)
 
 /datum/gear/suit/highvis
-	display_name = "high-visibility jacket"
+	display_name = "High-visibility jacket"
 	path = /obj/item/clothing/suit/storage/toggle/highvis
 	cost = 1
 
 /datum/gear/suit/labcoat_long
-	display_name = "long labcoat, corporate colors"
+	display_name = "Long labcoat, corporate colors"
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/roles/science/
 	allowed_roles = RESEARCH_ROLES
 
@@ -133,7 +136,7 @@ datum/gear/utility/crayonmre
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(longlabcoats)
 
 /datum/gear/suit/labcoat_long_colorable
-	display_name = "long labcoat, colour select"
+	display_name = "Long labcoat, colour select"
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/lclabcoat
 	flags = GEAR_HAS_COLOR_SELECTION
 
@@ -146,13 +149,13 @@ datum/gear/utility/crayonmre
 /datum/gear/mre/New()
 	..()
 	var/mre = list()
-	mre["standard mre"] = /obj/item/weapon/storage/mre/random
-	mre["vegan mre"] = /obj/item/weapon/storage/mre/menu9
-	mre["protein mre"] = /obj/item/weapon/storage/mre/menu10
+	mre["Standard mre"] = /obj/item/weapon/storage/mre/random
+	mre["Vegan mre"] = /obj/item/weapon/storage/mre/menu9
+	mre["Protein mre"] = /obj/item/weapon/storage/mre/menu10
 	gear_tweaks += new /datum/gear_tweak/path(mre)
 
 /datum/gear/accessory/custom_medal
-	display_name = "custom medal"
+	display_name = "Custom medal"
 	description = "A selection of medals, awarded to personnel for significant (or not) accomplishments."
 	path = /obj/item/clothing/accessory/medal
 	cost = 2
@@ -160,14 +163,14 @@ datum/gear/utility/crayonmre
 /datum/gear/accessory/custom_medal/New()
 	..()
 	var/cmedals = list()
-	cmedals["iron"] = /obj/item/clothing/accessory/medal/iron
-	cmedals["bronze"] = /obj/item/clothing/accessory/medal/bronze
-	cmedals["silver"] = /obj/item/clothing/accessory/medal/silver
-	cmedals["gold"] = /obj/item/clothing/accessory/medal/gold
+	cmedals["Iron"] = /obj/item/clothing/accessory/medal/iron
+	cmedals["Bronze"] = /obj/item/clothing/accessory/medal/bronze
+	cmedals["Silver"] = /obj/item/clothing/accessory/medal/silver
+	cmedals["Gold"] = /obj/item/clothing/accessory/medal/gold
 	gear_tweaks += new/datum/gear_tweak/path(cmedals)
 
 /datum/gear/clothing/cloak
-	display_name = "cloak, colored"
+	display_name = "Cloak, colored"
 	path = /obj/item/clothing/accessory/cloak
 	slot = slot_wear_suit
 	flags = GEAR_HAS_COLOR_SELECTION
@@ -175,30 +178,30 @@ datum/gear/utility/crayonmre
 //################# GENERAL BOH ACESSORIES ##############################
 
 /datum/gear/accessory/custom_ribbon
-	display_name = "custom ribbon"
+	display_name = "Custom ribbon"
 	description = "A military decoration awarded to personnel for significant (or not) accomplishments."
 	path = /obj/item/clothing/accessory/ribbon/solgov/custom
 	cost = 2
 
 /datum/gear/accessory/custom_ribbon/color
-	display_name = "custom ribbon, colorable"
+	display_name = "Custom ribbon, colorable"
 	path = /obj/item/clothing/accessory/ribbon/solgov/custom/color
 	flags = GEAR_HAS_COLOR_SELECTION
 
 /datum/gear/accessory/armband_ma
-	display_name = "master-at-arms brassard"
+	display_name = "Master-at-Arms brassard"
 	path = /obj/item/clothing/accessory/armband/solgov/ma
 	allowed_roles = SECURITY_ROLES
 
 /datum/gear/accessory/armband_mp
-	display_name = "military police brassard"
+	display_name = "Military Police brassard"
 	path = /obj/item/clothing/accessory/armband/solgov/mp
 	allowed_roles = SECURITY_ROLES
 
 /datum/gear/accessory/smc_patch
 	display_name = "Marine Corps patch"
 	path = /obj/item/clothing/accessory/solgov/smc_patch
-	allowed_branches = list(/datum/mil_branch/marine_corps)
+	allowed_branches = SMC_BRANCHES
 	cost = 0
 	whitelisted = list(SPECIES_HUMAN, SPECIES_IPC)
 
@@ -206,7 +209,7 @@ datum/gear/utility/crayonmre
 	display_name = "Marine Corps patch (xenoic division)"
 	path = /obj/item/clothing/accessory/solgov/smc_patch/xeno
 	cost = 0
-	allowed_branches = list(/datum/mil_branch/marine_corps)
+	allowed_branches = SMC_BRANCHES
 
 /datum/gear/tactical/civ_tag
 	display_name = "Civilian tag"
@@ -223,22 +226,22 @@ datum/gear/utility/crayonmre
 	path = /obj/item/clothing/accessory/armor/tag/civ/med
 
 /datum/gear/accessory/tags/marine
-	display_name = "dog tags, solar marine corps"
+	display_name = "Dog tags, solar marine corps"
 	description = "Plain identification tags made from a durable metal. This one is issued to marines."
 	path = /obj/item/clothing/accessory/badge/solgov/tags/marine
-	allowed_branches = list(/datum/mil_branch/marine_corps)
+	allowed_branches = SMC_BRANCHES
 	cost = 0
 
 /datum/gear/accessory/tags/fleet
-	display_name = "dog tags, expeditionary fleet"
+	display_name = "Dog tags, expeditionary fleet"
 	description = "Plain identification tags made from a durable metal. This one is issued to fleet."
 	path = /obj/item/clothing/accessory/badge/solgov/tags/fleet
-	allowed_branches = list(/datum/mil_branch/fleet)
+	allowed_branches = NT_BRANCHES
 	cost = 0
 
 // Separating main's certain armor customization items.
 /datum/gear/tactical/blood_patch
-	display_name = "blood patch selection"
+	display_name = "Blood patch selection"
 	description = "A selection of blood type patches. Attaches to plate carrier."
 	path = /obj/item/clothing/accessory/armor/tag/
 	cost = 0 // Life-saving.
@@ -271,7 +274,7 @@ datum/gear/utility/crayonmre
 /// Limb guards
 // Arms
 /datum/gear/tactical/arm_guards
-	display_name = "arm guards selection"
+	display_name = "Arm Guards selection"
 	description = "A selection of military arm guards. Attaches to plate carrier."
 	path = /obj/item/clothing/accessory/armguards
 	cost = 1
@@ -281,15 +284,15 @@ datum/gear/utility/crayonmre
 /datum/gear/tactical/arm_guards/New()
 	..()
 	var/arm_guards = list()
-	arm_guards["black arm guards"] = /obj/item/clothing/accessory/armguards
-	arm_guards["navy arm guards"] = /obj/item/clothing/accessory/armguards/navy
-	arm_guards["blue arm guards"] = /obj/item/clothing/accessory/armguards/blue
-	arm_guards["green arm guards"] = /obj/item/clothing/accessory/armguards/green
-	arm_guards["tan arm guards"] = /obj/item/clothing/accessory/armguards/tan
+	arm_guards["Black arm guards"] = /obj/item/clothing/accessory/armguards
+	arm_guards["Navy arm guards"] = /obj/item/clothing/accessory/armguards/navy
+	arm_guards["Blue arm guards"] = /obj/item/clothing/accessory/armguards/blue
+	arm_guards["Green arm guards"] = /obj/item/clothing/accessory/armguards/green
+	arm_guards["Tan arm guards"] = /obj/item/clothing/accessory/armguards/tan
 	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
 
 /datum/gear/tactical/arm_guards_light
-	display_name = "arm pads selection"
+	display_name = "Arm Pads selection"
 	description = "A selection of military arm pads. They're weaker than normal guards."
 	path = /obj/item/clothing/accessory/armguards/light
 	allowed_branches = TACTICOOL_BRANCHES
@@ -297,20 +300,20 @@ datum/gear/utility/crayonmre
 /datum/gear/tactical/arm_guards_light/New()
 	..()
 	var/arm_guards = list()
-	arm_guards["black arm pads"] = /obj/item/clothing/accessory/armguards/light
-	arm_guards["navy arm pads"] = /obj/item/clothing/accessory/armguards/light/navy
-	arm_guards["blue arm pads"] = /obj/item/clothing/accessory/armguards/light/blue
-	arm_guards["green arm pads"] = /obj/item/clothing/accessory/armguards/light/green
-	arm_guards["tan arm pads"] = /obj/item/clothing/accessory/armguards/light/tan
+	arm_guards["Black arm pads"] = /obj/item/clothing/accessory/armguards/light
+	arm_guards["Navy arm pads"] = /obj/item/clothing/accessory/armguards/light/navy
+	arm_guards["Blue arm pads"] = /obj/item/clothing/accessory/armguards/light/blue
+	arm_guards["Green arm pads"] = /obj/item/clothing/accessory/armguards/light/green
+	arm_guards["Tan arm pads"] = /obj/item/clothing/accessory/armguards/light/tan
 	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
 
 /datum/gear/tactical/arm_guards_grey
-	display_name = "grey arm pads"
+	display_name = "Grey arm pads"
 	path = /obj/item/clothing/accessory/armguards/light/grey
 
 // Legs
 /datum/gear/tactical/leg_guards
-	display_name = "leg guards selection"
+	display_name = "Leg Guards selection"
 	description = "A selection of military leg guards. Attaches to plate carrier."
 	path = /obj/item/clothing/accessory/legguards
 	cost = 1
@@ -320,15 +323,15 @@ datum/gear/utility/crayonmre
 /datum/gear/tactical/leg_guards/New()
 	..()
 	var/leg_guards = list()
-	leg_guards["black leg guards"] = /obj/item/clothing/accessory/legguards
-	leg_guards["navy leg guards"] = /obj/item/clothing/accessory/legguards/navy
-	leg_guards["blue leg guards"] = /obj/item/clothing/accessory/legguards/blue
-	leg_guards["green leg guards"] = /obj/item/clothing/accessory/legguards/green
-	leg_guards["tan leg guards"] = /obj/item/clothing/accessory/legguards/tan
+	leg_guards["Black leg guards"] = /obj/item/clothing/accessory/legguards
+	leg_guards["Navy leg guards"] = /obj/item/clothing/accessory/legguards/navy
+	leg_guards["Blue leg guards"] = /obj/item/clothing/accessory/legguards/blue
+	leg_guards["Green leg guards"] = /obj/item/clothing/accessory/legguards/green
+	leg_guards["Tan leg guards"] = /obj/item/clothing/accessory/legguards/tan
 	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
 
 /datum/gear/tactical/leg_guards_light
-	display_name = "leg pads selection"
+	display_name = "Leg Pads selection"
 	description = "A selection of military leg pads. They're weaker than normal guards."
 	path = /obj/item/clothing/accessory/legguards/light
 	allowed_branches = TACTICOOL_BRANCHES
@@ -336,19 +339,19 @@ datum/gear/utility/crayonmre
 /datum/gear/tactical/leg_guards_light/New()
 	..()
 	var/leg_guards = list()
-	leg_guards["black leg pads"] = /obj/item/clothing/accessory/legguards/light
-	leg_guards["navy leg pads"] = /obj/item/clothing/accessory/legguards/light/navy
-	leg_guards["blue leg pads"] = /obj/item/clothing/accessory/legguards/light/blue
-	leg_guards["green leg pads"] = /obj/item/clothing/accessory/legguards/light/green
-	leg_guards["tan leg pads"] = /obj/item/clothing/accessory/legguards/light/tan
+	leg_guards["Black leg pads"] = /obj/item/clothing/accessory/legguards/light
+	leg_guards["Navy leg pads"] = /obj/item/clothing/accessory/legguards/light/navy
+	leg_guards["Blue leg pads"] = /obj/item/clothing/accessory/legguards/light/blue
+	leg_guards["Green leg pads"] = /obj/item/clothing/accessory/legguards/light/green
+	leg_guards["Tan leg pads"] = /obj/item/clothing/accessory/legguards/light/tan
 	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
 
 /datum/gear/tactical/leg_guards_grey
-	display_name = "grey leg pads"
+	display_name = "Grey leg pads"
 	path = /obj/item/clothing/accessory/legguards/light/grey
 
 /datum/gear/tactical/combatknife
-	display_name = "combat knife"
+	display_name = "Combat knife"
 	path = /obj/item/weapon/material/knife/combat
 	cost = 3
 	allowed_roles = ARMORED_ROLES
@@ -356,40 +359,40 @@ datum/gear/utility/crayonmre
 
 // Too lazy to adjust outfit
 /datum/gear/accessory/nt_blaze
-	display_name = "blaze, janitor"
+	display_name = "Blaze, janitor"
 	path = /obj/item/clothing/accessory/solgov/specialty/janitor
 	allowed_branches = NT_BRANCHES
 	allowed_roles = list(/datum/job/janitor)
 	cost = 0
 
 /datum/gear/accessory/nt_blaze/brig
-	display_name = "blaze, brig chief"
+	display_name = "Blaze, brig chief"
 	path = /obj/item/clothing/accessory/solgov/specialty/brig
 	allowed_roles = list(/datum/job/warden)
 
 /datum/gear/accessory/nt_blaze/detective
-	display_name = "blaze, forenscics"
+	display_name = "Blaze, forenscics"
 	path = /obj/item/clothing/accessory/solgov/specialty/forensic
 	allowed_roles = list(/datum/job/detective)
 
 /datum/gear/accessory/nt_blaze/atmos
-	display_name = "blaze, atmospherics"
+	display_name = "Blaze, atmospherics"
 	path = /obj/item/clothing/accessory/solgov/specialty/atmos
 	allowed_roles = ENGINEERING_ROLES
 
 /datum/gear/accessory/nt_blaze/chemist
-	display_name = "blaze, chemist"
+	display_name = "Blaze, chemist"
 	path = /obj/item/clothing/accessory/solgov/specialty/chemist
 	allowed_roles = list(/datum/job/chemist)
 
 /datum/gear/accessory/nt_blaze/counselor
-	display_name = "blaze, counselor"
+	display_name = "Blaze, counselor"
 	path = /obj/item/clothing/accessory/solgov/specialty/counselor
 	allowed_roles = list(/datum/job/psychiatrist)
 
 // Alternative cloak
 /datum/gear/clothing/cloak/alt
-	display_name = "cloak, colored (alt)"
+	display_name = "Cloak, colored (alt)"
 	path = /obj/item/clothing/accessory/cloak/boh
 
 //################# HEAD EC OVERRIDE ####################
@@ -416,12 +419,12 @@ datum/gear/head/ECdepartment/New()
 //################# CUSTOM_ARMOR ########################
 
 /datum/gear/tactical/pcarrier_grey
-	display_name = "grey plate carrier"
+	display_name = "Grey plate carrier"
 	path = /obj/item/clothing/suit/armor/pcarrier/grey
 	slot = slot_wear_suit
 
 /datum/gear/tactical/pcarrier
-	display_name = "plate carrier selection"
+	display_name = "Plate carrier selection"
 	description = "A selection of military plate carriers. They can be equipped with armor plates, but provides no protection of their own."
 	path = /obj/item/clothing/suit/armor/pcarrier
 	cost = 1
@@ -432,18 +435,18 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/tactical/pcarrier/New()
 	..()
 	var/armors = list()
-	armors["black plate carrier"] = /obj/item/clothing/suit/armor/pcarrier
-	armors["navy plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy
-	armors["blue plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue
-	armors["black ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/ipc
-	armors["navy ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy/ipc
-	armors["blue ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue/ipc
-	armors["green ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/green/ipc
-	armors["tan ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/tan/ipc
+	armors["Black plate carrier"] = /obj/item/clothing/suit/armor/pcarrier
+	armors["Navy plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy
+	armors["Blue plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue
+	armors["Black ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/ipc
+	armors["Navy ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy/ipc
+	armors["Blue ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue/ipc
+	armors["Green ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/green/ipc
+	armors["Tan ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/tan/ipc
 	gear_tweaks += new/datum/gear_tweak/path(armors)
 
 /datum/gear/tactical/kevlar
-	display_name = "kevlar selection"
+	display_name = "Kevlar selection"
 	description = "A selection of kevlar vests. They can be equipped with armor plates, but provides no protection of their own."
 	path = /obj/item/clothing/suit/armor/pcarrier
 	cost = 1
@@ -453,10 +456,10 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/tactical/kevlar/New()
 	..()
 	var/armors = list()
-	armors["tan kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/tan
-	armors["navy kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/navy
-	armors["blue kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/blue
-	armors["green kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/green
+	armors["Tan kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/tan
+	armors["Navy kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/navy
+	armors["Blue kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/blue
+	armors["Green kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/green
 	gear_tweaks += new/datum/gear_tweak/path(armors)
 
 //################# XENOWEAR ############################
@@ -471,11 +474,11 @@ datum/gear/head/ECdepartment/New()
 //################# MARINE UNIFORMS #####################
 
 /datum/gear/uniform/misc_military
-	display_name = "marine fatigue selection"
+	display_name = "Marine fatigue selection"
 	description = "A selection of marine uniforms."
 	path = /obj/item/clothing/under
 	cost = 0
-	allowed_branches = list(/datum/mil_branch/marine_corps)
+	allowed_branches = SMC_BRANCHES
 
 /datum/gear/uniform/misc_military/New()
 	..()
@@ -486,13 +489,13 @@ datum/gear/head/ECdepartment/New()
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
 
 /datum/gear/uniform/fleet
-	display_name = "fleet fatigue"
+	display_name = "Fleet fatigues"
 	path = /obj/item/clothing/under/solgov/utility/fleet
 	cost = 0
 	allowed_branches = NT_BRANCHES
 
 /datum/gear/uniform/fleet/officer
-	display_name = "fleet officer fatigues"
+	display_name = "Fleet officer fatigues"
 	path = /obj/item/clothing/under/solgov/utility/fleet/officer
 	cost = 0
 	allowed_branches = NT_BRANCHES
@@ -501,11 +504,11 @@ datum/gear/head/ECdepartment/New()
 //############# MILITARY HEAD LOADOUTS ##########################
 
 /datum/gear/head/misc_military_cover
-	display_name = "marine cover selection"
+	display_name = "Marine cover selection"
 	description = "A selection of marine covers."
 	path = /obj/item/clothing/head
 	cost = 0
-	allowed_branches = list(/datum/mil_branch/marine_corps)
+	allowed_branches = SMC_BRANCHES
 
 /datum/gear/head/misc_military_cover/New()
 	..()
@@ -517,21 +520,21 @@ datum/gear/head/ECdepartment/New()
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
 
 /datum/gear/head/self_protection_helmet
-	display_name = "civilian self-protection helmet"
+	display_name = "Civilian self-protection helmet"
 	path = /obj/item/clothing/head/hardhat/self_protection
 	cost = 2
 	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/head/fleetcap
-	display_name = "fleet cap"
+	display_name = "Fleet cap"
 	path = /obj/item/clothing/head/soft/solgov/fleet
 	cost = 0
 	allowed_branches = NT_BRANCHES
 
 /datum/gear/head/corpsecberet
-	display_name = "corporate security beret"
+	display_name = "Corporate security beret"
 	path = /obj/item/clothing/head/beret/guard
-	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/private_security)
+	allowed_branches = SECURITY_COMPANY_BRANCHES
 
 //################# AUGMENTS ###############################
 
