@@ -84,6 +84,10 @@
 	name = "Skrellian Scout Docking Port"
 	landmark_tag = "nav_skrellscout_dock"
 
+/obj/effect/shuttle_landmark/skrellscout/altdock
+	name = "Skrellian Scout Alternative Docking Port"
+	landmark_tag = "nav_skrellscout_dock_alt"
+
 /obj/effect/shuttle_landmark/skrellscoutshuttle/altdock
 	name = "Docking Port"
 	landmark_tag = "nav_skrellscoutsh_altdock"

@@ -2352,6 +2352,10 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
+"hC" = (
+/obj/effect/shuttle_landmark/skrellscout/altdock,
+/turf/space,
+/area/space)
 "hE" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -4755,6 +4759,7 @@
 	name = "EVA External Access"
 	},
 /obj/effect/shuttle_landmark/scavver_gantry/torch/two,
+/obj/effect/shuttle_landmark/skrellscoutshuttle/altdock,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
 "qR" = (
@@ -14149,7 +14154,6 @@
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
-/obj/effect/shuttle_landmark/skrellscoutshuttle/altdock,
 /obj/effect/shuttle_landmark/admin/out,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
@@ -40991,7 +40995,7 @@ aa
 aa
 aa
 aa
-aa
+hC
 aa
 aa
 aa
