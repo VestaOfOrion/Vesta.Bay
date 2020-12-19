@@ -5860,7 +5860,9 @@
 /area/crew_quarters/heads/office/cos)
 "mG" = (
 /obj/structure/displaycase,
-/obj/item/weapon/gun/projectile/heavysniper/ant,
+/obj/item/weapon/gun/projectile/heavysniper/ant{
+	pixel_y = -4
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mH" = (
@@ -5894,10 +5896,11 @@
 /obj/machinery/button/alternate/door{
 	desc = "A remote control-switch for the office door.";
 	id_tag = "cosdoor";
-	name = "HOS's Office Door Control";
+	name = "COS's Office Door Control";
 	pixel_y = 27;
 	req_access = list("ACCESS_HEAD_OF_SECURITY")
 	},
+/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -7328,7 +7331,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
 	id_tag = "cosdoor";
-	name = "Head of Security";
+	name = "Chief of Security";
 	secured_wires = 1
 	},
 /obj/structure/cable/green{
@@ -10953,6 +10956,7 @@
 "za" = (
 /obj/structure/closet/secure_closet/XO,
 /obj/random/drinkbottle,
+/obj/item/gunbox/executive,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "zb" = (
@@ -14766,6 +14770,7 @@
 	pixel_y = 30
 	},
 /obj/item/weapon/aiModule/freeform,
+/obj/item/gunbox/captain,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/cobed)
 "Ks" = (

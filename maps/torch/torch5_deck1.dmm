@@ -2458,6 +2458,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/gunbox,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "aey" = (
@@ -10304,6 +10305,7 @@
 	pixel_y = -28
 	},
 /obj/structure/cable/green,
+/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bo)
 "aJp" = (
@@ -16296,6 +16298,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/gunbox,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "daN" = (
@@ -25749,6 +25752,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/gunbox,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "oTb" = (
@@ -29150,6 +29154,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/gunbox,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "svb" = (
