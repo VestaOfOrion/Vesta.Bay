@@ -2352,10 +2352,6 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/maintenance/fourthdeck/starboard)
-"hC" = (
-/obj/effect/shuttle_landmark/skrellscout/altdock,
-/turf/space,
-/area/space)
 "hE" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -40995,7 +40991,7 @@ aa
 aa
 aa
 aa
-hC
+aa
 aa
 aa
 aa

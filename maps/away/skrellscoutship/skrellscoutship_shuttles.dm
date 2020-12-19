@@ -16,7 +16,7 @@
 	moving_state = "ship_moving"
 	fore_dir = WEST
 	color = "#ff00ff"
-	vessel_mass = 15000
+	vessel_mass = 5000
 	vessel_size = SHIP_SIZE_SMALL
 	initial_restricted_waypoints = list(
 		"Skrellian Shuttle" = list("nav_skrellscoutsh_dock")
@@ -83,10 +83,6 @@
 /obj/effect/shuttle_landmark/skrellscout/dock
 	name = "Skrellian Scout Docking Port"
 	landmark_tag = "nav_skrellscout_dock"
-
-/obj/effect/shuttle_landmark/skrellscout/altdock
-	name = "Skrellian Scout Alternative Docking Port"
-	landmark_tag = "nav_skrellscout_dock_alt"
 
 /obj/effect/shuttle_landmark/skrellscoutshuttle/altdock
 	name = "Docking Port"
