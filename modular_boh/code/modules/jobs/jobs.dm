@@ -316,7 +316,7 @@ var/const/INF               =(1<<11)
 	spawn_positions = 2
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 25)
-	supervisors = "the Chief Science Officer and the Corporate Liaison."
+	supervisors = "the Chief Science Officer."
 	selection_color = "#633d63"
 	economic_power = 6
 	alt_titles = list(

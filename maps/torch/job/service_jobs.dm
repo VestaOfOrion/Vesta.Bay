@@ -105,7 +105,7 @@
 	department_flag = SRV
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Executive Officer and SolGov Personnel"
+	supervisors = "the Executive Officer, NTEF and SMC Personnel"
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 20
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/crewman
