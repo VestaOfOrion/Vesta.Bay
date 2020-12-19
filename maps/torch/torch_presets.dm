@@ -1,17 +1,17 @@
-var/const/NETWORK_AQUILA      = "Aquila"
+var/const/NETWORK_AQUILA      = "Byahkee"
 var/const/NETWORK_BRIDGE      = "Bridge"
-var/const/NETWORK_CALYPSO     = "Charon"
+var/const/NETWORK_CALYPSO     = "Gaunt"
 var/const/NETWORK_EXPEDITION  = "Expedition"
 var/const/NETWORK_FIRST_DECK  = "First Deck"
 var/const/NETWORK_FOURTH_DECK = "Fourth Deck"
-var/const/NETWORK_POD         = "General Utility Pod"
+var/const/NETWORK_POD         = "Garuda"
 var/const/NETWORK_SECOND_DECK = "Second Deck"
 var/const/NETWORK_SUPPLY      = "Supply"
 var/const/NETWORK_HANGAR      = "Hangar"
 var/const/NETWORK_EXPLO       = "Exploration"
 var/const/NETWORK_THIRD_DECK  = "Third Deck"
 var/const/NETWORK_FIFTH_DECK  = "Fifth Deck"
-var/const/NETWORK_NANOTRASEN  = "Petrov"
+var/const/NETWORK_NANOTRASEN  = "Poylp"
 
 /datum/map/torch/get_network_access(var/network)
 	switch(network)

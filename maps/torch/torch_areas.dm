@@ -336,37 +336,37 @@
 	name = "Escape Pod Twelve"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
 
-//Charon
+//Charon //Gaunt aka ugly
 
 /area/exploration_shuttle/
-	name = "\improper Charon"
+	name = "\improper NTEV Gaunt"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/plating
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/exploration_shuttle/cockpit
-	name = "\improper Charon - Cockpit"
+	name = "\improper Gaunt - Cockpit"
 	req_access = list(access_expedition_shuttle)
 
 /area/exploration_shuttle/atmos
-	name = "\improper Charon - Atmos Compartment"
+	name = "\improper Gaunt - Atmos Compartment"
 
 /area/exploration_shuttle/power
-	name = "\improper Charon - Power Compartment"
+	name = "\improper Gaunt - Power Compartment"
 
 /area/exploration_shuttle/crew
-	name = "\improper Charon - Crew Compartment"
+	name = "\improper Gaunt - Crew Compartment"
 
 /area/exploration_shuttle/cargo
-	name = "\improper Charon - Cargo Bay"
+	name = "\improper Gaunt - Cargo Bay"
 
 /area/exploration_shuttle/airlock
-	name = "\improper Charon - Airlock Compartment"
+	name = "\improper Gaunt - Airlock Compartment"
 
-//Aquila
+//Aquila //Byahkee now boy
 
 /area/aquila
-	name = "\improper SEV Aquila"
+	name = "\improper NTPP Byahkee"
 	icon_state = "shuttlered"
 	base_turf = /turf/simulated/floor/reinforced/airless
 	requires_power = 1
@@ -374,41 +374,41 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/aquila/cockpit
-	name = "\improper SEV Aquila - Cockpit"
+	name = "\improper NTPP Byahkee - Cockpit"
 	req_access = list(access_aquila)
 
 /area/aquila/maintenance
-	name = "\improper SEV Aquila - Maintenance"
+	name = "\improper NTPP Byahkee - Maintenance"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/storage
-	name = "\improper SEV Aquila - Storage"
+	name = "\improper NTPP Byahkee - Storage"
 	req_access = list(access_solgov_crew)
 
 /area/aquila/secure_storage
-	name = "\improper SEV Aquila - Secure Storage"
+	name = "\improper NTPP Byahkee - Secure Storage"
 	req_access = list(access_aquila)
 
 /area/aquila/mess
-	name = "\improper SEV Aquila - Mess Hall"
+	name = "\improper NTPP Byahkee - Mess Hall"
 
 /area/aquila/passenger
-	name = "\improper SEV Aquila - Passenger Compartment"
+	name = "\improper NTPP Byahkee - Passenger Compartment"
 
 /area/aquila/medical
-	name = "\improper SEV Aquila - Medical"
+	name = "\improper NTPP Byahkee - Medical"
 
 /area/aquila/head
-	name = "\improper SEV Aquila - Head"
+	name = "\improper NTPP Byahkee - Head"
 
 /area/aquila/airlock
-	name = "\improper SEV Aquila - Airlock Compartment"
+	name = "\improper NTPP Byahkee - Airlock Compartment"
 	req_access = list(access_solgov_crew)
 
-//Guppy
+//Guppy //Garuda aka worse Gaunt
 
 /area/guppy_hangar/start
-	name = "\improper Guppy"
+	name = "\improper NTRV Garuda"
 	icon_state = "shuttlered"
 	requires_power = 1
 	dynamic_lighting = 1
@@ -416,83 +416,83 @@
 	req_access = list(access_guppy)
 
 
-//Petrov
+//Petrov //petrov or that ship that cannot fly
 
 /area/shuttle/petrov
-	name = "\improper SRV Petrov"
+	name = "\improper NTLV Polyp"
 	requires_power = 1
 	dynamic_lighting = 1
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 	req_access = list(access_petrov)
 
 /area/shuttle/petrov/cell1
-	name = "\improper SRV Petrov - Isolation Cell 1"
+	name = "\improper NTLV Polyp - Isolation Cell 1"
 	icon_state = "shuttle"
 /area/shuttle/petrov/cell2
-	name = "\improper SRV Petrov - Isolation Cell 2"
+	name = "\improper NTLV Polyp - Isolation Cell 2"
 	icon_state = "shuttlegrn"
 /area/shuttle/petrov/cell3
-	name = "\improper SRV Petrov - Isolation Cell 3"
+	name = "\improper NTLV Polyp - Isolation Cell 3"
 	icon_state = "shuttle"
 
 /area/shuttle/petrov/hallwaya
-	name = "\improper SRV Petrov - Lower Hallway"
+	name = "\improper NTLV Polyp - Lower Hallway"
 	icon_state = "hallA"
 
 /area/shuttle/petrov/security
-	name = "\improper SRV Petrov - Security Office"
+	name = "\improper NTLV Polyp - Security Office"
 	icon_state = "checkpoint1"
 	req_access = list(access_petrov_security)
 
 /area/shuttle/petrov/rd
 	icon_state = "heads_rd"
-	name = "\improper SRV Petrov - CSO's Office"
+	name = "\improper NTLV Polyp - CSO's Office"
 	icon_state = "head_quarters"
 	req_access = list(access_petrov_rd)
 
 /area/shuttle/petrov/cockpit
-	name = "\improper SRV Petrov - Cockpit"
+	name = "\improper NTLV Polyp - Cockpit"
 	icon_state = "shuttlered"
 	req_access = list(access_petrov_helm)
 
 /area/shuttle/petrov/maint
-	name = "\improper SRV Petrov - Maintenance"
+	name = "\improper NTLV Polyp - Maintenance"
 	icon_state = "engine"
 	req_access = list(access_petrov_maint)
 
 /area/shuttle/petrov/analysis
-	name = "\improper SRV Petrov - Analysis Lab"
+	name = "\improper NTLV Polyp - Analysis Lab"
 	icon_state = "devlab"
 	req_access = list(access_petrov_analysis)
 
 /area/shuttle/petrov/toxins
-	name = "\improper SRV Petrov - Toxins Lab"
+	name = "\improper NTLV Polyp - Toxins Lab"
 	icon_state = "toxstorage"
 	req_access = list(access_petrov_toxins)
 
 /area/shuttle/petrov/rnd
-	name = "\improper SRV Petrov - Fabricator Lab"
+	name = "\improper NTLV Polyp - Fabricator Lab"
 	icon_state = "devlab"
 
 /area/shuttle/petrov/isolation
-	name = "\improper SRV Petrov - Isolation Lab"
+	name = "\improper NTLV Polyp - Isolation Lab"
 	icon_state = "xeno_lab"
 
 /area/shuttle/petrov/phoron
-	name = "\improper SRV Petrov - Sublimation Lab"
+	name = "\improper NTLV Polyp - Sublimation Lab"
 	icon_state = "toxstorage"
 	req_access = list(access_petrov_phoron)
 
 /area/shuttle/petrov/custodial
-	name = "\improper SRV Petrov - Custodial"
+	name = "\improper NTLV Polyp - Custodial"
 	icon_state = "decontamination"
 
 /area/shuttle/petrov/equipment
-	name = "\improper SRV Petrov - Equipment Storage"
+	name = "\improper NTLV Polyp - Equipment Storage"
 	icon_state = "locker"
 
 /area/shuttle/petrov/eva
-	name = "\improper SRV Petrov - EVA Storage"
+	name = "\improper NTLV Polyp - EVA Storage"
 	icon_state = "locker"
 
 //Turbolift

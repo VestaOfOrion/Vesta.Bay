@@ -6229,7 +6229,7 @@
 	icon_state = "closed";
 	id_tag = "aquila_shuttle_inner";
 	locked = 1;
-	name = "Aquila External Access";
+	name = "Byahkee External Access";
 	req_access = list("ACCESS_TORCH_CREW")
 	},
 /obj/structure/cable{
@@ -7203,7 +7203,7 @@
 	dir = 4
 	},
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Aft Passageway";
+	c_tag = "Byahkee - Aft Passageway";
 	dir = 1
 	},
 /obj/structure/cable{
@@ -13992,7 +13992,7 @@
 /obj/structure/table/standard,
 /obj/item/weapon/defibrillator/loaded,
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Infirmary";
+	c_tag = "Byahkee - Infirmary";
 	dir = 8
 	},
 /obj/machinery/firealarm{
@@ -14961,12 +14961,11 @@
 "Li" = (
 /obj/machinery/door/airlock/external{
 	autoset_access = 0;
-	density = 1;
 	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "aquila_shuttle_outer";
 	locked = 1;
-	name = "Aquila External Access";
+	name = "Byahkee External Access";
 	req_access = list("ACCESS_TORCH_CREW")
 	},
 /obj/machinery/shield_diffuser,
@@ -16103,8 +16102,7 @@
 	},
 /obj/machinery/microwave,
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Crew Compartment";
-	dir = 2
+	c_tag = "Byahkee - Crew Compartment"
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -16585,7 +16583,7 @@
 "QA" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Docking Port";
+	c_tag = "Byahkee - Docking Port";
 	dir = 1
 	},
 /obj/structure/cable{
@@ -18686,7 +18684,7 @@
 /area/turret_protected/ai_foyer)
 "WS" = (
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Seating";
+	c_tag = "Byahkee - Seating";
 	dir = 1
 	},
 /obj/structure/bed/chair/shuttle/blue{
@@ -19037,10 +19035,6 @@
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
-/obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Storage";
-	dir = 1
-	},
 /obj/machinery/power/apc/shuttle/aquila{
 	dir = 4;
 	name = "east bump";
@@ -19049,6 +19043,10 @@
 /obj/structure/cable/cyan{
 	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Storage Compartment";
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/aquila/storage)
