@@ -34,4 +34,10 @@ delete-after: True
 # Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - tweak: "The selection of weapons being able to be purchased by the Merchant has been increased"
+  - maptweak: "A completely new SSV map has been added alongside a new shuttle"
+  - tweak: "Numerous SSV weapons have received name tweaks as per how they were on Vesta"
+  - rscadd: "The QX-2 Miniaturized Railgun has been re-added with some changes. Credits for the sprites go to Lamasmaster"
+  - rscadd: "Skrellian Shields have been added. Credits for the sprites go to Memed Hans."
+  - imageadd: "Skrellian RIG sprites have been tweaked to be the same as Vesta's"
+  - imageadd: "Skrellian gas synthesizers and fusion power cell sprites have been tweaked to be the same as Vesta's"
+  - tweak: "The Skrellian Energy Machete has been tweaked to deal the same damage as an energy sword."

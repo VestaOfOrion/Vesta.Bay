@@ -3,6 +3,7 @@
 //Define Rig Clothing
 /obj/item/clothing/suit/space/rig/ert/skrell
 	name = "skrellian recon hardsuit chestpiece"
+	icon = 'modular_boh/icon/obj/obj_suit_skrell_rig.dmi'
 	desc = "A powerful recon hardsuit with integrated power supply and atmosphere. It's impressive design perfectly tailors to the user's body."
 	species_restricted = list(SPECIES_SKRELL)
 	sprite_sheets = list(
@@ -11,6 +12,7 @@
 
 /obj/item/clothing/head/helmet/space/rig/ert/skrell
 	name = "skrellian recon hardsuit helmet"
+	icon = 'modular_boh/icon/obj/obj_head_skrell_rig.dmi'
 	desc = "A powerful recon hardsuit with integrated power supply and atmosphere. It's impressive design perfectly tailors to the user's body."
 	light_overlay = "helmet_light_dual"
 	species_restricted = list(SPECIES_SKRELL)
@@ -20,6 +22,7 @@
 
 /obj/item/clothing/shoes/magboots/rig/ert/skrell
 	name = "skrellian recon hardsuit boots"
+	icon = 'modular_boh/icon/obj/obj_feet_skrell_rig.dmi'
 	desc = "A powerful recon hardsuit with integrated power supply and atmosphere. It's impressive design perfectly tailors to the user's body."
 	species_restricted = list(SPECIES_SKRELL)
 	sprite_sheets = list(
@@ -28,6 +31,7 @@
 
 /obj/item/clothing/gloves/rig/ert/skrell
 	name = "skrellian recon hardsuit gloves"
+	icon = 'modular_boh/icon/obj/obj_hands_skrell_rig.dmi'
 	desc = "A powerful recon hardsuit with integrated power supply and atmosphere. It's impressive design perfectly tailors to the user's body."
 	siemens_coefficient = 0
 	species_restricted = list(SPECIES_SKRELL)
@@ -121,7 +125,6 @@
 		/obj/item/rig_module/device/healthscanner,
 		/obj/item/rig_module/device/defib,
 		/obj/item/rig_module/vision/medhud,
-		/obj/item/rig_module/chem_dispenser/injector,
 		/obj/item/rig_module/cooling_unit
 	)
 
@@ -164,7 +167,7 @@
 	)
 	initial_modules = list(
 		/obj/item/rig_module/vision,
-		/obj/item/rig_module/chem_dispenser/skrell/combat,
+		/obj/item/rig_module/chem_dispenser/injector/skrell,
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/device/clustertool/skrell,
 		/obj/item/rig_module/device/flash/advanced,
