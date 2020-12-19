@@ -1,4 +1,4 @@
-/obj/machinery/porta_turret/stationary/ssv
+/obj/machinery/porta_turret/crescent/ssv
 	name = "Skrellian anti-personnel battery"
 	desc = "A turret of Skrellian manufacture. Made by Qerr-Kimikruuv Technologies."
 	enabled = 1
