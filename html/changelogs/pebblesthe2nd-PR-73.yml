@@ -1,0 +1,5 @@
+author: Pebblesthe2nd
+delete-after: True
+changes: 
+  - rscadd: "New sprites solar panels."
+  - maptweak: "Bridge Deck Torch solars facelift. Removed hatched decals, added catwalks to solars."
