@@ -17,9 +17,7 @@
 
 	var/list/descriptors = null	//The brain will now carry flavor_texts and descriptors from it's holder
 	var/list/flavor_texts = null //So when people gets scanned only from the brain, they can keep it
-	////////////////////////////
-	var/list/ooc_notes = null //Adding this here so it better work, should make you not lose OOC notes after dying and getting revived - lamasmaster
-	////////////////////////////
+
 //#############################################################################################################
 //# VESTA.BAY #### PORT CLONNING ##############################################################################
 //#############################################################################################################

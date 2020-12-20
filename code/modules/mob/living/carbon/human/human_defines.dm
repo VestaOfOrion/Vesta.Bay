@@ -69,10 +69,6 @@
 	var/hand_blood_color
 
 	var/list/flavor_texts = list()
-	////////////////////////////////////////////////////
-	//Purely used so you can see OOC notes - lamasmaster
-	var/list/ooc_notes = list()
-	////////////////////////////////////////////////////
 	var/pulling_punches    // Are you trying not to hurt your opponent?
 	var/full_prosthetic    // We are a robutt.
 	var/robolimb_count = 0 // Number of robot limbs.
