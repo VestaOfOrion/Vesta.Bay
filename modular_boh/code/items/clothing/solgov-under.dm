@@ -208,6 +208,9 @@
 	desc = "Alternative utility uniform of NT's Expeditionary Fleet, for when coveralls are impractical."
 	icon_state = "greyutility"
 	worn_state = "greyutility"
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'modular_boh/icon/mob/species/unathi/onmob_under_solgov_unathi.dmi'
+		)
 
 /obj/item/clothing/under/solgov/utility/fleet/combat/security
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/fleet)
