@@ -8,7 +8,7 @@
 	path = /obj/item/clothing/accessory/storage/brown_vest
 	cost = 3
 //	allowed_roles = list(/datum/job/chief_engineer, /datum/job/engineer, /datum/job/roboticist, /datum/job/qm, /datum/job/cargo_tech,
-						/datum/job/mining, /datum/job/janitor)
+//						/datum/job/mining, /datum/job/janitor)
 
 /datum/gear/storage/black_vest
 	display_name = "webbing, black"
