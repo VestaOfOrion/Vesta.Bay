@@ -2,4 +2,4 @@ author: Pebblesthe2nd
 delete-after: True
 changes: 
   - rscadd: "New sprites solar panels."
-  - rmaptweak: "Bridge Deck Torch solars facelift. Removed hatched decals, added catwalks to solars."
+  - maptweak: "Bridge Deck Torch solars facelift. Removed hatched decals, added catwalks to solars."
