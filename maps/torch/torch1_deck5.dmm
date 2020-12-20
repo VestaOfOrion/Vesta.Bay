@@ -1343,7 +1343,11 @@
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/hangar)
 "cA" = (
-/obj/effect/overmap/visitable/ship/landable/guppy,
+/obj/effect/overmap/visitable/ship/landable/guppy{
+	desc = "An SSE-U3 utility pod, broadcasting SC codes and the callsign \"Dagon-3 Garuda\".";
+	name = "NTRP Garuda";
+	shuttle = "NTRP Garuda"
+	},
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
 	},

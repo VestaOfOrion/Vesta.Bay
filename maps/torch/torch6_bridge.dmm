@@ -4618,7 +4618,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/overmap/visitable/ship/landable/aquila,
+/obj/effect/overmap/visitable/ship/landable/aquila{
+	desc = "A PM-24 modular transport, broadcasting SC codes and the callsign \"Dagon-1 Byakhee\".";
+	name = "NTSC Byakhee";
+	shuttle = "NTSC Byakhee"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/airlock)
 "js" = (
@@ -13273,7 +13277,9 @@
 "FV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/shuttle_landmark/torch/hangar/aquila,
+/obj/effect/shuttle_landmark/torch/hangar/aquila{
+	name = "NTSC Byakhee Hangar"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/cable/cyan{
 	d1 = 1;
