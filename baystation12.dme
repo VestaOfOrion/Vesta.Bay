@@ -3227,7 +3227,6 @@
 #include "modular_boh\code\modules\reagents\bottle.dm"
 #include "modular_boh\code\modules\reagents\Chemistry-Reagents-Medicine.dm"
 #include "modular_boh\code\modules\reagents\hypospray.dm"
-#include "modular_boh\code\modules\species\modular_species_no_lace.dm"
 #include "modular_boh\code\modules\species\plasmasans_item\plasmasans.dm"
 #include "modular_boh\code\modules\species\plasmasans_mob\plasmasans.dm"
 #include "modular_boh\code\modules\species\plasmasans_organs\plasmasans.dm"
