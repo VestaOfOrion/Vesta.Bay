@@ -62,7 +62,7 @@ TORCH_ESCAPE_POD(17)
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling
 
 /datum/shuttle/autodock/ferry/petrov/New(_name, var/obj/effect/shuttle_landmark/initial_location)
-	shuttle_area = subtypesof(/area/shuttle/petrov)
+	shuttle_area = subtypesof(/area/shuttle/petrov) 
 	..()
 
 /obj/effect/shuttle_landmark/petrov/start
