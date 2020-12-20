@@ -1413,7 +1413,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/guppy_hangar/start)
 "cG" = (
-/obj/effect/shuttle_landmark/torch/hangar/guppy,
+/obj/effect/shuttle_landmark/torch/hangar/guppy{
+	name = "NTRP Garuda Hangar"
+	},
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5;
 	icon_state = "intact"

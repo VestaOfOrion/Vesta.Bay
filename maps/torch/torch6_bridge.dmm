@@ -6880,7 +6880,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/reinforced/airless,
-/area/space)
+/area/aquila/cockpit)
 "oY" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/command/msea)
@@ -13590,6 +13590,19 @@
 	},
 /turf/simulated/open,
 /area/maintenance/bridge/foreport)
+"GO" = (
+/obj/machinery/pointdefense{
+	id_tag = null;
+	initial_id_tag = "gunship_pd"
+	},
+/obj/machinery/power/terminal,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/aquila/head)
 "GS" = (
 /turf/simulated/floor/tiled/white,
 /area/aquila/medical)
@@ -39012,7 +39025,7 @@ ad
 ad
 ad
 hb
-oW
+GO
 ei
 Az
 jk

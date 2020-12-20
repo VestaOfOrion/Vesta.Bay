@@ -408,7 +408,7 @@
 //Guppy //Garuda aka worse Gaunt
 
 /area/guppy_hangar/start
-	name = "\improper NTRV Garuda"
+	name = "\improper NTRP Garuda"
 	icon_state = "shuttlered"
 	requires_power = 1
 	dynamic_lighting = 1
