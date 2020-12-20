@@ -1,0 +1,9 @@
+author: Pebblesthe2nd
+delete-after: True
+changes: 
+  - rscadd: "Spriting: Reskinned Chemmaster, Dispenser, Grinder"   
+  - rscadd: "Slightly larger pill bottle and bottle-3."
+  - rscadd: "Spriting: New Reagent scanner, Spectroscope icons. New tint to beakers and chems glass."
+  - rscadd: "Spriting: Tape roll resized slightly, new binoculars, modified locator, modified excavation pickholder. Reason: Fit the theme, size streamlining, aesthetic."
+  - rscadd: "Spriting: Flaregun and Ballistic Launcher new sprites. Colour matched to themes, flaregun base off photo."
+  - rscadd: "Spriting: Recoloured and modifed icons for anomaly containers, stasis Cage, atmos scanner. Reason: Expedition theme."
