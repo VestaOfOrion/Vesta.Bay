@@ -787,8 +787,6 @@
 "bD" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/substation/bridge)
-<<<<<<< Updated upstream
-=======
 "bE" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -798,7 +796,6 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/bridge)
->>>>>>> Stashed changes
 "bF" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -2074,25 +2071,6 @@
 /obj/structure/ship_munition/disperser_charge/emp,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/aquila/head)
-"dz" = (
-/obj/structure/catwalk,
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/cable/yellow{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/airless,
-/area/solar/bridge)
 "dE" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -6024,10 +6002,6 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-<<<<<<< Updated upstream
-/obj/effect/floor_decal/industrial/outline/yellow,
-=======
->>>>>>> Stashed changes
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
@@ -11081,20 +11055,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/turret_protected/ai)
-"zw" = (
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/airless,
-/area/solar/bridge)
 "zx" = (
 /obj/structure/catwalk,
 /obj/machinery/pointdefense{
@@ -12618,20 +12578,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/airlock)
-"DX" = (
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/airless,
-/area/solar/bridge)
 "DY" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -13172,10 +13118,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
-/obj/effect/floor_decal/industrial/outline/yellow,
-=======
->>>>>>> Stashed changes
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
@@ -14532,10 +14474,6 @@
 /turf/simulated/open,
 /area/maintenance/bridge/foreport)
 "JM" = (
-<<<<<<< Updated upstream
-/obj/effect/floor_decal/industrial/outline/yellow,
-=======
->>>>>>> Stashed changes
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 8;
@@ -15328,13 +15266,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "MN" = (
-<<<<<<< Updated upstream
-=======
 /obj/effect/floor_decal/industrial/outline,
->>>>>>> Stashed changes
 /obj/structure/cable/yellow,
 /obj/machinery/power/tracker,
-/obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "MO" = (
@@ -16934,14 +16868,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-<<<<<<< Updated upstream
-=======
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
->>>>>>> Stashed changes
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/bridge)
@@ -17332,10 +17263,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/heads/cobed)
 "SW" = (
-<<<<<<< Updated upstream
-/obj/effect/floor_decal/industrial/outline/yellow,
-=======
->>>>>>> Stashed changes
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -19481,17 +19408,13 @@
 "ZH" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
-	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/sign/solgov{
-	pixel_x = -32;
-	pixel_y = 32
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
@@ -37871,11 +37794,11 @@ ad
 ad
 ad
 au
-RO
-RO
-RO
+bE
+bE
+bE
 cO
-RO
+bE
 cQ
 ad
 ad
@@ -37903,12 +37826,12 @@ ZB
 Vs
 ad
 ZP
-RO
+bE
 ZH
-RO
-RO
-RO
-zw
+bE
+bE
+bE
+ZH
 MN
 ad
 aa
@@ -38476,11 +38399,11 @@ aa
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 cP
 ad
@@ -38510,11 +38433,11 @@ ho
 SQ
 cP
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -38880,11 +38803,11 @@ aa
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 cP
 ad
@@ -38914,11 +38837,11 @@ ho
 SQ
 cP
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -39486,11 +39409,11 @@ aa
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 cP
 hb
@@ -39520,11 +39443,11 @@ SQ
 ad
 cP
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -39890,11 +39813,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 cP
 hb
@@ -39924,11 +39847,11 @@ SQ
 ad
 cP
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -40126,7 +40049,7 @@ SQ
 ad
 cP
 ah
-dz
+av
 aI
 ad
 ah
@@ -40332,7 +40255,7 @@ av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -40496,11 +40419,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 cP
 aH
@@ -40530,11 +40453,11 @@ Fw
 hP
 cP
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -40900,11 +40823,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 cP
 ad
@@ -40938,7 +40861,7 @@ av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -41136,7 +41059,7 @@ vR
 SQ
 cP
 ah
-dz
+av
 aI
 ad
 ah
@@ -41342,7 +41265,7 @@ av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -41506,11 +41429,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 cP
 ad
@@ -41540,7 +41463,7 @@ Vm
 SQ
 cP
 ah
-dz
+av
 aI
 ad
 ah
@@ -41910,45 +41833,45 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 eH
-DX
 RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
-RO
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
+bE
 YQ
 ah
 av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -42146,7 +42069,7 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
@@ -42352,7 +42275,7 @@ av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -42516,11 +42439,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -42550,7 +42473,7 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
@@ -42752,11 +42675,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -42924,7 +42847,7 @@ av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -43358,11 +43281,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -43526,11 +43449,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -43762,11 +43685,11 @@ Ms
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -43930,11 +43853,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -43964,11 +43887,11 @@ Ms
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -44536,11 +44459,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -44570,11 +44493,11 @@ Ms
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -44940,11 +44863,11 @@ ad
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
@@ -44974,11 +44897,11 @@ IC
 ad
 ad
 ah
-dz
+av
 aI
 ad
 ah
-dz
+av
 aI
 ad
 ad
