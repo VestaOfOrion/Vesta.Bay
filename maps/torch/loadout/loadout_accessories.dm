@@ -232,18 +232,6 @@
 	path = /obj/item/clothing/accessory/ubac/blue
 	allowed_branches = list(/datum/mil_branch/fleet)
 
-/datum/gear/tactical/ubac/misc
-	display_name = "miscellaneous UBAC shirt selection"
-	path = /obj/item/clothing/accessory/ubac
-	allowed_branches = CIVILIAN_BRANCHES
-
-/datum/gear/tactical/ubac/misc/New()
-	..()
-	var/shirts = list()
-	shirts["green UBAC shirt"] = /obj/item/clothing/accessory/ubac/green
-	shirts["tan UBAC shirt"] = /obj/item/clothing/accessory/ubac/tan
-	gear_tweaks += new/datum/gear_tweak/path(shirts)
-
 /datum/gear/tactical/armor_pouches
 	display_name = "black armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches

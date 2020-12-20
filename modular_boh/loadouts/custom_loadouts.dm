@@ -271,81 +271,6 @@ datum/gear/utility/crayonmre
 	allowed_branches = NT_BRANCHES
 	cost = 0 // Ditto.
 
-/// Limb guards
-// Arms
-/datum/gear/tactical/arm_guards
-	display_name = "Arm Guards selection"
-	description = "A selection of military arm guards. Attaches to plate carrier."
-	path = /obj/item/clothing/accessory/armguards
-	cost = 1
-	allowed_roles = ARMORED_ROLES
-	allowed_branches = TACTICOOL_BRANCHES
-
-/datum/gear/tactical/arm_guards/New()
-	..()
-	var/arm_guards = list()
-	arm_guards["Black arm guards"] = /obj/item/clothing/accessory/armguards
-	arm_guards["Navy arm guards"] = /obj/item/clothing/accessory/armguards/navy
-	arm_guards["Blue arm guards"] = /obj/item/clothing/accessory/armguards/blue
-	arm_guards["Green arm guards"] = /obj/item/clothing/accessory/armguards/green
-	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
-
-/datum/gear/tactical/arm_guards_light
-	display_name = "Arm Pads selection"
-	description = "A selection of military arm pads. They're weaker than normal guards."
-	path = /obj/item/clothing/accessory/armguards/light
-	allowed_branches = TACTICOOL_BRANCHES
-
-/datum/gear/tactical/arm_guards_light/New()
-	..()
-	var/arm_guards = list()
-	arm_guards["Black arm pads"] = /obj/item/clothing/accessory/armguards/light
-	arm_guards["Navy arm pads"] = /obj/item/clothing/accessory/armguards/light/navy
-	arm_guards["Blue arm pads"] = /obj/item/clothing/accessory/armguards/light/blue
-	arm_guards["Green arm pads"] = /obj/item/clothing/accessory/armguards/light/green
-	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
-
-/datum/gear/tactical/arm_guards_grey
-	display_name = "Grey arm pads"
-	path = /obj/item/clothing/accessory/armguards/light/grey
-
-// Legs
-/datum/gear/tactical/leg_guards
-	display_name = "Leg Guards selection"
-	description = "A selection of military leg guards. Attaches to plate carrier."
-	path = /obj/item/clothing/accessory/legguards
-	cost = 1
-	allowed_roles = ARMORED_ROLES
-	allowed_branches = TACTICOOL_BRANCHES
-
-/datum/gear/tactical/leg_guards/New()
-	..()
-	var/leg_guards = list()
-	leg_guards["Black leg guards"] = /obj/item/clothing/accessory/legguards
-	leg_guards["Navy leg guards"] = /obj/item/clothing/accessory/legguards/navy
-	leg_guards["Blue leg guards"] = /obj/item/clothing/accessory/legguards/blue
-	leg_guards["Green leg guards"] = /obj/item/clothing/accessory/legguards/green
-	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
-
-/datum/gear/tactical/leg_guards_light
-	display_name = "Leg Pads selection"
-	description = "A selection of military leg pads. They're weaker than normal guards."
-	path = /obj/item/clothing/accessory/legguards/light
-	allowed_branches = TACTICOOL_BRANCHES
-
-/datum/gear/tactical/leg_guards_light/New()
-	..()
-	var/leg_guards = list()
-	leg_guards["Black leg pads"] = /obj/item/clothing/accessory/legguards/light
-	leg_guards["Navy leg pads"] = /obj/item/clothing/accessory/legguards/light/navy
-	leg_guards["Blue leg pads"] = /obj/item/clothing/accessory/legguards/light/blue
-	leg_guards["Green leg pads"] = /obj/item/clothing/accessory/legguards/light/green
-	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
-
-/datum/gear/tactical/leg_guards_grey
-	display_name = "Grey leg pads"
-	path = /obj/item/clothing/accessory/legguards/light/grey
-
 /datum/gear/tactical/combatknife
 	display_name = "Combat knife"
 	path = /obj/item/weapon/material/knife/combat
@@ -479,6 +404,7 @@ datum/gear/head/ECdepartment/New()
 	..()
 	var/uniform = list()
 	uniform += /obj/item/clothing/under/solgov/utility/fleet/combat/marine
+	uniform += /obj/item/clothing/under/solgov/utility/army
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
 
 /datum/gear/uniform/fleet
