@@ -13226,7 +13226,7 @@
 /area/hallway/primary/fifthdeck/fore)
 "FU" = (
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Hallway Aft";
+	c_tag = "Polyp - Hallway Aft";
 	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -14084,9 +14084,8 @@
 "IF" = (
 /obj/machinery/computer/shuttle_control{
 	dir = 4;
-	icon_state = "computer";
 	req_access = list("ACCESS_TORCH_PETROV_HELM");
-	shuttle_tag = "Petrov"
+	shuttle_tag = "NTRL Polyp"
 	},
 /obj/machinery/newscaster{
 	pixel_y = -32
@@ -14542,7 +14541,7 @@
 "Ki" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Hallway Fore";
+	c_tag = "Polyp - Hallway Fore";
 	dir = 1
 	},
 /obj/machinery/alarm{
@@ -16078,7 +16077,7 @@
 	icon_state = "0-4"
 	},
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Anomaly Fore";
+	c_tag = "Polyp - Anomaly Fore";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white/monotile,

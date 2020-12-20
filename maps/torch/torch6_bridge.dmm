@@ -5569,7 +5569,7 @@
 /area/aquila/cockpit)
 "lO" = (
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Cockpit";
+	c_tag = "Byakhee - Cockpit";
 	dir = 8
 	},
 /obj/machinery/computer/modular/preset/cardslot/command,
