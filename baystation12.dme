@@ -3184,6 +3184,7 @@
 #include "modular_boh\code\datums\trading\weaponry.dm"
 #include "modular_boh\code\game\dna\dna_modifier.dm"
 #include "modular_boh\code\game\machinery\cloning.dm"
+#include "modular_boh\code\game\machinery\pdav.dm"
 #include "modular_boh\code\game\machinery\resleever.dm"
 #include "modular_boh\code\items\documents.dm"
 #include "modular_boh\code\items\medical.dm"
