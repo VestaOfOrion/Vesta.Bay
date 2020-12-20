@@ -3586,8 +3586,11 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
+/area/hallway/primary/firstdeck/aft)
 "agn" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -3621,7 +3624,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
+/area/hallway/primary/firstdeck/aft)
 "agq" = (
 /obj/structure/table/standard,
 /obj/machinery/alarm{
@@ -4097,7 +4100,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
+/area/hallway/primary/firstdeck/aft)
 "ahj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
@@ -4107,17 +4110,8 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
+/area/hallway/primary/firstdeck/aft)
 "ahk" = (
-/obj/machinery/light_switch{
-	pixel_x = 6;
-	pixel_y = 24
-	},
-/obj/machinery/button/windowtint{
-	id = "counselor_therapy";
-	pixel_x = -2;
-	pixel_y = 24
-	},
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "west bump";
@@ -4168,34 +4162,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/rnd/development)
-"aht" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
-	},
-/obj/structure/bed/chair/padded/blue{
-	dir = 4;
-	icon_state = "chair_preview"
-	},
-/obj/machinery/light_switch{
-	dir = 4;
-	pixel_x = -21;
-	pixel_y = 5
-	},
-/turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
-"ahu" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
 "ahv" = (
 /obj/machinery/camera/network/medbay{
 	c_tag = "Infirmary - Counselor's Therapy Room";
@@ -4210,7 +4176,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/closet/secure_closet/psiadvisor,
+/obj/structure/coatrack,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/psiadvisor)
 "ahx" = (
@@ -4566,7 +4532,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
+/area/hallway/primary/firstdeck/aft)
 "aie" = (
 /obj/machinery/door/airlock/medical{
 	id_tag = "psi_door";
@@ -4655,14 +4621,14 @@
 	icon_state = "chair_preview"
 	},
 /turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
+/area/hallway/primary/firstdeck/aft)
 "aim" = (
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -26
 	},
 /turf/simulated/floor/tiled,
-/area/crew_quarters/heads/office/psiadvisor)
+/area/hallway/primary/firstdeck/aft)
 "ain" = (
 /obj/structure/table/woodentable/walnut,
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/teacup,
@@ -4674,7 +4640,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/psiadvisor)
 "aio" = (
-/obj/structure/coatrack,
+/obj/structure/closet/secure_closet/psiadvisor,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/psiadvisor)
 "aip" = (
@@ -6302,10 +6268,6 @@
 /area/medical/medicalhallway)
 "aqM" = (
 /obj/machinery/status_display,
-/obj/machinery/pager/medical{
-	pixel_x = -23;
-	pixel_y = -10
-	},
 /turf/simulated/wall/prepainted,
 /area/medical/medicalhallway)
 "aqP" = (
@@ -29820,6 +29782,10 @@
 /obj/item/modular_computer/telescreen/preset/medical{
 	pixel_x = 32
 	},
+/obj/machinery/pager/medical{
+	pixel_x = 24;
+	pixel_y = -10
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/medicalhallway)
 "tgs" = (
@@ -31838,6 +31804,19 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/aftport)
+"xcm" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/structure/bed/chair/padded/blue{
+	dir = 4;
+	icon_state = "chair_preview"
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/firstdeck/aft)
 "xcW" = (
 /turf/simulated/wall/prepainted,
 /area/assembly/robotics/office)
@@ -54635,7 +54614,7 @@ sde
 sde
 sde
 dEb
-abL
+dDb
 agH
 mJY
 uUK
@@ -56472,10 +56451,10 @@ kwG
 uZi
 agl
 ahi
-aht
 ail
 ail
-cva
+xcm
+aul
 jYb
 pdb
 jZb
@@ -56674,10 +56653,10 @@ ugg
 jlb
 agp
 ahj
-ahu
+ahj
 aid
 aim
-cva
+aul
 jWb
 peb
 pBb
