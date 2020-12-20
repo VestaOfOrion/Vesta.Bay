@@ -288,7 +288,6 @@ datum/gear/utility/crayonmre
 	arm_guards["Navy arm guards"] = /obj/item/clothing/accessory/armguards/navy
 	arm_guards["Blue arm guards"] = /obj/item/clothing/accessory/armguards/blue
 	arm_guards["Green arm guards"] = /obj/item/clothing/accessory/armguards/green
-	arm_guards["Tan arm guards"] = /obj/item/clothing/accessory/armguards/tan
 	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
 
 /datum/gear/tactical/arm_guards_light
@@ -304,7 +303,6 @@ datum/gear/utility/crayonmre
 	arm_guards["Navy arm pads"] = /obj/item/clothing/accessory/armguards/light/navy
 	arm_guards["Blue arm pads"] = /obj/item/clothing/accessory/armguards/light/blue
 	arm_guards["Green arm pads"] = /obj/item/clothing/accessory/armguards/light/green
-	arm_guards["Tan arm pads"] = /obj/item/clothing/accessory/armguards/light/tan
 	gear_tweaks += new/datum/gear_tweak/path(arm_guards)
 
 /datum/gear/tactical/arm_guards_grey
@@ -327,7 +325,6 @@ datum/gear/utility/crayonmre
 	leg_guards["Navy leg guards"] = /obj/item/clothing/accessory/legguards/navy
 	leg_guards["Blue leg guards"] = /obj/item/clothing/accessory/legguards/blue
 	leg_guards["Green leg guards"] = /obj/item/clothing/accessory/legguards/green
-	leg_guards["Tan leg guards"] = /obj/item/clothing/accessory/legguards/tan
 	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
 
 /datum/gear/tactical/leg_guards_light
@@ -343,7 +340,6 @@ datum/gear/utility/crayonmre
 	leg_guards["Navy leg pads"] = /obj/item/clothing/accessory/legguards/light/navy
 	leg_guards["Blue leg pads"] = /obj/item/clothing/accessory/legguards/light/blue
 	leg_guards["Green leg pads"] = /obj/item/clothing/accessory/legguards/light/green
-	leg_guards["Tan leg pads"] = /obj/item/clothing/accessory/legguards/light/tan
 	gear_tweaks += new/datum/gear_tweak/path(leg_guards)
 
 /datum/gear/tactical/leg_guards_grey
@@ -438,11 +434,11 @@ datum/gear/head/ECdepartment/New()
 	armors["Black plate carrier"] = /obj/item/clothing/suit/armor/pcarrier
 	armors["Navy plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy
 	armors["Blue plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue
+	armors["Green plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/green
 	armors["Black ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/ipc
 	armors["Navy ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy/ipc
 	armors["Blue ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue/ipc
 	armors["Green ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/green/ipc
-	armors["Tan ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/tan/ipc
 	gear_tweaks += new/datum/gear_tweak/path(armors)
 
 /datum/gear/tactical/kevlar
@@ -456,7 +452,6 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/tactical/kevlar/New()
 	..()
 	var/armors = list()
-	armors["Tan kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/tan
 	armors["Navy kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/navy
 	armors["Blue kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/blue
 	armors["Green kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/green
@@ -483,8 +478,6 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/uniform/misc_military/New()
 	..()
 	var/uniform = list()
-	uniform += /obj/item/clothing/under/solgov/utility/army/urban
-	uniform += /obj/item/clothing/under/solgov/utility/army/tan
 	uniform += /obj/item/clothing/under/solgov/utility/fleet/combat/marine
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
 
@@ -514,8 +507,6 @@ datum/gear/head/ECdepartment/New()
 	..()
 	var/cover = list()
 	cover += /obj/item/clothing/head/solgov/utility/army
-	cover += /obj/item/clothing/head/solgov/utility/army/urban
-	cover += /obj/item/clothing/head/solgov/utility/army/tan
 	cover += /obj/item/clothing/head/solgov/utility/fleet/marine
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
 

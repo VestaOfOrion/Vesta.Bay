@@ -3199,7 +3199,6 @@
 #include "modular_boh\code\modules\material.dm"
 #include "modular_boh\code\modules\augment\augments.dm"
 #include "modular_boh\code\modules\circuitboards\circuitboards.dm"
-#include "modular_boh\code\modules\client\preference_setup\general\05_ooc_notes.dm"
 #include "modular_boh\code\modules\clothing\clothing.dm"
 #include "modular_boh\code\modules\clothing\spacesuit\void.dm"
 #include "modular_boh\code\modules\clothing\spacesuits\rig\suit\infantry.dm"
