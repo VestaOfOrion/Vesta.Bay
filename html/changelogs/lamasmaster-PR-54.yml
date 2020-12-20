@@ -1,0 +1,6 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - tweak: "Psionics now have 5% latency chance and can no longer give random paramount."

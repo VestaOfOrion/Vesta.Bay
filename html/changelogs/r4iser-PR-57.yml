@@ -1,0 +1,7 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - rscadd: "Adds SPECIES_NO_LACE flag to species that are not compatible with Neural Laces."
+  - rscadd: "Adds routines to Resleever for species with SPECIES_NO_LACE flag."
