@@ -3530,7 +3530,10 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "gp" = (
-/obj/machinery/computer/shuttle_control/explore/aquila,
+/obj/machinery/computer/shuttle_control/explore/aquila{
+	name = "byakhee control console";
+	shuttle_tag = "NTSC Byakhee"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
 "gq" = (

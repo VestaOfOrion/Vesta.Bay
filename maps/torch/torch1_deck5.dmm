@@ -763,7 +763,9 @@
 /turf/simulated/floor/tiled/monotile,
 /area/exploration_shuttle/cockpit)
 "bx" = (
-/obj/machinery/computer/shuttle_control/explore/exploration_shuttle,
+/obj/machinery/computer/shuttle_control/explore/exploration_shuttle{
+	shuttle_tag = "NTEV Gaunt"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/exploration_shuttle/cockpit)
 "by" = (
@@ -2105,7 +2107,8 @@
 "dN" = (
 /obj/machinery/computer/shuttle_control/explore/guppy{
 	dir = 1;
-	icon_state = "computer"
+	name = "garuda control console";
+	shuttle_tag = "NTRP Garuda"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/guppy_hangar/start)
