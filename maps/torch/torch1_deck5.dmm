@@ -2346,8 +2346,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/effect/shuttle_landmark/torch/hangar/exploration_shuttle,
-/obj/effect/overmap/visitable/ship/landable/exploration_shuttle,
+/obj/effect/shuttle_landmark/torch/hangar/exploration_shuttle{
+	name = "NTEV Gaunt Hangar"
+	},
+/obj/effect/overmap/visitable/ship/landable/exploration_shuttle{
+	desc = "An SSE-U11 long range shuttle, broadcasting SCGEC codes and the callsign \"Dagon-2 Gaunt\".";
+	name = "NTEV Gaunt";
+	shuttle = "NTEV Gaunt"
+	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/airlock)
 "el" = (
