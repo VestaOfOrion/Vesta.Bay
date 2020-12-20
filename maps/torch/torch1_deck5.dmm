@@ -632,7 +632,9 @@
 	pixel_y = 24
 	},
 /obj/structure/handrai,
-/obj/machinery/camera/network/exploration_shuttle,
+/obj/machinery/camera/network/exploration_shuttle{
+	c_tag = "Gaunt - Ejection Chute"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "bn" = (
@@ -761,7 +763,9 @@
 /turf/simulated/floor/tiled/monotile,
 /area/exploration_shuttle/cockpit)
 "bx" = (
-/obj/machinery/computer/shuttle_control/explore/exploration_shuttle,
+/obj/machinery/computer/shuttle_control/explore/exploration_shuttle{
+	shuttle_tag = "NTEV Gaunt"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/exploration_shuttle/cockpit)
 "by" = (
@@ -878,8 +882,7 @@
 	autoset_access = 0;
 	frequency = 1431;
 	id_tag = "guppy_shuttle_outer";
-	name = "Guppy External Access";
-	req_access = list()
+	name = "Garuda External Access"
 	},
 /obj/machinery/shield_diffuser,
 /obj/machinery/atmospherics/pipe/manifold/visible{
@@ -977,8 +980,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_outer";
-	locked = 0;
-	name = "Petrov Exterior Access"
+	name = "Polyp Exterior Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/maint)
@@ -1140,8 +1142,7 @@
 	autoset_access = 0;
 	frequency = 1431;
 	id_tag = "guppy_shuttle_outer";
-	name = "Guppy External Access";
-	req_access = list()
+	name = "Garuda External Access"
 	},
 /obj/machinery/shield_diffuser,
 /obj/machinery/atmospherics/pipe/manifold/visible,
@@ -1219,8 +1220,8 @@
 	pixel_y = -22
 	},
 /obj/machinery/camera/network/exploration_shuttle{
-	dir = 1;
-	icon_state = "camera"
+	c_tag = "Gaunt - Cockpit";
+	dir = 1
 	},
 /obj/machinery/computer/air_control{
 	dir = 8;
@@ -1330,6 +1331,7 @@
 	},
 /obj/item/bodybag/cryobag,
 /obj/machinery/camera/network/exploration_shuttle{
+	c_tag = "Gaunt - Crew Compartment Fore";
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -1343,7 +1345,11 @@
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/hangar)
 "cA" = (
-/obj/effect/overmap/visitable/ship/landable/guppy,
+/obj/effect/overmap/visitable/ship/landable/guppy{
+	desc = "An SSE-U3 utility pod, broadcasting SC codes and the callsign \"Dagon-3 Garuda\".";
+	name = "NTRP Garuda";
+	shuttle = "NTRP Garuda"
+	},
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
 	},
@@ -1407,7 +1413,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/guppy_hangar/start)
 "cG" = (
-/obj/effect/shuttle_landmark/torch/hangar/guppy,
+/obj/effect/shuttle_landmark/torch/hangar/guppy{
+	name = "NTRP Garuda Hangar"
+	},
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5;
 	icon_state = "intact"
@@ -1543,7 +1551,9 @@
 	},
 /obj/structure/handrai,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/camera/network/exploration_shuttle,
+/obj/machinery/camera/network/exploration_shuttle{
+	c_tag = "Gaunt - Crew Compartment Aft"
+	},
 /obj/machinery/access_button/airlock_interior{
 	frequency = 1331;
 	master_tag = "calypso_shuttle";
@@ -1717,10 +1727,9 @@
 "dd" = (
 /obj/machinery/door/airlock/external{
 	autoset_access = 0;
-	density = 1;
 	frequency = 1331;
 	id_tag = "calypso_shuttle_outer";
-	name = "Charon External Access"
+	name = "Gaunt External Access"
 	},
 /obj/machinery/shield_diffuser,
 /obj/machinery/atmospherics/pipe/simple/visible{
@@ -1769,7 +1778,7 @@
 	autoset_access = 0;
 	frequency = 1331;
 	id_tag = "calypso_shuttle_inner";
-	name = "Charon External Access"
+	name = "Gaunt External Access"
 	},
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -2100,7 +2109,8 @@
 "dN" = (
 /obj/machinery/computer/shuttle_control/explore/guppy{
 	dir = 1;
-	icon_state = "computer"
+	name = "garuda control console";
+	shuttle_tag = "NTRP Garuda"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/guppy_hangar/start)
@@ -2345,8 +2355,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/effect/shuttle_landmark/torch/hangar/exploration_shuttle,
-/obj/effect/overmap/visitable/ship/landable/exploration_shuttle,
+/obj/effect/shuttle_landmark/torch/hangar/exploration_shuttle{
+	name = "NTEV Gaunt Hangar"
+	},
+/obj/effect/overmap/visitable/ship/landable/exploration_shuttle{
+	desc = "An SSE-U11 long range shuttle, broadcasting SCGEC codes and the callsign \"Dagon-2 Gaunt\".";
+	name = "NTEV Gaunt";
+	shuttle = "NTEV Gaunt"
+	},
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/airlock)
 "el" = (
@@ -2509,8 +2525,8 @@
 	pixel_y = -28
 	},
 /obj/machinery/camera/network/exploration_shuttle{
-	dir = 1;
-	icon_state = "camera"
+	c_tag = "Gaunt - Engine";
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/atmos)
@@ -2646,8 +2662,8 @@
 /area/shuttle/petrov/rd)
 "eX" = (
 /obj/machinery/camera/network/exploration_shuttle{
-	dir = 4;
-	icon_state = "camera"
+	c_tag = "Gaunt - Cargo Portside";
+	dir = 4
 	},
 /obj/structure/handrai{
 	dir = 4;
@@ -2991,7 +3007,7 @@
 	autoset_access = 0;
 	frequency = 1331;
 	id_tag = "calypso_cargo_inner";
-	name = "Charon Cargo Bay"
+	name = "Gaunt Cargo Bay"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
@@ -3160,7 +3176,7 @@
 	autoset_access = 0;
 	frequency = 1331;
 	id_tag = "calypso_cargo_inner";
-	name = "Charon Cargo Bay"
+	name = "Gaunt Cargo Bay"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3194,10 +3210,9 @@
 	},
 /obj/machinery/door/airlock/external{
 	autoset_access = 0;
-	density = 1;
 	frequency = 1331;
 	id_tag = "calypso_cargo_outer";
-	name = "Charon External Access"
+	name = "Gaunt External Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
@@ -3207,10 +3222,9 @@
 	},
 /obj/machinery/door/airlock/external{
 	autoset_access = 0;
-	density = 1;
 	frequency = 1331;
 	id_tag = "calypso_cargo_outer";
-	name = "Charon External Access"
+	name = "Gaunt External Access"
 	},
 /obj/machinery/light_switch{
 	pixel_x = -24
@@ -9019,7 +9033,7 @@
 /area/maintenance/fifthdeck/aftstarboard)
 "sJ" = (
 /obj/machinery/camera/network/pod{
-	c_tag = "General Utility Pod - Crew Compartment";
+	c_tag = "Garuda - Crew Compartment";
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -11155,8 +11169,8 @@
 /area/shuttle/petrov/hallwaya)
 "yM" = (
 /obj/machinery/camera/network/exploration_shuttle{
-	dir = 8;
-	icon_state = "camera"
+	c_tag = "Gaunt - Cargo Starboard";
+	dir = 8
 	},
 /obj/machinery/atmospherics/unary/tank{
 	dir = 8
@@ -11428,7 +11442,7 @@
 	pixel_y = 23
 	},
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Cockpit"
+	c_tag = "Polyp - Cockpit"
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -11512,8 +11526,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_outer";
-	locked = 0;
-	name = "Petrov Exterior Access"
+	name = "Polyp Exterior Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/maint)
@@ -11800,8 +11813,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_inner";
-	locked = 0;
-	name = "Petrov Interior Access"
+	name = "Polyp Interior Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/hallwaya)
@@ -12176,8 +12188,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_inner";
-	locked = 0;
-	name = "Petrov Interior Access"
+	name = "Polyp Interior Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/maint)
@@ -12487,8 +12498,8 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/structure/cable/yellow,
 /obj/machinery/camera/network/exploration_shuttle{
-	dir = 8;
-	icon_state = "camera"
+	c_tag = "Gaunt - SMES";
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/power)
@@ -12565,7 +12576,7 @@
 	dir = 8;
 	icon_state = "closed";
 	id_tag = "PetrovAccess";
-	name = "Petrov Access"
+	name = "Polyp Access"
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/hallwaya)
@@ -12591,7 +12602,7 @@
 /area/infantry)
 "DE" = (
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - EVA";
+	c_tag = "Polyp - EVA";
 	dir = 4
 	},
 /obj/machinery/light_switch{
@@ -12665,7 +12676,7 @@
 	dir = 1
 	},
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Anomaly Aft";
+	c_tag = "Polyp - Anomaly Aft";
 	dir = 8
 	},
 /obj/item/device/radio/intercom{
@@ -12898,7 +12909,7 @@
 	pixel_y = 12
 	},
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Toxins";
+	c_tag = "Polyp - Toxins";
 	dir = 4
 	},
 /obj/structure/cable/cyan{
@@ -12985,7 +12996,7 @@
 /area/maintenance/fifthdeck/aftport)
 "EJ" = (
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Desublimation";
+	c_tag = "Polyp - Desublimation";
 	dir = 4
 	},
 /obj/machinery/power/apc{
@@ -13600,8 +13611,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_inner";
-	locked = 0;
-	name = "Petrov Interior Access"
+	name = "Polyp Interior Access"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -14049,8 +14059,7 @@
 "IB" = (
 /obj/machinery/disposal,
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Fabrication";
-	dir = 2
+	c_tag = "Polyp - Fabrication"
 	},
 /obj/machinery/light_switch{
 	pixel_x = -6;
@@ -15283,7 +15292,7 @@
 /obj/structure/stasis_cage,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Equipment";
+	c_tag = "Polyp - Equipment";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -15347,8 +15356,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_outer";
-	locked = 0;
-	name = "Petrov Exterior Access"
+	name = "Polyp Exterior Access"
 	},
 /obj/effect/shuttle_landmark/petrov/start,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -15950,8 +15958,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_inner";
-	locked = 0;
-	name = "Petrov Interior Access"
+	name = "Polyp Interior Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/maint)
@@ -16300,7 +16307,7 @@
 	pixel_y = -3
 	},
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Security";
+	c_tag = "Polyp - Security";
 	dir = 4
 	},
 /obj/machinery/light{
@@ -16810,7 +16817,7 @@
 	pixel_y = 6
 	},
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Analysis";
+	c_tag = "Polyp - Analysis";
 	dir = 4
 	},
 /obj/structure/cable/cyan{
@@ -17236,8 +17243,7 @@
 	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "petrov_shuttle_outer";
-	locked = 0;
-	name = "Petrov Exterior Access"
+	name = "Polyp Exterior Access"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/petrov/hallwaya)
@@ -17941,7 +17947,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Chief Science Officer";
+	c_tag = "Polyp - Chief Science Officer";
 	dir = 4
 	},
 /obj/machinery/light{
@@ -18829,7 +18835,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/camera/network/nanotrasen{
-	c_tag = "Petrov - Entry";
+	c_tag = "Polyp - Entry";
 	dir = 4
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
