@@ -787,6 +787,18 @@
 "bD" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/substation/bridge)
+<<<<<<< Updated upstream
+=======
+"bE" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
+/area/solar/bridge)
+>>>>>>> Stashed changes
 "bF" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -6012,7 +6024,10 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+<<<<<<< Updated upstream
 /obj/effect/floor_decal/industrial/outline/yellow,
+=======
+>>>>>>> Stashed changes
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
@@ -13157,7 +13172,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+<<<<<<< Updated upstream
 /obj/effect/floor_decal/industrial/outline/yellow,
+=======
+>>>>>>> Stashed changes
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/space)
@@ -14514,7 +14532,10 @@
 /turf/simulated/open,
 /area/maintenance/bridge/foreport)
 "JM" = (
+<<<<<<< Updated upstream
 /obj/effect/floor_decal/industrial/outline/yellow,
+=======
+>>>>>>> Stashed changes
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 8;
@@ -15307,6 +15328,10 @@
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "MN" = (
+<<<<<<< Updated upstream
+=======
+/obj/effect/floor_decal/industrial/outline,
+>>>>>>> Stashed changes
 /obj/structure/cable/yellow,
 /obj/machinery/power/tracker,
 /obj/effect/floor_decal/industrial/outline,
@@ -16909,6 +16934,14 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+<<<<<<< Updated upstream
+=======
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+>>>>>>> Stashed changes
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/bridge)
@@ -17299,7 +17332,10 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/heads/cobed)
 "SW" = (
+<<<<<<< Updated upstream
 /obj/effect/floor_decal/industrial/outline/yellow,
+=======
+>>>>>>> Stashed changes
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
