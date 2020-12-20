@@ -925,7 +925,7 @@
 /turf/simulated/floor/tiled,
 /area/meatstation/nwhallway)
 "cl" = (
-/obj/structure/inflatable/wall,
+/obj/random/single/meatstation/low/wormscientist,
 /turf/simulated/floor/tiled/dark,
 /area/meatstation/swhallway)
 "cm" = (
@@ -1024,7 +1024,6 @@
 	icon_state = "1-8"
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/obj/structure/inflatable/door,
 /turf/simulated/floor/tiled/dark/airless,
 /area/meatstation/cargo)
 "cu" = (
@@ -1684,6 +1683,7 @@
 	icon_state = "1-2"
 	},
 /obj/random/junk,
+/obj/structure/inflatable/door,
 /obj/machinery/light/small/red{
 	dir = 8;
 	icon_state = "bulb_map"
@@ -1725,7 +1725,6 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/structure/inflatable/door,
 /turf/simulated/floor/tiled/dark/airless,
 /area/meatstation/kitchen)
 "dZ" = (
@@ -1855,7 +1854,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/inflatable/door,
+/obj/effect/mine,
+/obj/random/trash,
+/obj/random/junk,
 /turf/simulated/floor/tiled/dark,
 /area/meatstation/swhallway)
 "ep" = (
@@ -2274,10 +2275,13 @@
 /turf/simulated/floor/tiled/monotile,
 /area/meatstation/hydroponics)
 "fb" = (
-/obj/effect/floor_decal/corner/black/border,
-/obj/random/single/meatstation/meatworm,
-/turf/simulated/floor/tiled,
-/area/meatstation/centerhallway)
+/obj/structure/inflatable/wall,
+/obj/effect/floor_decal/corner/b_green/border{
+	dir = 8;
+	icon_state = "bordercolor"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/meatstation/storage)
 "fc" = (
 /obj/effect/paint/meatstation,
 /turf/simulated/wall/r_wall,
@@ -3139,6 +3143,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/hygiene/sink/kitchen,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -3146,7 +3151,6 @@
 	dir = 1;
 	icon_state = "bordercolor"
 	},
-/obj/structure/inflatable/wall,
 /turf/simulated/floor/tiled/dark/airless,
 /area/meatstation/kitchen)
 "gR" = (
@@ -3776,7 +3780,6 @@
 	dir = 1;
 	icon_state = "bordercolor"
 	},
-/obj/structure/inflatable/wall,
 /turf/simulated/floor/tiled/dark/airless,
 /area/meatstation/kitchen)
 "io" = (
@@ -4083,7 +4086,6 @@
 "jg" = (
 /obj/item/stack/material/rods,
 /obj/item/weapon/material/shard,
-/obj/random/single/meatstation/low/wormscientist,
 /turf/simulated/floor/tiled/dark,
 /area/meatstation/swhallway)
 "jh" = (
@@ -7023,13 +7025,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/brown/border{
-	dir = 1;
-	icon_state = "bordercolor"
-	},
-/obj/structure/inflatable/wall,
-/turf/simulated/floor/tiled/dark/airless,
-/area/meatstation/cargo)
+/obj/random/single/meatstation/meatworm,
+/turf/simulated/floor/tiled,
+/area/meatstation/centerhallway)
 "qN" = (
 /obj/item/clothing/accessory/fire_overpants,
 /turf/simulated/floor/tiled/dark/airless,
@@ -7118,6 +7116,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/inflatable/door,
 /turf/simulated/floor/airless,
 /area/meatstation/centerhallway)
 "ra" = (
@@ -7132,7 +7131,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/inflatable/door,
 /turf/simulated/floor/airless,
 /area/meatstation/centerhallway)
 "rb" = (
@@ -8696,8 +8694,9 @@
 	icon_state = "1-2"
 	},
 /obj/structure/inflatable/door,
-/turf/simulated/floor/tiled/dark/airless,
-/area/meatstation/kitchen)
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled,
+/area/meatstation/nwhallway)
 "uz" = (
 /obj/structure/inflatable/wall,
 /turf/space,
@@ -9366,7 +9365,6 @@
 	dir = 10;
 	icon_state = "bordercolor"
 	},
-/obj/structure/inflatable/wall,
 /turf/simulated/floor/tiled/dark/airless,
 /area/meatstation/kitchen)
 "vT" = (
@@ -26061,10 +26059,10 @@ tH
 cd
 cd
 pe
-cd
+cJ
 cJ
 eh
-qM
+pw
 cv
 qE
 cv
@@ -26263,7 +26261,7 @@ ck
 ck
 ck
 ph
-sK
+uy
 oB
 cs
 ct
@@ -26287,7 +26285,7 @@ fC
 cz
 qS
 dv
-cz
+oG
 oG
 dA
 eo
@@ -32521,7 +32519,7 @@ we
 we
 yi
 bh
-fb
+yr
 ah
 aa
 aa
@@ -32924,7 +32922,7 @@ ah
 ah
 ah
 yb
-bh
+qM
 yr
 ah
 aa
@@ -34539,9 +34537,9 @@ bs
 aa
 lY
 rb
-ri
+qY
 ra
-ri
+qY
 ah
 aa
 jB
@@ -35757,7 +35755,7 @@ aa
 qY
 oF
 rm
-we
+yx
 yx
 we
 eL
@@ -35959,7 +35957,7 @@ rf
 bF
 rf
 rn
-bF
+rn
 rn
 es
 bF
@@ -36161,7 +36159,7 @@ tv
 rb
 tv
 bS
-tv
+bS
 eO
 bh
 rs
@@ -37405,7 +37403,7 @@ vR
 vS
 cX
 ed
-hD
+fb
 hD
 ht
 oh
@@ -37604,10 +37602,10 @@ fl
 tf
 fl
 iv
-uy
+fl
 ea
 er
-hG
+er
 iB
 hx
 oy
@@ -38197,7 +38195,7 @@ cD
 vH
 cD
 nA
-cD
+nB
 nB
 cX
 in
