@@ -87,7 +87,7 @@
 
 /decl/hierarchy/mil_uniform/fleet/com/capt //Can only be officers
 	name = "NTEF captain"
-	min_rank = 20
+	min_rank = 21
 	service_under = /obj/item/clothing/under/solgov/service/fleet/command
 	service_skirt = /obj/item/clothing/under/solgov/service/fleet/skirt/command
 	service_over = /obj/item/clothing/suit/storage/solgov/service/fleet/captain
@@ -105,7 +105,7 @@
 
 /decl/hierarchy/mil_uniform/fleet/com/flagofficer/adm //Can only be officers
 	name = "NTEF admiral"
-	min_rank = 18
+	min_rank = 23
 
 	utility_hat = /obj/item/clothing/head/soft/solgov/expedition/co
 
