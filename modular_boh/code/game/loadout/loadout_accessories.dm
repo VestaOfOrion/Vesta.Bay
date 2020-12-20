@@ -237,7 +237,6 @@
 	path = /obj/item/clothing/accessory/storage/pouches
 	cost = 2
 	allowed_roles = ARMORED_ROLES
-	allowed_branches = UNIFORMED_BRANCHES
 
 /datum/gear/tactical/armor_pouches/navy
 	display_name = "navy armor pouches"
@@ -246,14 +245,12 @@
 /datum/gear/tactical/armor_pouches/misc
 	display_name = "green armor pouches selection"
 	path = /obj/item/clothing/accessory/storage/pouches/green
-	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/tactical/large_pouches
 	display_name = "black large armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches/large
 	cost = 5
 	allowed_roles = ARMORED_ROLES
-	allowed_branches = UNIFORMED_BRANCHES
 
 /datum/gear/tactical/large_pouches/navy
 	display_name = "navy large armor pouches"
@@ -262,4 +259,3 @@
 /datum/gear/tactical/large_pouches/misc
 	display_name = "green large armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches/large/green
-	allowed_branches = CIVILIAN_BRANCHES
