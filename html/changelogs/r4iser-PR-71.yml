@@ -3,4 +3,4 @@ author: Peekaboom
 delete-after: True
 
 changes: 
-  - tweak: "Added PDAV access to psi_monitor."
+  - tweak: "Added PADV access to psi_monitor."
