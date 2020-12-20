@@ -404,6 +404,7 @@ datum/gear/head/ECdepartment/New()
 	..()
 	var/uniform = list()
 	uniform += /obj/item/clothing/under/solgov/utility/fleet/combat/marine
+	uniform += /obj/item/clothing/under/solgov/utility/army
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
 
 /datum/gear/uniform/fleet
