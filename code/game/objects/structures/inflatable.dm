@@ -5,42 +5,32 @@
 	var/deploy_path = null
 	var/inflatable_health
 
-/obj/item/inflatable/afterattack(atom/target, mob/user, proximity_flag, click_parameters)
+	atmos_canpass = CANPASS_DENSITY
+
+/obj/item/inflatable/afterattack(var/atom/A, var/mob/user)
+	..(A, user)
 	if(!deploy_path)
 		return
-	if (loc != user)
+	if(!user.Adjacent(A))
 		return
-	var/turf/T = get_turf(target)
-	if (!user.TurfAdjacent(T))
+	if (isturf(A))
+		var/turf/T = A
+		var/obstruction = T.get_obstruction()
+		if (obstruction)
+			to_chat(user, "\The [english_list(obstruction)] is blocking that spot.")
+			return
+	user.visible_message("[user] starts inflating \the [src].", "You start inflating \the [src].")
+	if(!do_after(user, 1 SECOND))
 		return
-	var/obstruction = T.get_obstruction()
-	if (obstruction)
-		to_chat(user, SPAN_WARNING("\The [english_list(obstruction)] is blocking that spot."))
-		return
-	user.visible_message(
-		SPAN_ITALIC("\The [user] starts inflating \an [src]."),
-		SPAN_ITALIC("You start inflating \the [src]."),
-		SPAN_ITALIC("You can hear rushing air."),
-		range = 5
-	)
-	if (!do_after(user, 1 SECOND))
-		return
-	obstruction = T.get_obstruction()
-	if (obstruction)
-		to_chat(user, SPAN_WARNING("\The [english_list(obstruction)] is blocking that spot."))
-		return
-	user.visible_message(
-		SPAN_ITALIC("\The [user] finishes inflating \an [src]."),
-		SPAN_NOTICE("You inflate \the [src]."),
-		range = 5
-	)
 	playsound(loc, 'sound/items/zip.ogg', 75, 1)
-	var/obj/structure/inflatable/R = new deploy_path(T)
+	user.visible_message(SPAN_NOTICE("[user] inflates \the [src]."), SPAN_NOTICE("You inflate \the [src]."))
+	var/obj/structure/inflatable/R = new deploy_path(get_turf(A))
 	transfer_fingerprints_to(R)
 	R.add_fingerprint(user)
 	if(inflatable_health)
 		R.health = inflatable_health
 	qdel(src)
+
 
 /obj/item/inflatable/wall
 	name = "inflatable wall"
