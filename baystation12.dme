@@ -3242,7 +3242,6 @@
 #include "modular_mithra\code\datums\mutable_appearance.dm"
 #include "modular_mithra\code\game\datum\extensions\multitool\machinery\cloning.dm"
 #include "modular_mithra\code\game\machinery\cryopod.dm"
-#include "modular_mithra\code\game\machinery\sleeper.dm"
 #include "modular_mithra\code\game\machinery\suit_storage_unit.dm"
 #include "modular_mithra\code\modules\clothing\spacesuits\rig\suits\station.dm"
 #include "modular_mithra\code\modules\clothing\spacesuits\void\void.dm"
