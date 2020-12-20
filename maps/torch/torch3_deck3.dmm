@@ -1000,9 +1000,6 @@
 	name = "Officer's Mess";
 	req_access = newlist()
 	},
-/obj/effect/floor_decal/corner/blue/diagonal{
-	dir = 4
-	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
@@ -1701,7 +1698,7 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "dG" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -3189,6 +3186,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/structure/flora/pottedplant/decorative,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "gw" = (
@@ -3224,6 +3222,9 @@
 /area/crew_quarters/mess)
 "gz" = (
 /obj/structure/disposalpipe/junction,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "gA" = (
@@ -4250,6 +4251,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "iw" = (
@@ -4571,6 +4573,12 @@
 /area/crew_quarters/gym)
 "jd" = (
 /obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "je" = (
@@ -4593,16 +4601,14 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
 /obj/machinery/alarm{
 	dir = 8;
 	icon_state = "alarm0";
 	pixel_x = 24
 	},
 /obj/item/weapon/paper_bin,
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/woodentable/maple,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "jg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
@@ -4629,6 +4635,14 @@
 /obj/effect/floor_decal/corner/green/half,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/aft)
+"jj" = (
+/obj/structure/table/woodentable/maple,
+/obj/structure/flora/pottedplant/deskleaf{
+	pixel_x = 5;
+	pixel_y = 11
+	},
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/mess)
 "jk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5016,6 +5030,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "jW" = (
@@ -5033,6 +5048,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "jX" = (
@@ -5056,6 +5072,7 @@
 /obj/machinery/atm{
 	pixel_y = 32
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "jY" = (
@@ -5064,6 +5081,12 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
@@ -5227,13 +5250,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/thirddeck)
-"kt" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/table/standard,
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/mess)
 "ku" = (
 /obj/structure/table/steel,
 /obj/item/weapon/cell/high,
@@ -5384,16 +5400,6 @@
 "kL" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/bar)
-"kM" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/bed/chair{
-	dir = 8;
-	icon_state = "chair_preview"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/mess)
 "kN" = (
 /obj/machinery/light/spot{
 	dir = 1
@@ -5421,6 +5427,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "kR" = (
@@ -5733,8 +5742,8 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "lz" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/woodentable/maple,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "lA" = (
 /obj/structure/cable/green{
@@ -5746,6 +5755,10 @@
 /turf/simulated/floor/tiled,
 /area/hydroponics)
 "lB" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "lC" = (
@@ -6147,13 +6160,9 @@
 /turf/simulated/floor/lino,
 /area/crew_quarters/bar)
 "mp" = (
-/obj/structure/table/standard,
 /obj/random/single/cola,
-/turf/simulated/floor/wood/walnut,
-/area/crew_quarters/mess)
-"mq" = (
-/obj/structure/bed/chair,
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/woodentable/maple,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "mv" = (
 /obj/structure/cable/green{
@@ -6403,6 +6412,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "nj" = (
@@ -6410,11 +6422,14 @@
 	dir = 8
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "nk" = (
-/obj/structure/table/standard{
-	name = "plastic table frame"
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
@@ -7273,6 +7288,9 @@
 	dir = 4
 	},
 /obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "pf" = (
@@ -7281,21 +7299,25 @@
 	pixel_x = 0;
 	pixel_y = -24
 	},
-/obj/structure/table/standard,
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/woodentable/maple,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "pg" = (
 /obj/machinery/light/spot,
-/obj/structure/table/standard,
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/woodentable/maple,
+/obj/item/weapon/material/ashtray/glass{
+	pixel_x = -5;
+	pixel_y = -4
+	},
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "pi" = (
 /obj/machinery/camera/network/third_deck{
 	c_tag = "Mess Hall - Port";
 	dir = 1
 	},
-/obj/structure/bed/chair{
-	dir = 1
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
@@ -7622,13 +7644,10 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/bar)
 "pX" = (
-/obj/effect/floor_decal/corner/blue/diagonal{
-	dir = 4
-	},
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/multi_tile/civilian,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "pY" = (
 /obj/structure/cable/green{
@@ -7640,7 +7659,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/white,
+/turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "pZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8214,6 +8233,7 @@
 "rL" = (
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "rM" = (
@@ -9004,6 +9024,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
+"sY" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/mess)
 "sZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -9752,6 +9779,13 @@
 /obj/item/weapon/beach_ball,
 /turf/simulated/floor/grass,
 /area/crew_quarters/observation)
+"vz" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/structure/flora/pottedplant/floorleaf,
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/mess)
 "vD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -11501,7 +11535,7 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "AB" = (
 /obj/structure/cable/green{
@@ -14697,6 +14731,14 @@
 /obj/random_multi/single_item/punitelly,
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
+"IF" = (
+/obj/structure/table/woodentable/maple,
+/obj/item/weapon/material/ashtray/glass{
+	pixel_x = -8;
+	pixel_y = -4
+	},
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/mess)
 "IH" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -15630,6 +15672,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "Kp" = (
@@ -16134,6 +16180,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 8;
 	icon_state = "pipe-c"
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
@@ -17136,7 +17185,7 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "OC" = (
 /obj/effect/floor_decal/techfloor{
@@ -17608,6 +17657,9 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
@@ -18285,6 +18337,10 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /turf/simulated/wall/r_wall/hull,
 /area/thruster/d3starboard)
+"RK" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
+/turf/simulated/floor/wood/walnut,
+/area/crew_quarters/mess)
 "RL" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -18302,9 +18358,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/bed/chair{
-	dir = 4
-	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "RP" = (
@@ -18533,6 +18587,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/hologram/holopad,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "Sw" = (
@@ -18918,6 +18975,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "Ty" = (
@@ -19409,6 +19467,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "UL" = (
@@ -20107,6 +20166,7 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "WI" = (
@@ -20371,7 +20431,7 @@
 	pixel_x = 22
 	},
 /obj/structure/bed/chair,
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "Xt" = (
 /obj/machinery/meter,
@@ -20524,7 +20584,7 @@
 	dir = 8;
 	icon_state = "chair_preview"
 	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "XP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -20770,15 +20830,13 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
-	},
 /obj/item/device/radio/intercom{
 	dir = 8;
 	pixel_x = 22;
 	pixel_y = 4
 	},
-/turf/simulated/floor/wood/walnut,
+/obj/structure/table/woodentable/maple,
+/turf/simulated/floor/carpet/green,
 /area/crew_quarters/mess)
 "YF" = (
 /obj/machinery/door/firedoor,
@@ -21263,6 +21321,7 @@
 /obj/machinery/light/spot{
 	dir = 4
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/mess)
 "ZR" = (
@@ -38589,7 +38648,7 @@ lz
 mp
 lz
 Ko
-kt
+RN
 pf
 fB
 qU
@@ -38788,10 +38847,10 @@ iu
 hu
 UK
 lz
-lz
+IF
 lz
 Ko
-kt
+RN
 pg
 fB
 le
@@ -38993,7 +39052,7 @@ XO
 XO
 XO
 Ko
-kM
+RN
 XO
 Nw
 qQ
@@ -39192,11 +39251,11 @@ iv
 gz
 jY
 jd
-jd
-jd
+sY
+sY
 nj
 Lx
-lB
+vz
 Nw
 Xn
 sj
@@ -39394,8 +39453,8 @@ rL
 AA
 dF
 lB
-lB
-mq
+RK
+nk
 nk
 nk
 pi
@@ -39598,8 +39657,8 @@ YD
 lB
 ZQ
 Xs
-nk
-nk
+lz
+jj
 OB
 fB
 qR
