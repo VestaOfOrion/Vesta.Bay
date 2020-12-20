@@ -7,22 +7,22 @@
 
 /decl/hierarchy/outfit/job/torch/crew/command/XO/marine
 	name = OUTFIT_JOB_NAME("Executive Officer - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/command
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/cmo/marine
 	name = OUTFIT_JOB_NAME("Chief Medical Officer - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/medical
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/marine
 	name = OUTFIT_JOB_NAME("Chief Engineer - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/engineering
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/cos/marine
 	name = OUTFIT_JOB_NAME("Chief of Security - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/security
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/command/cos/fleet
@@ -32,7 +32,7 @@
 
 /decl/hierarchy/outfit/job/torch/crew/command/sea/marineattache
 	name = OUTFIT_JOB_NAME("Marine Attache")
-	uniform = /obj/item/clothing/under/solgov/utility/army/command
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_ear = /obj/item/device/radio/headset/sea
 	id_types = list(/obj/item/weapon/card/id/torch/crew/sea)
@@ -43,7 +43,7 @@
 
 /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer/marine
 	name = OUTFIT_JOB_NAME("Bridge Officer - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/command
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /***/
@@ -51,12 +51,12 @@
 // Engineering
 /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer/marine
 	name = OUTFIT_JOB_NAME("Senior Engineer - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/engineering
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/engineering/engineer/marine
 	name = OUTFIT_JOB_NAME("Engineer - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/engineering
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/engineering
 	shoes = /obj/item/clothing/shoes/dutyboots
 /***/
 
@@ -69,7 +69,7 @@
 
 /decl/hierarchy/outfit/job/torch/crew/exploration/explorer/marine
 	name = OUTFIT_JOB_NAME("Explorer - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/exploration
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/exploration/fleet
@@ -131,35 +131,35 @@
 // Medical
 /decl/hierarchy/outfit/job/torch/crew/medical/senior/marine
 	name = OUTFIT_JOB_NAME("Physician - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/medical
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/medical/junior/marine
 	name = OUTFIT_JOB_NAME("Medical Resident - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/medical
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/medical/doctor/marine
 	name = OUTFIT_JOB_NAME("Medical Technician - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/medical
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_ear = /obj/item/device/radio/headset/headset_corpsman
 
 /decl/hierarchy/outfit/job/torch/crew/medical/counselor/marine
 	name = OUTFIT_JOB_NAME("Counselor - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/medical
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 /***/
 
 // Security
 /decl/hierarchy/outfit/job/torch/crew/security/brig_chief/marine
 	name = OUTFIT_JOB_NAME("Brig Chief - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/security
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech/marine
 	name = OUTFIT_JOB_NAME("Forensic Technician - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/security
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech/pcrc_agent
@@ -170,7 +170,7 @@
 
 /decl/hierarchy/outfit/job/torch/crew/security/maa/marine
 	name = OUTFIT_JOB_NAME("Master at Arms - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/security
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/security/maa/pcrc
@@ -214,22 +214,22 @@
 // Service
 /decl/hierarchy/outfit/job/torch/crew/service/janitor/marine
 	name = OUTFIT_JOB_NAME("Sanitation Technician - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/service
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/service
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/service/cook/marine
 	name = OUTFIT_JOB_NAME("Cook - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/service
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/service
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/service/crewman/marine
 	name = OUTFIT_JOB_NAME("Crewman - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/service
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/service/chaplain/marine
 	name = OUTFIT_JOB_NAME("Chaplain - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/service
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/service
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /***/
@@ -237,12 +237,12 @@
 // Supply
 /decl/hierarchy/outfit/job/torch/crew/supply/deckofficer/marine
 	name = OUTFIT_JOB_NAME("Deck Chief - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/supply
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/supply
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/supply/tech/marine
 	name = OUTFIT_JOB_NAME("Deck Technician - Marine Corps")
-	uniform = /obj/item/clothing/under/solgov/utility/army/supply
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/supply
 	shoes = /obj/item/clothing/shoes/dutyboots
 /***/
 
@@ -313,20 +313,20 @@
 
 /decl/hierarchy/outfit/job/torch/crew/infantry
 	name = OUTFIT_JOB_NAME("Infantry Marine")
-	uniform = /obj/item/clothing/under/solgov/utility/army/exploration
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_ear = /obj/item/device/radio/headset/infantry
 	id_types = list(/obj/item/weapon/card/id/torch/crew/infantry)
 
 /decl/hierarchy/outfit/job/torch/crew/infantry/squad_lead
 	name = OUTFIT_JOB_NAME("Squad Leader")
-	uniform = /obj/item/clothing/under/solgov/utility/army/command
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	id_types = list(/obj/item/weapon/card/id/torch/crew/infantry/infcom)
 	l_ear = /obj/item/device/radio/headset/infcom
 
 /decl/hierarchy/outfit/job/torch/crew/infantry/combat_tech
 	name = OUTFIT_JOB_NAME("Combat Technician")
-	uniform = /obj/item/clothing/under/solgov/utility/army/engineering
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
 	id_types = list(/obj/item/weapon/card/id/torch/crew/infantry/inftech)
 	pda_type = /obj/item/modular_computer/pda/engineering
 	l_ear = /obj/item/device/radio/headset/inftech

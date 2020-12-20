@@ -1,0 +1,6 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - tweak: "Removed whitelist from Diona, Machine, GAS, Skrell, Unathi and Adherent."
