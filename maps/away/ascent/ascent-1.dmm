@@ -3162,8 +3162,10 @@
 /area/ship/ascent/fore_port_prow)
 "ho" = (
 /obj/structure/table/rack/dark,
-/obj/item/weapon/gun/energy/particle/small,
 /obj/item/weapon/rig/mantid/gyne/seed,
+/obj/item/device/personal_shield/mantid,
+/obj/item/device/batterer/mantid,
+/obj/item/weapon/gun/energy/particle,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "hp" = (
@@ -3919,6 +3921,8 @@
 	pixel_y = 24
 	},
 /obj/structure/table/steel_reinforced,
+/obj/item/weapon/storage/toolbox/ascent,
+/obj/item/weapon/crowbar/brace_jack/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics_port)
 "ji" = (
@@ -4575,6 +4579,11 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_port)
+"uN" = (
+/obj/structure/table/rack/dark,
+/obj/item/weapon/storage/box/ascentimplants,
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/habitation)
 "uV" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/structure/window/phoronreinforced{
@@ -5018,7 +5027,6 @@
 /area/ship/ascent/aft_starboard_jut)
 "JE" = (
 /obj/structure/table/rack/dark,
-/obj/item/weapon/rig/mantid/nabber/queen/seed,
 /obj/item/weapon/rig/mantid/nabber/seed,
 /obj/item/weapon/rig/mantid/nabber/seed,
 /turf/simulated/floor/ascent,
@@ -5095,6 +5103,13 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
+"Lx" = (
+/obj/machinery/light/ascent,
+/obj/item/device/personal_shield/mantid,
+/obj/structure/table/rack/dark,
+/obj/item/weapon/rig/mantid/nabber/queen/seed,
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/habitation)
 "LJ" = (
 /obj/item/device/radio/intercom/hailing{
 	dir = 4;
@@ -11785,8 +11800,8 @@ ah
 cW
 bb
 br
-bb
-dF
+uN
+Lx
 cy
 cy
 cv

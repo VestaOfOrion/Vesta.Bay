@@ -10,7 +10,7 @@
 	accessible_z_levels = list("1"=1,"2"=3,"3"=1,"4"=1,"5"=1,"6"=1,"9"=30)
 	overmap_size = 35
 	overmap_event_areas = 34
-	usable_email_tlds = list("torch.ec.scg", "torch.fleet.mil", "freemail.net", "torch.scg")
+	usable_email_tlds = list("dagon.ef.nt", "dagon.smc.mil", "freemail.net", "dagon.nt")
 
 	allowed_spawns = list("Cryogenic Storage", "Cyborg Storage")
 	default_spawn = "Cryogenic Storage"
@@ -24,10 +24,10 @@
 	company_short = "NT"
 
 	map_admin_faxes = list(
-		"Expeditionary Corps Command",
-		"Expeditionary Corps Logistics",
-		"EXO Head Office",
-		"EXO Internal Affairs",
+		"Central Command",
+		"Surveyor Corps Relay",
+		"Solarian Government Office",
+		"NanoTrasen",
 		"SFP Territory Support",
 		"SFP Special Investigations",
 		"SFP Fugitive Recovery",

@@ -4,7 +4,7 @@
 	department_flag = SPT
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "Corporate Regulations, the Union Charter, and the Expeditionary Corps Organisation"
+	supervisors = "your Corporate Executives, Shareholders, and Investors."
 	selection_color = "#2f2f7f"
 	economic_power = 18
 	minimal_player_age = 0
@@ -26,7 +26,7 @@
 	software_on_spawn = list(/datum/computer_file/program/reports)
 
 /datum/job/liaison/get_description_blurb()
-	return "You are the Workplace Liaison. You are a civilian employee of EXO, the Expeditionary Corps Organisation, the government-owned corporate conglomerate that partially funds the Dagon. You are on board the vessel to promote corporate interests and protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
+	return "You are the Workplace Liaison. You are a civilian employee of a Company that has invested into the NTSS Dagon. You are on board the vessel to promote corporate interests or protect the rights of the contractors on board as their union leader. You are not internal affairs. You advise command on corporate and union matters and contractors on their rights and obligations. Maximise profit. Be the shady corporate shill you always wanted to be."
 
 /datum/job/liaison/post_equip_rank(var/mob/person, var/alt_title)
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Executive Assistant")]"]"
@@ -77,7 +77,7 @@
 	return FALSE
 
 /datum/job/bodyguard/get_description_blurb()
-	return "You are the Executive Assistant. You are an employee of one of the corporations that make up the Expeditionary Corps Organisation, and your job is to assist the Liason in corporate affairs. You are also expected to protect the Liason's life, though not in any way that breaks the law."
+	return "You are the Executive Assistant. You are an employee of one of the corporations that make up the crew aboard the NTSS Dagon, and your job is to assist the Liason in corporate affairs. You are also expected to protect the Liason's life."
 
 /datum/job/bodyguard/post_equip_rank(var/mob/person, var/alt_title)
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Executive Assistant")]"]"

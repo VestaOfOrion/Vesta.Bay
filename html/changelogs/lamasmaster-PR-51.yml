@@ -1,6 +1,0 @@
-author: lamasmaster
-
-delete-after: True
-
-changes: 
-  - rscadd: "Adds NSFW tab to the flavor text."
