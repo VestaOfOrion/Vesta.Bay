@@ -2566,6 +2566,11 @@
 	pixel_y = 26
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "ix" = (
@@ -5548,7 +5553,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "tc" = (
-/obj/effect/catwalk_plated,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -5564,6 +5568,12 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "te" = (
@@ -10729,6 +10739,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
 "KH" = (
@@ -10845,6 +10860,11 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/deckchief)
 "La" = (
@@ -12323,6 +12343,11 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "Pk" = (
@@ -12564,6 +12589,11 @@
 /area/hallway/primary/fourthdeck/center)
 "PT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "PU" = (
@@ -14100,6 +14130,11 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/deckofficer,
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "TP" = (
@@ -16454,6 +16489,11 @@
 	dir = 2;
 	name = "Deck Chief";
 	sort_type = "Deck Chief"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/deckchief)
