@@ -1,0 +1,7 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - rscadd: "Added Self-Destruction Keys and Self-Destruction Key Terminal to Dagon's nuclear procedures."
+  - imageadd: "Added Self-Destruction Keys and Self-Destruction Key Terminal icons."
