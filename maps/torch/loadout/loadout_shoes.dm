@@ -31,4 +31,4 @@
 	allowed_roles = SEMIANDFORMAL_ROLES
 
 /datum/gear/shoes/boots
-	allowed_branches = CIVILIAN_BRANCHES
+//	allowed_branches = CIVILIAN_BRANCHES
