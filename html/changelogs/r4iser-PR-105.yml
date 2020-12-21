@@ -1,0 +1,7 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - rscadd: "Added job whitelist system."
+  - tweak: "Squad Leader role is now whitelisted."
