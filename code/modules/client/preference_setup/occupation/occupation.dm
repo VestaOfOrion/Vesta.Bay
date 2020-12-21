@@ -165,6 +165,10 @@
 					bad_message = "<b>\[SPECIES RESTRICTED]</b>"
 				else if(!S.check_background(job, user.client.prefs))
 					bad_message = "<b>\[BACKGROUND RESTRICTED]</b>"
+//# VESTA.BAY ################# JOB WHITELIST ########################################
+				else if(!has_job_whitelist(user.client, job))
+					bad_message = "<b>\[JOB WHITELISTED]</b>"
+//# VESTA.BAY ################# JOB WHITELIST ########################################
 
 				var/current_level = JOB_LEVEL_NEVER
 				if(pref.job_high == job.title)
