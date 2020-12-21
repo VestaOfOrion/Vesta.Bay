@@ -456,7 +456,6 @@ macro "hotkeymode"
 	elem 
 		name = "CTRL+SHIFT+West"
 		command = "shiftwest"
-
 	elem 
 		name = "CTRL+SHIFT+North"
 		command = "shiftnorth"
@@ -479,7 +478,6 @@ macro "hotkeymode"
 	elem 
 		name = "CTRL+SHIFT+D"
 		command = "shifteast"
-
 	elem 
 		name = "CTRL+SHIFT+S"
 		command = "shiftsouth"
