@@ -4910,17 +4910,25 @@
 /obj/machinery/button/blast_door{
 	id_tag = "aquila_shutters";
 	name = "Protective Shutters Control";
-	pixel_x = -32
+	pixel_x = -32;
+	pixel_y = 8
 	},
 /obj/machinery/turretid/stun{
 	enabled = 0;
-	name = "Aquila point defense control";
+	name = "Byakhee point defense control";
 	pixel_x = 32;
 	req_access = list("ACCESS_TORCH_AQUILA_HELM")
 	},
 /obj/structure/bed/chair/shuttle/blue{
 	dir = 1;
 	icon_state = "shuttle_chair_preview"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "gunship_disperser_door";
+	name = "Cannon Access";
+	pixel_x = -32;
+	pixel_y = -3;
+	pixel_z = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
