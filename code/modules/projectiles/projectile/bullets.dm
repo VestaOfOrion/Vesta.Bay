@@ -147,6 +147,11 @@
 /obj/item/projectile/bullet/pistol/rubber/holdout
 	agony = 20
 
+/obj/item/projectile/bullet/pistol/strong/rubber
+	damage = 10
+	armor_penetration = 5
+	agony = 45
+
 //4mm. Tiny, very low damage, does not embed, but has very high penetration. Only to be used for the experimental SMG.
 /obj/item/projectile/bullet/flechette
 	fire_sound = 'sound/weapons/gunshot/gunshot_4mm.ogg'

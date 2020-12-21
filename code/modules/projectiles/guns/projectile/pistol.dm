@@ -23,7 +23,7 @@
 			return
 		else
 			overlays += image(icon, "ammo_ok")
-	
+
 /obj/item/weapon/gun/projectile/pistol/military
 	name = "military pistol"
 	desc = "The Hephaestus Industries P20 - a mass produced kinetic sidearm in widespread service with the SCGDF."
@@ -78,6 +78,12 @@
 	one_hand_penalty = 2
 	bulk = 3
 	ammo_indicator = TRUE
+
+/obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar
+	name = "Eagle"
+	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security Aboard the NTSS Dagon' engraved"
+	magazine_type = /obj/item/ammo_magazine/magnum/rubber
+	starts_loaded = 1
 
 /obj/item/weapon/gun/projectile/pistol/throwback
 	name = "pistol"

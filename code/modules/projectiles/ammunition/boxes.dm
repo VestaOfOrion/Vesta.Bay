@@ -200,6 +200,10 @@
 /obj/item/ammo_magazine/magnum/empty
 	initial_ammo = 0
 
+/obj/item/ammo_magazine/magnum/rubber
+	name = "less-lethal magazine"
+	ammo_type = /obj/item/ammo_casing/pistol/magnum/rubber
+
 /obj/item/ammo_magazine/box/smallpistol
 	name = "ammunition box"
 	icon_state = "smallpistol"
