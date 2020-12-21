@@ -28,9 +28,16 @@
 	distance_falloff = 2.5
 	armor_penetration = 15
 
-/obj/item/ammo_casing/rifle/military/large
-	desc = "A military sniper rifle bullet casing."
-	caliber = CALIBER_RIFLE_MILITARY_LARGE
-	projectile_type = /obj/item/projectile/bullet/rifle/military/large
-	icon_state = "rifle_mil"
-	spent_icon = "rifle_mil-spent"
+/obj/item/projectile/bullet/rifle/military/large
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/hornet.ogg'
+	damage = 45
+	armor_penetration = 30
+	distance_falloff = 0.50
+
+obj/item/projectile/bullet/pistol/strong/rubber
+	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
+	name = "less than lethal bullet"
+	damage_flags = 0
+	damage = 10
+	agony = 40
+	embed = 0

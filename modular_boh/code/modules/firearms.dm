@@ -405,6 +405,12 @@
 	ammo_type = /obj/item/ammo_casing/pistol/magnum
 	caliber = CALIBER_PISTOL_MAGNUM
 
+/obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar
+    name = "Eagle"
+    desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security Aboard the NTSS Dagon' engraved"
+    magazine_type = /obj/item/ammo_magazine/magnum/rubber
+    starts_loaded = 1
+
 //General Custom Weaponry -> ENERGY
 
 /obj/item/weapon/gun/energy/pulse_rifle/pistol/epp
