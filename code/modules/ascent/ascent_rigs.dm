@@ -379,8 +379,8 @@
 	desc = "A powerful support exosuit with integrated power supply, weapon and atmosphere. It's closer to a mech than a rig."
 	armor = list(
 		melee = ARMOR_MELEE_RESISTANT,
-		bullet = 1.1 * ARMOR_BALLISTIC_PISTOL,
-		laser = 1.1 * ARMOR_LASER_HANDGUNS,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_HANDGUNS,
 		energy = ARMOR_ENERGY_RESISTANT,
 		bomb = ARMOR_BOMB_PADDED,
 		bio = ARMOR_BIO_SHIELDED,
@@ -427,8 +427,8 @@
 	online_slowdown = 1
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR,
-		bullet = 1.1 * ARMOR_BALLISTIC_RESISTANT,
-		laser = 1.1 * ARMOR_LASER_RIFLES,
+		bullet = ARMOR_BALLISTIC_RESISTANT,
+		laser = 1.2 * ARMOR_LASER_MAJOR,
 		energy = ARMOR_ENERGY_RESISTANT,
 		bomb = ARMOR_BOMB_RESISTANT,
 		bio = ARMOR_BIO_SHIELDED,
@@ -451,8 +451,8 @@
 	online_slowdown = 1
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR,
-		bullet = 1.1 * ARMOR_BALLISTIC_RESISTANT,
-		laser = 1.1 * ARMOR_LASER_RIFLES,
+		bullet = ARMOR_BALLISTIC_RESISTANT,
+		laser = 1.2 * ARMOR_LASER_MAJOR,
 		energy = ARMOR_ENERGY_RESISTANT,
 		bomb = ARMOR_BOMB_RESISTANT,
 		bio = ARMOR_BIO_SHIELDED,
