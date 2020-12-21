@@ -30,9 +30,10 @@
 	display_choices["secret"] = "Secret"
 
 /datum/vote/gamemode/handle_default_votes()
-	var/non_voters = ..()
+	..()
+	//var/non_voters = ..()
 /*	if(SSticker.master_mode in choices)  # VESTA.BAY # REMOVE NON-VOTERS BEING COUNTED AS VOTES TO EXTENDED
-		choices[SSticker.master_mode] += non_voters*/ 
+		choices[SSticker.master_mode] += non_voters*/
 
 /datum/vote/gamemode/report_result()
 	if(!SSticker.round_progressing) //Unpause any holds. If the vote failed, SSticker is responsible for fielding the result.
