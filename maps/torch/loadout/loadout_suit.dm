@@ -60,19 +60,19 @@
 
 /datum/gear/suit/labcoat_corp
 	allowed_roles = DOCTOR_ROLES
-	allowed_branches = CIVILIAN_BRANCHES
+//	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/suit/labcoat_blue
 	allowed_roles = DOCTOR_ROLES
 
 /datum/gear/suit/labcoat_ec
-	display_name = "labcoat, Expeditionary Corps"
+	display_name = "labcoat, Surveyor Corps"
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/science/ec
 	allowed_roles = DOCTOR_ROLES
-	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
+	allowed_branches = list(/datum/mil_branch/fleet)
 
 /datum/gear/suit/labcoat_ec_cso
-	display_name = "labcoat, chief science officer, Expeditionary Corps"
+	display_name = "labcoat, chief science officer, Surveyor Corps"
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/rd/ec
 	allowed_roles = list(/datum/job/rd)
 

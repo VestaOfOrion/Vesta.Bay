@@ -87,15 +87,15 @@
 	icon_closed = "labcoat_foundation"
 
 /obj/item/clothing/suit/storage/toggle/labcoat/science
-	name = "\improper EXO labcoat"
-	desc = "A coat that protects against minor chemical spills. It has a green stripe on the shoulder and green trim on the sleeves, denoting it as a Expeditionary Corps Organisation labcoat."
+	name = "\improper NTEF labcoat"
+	desc = "A coat that protects against minor chemical spills. It has a green stripe on the shoulder and green trim on the sleeves, denoting it as a NanoTrasen Expeditionary Fleet labcoat."
 	icon_state = "labcoat_TL_open"
 	icon_open = "labcoat_TL_open"
 	icon_closed = "labcoat_TL"
 
 /obj/item/clothing/suit/storage/toggle/labcoat/science/ec
-	name = "\improper EC labcoat"
-	desc = "A coat that protects against minor chemical spills. It has purple stripes on the shoulders denoting it as an Expeditionary Corps labcoat."
+	name = "\improper Surveyor Corps labcoat"
+	desc = "A coat that protects against minor chemical spills. It has purple stripes on the shoulders denoting it as an Surveyor Corps labcoat."
 	icon_state = "labcoat_tox_open"
 	icon_open = "labcoat_tox_open"
 	icon_closed = "labcoat_tox"

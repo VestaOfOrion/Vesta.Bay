@@ -143,7 +143,7 @@
 /obj/item/clothing/suit/storage/toggle/labcoat/rd/ec
 	icon = 'modular_boh/icon/boh/obj/clothing/longlabcoats.dmi'
 	name = "chief science officer's labcoat"
-	desc = "A coat that protects against minor chemical spills. It has purple stripes on the shoulders denoting it as an Expeditionary Corps labcoat, and purple trim to indicate a Chief Science Officer."
+	desc = "A coat that protects against minor chemical spills. It has purple stripes on the shoulders denoting it as an Surveyor Corps labcoat, and purple trim to indicate a Chief Science Officer."
 	icon_state = "labcoat_cso_open"
 	icon_open = "labcoat_cso_open"
 	icon_closed = "labcoat_cso"
