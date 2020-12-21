@@ -214,6 +214,9 @@
 	#include "../../modular_boh/code/modules/mob/language/human/gaian.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/culture/cultures_ipc.dm"
 	#include "../../modular_boh/code/game/loadout/loadout_accessories.dm"
+	#include "../../modular_boh/code/modules/sd_key/keys.dm"
+	#include "../../modular_boh/code/modules/sd_key/keyterminal.dm"
+
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
 //###########################################################################################################
