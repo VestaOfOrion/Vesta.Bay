@@ -55,6 +55,10 @@
 
 	var/required_language
 
+//# VESTA.BAY ####################### JOB WHITELIST ############################################
+	var/is_whitelisted = FALSE
+//# VESTA.BAY ####################### JOB WHITELIST ############################################
+
 /datum/job/New()
 
 	if(prob(100-availablity_chance))	//Close positions, blah blah.
@@ -216,6 +220,11 @@
 	if(!S.check_background(src, prefs))
 		to_chat(feedback, "<span class='boldannounce'>Incompatible background for [title].</span>")
 		return TRUE
+//# VESTA.BAY ################# JOB WHITELIST ########################################
+	if(!has_job_whitelist(prefs.client, src))
+		to_chat(feedback, "<span class='boldannounce'>[title] is whitelisted.</span>")
+		return TRUE
+//# VESTA.BAY ################# JOB WHITELIST ########################################
 
 	return FALSE
 
@@ -362,6 +371,10 @@
 		reasons["There are no positions left."] = TRUE
 	if(!isnull(allowed_branches) && (!caller.prefs.branches[title] || !is_branch_allowed(caller.prefs.branches[title])))
 		reasons["Your branch of service does not allow it."] = TRUE
+//# VESTA.BAY ################# JOB WHITELIST ########################################
+	if(!has_job_whitelist(caller, src)) //This is fine.
+		reasons["You are not whitelisted for this job."] = TRUE
+//# VESTA.BAY ################# JOB WHITELIST ########################################
 	else if(!isnull(allowed_ranks) && (!caller.prefs.ranks[title] || !is_rank_allowed(caller.prefs.branches[title], caller.prefs.ranks[title])))
 		reasons["Your rank choice does not allow it."] = TRUE
 	var/datum/species/S = all_species[caller.prefs.species]

@@ -3209,6 +3209,7 @@
 #include "modular_boh\code\modules\culture_descriptor\location\locations_human.dm"
 #include "modular_boh\code\modules\datums\access.dm"
 #include "modular_boh\code\modules\designs\designs_arms_ammo.dm"
+#include "modular_boh\code\modules\jobs\jobs_whitelist.dm"
 #include "modular_boh\code\modules\misc\misc_verbs.dm"
 #include "modular_boh\code\modules\mob\mob.dm"
 #include "modular_boh\code\modules\mob\mob_defines.dm"
