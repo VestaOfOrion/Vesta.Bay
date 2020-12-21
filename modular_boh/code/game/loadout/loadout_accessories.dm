@@ -221,7 +221,6 @@
 /datum/gear/tactical/ubac
 	display_name = "black UBAC shirt"
 	path = /obj/item/clothing/accessory/ubac
-	allowed_roles = ARMORED_ROLES
 	allowed_branches = UNIFORMED_BRANCHES
 
 /datum/gear/tactical/ubac/blue
