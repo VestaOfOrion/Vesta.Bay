@@ -114,3 +114,16 @@
 	startswith = list(/obj/item/weapon/reagent_containers/glass/beaker/vial/jerraman, /obj/item/weapon/storage/box/syringes = 1)
 
 //# PSYKER ################################################################
+
+//Rubber Magazine for Magnum//
+/obj/item/ammo_magazine/magnum/rubber
+	name = "less than lethal magazine"
+	icon_state = "magnum"
+	origin_tech = list(TECH_COMBAT = 2)
+	mag_type = MAGAZINE
+	caliber = CALIBER_PISTOL_MAGNUM
+	matter = list(MATERIAL_STEEL = 1680)
+	ammo_type = /obj/item/ammo_casing/pistol/magnum/rubber
+	max_ammo = 7
+	multiple_sprites = 1
+//
