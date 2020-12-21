@@ -1,4 +1,4 @@
-/var/server_name = "Vesta of Orion"
+/var/server_name = "Vesta Of Orion"
 
 /var/game_id = null
 /hook/global_init/proc/generate_gameid()
@@ -145,7 +145,7 @@ var/world_topic_spam_protect_time = world.timeofday
 		s["players"] = 0
 		s["stationtime"] = stationtime2text()
 		s["roundduration"] = roundduration2text()
-		s["map"] = replacetext(GLOB.using_map.full_name, "\improper", "") //Done to remove the non-UTF-8 text macros 
+		s["map"] = replacetext(GLOB.using_map.full_name, "\improper", "") //Done to remove the non-UTF-8 text macros
 
 		var/active = 0
 		var/list/players = list()
