@@ -223,17 +223,8 @@
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "aO" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/effect/floor_decal/borderfloor/cee{
-	icon_state = "borderfloorcee_white";
-	dir = 4
-	},
-/obj/machinery/button/ignition{
-	id_tag = "voxship";
-	pixel_x = -36
-	},
+/obj/effect/floor_decal/borderfloor/full,
+/obj/machinery/power/port_gen/pacman/mrs,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "aP" = (
@@ -316,9 +307,16 @@
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "ba" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	icon_state = "intact";
-	dir = 10
+/obj/effect/floor_decal/borderfloor/full,
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/item/device/radio/intercom/map_preset/voxship{
+	dir = 4;
+	pixel_x = -24
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
@@ -580,13 +578,12 @@
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/ship)
 "bK" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/obj/effect/floor_decal/borderfloor/cee{
-	icon_state = "borderfloorcee_white";
-	dir = 4
-	},
+/obj/effect/floor_decal/borderfloor/full,
+/obj/item/clothing/suit/space/vox/stealth,
+/obj/item/clothing/head/helmet/space/vox/stealth,
+/obj/item/clothing/mask/gas/swat/vox,
+/obj/item/clothing/gloves/vox,
+/obj/effect/submap_landmark/spawnpoint/voxship_crew,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "bL" = (
@@ -599,7 +596,6 @@
 	dir = 1;
 	health = 1e+006
 	},
-/obj/structure/inflatable/door,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -689,20 +685,18 @@
 	icon_state = "2-4"
 	},
 /obj/effect/floor_decal/borderfloor/full,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "bY" = (
-/obj/item/weapon/storage/box/vox,
-/obj/item/weapon/storage/box/vox,
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 9;
 	icon_state = "intact"
 	},
-/obj/machinery/light/small{
-	icon_state = "bulb1";
-	dir = 4
-	},
 /obj/effect/floor_decal/borderfloor/full,
+/obj/structure/inflatable/wall,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "bZ" = (
@@ -800,12 +794,6 @@
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "cn" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/inflatable/door,
 /obj/effect/floor_decal/borderfloor/full,
 /obj/effect/decal/cleanable/filth,
 /turf/simulated/floor/plating/vox,
@@ -834,6 +822,7 @@
 	dir = 8;
 	icon_state = "loadingarea"
 	},
+/obj/structure/inflatable/door,
 /turf/simulated/floor/plating/vox,
 /area/voxship/base)
 "cq" = (
@@ -923,16 +912,13 @@
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "cF" = (
-/obj/machinery/light/small{
-	icon_state = "bulb1";
-	dir = 4
-	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
 	},
 /obj/effect/floor_decal/borderfloor/full,
+/obj/structure/inflatable/wall,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "cG" = (
@@ -961,10 +947,7 @@
 	dir = 9;
 	icon_state = "intact"
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/effect/floor_decal/borderfloor/cee,
+/obj/random/junk,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "cL" = (
@@ -993,7 +976,6 @@
 	dir = 2;
 	health = 1e+007
 	},
-/obj/structure/inflatable/door,
 /obj/effect/catwalk_plated/dark,
 /turf/simulated/floor/plating/vox,
 /area/voxship/base)
@@ -1168,8 +1150,8 @@
 	},
 /area/voxship/base)
 "ds" = (
-/obj/structure/inflatable/door,
 /obj/effect/catwalk_plated/dark,
+/obj/structure/inflatable/door,
 /turf/simulated/floor/plating/vox,
 /area/voxship/base)
 "dt" = (
@@ -1197,15 +1179,7 @@
 	dir = 1;
 	icon_state = "map"
 	},
-/obj/structure/cable/cyan{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/effect/floor_decal/borderfloor/full,
-/obj/item/stack/material/tritium/ten,
-/obj/item/stack/material/tritium/ten,
-/obj/item/stack/material/tritium/ten,
-/obj/structure/closet/cabinet,
+/obj/item/weapon/storage/briefcase/inflatable,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "dy" = (
@@ -1268,10 +1242,6 @@
 /obj/machinery/computer/ship/sensors{
 	dir = 1;
 	icon_state = "computer"
-	},
-/obj/machinery/light/small{
-	icon_state = "bulb1";
-	dir = 4
 	},
 /turf/simulated/floor/reinforced/vox,
 /area/voxship/ship)
@@ -1404,21 +1374,13 @@
 	req_access = newlist()
 	},
 /obj/structure/cable,
-/obj/machinery/light/small{
-	icon_state = "bulb1";
-	dir = 4
-	},
 /obj/effect/floor_decal/borderfloor/full,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "dW" = (
-/obj/machinery/computer/ship/engines,
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/obj/effect/floor_decal/borderfloor/full,
-/turf/simulated/floor/plating/vox,
-/area/voxship/ship)
+/obj/machinery/portable_atmospherics/hydroponics,
+/turf/simulated/floor/tiled/techmaint/vox,
+/area/voxship/base)
 "dX" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1679,11 +1641,8 @@
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "eM" = (
-/obj/machinery/light/small{
-	icon_state = "bulb1";
-	dir = 4
-	},
 /obj/effect/floor_decal/borderfloor/full,
+/obj/structure/inflatable/wall,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "eN" = (
@@ -1724,6 +1683,7 @@
 	dir = 8;
 	icon_state = "loadingarea"
 	},
+/obj/structure/inflatable/door,
 /turf/simulated/floor/plating/vox,
 /area/voxship/base)
 "eW" = (
@@ -1758,10 +1718,6 @@
 /obj/effect/floor_decal/asteroid,
 /turf/simulated/floor/asteroid,
 /area/space)
-"fd" = (
-/obj/structure/inflatable/door,
-/turf/simulated/floor/plating/vox,
-/area/voxship/ship)
 "fe" = (
 /obj/item/weapon/storage/toolbox/syndicate,
 /obj/machinery/computer/air_control{
@@ -1773,38 +1729,11 @@
 	},
 /turf/simulated/floor/plating/vox,
 /area/voxship/base)
-"ff" = (
-/obj/machinery/portable_atmospherics/canister/hydrogen,
-/obj/effect/floor_decal/borderfloor/full,
-/turf/simulated/floor/plating/vox,
-/area/voxship/ship)
-"fg" = (
-/obj/item/clothing/suit/space/vox/stealth,
-/obj/item/clothing/head/helmet/space/vox/stealth,
-/obj/item/clothing/mask/gas/swat/vox,
-/obj/machinery/light{
-	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled/techmaint/vox,
-/area/voxship/base)
 "fh" = (
 /obj/effect/floor_decal/borderfloor/cee,
 /obj/machinery/atmospherics/binary/passive_gate/on{
 	dir = 8
 	},
-/turf/simulated/floor/plating/vox,
-/area/voxship/ship)
-"fi" = (
-/obj/machinery/light/small{
-	icon_state = "bulb1";
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/tank/nitrogen{
-	dir = 8
-	},
-/obj/effect/floor_decal/borderfloor/full,
 /turf/simulated/floor/plating/vox,
 /area/voxship/ship)
 "fj" = (
@@ -1893,9 +1822,6 @@
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/base)
 "fy" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
 /obj/effect/floor_decal/borderfloor/full,
 /obj/structure/bed/chair{
 	dir = 4
@@ -2051,12 +1977,14 @@
 	icon_state = "dmg2"
 	},
 /area/voxship/base)
-"va" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+"of" = (
+/obj/item/device/suit_cooling_unit,
+/turf/simulated/floor/tiled/techmaint/vox,
+/area/voxship/base)
+"tj" = (
+/obj/item/device/radio/intercom/map_preset/voxship{
+	dir = 1;
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/base)
@@ -2082,14 +2010,46 @@
 	pixel_x = 0
 	},
 /turf/simulated/floor/plating/vox,
-/area/voxship/ship)
-"Cj" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/black,
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/plating/vox,
-/area/voxship/ship)
+/area/voxship/base)
+"DG" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/tiled/techmaint/vox,
+/area/voxship/base)
 "Fm" = (
 /obj/structure/inflatable/door,
+/turf/simulated/floor/tiled/techmaint/vox,
+/area/space)
+"Hx" = (
+/obj/machinery/telecomms/bus/map_preset/voxship,
+/turf/simulated/floor/plating/vox,
+/area/voxship/base)
+"KC" = (
+/obj/machinery/telecomms/receiver/map_preset/voxship,
+/turf/simulated/floor/plating/vox,
+/area/voxship/base)
+"Lm" = (
+/obj/machinery/telecomms/broadcaster/map_preset/voxship,
+/turf/simulated/floor/plating/vox,
+/area/voxship/base)
+"Lt" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/item/device/suit_cooling_unit,
+/turf/simulated/floor/tiled/techmaint/vox,
+/area/voxship/base)
+"RP" = (
+/obj/structure/inflatable/door,
+/turf/simulated/floor/tiled/techmaint/vox,
+/area/voxship/base)
+"RW" = (
+/obj/machinery/telecomms/processor/map_preset/voxship,
+/turf/simulated/floor/plating/vox,
+/area/voxship/base)
+"Tf" = (
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/space)
 "Wm" = (
@@ -5594,17 +5554,14 @@ aa
 aa
 aa
 aC
-Wm
-bg
-bO
-dH
-bO
-dH
-dH
-dk
-aZ
-el
-eL
+eI
+cP
+dz
+bt
+bw
+bK
+bi
+aO
 bH
 ch
 eL
@@ -5699,12 +5656,13 @@ aa
 aa
 aa
 aC
-aS
-Zl
-bC
-bK
-bC
-cg
+av
+dw
+dA
+bi
+bi
+bi
+bi
 aO
 dE
 ch
@@ -5902,19 +5860,19 @@ aa
 aa
 aa
 aC
-Cj
-bg
-bH
-bv
-bX
-bH
-cE
+aS
 dx
 dF
 bi
 bH
+bW
+aP
+aX
+dH
 bH
-fi
+bH
+bW
+eJ
 aD
 aD
 aa
@@ -7963,9 +7921,9 @@ ai
 ai
 ai
 aI
+ai
 aI
-aI
-aI
+ai
 do
 ac
 ac
@@ -8248,7 +8206,7 @@ aa
 aa
 ad
 ad
-aV
+RP
 ad
 ad
 ad
@@ -8350,7 +8308,7 @@ aa
 aa
 aa
 ab
-Fm
+Tf
 ab
 aa
 aa
