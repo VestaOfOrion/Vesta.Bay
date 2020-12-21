@@ -22,7 +22,7 @@
 	color = "#a33fbf" //Just makes it look really, really odd. But it's funny, so, y'know.
 
 /////////
-// Ascent Shield/Batterer
+// Ascent Shield
 /////////
 /obj/item/device/personal_shield/mantid
 	name = "personal shield"
@@ -30,11 +30,3 @@
 	icon = 'icons/obj/device.dmi'
 	icon_state = "batterer"
 	color = "#a33fbf"
-
-//batterer
-/obj/item/device/batterer/mantid
-	name = "mantid mind batterer"
-	desc = "A strange device with twin antennas."
-	icon_state = "batterer"
-	item_state = "electronic"
-	max_uses = 5000//It'll never be elsewhere, and this is a safeguard against burnout, given the cooldown. If they somehow still burn it out, well, Jesus. I 'unno.
