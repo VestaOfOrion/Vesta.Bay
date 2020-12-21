@@ -3,10 +3,10 @@
 	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/gloves/latex
-	allowed_roles = STERILE_ROLES
+//	allowed_roles = STERILE_ROLES
 
 /datum/gear/gloves/nitrile
-	allowed_roles = STERILE_ROLES
+//	allowed_roles = STERILE_ROLES
 
 /datum/gear/gloves/rainbow
 	allowed_roles = CASUAL_ROLES
@@ -27,4 +27,4 @@
 	display_name = "gloves, duty"
 	path = /obj/item/clothing/gloves/thick/duty
 	cost = 3
-	allowed_branches = UNIFORMED_BRANCHES
+//	allowed_branches = UNIFORMED_BRANCHES
