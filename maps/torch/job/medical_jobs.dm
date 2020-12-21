@@ -54,6 +54,8 @@
 	supervisors = "Physicians and the Chief Medical Officer"
 	selection_color = "#013d3b"
 	economic_power = 6
+	alt_titles = list(
+		"Nurse")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -94,8 +96,7 @@
 	minimal_player_age = 0
 	alt_titles = list(
 		"Paramedic",
-		"Corpsman",
-		"Nurse")
+		"Corpsman")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
