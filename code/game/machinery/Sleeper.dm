@@ -1,7 +1,7 @@
 /obj/machinery/sleeper
 	name = "sleeper"
 	desc = "A fancy bed with built-in injectors, a dialysis machine, and a limited health scanner."
-	icon = 'icons/obj/Cryogenic2.dmi'
+	icon = 'modular_mithra/icons/obj/Cryogenic2_1.dmi'
 	icon_state = "sleeper_0"
 	density = 1
 	anchored = 1
@@ -80,7 +80,7 @@
 	else if(stat & (BROKEN|NOPOWER))
 		icon_state = "sleeper_1"
 	else
-		icon_state = "sleeper_2"
+		icon_state = "sleeper_1"
 
 /obj/machinery/sleeper/DefaultTopicState()
 	return GLOB.outside_state

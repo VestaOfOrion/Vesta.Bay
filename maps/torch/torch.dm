@@ -130,7 +130,7 @@
 	#include "structures/closets/exploration.dm"
 
 	#include "loadout/_defines.dm"
-	#include "loadout/loadout_accessories.dm"
+//	#include "loadout/loadout_accessories.dm"
 	#include "loadout/loadout_ec_skillbadges.dm"
 	#include "loadout/loadout_eyes.dm"
 	#include "loadout/loadout_gloves.dm"
@@ -185,6 +185,7 @@
 	#include "../../modular_boh/code/items/cards_ids.dm"
 	#include "../../modular_boh/code/items/clothing/boh_under.dm"
 	#include "../../modular_boh/code/modules/datums/uniforms_marine_corps.dm"
+	#include "../../modular_boh/code/modules/datums/uniforms_exp_fleet.dm"
 	#include "../../modular_boh/code/modules/jobs/jobs.dm"
 	#include "../../modular_boh/code/modules/jobs/torch_jobs_vesta.dm"
 	#include "../../modular_boh/code/modules/jobs/outfits/vesta_outfits.dm"
@@ -212,6 +213,7 @@
 	#include "../../modular_boh/code/modules/culture_descriptor/location/locations_human.dm"
 	#include "../../modular_boh/code/modules/mob/language/human/gaian.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/culture/cultures_ipc.dm"
+	#include "../../modular_boh/code/game/loadout/loadout_accessories.dm"
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
 //###########################################################################################################
