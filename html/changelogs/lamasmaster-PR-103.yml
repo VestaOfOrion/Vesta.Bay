@@ -1,0 +1,6 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - rscadd: "Adds AI slipper and double bed into the code."
