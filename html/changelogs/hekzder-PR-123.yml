@@ -1,7 +1,5 @@
- author: Hekzder
-
+author: Hekzder
 delete-after: True
-
 changes: 
   - rscdel: "Senior Researcher has been removed."
   - rscdel: "SMC Attache has been removed."
