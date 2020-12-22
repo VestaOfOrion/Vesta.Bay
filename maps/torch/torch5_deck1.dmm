@@ -549,7 +549,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/aftstarboard)
 "abl" = (
-/obj/machinery/chemical_dispenser/full,
 /obj/effect/floor_decal/corner/beige/mono,
 /obj/machinery/firealarm{
 	dir = 8;
@@ -558,6 +557,7 @@
 /obj/structure/sign/warning/nosmoking_1{
 	pixel_y = 24
 	},
+/obj/machinery/chem_master,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/chemistry)
 "abm" = (
@@ -565,7 +565,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/chem_master,
+/obj/machinery/chemical_dispenser/full,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/chemistry)
 "abn" = (
@@ -627,11 +627,6 @@
 /obj/structure/bed/chair/comfy/blue{
 	dir = 8
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/chemistry)
 "abv" = (
@@ -641,6 +636,12 @@
 	},
 /obj/effect/floor_decal/corner/beige{
 	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	dir = 8;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
@@ -769,9 +770,9 @@
 	dir = 4
 	},
 /obj/structure/cable/green{
-	d1 = 1;
+	d1 = 4;
 	d2 = 8;
-	icon_state = "1-8"
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
@@ -792,6 +793,12 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	dir = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
@@ -3457,18 +3464,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/aftstarboard)
 "afY" = (
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
 /obj/effect/floor_decal/corner/beige/mono,
-/obj/machinery/chem_master,
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
+/obj/machinery/chemical_dispenser/full,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "afZ" = (
@@ -3521,7 +3518,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/beige/mono,
-/obj/machinery/chemical_dispenser/full,
+/obj/machinery/chem_master,
 /turf/simulated/floor/tiled/white,
 /area/medical/chemistry)
 "agf" = (
@@ -11479,7 +11476,6 @@
 	pixel_y = -22
 	},
 /obj/machinery/washing_machine,
-/obj/item/weapon/storage/box/detergent,
 /obj/machinery/light/small{
 	dir = 4;
 	icon_state = "bulb1"
@@ -17094,8 +17090,9 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4;
+	icon_state = "map"
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/sleeper)
@@ -17923,8 +17920,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/operations_storage)
 "fxb" = (
-/obj/machinery/atmospherics/pipe/manifold/visible,
 /obj/machinery/meter,
+/obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled/dark,
 /area/medical/foyer/storeroom)
 "fxe" = (
@@ -19824,6 +19821,19 @@
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor/reinforced,
 /area/thruster/d1port)
+"ieF" = (
+/obj/effect/floor_decal/corner/beige/mono,
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "north bump";
+	pixel_x = 24
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/medical/chemistry)
 "igb" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -26019,6 +26029,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/effect/floor_decal/sign/d,
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
 "pkb" = (
@@ -28816,6 +28827,7 @@
 	opacity = 0
 	},
 /obj/structure/table/reinforced,
+/obj/item/weapon/material/bell,
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
 "sjb" = (
@@ -54660,7 +54672,7 @@ sde
 dEb
 dDb
 agH
-mJY
+ieF
 uUK
 dDb
 dDb
