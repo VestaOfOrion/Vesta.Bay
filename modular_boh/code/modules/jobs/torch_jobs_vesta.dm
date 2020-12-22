@@ -13,11 +13,14 @@
 
 /datum/job/hop
 	allowed_branches = list(
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/XO/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/XO/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/command/XO/marine
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o4,
-		/datum/mil_rank/fleet/o5
+		/datum/mil_rank/fleet/o5,
+		/datum/mil_rank/marine_corps/o4,	
+		/datum/mil_rank/marine_corps/o5
 	)
 
 /datum/job/rd
@@ -30,19 +33,24 @@
 
 /datum/job/cmo
 	allowed_branches = list(
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/cmo/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/cmo/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/command/cmo/marine
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/o4
+		/datum/mil_rank/fleet/o4,
+		/datum/mil_rank/marine_corps/o4
 	)
 
 /datum/job/chief_engineer
 	allowed_branches = list(
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer/marine
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o2,
-		/datum/mil_rank/fleet/o3
+		/datum/mil_rank/fleet/o3,
+		/datum/mil_rank/marine_corps/o2,	
+		/datum/mil_rank/marine_corps/o3
 	)
 
 /datum/job/hos
@@ -55,20 +63,6 @@
 		/datum/mil_rank/fleet/o3,
 		/datum/mil_rank/marine_corps/o2,
 		/datum/mil_rank/marine_corps/o3
-	)
-
-/datum/job/sea/marine
-	title = "SMC Attache"
-	department = "Command"
-	department_flag = COM
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/marineattache
-	minimum_character_age = list(SPECIES_HUMAN = 30,SPECIES_UNATHI = 30,SPECIES_SERGAL = 30, SPECIES_SKRELL = 30, SPECIES_PROMETHEAN = 30, SPECIES_YEOSA = 30, SPECIES_VASS = 30, SPECIES_TAJ = 30, SPECIES_CUSTOM = 30, SPECIES_AKULA = 30)
-	allowed_branches = list(
-		/datum/mil_branch/marine_corps
-	)
-	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/o3,
-		/datum/mil_rank/marine_corps/o4
 	)
 
 /datum/job/bridgeofficer
@@ -200,9 +194,7 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o1,
-		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/marine_corps/o1,
-		/datum/mil_rank/marine_corps/o2,
 		/datum/mil_rank/civ/contractor
 	)
 

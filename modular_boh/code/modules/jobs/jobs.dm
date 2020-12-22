@@ -244,7 +244,7 @@ var/const/INF               =(1<<11)
 //## SEA
 
 /datum/job/sea	//Overrides it to make it like ours @r4iser
-	title = "Senior Enlisted Advisor"
+	title = "NTEF Senior Enlisted Advisor"
 	department = "Support"
 	department_flag = SPT
 	total_positions = 1
@@ -256,17 +256,14 @@ var/const/INF               =(1<<11)
 	minimum_character_age = list(SPECIES_HUMAN = 35,SPECIES_UNATHI = 35,SPECIES_SERGAL = 35, SPECIES_SKRELL = 35, SPECIES_PROMETHEAN = 35, SPECIES_YEOSA = 35, SPECIES_VASS = 35, SPECIES_TAJ = 35, SPECIES_CUSTOM = 35, SPECIES_AKULA = 35)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
 	allowed_branches = list(
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet,
-		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/command/sea/marine
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/e8,
-		/datum/mil_rank/fleet/e9_alt1,
 		/datum/mil_rank/fleet/e9,
-		/datum/mil_rank/marine_corps/e8,
-		/datum/mil_rank/marine_corps/e9_alt,
-		/datum/mil_rank/marine_corps/e9
+		/datum/mil_rank/fleet/e9_alt1
 	)
+
 	min_skill = list(   SKILL_EVA        = SKILL_BASIC,
 	                    SKILL_COMBAT     = SKILL_BASIC,
 	                    SKILL_WEAPONS    = SKILL_ADEPT)
@@ -293,21 +290,19 @@ var/const/INF               =(1<<11)
 	return "You are the Senior Enlisted Advisor. You are the highest enlisted person on the ship. You are directly subordinate to the CO. You advise them on enlisted concerns and provide expertise and advice to officers. You are responsible for ensuring discipline and good conduct among enlisted, as well as notifying officers of any issues and \"advising\" them on mistakes they make. You also handle various duties on behalf of the CO and XO. You are an experienced enlisted person, very likely equal only in experience to the CO and XO. You know the regulations better than anyone."
 
 /datum/job/sea/marine
-	title = "SMC Attache"
-	department = "Command"
-	department_flag = COM
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/marineattache
-	minimum_character_age = list(SPECIES_HUMAN = 30,SPECIES_UNATHI = 30,SPECIES_SERGAL = 30, SPECIES_SKRELL = 30, SPECIES_PROMETHEAN = 30, SPECIES_YEOSA = 30, SPECIES_VASS = 30, SPECIES_TAJ = 30, SPECIES_CUSTOM = 30, SPECIES_AKULA = 30)
+	title = "SMC Senior Enlisted Advisor"
+	department = "Support"
+	department_flag = SPT
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/marine
+	minimum_character_age = list(SPECIES_HUMAN = 35,SPECIES_UNATHI = 35,SPECIES_SERGAL = 35, SPECIES_SKRELL = 35, SPECIES_PROMETHEAN = 35, SPECIES_YEOSA = 35, SPECIES_VASS = 35, SPECIES_TAJ = 35, SPECIES_CUSTOM = 35, SPECIES_AKULA = 35)
 	allowed_branches = list(
 		/datum/mil_branch/marine_corps
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/o3,
-		/datum/mil_rank/marine_corps/o4
+		/datum/mil_rank/marine_corps/e8,
+		/datum/mil_rank/marine_corps/e9,
+		/datum/mil_rank/marine_corps/e9_alt
 	)
-
-/datum/job/sea/marine/get_description_blurb()
-	return "You are the SMC Attache. You are the highest ranking, leading officer for SMC personnel on the ship. Advise and assist Command in handling SMC matters, and ensure the SMC is properly represented within the Command staff on the ship."
 
 //## RESEARCH ROBOTICIST
 

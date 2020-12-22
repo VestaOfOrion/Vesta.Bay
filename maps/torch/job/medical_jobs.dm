@@ -55,7 +55,8 @@
 	selection_color = "#013d3b"
 	economic_power = 6
 	alt_titles = list(
-		"Nurse")
+		"Nurse",
+		"Junior Surgeon")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
