@@ -3,4 +3,4 @@ author: lamasmaster
 delete-after: True
 
 changes: 
-  - rscadd: "Adds NSFW tab to the flavor text."
+  - bugfix: "Fixes broken onmob sprite for Z9b."

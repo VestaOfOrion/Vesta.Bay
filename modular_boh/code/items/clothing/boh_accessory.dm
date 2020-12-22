@@ -2,7 +2,7 @@
 
 /obj/item/clothing/accessory/solgov/smc_patch
 	name = "\improper Marine Corps Patch"
-	desc = "A robust shoulder patch, carrying the symbol-mascot of Xenoic division, yellow-eyed devil dog."
+	desc = "A robust shoulder patch, carrying the symbol of the Solar Marine Corps, or SMC for short."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
 	icon_state = "smcpatch"
 

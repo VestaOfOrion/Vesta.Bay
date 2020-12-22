@@ -3164,7 +3164,6 @@
 /obj/structure/table/rack/dark,
 /obj/item/weapon/rig/mantid/gyne/seed,
 /obj/item/device/personal_shield/mantid,
-/obj/item/device/batterer/mantid,
 /obj/item/weapon/gun/energy/particle,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)

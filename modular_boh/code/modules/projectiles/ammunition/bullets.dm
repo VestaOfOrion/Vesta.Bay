@@ -64,8 +64,16 @@
 	caliber = CALIBER_PISTOL_MAGNUM_LARGE
 	projectile_type = /obj/item/projectile/bullet/pistol/large
 
-/obj/item/projectile/bullet/rifle/military/large
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/hornet.ogg'
-	damage = 45
-	armor_penetration = 30
-	distance_falloff = 0.50
+/obj/item/ammo_casing/pistol/magnum/rubber
+	desc = "A high-power pistol bullet casing."
+	caliber = CALIBER_PISTOL_MAGNUM
+	projectile_type = /obj/item/projectile/bullet/pistol/strong/rubber
+	icon_state = "magnumcasing"
+	spent_icon = "magnumcasing-spent"
+
+/obj/item/ammo_casing/rifle/military/large
+	desc = "A military sniper rifle bullet casing."
+	caliber = CALIBER_RIFLE_MILITARY_LARGE
+	projectile_type = /obj/item/projectile/bullet/rifle/military/large
+	icon_state = "rifle_mil"
+	spent_icon = "rifle_mil-spent"

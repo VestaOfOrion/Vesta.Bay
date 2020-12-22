@@ -14,8 +14,6 @@ Synthetic
 /datum/job/ai
 	//minimal_player_age = 7
 	minimal_player_age = 0 //TEMPORARY. FOR DEBUG REASONS
-	total_positions = 1
-	spawn_positions = 1
 	allowed_ranks = list(
 		/datum/mil_rank/civ/synthetic
 	)

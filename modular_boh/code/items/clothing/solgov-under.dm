@@ -208,6 +208,9 @@
 	desc = "Alternative utility uniform of NT's Expeditionary Fleet, for when coveralls are impractical."
 	icon_state = "greyutility"
 	worn_state = "greyutility"
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'modular_boh/icon/mob/species/unathi/onmob_under_solgov_unathi.dmi'
+		)
 
 /obj/item/clothing/under/solgov/utility/fleet/combat/security
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/fleet)
@@ -223,9 +226,33 @@
 
 /obj/item/clothing/under/solgov/utility/fleet/combat/marine
 	name = "navy fatigues"
-	desc = "Alternative Marine utility uniform, made for ship use."
+	desc = "A navy SCG Marine utility uniform, made for ship use."
 	icon_state = "navycombat"
 	worn_state = "navycombat"
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/fleet)
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/engineering
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/fleet)
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/fleet)
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/fleet)
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical/banded
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/fleet, /obj/item/clothing/accessory/armband/medblue)
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/supply
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/fleet)
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/service
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/fleet)
+
+/obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/fleet)
 
 /obj/item/clothing/under/solgov/utility/fleet/officer
 	name = "fleet officer's coveralls"

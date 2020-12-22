@@ -68,6 +68,10 @@
 	name = "ammunition (magnum)"
 	path = /obj/item/ammo_magazine/magnum
 
+/datum/fabricator_recipe/arms_ammo/hidden/magrub
+	name = "ammunition (magnum, rubber)"
+	path = /obj/item/ammo_magazine/magnum/rubber
+
 /datum/fabricator_recipe/arms_ammo/hidden/magazine_smg
 	name = "ammunition (submachine gun)"
 	path = /obj/item/ammo_magazine/smg

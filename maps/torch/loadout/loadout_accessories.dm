@@ -40,18 +40,18 @@
 	custom_setup_proc = /obj/item/clothing/accessory/badge/solgov/tags/proc/loadout_setup
 
 /datum/gear/accessory/ec_scarf
-	display_name = "Expeditionary Corps scarf"
+	display_name = "Surveyor Corps scarf"
 	path = /obj/item/clothing/accessory/solgov/ec_scarf
-	description = "A section-specific scarf for Expeditionary Corps uniforms."
+	description = "A section-specific scarf for Surveyor Corps uniforms."
 	flags = GEAR_HAS_TYPE_SELECTION
-	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
+	allowed_branches = list(/datum/mil_branch/fleet)
 
 /datum/gear/accessory/ec_patch
-	display_name = "Expeditionary Corps patch"
+	display_name = "Surveyor Corps patch"
 	path = /obj/item/clothing/accessory/solgov/ec_patch
-	description = "A shoulder patch representing the Expeditionary Corps."
+	description = "A shoulder patch representing the Surveyor Corps."
 	flags = GEAR_HAS_TYPE_SELECTION
-	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
+	allowed_branches = list(/datum/mil_branch/fleet)
 
 /datum/gear/accessory/torch_patch
 	display_name = "Dagon mission patch"
@@ -225,24 +225,12 @@
 	display_name = "black UBAC shirt"
 	path = /obj/item/clothing/accessory/ubac
 	allowed_roles = ARMORED_ROLES
-	allowed_branches = list(/datum/mil_branch/expeditionary_corps, /datum/mil_branch/civilian)
+	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/civilian)
 
 /datum/gear/tactical/ubac/blue
 	display_name = "navy blue UBAC shirt"
 	path = /obj/item/clothing/accessory/ubac/blue
 	allowed_branches = list(/datum/mil_branch/fleet)
-
-/datum/gear/tactical/ubac/misc
-	display_name = "miscellaneous UBAC shirt selection"
-	path = /obj/item/clothing/accessory/ubac
-	allowed_branches = CIVILIAN_BRANCHES
-
-/datum/gear/tactical/ubac/misc/New()
-	..()
-	var/shirts = list()
-	shirts["green UBAC shirt"] = /obj/item/clothing/accessory/ubac/green
-	shirts["tan UBAC shirt"] = /obj/item/clothing/accessory/ubac/tan
-	gear_tweaks += new/datum/gear_tweak/path(shirts)
 
 /datum/gear/tactical/armor_pouches
 	display_name = "black armor pouches"

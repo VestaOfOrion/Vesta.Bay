@@ -30,6 +30,11 @@
 		/obj/item/stack/medical/resin,
 		/obj/item/weapon/surgicaldrill,
 		/obj/item/weapon/hemostat,
+		/obj/item/weapon/retractor,
+		/obj/item/weapon/cautery,
+		/obj/item/weapon/scalpel,
+		/obj/item/weapon/bonegel,
+		/obj/item/weapon/FixOVein,
 		/obj/item/weapon/bonesetter,
 		/obj/item/weapon/circular_saw,
 		/obj/item/stack/material/cyborg/steel,
@@ -55,7 +60,9 @@
 		LANGUAGE_MANTID_NONVOCAL  = TRUE,
 		LANGUAGE_MANTID_BROADCAST = TRUE,
 		LANGUAGE_SKRELLIAN        = TRUE,
-		LANGUAGE_NABBER           = TRUE
+		LANGUAGE_NABBER           = TRUE,
+		LANGUAGE_HUMAN_EURO		  = TRUE,
+		LANGUAGE_EAL			  = TRUE
 	)
 	
 	skills = list(

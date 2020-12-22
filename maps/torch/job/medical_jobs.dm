@@ -54,6 +54,8 @@
 	supervisors = "Physicians and the Chief Medical Officer"
 	selection_color = "#013d3b"
 	economic_power = 6
+	alt_titles = list(
+		"Nurse")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -148,17 +150,17 @@
 		/datum/mil_rank/fleet/e2
 	)
 
-	skill_points = 4
+	skill_points = 16
 	no_skill_buffs = TRUE
 
 	min_skill = list(   SKILL_EVA     = SKILL_ADEPT,
 	                    SKILL_HAULING = SKILL_ADEPT,
-	                    SKILL_MEDICAL = SKILL_EXPERT,
+	                    SKILL_MEDICAL = SKILL_BASIC,
 	                    SKILL_ANATOMY = SKILL_BASIC)
 
-	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
-	                    SKILL_ANATOMY     = SKILL_MAX,
-	                    SKILL_CHEMISTRY   = SKILL_MAX)
+	max_skill = list(   SKILL_MEDICAL     = SKILL_ADEPT,
+	                    SKILL_ANATOMY     = SKILL_ADEPT,
+	                    SKILL_CHEMISTRY   = SKILL_ADEPT)
 
 	access = list(access_medical, access_morgue, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
 			            access_surgery, access_medical_equip, access_solgov_crew)
