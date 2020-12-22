@@ -1,0 +1,7 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - tweak: "Increased all players psionics changes to 5%."
+  - bugfix: "Fixed bug stoppping psionics latents to be latents."

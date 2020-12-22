@@ -70,7 +70,7 @@
 
 	species_flags = SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_BLOCK | SPECIES_FLAG_NO_MINOR_CUT | SPECIES_FLAG_NEED_DIRECT_ABSORB
 	appearance_flags = HAS_SKIN_COLOR | HAS_EYE_COLOR | HAS_SKIN_TONE_NORMAL | HAS_BASE_SKIN_COLOURS
-	spawn_flags = SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
+	spawn_flags = SPECIES_CAN_JOIN | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN | SPECIES_NO_LACE
 
 	bump_flag = HEAVY
 	push_flags = ALLMOBS
@@ -438,7 +438,8 @@
 		BP_HEART =             /obj/item/organ/internal/heart/open,
 		BP_LIVER =             /obj/item/organ/internal/liver/insectoid/nabber,
 		BP_STOMACH =           /obj/item/organ/internal/stomach/insectoid,
-		BP_SYSTEM_CONTROLLER = /obj/item/organ/internal/controller
+		BP_SYSTEM_CONTROLLER = /obj/item/organ/internal/controller,
+		BP_VOICE =    /obj/item/organ/internal/voicebox/nabber
 	)
 
 	force_cultural_info = list(
@@ -490,7 +491,8 @@
 		BP_LIVER =             /obj/item/organ/internal/liver/insectoid/nabber,
 		BP_HEART =             /obj/item/organ/internal/heart/open,
 		BP_STOMACH =           /obj/item/organ/internal/stomach,
-		BP_SYSTEM_CONTROLLER = /obj/item/organ/internal/controller
+		BP_SYSTEM_CONTROLLER = /obj/item/organ/internal/controller,
+		BP_VOICE =    /obj/item/organ/internal/voicebox/nabber
 		)
 
 	has_limbs = list(

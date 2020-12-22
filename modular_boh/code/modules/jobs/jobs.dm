@@ -32,6 +32,7 @@ var/const/INF               =(1<<11)
 	minimal_player_age = 12
 	economic_power = 7
 	skill_points = 24
+	is_whitelisted = TRUE
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 						SKILL_EVA         = SKILL_ADEPT,

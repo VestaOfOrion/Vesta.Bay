@@ -185,6 +185,7 @@
 	#include "../../modular_boh/code/items/cards_ids.dm"
 	#include "../../modular_boh/code/items/clothing/boh_under.dm"
 	#include "../../modular_boh/code/modules/datums/uniforms_marine_corps.dm"
+	#include "../../modular_boh/code/modules/datums/uniforms_exp_fleet.dm"
 	#include "../../modular_boh/code/modules/jobs/jobs.dm"
 	#include "../../modular_boh/code/modules/jobs/torch_jobs_vesta.dm"
 	#include "../../modular_boh/code/modules/jobs/outfits/vesta_outfits.dm"
@@ -213,6 +214,7 @@
 	#include "../../modular_boh/code/modules/mob/language/human/gaian.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/culture/cultures_ipc.dm"
 	#include "../../modular_boh/code/game/loadout/loadout_accessories.dm"
+	#include "../../modular_boh/loadouts/~defines.dm"
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
 //###########################################################################################################

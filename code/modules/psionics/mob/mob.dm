@@ -13,9 +13,9 @@
 	. = ..()
 
 /mob/living/proc/set_psi_rank(var/faculty, var/rank, var/take_larger, var/defer_update, var/temporary)
-	if(!src.zone_sel)
+/*	if(!src.zone_sel) // VESTA.BAY @r4iser - Poorly treated Baystation12 change, blocking Mule and mostly all psionics
 		to_chat(src, SPAN_NOTICE("You feel something strange brush against your mind... but your brain is not able to grasp it."))
-		return
+		return*/
 	if(!psi)
 		psi = new(src)
 	var/current_rank = psi.get_rank(faculty)
