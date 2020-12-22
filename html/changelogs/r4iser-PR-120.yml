@@ -1,0 +1,7 @@
+author: Peekaboom
+
+delete-after: True
+
+changes: 
+  - bugfix: "Fixed loadout selection problem to various branches and jobs."
+  - tweak: "Boot selections are now free for everyone."
