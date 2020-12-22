@@ -11,5 +11,4 @@
 	check_weapons = 0
 	check_anomalies = 0
 	installation = /obj/item/weapon/gun/energy/pulse_rifle/skrell/vesta
-	req_access = list(access_skrellscoutship)
 	color = COLOR_DARK_GRAY
