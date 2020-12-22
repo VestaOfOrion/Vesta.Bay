@@ -1,6 +1,0 @@
-author: Peekaboom
-
-delete-after: True
-
-changes: 
-  - tweak: "Fixed PR 66. Now Diona, Machine and GAS doesnt requires whitelist."

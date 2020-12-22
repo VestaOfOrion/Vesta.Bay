@@ -1,4 +1,0 @@
-author: Pebblesthe2nd
-delete-after: True
-changes: 
-  - rscadd: "Added Unathi staff sprites. Onmob rhand, lhand, on back, staff_unathi and _other suffix for non unathi. Offmob sprite in icons/obj/weapons/melee_physical.dmi , same format."
