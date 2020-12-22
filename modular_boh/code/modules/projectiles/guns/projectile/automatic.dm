@@ -27,7 +27,7 @@
 	bulk = GUN_BULK_RIFLE
 	handle_casings = CLEAR_CASINGS
 	firemodes = list()
-    
+	
 /obj/item/weapon/gun/projectile/automatic/skrell/on_update_icon()
 	..()
 	if(ammo_magazine)
