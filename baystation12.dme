@@ -3224,6 +3224,7 @@
 #include "modular_boh\code\modules\organs\internal\stack.dm"
 #include "modular_boh\code\modules\power\apc.dm"
 #include "modular_boh\code\modules\power\lighting.dm"
+#include "modular_boh\code\modules\power\solar.dm"
 #include "modular_boh\code\modules\projectiles\boxes.dm"
 #include "modular_boh\code\modules\projectiles\bullets.dm"
 #include "modular_boh\code\modules\projectiles\ammunition\bullets.dm"
