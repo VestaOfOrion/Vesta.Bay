@@ -159,8 +159,6 @@ var/const/INF               =(1<<11)
 	title = "Psionic Advisor"
 	department = "Support"
 	department_flag = SPT
-	department = "Civilian"
-	department_flag = CIV
 	selection_color = "#2f2f7f"
 	total_positions = 1
 	spawn_positions = 1
@@ -258,12 +256,16 @@ var/const/INF               =(1<<11)
 	minimum_character_age = list(SPECIES_HUMAN = 35,SPECIES_UNATHI = 35,SPECIES_SERGAL = 35, SPECIES_SKRELL = 35, SPECIES_PROMETHEAN = 35, SPECIES_YEOSA = 35, SPECIES_VASS = 35, SPECIES_TAJ = 35, SPECIES_CUSTOM = 35, SPECIES_AKULA = 35)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
 	allowed_branches = list(
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/command/sea/marine
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/e8,
 		/datum/mil_rank/fleet/e9_alt1,
-		/datum/mil_rank/fleet/e9
+		/datum/mil_rank/fleet/e9,
+		/datum/mil_rank/marine_corps/e8,
+		/datum/mil_rank/marine_corps/e9_alt,
+		/datum/mil_rank/marine_corps/e9
 	)
 	min_skill = list(   SKILL_EVA        = SKILL_BASIC,
 	                    SKILL_COMBAT     = SKILL_BASIC,
@@ -292,19 +294,20 @@ var/const/INF               =(1<<11)
 
 /datum/job/sea/marine
 	title = "SMC Attache"
+	department = "Command"
+	department_flag = COM
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/marineattache
-	minimum_character_age = list(SPECIES_HUMAN = 21,SPECIES_UNATHI = 21,SPECIES_SERGAL = 21, SPECIES_SKRELL = 21, SPECIES_PROMETHEAN = 21, SPECIES_YEOSA = 21, SPECIES_VASS = 21, SPECIES_TAJ = 21, SPECIES_CUSTOM = 21, SPECIES_AKULA = 21)
+	minimum_character_age = list(SPECIES_HUMAN = 30,SPECIES_UNATHI = 30,SPECIES_SERGAL = 30, SPECIES_SKRELL = 30, SPECIES_PROMETHEAN = 30, SPECIES_YEOSA = 30, SPECIES_VASS = 30, SPECIES_TAJ = 30, SPECIES_CUSTOM = 30, SPECIES_AKULA = 30)
 	allowed_branches = list(
 		/datum/mil_branch/marine_corps
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/e8_alt,
-		/datum/mil_rank/marine_corps/e9,
-		/datum/mil_rank/marine_corps/e9_alt,
-		/datum/mil_rank/marine_corps/o1,
-		/datum/mil_rank/marine_corps/o2,
-		/datum/mil_rank/marine_corps/o3
+		/datum/mil_rank/marine_corps/o3,
+		/datum/mil_rank/marine_corps/o4
 	)
+
+/datum/job/sea/marine/get_description_blurb()
+	return "You are the SMC Attache. You are the highest ranking, leading officer for SMC personnel on the ship. Advise and assist Command in handling SMC matters, and ensure the SMC is properly represented within the Command staff on the ship."
 
 //## RESEARCH ROBOTICIST
 
@@ -329,11 +332,11 @@ var/const/INF               =(1<<11)
 		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/research/roboticist/fleet,
 		/datum/mil_branch/civilian)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/e4,
 		/datum/mil_rank/fleet/e5,
 		/datum/mil_rank/fleet/e6,
-		/datum/mil_rank/fleet/o1,
-		/datum/mil_rank/fleet/o2,
+		/datum/mil_rank/fleet/e7,
+		/datum/mil_rank/fleet/w1,
+		/datum/mil_rank/fleet/w2,
 		/datum/mil_rank/civ/contractor
 		)
 	min_skill = list(   SKILL_COMPUTER		= SKILL_ADEPT,
@@ -350,6 +353,9 @@ var/const/INF               =(1<<11)
 	                    SKILL_MEDICAL      = SKILL_EXPERT,
 	                    SKILL_ANATOMY      = SKILL_EXPERT)
 	skill_points = 20
+
+/datum/job/roboticist/get_description_blurb()
+	return "You are the Roboticist. You are responsible for repairing, upgrading and handling ship synthetics (like robots). You are also responsible for the production of exosuits(mechs) and bots for various departments. You answer to the Chief Science Officer."
 
 	access = list(access_maint_tunnels, access_research, access_robotics, access_nanotrasen, access_solgov_crew, access_surgery, access_medical)
 	minimal_access = list()
