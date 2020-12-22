@@ -6525,9 +6525,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/observation)
 "ny" = (
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/structure/ladder,
-/obj/structure/catwalk,
 /obj/effect/floor_decal/corner/green{
 	dir = 6
 	},
@@ -10650,6 +10647,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/lino,
 /area/crew_quarters/office)
 "xP" = (
