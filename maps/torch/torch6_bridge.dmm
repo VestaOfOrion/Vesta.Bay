@@ -4911,7 +4911,7 @@
 	pixel_x = 25;
 	pixel_y = -6
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -5209,7 +5209,7 @@
 	dir = 1;
 	icon_state = "warningcorner"
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/firealarm{
 	dir = 2;
 	pixel_y = 24
@@ -5262,7 +5262,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/turret_protected/ai_outer_chamber)
 "lk" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -5647,7 +5647,7 @@
 	dir = 2;
 	id_tag = "aquila_shuttle_pump"
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
@@ -6124,7 +6124,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -6153,7 +6153,7 @@
 	pixel_x = 0;
 	pixel_y = -24
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -7011,14 +7011,6 @@
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
 /area/security/bridgecheck)
-"pH" = (
-/obj/structure/sign/double/icarus/solgovflag/right{
-	dir = 1;
-	icon_state = "solgovflag-right";
-	pixel_z = -32
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/crew_quarters/heads/office/sgr)
 "pI" = (
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced/polarized{
@@ -10022,6 +10014,10 @@
 	pixel_x = 3;
 	pixel_y = -4
 	},
+/obj/structure/sign/double/icarus/solgovflag/right{
+	dir = 1;
+	pixel_y = -32
+	},
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "wG" = (
@@ -12340,7 +12336,7 @@
 	dir = 8;
 	pixel_x = 21
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/power/apc/shuttle/aquila{
 	dir = 1;
 	name = "north bump";
@@ -12578,7 +12574,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/structure/cable/cyan{
 	d1 = 4;
 	d2 = 8;
@@ -14449,7 +14445,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -15992,7 +15988,7 @@
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
@@ -16430,7 +16426,7 @@
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
@@ -16449,7 +16445,7 @@
 	icon_state = "4-8";
 	pixel_x = 0
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -18710,7 +18706,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /turf/simulated/floor/tiled/dark,
 /area/aquila/airlock)
 "XB" = (
@@ -31388,7 +31384,7 @@ uN
 Sf
 vY
 wE
-pH
+sL
 JG
 GI
 BG
