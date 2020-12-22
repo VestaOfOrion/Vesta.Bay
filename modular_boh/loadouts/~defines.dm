@@ -1,4 +1,4 @@
-//The following is the list of undefs for the Torch loadout.
+//The following is the list of undefs for the Torch custom loadout.
 
 #undef FORMAL_ROLES
 
@@ -46,8 +46,6 @@
 
 #undef MILITARY_BRANCHES
 
-#undef COMMAND_ROLES
+#undef MARINES_ONLY
 
-#undef OFFICER_ROLES
-
-#undef COMMANDANDOFFICER_ROLES
+#undef SECURITY_COMPANY_BRANCHES
