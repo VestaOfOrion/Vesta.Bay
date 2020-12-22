@@ -4,7 +4,7 @@
 	efficiency = 2
 
 
-/obj/machinery/power/solar/skrell/on_update_icon()
+/obj/machinery/power/solar/improved/skrell/on_update_icon()
 	..()
 	overlays.Cut()
 	if(stat & BROKEN)
