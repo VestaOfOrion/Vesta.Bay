@@ -108,18 +108,6 @@
 	gender = FEMALE
 	flags = HAIR_TIEABLE
 
-/datum/sprite_accessory/hair/ponytail7_alt
-	name = "Ponytail 7 alt"
-	icon_state = "hair_ponytail7_alt"
-	gender = FEMALE
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/half_pati
-	name = "Half-Pati"
-	icon_state = "hair_halfpati"
-	gender = FEMALE
-	flags = HAIR_TIEABLE
-
 /datum/sprite_accessory/hair/sideponytail
 	name = "Side Ponytail"
 	icon_state = "hair_stail"
