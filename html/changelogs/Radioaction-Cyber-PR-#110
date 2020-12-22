@@ -1,0 +1,49 @@
+################################
+# Example Changelog File
+#
+# Note: This file, and files beginning with ".", and files that don't end in ".yml" will not be read. If you change this file, you will look really dumb.
+#
+# Your changelog will be merged with a master changelog. (New stuff added only, and only on the date entry for the day it was merged.)
+# When it is, any changes listed below will disappear.
+#
+# Valid Prefixes: 
+#   bugfix
+#   wip (For works in progress)
+#   tweak
+#   soundadd
+#   sounddel
+#   rscadd (general adding of nice things)
+#   rscdel (general deleting of nice things)
+#   imageadd
+#   imagedel
+#   maptweak
+#   spellcheck (typo fixes)
+#   experiment
+#   admin
+#################################
+
+# Your name.  
+author: Radioaction-Cyber
+
+# Optional: Remove this file after generating master changelog.  Useful for PR changelogs that won't get used again.
+delete-after: True
+
+# Any changes you've made.  See valid prefix list above.
+# INDENT WITH TWO SPACES.  NOT TABS.  SPACES.
+# SCREW THIS UP AND IT WON'T WORK.
+# Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
+# Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
+changes:
+  - tweak: "Amassed jobs for easier global access for editting."
+  - rscadd: "Added maintenance and robotics access to Science staff."
+  - rscadd: "Hangar access added to Medical staff."
+  - rscadd: "Trained Science minimum re-added to Bridge Officers."
+  - rscadd: "Psi Advisors fixed to be able to take holsters during loadout."
+  - rscadd: "Fixed SAARE/PCRC APA incapable of getting SAARE/PCRC Beret."
+  - rscadd: "Added maintenance and research access to Liason/APA."
+  - rscadd: "Fixed Fleet being unable to get skill badges."
+  - rscadd: "Made all webbings/drop pouches accessible in loadout to all roles again."
+  - rscadd: "Gave Bridge Officers access to their Bridge Arm Lockers again."
+  - rscadd: "Gave SMC their helmet covers back."
+  - rscadd: "Added SMC to Solgov Branches list."
+  

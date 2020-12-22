@@ -13,47 +13,63 @@
 	I.color = badgecolor
 	return I
 
+
+
 /obj/item/clothing/accessory/solgov/skillbadge/botany
 	name = "\improper Field Xenobotany Specialist badge"
 	desc = "An NT skill badge signifying that the bearer has passed the advanced training on handling exotic xenoflora. Informally known as 'Vine Wrangler'."
 	icon_state = "ec_badge_botany"
 	badgecolor = "#387c4f"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillbadge/netgun
 	name = "\improper Xenofauna Acquisition Specialist badge"
 	desc = "An NT skill badge signifying that the bearer has passed the advanced training on capturing alien wildlife with the netgun. Informally known as 'Xeno-Cowboy'."
 	icon_state = "ec_badge_netgun"
 	badgecolor = "#6a60a1"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillbadge/eva
 	name = "\improper Void Mobility Specialist badge"
 	desc = "An NT skill badge signifying that the bearer has passed the advanced training on moving around in zero-g using a jetpack. Informally known as 'Zoomer'."
 	icon_state = "ec_badge_eva"
 	badgecolor = "#4d9799"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillbadge/medical
 	name = "\improper Advanced First Aid Specialist badge"
 	desc = "An NT skill badge signifying that the bearer has passed the advanced training on CPR and basic medical tech. Informally known as 'Para-paramedic'."
 	icon_state = "ec_badge_med"
 	badgecolor = "#47799e"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillbadge/mech
 	name = "\improper Exosuit Specialist badge"
 	desc = "An NT skill badge signifying that the bearer has passed the advanced training on piloting exosuits. Informally known as 'Exonaut'."
 	icon_state = "ec_badge_exo"
 	badgecolor = "#72763d"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillbadge/electric
 	name = "\improper Electrical Specialist badge"
 	desc = "An NT skill badge signifying that the bearer has passed the advanced training on working with high-voltage electrical systems. Informally known as 'Jury-rigger'."
 	icon_state = "ec_badge_electro"
 	badgecolor = "#8e633f"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillbadge/science
 	name = "\improper Research Specialist badge"
 	desc = "An NT skill badge signifying that the bearer has passed the advanced training on assisting in the labs and working the sensor suites. Informally known as 'Peeper'."
 	icon_state = "ec_badge_sci"
 	badgecolor = "#7876ad"
+   allowed_branches = NT_BRANCHES
+
 
 // Voidsuit accessory
 
@@ -64,28 +80,40 @@
 	on_rolled = list("down" = "none")
 	high_visibility = 1
 	icon_state = "ec_stripe"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillstripe/botany
 	name = "xenobotanist stripe"
 	desc = "A thin stripe of spaceworthy material with vacuum-rated adhesive, for attaching to the voidsuit. Indicates Field Xenobotany Specialist training."
 	color = "#387c4f"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillstripe/netgun
 	name = "netgunner stripe"
 	desc = "A thin stripe of spaceworthy material with vacuum-rated adhesive, for attaching to the voidsuit. Indicates Xenofauna Acquisition Specialist training."
 	color = "#6a60a1"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillstripe/eva
 	name = "void stripe"
 	desc = "A thin stripe of spaceworthy material with vacuum-rated adhesive, for attaching to the voidsuit. Indicates Void Mobility Specialist training."
 	color = "#3d7172"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillstripe/medical
 	name = "medic stripe"
 	desc = "A thin stripe of spaceworthy material with vacuum-rated adhesive, for attaching to the voidsuit. Indicates Advanced First Aid Specialist training."
 	color = "#2d6295"
+   allowed_branches = NT_BRANCHES
+
 
 /obj/item/clothing/accessory/solgov/skillstripe/electric
 	name = "electrician stripe"
 	desc = "A thin stripe of spaceworthy material with vacuum-rated adhesive, for attaching to the voidsuit. Indicates Electrical Specialist training."
 	color = "#8e633f"
+   allowed_branches = NT_BRANCHES
+
