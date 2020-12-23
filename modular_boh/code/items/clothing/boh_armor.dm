@@ -1,5 +1,20 @@
 //#VESTA.BAY# CUSTOM PLATE CARRIES
 
+/obj/item/clothing/suit/armor/pcarrier/light
+	starting_accessories = list(/obj/item/clothing/accessory/armorplate)
+
+/obj/item/clothing/suit/armor/pcarrier/light/nt
+	starting_accessories = list(/obj/item/clothing/accessory/armorplate, /obj/item/clothing/accessory/armor/tag/nt)
+
+/obj/item/clothing/suit/armor/pcarrier/light/press
+	starting_accessories = list(/obj/item/clothing/accessory/armorplate, /obj/item/clothing/accessory/armor/tag/press)
+
+/obj/item/clothing/suit/armor/pcarrier/medium
+	starting_accessories = list(/obj/item/clothing/accessory/armorplate/medium, /obj/item/clothing/accessory/storage/pouches)
+
+/obj/item/clothing/suit/armor/pcarrier/medium/nt
+	starting_accessories = list(/obj/item/clothing/accessory/armorplate/medium, /obj/item/clothing/accessory/storage/pouches, /obj/item/clothing/accessory/armor/tag/nt)
+
 // Cadet Vest
 /obj/item/clothing/suit/armor/pcarrier/light/security
 	starting_accessories = list(/obj/item/clothing/accessory/armorplate, /obj/item/clothing/accessory/storage/pouches)
@@ -27,12 +42,27 @@
 	icon_state = "pcarrier_ipc"
 	species_restricted = list(SPECIES_IPC)
 
+/obj/item/clothing/suit/armor/pcarrier/blue
+	name = "blue plate carrier"
+	desc = "A lightweight blue plate carrier vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon_state = "pcarrier_blue"
+
+/obj/item/clothing/suit/armor/pcarrier/green
+	name = "green plate carrier"
+	desc = "A lightweight green plate carrier vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon_state = "pcarrier_green"
+
 /obj/item/clothing/suit/armor/pcarrier/green/ipc
 	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
 	name = "compact green plate carrier"
 	desc = "A modular, compact green plate carrier vest made to securely fit an IPC chassis. It doesn't look like it would fit an organic. It can be equipped with armor plates, but provides no protection of its own."
 	icon_state = "pcarrier_green_ipc"
 	species_restricted = list(SPECIES_IPC)
+
+/obj/item/clothing/suit/armor/pcarrier/navy
+	name = "navy plate carrier"
+	desc = "A lightweight navy blue plate carrier vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon_state = "pcarrier_navy"
 
 /obj/item/clothing/suit/armor/pcarrier/navy/ipc
 	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
@@ -47,6 +77,11 @@
 	desc = "A modular, compact blue plate carrier vest made to securely fit an IPC chassis. It doesn't look like it would fit an organic. It can be equipped with armor plates, but provides no protection of its own."
 	icon_state = "pcarrier_blue_ipc"
 	species_restricted = list(SPECIES_IPC)
+
+/obj/item/clothing/suit/armor/pcarrier/tan
+	name = "tan plate carrier"
+	desc = "A lightweight tan plate carrier vest. It can be equipped with armor plates, but provides no protection of its own."
+	icon_state = "pcarrier_tan"
 
 /obj/item/clothing/suit/armor/pcarrier/tan/ipc
 	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
@@ -148,6 +183,25 @@
 //#VESTA.BAY # CUSTOM ARMGUARDS
 
 //#VESTA.BAY # CUSTOM LEGGUARDS
+
+/obj/item/clothing/accessory/legguards
+	name = "black leg guards"
+	desc = "A pair of armored leg pads in black. Attaches to a plate carrier."
+	icon_override = 'icons/mob/onmob/onmob_modular_armor.dmi'
+	icon = 'icons/obj/clothing/obj_suit_modular_armor.dmi'
+	accessory_icons = list(slot_tie_str = 'icons/mob/onmob/onmob_modular_armor.dmi', slot_wear_suit_str = 'icons/mob/onmob/onmob_modular_armor.dmi')
+	icon_state = "legguards"
+	gender = PLURAL
+	body_parts_covered = LEGS
+	armor = list(
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_PADDED
+		)
+	slot = ACCESSORY_SLOT_ARMOR_L
+
 
 /obj/item/clothing/accessory/legguards/tan/tactical
 	icon = 'modular_boh/icon/boh/obj/clothing/obj_modular_armor.dmi'
