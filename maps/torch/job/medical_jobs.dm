@@ -3,7 +3,7 @@
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
-	minimum_character_age = list(SPECIES_HUMAN = 29)
+	minimum_character_age = list(SPECIES_HUMAN = 26)
 	ideal_character_age = 45
 	total_positions = 2
 	spawn_positions = 2
@@ -47,7 +47,7 @@
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
-	minimum_character_age = list(SPECIES_HUMAN = 24)
+	minimum_character_age = list(SPECIES_HUMAN = 22)
 	ideal_character_age = 45
 	total_positions = 1
 	spawn_positions = 1

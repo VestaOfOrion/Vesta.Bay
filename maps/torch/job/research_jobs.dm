@@ -45,7 +45,7 @@
 	spawn_positions = 6
 	supervisors = "the Chief Science Officer"
 	economic_power = 10
-	minimum_character_age = list(SPECIES_HUMAN = 25)
+	minimum_character_age = list(SPECIES_HUMAN = 22)
 	ideal_character_age = 45
 	minimal_player_age = 0
 	alt_titles = list(
