@@ -8,7 +8,7 @@
 	selection_color = "#5b4d20"
 	economic_power = 7
 	minimal_player_age = 3
-	minimum_character_age = list(SPECIES_HUMAN = 27)
+	minimum_character_age = list(SPECIES_HUMAN = 30)
 	ideal_character_age = 40
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/engineering/senior_engineer
 	allowed_branches = list(
