@@ -98,6 +98,14 @@ Hotkey-Mode: (hotkey-mode must be on)
 \t2 = disarm-intent
 \t3 = grab-intent
 \t4 = harm-intent
+\tCtrl+a - face west
+\tCtrl+w - face north
+\tCtrl+d - face east
+\tCtrl+s - face south
+\tAlt+a - lock face west
+\tAlt+w - lock face north
+\tAlt+d - lock face east
+\tAlt+s - lock face south
 </font>"}
 
 	var/other = {"<font color='purple'>
