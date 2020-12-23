@@ -178,6 +178,11 @@ datum/gear/utility/crayonmre
 	slot = slot_wear_suit
 	flags = GEAR_HAS_COLOR_SELECTION
 
+// Alternative cloak
+/datum/gear/clothing/cloak/alt
+	display_name = "Cloak, colored (alt-attachable)"
+	path = /obj/item/clothing/accessory/cloak/boh
+
 //################# GENERAL BOH ACESSORIES ##############################
 
 /datum/gear/accessory/custom_ribbon
@@ -313,11 +318,6 @@ datum/gear/utility/crayonmre
 	display_name = "Blaze, counselor"
 	path = /obj/item/clothing/accessory/solgov/specialty/counselor
 	allowed_roles = list(/datum/job/psychiatrist)
-
-// Alternative cloak
-/datum/gear/clothing/cloak/alt
-	display_name = "Cloak, colored (alt)"
-	path = /obj/item/clothing/accessory/cloak/boh
 
 //################# HEAD EC OVERRIDE ####################
 
