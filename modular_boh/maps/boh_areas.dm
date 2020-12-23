@@ -113,6 +113,7 @@
 	ambience = list('sound/ambience/ambimalf.ogg')
 	sound_env = SMALL_ENCLOSED
 	req_access = list(access_ai_upload)
+//
 
 /area/security/solitary
 	name = "\improper Security - Solitary Holding"
@@ -127,3 +128,10 @@
 /area/hallway/primary/thirddeck/ofd
 	name = "\improper Third Deck OFD Hallway"
 	icon_state = "apmaint"
+
+//Anti Boarding
+/area/security/antiboarding
+	name = "\improper Security - Anti-Boarding Control Room"
+	icon_state = "security"
+	req_access = list(access_brig)
+//	

@@ -204,7 +204,7 @@
 	#include "../../modular_boh/code/items/clothing/terran-head.dm"
 	#include "../../modular_boh/code/items/clothing/terran-suit.dm"
 	#include "../../modular_boh/code/items/clothing/terran-under.dm"
-  	#include "../../modular_boh/maps/boh_areas.dm"
+  #include "../../modular_boh/maps/boh_areas.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts_helpers.dm"
 	#include "../../modular_boh/code/modules/torch_security_state.dm"
@@ -213,6 +213,7 @@
 	#include "../../modular_boh/code/modules/culture_descriptor/location/locations_human.dm"
 	#include "../../modular_boh/code/modules/mob/language/human/gaian.dm"
 	#include "../../modular_boh/code/modules/culture_descriptor/culture/cultures_ipc.dm"
+	#include "../../modular_boh/code/game/machinery/vending.dm"
 	#include "../../modular_boh/code/game/loadout/loadout_accessories.dm"
 	#include "../../modular_boh/loadouts/~defines.dm"
 //###########################################################################################################
