@@ -454,7 +454,7 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/head/misc_military_cover/New()
 	..()
 	var/cover = list()
-	cover += /obj/item/clothing/head/solgov/utility/army
+	cover += /obj/item/clothing/head/solgov/utility/army/urban
 	cover += /obj/item/clothing/head/solgov/utility/fleet/marine
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
 
