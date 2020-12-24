@@ -10137,7 +10137,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Supply Back Room"
 	},
-/turf/space,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/sorting)
 "Iw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -12578,9 +12578,18 @@
 	c_tag = "Supply Office - Sorting";
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
 /obj/machinery/power/apc{
 	dir = 1;
-	pixel_y = 11
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
@@ -15833,10 +15842,6 @@
 /area/quartermaster/storage/upper)
 "XY" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "warning"
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 4;
