@@ -1,0 +1,7 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - maptweak: "Fixes spacing Supply Sorting."
+  - bugfix: "Removes secondary gunbox from lockers in security."
