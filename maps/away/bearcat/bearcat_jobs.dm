@@ -2,19 +2,19 @@
 	title = "Independant Captain"
 	total_positions = 1
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/captain
-	is_semi_antagonist = TRUE
-	supervisors = "your morals. You do have those, right?"
-	info = "You are the captain of an independent frigate. Work together with your subordinates to \
-	achieve your goals; whatever they may be."
+	supervisors = "your bottom line"
+	info = "Your ship has suffered a catastrophic amount of damage, leaving it dark and crippled in the depths of \
+	unexplored space. The Captain is dead, leaving you, previously the First Mate in charge. Organize what's left of \
+	your crew, and maybe you'll be able to survive long enough to be rescued."
 
 /datum/job/submap/bearcat_crewman
 	title = "Independant Crewman"
-	supervisors = "the Captain and your conscience."
-	total_positions = 5
+	supervisors = "the Captain"
+	total_positions = 3
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/crew
-	is_semi_antagonist = TRUE
-	info = "You are a crewman aboard an independent frigate. Work together with your fellow crewmates and your captain to \
-	achieve your goals; whatever they may be."
+	info = "Your ship has suffered a catastrophic amount of damage, leaving it dark and crippled in the depths of \
+	unexplored space. Work together with the Acting Captain and what's left of the crew, and maybe you'll be able \
+	to survive long enough to be rescued."
 
 #define BEARCAT_OUTFIT_JOB_NAME(job_name) ("Bearcat - Job - " + job_name)
 
@@ -22,8 +22,8 @@
 	hierarchy_type = /decl/hierarchy/outfit/job/bearcat
 	pda_type = /obj/item/modular_computer/pda
 	pda_slot = slot_l_store
-	r_pocket = /obj/item/device/radio
-	l_ear = null
+	r_pocket = /obj/item/device/radio/map_preset/bearcat
+	l_ear = /obj/item/device/radio/headset/map_preset/bearcat
 	r_ear = null
 
 /decl/hierarchy/outfit/job/bearcat/crew

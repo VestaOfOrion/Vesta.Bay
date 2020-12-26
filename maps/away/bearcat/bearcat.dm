@@ -1,7 +1,7 @@
 #include "bearcat_areas.dm"
 #include "bearcat_jobs.dm"
 #include "bearcat_access.dm"
-#include "bearcat_shuttles.dm"
+#include "bearcat_radio.dm"
 
 /obj/effect/submap_landmark/joinable_submap/bearcat
 	name = "FTV Bearcat"
@@ -21,13 +21,6 @@
 	vessel_mass = 60
 	max_speed = 1/(10 SECONDS)
 	burn_delay = 10 SECONDS
-	initial_generic_waypoints = list(
-		"nav_bearcat_fore",
-		"nav_bearcat_aft"
-	)
-	initial_restricted_waypoints = list(
-		"Cargo shuttle" = list("nav_bearcat_dock")
-	)
 
 /obj/effect/overmap/visitable/ship/bearcat/New()
 	name = "[pick("FTV","ITV","IEV")] [pick("Bearcat", "Firebug", "Defiant", "Unsinkable","Horizon","Vagrant")]"
@@ -43,7 +36,7 @@
 	description = "A wrecked light freighter."
 	suffixes = list("bearcat/bearcat-1.dmm", "bearcat/bearcat-2.dmm")
 	cost = 1
-	shuttles_to_initialise = list(/datum/shuttle/autodock/ferry/lift, /datum/shuttle/autodock/overmap/bearcat_shuttle)
+	shuttles_to_initialise = list(/datum/shuttle/autodock/ferry/lift)
 	area_usage_test_exempted_root_areas = list(/area/ship)
 	apc_test_exempt_areas = list(
 		/area/ship/scrap/maintenance/engine/port = NO_SCRUBBER|NO_VENT,
@@ -58,6 +51,7 @@
 		/area/ship/scrap/shuttle/lift = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/ship/scrap/command/hallway = NO_SCRUBBER|NO_VENT
 	)
+	spawn_weight = 0.67
 
 /datum/shuttle/autodock/ferry/lift
 	name = "Cargo Lift"
@@ -92,30 +86,15 @@
 	base_turf = /turf/simulated/floor
 
 /obj/machinery/power/apc/derelict
-	cell_type = /obj/item/weapon/cell/super
-	emp_hardened = 1
-	req_access = list(access_bearcat)
+	cell_type = /obj/item/weapon/cell/crap/empty
+	locked = 0
+	coverlocked = 0
 
 /obj/machinery/door/airlock/autoname/command
 	door_color = COLOR_COMMAND_BLUE
 
 /obj/machinery/door/airlock/autoname/engineering
 	door_color = COLOR_AMBER
-
-/obj/machinery/door/airlock/hatch/autoname/engineering
-	stripe_color = COLOR_AMBER
-
-/turf/simulated/floor/usedup
-//	initial_gas = list(GAS_CO2 = MOLES_O2STANDARD, GAS_NITROGEN = MOLES_N2STANDARD)
-
-/turf/simulated/floor/tiled/usedup
-//	initial_gas = list(GAS_CO2 = MOLES_O2STANDARD, GAS_NITROGEN = MOLES_N2STANDARD)
-
-/turf/simulated/floor/tiled/dark/usedup
-//	initial_gas = list(GAS_CO2 = MOLES_O2STANDARD, GAS_NITROGEN = MOLES_N2STANDARD)
-
-/turf/simulated/floor/tiled/white/usedup
-//	initial_gas = list(GAS_CO2 = MOLES_O2STANDARD, GAS_NITROGEN = MOLES_N2STANDARD)
 
 /obj/effect/landmark/deadcap
 	name = "Dead Captain"
@@ -141,7 +120,7 @@
 	uniform = /obj/item/clothing/under/casual_pants/classicjeans
 	suit = /obj/item/clothing/suit/storage/hooded/wintercoat
 	shoes = /obj/item/clothing/shoes/black
-	r_pocket = /obj/item/device/radio
+	r_pocket = /obj/item/device/radio/map_preset/bearcat
 
 /decl/hierarchy/outfit/deadcap/post_equip(mob/living/carbon/human/H)
 	..()
@@ -154,16 +133,3 @@
 			qdel(eyegore)
 	var/obj/item/weapon/cell/super/C = new()
 	H.put_in_any_hand_if_possible(C)
-
-
-//bearcat cabinets
-/obj/structure/closet/secure_closet/guncabinet/bearcat
-	name = "Primary cabinet"
-	req_access = list(access_bearcat_captain)
-
-/obj/structure/closet/secure_closet/guncabinet/bearcat/WillContain()
-	return list(
-		/obj/item/weapon/gun/energy/laser = 4,
-		/obj/item/weapon/storage/belt/holster/general = 4,
-		/obj/item/weapon/gun/energy/gun = 4
-	)
