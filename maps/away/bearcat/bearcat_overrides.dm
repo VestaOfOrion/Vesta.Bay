@@ -1,22 +1,6 @@
-#if !defined(using_map_DATUM)
-	#include "bearcat_unit_testing.dm"
-	#include "bearcat_areas.dm"
-	#include "bearcat_jobs.dm"
-	#include "bearcat_shuttles.dm"
-	#include "bearcat_overmap.dm"
-	#include "bearcat_overrides.dm"
-	#include "bearcat_loadouts.dm"
-	#include "bearcat-1.dmm"
-	#include "bearcat-2.dmm"
 
-	#define using_map_DATUM /datum/map/bearcat
-
-#elif !defined(MAP_OVERRIDE)
-
-	#warn A map has already been included, ignoring Bearcat
-
-#endif
-
+/datum/computer_file/program/merchant //wild capitalism
+	required_access = null
 
 /turf/simulated/floor
 	name = "bare deck"
@@ -48,8 +32,3 @@
 
 /obj/machinery/door/airlock/hatch/autoname/engineering
 	stripe_color = COLOR_AMBER
-
-
-//wild capitalism
-/datum/computer_file/program/merchant
-	required_access = null
