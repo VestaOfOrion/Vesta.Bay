@@ -1337,6 +1337,7 @@
 /area/ship/ascent/engineering)
 "dw" = (
 /obj/structure/table/steel_reinforced,
+/obj/item/weapon/cell/mantid,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/wing_starboard)
 "dx" = (
@@ -4702,6 +4703,15 @@
 /obj/machinery/portable_atmospherics/canister/methyl_bromide,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"xN" = (
+/obj/structure/table/rack/dark,
+/obj/item/clustertool,
+/obj/item/clustertool,
+/obj/item/clustertool,
+/obj/item/weapon/cell/mantid,
+/obj/item/weapon/cell/mantid,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/engineering)
 "yx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -4740,6 +4750,8 @@
 /obj/item/weapon/tank/mantid/reactor/oxygen,
 /obj/item/weapon/tank/mantid/reactor/oxygen,
 /obj/item/weapon/tank/mantid/reactor/oxygen,
+/obj/item/weapon/cell/mantid,
+/obj/item/weapon/cell/mantid,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/habitation)
 "zA" = (
@@ -5403,6 +5415,8 @@
 /obj/item/weapon/tank/mantid/reactor,
 /obj/item/weapon/tank/mantid/reactor,
 /obj/item/weapon/tank/mantid/reactor,
+/obj/item/weapon/cell/mantid,
+/obj/item/weapon/cell/mantid,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/habitation)
 "Vx" = (
@@ -15593,7 +15607,7 @@ dS
 hL
 gb
 cV
-hA
+xN
 dy
 dK
 eD
