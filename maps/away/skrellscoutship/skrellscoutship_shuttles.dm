@@ -11,12 +11,13 @@
 /obj/effect/overmap/visitable/ship/landable/skrellscoutship
 	name = "light skrellian vessel"
 	shuttle = "Skrellian Scout"
+	desc = "A small vessel of skrellian design. Sensors detect residual bluespace signatures and cloaking particulates on the vessel's surface."
 	multiz = 1
 	icon_state = "ship"
 	moving_state = "ship_moving"
 	fore_dir = WEST
 	color = "#ff00ff"
-	vessel_mass = 5000
+	vessel_mass = 10000
 	vessel_size = SHIP_SIZE_SMALL
 	initial_restricted_waypoints = list(
 		"Skrellian Shuttle" = list("nav_skrellscoutsh_dock")
@@ -30,6 +31,7 @@
 /obj/effect/overmap/visitable/ship/landable/skrellscoutshuttle
 	name = "SSV-S"
 	shuttle = "Skrellian Shuttle"
+	desc = "Sensors detect a skrellian shuttle with a very small radar cross-section."
 	fore_dir = EAST
 	color = "#880088"
 	vessel_mass = 750
