@@ -11,7 +11,8 @@
 	selection_color = "#013d3b"
 	economic_power = 10
 	alt_titles = list(
-		"Surgeon")
+		"Surgeon",
+		"Coroner")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,

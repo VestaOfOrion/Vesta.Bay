@@ -52,6 +52,7 @@
 		"Xenoarcheologist",
 		"Anomalist",
 		"Researcher",
+		"Junior Researcher",
 		"Xenobiologist",
 		"Xenobotanist"
 	)
