@@ -4425,6 +4425,15 @@
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/hydroponics_starboard)
+"pk" = (
+/obj/machinery/ion_engine{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/hydroponics_port)
 "pp" = (
 /obj/structure/table/rack/dark,
 /obj/item/clothing/suit/space/void/ascent,
@@ -4472,8 +4481,9 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_port)
 "qc" = (
-/turf/space,
-/area/ship/ascent/aft_starboard_jut)
+/obj/machinery/mining/brace,
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/fore_starboard_prow)
 "qG" = (
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
@@ -4916,6 +4926,8 @@
 /obj/item/weapon/pickaxe/diamonddrill/ascent,
 /obj/item/weapon/pickaxe/diamonddrill/ascent,
 /obj/item/weapon/pickaxe/diamonddrill/ascent,
+/obj/item/device/flashlight/lamp/floodlamp/ascent,
+/obj/item/device/flashlight/lamp/floodlamp/ascent,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/fore_starboard_prow)
 "Fd" = (
@@ -5431,6 +5443,10 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/shuttle_port)
+"WJ" = (
+/obj/machinery/mining/drill,
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/fore_starboard_prow)
 "Xa" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/atmospherics/pipe/manifold/hidden/black,
@@ -11915,7 +11931,7 @@ ah
 as
 as
 Ap
-as
+qc
 bz
 pp
 bt
@@ -12037,7 +12053,7 @@ Kh
 lb
 lb
 mn
-as
+qc
 hm
 Vr
 br
@@ -12159,7 +12175,7 @@ ah
 as
 as
 as
-as
+WJ
 bz
 lG
 br
@@ -14589,7 +14605,7 @@ aa
 aa
 aa
 aa
-qc
+aa
 XG
 FO
 tr
@@ -14858,8 +14874,8 @@ dc
 bQ
 hy
 bW
-aa
-aa
+Aj
+Aj
 aa
 aa
 aa
@@ -14980,9 +14996,9 @@ dd
 dU
 bW
 bW
-aa
-aa
-aa
+Aj
+Aj
+Aj
 aa
 aa
 aa
@@ -15102,9 +15118,9 @@ cD
 Av
 ng
 Aj
-aa
-aa
-aa
+Aj
+Aj
+Aj
 aa
 aa
 aa
@@ -15224,9 +15240,9 @@ cX
 Av
 Js
 Aj
-aa
-aa
-aa
+pk
+pk
+pk
 aa
 aa
 aa
@@ -16181,8 +16197,8 @@ aa
 aa
 aa
 aa
-aa
-aa
+ha
+kq
 kq
 dz
 gc
@@ -16198,8 +16214,8 @@ Aj
 jm
 gf
 Aj
-aa
-aa
+kq
+ha
 aa
 aa
 aa
@@ -16304,7 +16320,7 @@ aa
 aa
 aa
 aa
-aa
+ha
 kq
 fZ
 gc
@@ -16320,7 +16336,7 @@ Aj
 jm
 iK
 Aj
-aa
+ha
 aa
 aa
 aa
