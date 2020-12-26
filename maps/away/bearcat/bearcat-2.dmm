@@ -4849,6 +4849,7 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/bearcat_shuttle)
 "hR" = (
@@ -6167,6 +6168,7 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "kB" = (
@@ -6179,6 +6181,7 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/bearcat_shuttle)
 "kC" = (
@@ -6191,6 +6194,7 @@
 	icon_state = "radiation";
 	pixel_x = 32
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/bearcat_shuttle)
 "kD" = (
@@ -6220,6 +6224,7 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "kI" = (
@@ -6333,6 +6338,13 @@
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/maintenance/atmos)
+"wx" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/empty,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "xU" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
@@ -6504,6 +6516,11 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"Wt" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "Yv" = (
@@ -12075,14 +12092,14 @@ ki
 kE
 kE
 Lo
-Iq
+Wt
 hQ
 kB
 kB
 kC
 kA
 kH
-kE
+wx
 kE
 kR
 kR
