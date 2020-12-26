@@ -15595,7 +15595,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/closet/secure_closet/guncabinet/sidearm/combined,
+/obj/structure/closet/secure_closet/guncabinet/sidearm/combined{
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))
+	},
 /obj/structure/sign/warning/nosmoking_1{
 	dir = 4;
 	icon_state = "nosmoking";
@@ -18703,7 +18705,9 @@
 /area/crew_quarters/heads/office/cmo)
 "Xz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/guncabinet/PPE,
+/obj/structure/closet/secure_closet/guncabinet/PPE{
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/storage)
 "XA" = (
