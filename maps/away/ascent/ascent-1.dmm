@@ -168,6 +168,9 @@
 /obj/machinery/light/ascent{
 	dir = 8
 	},
+/obj/machinery/chemical_dispenser/ert{
+	color = "PURPLE"
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/fore_starboard_prow)
 "aH" = (
@@ -4532,6 +4535,15 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/shuttle_port)
+"si" = (
+/obj/structure/table/rack/dark,
+/obj/item/clustertool,
+/obj/item/clustertool,
+/obj/item/clustertool,
+/obj/item/weapon/cell/mantid,
+/obj/item/weapon/cell/mantid,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/engineering)
 "sF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -4703,15 +4715,6 @@
 /obj/machinery/portable_atmospherics/canister/methyl_bromide,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
-"xN" = (
-/obj/structure/table/rack/dark,
-/obj/item/clustertool,
-/obj/item/clustertool,
-/obj/item/clustertool,
-/obj/item/weapon/cell/mantid,
-/obj/item/weapon/cell/mantid,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/engineering)
 "yx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -4824,6 +4827,7 @@
 	name = "materials distributor";
 	output_turf = 2
 	},
+/obj/item/weapon/cell/mantid,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/fore_starboard_prow)
 "Bz" = (
@@ -5443,6 +5447,26 @@
 /obj/machinery/computer/ship/sensors/ascent{
 	dir = 1
 	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/bridge)
+"VI" = (
+/obj/machinery/door/airlock/ascent,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/item/weapon/cell/mantid,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "VR" = (
@@ -12925,7 +12949,7 @@ bb
 bb
 az
 az
-bO
+VI
 az
 bO
 az
@@ -15607,7 +15631,7 @@ dS
 hL
 gb
 cV
-xN
+si
 dy
 dK
 eD
