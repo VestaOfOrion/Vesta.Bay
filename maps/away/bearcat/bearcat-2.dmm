@@ -68,7 +68,6 @@
 	dir = 1;
 	icon_state = "comfychair_preview"
 	},
-/obj/effect/landmark/deadcap,
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/command/bridge)
 "ak" = (
