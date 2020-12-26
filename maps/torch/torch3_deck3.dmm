@@ -1689,17 +1689,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/habcheck)
-"dF" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/bed/chair{
-	dir = 4
-	},
-/turf/simulated/floor/carpet/green,
-/area/crew_quarters/mess)
 "dG" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/item/weapon/reagent_containers/glass/bucket,
@@ -4586,29 +4575,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
-"jf" = (
-/obj/machinery/camera/network/third_deck{
-	c_tag = "Mess Hall - Center"
-	},
-/obj/machinery/power/apc{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/machinery/alarm{
-	dir = 8;
-	icon_state = "alarm0";
-	pixel_x = 24
-	},
-/obj/item/weapon/paper_bin,
-/obj/structure/table/woodentable/maple,
-/turf/simulated/floor/carpet/green,
-/area/crew_quarters/mess)
 "jg" = (
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
@@ -13252,6 +13218,15 @@
 "EJ" = (
 /turf/simulated/wall/r_wall/hull,
 /area/tcommsat/storage)
+"EK" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/flora/tree/pine/xmas,
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/mess)
 "EL" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -13317,6 +13292,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/aftstarboard)
+"ET" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 22;
+	pixel_y = 4
+	},
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/mess)
 "EU" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -20262,6 +20250,9 @@
 "Wb" = (
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/gym)
+"Wc" = (
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/mess)
 "We" = (
 /obj/random_multi/single_item/poppy,
 /turf/simulated/floor/tiled,
@@ -20804,6 +20795,27 @@
 /obj/item/stack/package_wrap/twenty_five,
 /turf/simulated/floor/lino,
 /area/crew_quarters/office)
+"XG" = (
+/obj/machinery/camera/network/third_deck{
+	c_tag = "Mess Hall - Center"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
+	},
+/obj/structure/cable/green{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/turf/simulated/floor/carpet/green,
+/area/crew_quarters/mess)
 "XH" = (
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 4;
@@ -21110,20 +21122,6 @@
 /obj/machinery/space_heater,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/thirddeck/foreport)
-"YD" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/item/device/radio/intercom{
-	dir = 8;
-	pixel_x = 22;
-	pixel_y = 4
-	},
-/obj/structure/table/woodentable/maple,
-/turf/simulated/floor/carpet/green,
-/area/crew_quarters/mess)
 "YF" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/civilian{
@@ -39736,8 +39734,8 @@ ZK
 Aq
 rM
 rL
-AA
-dF
+Wc
+EK
 lB
 RK
 nk
@@ -39938,8 +39936,8 @@ fB
 fB
 gA
 fB
-jf
-YD
+XG
+ET
 lB
 ZQ
 Xs

@@ -3197,6 +3197,7 @@
 #include "modular_boh\code\items\psyker\agent_items.dm"
 #include "modular_boh\code\modules\boxes.dm"
 #include "modular_boh\code\modules\chemicals.dm"
+#include "modular_boh\code\modules\clothing.dm"
 #include "modular_boh\code\modules\firearms.dm"
 #include "modular_boh\code\modules\material.dm"
 #include "modular_boh\code\modules\augment\augments.dm"

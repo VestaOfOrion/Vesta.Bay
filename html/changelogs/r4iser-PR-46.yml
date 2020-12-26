@@ -1,6 +1,0 @@
-author: Peekaboom
-
-delete-after: True
-
-changes: 
-  - rscadd: "Added custom name and description option to all loadout items."
