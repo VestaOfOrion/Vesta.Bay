@@ -64,12 +64,15 @@
 	name = "Firefighting Equipment Comparment"
 	icon_state = "green"
 
-/area/ship/scrap/tcomms
-	name = "Telecomms Compartment"
+/area/ship/scrap/unused
+	name = "Compartment 2-B"
 	icon_state = "yellow"
+	turf_initializer = /decl/turf_initializer/maintenance
+	ambience = list('sound/ambience/ambigen3.ogg','sound/ambience/ambigen4.ogg','sound/ambience/ambigen5.ogg','sound/ambience/ambigen6.ogg','sound/ambience/ambimo1.ogg','sound/ambience/ambimo2.ogg')
 
 /area/ship/scrap/hidden
-	name = "Unknown" //shielded compartment
+	name = "Emergency Storage"
+	req_access = list(access_bearcat_captain)
 	icon_state = "auxstorage"
 
 /area/ship/scrap/escape_port
@@ -167,3 +170,7 @@
   name = "Cargo Lift"
   icon_state = "shuttle3"
   base_turf = /turf/simulated/open
+
+/area/ship/scrap/bearcat_shuttle
+  name = "Cargo shuttle"
+  icon_state = "shuttle3"
