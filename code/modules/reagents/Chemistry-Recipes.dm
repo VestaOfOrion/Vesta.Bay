@@ -2326,6 +2326,24 @@
 		/datum/reagent/blood = 1
 	)
 
+/datum/chemical_reaction/jerraman
+	name = "Jerraman"
+	result = /datum/reagent/jerraman
+	result_amount = 1
+	mix_message = "The surface of the golden liquid twitches like a living thing, then calms down."
+	minimum_temperature = 40 CELSIUS
+	reaction_sound = 'sound/effects/psi/power_used.ogg'
+
+	catalysts = list(
+		/datum/reagent/crystal = 10
+	)
+
+	required_reagents = list(
+		/datum/reagent/three_eye = 10,
+		/datum/reagent/nanitefluid = 10,
+		/datum/reagent/gold = 10
+	)
+
 // tea expansion pack content - black tea drinks
 /datum/chemical_reaction/icetea
 	name = "Iced Tea"

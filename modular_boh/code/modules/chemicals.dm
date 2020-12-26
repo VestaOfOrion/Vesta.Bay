@@ -191,7 +191,7 @@
 	if(prob(30))
 		to_chat(M, SPAN_WARNING("<font size = [rand(1,2)]>[pick(dose_messages)]</font>"))
 	if(M.psi)
-		M.psi.check_latency_trigger(100, "a Jerraman dose")
+		M.psi.check_latency_trigger(100, "a Jerraman dose", redactive = TRUE)
 
 /datum/reagent/jerraman/overdose(var/mob/living/carbon/M, var/alien)
 	..()

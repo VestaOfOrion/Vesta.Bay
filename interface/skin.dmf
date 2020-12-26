@@ -456,7 +456,6 @@ macro "hotkeymode"
 	elem 
 		name = "CTRL+SHIFT+West"
 		command = "shiftwest"
-
 	elem 
 		name = "CTRL+SHIFT+North"
 		command = "shiftnorth"
@@ -468,6 +467,47 @@ macro "hotkeymode"
 	elem 
 		name = "CTRL+SHIFT+South"
 		command = "shiftsouth"
+	elem 
+		name = "CTRL+SHIFT+A"
+		command = "shiftwest"
+
+	elem 
+		name = "CTRL+SHIFT+W"
+		command = "shiftnorth"
+
+	elem 
+		name = "CTRL+SHIFT+D"
+		command = "shifteast"
+	elem 
+		name = "CTRL+SHIFT+S"
+		command = "shiftsouth"
+	elem
+		name = "CTRL+A"
+		command = "westface"
+	elem
+		name = "CTRL+W"
+		command = "northface"
+	elem
+		name = "CTRL+D"
+		command = "eastface"
+	elem
+		name = "CTRL+S"
+		command = "southface"
+	elem
+		name = "ALT+A"
+		command = "westfaceperm"
+	elem
+		name = "ALT+W"
+		command = "northfaceperm"
+	elem
+		name = "ALT+D"
+		command = "eastfaceperm"
+	elem
+		name = "ALT+S"
+		command = "southfaceperm"
+	elem
+		name = "B"
+		command = "resist"
 
 //#VESTA.BAY# CUSTOM MACROS
 

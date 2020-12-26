@@ -12,13 +12,13 @@
 	pt_under = /obj/item/clothing/under/solgov/pt/army
 	pt_shoes = /obj/item/clothing/shoes/black
 
-	utility_under = /obj/item/clothing/under/solgov/utility/army
+	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_shoes = /obj/item/clothing/shoes/dutyboots
 	utility_hat = /obj/item/clothing/head/solgov/utility/army
+	utility_hat_urban = /obj/item/clothing/head/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
-		/obj/item/clothing/head/ushanka/solgov/army,
-		/obj/item/clothing/head/ushanka/solgov/army/green,
 		/obj/item/clothing/suit/storage/hooded/wintercoat/solgov/army,
 		/obj/item/clothing/head/soft/solgov
 	)
@@ -72,7 +72,8 @@
 	name = "Marine Corps engineering"
 	departments = ENG
 
-	utility_under = /obj/item/clothing/under/solgov/utility/army/engineering
+	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/engineering
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/engineering
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
 		/obj/item/clothing/head/ushanka/solgov/army,
@@ -130,7 +131,8 @@
 	name = "Marine Corps security"
 	departments = SEC
 
-	utility_under = /obj/item/clothing/under/solgov/utility/army/security
+	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/security
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
 		/obj/item/clothing/head/ushanka/solgov/army,
@@ -188,7 +190,8 @@
 	name = "Marine Corps medical"
 	departments = MED
 
-	utility_under = /obj/item/clothing/under/solgov/utility/army/medical
+	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/medical
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -245,7 +248,8 @@
 	name = "Marine Corps supply"
 	departments = SUP
 
-	utility_under = /obj/item/clothing/under/solgov/utility/army/supply
+	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/supply
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/supply
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -360,7 +364,8 @@
 	name = "Marine Corps exploration"
 	departments = EXP
 
-	utility_under = /obj/item/clothing/under/solgov/utility/army/exploration
+	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/exploration
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,

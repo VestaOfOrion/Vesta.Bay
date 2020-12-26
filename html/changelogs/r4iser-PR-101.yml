@@ -1,6 +1,0 @@
-author: Peekaboom
-
-delete-after: True
-
-changes: 
-  - tweak: "Increased flavor text max_lenght in 2967 and paragraphs from 0 to 5."
