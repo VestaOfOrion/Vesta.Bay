@@ -52,7 +52,6 @@
 		"Xenoarcheologist",
 		"Anomalist",
 		"Researcher",
-		"Junior Researcher",
 		"Xenobiologist",
 		"Xenobotanist"
 	)
@@ -99,6 +98,7 @@
 		"Custodian" = /decl/hierarchy/outfit/job/torch/passenger/research/assist/janitor,
 		"Testing Assistant" = /decl/hierarchy/outfit/job/torch/passenger/research/assist/testsubject,
 		"Intern",
+		"Junior Researcher",
 		"Clerk",
 		"Field Assistant")
 
