@@ -178,6 +178,11 @@ datum/gear/utility/crayonmre
 	slot = slot_wear_suit
 	flags = GEAR_HAS_COLOR_SELECTION
 
+// Alternative cloak
+/datum/gear/clothing/cloak/alt
+	display_name = "Cloak, colored (alt-attachable)"
+	path = /obj/item/clothing/accessory/cloak/boh
+
 //################# GENERAL BOH ACESSORIES ##############################
 
 /datum/gear/accessory/custom_ribbon
@@ -314,11 +319,6 @@ datum/gear/utility/crayonmre
 	path = /obj/item/clothing/accessory/solgov/specialty/counselor
 	allowed_roles = list(/datum/job/psychiatrist)
 
-// Alternative cloak
-/datum/gear/clothing/cloak/alt
-	display_name = "Cloak, colored (alt)"
-	path = /obj/item/clothing/accessory/cloak/boh
-
 //################# HEAD EC OVERRIDE ####################
 
 /datum/gear/head/ECdepartment
@@ -407,7 +407,7 @@ datum/gear/head/ECdepartment/New()
 	..()
 	var/uniform = list()
 	uniform += /obj/item/clothing/under/solgov/utility/fleet/combat/marine
-	uniform += /obj/item/clothing/under/solgov/utility/army
+	uniform += /obj/item/clothing/under/solgov/utility/army/urban
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
 
 /datum/gear/uniform/fleet
@@ -454,7 +454,7 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/head/misc_military_cover/New()
 	..()
 	var/cover = list()
-	cover += /obj/item/clothing/head/solgov/utility/army
+	cover += /obj/item/clothing/head/solgov/utility/army/urban
 	cover += /obj/item/clothing/head/solgov/utility/fleet/marine
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
 

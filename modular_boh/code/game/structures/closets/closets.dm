@@ -161,3 +161,23 @@
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack, /obj/item/weapon/storage/backpack/satchel/grey)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger))
 	)
+
+//Hestia Anti-Boarding closets//
+/obj/structure/closet/secure_closet/guncabinet/antiboarding
+	name = "gun cabinet"
+	req_access = list(access_armory)
+	icon = 'icons/obj/guncabinet.dmi'
+	closet_appearance = null
+
+/obj/structure/closet/secure_closet/guncabinet/antiboarding/mask
+	name = "mask cabinet"
+	req_access = list(access_armory)
+	icon = 'icons/obj/guncabinet.dmi'
+	closet_appearance = null
+
+/obj/structure/closet/secure_closet/guncabinet/antiboarding/grenades
+	name = "grenade cabinet"
+	req_access = list(access_armory)
+	icon = 'icons/obj/guncabinet.dmi'
+	closet_appearance = null
+//	

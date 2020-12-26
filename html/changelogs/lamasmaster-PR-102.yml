@@ -1,7 +1,0 @@
-author: lamasmaster
-
-delete-after: True
-
-changes: 
-  - tweak: "Slightly adjusts armor values on ascent support rigs."
-  - rscdel: "Removed MindBatterer."

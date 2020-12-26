@@ -2555,6 +2555,11 @@
 	pixel_y = 26
 	},
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "ix" = (
@@ -5562,7 +5567,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "tc" = (
-/obj/effect/catwalk_plated,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -5578,6 +5582,12 @@
 	dir = 4;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "te" = (
@@ -10128,7 +10138,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Supply Back Room"
 	},
-/turf/space,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/sorting)
 "Iw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -10773,6 +10783,11 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
 "KH" = (
@@ -10839,9 +10854,6 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -10855,6 +10867,7 @@
 	name = "Sorting Office";
 	sort_type = "Sorting Office"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
 "KR" = (
@@ -10891,6 +10904,11 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/deckchief)
 "La" = (
@@ -12404,6 +12422,11 @@
 	dir = 2;
 	icon_state = "pipe-c"
 	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "Pk" = (
@@ -12554,9 +12577,18 @@
 	c_tag = "Supply Office - Sorting";
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
 /obj/machinery/power/apc{
 	dir = 1;
-	pixel_y = 11
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
@@ -12645,6 +12677,11 @@
 /area/hallway/primary/fourthdeck/center)
 "PT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "PU" = (
@@ -14196,6 +14233,11 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/deckofficer,
 /obj/structure/disposalpipe/segment,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
 "TP" = (
@@ -15798,10 +15840,6 @@
 /area/quartermaster/storage/upper)
 "XY" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "warning"
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 4;
@@ -15975,6 +16013,9 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
@@ -16297,6 +16338,14 @@
 /obj/machinery/light/spot{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_pump{
+	controlled = 0;
+	dir = 8;
+	external_pressure_bound = 105;
+	icon_state = "map_vent_in";
+	pump_direction = 0;
+	use_power = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
 "Zm" = (
@@ -16373,6 +16422,9 @@
 /obj/machinery/conveyor_switch/oneway{
 	id = "packageSort1"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
 "Zv" = (
@@ -16391,6 +16443,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
@@ -16570,6 +16625,11 @@
 	dir = 2;
 	name = "Deck Chief";
 	sort_type = "Deck Chief"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/deckchief)
