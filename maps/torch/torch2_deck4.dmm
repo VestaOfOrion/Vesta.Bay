@@ -10137,7 +10137,7 @@
 /obj/machinery/door/airlock/mining{
 	name = "Supply Back Room"
 	},
-/turf/space,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/quartermaster/sorting)
 "Iw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -10853,9 +10853,6 @@
 	dir = 1;
 	icon_state = "warning"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -10869,6 +10866,7 @@
 	name = "Sorting Office";
 	sort_type = "Sorting Office"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
 "KR" = (
@@ -12578,9 +12576,18 @@
 	c_tag = "Supply Office - Sorting";
 	dir = 4
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
 /obj/machinery/power/apc{
 	dir = 1;
-	pixel_y = 11
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
@@ -15833,10 +15840,6 @@
 /area/quartermaster/storage/upper)
 "XY" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "warning"
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 4;
@@ -16010,6 +16013,9 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
@@ -16332,6 +16338,14 @@
 /obj/machinery/light/spot{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_pump{
+	controlled = 0;
+	dir = 8;
+	external_pressure_bound = 105;
+	icon_state = "map_vent_in";
+	pump_direction = 0;
+	use_power = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
 "Zm" = (
@@ -16408,6 +16422,9 @@
 /obj/machinery/conveyor_switch/oneway{
 	id = "packageSort1"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
 "Zv" = (
@@ -16426,6 +16443,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/quartermaster/sorting)
