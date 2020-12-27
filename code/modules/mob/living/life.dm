@@ -178,6 +178,8 @@
 		set_fullscreen(eye_blurry, "blurry", /obj/screen/fullscreen/blurry)
 		set_fullscreen(druggy, "high", /obj/screen/fullscreen/high)
 
+	set_fullscreen(stat == UNCONSCIOUS, "blackout", /obj/screen/fullscreen/blackout)
+
 	if(machine)
 		var/viewflags = machine.check_eye(src)
 		if(viewflags < 0)
@@ -203,7 +205,13 @@
 	set_see_invisible(max(vision[2], see_invisible))
 
 /mob/living/proc/update_living_sight()
-	set_sight(sight&(~(SEE_TURFS|SEE_MOBS|SEE_OBJS)))
+	var/set_sight_flags = sight & ~(SEE_TURFS|SEE_MOBS|SEE_OBJS)
+	if(stat & UNCONSCIOUS)
+		set_sight_flags |= BLIND
+	else
+		set_sight_flags &= ~BLIND
+
+	set_sight(set_sight_flags)
 	set_see_in_dark(initial(see_in_dark))
 	set_see_invisible(initial(see_invisible))
 
