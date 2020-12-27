@@ -18,11 +18,15 @@
 
 	build_icon = 'icons/atmos/tank.dmi'
 	build_icon_state = "air"
+	colorable = TRUE
+	atom_flags = ATOM_FLAG_CAN_BE_PAINTED
 
 /obj/machinery/atmospherics/unary/tank/Initialize()
 	. = ..()
+
+	air_contents.volume = volume
+
 	if(filling)
-		air_contents.volume = volume
 		air_contents.temperature = T20C
 
 		var/list/gases = list()
@@ -34,6 +38,11 @@
 
 /obj/machinery/atmospherics/unary/tank/set_initial_level()
 	level = 1 // Always on top, apparently.
+
+// required for paint sprayers to work due to an override in pipes.dm
+/obj/machinery/atmospherics/unary/tank/set_color(new_color)
+	color = new_color
+	icon_state = "air"
 
 /obj/machinery/atmospherics/unary/tank/update_underlays()
 	if(..())
