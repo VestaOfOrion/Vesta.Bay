@@ -18,6 +18,7 @@
 		return TRUE
 	return ..()
 
+//Onship Lock
 
 /////////
 // Infantry Kits
@@ -295,6 +296,110 @@
 	load_sound = 'sound/weapons/guns/interaction/shotgun_instert.ogg'
 	fire_delay = 20
 
+///////////////
+// Exploration
+///////////////
+//Exploration Espatier Special
+/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/exploration
+	name = "Z10 Bordeaux"
+	desc = "The Hephaestus Industries Z10 Bordeaux is the newest bullpup carbine in the Z-series. It takes inspiration after ancient French weapon design. \
+	Additional grenade launcher alongside frangible ammunition is a highly specialized against hostile xenofauna."
+	icon = 'modular_boh/icon/boh/items/espatier.dmi'
+	icon_state = "carbine"
+	item_state = "espatier"
+	wielded_item_state = "espatier-wielded"
+	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 3)
+	ammo_type = /obj/item/ammo_casing/rifle/military/low
+	magazine_type = /obj/item/ammo_magazine/mil_rifle/sec
+	allowed_magazines = list(/obj/item/ammo_magazine/mil_rifle/sec, /obj/item/ammo_magazine/mil_rifle/sec/large)
+	auto_eject = 1
+	starts_loaded = 1
+	one_hand_penalty = 6 //lower power rounds
+	jam_chance = 5
+	req_access = list(access_cent_specops)
+	authorized_modes = list(UNAUTHORIZED)
+
+
+	firemodes = list(
+		list(mode_name="semi auto",       burst=1,    fire_delay=null,    move_delay=null, use_launcher=null, one_hand_penalty=8, burst_accuracy=null, dispersion=null),
+		list(mode_name="bump fire", burst=2, fire_delay=null, move_delay=2,    one_hand_penalty=8, burst_accuracy=list(0,-1,-1),       dispersion=list(0.0, 0.6, 1.0)),
+		list(mode_name="fire grenades",  burst=null, fire_delay=null, move_delay=null, use_launcher=1,    one_hand_penalty=10, burst_accuracy=null, dispersion=null)
+		)
+
+/obj/item/weapon/gun/energy/gun/small/exploration
+	name = "exploration energy gun"
+	desc = "A smaller model of the versatile LAEP90 Perun, the LAEP90-C packs considerable utility in a smaller package. Modified by Nanotrasen for use with exploration."
+	icon = 'icons/obj/guns/small_egun.dmi'
+	icon_state = "smallgunstun"
+	max_shots = 8
+	w_class = ITEM_SIZE_SMALL
+	force = 2 //it's the size of a car key, what did you expect?
+	modifystate = "smallgunstun"
+	authorized_modes = list(UNAUTHORIZED)
+	req_access = list(access_cent_specops)
+
+	firemodes = list(
+		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, modifystate="smallgunstun"),
+		list(mode_name="shock", projectile_type=/obj/item/projectile/beam/stun/shock, modifystate="smallgunshock"),
+		list(mode_name="kill", projectile_type=/obj/item/projectile/beam/smalllaser, modifystate="smallgunkill"),
+		)
+
+/obj/item/weapon/gun/energy/revolver/exploration
+	name = "service energy revolver"
+	desc = "The LAER680-S, a standard issue service revolver commonly used by higher ranking offcers among the SCG, however reverse engineered by Nanotrasen for use on their ships."
+	icon = 'icons/obj/guns/energy_revolver.dmi'
+	icon_state = "energyrevolverstun100"
+	
+	item_icons = list(
+		slot_l_hand_str = 'icons/mob/onmob/items/lefthand_guns_secure.dmi',
+		slot_r_hand_str = 'icons/mob/onmob/items/righthand_guns_secure.dmi',
+		)
+	modifystate = "energyrevolverstun"
+	item_state = null
+	firemodes = list(
+		list(mode_name="stun", projectile_type=/obj/item/projectile/beam/stun, modifystate="energyrevolverstun"),
+		list(mode_name="shock", projectile_type=/obj/item/projectile/beam/stun/shock, modifystate="energyrevolvershock"),
+		list(mode_name="kill", projectile_type=/obj/item/projectile/beam, modifystate="energyrevolverkill"),
+		)
+	req_access = list(access_cent_specops)
+	authorized_modes = list(UNAUTHORIZED)
+
+/obj/item/weapon/gun/projectile/automatic/sec_smg/exploration
+	name = "exploration submachine gun"
+	desc = "The WT-600 Saber is a cheap self-defense weapon, mass-produced by Ward-Takahashi for paramilitary and private use. This one has authorization chip."
+	icon = 'modular_boh/icon/boh/items/wt600.dmi'
+	icon_state = "wt550"
+	item_state = "wt600"
+	safety_icon = "safety"
+	w_class = ITEM_SIZE_NORMAL
+	caliber = CALIBER_PISTOL_SMALL
+	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
+	slot_flags = SLOT_BELT
+	ammo_type = /obj/item/ammo_casing/pistol/small
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/smg_top
+	allowed_magazines = /obj/item/ammo_magazine/smg_top
+	accuracy_power = 7
+	one_hand_penalty = 3
+	auto_eject = 1
+	starts_loaded = 1
+	authorized_modes = list(UNAUTHORIZED)
+	req_access = list(access_cent_specops)
+
+	firemodes = list(
+		list(mode_name="semi auto",       burst=1, fire_delay=null,    move_delay=null, one_hand_penalty=3, burst_accuracy=null, dispersion=null),
+		list(mode_name="3-round bursts", burst=3, fire_delay=null, move_delay=4,    one_hand_penalty=4, burst_accuracy=list(0,-1,-1),       dispersion=list(0.0, 0.6, 1.0)),
+		list(mode_name="short bursts",   burst=5, fire_delay=null, move_delay=4,    one_hand_penalty=5, burst_accuracy=list(0,-1,-1,-1,-2), dispersion=list(0.6, 0.6, 1.0, 1.0, 1.2)),
+		)
+
+/obj/item/weapon/gun/projectile/automatic/sec_smg/exploration/on_update_icon()
+	..()
+	if(ammo_magazine)
+		overlays += image(icon, "wt550-20(ammo_magazine.stored_ammo.len,5)]")
+	if(ammo_magazine && LAZYLEN(ammo_magazine.stored_ammo))
+		overlays += image(icon, "ammo-ok")
+	else
+		overlays += image(icon, "ammo-bad")
 
 /////////
 // Laser Carbine

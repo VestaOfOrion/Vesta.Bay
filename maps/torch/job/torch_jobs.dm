@@ -20,15 +20,14 @@
 		/datum/species/adherent = list(/datum/job/psiadvisor, /datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/detective),
 		/datum/species/machine = list(/datum/job/psiadvisor),
 		/datum/species/shell = list(/datum/job/psiadvisor),
-		/datum/species/diona   = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/officer, /datum/job/warden, /datum/job/seccadet, /datum/job/sea, /datum/job/bodyguard, /datum/job/representative, /datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt)
+		/datum/species/diona   = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/officer, /datum/job/warden, /datum/job/seccadet, /datum/job/sea, /datum/job/bodyguard, /datum/job/representative)
 	)
 
 #undef HUMAN_ONLY_JOBS
 
 	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
 						/datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/psiadvisor, /datum/job/sea, /datum/job/sea/marine,
-						/datum/job/bridgeofficer, /datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/explorer,
-						/datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt,
+						/datum/job/bridgeofficer, /datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/technician, /datum/job/medic, /datum/job/explorer,
 						/datum/job/senior_engineer, /datum/job/engineer, /datum/job/engineer_trainee,
 						/datum/job/officer, /datum/job/warden, /datum/job/detective, /datum/job/seccadet,
 						/datum/job/senior_doctor, /datum/job/doctor, /datum/job/junior_doctor, /datum/job/chemist, /datum/job/medical_trainee,

@@ -72,3 +72,22 @@
 		/obj/item/rig_module/maneuvering_jets,
 		/obj/item/rig_module/cooling_unit
 		)
+
+//NTEF version of said suit
+/obj/item/weapon/rig/recon/exploration
+	name = "exploration hardsuit control module"
+	desc = "A lightweight military hardsuit. The face of Sol Central Government's Marine Corps however repurposed by Nanotrasen. This model seems to have been modified for less intense operations."
+	armor = list(
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_MINOR,
+		bomb = ARMOR_BOMB_PADDED,
+		bio = ARMOR_BIO_SHIELDED,
+		rad = ARMOR_RAD_SHIELDED
+		)
+	initial_modules = list(
+		/obj/item/rig_module/ai_container,
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
+		)

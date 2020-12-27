@@ -98,6 +98,13 @@
 	l_ear = /obj/item/device/radio/headset/exploration
 	backpack_contents = list(/obj/item/weapon/storage/firstaid/stab = 1)
 
+/decl/hierarchy/outfit/job/torch/crew/exploration/scout
+	name = OUTFIT_JOB_NAME("Scout")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
+	shoes = /obj/item/clothing/shoes/dutyboots
+	id_types = list(/obj/item/weapon/card/id/torch/crew/explorer)
+	pda_type = /obj/item/modular_computer/pda/explorer
+	l_ear = /obj/item/device/radio/headset/exploration
 /***/
 
 //Research
@@ -308,7 +315,7 @@
 	pda_type = /obj/item/modular_computer/pda/heads/paperpusher
 
 //#######
-
+/*
 //# INFANTRY
 
 /decl/hierarchy/outfit/job/torch/crew/infantry
@@ -330,7 +337,7 @@
 	id_types = list(/obj/item/weapon/card/id/torch/crew/infantry/inftech)
 	pda_type = /obj/item/modular_computer/pda/engineering
 	l_ear = /obj/item/device/radio/headset/inftech
-
+*/
 //### SEA
 
 /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet

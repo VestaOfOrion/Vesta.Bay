@@ -1,3 +1,4 @@
+/* 
 var/const/INF               =(1<<11)
 
 /datum/department/infantry
@@ -152,7 +153,7 @@ var/const/INF               =(1<<11)
 
 /datum/job/grunt/get_description_blurb()
 	return "<span class='warning'>You are NOT Security. Ignoring this will get you job banned, or worse.</span> - You are a Marine! Your duty is to listen to the Squad Leader. If they're not present, the Combat Technician may pull rank. Do your best not to die, while also taking orders. Oorah!"
-
+*/
 //############# PSYKER
 
 /datum/job/psiadvisor
@@ -353,3 +354,86 @@ var/const/INF               =(1<<11)
 
 	access = list(access_maint_tunnels, access_research, access_robotics, access_nanotrasen, access_solgov_crew, access_surgery, access_medical)
 	minimal_access = list()
+
+//## EXPLORATION
+/datum/job/medic
+	title = "Exploratory Medic"
+	department = "Exploration"
+	department_flag = EXP
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the Commanding Officer, Executive Officer, and Pathfinder"
+	selection_color = "#68099e"
+	minimum_character_age = list(SPECIES_HUMAN = 20)
+	ideal_character_age = 25
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/fleet
+	alt_titles = list(
+		"Scout Medic" = /decl/hierarchy/outfit/job/torch/crew/exploration/scout
+	)
+	allowed_branches = list(
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/exploration/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/scout
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/fleet/e6,
+		/datum/mil_rank/marine_corps/e6
+	)
+
+	min_skill = list(   SKILL_EVA     = SKILL_BASIC,
+	                    SKILL_MEDICAL = SKILL_BASIC,
+	                    SKILL_ANATOMY = SKILL_BASIC)
+
+	max_skill = list(   SKILL_COMBAT  = SKILL_EXPERT,
+	                    SKILL_WEAPONS = SKILL_EXPERT,	                   
+						SKILL_MEDICAL = SKILL_EXPERT,
+	                    SKILL_ANATOMY = SKILL_EXPERT,)
+
+	access = list(access_explorer, access_maint_tunnels, access_eva, access_emergency_storage,
+		access_guppy_helm, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
+		access_petrov, access_petrov_maint, access_research
+	)
+
+	software_on_spawn = list(/datum/computer_file/program/deck_management)
+
+/datum/job/medic/get_description_blurb()
+	return "You are an Explorer. Your duty is to go on expeditions to away sites. The Pathfinder is your team leader. You are to look for anything of economic or scientific interest to NanoTrasen - mineral deposits, alien flora/fauna, artifacts. You will also likely encounter hazardous environments, aggressive wildlife or malfunctioning defense systems, so tread carefully."
+
+/datum/job/technician
+	title = "Exploratory Technician"
+	department = "Exploration"
+	department_flag = EXP
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the Commanding Officer, Executive Officer, and Pathfinder"
+	selection_color = "#68099e"
+	minimum_character_age = list(SPECIES_HUMAN = 20)
+	ideal_character_age = 23
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/fleet
+	alt_titles = list(
+		"Scout Technician" = /decl/hierarchy/outfit/job/torch/crew/exploration/scout
+	)
+	allowed_branches = list(
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/exploration/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/scout
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/fleet/e6,
+		/datum/mil_rank/marine_corps/e6
+	)
+	min_skill = list(   SKILL_EVA          = SKILL_BASIC,
+	                    SKILL_CONSTRUCTION = SKILL_ADEPT,
+	                    SKILL_ELECTRICAL   = SKILL_BASIC)
+
+	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
+	                    SKILL_ELECTRICAL   = SKILL_MAX,
+						SKILL_COMBAT       = SKILL_EXPERT,
+	                    SKILL_WEAPONS      = SKILL_EXPERT)
+	access = list(access_explorer, access_maint_tunnels, access_eva, access_emergency_storage,
+		access_guppy_helm, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
+		access_petrov, access_petrov_maint, access_research
+	)
+
+	software_on_spawn = list(/datum/computer_file/program/deck_management)
+
+/datum/job/technician/get_description_blurb()
+	return "You are an Explorer. Your duty is to go on expeditions to away sites. The Pathfinder is your team leader. You are to look for anything of economic or scientific interest to NanoTrasen - mineral deposits, alien flora/fauna, artifacts. You will also likely encounter hazardous environments, aggressive wildlife or malfunctioning defense systems, so tread carefully."

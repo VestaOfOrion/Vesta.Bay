@@ -91,8 +91,11 @@ GLOBAL_LIST_INIT(secure_weapons, list())
 	return length(req_access)
 
 /obj/item/weapon/gun/proc/free_fire()
-	var/decl/security_state/security_state = decls_repository.get_decl(GLOB.using_map.security_state)
-	return security_state.current_security_level_is_same_or_higher_than(security_state.high_security_level)
+	var/my_z = get_z(src)
+	if(!GLOB.using_map.station_levels.Find(my_z))
+		return TRUE
+	return ..()
+
 
 /obj/item/weapon/gun/special_check()
 	if(is_secure_gun() && !free_fire() && (!authorized_modes[sel_mode] || !registered_owner))

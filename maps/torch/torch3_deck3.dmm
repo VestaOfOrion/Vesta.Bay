@@ -4640,7 +4640,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
 "jo" = (
-/obj/machinery/telecomms/server/presets/infantry,
 /turf/simulated/floor/bluegrid,
 /area/tcommsat/chamber)
 "jp" = (

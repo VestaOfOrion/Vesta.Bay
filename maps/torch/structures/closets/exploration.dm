@@ -52,11 +52,12 @@
 		/obj/item/weapon/material/knife/folding/swiss/explorer,
 		/obj/item/clothing/accessory/buddytag,
 		/obj/item/weapon/storage/firstaid/light,
+		/obj/item/weapon/gun/energy/revolver/exploration,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack, /obj/item/weapon/storage/backpack/satchel/grey)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger)),
 		new /datum/atom_creator/weighted(list(/obj/item/device/flashlight, /obj/item/device/flashlight/flare, /obj/item/device/flashlight/flare/glowstick/random))
 	)
-
+/* Overwritten in BoH folder
 /obj/structure/closet/secure_closet/explorer
 	name = "explorer's locker"
 	req_access = list(access_explorer)
@@ -81,7 +82,7 @@
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger)),
 		new /datum/atom_creator/weighted(list(/obj/item/device/flashlight, /obj/item/device/flashlight/flare, /obj/item/device/flashlight/flare/glowstick/random))
 	)
-
+*/
 /obj/structure/closet/secure_closet/pilot
 	name = "pilot's locker"
 	req_access = list(access_pilot)
@@ -105,6 +106,7 @@
 		/obj/item/clothing/head/helmet/nt/pilot,
 		/obj/item/weapon/storage/firstaid/light,
 		/obj/item/weapon/material/knife/folding/swiss/explorer,
+		/obj/item/weapon/gun/energy/revolver/exploration,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack, /obj/item/weapon/storage/backpack/satchel/grey)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger)),
 		new /datum/atom_creator/weighted(list(/obj/item/device/flashlight, /obj/item/device/flashlight/flare, /obj/item/device/flashlight/flare/glowstick/random))

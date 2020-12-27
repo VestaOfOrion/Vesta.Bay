@@ -174,16 +174,20 @@
 
 /datum/job/explorer
 	alt_titles = list(
-		"Exploratory Technician" = /decl/hierarchy/outfit/job/torch/crew/exploration/technician,
-		"Exploratory Medic" = /decl/hierarchy/outfit/job/torch/crew/exploration/medic
+		"Scout" = /decl/hierarchy/outfit/job/torch/crew/exploration/scout
 	)
-	allowed_branches = list(/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/exploration/fleet
+	allowed_branches = list(
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/exploration/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/exploration/scout
 	)
 
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/e3,
 		/datum/mil_rank/fleet/e4,
-		/datum/mil_rank/fleet/e5
+		/datum/mil_rank/fleet/e5,
+		/datum/mil_rank/marine_corps/e3,
+		/datum/mil_rank/marine_corps/e4,
+		/datum/mil_rank/marine_corps/e5
 	)
 	min_skill = list(SKILL_EVA     = SKILL_ADEPT,
 					 SKILL_SCIENCE = SKILL_BASIC,
