@@ -1,6 +1,0 @@
-author: Peekaboom
-
-delete-after: True
-
-changes: 
-  - tweak: "Removed non-voters being counted as Extended votes."

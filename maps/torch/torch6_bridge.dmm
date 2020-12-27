@@ -444,10 +444,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 9;
-	icon_state = "intact"
-	},
+/obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "aY" = (
@@ -3533,7 +3530,10 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "gp" = (
-/obj/machinery/computer/shuttle_control/explore/aquila,
+/obj/machinery/computer/shuttle_control/explore/aquila{
+	name = "byakhee control console";
+	shuttle_tag = "NTSC Byakhee"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
 "gq" = (
@@ -3741,6 +3741,13 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/fore)
+"gS" = (
+/obj/structure/closet/secure_closet/guncabinet/antiboarding/mask,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/mask/gas/swat,
+/obj/item/clothing/mask/gas/swat,
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "gT" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -3997,6 +4004,33 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"hR" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/item/clothing/accessory/storage/bandolier,
+/obj/item/clothing/accessory/storage/bandolier,
+/obj/structure/table/rack,
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
+"hS" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "hT" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/table/rack{
@@ -4587,7 +4621,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/overmap/visitable/ship/landable/aquila,
+/obj/effect/overmap/visitable/ship/landable/aquila{
+	desc = "A PM-24 modular transport, broadcasting SC codes and the callsign \"Dagon-1 Byakhee\".";
+	name = "NTSC Byakhee";
+	shuttle = "NTSC Byakhee"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/airlock)
 "js" = (
@@ -4872,17 +4910,25 @@
 /obj/machinery/button/blast_door{
 	id_tag = "aquila_shutters";
 	name = "Protective Shutters Control";
-	pixel_x = -32
+	pixel_x = -32;
+	pixel_y = 8
 	},
 /obj/machinery/turretid/stun{
 	enabled = 0;
-	name = "Aquila point defense control";
+	name = "Byakhee point defense control";
 	pixel_x = 32;
 	req_access = list("ACCESS_TORCH_AQUILA_HELM")
 	},
 /obj/structure/bed/chair/shuttle/blue{
 	dir = 1;
 	icon_state = "shuttle_chair_preview"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "gunship_disperser_door";
+	name = "Cannon Access";
+	pixel_x = -32;
+	pixel_y = -3;
+	pixel_z = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
@@ -4911,7 +4957,7 @@
 	pixel_x = 25;
 	pixel_y = -6
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -4976,6 +5022,19 @@
 /obj/machinery/computer/ship/engines,
 /turf/simulated/floor/tiled/monotile,
 /area/turret_protected/ai_outer_chamber)
+"kl" = (
+/obj/structure/closet/secure_closet/guncabinet/antiboarding,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/gun/projectile/shotgun/pump/combat,
+/obj/item/weapon/gun/projectile/shotgun/pump/combat,
+/obj/item/weapon/storage/box/ammo/shotgunammo,
+/obj/item/weapon/storage/box/ammo/shotgunammo,
+/obj/machinery/firealarm{
+	dir = 2;
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "kp" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
@@ -5209,7 +5268,7 @@
 	dir = 1;
 	icon_state = "warningcorner"
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/firealarm{
 	dir = 2;
 	pixel_y = 24
@@ -5262,7 +5321,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/turret_protected/ai_outer_chamber)
 "lk" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -5518,7 +5577,7 @@
 /area/aquila/cockpit)
 "lO" = (
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Cockpit";
+	c_tag = "Byakhee - Cockpit";
 	dir = 8
 	},
 /obj/machinery/computer/modular/preset/cardslot/command,
@@ -5624,6 +5683,10 @@
 	dir = 1;
 	pixel_y = -28
 	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 8;
+	id_tag = "aquila_shuttle_dock_pump"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
 "lY" = (
@@ -5647,7 +5710,7 @@
 	dir = 2;
 	id_tag = "aquila_shuttle_pump"
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
@@ -5812,7 +5875,9 @@
 /area/crew_quarters/heads/office/cos)
 "mG" = (
 /obj/structure/displaycase,
-/obj/item/weapon/gun/projectile/heavysniper/ant,
+/obj/item/weapon/gun/projectile/heavysniper/ant{
+	pixel_y = -4
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mH" = (
@@ -5846,10 +5911,11 @@
 /obj/machinery/button/alternate/door{
 	desc = "A remote control-switch for the office door.";
 	id_tag = "cosdoor";
-	name = "HOS's Office Door Control";
+	name = "COS's Office Door Control";
 	pixel_y = 27;
 	req_access = list("ACCESS_HEAD_OF_SECURITY")
 	},
+/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -5942,6 +6008,14 @@
 /obj/structure/table/woodentable/walnut,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
+"mU" = (
+/obj/machinery/computer/modular/preset/security{
+	dir = 4;
+	icon_state = "console"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "mV" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -6124,7 +6198,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -6153,7 +6227,7 @@
 	pixel_x = 0;
 	pixel_y = -24
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -6170,7 +6244,7 @@
 	icon_state = "closed";
 	id_tag = "aquila_shuttle_inner";
 	locked = 1;
-	name = "Aquila External Access";
+	name = "Byahkee External Access";
 	req_access = list("ACCESS_TORCH_CREW")
 	},
 /obj/structure/cable{
@@ -6814,7 +6888,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/reinforced/airless,
-/area/space)
+/area/aquila/cockpit)
 "oY" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/command/msea)
@@ -7011,14 +7085,6 @@
 /obj/machinery/status_display,
 /turf/simulated/wall/prepainted,
 /area/security/bridgecheck)
-"pH" = (
-/obj/structure/sign/double/icarus/solgovflag/right{
-	dir = 1;
-	icon_state = "solgovflag-right";
-	pixel_z = -32
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/crew_quarters/heads/office/sgr)
 "pI" = (
 /obj/structure/cable/green,
 /obj/effect/wallframe_spawn/reinforced/polarized{
@@ -7152,7 +7218,7 @@
 	dir = 4
 	},
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Aft Passageway";
+	c_tag = "Byahkee - Aft Passageway";
 	dir = 1
 	},
 /obj/structure/cable{
@@ -7280,7 +7346,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
 	id_tag = "cosdoor";
-	name = "Head of Security";
+	name = "Chief of Security";
 	secured_wires = 1
 	},
 /obj/structure/cable/green{
@@ -8182,6 +8248,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/bridge/aft)
@@ -10022,6 +10091,11 @@
 	pixel_x = 3;
 	pixel_y = -4
 	},
+/obj/structure/sign/double/icarus/solgovflag/right{
+	dir = 1;
+	icon_state = "solgovflag-right";
+	pixel_z = -32
+	},
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "wG" = (
@@ -10897,6 +10971,7 @@
 "za" = (
 /obj/structure/closet/secure_closet/XO,
 /obj/random/drinkbottle,
+/obj/item/gunbox/executive,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "zb" = (
@@ -10905,6 +10980,9 @@
 	},
 /turf/space,
 /area/space)
+"zd" = (
+/turf/simulated/wall/r_wall/hull,
+/area/security/antiboarding)
 "zf" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 4;
@@ -11121,6 +11199,20 @@
 /obj/effect/floor_decal/industrial/outline/red,
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/medical)
+"zH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/security{
+	name = "Security - Anti-Boarding Control"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/security/antiboarding)
 "zI" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -11145,6 +11237,9 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/auxsolarbridge)
+"zJ" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/security/antiboarding)
 "zL" = (
 /obj/machinery/ai_status_display,
 /turf/simulated/wall/r_wall/hull,
@@ -11758,6 +11853,9 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "Bw" = (
@@ -11886,6 +11984,25 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/turret_protected/ai_outer_chamber)
+"BP" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/effect/catwalk_plated,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/plating,
+/area/hallway/primary/bridge/aft)
 "BQ" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/maintenance/auxsolarbridge)
@@ -12340,7 +12457,7 @@
 	dir = 8;
 	pixel_x = 21
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/power/apc/shuttle/aquila{
 	dir = 1;
 	name = "north bump";
@@ -12578,7 +12695,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/structure/cable/cyan{
 	d1 = 4;
 	d2 = 8;
@@ -13171,7 +13288,9 @@
 "FV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/shuttle_landmark/torch/hangar/aquila,
+/obj/effect/shuttle_landmark/torch/hangar/aquila{
+	name = "NTSC Byakhee Hangar"
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -13479,6 +13598,19 @@
 	},
 /turf/simulated/open,
 /area/maintenance/bridge/foreport)
+"GO" = (
+/obj/machinery/pointdefense{
+	id_tag = null;
+	initial_id_tag = "gunship_pd"
+	},
+/obj/machinery/power/terminal,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/aquila/head)
 "GS" = (
 /turf/simulated/floor/tiled/white,
 /area/aquila/medical)
@@ -13597,6 +13729,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/effect/floor_decal/corner/blue/half{
+	dir = 4;
+	icon_state = "bordercolorhalf"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/aft)
 "Hh" = (
@@ -13679,6 +13818,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/xo)
+"Hq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "Hs" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -13827,6 +13976,15 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
+"HJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "HK" = (
 /obj/effect/overmap/visitable/ship/torch,
 /turf/simulated/floor/tiled/dark,
@@ -13864,7 +14022,7 @@
 /obj/structure/table/standard,
 /obj/item/weapon/defibrillator/loaded,
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Infirmary";
+	c_tag = "Byahkee - Infirmary";
 	dir = 8
 	},
 /obj/machinery/firealarm{
@@ -14358,6 +14516,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/bridge/aft)
 "Jh" = (
@@ -14449,7 +14610,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -14639,6 +14800,7 @@
 	pixel_y = 30
 	},
 /obj/item/weapon/aiModule/freeform,
+/obj/item/gunbox/captain,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/cobed)
 "Ks" = (
@@ -14829,12 +14991,11 @@
 "Li" = (
 /obj/machinery/door/airlock/external{
 	autoset_access = 0;
-	density = 1;
 	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "aquila_shuttle_outer";
 	locked = 1;
-	name = "Aquila External Access";
+	name = "Byahkee External Access";
 	req_access = list("ACCESS_TORCH_CREW")
 	},
 /obj/machinery/shield_diffuser,
@@ -15086,6 +15247,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/bridge/aft)
@@ -15595,7 +15759,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/closet/secure_closet/guncabinet/sidearm/combined,
+/obj/structure/closet/secure_closet/guncabinet/sidearm/combined{
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))
+	},
 /obj/structure/sign/warning/nosmoking_1{
 	dir = 4;
 	icon_state = "nosmoking";
@@ -15837,6 +16003,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cl)
+"OF" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/camera/network/security{
+	c_tag = "Security Armory - Boarding Control";
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "OG" = (
 /obj/structure/cable/yellow,
 /obj/machinery/power/solar_control{
@@ -15958,8 +16134,7 @@
 	},
 /obj/machinery/microwave,
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Crew Compartment";
-	dir = 2
+	c_tag = "Byahkee - Crew Compartment"
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -15992,7 +16167,7 @@
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
@@ -16430,7 +16605,7 @@
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
@@ -16440,7 +16615,7 @@
 "QA" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Docking Port";
+	c_tag = "Byahkee - Docking Port";
 	dir = 1
 	},
 /obj/structure/cable{
@@ -16449,7 +16624,7 @@
 	icon_state = "4-8";
 	pixel_x = 0
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -16870,6 +17045,16 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
 /turf/simulated/floor/airless,
 /area/aquila/maintenance)
+"RI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "RK" = (
 /obj/machinery/firealarm{
 	dir = 2;
@@ -17215,10 +17400,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
-	},
 /obj/structure/cable/green{
 	d1 = 2;
 	d2 = 8;
@@ -17229,6 +17410,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
@@ -17972,10 +18156,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/blue/half{
-	dir = 4;
-	icon_state = "bordercolorhalf"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
@@ -17987,7 +18167,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/effect/catwalk_plated,
+/turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "Vh" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
@@ -18268,6 +18452,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
+"VU" = (
+/obj/structure/closet/secure_closet/guncabinet/antiboarding/grenades,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/storage/box/smokes,
+/obj/item/weapon/storage/box/flashbangs,
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/security/antiboarding)
 "VW" = (
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/captain,
@@ -18522,7 +18716,7 @@
 /area/turret_protected/ai_foyer)
 "WS" = (
 /obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Seating";
+	c_tag = "Byahkee - Seating";
 	dir = 1
 	},
 /obj/structure/bed/chair/shuttle/blue{
@@ -18703,14 +18897,16 @@
 /area/crew_quarters/heads/office/cmo)
 "Xz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/secure_closet/guncabinet/PPE,
+/obj/structure/closet/secure_closet/guncabinet/PPE{
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/storage)
 "XA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /turf/simulated/floor/tiled/dark,
 /area/aquila/airlock)
 "XB" = (
@@ -18873,10 +19069,6 @@
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
-/obj/machinery/camera/network/aquila{
-	c_tag = "Aquila - Storage";
-	dir = 1
-	},
 /obj/machinery/power/apc/shuttle/aquila{
 	dir = 4;
 	name = "east bump";
@@ -18885,6 +19077,10 @@
 /obj/structure/cable/cyan{
 	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Storage Compartment";
+	dir = 1
 	},
 /turf/simulated/floor/tiled,
 /area/aquila/storage)
@@ -31388,7 +31584,7 @@ uN
 Sf
 vY
 wE
-pH
+sL
 JG
 GI
 BG
@@ -36214,8 +36410,8 @@ ad
 ad
 ad
 ad
-ad
 oa
+DN
 DN
 DN
 DN
@@ -36416,12 +36612,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+zJ
+zJ
+zJ
+zJ
 kU
 Bv
 ne
@@ -36618,12 +36814,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+kl
+hS
+mU
+zJ
 kU
 Bv
 HA
@@ -36820,14 +37016,14 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
-kU
-Bv
+zd
+zJ
+VU
+HJ
+Hq
+zH
+RI
+BP
 Sw
 QL
 Tw
@@ -37022,12 +37218,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+gS
+OF
+hR
+zJ
 Xp
 Vg
 CD
@@ -37224,12 +37420,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zJ
+zJ
+zJ
+zJ
+zJ
 Kc
 Hg
 Nc
@@ -37426,12 +37622,12 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-DN
+zd
+zd
+zd
+zd
+zd
+zd
 FK
 Mc
 Lg
@@ -38841,7 +39037,7 @@ ad
 ad
 ad
 hb
-oW
+GO
 ei
 Az
 jk

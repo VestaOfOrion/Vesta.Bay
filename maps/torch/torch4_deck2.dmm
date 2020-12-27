@@ -3125,8 +3125,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/effect/floor_decal/corner/yellow{
-	dir = 4
+/obj/effect/floor_decal/corner/research{
+	dir = 4;
+	icon_state = "corner_white"
 	},
 /obj/structure/cable/green{
 	d1 = 4;
@@ -3184,7 +3185,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 5;
 	icon_state = "corner_white"
 	},
@@ -3208,7 +3209,7 @@
 	pixel_x = 0;
 	pixel_y = 24
 	},
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 5;
 	icon_state = "corner_white"
 	},
@@ -3231,7 +3232,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 5;
 	icon_state = "corner_white"
 	},
@@ -6116,8 +6117,9 @@
 /turf/simulated/wall/prepainted,
 /area/maintenance/seconddeck/foreport)
 "nd" = (
-/obj/effect/floor_decal/corner/yellow{
-	dir = 8
+/obj/effect/floor_decal/corner/research{
+	dir = 8;
+	icon_state = "corner_white"
 	},
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 5;
@@ -7024,8 +7026,9 @@
 /obj/machinery/firealarm{
 	pixel_y = 21
 	},
-/obj/effect/floor_decal/corner/yellow{
-	dir = 1
+/obj/effect/floor_decal/corner/research{
+	dir = 1;
+	icon_state = "corner_white"
 	},
 /obj/structure/cable/green{
 	d1 = 4;
@@ -7041,7 +7044,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 5;
 	icon_state = "corner_white"
 	},
@@ -8957,8 +8960,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/foyer)
 "un" = (
-/obj/effect/floor_decal/corner/yellow{
-	dir = 9
+/obj/effect/floor_decal/corner/research{
+	dir = 9;
+	icon_state = "corner_white"
 	},
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 4;
@@ -10180,7 +10184,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/atmos)
 "xQ" = (
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 5;
 	icon_state = "corner_white"
 	},
@@ -14957,7 +14961,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/locker_room)
 "LD" = (
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 10;
 	icon_state = "corner_white"
 	},
@@ -16213,8 +16217,9 @@
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/central)
 "Pu" = (
-/obj/effect/floor_decal/corner/yellow{
-	dir = 6
+/obj/effect/floor_decal/corner/research{
+	dir = 6;
+	icon_state = "corner_white"
 	},
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 8;
@@ -16329,8 +16334,9 @@
 	dir = 6;
 	icon_state = "edge"
 	},
-/obj/effect/floor_decal/corner/yellow{
-	dir = 1
+/obj/effect/floor_decal/corner/research{
+	dir = 1;
+	icon_state = "corner_white"
 	},
 /obj/structure/closet/crate/freezer,
 /obj/item/device/mmi,
@@ -16739,8 +16745,9 @@
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/engine_room)
 "Re" = (
-/obj/effect/floor_decal/corner/yellow{
-	dir = 6
+/obj/effect/floor_decal/corner/research{
+	dir = 6;
+	icon_state = "corner_white"
 	},
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 8;
@@ -17051,7 +17058,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/medical)
 "RY" = (
-/obj/effect/floor_decal/corner/yellow,
+/obj/effect/floor_decal/corner/research,
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 9;
 	icon_state = "edge"
@@ -17489,7 +17496,7 @@
 /area/engineering/foyer)
 "Tv" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 5;
 	icon_state = "corner_white"
 	},
@@ -18360,8 +18367,9 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/engineering/atmos)
 "WH" = (
-/obj/effect/floor_decal/corner/yellow{
-	dir = 9
+/obj/effect/floor_decal/corner/research{
+	dir = 9;
+	icon_state = "corner_white"
 	},
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 4;
@@ -18414,7 +18422,7 @@
 	dir = 10;
 	icon_state = "edge"
 	},
-/obj/effect/floor_decal/corner/yellow{
+/obj/effect/floor_decal/corner/research{
 	dir = 4
 	},
 /obj/structure/closet/crate/secure/biohazard/alt{

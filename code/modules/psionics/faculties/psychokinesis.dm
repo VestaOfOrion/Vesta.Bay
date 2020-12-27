@@ -36,7 +36,7 @@
 	name =            "Tinker"
 	cost =            5
 	cooldown =        10
-	min_rank =        PSI_RANK_MASTER
+	min_rank =        PSI_RANK_OPERANT
 	use_description = "Click on or otherwise activate an empty hand while on help intent to manifest a psychokinetic tool. Use it in-hand to switch between tool types."
 	admin_log = FALSE
 
