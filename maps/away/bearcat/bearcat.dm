@@ -55,6 +55,7 @@
 		/area/ship/scrap/escape_star = NO_SCRUBBER|NO_VENT,
 		/area/ship/scrap/shuttle/lift = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/ship/scrap/command/hallway = NO_SCRUBBER|NO_VENT
+		/area/ship/scrap/bearcat_shuttle = NO_SCRUBBER|NO_VENT
 	)
 	spawn_weight = 0.67
 
