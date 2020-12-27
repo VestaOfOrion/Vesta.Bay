@@ -230,7 +230,7 @@
 	req_access = list(access_infantry)
 	authorized_modes = list(UNAUTHORIZED)
 	ammo_type = /obj/item/ammo_casing/pistol/magnum
-	caliber = CALIBER_PISTOL_MAGNUM
+	caliber = CALIBER_PISTOL_MAGNUM_LARGE
 
 
 /////////
