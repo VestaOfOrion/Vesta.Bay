@@ -226,7 +226,7 @@
 /////////
 /obj/item/weapon/gun/projectile/revolver/medium/captain/large/inf
 	name = "Old Reliable"
-	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has a much more tactical grip; the entire revolver slimmed down and adjusted for combat use."
+	desc = "A rugged, yet shiny Al-Maliki & Mosley Double-Action revolver, with black accents. Marketed as the 'go to' for putting holes in the other guy. This one has a much more tactical grip; the entire revolver slimmed down and adjusted for combat use."
 	req_access = list(access_infantry)
 	authorized_modes = list(UNAUTHORIZED)
 	ammo_type = /obj/item/ammo_casing/pistol/magnum
