@@ -38,3 +38,4 @@ changes:
   - rscadd: "Adds a functioning fission generator to the Bearcat's engineering department."
   - rscadd: "Fixes all damage to the aft of the Bearcat, allowing players to be able to fix it and fly around early into the round."
   - tweak: "The Bearcat's generator should be enough to last the ship on low engine use even without solars now."
+  - rscadd: "Adds a mini armory to the Bearcat with 3 Mosin Nagant rifles and 3 pistols."
