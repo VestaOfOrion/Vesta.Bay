@@ -12,13 +12,13 @@
 	range = 1
 	fuel_consumption = 4
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/
-	skill_needed = SKILL_NONE
+	skill_needed = SKILL_BASIC
 	defer_initialisation = TRUE
 
 /obj/effect/overmap/visitable/ship/landable/bearcat_shuttle
 	name = "Cargo shuttle"
 	shuttle = "Cargo shuttle"
-	fore_dir = WEST
+	fore_dir = NORTH
 	vessel_size = SHIP_SIZE_SMALL
 
 /obj/effect/shuttle_landmark/bearcat/bearcat_shuttle
@@ -30,11 +30,3 @@
 /obj/effect/shuttle_landmark/transit/bearcat/bearcat_shuttle
 	name = "In transit"
 	landmark_tag = "nav_bearcat_transit"
-
-/obj/effect/shuttle_landmark/bearcat/Nav_fore
-	name = "Bearcat Fore"
-	landmark_tag = "nav_bearcat_fore"
-
-/obj/effect/shuttle_landmark/bearcat/Nav_aft
-	name = "Bearcat Aft"
-	landmark_tag = "nav_bearcat_aft"
