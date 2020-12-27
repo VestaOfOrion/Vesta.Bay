@@ -2841,7 +2841,6 @@
 /area/ship/scrap/maintenance/engine/port)
 "eW" = (
 /obj/effect/floor_decal/industrial/warning,
-/obj/structure/window/phoronreinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/port)
@@ -3679,6 +3678,10 @@
 /obj/structure/closet/crate,
 /obj/random/coin,
 /obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
 /turf/simulated/floor/plating,
 /area/ship/scrap/hidden)
 "gx" = (
@@ -4064,6 +4067,10 @@
 	dir = 1;
 	level = 2
 	},
+/obj/structure/table/rack,
+/obj/item/weapon/gun/projectile/pistol/sec/lethal,
+/obj/item/weapon/gun/projectile/pistol/sec/lethal,
+/obj/item/weapon/gun/projectile/pistol/sec/lethal,
 /turf/simulated/floor/plating,
 /area/ship/scrap/hidden)
 "gX" = (
@@ -4071,8 +4078,6 @@
 /obj/random/loot,
 /obj/random/loot,
 /obj/random/loot,
-/obj/random/projectile,
-/obj/random/projectile,
 /turf/simulated/floor/plating,
 /area/ship/scrap/hidden)
 "gY" = (
@@ -5824,15 +5829,7 @@
 	icon_state = "radiation";
 	pixel_x = 32
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
-/area/ship/scrap/bearcat_shuttle)
-"nJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/dark/monotile,
 /area/ship/scrap/bearcat_shuttle)
 "nS" = (
 /obj/effect/paint/brown,
@@ -5895,7 +5892,6 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "rw" = (
@@ -5955,7 +5951,6 @@
 /area/ship/scrap/maintenance/engine/aft)
 "uy" = (
 /obj/structure/closet/crate/freezer/rations,
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "uG" = (
@@ -5968,13 +5963,6 @@
 /obj/structure/grille,
 /turf/space,
 /area/space)
-"uO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/turf/simulated/floor/tiled,
-/area/ship/scrap/bearcat_shuttle)
 "uY" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 4
@@ -6042,6 +6030,7 @@
 	},
 /obj/item/weapon/deck/tarot,
 /obj/machinery/cell_charger,
+/obj/item/weapon/gun/projectile/revolver/holdout,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/bearcat_shuttle)
 "za" = (
@@ -6112,9 +6101,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
 /turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "Cs" = (
@@ -6145,9 +6131,6 @@
 /obj/structure/handrai{
 	dir = 4;
 	icon_state = "handrail"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
 	},
 /turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
@@ -6213,9 +6196,6 @@
 	dir = 1;
 	icon_state = "chair_preview"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
 /turf/simulated/floor/tiled,
 /area/ship/scrap/bearcat_shuttle)
 "EU" = (
@@ -6230,7 +6210,6 @@
 	dir = 5;
 	icon_state = "intact"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/scrap/bearcat_shuttle)
 "FI" = (
@@ -6288,19 +6267,6 @@
 /obj/structure/lattice,
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/aft)
-"Hi" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/beige{
-	dir = 9;
-	icon_state = "corner_white"
-	},
-/obj/structure/handrai{
-	dir = 4;
-	icon_state = "handrail"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
-/area/ship/scrap/bearcat_shuttle)
 "HQ" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -6326,17 +6292,7 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
 /turf/simulated/floor/tiled,
-/area/ship/scrap/bearcat_shuttle)
-"Ii" = (
-/obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "Ij" = (
 /obj/structure/bed/chair/comfy/brown{
@@ -6352,7 +6308,6 @@
 	pixel_x = 22
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/bearcat_shuttle)
 "IG" = (
@@ -6418,9 +6373,6 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
 /turf/simulated/floor/tiled,
 /area/ship/scrap/bearcat_shuttle)
 "Kz" = (
@@ -6476,6 +6428,8 @@
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
+/obj/random/projectile,
+/obj/random/projectile,
 /turf/simulated/floor/plating,
 /area/ship/scrap/hidden)
 "Od" = (
@@ -6488,7 +6442,6 @@
 /area/ship/scrap/maintenance/atmos)
 "OL" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/ship/scrap/bearcat_shuttle)
 "OX" = (
@@ -6507,6 +6460,10 @@
 	d2 = 6;
 	icon_state = "0-6"
 	},
+/obj/structure/table/rack,
+/obj/item/weapon/gun/projectile/heavysniper/boltaction,
+/obj/item/weapon/gun/projectile/heavysniper/boltaction,
+/obj/item/weapon/gun/projectile/heavysniper/boltaction,
 /turf/simulated/floor/plating,
 /area/ship/scrap/hidden)
 "Qe" = (
@@ -12211,7 +12168,7 @@ qe
 OL
 If
 JE
-Hi
+JE
 nq
 qC
 Dl
@@ -12330,7 +12287,7 @@ yb
 DS
 EU
 vL
-uO
+vL
 Ez
 xK
 Zb
@@ -12450,9 +12407,9 @@ aa
 Au
 va
 Ij
-Ii
+uG
 Ft
-nJ
+OL
 Gs
 zV
 kI
