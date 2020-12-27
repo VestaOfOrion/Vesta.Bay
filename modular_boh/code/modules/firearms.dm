@@ -24,13 +24,31 @@
 /////////
 
 /obj/item/gunbox/infantry
-	name = "Standard Kit"
-	desc = "A secure box containing a sidearm and primary."
+	name = "Standard Longarm Kit"
+	desc = "A secure box containing a longarm."
 
 /obj/item/gunbox/infantry/attack_self(mob/living/user)
 	var/list/options = list()
-	options["Ballistic - Bullpup Rifle"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec,/obj/item/ammo_magazine/mil_rifle/sec,/obj/item/weapon/gun/projectile/pistol/military/sec,/obj/item/weapon/grenade/frag/shell,/obj/item/weapon/grenade/frag/shell,/obj/item/weapon/grenade/frag/shell)
-	options["Energy - Laser Carbine"] = list(/obj/item/weapon/gun/energy/laser/infantry,/obj/item/weapon/gun/projectile/pistol/military/sec,/obj/item/weapon/grenade/frag,/obj/item/weapon/grenade/frag,/obj/item/weapon/grenade/frag)
+	options["Ballistic - Bullpup Rifle"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec,/obj/item/ammo_magazine/mil_rifle/sec,/obj/item/weapon/grenade/frag/shell,/obj/item/weapon/grenade/frag/shell,/obj/item/weapon/grenade/frag/shell)
+	options["Energy - Laser Carbine"] = list(/obj/item/weapon/gun/energy/laser/infantry,/obj/item/weapon/grenade/frag,/obj/item/weapon/grenade/frag,/obj/item/weapon/grenade/frag)
+	var/choice = input(user,"What type of equipment?") as null|anything in options
+	if(src && choice)
+		var/list/things_to_spawn = options[choice]
+		for(var/new_type in things_to_spawn)
+			var/atom/movable/AM = new new_type(get_turf(src))
+			if(istype(AM, /obj/item/weapon/gun/))
+				to_chat(user, "You have chosen \the [AM].")
+		qdel(src)
+
+
+/obj/item/gunbox/infantry_sidearm
+	name = "Standard Sidearm Kit"
+	desc = "A secure box containing a sidearm."
+
+/obj/item/gunbox/infantry_sidearm/attack_self(mob/living/user)
+	var/list/options = list()
+	options["Ballistic - P10"] = list(/obj/item/weapon/gun/projectile/pistol/military/sec)
+	options["Energy - LAER90-INF"] = list(/obj/item/weapon/gun/energy/gun/secure/inf)
 	var/choice = input(user,"What type of equipment?") as null|anything in options
 	if(src && choice)
 		var/list/things_to_spawn = options[choice]
@@ -41,14 +59,32 @@
 		qdel(src)
 
 /obj/item/gunbox/infcom
-	name = "Squad Leader Kit"
-	desc = "A secure box containing a sidearm and primary."
+	name = "Squad Leader Longarm Kit"
+	desc = "A secure box containing a longarm."
 
 /obj/item/gunbox/infcom/attack_self(mob/living/user)
 	var/list/options = list()
-	options["Ballistic - Tectonic"] = list(/obj/item/weapon/gun/projectile/shotgun/sabotgun,/obj/item/weapon/gun/energy/revolver/secure,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot)
-	options["Ballistic - Komodo"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/lmg,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/weapon/gun/energy/revolver/secure)
-	options["Energy - Laser Carbine (has burst fire)"] = list(/obj/item/weapon/gun/energy/laser/infantry,/obj/item/weapon/gun/energy/revolver/secure)
+	options["Ballistic - Tectonic"] = list(/obj/item/weapon/gun/projectile/shotgun/sabotgun,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot,/obj/item/ammo_magazine/shotholder/sabot)
+	options["Ballistic - Komodo"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/lmg,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/ammo_magazine/mil_rifle/sec/large,/obj/item/ammo_magazine/mil_rifle/sec/large)
+	options["Energy - Laser Carbine (has burst fire)"] = list(/obj/item/weapon/gun/energy/laser/infantry)
+	var/choice = input(user,"What type of equipment?") as null|anything in options
+	if(src && choice)
+		var/list/things_to_spawn = options[choice]
+		for(var/new_type in things_to_spawn)
+			var/atom/movable/AM = new new_type(get_turf(src))
+			if(istype(AM, /obj/item/weapon/gun/))
+				to_chat(user, "You have chosen \the [AM].")
+		qdel(src)
+
+/obj/item/gunbox/infcom_sidearm
+	name = "Squad Leader Sidearm Kit"
+	desc = "A secure box containing a sidearm."
+
+/obj/item/gunbox/infcom_sidearm/attack_self(mob/living/user)
+	var/list/options = list()
+	options["Energy - Service Energy Revolver"] = list(/obj/item/weapon/gun/energy/revolver/secure)
+	options["Ballistic - P10 Pistol"] = list(/obj/item/weapon/gun/projectile/pistol/military/sec,/obj/item/ammo_magazine/pistol/double)
+	options["Ballistic - 454 Service Revolver"] = list(/obj/item/weapon/gun/projectile/revolver/medium/captain/large/inf,/obj/item/ammo_magazine/speedloader/large)
 	var/choice = input(user,"What type of equipment?") as null|anything in options
 	if(src && choice)
 		var/list/things_to_spawn = options[choice]
@@ -77,14 +113,31 @@
 		qdel(src)
 
 /obj/item/gunbox/inftech
-	name = "Technician Kit"
-	desc = "A secure box containing a sidearm and primary."
+	name = "Technician Longarm Kit"
+	desc = "A secure box containing a longarm."
 
 /obj/item/gunbox/inftech/attack_self(mob/living/user)
 	var/list/options = list()
 //	options["Rocket Launcher"] = list(/obj/item/weapon/gun/launcher/rocket/recoilless/sec,/obj/item/ammo_casing/rocket/rcr,/obj/item/ammo_casing/rocket/rcr,/obj/item/weapon/gun/projectile/pistol/military/sec)
 	options["Ballistic - Bullpup Rifle"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec,/obj/item/weapon/gun/projectile/pistol/military/sec)
 	options["Ballistic - Combat Shotgun"] = list(/obj/item/weapon/gun/projectile/shotgun/pump/combat/infantry,/obj/item/weapon/gun/projectile/pistol/military/sec)
+	var/choice = input(user,"What type of equipment?") as null|anything in options
+	if(src && choice)
+		var/list/things_to_spawn = options[choice]
+		for(var/new_type in things_to_spawn)
+			var/atom/movable/AM = new new_type(get_turf(src))
+			if(istype(AM, /obj/item/weapon/gun/))
+				to_chat(user, "You have chosen \the [AM].")
+		qdel(src)
+
+/obj/item/gunbox/inftech_sidearm
+	name = "Technician Sidearm Kit"
+	desc = "A secure box containing a longarm."
+
+/obj/item/gunbox/inftech_sidearm/attack_self(mob/living/user)
+	var/list/options = list()
+	options["Ballistic - P10"] = list(/obj/item/weapon/gun/projectile/pistol/military/sec)
+	options["Energy - LAER90-INF"] = list(/obj/item/weapon/gun/energy/gun/secure/inf)
 	var/choice = input(user,"What type of equipment?") as null|anything in options
 	if(src && choice)
 		var/list/things_to_spawn = options[choice]
@@ -156,6 +209,29 @@
 	firemodes = list(
 		list(mode_name="fire", burst=1, fire_delay=null, move_delay=null, one_hand_penalty=2, burst_accuracy=null, dispersion=null),
 		)
+
+/////////
+// INFANTRY SECONDRY
+/////////
+
+/obj/item/weapon/gun/energy/gun/secure/inf
+	name = "LAER90-INF"
+	desc = "A heavily modified and retrofitted LAEP90, the LAER90-INF has been rebuilt from the ground-up for use in military, and paramilitary sectors."
+	req_access = list(access_infantry)
+	authorized_modes = list(UNAUTHORIZED)
+	max_shots = 15
+
+/////////
+// SQUAD LEAD BALLISTIC REVOLVER
+/////////
+/obj/item/weapon/gun/projectile/revolver/medium/captain/large/inf
+	name = "Old Reliable"
+	desc = "A shiny al-Maliki & Mosley Autococker automatic revolver, with black accents. Marketed as the 'Revolver for the Modern Era'. This one has a much more tactical grip; the entire revolver slimmed down and adjusted for combat use."
+	req_access = list(access_infantry)
+	authorized_modes = list(UNAUTHORIZED)
+	ammo_type = /obj/item/ammo_casing/pistol/magnum
+	caliber = CALIBER_PISTOL_MAGNUM
+
 
 /////////
 // Sec Bullpup
