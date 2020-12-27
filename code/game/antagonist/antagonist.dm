@@ -4,7 +4,8 @@
 	var/list/restricted_jobs = 		list()   // Jobs that cannot be this antagonist at roundstart (depending on config)
 	var/list/protected_jobs = 		list()   // As above.
 	var/list/blacklisted_jobs =		list(/datum/job/submap)   // Jobs that can NEVER be this antagonist
-
+	var/list/blacklisted_species =   list(SPECIES_ADHERENT, SPECIES_DIONA, SPECIES_NABBER)
+	
 	// Strings.
 	var/welcome_text = "Cry havoc and let slip the dogs of war!"
 	var/leader_welcome_text                 // Text shown to the leader, if any.
