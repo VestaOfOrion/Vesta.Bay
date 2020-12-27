@@ -1,4 +1,4 @@
-author: Yawet33-
+author: Yawet330
 
 delete-after: True
 
@@ -6,4 +6,3 @@ changes:
   - rscadd: "Infantry Laser Sidearm (LAEP90-INF) and Squad Lead 454 Revolver (Old Reliable)."
   - rscadd: "Infantry Sidearm Kits"
   - tweak: "Infantry main kits no longer contain a sidearm, and closets have been adjusted for such"
-  - rscdel: "Killed innocent kittens."
