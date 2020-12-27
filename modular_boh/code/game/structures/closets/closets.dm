@@ -29,6 +29,7 @@
 		/obj/item/clothing/suit/armor/pcarrier/medium/sol,
 		/obj/item/device/gps,
 		/obj/item/gunbox/infantry,
+		/obj/item/gunbox/infantry_sidearm,
 		/obj/item/weapon/storage/box/ammo/explo_shells
 		)
 
@@ -44,6 +45,7 @@
 		/obj/item/weapon/material/knife/combat,
 		/obj/item/weapon/storage/box/ammo/explo_shells,
 		/obj/item/gunbox/inftech,
+		/obj/item/gunbox/inftech_sidearm,
 		/obj/item/clothing/suit/armor/pcarrier/medium/sol
 		)
 
@@ -73,6 +75,7 @@
 		/obj/item/solbanner,
 		/obj/item/clothing/suit/armor/pcarrier/medium/sol,
 		/obj/item/gunbox/infcom,
+		/obj/item/gunbox/infcom_sidearm,
 		/obj/item/gunbox/infcom/secondary,
 		/obj/item/device/gps,
 		/obj/item/weapon/storage/box/ammo/explo_shells,
