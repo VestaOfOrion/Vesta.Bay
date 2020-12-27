@@ -727,7 +727,7 @@
 "bu" = (
 /obj/machinery/access_button/airlock_exterior{
 	master_tag = "bearcat_dock_port";
-	pixel_x = -18;
+	pixel_x = -9;
 	pixel_y = 20
 	},
 /obj/machinery/door/airlock/external/bolted/cycling{
@@ -5766,6 +5766,29 @@
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/crew/toilets)
+"kI" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "bearcat_shuttle_pump"
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	frequency = 1380;
+	id_tag = "bearcat_shuttle";
+	pixel_x = 0;
+	pixel_y = -24;
+	tag_airpump = "bearcat_shuttle_pump";
+	tag_chamber_sensor = "bearcat_shuttle_sensor";
+	tag_exterior_door = "bearcat_shuttle_out";
+	tag_interior_door = "bearcat_shuttle_in"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "le" = (
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
@@ -5774,6 +5797,30 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/scrap/maintenance/engine/aft)
+"lw" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"nq" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "2-5"
+	},
+/obj/structure/sign{
+	icon_state = "radiation";
+	pixel_x = 32
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
+"nJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/scrap/bearcat_shuttle)
 "nS" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
@@ -5789,6 +5836,65 @@
 "ou" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
+/area/ship/scrap/crew/hallway/port)
+"oH" = (
+/obj/structure/fuel_port,
+/turf/simulated/wall/titanium,
+/area/ship/scrap/bearcat_shuttle)
+"pj" = (
+/obj/machinery/door/airlock/external/bolted/cycling{
+	frequency = 1380;
+	id_tag = "bearcat_shuttle_out"
+	},
+/obj/machinery/access_button/airlock_exterior{
+	frequency = 1380;
+	master_tag = "bearcat_shuttle";
+	pixel_x = 5;
+	pixel_y = -20
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"qe" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/walllocker/emerglocker/north,
+/obj/machinery/floodlight,
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/scrap/bearcat_shuttle)
+"qC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2";
+	pixel_y = 0
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"rw" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id_tag = "scraplock";
+	name = "External Blast Doors";
+	opacity = 0
+	},
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/wall/titanium,
 /area/ship/scrap/crew/hallway/port)
 "so" = (
 /obj/effect/paint/brown,
@@ -5814,6 +5920,15 @@
 	},
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/atmos)
+"ta" = (
+/obj/machinery/portable_atmospherics/canister/air/airlock{
+	start_pressure = 730
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "ts" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
@@ -5825,16 +5940,62 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/scrap/maintenance/engine/aft)
+"uy" = (
+/obj/structure/closet/crate/freezer/rations,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"uG" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "uM" = (
 /obj/structure/grille,
 /turf/space,
 /area/space)
+"uO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
 "uY" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/scrap/maintenance/atmos)
+"va" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6;
+	icon_state = "intact"
+	},
+/obj/machinery/computer/shuttle_control/explore/bearcat_shuttle,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
+"vt" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/super,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"vy" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/structure/closet/crate/uranium,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1;
+	level = 2
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"vL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
 "vN" = (
 /obj/effect/paint/red,
 /turf/simulated/wall/r_wall,
@@ -5843,10 +6004,66 @@
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/maintenance/atmos)
+"wG" = (
+/turf/simulated/wall/titanium,
+/area/ship/scrap/bearcat_shuttle)
+"xb" = (
+/obj/structure/shuttle/engine/propulsion/burst/right,
+/turf/space,
+/area/ship/scrap/bearcat_shuttle)
+"xK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/wall/titanium,
+/area/ship/scrap/bearcat_shuttle)
 "xU" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
 /area/space)
+"yb" = (
+/obj/structure/table/standard,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/item/weapon/deck/tarot,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
+"za" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/item/device/radio,
+/obj/item/device/spaceflare,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24;
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/structure/handrai{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/scrap/bearcat_shuttle)
+"zM" = (
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/blue{
+	dir = 9;
+	icon_state = "intact"
+	},
+/obj/machinery/floodlight,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "zT" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -5861,6 +6078,32 @@
 /obj/machinery/meter/turf,
 /turf/simulated/floor/reinforced/oxygen,
 /area/ship/scrap/maintenance/atmos)
+"zV" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor,
+/obj/effect/shuttle_landmark/bearcat/bearcat_shuttle,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"Au" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"BE" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "Cs" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/paint/red,
@@ -5871,6 +6114,27 @@
 /obj/effect/paint/red,
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/maintenance/engine/aft)
+"Dl" = (
+/obj/machinery/power/apc{
+	dir = 8
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "Dr" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /obj/item/weapon/cell/device/standard,
@@ -5901,6 +6165,22 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/command/hallway)
+"DS" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 2;
+	level = 2
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 10;
+	icon_state = "corner_white"
+	},
+/obj/machinery/alarm{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -24
+	},
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
 "DT" = (
 /obj/effect/paint/red,
 /turf/simulated/wall/r_wall/hull,
@@ -5910,6 +6190,33 @@
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall/hull,
 /area/ship/scrap/maintenance/atmos)
+"Ez" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/light,
+/obj/structure/bed/chair{
+	dir = 1;
+	icon_state = "chair_preview"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
+"EU" = (
+/obj/machinery/door/airlock/hatch,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
+"Ft" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/scrap/bearcat_shuttle)
 "FI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4;
@@ -5920,10 +6227,39 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/scrap/maintenance/atmos)
+"Gh" = (
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "bearcat_shuttle_sensor";
+	pixel_y = -24
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1;
+	id_tag = "bearcat_shuttle_pump_out_internal"
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "Gm" = (
 /obj/effect/paint/red,
 /turf/simulated/wall/r_wall/hull,
 /area/ship/scrap/maintenance/atmos)
+"Gs" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8;
+	level = 2
+	},
+/obj/structure/bed/chair{
+	dir = 1;
+	icon_state = "chair_preview"
+	},
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
 "GG" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
@@ -5936,6 +6272,19 @@
 /obj/structure/lattice,
 /turf/simulated/floor/airless,
 /area/ship/scrap/maintenance/engine/aft)
+"Hi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/beige{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
 "HQ" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -5945,6 +6294,51 @@
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/ship/scrap/maintenance/atmos)
+"If" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/item/device/radio/intercom{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
+"Ii" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
+"Ij" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 1;
+	icon_state = "comfychair_preview"
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 10;
+	icon_state = "corner_white"
+	},
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
 "IG" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -5968,6 +6362,15 @@
 /obj/item/weapon/cell/potato,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/fire)
+"JB" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "JC" = (
 /obj/machinery/light/small{
 	dir = 1;
@@ -5989,6 +6392,25 @@
 	},
 /turf/simulated/floor/tiled,
 /area/ship/scrap/maintenance/engineering)
+"JE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/beige{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
+"Kz" = (
+/obj/machinery/portable_atmospherics/canister/hydrogen,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "Lg" = (
 /obj/machinery/light/small,
 /obj/effect/floor_decal/corner/red{
@@ -6048,6 +6470,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/scrap/maintenance/atmos)
+"OL" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/scrap/bearcat_shuttle)
+"OX" = (
+/obj/structure/shuttle/engine/propulsion/burst/left,
+/turf/space,
+/area/ship/scrap/bearcat_shuttle)
 "PG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /turf/simulated/floor/airless,
@@ -6070,6 +6501,14 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/ship/scrap/maintenance/engine/aft)
+"Rx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/wall/titanium,
+/area/ship/scrap/bearcat_shuttle)
+"RK" = (
+/obj/machinery/atmospherics/unary/tank/air,
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "Sm" = (
 /obj/structure/closet/walllocker/emerglocker/west,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
@@ -6081,6 +6520,33 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/scrap/maintenance/engine/aft)
+"Sq" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/weapon/storage/backpack/dufflebag,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/ship/scrap/bearcat_shuttle)
+"SD" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 6;
+	icon_state = "corner_white"
+	},
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/obj/structure/bed/chair{
+	dir = 1;
+	icon_state = "chair_preview"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/handrai{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/tiled,
+/area/ship/scrap/bearcat_shuttle)
 "SH" = (
 /obj/structure/grille/broken,
 /obj/structure/lattice,
@@ -6094,6 +6560,17 @@
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/crew/wash)
+"Uy" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 8;
+	id_tag = "bearcat_shuttle_pump_out_external"
+	},
+/obj/structure/handrai{
+	dir = 4;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/airless,
+/area/ship/scrap/bearcat_shuttle)
 "Va" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
@@ -6121,6 +6598,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/scrap/maintenance/engine/aft)
+"WS" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "XU" = (
 /obj/structure/sign/redcross,
 /turf/simulated/wall,
@@ -6141,6 +6627,22 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/scrap/maintenance/atmos)
+"Zb" = (
+/obj/machinery/door/airlock/external/bolted/cycling{
+	frequency = 1380;
+	id_tag = "bearcat_shuttle_in"
+	},
+/obj/structure/cable{
+	icon_state = "4-10"
+	},
+/obj/machinery/access_button/airlock_interior{
+	frequency = 1380;
+	master_tag = "bearcat_shuttle";
+	pixel_x = -12;
+	pixel_y = 20
+	},
+/turf/simulated/floor/plating,
+/area/ship/scrap/bearcat_shuttle)
 "Zu" = (
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/industrial/warning,
@@ -11331,8 +11833,8 @@ aa
 aa
 aa
 aa
-aa
-aa
+wG
+OX
 aa
 aa
 aa
@@ -11452,9 +11954,9 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
+wG
+wG
+OX
 aa
 aa
 aa
@@ -11565,18 +12067,18 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-bg
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+wG
+wG
+wG
+Au
+wG
+wG
+wG
+wG
+oH
+wG
+wG
+wG
 aa
 aa
 aa
@@ -11685,20 +12187,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Au
+Au
+wG
+wG
+qe
+OL
+If
+JE
+Hi
+nq
+qC
+Dl
+Kz
+wG
 aa
 aa
 aa
@@ -11807,20 +12309,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Au
+yb
+DS
+EU
+vL
+uO
+Ez
+xK
+Zb
+wG
+uy
+BE
+vy
+wG
 aa
 aa
 aa
@@ -11929,20 +12431,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Au
+va
+Ij
+Ii
+Ft
+nJ
+Gs
+zV
+kI
+Rx
+ta
+JB
+vt
+wG
 aa
 aa
 aa
@@ -12051,20 +12553,20 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+Au
+WS
+wG
+Au
+za
+Sq
+SD
+uG
+Gh
+wG
+RK
+zM
+lw
+wG
 xU
 xU
 Lp
@@ -12174,19 +12676,19 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-xU
+Uy
+wG
+wG
+wG
+Au
+wG
+wG
+pj
+wG
+wG
+wG
+wG
+wG
 km
 cr
 cQ
@@ -12306,9 +12808,9 @@ bm
 bu
 bm
 aa
-aa
-aa
-xU
+wG
+wG
+xb
 cr
 di
 cR
@@ -12429,8 +12931,8 @@ bv
 bm
 aa
 aa
-aa
-Lp
+wG
+xb
 cs
 cF
 cS
@@ -12672,7 +13174,7 @@ be
 bx
 bL
 Ly
-bZ
+rw
 bZ
 ou
 cr
