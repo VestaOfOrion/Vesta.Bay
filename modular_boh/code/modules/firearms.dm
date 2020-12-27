@@ -118,9 +118,9 @@
 
 /obj/item/gunbox/inftech/attack_self(mob/living/user)
 	var/list/options = list()
-//	options["Rocket Launcher"] = list(/obj/item/weapon/gun/launcher/rocket/recoilless/sec,/obj/item/ammo_casing/rocket/rcr,/obj/item/ammo_casing/rocket/rcr,/obj/item/weapon/gun/projectile/pistol/military/sec)
-	options["Ballistic - Bullpup Rifle"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec,/obj/item/weapon/gun/projectile/pistol/military/sec)
-	options["Ballistic - Combat Shotgun"] = list(/obj/item/weapon/gun/projectile/shotgun/pump/combat/infantry,/obj/item/weapon/gun/projectile/pistol/military/sec)
+//	options["Rocket Launcher"] = list(/obj/item/weapon/gun/launcher/rocket/recoilless/sec,/obj/item/ammo_casing/rocket/rcr,/obj/item/ammo_casing/rocket/rcr)
+	options["Ballistic - Bullpup Rifle"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec)
+	options["Ballistic - Combat Shotgun"] = list(/obj/item/weapon/gun/projectile/shotgun/pump/combat/infantry)
 	var/choice = input(user,"What type of equipment?") as null|anything in options
 	if(src && choice)
 		var/list/things_to_spawn = options[choice]
