@@ -84,7 +84,7 @@
 	var/list/options = list()
 	options["Energy - Service Energy Revolver"] = list(/obj/item/weapon/gun/energy/revolver/secure)
 	options["Ballistic - P10 Pistol"] = list(/obj/item/weapon/gun/projectile/pistol/military/sec,/obj/item/ammo_magazine/pistol/double)
-	options["Ballistic - 454 Service Revolver"] = list(/obj/item/weapon/gun/projectile/revolver/medium/captain/large/inf,/obj/item/ammo_magazine/speedloader/large)
+	options["Ballistic - Magnum Service Revolver"] = list(/obj/item/weapon/gun/projectile/revolver/medium/captain/large/inf,/obj/item/ammo_magazine/speedloader/magnum)
 	var/choice = input(user,"What type of equipment?") as null|anything in options
 	if(src && choice)
 		var/list/things_to_spawn = options[choice]
@@ -230,7 +230,7 @@
 	req_access = list(access_infantry)
 	authorized_modes = list(UNAUTHORIZED)
 	ammo_type = /obj/item/ammo_casing/pistol/magnum
-	caliber = CALIBER_PISTOL_MAGNUM_LARGE
+	caliber = CALIBER_PISTOL_MAGNUM
 
 
 /////////
