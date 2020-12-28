@@ -167,3 +167,7 @@
   name = "Cargo Lift"
   icon_state = "shuttle3"
   base_turf = /turf/simulated/open
+
+/area/ship/scrap/bearcat_shuttle
+  name = "Cargo shuttle"
+  icon_state = "shuttle3"

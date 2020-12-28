@@ -2213,7 +2213,7 @@
 /turf/simulated/floor,
 /area/ship/scrap/maintenance/storage)
 "ej" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/suit_cycler,
 /turf/simulated/floor,
 /area/ship/scrap/maintenance/eva)
 "ek" = (
@@ -2600,6 +2600,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor,
 /area/ship/scrap/maintenance/eva)
 "eN" = (
