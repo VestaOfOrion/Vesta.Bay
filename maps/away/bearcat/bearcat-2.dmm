@@ -5633,7 +5633,7 @@
 /turf/simulated/floor/plating,
 /area/ship/scrap/maintenance/engine/aft)
 "jN" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -5873,7 +5873,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/walllocker/emerglocker/north,
 /obj/machinery/floodlight,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -5887,7 +5887,7 @@
 	icon_state = "1-2";
 	pixel_y = 0
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -6046,7 +6046,7 @@
 	dir = 10;
 	icon_state = "intact"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -6127,7 +6127,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -6287,7 +6287,7 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -6368,7 +6368,7 @@
 	dir = 9;
 	icon_state = "corner_white"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -6513,7 +6513,7 @@
 	icon_state = "chair_preview"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -6537,7 +6537,7 @@
 	dir = 8;
 	id_tag = "bearcat_shuttle_pump_out_external"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
