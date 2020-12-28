@@ -1,0 +1,6 @@
+author: Gilvian
+
+delete-after: True
+
+changes: 
+  - rcsadd: "Adds 2 new exo-planet ruins into the exoplanet generation pool"
