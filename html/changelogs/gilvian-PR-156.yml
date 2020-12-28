@@ -1,0 +1,7 @@
+author: Gilvian
+
+delete-after: True
+
+changes: 
+  - tweak: "readds atmos alarms onto merchant shuttle."
+  - rscadd: "some aluminium sheets for merchant so they dont have to destroy light bulbs to make radios."
