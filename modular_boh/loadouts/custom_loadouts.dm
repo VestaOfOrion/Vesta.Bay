@@ -510,3 +510,17 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/augmentation/implanted_circuitkit/right
 	display_name = "circuit augment - right arm (ROBOTIC)"
 	path = /obj/item/organ/internal/augment/active/simple/circuit/right
+
+// Jackets and coats
+/datum/gear/suit/wintercoat_dais
+	display_name = "winter coat, DAIS"
+
+/datum/gear/suit/coat
+
+/datum/gear/suit/leather
+
+/datum/gear/suit/wintercoat
+
+/datum/gear/suit/hoodie
+
+/datum/gear/suit/hoodie_sel

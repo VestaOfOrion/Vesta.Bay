@@ -47,6 +47,7 @@
 	allowed_roles = FORMAL_ROLES
 	allowed_branches = CIVILIAN_BRANCHES
 
+/*
 /datum/gear/suit/hoodie
 	allowed_roles = CASUAL_ROLES
 	allowed_branches = CIVILIAN_BRANCHES
@@ -54,6 +55,7 @@
 /datum/gear/suit/hoodie_sel
 	allowed_roles = CASUAL_ROLES
 	allowed_branches = CIVILIAN_BRANCHES
+*/
 
 /datum/gear/suit/labcoat
 	allowed_roles = DOCTOR_ROLES
@@ -76,6 +78,7 @@
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/rd/ec
 	allowed_roles = list(/datum/job/rd)
 
+/*
 /datum/gear/suit/wintercoat_dais
 	display_name = "winter coat, DAIS"
 	allowed_roles = list(/datum/job/engineer, /datum/job/roboticist, /datum/job/scientist_assistant, /datum/job/scientist, /datum/job/senior_scientist, /datum/job/rd)
@@ -89,6 +92,7 @@
 
 /datum/gear/suit/wintercoat
 	allowed_branches = CIVILIAN_BRANCHES
+*/
 
 /datum/gear/suit/track
 	allowed_roles = CASUAL_ROLES
