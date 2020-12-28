@@ -4766,7 +4766,6 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/item/weapon/material/hatchet/machete,
 /obj/item/weapon/rig/recon/exploration,
 /obj/structure/closet/secure_closet/explorer/medic,
 /obj/effect/floor_decal/corner/blue/mono,
@@ -4789,13 +4788,11 @@
 /obj/item/rig_module/vision/medhud,
 /obj/item/rig_module/device/healthscanner,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/peridaxon,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/peridaxon,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/pain,
 /obj/item/weapon/reagent_containers/hypospray/autoinjector/pain,
 /obj/item/auto_cpr{
 	pixel_y = -1
 	},
-/obj/item/weapon/storage/box/gloves,
+/obj/item/clothing/gloves/latex/nitrile,
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/exploration)
 "ki" = (
