@@ -86,7 +86,7 @@
 	permeability_coefficient = 0.50
 
 
-/*/obj/item/clothing/under/rank/internalaffairs
+/obj/item/clothing/under/rank/internalaffairs
 	desc = "The plain, professional attire of an Internal Affairs Agent. The collar is <i>immaculately</i> starched."
 	name = "Internal Affairs uniform"
 	icon_state = "internalaffairs"
@@ -104,7 +104,7 @@
 	desc = "A plain shirt and pair of pressed black pants."
 	name = "formal outfit"
 	starting_accessories = list(/obj/item/clothing/accessory/red_long)
-*/
+
 
 /obj/item/clothing/under/rank/janitor
 	desc = "It's the official uniform of the janitor. It has minor protection from biohazards."
