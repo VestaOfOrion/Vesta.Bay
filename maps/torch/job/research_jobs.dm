@@ -84,7 +84,7 @@
 		access_mining_office, access_mining_station, access_xenobiology, access_guppy_helm,
 		access_xenoarch, access_nanotrasen, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
 		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry, access_torch_fax,
-		access_petrov_maint, access_radio_sci, access_radio_exp
+		access_petrov_maint, access_radio_sci, access_radio_exp, access_maint_tunnels
 	)
 
 	minimal_access = list()
@@ -129,5 +129,5 @@
 		access_mining_office, access_mining_station, access_xenobiology, access_guppy_helm,
 		access_xenoarch, access_nanotrasen, access_solgov_crew, access_expedition_shuttle, access_guppy, access_hangar,
 		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry,
-		access_radio_sci, access_radio_exp
+		access_radio_sci, access_radio_exp, access_maint_tunnels
 	)
