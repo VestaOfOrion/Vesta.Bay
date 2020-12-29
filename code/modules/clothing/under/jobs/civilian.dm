@@ -98,11 +98,19 @@
 /obj/item/clothing/under/rank/internalaffairs/plain
 	desc = "A plain shirt and pair of pressed black pants."
 	name = "formal outfit"
+	icon_state = "internalaffairs"
+	item_state = "ba_suit"
+	worn_state = "internalaffairs"
+	gender_icons = 1
 	starting_accessories = null
 
 /obj/item/clothing/under/rank/internalaffairs/plain/nt
 	desc = "A plain shirt and pair of pressed black pants."
 	name = "formal outfit"
+	icon_state = "internalaffairs"
+	item_state = "ba_suit"
+	worn_state = "internalaffairs"
+	gender_icons = 1
 	starting_accessories = list(/obj/item/clothing/accessory/red_long)
 
 
