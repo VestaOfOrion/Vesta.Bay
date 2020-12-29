@@ -24,6 +24,11 @@ This file will primarily contain material relating to either Foundation Agents o
 	icon_state = "fbriefcase"
 	item_state = "fbriefcase"
 
+/obj/item/weapon/storage/briefcase/foundation_inert/disrupts_psionics()
+	return FALSE
+
+
+
 //////////
 // Unbranded Psyker Gun
 //////////
