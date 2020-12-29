@@ -1,0 +1,4 @@
+author: Hekzder
+delete-after: True
+changes: 
+  - rscadd: "Paygrades have been added to all ranks to view in character setup and crew records."
