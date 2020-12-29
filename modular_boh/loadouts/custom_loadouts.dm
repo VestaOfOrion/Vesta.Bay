@@ -471,9 +471,17 @@ datum/gear/head/ECdepartment/New()
 	allowed_branches = NT_BRANCHES
 
 /datum/gear/head/corpsecberet
-	display_name = "Corporate security beret"
-	path = /obj/item/clothing/head/beret/guard
+	display_name = "Corporate security beret selection"
+	path = /obj/item/clothing/head/beret
 	allowed_branches = SECURITY_COMPANY_BRANCHES
+
+/datum/gear/head/corpsecberet/New()
+	..()
+	var/beret = list()
+	beret += /obj/item/clothing/head/beret/guard
+	beret += /obj/item/clothing/head/beret/pcrc
+	beret += /obj/item/clothing/head/beret/saare
+	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(beret)
 
 //################# AUGMENTS ###############################
 
