@@ -40,7 +40,7 @@
 	max_skill = list(   SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_DEVICES     = SKILL_MAX,
 	                    SKILL_SCIENCE     = SKILL_MAX)
-	skill_points = 20
+	skill_points = 26
 
 /datum/job/scientist
 	title = "Scientist"
@@ -88,7 +88,7 @@
 	)
 
 	minimal_access = list()
-	skill_points = 20
+	skill_points = 24
 
 /datum/job/scientist_assistant
 	title = "Research Assistant"

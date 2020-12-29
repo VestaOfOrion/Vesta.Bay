@@ -82,7 +82,6 @@
 
 /obj/item/gunbox/inftech/attack_self(mob/living/user)
 	var/list/options = list()
-//	options["Rocket Launcher"] = list(/obj/item/weapon/gun/launcher/rocket/recoilless/sec,/obj/item/ammo_casing/rocket/rcr,/obj/item/ammo_casing/rocket/rcr,/obj/item/weapon/gun/projectile/pistol/military/sec)
 	options["Ballistic - Bullpup Rifle"] = list(/obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec,/obj/item/weapon/gun/projectile/pistol/military/sec)
 	options["Ballistic - Combat Shotgun"] = list(/obj/item/weapon/gun/projectile/shotgun/pump/combat/infantry,/obj/item/weapon/gun/projectile/pistol/military/sec)
 	var/choice = input(user,"What type of equipment?") as null|anything in options
@@ -407,7 +406,7 @@
 
 /obj/item/weapon/gun/projectile/pistol/magnum_pistol/solar
 	name = "Eagle"
-	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security Aboard the NTSS Dagon' engraved"
+	desc = "The HI Eagle, a reverse engineered HT Magnus. This one has 'To the Chief of Security aboard the NTSS Dagon' engraved"
 	magazine_type = /obj/item/ammo_magazine/magnum/rubber
 	starts_loaded = 1
 
@@ -418,10 +417,11 @@
 	desc = "A weapon that uses advanced pulse-based beam generation technology to emit powerful laser blasts. It's fitted with an incredibly tiny self-contained reactor. \
 	This provides the weapon, in theory, an infinite power source, but a horrible munition count in practice. Additionally, it cannot fire a concentrated beam, having been modified to be less-than-lethal."
 	projectile_type = /obj/item/projectile/beam/pulse/epp
-	max_shots = 3
+	max_shots = 5
 	self_recharge = 1
 	burst = 1
 	base_parry_chance = 10
+	accuracy = 3 //To give it regular pistol accuracy
 
 /obj/item/weapon/gun/energy/particle/support
 	name = "defence lance"

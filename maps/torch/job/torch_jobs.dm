@@ -12,6 +12,7 @@
 //# VESTA.BAY ################### ADDED SPECIES TO JOB BLACKLIST
 #define HUMAN_ONLY_JOBS /datum/job/captain, /datum/job/hop, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos, /datum/job/representative, /datum/job/sea, /datum/job/pathfinder, /datum/job/rd
 	species_to_job_blacklist = list(
+	//Vesta edits, to allow for aliens to take more jobs
 		///datum/species/unathi  = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden), //Other jobs unavailable via branch restrictions,
 		///datum/species/unathi/yeosa = list(HUMAN_ONLY_JOBS, /datum/job/liaison, /datum/job/warden),
 		///datum/species/skrell  = list(HUMAN_ONLY_JOBS),
