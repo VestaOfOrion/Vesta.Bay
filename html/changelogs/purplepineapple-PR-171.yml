@@ -45,3 +45,5 @@ changes:
   - tweak: "Changes CQC mechanics to take into account CQC skill and face armor."
   - tweak: "Gives security guards/brig chief/FT access to the hangar like medical/engineering."
   - bugfix: "Corrects the corporate security berets to be selectable by PCRC/SAARE players."
+  - tweak: "Gives research maintenance access."
+  - tweak: "Gives PADV holster options."
