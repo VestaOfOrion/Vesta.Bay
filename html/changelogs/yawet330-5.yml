@@ -3,4 +3,4 @@ author: Yawet330
 delete-after: True
 
 changes: 
-  - tweak: "Makes the 454 no longer a holdout revolver. :agony:"
+  - tweak: "454 round buffed back up to 50 damage, ranged accuracy falloff decreased. :agony:"
