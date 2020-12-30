@@ -148,7 +148,6 @@
 	ideal_character_age = 20
 	alt_titles = list(
 		"Corpsman Trainee")
-
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
