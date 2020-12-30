@@ -108,3 +108,6 @@
 	chloral		spawn_reagent = /datum/reagent/chloralhydrate
 	cryoxadone	spawn_reagent = /datum/reagent/cryoxadone
 	clonexadone	spawn_reagent = /datum/reagent/clonexadone
+
+	// Engineering
+	boron		spawn_reagent = /datum/reagent/toxin/boron
