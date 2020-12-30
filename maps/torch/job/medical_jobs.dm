@@ -56,9 +56,6 @@
 	supervisors = "Physicians and the Chief Medical Officer"
 	selection_color = "#013d3b"
 	economic_power = 6
-	alt_titles = list(
-		"Junior Surgeon",
-		"Nurse")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/senior
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -149,7 +146,6 @@
 	ideal_character_age = 20
 	alt_titles = list(
 		"Corpsman Trainee")
-
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -197,8 +193,6 @@
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	ideal_character_age = 30
 	minimal_player_age = 7
-	alt_titles = list(
-		"Chemist")
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/contractor)
