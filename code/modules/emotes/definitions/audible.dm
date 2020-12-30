@@ -156,6 +156,30 @@
 	check_restraints = TRUE
 	check_range = 1
 
+/decl/emote/audible/fsnap
+	key = "fsnap"
+	emote_message_1p_target = "<span class='notice'>You snap your fingers at TARGET, trying to get TARGET_THEIR attention.</span>"
+	emote_message_1p = "You snap your fingers."
+	emote_message_3p_target = "<span class='notice'>USER snaps USER_THEIR fingers at TARGET, trying to get TARGET_THEIR attention.</span>"
+	emote_message_3p = "USER snaps USER_THEIR fingers."
+	emote_sound = 'sound/misc/fsnap1.ogg'
+
+/decl/emote/audible/fsnap2
+	key = "fsnap2"
+	emote_message_1p_target = "<span class='notice'>You snap your fingers at TARGET twice, trying to get TARGET_THEIR attention.</span>"
+	emote_message_1p = "You snap your fingers twice."
+	emote_message_3p_target = "<span class='notice'>USER snaps USER_THEIR fingers at TARGET twice, trying to get TARGET_THEIR attention.</span>"
+	emote_message_3p = "USER snaps USER_THEIR fingers twice."
+	emote_sound = 'sound/misc/fsnap2.ogg'
+
+/decl/emote/audible/fsnap3
+	key = "fsnap3"
+	emote_message_1p_target = "<span class='notice'>You snap your fingers at TARGET three times in a row, trying to get TARGET_THEIR attention.</span>"
+	emote_message_1p = "You snap your fingers three times in a row."
+	emote_message_3p_target = "<span class='notice'>USER snaps USER_THEIR fingers at TARGET three times in a row, trying to get TARGET_THEIR attention.</span>"
+	emote_message_3p = "USER snaps USER_THEIR fingers three times in a row."
+	emote_sound = 'sound/misc/fsnap3.ogg'
+
 /decl/emote/audible/bug_hiss
 	key ="hiss"
 	emote_message_3p_target = "USER hisses at TARGET."

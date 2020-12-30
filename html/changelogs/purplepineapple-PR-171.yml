@@ -1,0 +1,49 @@
+################################
+# Example Changelog File
+#
+# Note: This file, and files beginning with ".", and files that don't end in ".yml" will not be read. If you change this file, you will look really dumb.
+#
+# Your changelog will be merged with a master changelog. (New stuff added only, and only on the date entry for the day it was merged.)
+# When it is, any changes listed below will disappear.
+#
+# Valid Prefixes: 
+#   bugfix
+#   wip (For works in progress)
+#   tweak
+#   soundadd
+#   sounddel
+#   rscadd (general adding of nice things)
+#   rscdel (general deleting of nice things)
+#   imageadd
+#   imagedel
+#   maptweak
+#   spellcheck (typo fixes)
+#   experiment
+#   admin
+#################################
+
+# Your name.  
+author: PurplePineapple
+
+# Optional: Remove this file after generating master changelog.  Useful for PR changelogs that won't get used again.
+delete-after: True
+
+# Any changes you've made.  See valid prefix list above.
+# INDENT WITH TWO SPACES.  NOT TABS.  SPACES.
+# SCREW THIS UP AND IT WON'T WORK.
+# Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
+# Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
+changes: 
+  - tweak: "Gives all jobs 8 flat skill points. Research jobs and Bridge Officer have been given slightly extra due to their low starting skills."
+  - tweak: "The SolGov Flag banner has been changed to Hangar access instead of Pathfinder access, meaning anyone with access to the Gaunt can deploy flags."
+  - bugfix: "Fixes mentions of SEV, Charon, and Expeditionary Corps in the summary documents."
+  - tweak: "Sets the EPP pistol's accuracy to 3 (default pistol value) and gives it 5 charges."
+  - rscadd: "Adds the snapping audible emote."
+  - tweak: "Gives the security voidsuit its Hestia armor values."
+  - bugfix: "Changes the Dagon overmap to NTEF instead of SCGEC."
+  - tweak: "Gives the CSO access to pilot the Dagon."
+  - tweak: "Changes CQC mechanics to take into account CQC skill and face armor."
+  - tweak: "Gives security guards/brig chief/FT access to the hangar like medical/engineering."
+  - bugfix: "Corrects the corporate security berets to be selectable by PCRC/SAARE players."
+  - tweak: "Gives research maintenance access."
+  - tweak: "Gives PADV holster options."

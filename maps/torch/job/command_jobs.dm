@@ -136,7 +136,7 @@
 		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry, access_petrov_rd,
 		access_petrov_security, access_petrov_maint, access_pathfinder, access_explorer, access_eva, access_solgov_crew,
 		access_expedition_shuttle, access_expedition_shuttle_helm, access_maint_tunnels, access_torch_fax, access_radio_comm,
-		access_radio_sci, access_radio_exp
+		access_radio_sci, access_radio_exp, access_torch_helm
 	)
 
 	minimal_access = list()
@@ -410,7 +410,7 @@
 	                    SKILL_PILOT       = SKILL_ADEPT)
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
-	skill_points = 20
+	skill_points = 22
 
 
 	access = list(
