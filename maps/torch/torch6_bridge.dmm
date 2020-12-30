@@ -6574,7 +6574,7 @@
 /area/hallway/primary/bridge/aft)
 "ol" = (
 /obj/machinery/door/airlock/sol{
-	name = "Solarian Marine Corps Attache Room"
+	name = "SMC Senior Enlisted Advisor"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -8317,7 +8317,7 @@
 "sz" = (
 /obj/machinery/door/airlock/sol{
 	id_tag = "seaforedoor";
-	name = "Senior Enlisted Advisor";
+	name = "NTEF Senior Enlisted Advisor";
 	secured_wires = 1
 	},
 /obj/machinery/door/firedoor,
@@ -9392,7 +9392,7 @@
 	dir = 6
 	},
 /obj/machinery/camera/network/command{
-	c_tag = "Senior Enlisted Advisor - Office";
+	c_tag = "NTEF Senior Enlisted Advisor - Office";
 	dir = 4;
 	network = list("Command")
 	},
@@ -10772,7 +10772,7 @@
 	},
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/closet/secure_closet/smcattache,
+/obj/structure/closet/secure_closet/sea,
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "yk" = (
@@ -16492,7 +16492,7 @@
 	dir = 5
 	},
 /obj/machinery/camera/network/command{
-	c_tag = "Solarian Marine Corps Attache - Office";
+	c_tag = "SMC Senior Enlisted Advisor - Office";
 	dir = 4
 	},
 /obj/structure/table/standard{
