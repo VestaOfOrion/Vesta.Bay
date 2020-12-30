@@ -318,7 +318,7 @@ datum/gear/utility/crayonmre
 	display_name = "Blaze, counselor"
 	path = /obj/item/clothing/accessory/solgov/specialty/counselor
 	allowed_roles = list(/datum/job/psychiatrist)
-
+	
 //################# HEAD EC OVERRIDE ####################
 
 /datum/gear/head/ECdepartment
