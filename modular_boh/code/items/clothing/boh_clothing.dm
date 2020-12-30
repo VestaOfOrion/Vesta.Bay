@@ -149,3 +149,18 @@
 	icon_open = "labcoat_cso_open"
 	icon_closed = "labcoat_cso"
 	body_parts_covered = UPPER_TORSO|ARMS
+
+//#### Boots
+/obj/item/clothing/shoes/dutyboots/knee
+	name = "knee high jackboot"
+	desc = "Tall synthleather boots with an artificial shine."
+	icon = 'icons/obj/clothing/obj_feet.dmi'
+	icon_state = "jackboots_knee"
+	item_state = "jackboots_knee"
+
+/obj/item/clothing/shoes/dutyboots/thigh
+	name = "thigh high jackboots"
+	desc = "Tall synthleather boots with an artificial shine."
+	icon = 'icons/obj/clothing/obj_feet.dmi'
+	icon_state = "jackboots_thigh"
+	item_state = "jackboots_thigh"
