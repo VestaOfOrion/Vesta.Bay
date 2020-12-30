@@ -34,7 +34,7 @@
 	icon_state = "spdloader_magnum"
 	caliber = CALIBER_PISTOL_MAGNUM_LARGE
 	ammo_type = /obj/item/ammo_casing/pistol/magnum/large
-	matter = list(MATERIAL_STEEL = 50000) //Same as the RCD, retardedly high, for good reason.
+	matter = list(MATERIAL_STEEL = 4320) //Reduced this experimentally to 3x the regular cost of a magnum speedloader
 	max_ammo = 6
 	multiple_sprites = 1
 
