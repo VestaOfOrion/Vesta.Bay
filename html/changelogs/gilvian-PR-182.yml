@@ -1,0 +1,7 @@
+author: Gilvian
+
+delete-after: True
+
+changes: 
+  - tweak: "Adds Binos and GPS to few off-ship roles."
+  
