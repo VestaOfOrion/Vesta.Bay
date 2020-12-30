@@ -1,4 +1,4 @@
- author: Hekzder
+author: Hekzder
 delete-after: True
 changes: 
   - rscadd: "Adds E-6 to Engineer to fix a rank gap present in Engineering."
