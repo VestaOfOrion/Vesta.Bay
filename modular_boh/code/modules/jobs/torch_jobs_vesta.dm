@@ -134,8 +134,7 @@
 /datum/job/pathfinder
 	allowed_branches = list(/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder/fleet)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/e7,
-		/datum/mil_rank/fleet/e8,
+		/datum/mil_rank/fleet/o1,
 		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3
 	)

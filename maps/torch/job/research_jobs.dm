@@ -56,8 +56,7 @@
 		"Anomalist",
 		"Researcher",
 		"Xenobiologist",
-		"Xenobotanist",
-		"Chemical Researcher"
+		"Xenobotanist"
 	)
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_COMPUTER    = SKILL_BASIC,
