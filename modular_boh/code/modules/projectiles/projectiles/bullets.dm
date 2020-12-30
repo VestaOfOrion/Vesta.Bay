@@ -25,7 +25,7 @@
 /obj/item/projectile/bullet/pistol/large
 	fire_sound = 'sound/weapons/gunshot/revolver_1.ogg'
 	damage = 50
-	distance_falloff = 2.5
+	distance_falloff = 1.5
 	armor_penetration = 15
 
 /obj/item/projectile/bullet/rifle/military/large
