@@ -30,14 +30,6 @@
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
-/decl/hierarchy/outfit/job/torch/crew/command/sea/marineattache
-	name = OUTFIT_JOB_NAME("Marine Attache")
-	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
-	shoes = /obj/item/clothing/shoes/dutyboots
-	l_ear = /obj/item/device/radio/headset/sea
-	id_types = list(/obj/item/weapon/card/id/torch/silver)
-	pda_type = /obj/item/modular_computer/pda/heads
-
 /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/officer/command
 
