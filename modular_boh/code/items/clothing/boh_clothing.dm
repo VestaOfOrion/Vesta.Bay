@@ -152,14 +152,14 @@
 
 //#### Boots
 /obj/item/clothing/shoes/dutyboots/knee
-	name = "jackboots - knee"
+	name = "knee high jackboot"
 	desc = "Tall synthleather boots with an artificial shine."
 	icon = 'icons/obj/clothing/obj_feet.dmi'
 	icon_state = "jackboots_knee"
 	item_state = "jackboots_knee"
 
 /obj/item/clothing/shoes/dutyboots/thigh
-	name = "jackboots - thigh"
+	name = "thigh high jackboots"
 	desc = "Tall synthleather boots with an artificial shine."
 	icon = 'icons/obj/clothing/obj_feet.dmi'
 	icon_state = "jackboots_thigh"
