@@ -1,7 +1,7 @@
 /obj/item/projectile/ion
 	name = "ion bolt"
 	icon_state = "ion"
-	fire_sound = 'sound/weapons/Laser.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/ionrifle.ogg'
 	damage = 0
 	damage_type = BURN
 	damage_flags = 0
@@ -17,6 +17,7 @@
 	name = "ion pulse"
 	heavy_effect_range = 0
 	light_effect_range = 1
+	fire_sound = 'modular_boh/sounds/weapons/ionpistol.ogg'
 
 /obj/item/projectile/ion/tiny
 	heavy_effect_range = 0

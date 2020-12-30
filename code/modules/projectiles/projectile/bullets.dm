@@ -121,7 +121,7 @@
 /* short-casing projectiles, like the kind used in pistols or SMGs */
 
 /obj/item/projectile/bullet/pistol
-	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_pistol.ogg'
 	damage = 45
 	distance_falloff = 3
 
@@ -131,7 +131,7 @@
 	distance_falloff = 4
 
 /obj/item/projectile/bullet/pistol/strong
-	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/revolver_1.ogg'
 	damage = 50
 	penetration_modifier = 0.8
 	distance_falloff = 2.5
@@ -149,7 +149,7 @@
 
 //4mm. Tiny, very low damage, does not embed, but has very high penetration. Only to be used for the experimental SMG.
 /obj/item/projectile/bullet/flechette
-	fire_sound = 'sound/weapons/gunshot/gunshot_4mm.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_4mm.ogg'
 	damage = 23
 	penetrating = 1
 	armor_penetration = 70
@@ -160,7 +160,7 @@
 
 /obj/item/projectile/bullet/shotgun
 	name = "slug"
-	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_shotgun.ogg'
 	damage = 65
 	armor_penetration = 10
 
@@ -177,7 +177,7 @@
 //Overall less damage than slugs in exchange for more damage at very close range and more embedding
 /obj/item/projectile/bullet/pellet/shotgun
 	name = "shrapnel"
-	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_shotgun.ogg'
 	damage = 30
 	pellets = 6
 	range_step = 1
@@ -186,7 +186,7 @@
 /* "Rifle" rounds */
 
 /obj/item/projectile/bullet/rifle
-	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_AR.ogg'
 	damage = 45
 	armor_penetration = 25
 	penetration_modifier = 1.5
@@ -194,13 +194,13 @@
 	distance_falloff = 1.5
 
 /obj/item/projectile/bullet/rifle/military
-	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_carbine.ogg'
 	damage = 40
 	armor_penetration = 35
 	penetration_modifier = 1
 
 /obj/item/projectile/bullet/rifle/shell
-	fire_sound = 'sound/weapons/gunshot/sniper.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_sniper.ogg'
 	damage = 80
 	stun = 3
 	weaken = 3
