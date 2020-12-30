@@ -1,0 +1,7 @@
+author: thatguyfromlife
+
+delete-after: True
+
+changes: 
+  - rscadd: "Added Alt-titles; Junior Surgeon and Nurse to medical Resident, Chemist to labtech."
+  - rscadd: "Added nurses hat to medical loadouts."
