@@ -299,7 +299,7 @@ var/const/INF               =(1<<11)
 		/datum/mil_branch/marine_corps
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/marine_corps/e8,
+		/datum/mil_rank/marine_corps/e8_alt,
 		/datum/mil_rank/marine_corps/e9,
 		/datum/mil_rank/marine_corps/e9_alt
 	)
