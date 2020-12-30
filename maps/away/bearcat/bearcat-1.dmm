@@ -1759,6 +1759,15 @@
 "ef" = (
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/maintenance/techstorage)
+"ek" = (
+/obj/structure/closet/crate/plastic,
+/obj/item/weapon/storage/ore,
+/obj/item/weapon/pickaxe,
+/obj/item/stack/flag/yellow,
+/obj/item/weapon/storage/box/glowsticks,
+/obj/item/device/scanner/mining,
+/turf/simulated/floor/tiled/techfloor,
+/area/ship/scrap/maintenance/storage)
 "em" = (
 /obj/machinery/light/small{
 	dir = 1;
@@ -2314,17 +2323,6 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/monotile,
 /area/ship/scrap/cargo/lower)
-"it" = (
-/obj/structure/closet/crate/plastic,
-/obj/item/weapon/storage/ore,
-/obj/item/weapon/pickaxe,
-/obj/item/stack/flag/yellow,
-/obj/item/weapon/storage/box/glowsticks,
-/obj/item/device/scanner/mining,
-/obj/item/device/binoculars,
-/obj/item/device/gps,
-/turf/simulated/floor/tiled/techfloor,
-/area/ship/scrap/maintenance/storage)
 "iW" = (
 /obj/effect/paint/brown,
 /turf/simulated/wall/r_wall,
@@ -6096,7 +6094,7 @@ dt
 Qb
 dR
 ea
-it
+ek
 ex
 eN
 eW
