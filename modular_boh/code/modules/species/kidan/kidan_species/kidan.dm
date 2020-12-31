@@ -17,3 +17,6 @@
 
 	sexybits_location = BP_GROIN
 
+	override_organ_types = list(
+		BP_EYES = /obj/item/organ/internal/eyes/kidan
+	)

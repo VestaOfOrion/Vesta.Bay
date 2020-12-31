@@ -17,7 +17,7 @@
 
 /datum/sprite_accessory/hair/kidan/hawk
     name = "Hawk Horns"
-    icon_state = "hawk_horns"
+    icon_state = "hawk_horn"
 
 /datum/sprite_accessory/hair/kidan/bull
     name = "Bull Horns"
@@ -25,7 +25,7 @@
 
 /datum/sprite_accessory/hair/kidan/broken
     name = "Broken Horns"
-    icon_state = "broken_horns"
+    icon_state = "broken_bull"
 
 /datum/sprite_accessory/hair/kidan/tall
     name = "Tall Horns"

@@ -66,84 +66,72 @@
 	desc = ""
 	icon_state = "m_ipc_antenna_synth_curled_ADJ"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/curly_bug
 	name = "curly antennae, colorable"
 	desc = ""
 	icon_state = "curly_bug"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_perky
 	name = "Kidan Perky Antennae"
 	desc = ""
 	icon_state = "kidan_perky"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_mopey
 	name = "Kidan Mopey Antennae"
 	desc = ""
 	icon_state = "kidan_mopey"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_curious
 	name = "Kidan Curious Antennae"
 	desc = ""
 	icon_state = "kidan_curious"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_crescent
 	name = "Kidan Crescent Antennae"
 	desc = ""
 	icon_state = "kidan_crescent"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_alert
 	name = "Kidan Alert Antennae"
 	desc = ""
 	icon_state = "kidan_alert"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_normal
 	name = "Kidan Antennae"
 	desc = ""
 	icon_state = "kidan_normal"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_long
 	name = "Kidan Long Antennae"
 	desc = ""
 	icon_state = "kidan_long"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_moth
 	name = "Kidan Moth Antennae"
 	desc = ""
 	icon_state = "kidan_moth"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_mantie_long
 	name = "Kidan Mantie Antennae, Long"
 	desc = ""
 	icon_state = "kidan_mantie_long"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_mantie_curled
 	name = "Kidan Mantie Antennae, Curled"
 	desc = ""
 	icon_state = "kidan_mantie_curled"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 
 /datum/sprite_accessory/ears/dual_robot
