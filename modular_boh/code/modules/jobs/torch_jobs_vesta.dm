@@ -248,7 +248,7 @@
 /datum/job/chemist
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/medical/chemist/fleet,
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/medical/chemist,
 		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/medical/chemist/marine
 	)
 	allowed_ranks = list(
@@ -464,6 +464,18 @@
 		/datum/mil_rank/marine_corps/e4,
 		/datum/mil_rank/marine_corps/e5,
 		/datum/mil_rank/civ/contractor
+	)
+
+/datum/job/mining
+	allowed_branches = list(
+		/datum/mil_branch/civilian = /decl/hierarchy/outfit/job/torch/passenger/research/prospector,
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/supply/tech/fleet/prospector
+	)
+	allowed_ranks = list(
+		/datum/mil_rank/civ/contractor,
+		/datum/mil_rank/fleet/e3,
+		/datum/mil_rank/fleet/e4,
+		/datum/mil_rank/fleet/e5
 	)
 /***/
 
