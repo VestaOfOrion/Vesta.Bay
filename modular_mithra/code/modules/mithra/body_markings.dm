@@ -544,6 +544,11 @@
 		icon_state = "vasseyesalt"
 		body_parts = list(BP_HEAD)
 
+	kidanmarkings
+		name = "Kidan Head Markings"
+		icon_state = "kidanmarkings"
+		body_parts = list(BP_HEAD)
+
 	sergaleyes
 		name = "Sergal Eyes"
 		icon_state = "eyes_sergal"
