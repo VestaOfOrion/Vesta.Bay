@@ -344,6 +344,9 @@
 	else if(src.health < src.maxhealth * 3/4)
 		to_chat(user, "\The [src] shows signs of damage!")
 
+	if (emagged && ishuman(user) && user.skill_check(SKILL_COMPUTER, SKILL_ADEPT))
+		to_chat(user, SPAN_WARNING("\The [src]'s control panel looks fried."))
+
 
 /obj/machinery/door/set_broken(new_state)
 	. = ..()
@@ -371,14 +374,7 @@
 
 
 /obj/machinery/door/on_update_icon()
-	if(connections in list(NORTH, SOUTH, NORTH|SOUTH))
-		if(connections in list(WEST, EAST, EAST|WEST))
-			set_dir(SOUTH)
-		else
-			set_dir(EAST)
-	else
-		set_dir(SOUTH)
-
+	update_dir()
 	if(density)
 		icon_state = "door1"
 	else
@@ -386,6 +382,14 @@
 	SSradiation.resistance_cache.Remove(get_turf(src))
 	return
 
+/obj/machinery/door/proc/update_dir()
+	if(connections in list(NORTH, SOUTH, NORTH|SOUTH))
+		if(connections in list(WEST, EAST, EAST|WEST))
+			set_dir(SOUTH)
+		else
+			set_dir(EAST)
+	else
+		set_dir(SOUTH)
 
 /obj/machinery/door/proc/do_animate(animation)
 	switch(animation)

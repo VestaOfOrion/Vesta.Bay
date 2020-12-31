@@ -631,7 +631,7 @@
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/camera/network/exploration_shuttle{
 	c_tag = "Gaunt - Ejection Chute"
 	},
@@ -1238,7 +1238,7 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = -32
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -1455,8 +1455,8 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/obj/structure/handrai,
-/obj/structure/handrai{
+/obj/structure/handrail,
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -1489,7 +1489,7 @@
 	dir = 2;
 	id_tag = "calypso_shuttle_pump_out_internal"
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/oxygen_pump{
 	pixel_y = 32
 	},
@@ -1511,7 +1511,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
 	dir = 2;
 	id_tag = "calypso_shuttle_pump"
@@ -1533,7 +1533,7 @@
 	pixel_x = 0;
 	pixel_y = 24
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
@@ -1549,7 +1549,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/camera/network/exploration_shuttle{
 	c_tag = "Gaunt - Crew Compartment Aft"
@@ -1576,7 +1576,7 @@
 /turf/simulated/floor/tiled,
 /area/exploration_shuttle/airlock)
 "cQ" = (
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -1914,7 +1914,7 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -1925,7 +1925,7 @@
 	dir = 1;
 	id_tag = "calypso_shuttle_pump_out_internal"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -1937,7 +1937,7 @@
 /area/exploration_shuttle/airlock)
 "dx" = (
 /obj/machinery/light/small,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -1953,7 +1953,7 @@
 	dir = 1;
 	id_tag = "calypso_shuttle_pump"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -1968,7 +1968,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -2003,7 +2003,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -2161,7 +2161,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/power/apc/shuttle/charon{
 	dir = 1;
 	name = "north bump";
@@ -2497,7 +2497,7 @@
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/atmos)
 "ey" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -2557,7 +2557,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -2665,7 +2665,7 @@
 	c_tag = "Gaunt - Cargo Portside";
 	dir = 4
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -2883,7 +2883,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -2954,7 +2954,7 @@
 /area/shuttle/petrov/isolation)
 "fG" = (
 /obj/machinery/atmospherics/binary/pump,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -2965,7 +2965,7 @@
 /turf/simulated/floor/tiled,
 /area/quartermaster/exploration)
 "fI" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -3052,7 +3052,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "fR" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -3505,7 +3505,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/rnd/canister)
 "hd" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -5226,7 +5226,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -10213,7 +10213,7 @@
 /obj/machinery/atmospherics/binary/pump{
 	dir = 1
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -10419,7 +10419,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
 "wl" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -10747,7 +10747,7 @@
 /area/shuttle/petrov/equipment)
 "xu" = (
 /obj/machinery/floodlight,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -10766,7 +10766,7 @@
 /area/infantry)
 "xy" = (
 /obj/machinery/atmospherics/portables_connector,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -11070,7 +11070,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -11612,7 +11612,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
 "Ao" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -11709,7 +11709,7 @@
 	icon_state = "map_connector"
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -14289,7 +14289,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -14703,7 +14703,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -14855,7 +14855,7 @@
 	pixel_x = 0;
 	pixel_y = 24
 	},
-/obj/structure/handrai,
+/obj/structure/handrail,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
@@ -15231,7 +15231,7 @@
 /turf/simulated/floor/tiled/white,
 /area/vacant/infirmary)
 "Mt" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -15499,7 +15499,7 @@
 	icon_state = "alarm0";
 	pixel_y = -22
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -15832,7 +15832,7 @@
 /turf/simulated/floor/reinforced,
 /area/shuttle/petrov/cell1)
 "Ow" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -15926,7 +15926,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -15998,7 +15998,7 @@
 /turf/simulated/floor/plating,
 /area/quartermaster/hangar)
 "OZ" = (
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -17466,7 +17466,7 @@
 	dir = 4;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 8;
 	icon_state = "handrail"
 	},
@@ -17723,7 +17723,7 @@
 	dir = 1;
 	level = 2
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -18458,7 +18458,7 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 4;
 	icon_state = "handrail"
 	},
@@ -18910,7 +18910,7 @@
 	id_tag = "petrov_shuttle_pump"
 	},
 /obj/effect/floor_decal/techfloor,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},
@@ -19047,7 +19047,7 @@
 	id_tag = "petrov_shuttle_pump"
 	},
 /obj/effect/floor_decal/techfloor,
-/obj/structure/handrai{
+/obj/structure/handrail{
 	dir = 1;
 	icon_state = "handrail"
 	},

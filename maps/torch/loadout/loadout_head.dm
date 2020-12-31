@@ -85,6 +85,22 @@
 /datum/gear/tactical/balaclava
 	allowed_roles = ARMORED_ROLES
 
+/datum/gear/head/fleetberet
+	display_name = "Fleet branch beret selection"
+	description = "A beret denoting service in one of the fleets within the SCG Fleet."
+	path = /obj/item/clothing/head/beret/solgov/fleet/branch
+	allowed_branches = list(/datum/mil_branch/fleet)
+
+/datum/gear/head/fleetberet/New()
+	..()
+	var/berets = list()
+	berets["first fleet beret"] = /obj/item/clothing/head/beret/solgov/fleet/branch
+	berets["second fleet beret"] = /obj/item/clothing/head/beret/solgov/fleet/branch/second
+	berets["third fleet beret"] = /obj/item/clothing/head/beret/solgov/fleet/branch/third
+	berets["fourth fleet beret"] = /obj/item/clothing/head/beret/solgov/fleet/branch/fourth
+	berets["fifth fleet beret"] = /obj/item/clothing/head/beret/solgov/fleet/branch/fifth
+	gear_tweaks += new/datum/gear_tweak/path(berets)
+
 /datum/gear/head/ECberet
 	display_name = "EC sections beret selection"
 	description = "A beret denoting service in one of the branches within the SCG EC."
@@ -100,3 +116,10 @@
 
 /datum/gear/head/corporateberet
 	allowed_branches = CIVILIAN_BRANCHES
+	
+/datum/gear/head/nursehat
+	display_name = "Nurses Hat"
+	description = "A small white hat with a blue medical cross on the front, worn by nursing staff."
+	path = /obj/item/clothing/head/nursehat
+	allowed_roles = MEDICAL_ROLES
+	allowed_branches = list(/datum/mil_branch/fleet,/datum/mil_branch/marine_corps,/datum/mil_branch/civilian)

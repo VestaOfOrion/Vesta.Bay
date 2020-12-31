@@ -150,7 +150,7 @@
 
 /obj/item/documents/generic/dept/notoffical
 	name = "offical guides"
-	desc = "Some \"internal use only\" reports on inter-departmental communications, reminding personnel that unless the document specifies it is from and issued by EXO or Expeditionary Command, it is not offical policy and should not be referenced as a definitive reasoning for any action."
+	desc = "Some \"internal use only\" reports on inter-departmental communications, reminding personnel that unless the document specifies it is from and issued by NTEF or NanoTrasen Central Command, it is not offical policy and should not be referenced as a definitive reasoning for any action."
 
 /*
  * Sol Central Government Representative, /scgr/
@@ -266,11 +266,11 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/sup/shipping
 	name = "shipping report"
-	desc = "Some \"internal use only\" reports about the recent items coming and going from Expeditionary Corps vessels, with 70% of the orders being filed as replacement chemical cartridges."
+	desc = "Some \"internal use only\" reports about the recent items coming and going from Survyeor Corps vessels, with 70% of the orders being filed as replacement chemical cartridges."
 
 /obj/item/documents/generic/sup/shipping2
 	name = "shipping report"
-	desc = "Some \"internal use only\" reports about the recent items coming and going from Expeditionary Corps vessels, with 70% of the orders being filed as being nanoblood."
+	desc = "Some \"internal use only\" reports about the recent items coming and going from Survyeor Corps vessels, with 70% of the orders being filed as being nanoblood."
 
 /obj/item/documents/generic/sup/wrongchute
 	name = "research complaint"
@@ -302,11 +302,11 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/eng/shieldsoff
 	name = "shielding recommendations"
-	desc = "Some \"internal use only\" reports suggesting atmospheric containment should be disabled on all Expeditionary Corps vessels."
+	desc = "Some \"internal use only\" reports suggesting atmospheric containment should be disabled on all Survyeor Corps vessels."
 
 /obj/item/documents/generic/eng/shieldson
 	name = "shielding recommendations"
-	desc = "Some \"internal use only\" reports suggesting atmospheric containment should be enabled on all Expeditionary Corps vessels."
+	desc = "Some \"internal use only\" reports suggesting atmospheric containment should be enabled on all Survyeor Corps vessels."
 
 /obj/item/documents/generic/eng/ladder
 	name = "ladder pamphlet"
@@ -334,7 +334,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/med/jackets
 	name = "medical mistreatments"
-	desc = "Some \"confidential\" reports that apparently led to the removal of the straightjacket on all Expeditionary Corps vessels. Inhumane but deemed necessary treatments were applied with the help of those."
+	desc = "Some \"confidential\" reports that apparently led to the removal of the straightjacket on all Survyeor Corps vessels. Inhumane but deemed necessary treatments were applied with the help of those."
 
 /obj/item/documents/generic/med/ipccpr
 	name = "\improper IPC CPR notice"
@@ -386,15 +386,15 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/explo/incident2
 	name = "incident report"
-	desc = "Some \"confidential\" reports regarding airlock-related injuries in the previous month across all Expeditionary Corps vessels. That number seems rather high."
+	desc = "Some \"confidential\" reports regarding airlock-related injuries in the previous month across all Survyeor Corps vessels. That number seems rather high."
 
 /obj/item/documents/generic/explo/incident3
 	name = "incident report"
-	desc = "Some \"confidential\" reports about an incident caused by an Expeditionary Corps officer's incompetence that nearly killed a person under their supervision. The apparent cause was an unsafe craft departure."
+	desc = "Some \"confidential\" reports about an incident caused by an Survyeor Corps officer's incompetence that nearly killed a person under their supervision. The apparent cause was an unsafe craft departure."
 
 /obj/item/documents/generic/explo/confuseexplo
 	name = "incident report"
-	desc = "Some \"confidential\" reports regarding numerous newly-enlisted explorers being unaware of the Expeditionary Corps, its Mission, or what training they received. An officer has attached a note to the bottom, commenting on possible cryostasis injuries. It's been circled and has several question marks."
+	desc = "Some \"confidential\" reports regarding numerous newly-enlisted explorers being unaware of the Survyeor Corps, its Mission, or what training they received. An officer has attached a note to the bottom, commenting on possible cryostasis injuries. It's been circled and has several question marks."
 
 /obj/item/documents/generic/explo/colddeadhands
 	name = "incident report"
@@ -402,27 +402,27 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/documents/generic/explo/pathfinderproblems
 	name = "pathfinder protocol reminder"
-	desc = "A \"confidential\" memo sent from the Executive Officer to the pathfinder reminding them that, yes, their pilot is there to fly the Charon, not them, and that, yes, they should ensure that the exploration shotgun is only used by trained personnel. The final bit is very tersely-written, advising them to stop explorers from looking directly into the barrel."
+	desc = "A \"confidential\" memo sent from the Executive Officer to the pathfinder reminding them that, yes, their pilot is there to fly the Gaunt, not them, and that, yes, they should ensure that the exploration shotgun is only used by trained personnel. The final bit is very tersely-written, advising them to stop explorers from looking directly into the barrel."
 
 /obj/item/documents/generic/explo/hangarproc
 	name = "don't force the fucking airlock"
-	desc = "An \"internal use only\" memo written by the senior engineer with a string of strongly worded expletives seemingly redacted from the final text directed toward the pathfinder to follow proper hangar atmospheric containment procedure for the Charon."
+	desc = "An \"internal use only\" memo written by the senior engineer with a string of strongly worded expletives seemingly redacted from the final text directed toward the pathfinder to follow proper hangar atmospheric containment procedure for the Gaunt."
 
 /obj/item/documents/generic/explo/oldshuttle
 	name = "shuttle replacement issues"
-	desc = "An \"internal use only\", long winded rant riddled with spelling errors lamenting the loss of the \"Calypso,\" whatever that may be, claiming it to be a much better shuttle than the Charon. It further grieves the loss of the crew microwave."
+	desc = "An \"internal use only\", long winded rant riddled with spelling errors lamenting the loss of the \"Calypso,\" whatever that may be, claiming it to be a much better shuttle than the Gaunt. It further grieves the loss of the crew microwave."
 
 /obj/item/documents/generic/explo/charonsafety
 	name = "fuel safety report"
-	desc = "Some \"internal use only\" reports about personnel smoking near the atmospherics holding area aboard the SEV Charon. The atmospherics holding area aboard the Charon is declared a no-smoking area, as indicated by the sign. Attached is a brief incident report with a contracted pilot. The report ends with large-font writing stating the next person found smoking near the fueling port will be demoted to sanitation tech for the rest of their deployment."
+	desc = "Some \"internal use only\" reports about personnel smoking near the atmospherics holding area aboard the NTEV Gaunt. The atmospherics holding area aboard the Gaunt is declared a no-smoking area, as indicated by the sign. Attached is a brief incident report with a contracted pilot. The report ends with large-font writing stating the next person found smoking near the fueling port will be demoted to sanitation tech for the rest of their deployment."
 
 /obj/item/documents/generic/explo/survivors
 	name = "interactions with survivors"
-	desc = "Some \"internal use only\" reports discussing the process of dealing with survivors, off-ship personnel, or in-distress civilians. This one details three points that all explorers, Fleet servicemembers, or contractor personnel should attempt to follow when dealing with off-ship persons: First, treat them with the utmost respect at all times, as they are the ones who need aid. Second, do not directly order them around, unless they happen to be getting in the way of SCG objectives. Third, remind them of their rights - they are requiring aid and are to be treated with the best handling, but remind them that they are still on SCG property, and are subject to SCG law at all times."
+	desc = "Some \"internal use only\" reports discussing the process of dealing with survivors, off-ship personnel, or in-distress civilians. This one details three points that all Fleet servicemembers, Marines, or contractor personnel should attempt to follow when dealing with off-ship persons: First, treat them with the utmost respect at all times, as they are the ones who need aid. Second, do not directly order them around, unless they happen to be getting in the way of SCG objectives. Third, remind them of their rights - they are requiring aid and are to be treated with the best handling, but remind them that they are still on SCG property, and are subject to SCG law at all times."
 
 /obj/item/documents/generic/explo/cigarettes
 	name = "cigarettes with helmets"
-	desc = "Some \"internal use only\" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a \"No Smoking\" sign onboard the Charon and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the NTSS Dagon and not when wearing a helmet."
+	desc = "Some \"internal use only\" reports detailing the extreme hazards of attempting to smoke a cigarette while wearing a spaceproof helmet, citing many incidents of suffocation and subsequent death as well as pointing out the presence of a \"No Smoking\" sign onboard the Gaunt and the likely flammability of many exoplanets. It concludes with a recommendation to smoke only in designated breakrooms aboard the NTSS Dagon and not when wearing a helmet."
 
 /obj/item/documents/generic/explo/documentplease
 	name = "on documentation of sites"

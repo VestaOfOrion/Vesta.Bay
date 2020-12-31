@@ -1,0 +1,167 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"d" = (
+/obj/structure/table/steel,
+/obj/item/weapon/ore/strangerock,
+/turf/template_noop,
+/area/template_noop)
+"k" = (
+/obj/machinery/suspension_gen,
+/turf/template_noop,
+/area/template_noop)
+"l" = (
+/obj/item/weapon/ore/slag,
+/obj/item/weapon/ore/slag,
+/turf/template_noop,
+/area/template_noop)
+"q" = (
+/obj/machinery/artifact,
+/turf/template_noop,
+/area/template_noop)
+"s" = (
+/obj/structure/closet/excavation,
+/turf/template_noop,
+/area/template_noop)
+"D" = (
+/turf/template_noop,
+/area/template_noop)
+"H" = (
+/obj/item/weapon/ore/slag,
+/turf/template_noop,
+/area/template_noop)
+"J" = (
+/turf/unsimulated/mineral,
+/area/template_noop)
+"L" = (
+/obj/structure/table/steel,
+/obj/item/weapon/archaeological_find/remains/xeno,
+/turf/template_noop,
+/area/template_noop)
+"U" = (
+/obj/item/weapon/pickaxe/xeno/hand,
+/turf/template_noop,
+/area/template_noop)
+"W" = (
+/obj/item/weapon/ore/strangerock,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+"}
+(2,1,1) = {"
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+"}
+(3,1,1) = {"
+D
+D
+D
+H
+D
+W
+D
+D
+D
+D
+"}
+(4,1,1) = {"
+D
+D
+l
+J
+J
+J
+l
+k
+D
+D
+"}
+(5,1,1) = {"
+D
+D
+J
+J
+J
+J
+U
+D
+D
+D
+"}
+(6,1,1) = {"
+D
+D
+J
+J
+J
+J
+q
+D
+D
+D
+"}
+(7,1,1) = {"
+D
+D
+H
+J
+H
+H
+D
+D
+D
+D
+"}
+(8,1,1) = {"
+D
+D
+D
+D
+D
+s
+D
+D
+D
+D
+"}
+(9,1,1) = {"
+D
+D
+D
+D
+D
+D
+L
+d
+D
+D
+"}
+(10,1,1) = {"
+D
+D
+D
+D
+D
+D
+D
+D
+D
+D
+"}

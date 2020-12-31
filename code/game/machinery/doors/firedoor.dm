@@ -169,7 +169,6 @@
 	if(density && (stat & (BROKEN|NOPOWER))) //can still close without power
 		to_chat(user, "\The [src] is not functioning, you'll have to force it open manually.")
 		return
-
 	if(alarmed && density && lockdown && !allowed(user))
 		to_chat(user, "<span class='warning'>Access denied. Please wait for authorities to arrive, or for the alert to clear.</span>")
 		return
@@ -364,6 +363,10 @@
 	return
 
 /obj/machinery/door/firedoor/close()
+	if(closing || locked)
+		return
+
+	closing = 1
 	latetoggle()
 	var/list/people = list()
 	for(var/turf/turf in locs)

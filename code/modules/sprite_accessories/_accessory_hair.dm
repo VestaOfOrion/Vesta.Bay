@@ -912,3 +912,8 @@
 /datum/sprite_accessory/hair/wheeler
 	name = "Wheeler"
 	icon_state = "hair_wheeler"
+
+/datum/sprite_accessory/hair/mullethawk
+	name = "Mullet-Hawk"
+	icon_state = "hair_mullethawk"
+	gender = MALE

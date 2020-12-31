@@ -1,0 +1,6 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - soundadd: "Adds back all hestia specific sounds."

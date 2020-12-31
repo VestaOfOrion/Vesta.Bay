@@ -3,7 +3,7 @@
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
-	minimum_character_age = list(SPECIES_HUMAN = 29)
+	minimum_character_age = list(SPECIES_HUMAN = 26)
 	ideal_character_age = 45
 	total_positions = 2
 	spawn_positions = 2
@@ -35,9 +35,11 @@
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
 	skill_points = 20
 
-	access = list(access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
-			            access_crematorium, access_chemistry, access_surgery,
-			            access_medical_equip, access_solgov_crew, access_senmed)
+	access = list(
+		access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
+		access_crematorium, access_chemistry, access_surgery,
+		access_medical_equip, access_solgov_crew, access_senmed, access_radio_med
+	)
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
@@ -47,7 +49,7 @@
 	department = "Medical"
 	department_flag = MED
 	minimal_player_age = 2
-	minimum_character_age = list(SPECIES_HUMAN = 24)
+	minimum_character_age = list(SPECIES_HUMAN = 22)
 	ideal_character_age = 45
 	total_positions = 1
 	spawn_positions = 1
@@ -78,9 +80,11 @@
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
 	skill_points = 16
 
-	access = list(access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
-			            access_crematorium, access_chemistry, access_surgery,
-			            access_medical_equip, access_solgov_crew, access_senmed)
+	access = list(
+		access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
+		access_crematorium, access_chemistry, access_surgery,
+		access_medical_equip, access_solgov_crew, access_senmed, access_radio_med
+	)
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
@@ -119,8 +123,13 @@
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
 
-	access = list(access_medical, access_morgue, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
-			            access_eva, access_surgery, access_medical_equip, access_solgov_crew, access_hangar)
+	access = list(
+		access_medical, access_morgue, access_maint_tunnels,
+		access_external_airlocks, access_emergency_storage,
+		access_eva, access_surgery, access_medical_equip,
+		access_solgov_crew, access_hangar, access_radio_med
+	)
+
 	minimal_access = list()
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
@@ -139,7 +148,6 @@
 	ideal_character_age = 20
 	alt_titles = list(
 		"Corpsman Trainee")
-
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/medical/doctor
 	allowed_branches = list(
 		/datum/mil_branch/expeditionary_corps,
@@ -150,20 +158,24 @@
 		/datum/mil_rank/fleet/e2
 	)
 
-	skill_points = 16
+	skill_points = 4
 	no_skill_buffs = TRUE
 
 	min_skill = list(   SKILL_EVA     = SKILL_ADEPT,
 	                    SKILL_HAULING = SKILL_ADEPT,
-	                    SKILL_MEDICAL = SKILL_BASIC,
+	                    SKILL_MEDICAL = SKILL_EXPERT,
 	                    SKILL_ANATOMY = SKILL_BASIC)
 
-	max_skill = list(   SKILL_MEDICAL     = SKILL_ADEPT,
-	                    SKILL_ANATOMY     = SKILL_ADEPT,
-	                    SKILL_CHEMISTRY   = SKILL_ADEPT)
+	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
+	                    SKILL_ANATOMY     = SKILL_MAX,
+	                    SKILL_CHEMISTRY   = SKILL_MAX)
 
-	access = list(access_medical, access_morgue, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
-			            access_surgery, access_medical_equip, access_solgov_crew)
+	access = list(
+		access_medical, access_morgue, access_maint_tunnels,
+		access_external_airlocks, access_emergency_storage,
+		access_surgery, access_medical_equip, access_solgov_crew,
+		access_radio_med
+	)
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
@@ -194,8 +206,12 @@
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
 	skill_points = 16
 
-	access = list(access_medical, access_maint_tunnels, access_emergency_storage, access_medical_equip, access_solgov_crew, access_chemistry,
-	 						access_virology, access_morgue, access_crematorium)
+	access = list(
+		access_medical, access_maint_tunnels, access_emergency_storage,
+		access_medical_equip, access_solgov_crew, access_chemistry,
+	 	access_virology, access_morgue, access_crematorium, access_radio_med
+	)
+
 	minimal_access = list()
 
 /datum/job/chemist/get_description_blurb()
@@ -233,8 +249,13 @@
 	max_skill = list(
 		SKILL_MEDICAL     = SKILL_MAX
 	)
-	access = list(access_medical, access_psychiatrist, access_solgov_crew, access_medical_equip)
+	access = list(
+		access_medical, access_psychiatrist,
+		access_solgov_crew, access_medical_equip, access_radio_med
+	)
+
 	minimal_access = list()
+
 	software_on_spawn = list(
 		/datum/computer_file/program/suit_sensors,
 		/datum/computer_file/program/camera_monitor
