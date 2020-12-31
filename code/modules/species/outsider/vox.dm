@@ -161,8 +161,6 @@
 	mob_size = MOB_LARGE
 	
 	bump_flag = HEAVY
-	push_flag = ALLMOBS
-	swap_flag = ALLMOBS
 	
 	species_flags = SPECIES_FLAG_NO_MINOR_CUT
 	
