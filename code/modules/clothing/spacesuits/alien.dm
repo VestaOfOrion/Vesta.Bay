@@ -6,7 +6,7 @@
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR, 
 		bullet = ARMOR_BALLISTIC_PISTOL, 
-		laser = ARMOR_LASER_PISTOL,
+		laser = ARMOR_LASER_HANDGUNS,
 		energy = ARMOR_ENERGY_MINOR, 
 		bomb = ARMOR_BOMB_PADDED, 
 		bio = ARMOR_BIO_SMALL, 
@@ -26,7 +26,7 @@
 	armor = list(
 		melee = ARMOR_MELEE_MAJOR, 
 		bullet = ARMOR_BALLISTIC_PISTOL, 
-		laser = ARMOR_LASER_PISTOL,
+		laser = ARMOR_LASER_HANDGUNS,
 		energy = ARMOR_ENERGY_MINOR, 
 		bomb = ARMOR_BOMB_PADDED, 
 		bio = ARMOR_BIO_SMALL, 
