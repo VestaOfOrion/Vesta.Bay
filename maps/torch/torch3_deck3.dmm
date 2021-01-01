@@ -13817,7 +13817,7 @@
 "Ga" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Checkpoint Maintenance";
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/monotile,

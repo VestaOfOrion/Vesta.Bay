@@ -8780,7 +8780,7 @@
 /obj/machinery/door/airlock/glass/security{
 	door_color = "#134975";
 	name = "Security Processing";
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -11106,7 +11106,7 @@
 	door_color = "#134975";
 	id_tag = "prisonentry";
 	name = "Brig Entry";
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -12462,7 +12462,7 @@
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Wing Maintenance";
 	secured_wires = 1;
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -15306,7 +15306,7 @@
 	dir = 8;
 	door_color = "#134975";
 	name = "Security Lobby";
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
@@ -24422,7 +24422,7 @@
 	door_color = "#134975";
 	id_tag = "detdoor";
 	name = "Locker Room";
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -26374,7 +26374,7 @@
 	door_color = "#134975";
 	id_tag = "prisonexit";
 	name = "Brig Entry";
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
@@ -26818,7 +26818,7 @@
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Wing Maintenance";
 	secured_wires = 1;
-	stripe_color = "#0D304D"
+	stripe_color = "#0d304d"
 	},
 /obj/structure/cable/green{
 	d1 = 1;
