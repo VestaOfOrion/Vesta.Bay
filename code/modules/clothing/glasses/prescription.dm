@@ -1,8 +1,8 @@
 /obj/item/clothing/glasses/prescription
 	name = "prescription glasses"
 	desc = "A cheap pair of universal* prescription lenses, in an even cheaper frame."
-	icon_state = "glasses"
-	item_state = "glasses"
+	icon_state = "glasses_basic"
+	item_state = "glasses_basic"
 	prescription = 7
 	body_parts_covered = 0
 
@@ -13,14 +13,27 @@
 	light_protection = 7
 	electric = TRUE
 
-/obj/item/clothing/glasses/prescription/hipster
-	name = "prescription glasses"
-	icon_state = "hipster_glasses"
-	item_state = "hipster_glasses"
+/obj/item/clothing/glasses/prescription/large
+	name = "large glasses"
+	desc = "Large glasses for good peripheral vision."
+	icon_state = "glasses_large"
+	item_state = "glasses_large"
 
-/obj/item/clothing/glasses/prescription/gglasses
-	name = "green glasses"
-	desc = "Forest green glasses, like the kind you'd wear when hatching a nasty scheme."
-	icon_state = "gglasses"
-	item_state = "gglasses"
+/obj/item/clothing/glasses/prescription/round
+	name = "round glasses"
+	desc = "Makes you look a bit like a mad scientist."
+	icon_state = "glasses_round"
+	item_state = "glasses_round"
+
+/obj/item/clothing/glasses/prescription/hipster
+	name = "hipster glasses"
+	desc = "Some sort of fashion statement. No practical use."
+	icon_state = "glasses_hipster"
+	item_state = "glasses_hipster"
+
+/obj/item/clothing/glasses/prescription/oval
+	name = "oval glasses"
+	desc = "Gentle glasses in a green frame, Slight librarian vibe."
+	icon_state = "glasses_oval"
+	item_state = "glasses_oval"
 	body_parts_covered = 0

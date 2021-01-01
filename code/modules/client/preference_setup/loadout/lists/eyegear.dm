@@ -4,24 +4,33 @@
 	slot = slot_glasses
 
 /datum/gear/eyes/glasses
-	display_name = "prescription glasses"
+	display_name = "Prescription glasses"
 	path = /obj/item/clothing/glasses/prescription
 
+/datum/gear/eyes/glasses/New()
+	..()
+	var/preglasses = list()
+	preglasses["Basic glasses"] = /obj/item/clothing/glasses/prescription
+	preglasses["Large glasses"] = /obj/item/clothing/glasses/prescription/large
+	preglasses["Round glasses"] = /obj/item/clothing/glasses/prescription/round
+	preglasses["Oval glasses"] = /obj/item/clothing/glasses/prescription/oval
+	gear_tweaks += new/datum/gear_tweak/path(preglasses)
+
+
 /datum/gear/eyes/eyepatch
-	display_name = "eyepatch"
+	display_name = "Eyepatch"
 	path = /obj/item/clothing/glasses/eyepatch
 
 /datum/gear/eyes/fashionglasses
-	display_name = "non-prescription glasses"
+	display_name = "Non-prescription glasses"
 	path = /obj/item/clothing/glasses
 
 /datum/gear/eyes/fashionglasses/New()
 	..()
 	var/glasses = list()
-	glasses["green glasses"] = /obj/item/clothing/glasses/prescription/gglasses
-	glasses["hipster glasses"] = /obj/item/clothing/glasses/prescription/hipster
-	glasses["monocle"] = /obj/item/clothing/glasses/monocle
-	glasses["scanning goggles"] = /obj/item/clothing/glasses/prescription/scanners
+	glasses["Hipster glasses"] = /obj/item/clothing/glasses/prescription/hipster
+	glasses["Monocle"] = /obj/item/clothing/glasses/monocle
+	glasses["Scanning goggles"] = /obj/item/clothing/glasses/prescription/scanners
 	gear_tweaks += new/datum/gear_tweak/path(glasses)
 
 /datum/gear/eyes/sciencegoggles
@@ -99,17 +108,22 @@
 	allowed_roles = list(/datum/job/chief_engineer, /datum/job/engineer, /datum/job/mining)
 
 /datum/gear/eyes/shades/
-	display_name = "sunglasses"
+	display_name = "Sunglasses"
 	path = /obj/item/clothing/glasses/sunglasses
 	cost = 3
 
-/datum/gear/eyes/shades/sunglasses
-	display_name = "sunglasses, fat"
-	path = /obj/item/clothing/glasses/sunglasses/big
-	cost = 3
+/datum/gear/eyes/shades/New()
+	..()
+	var/shades = list()
+	shades["Sunglasses"] = /obj/item/clothing/glasses/sunglasses
+	shades["Tinted shades"] = /obj/item/clothing/glasses/sunglasses/tinted
+	shades["Mirror shades"] = /obj/item/clothing/glasses/sunglasses/mirror
+	shades["Large sunglasses"] = /obj/item/clothing/glasses/sunglasses/big
+	gear_tweaks += new/datum/gear_tweak/path(shades)
+
 
 /datum/gear/eyes/shades/prescriptionsun
-	display_name = "sunglasses, presciption"
+	display_name = "Sunglasses, presciption"
 	path = /obj/item/clothing/glasses/sunglasses/prescription
 	cost = 3
 
@@ -118,7 +132,7 @@
 	path = /obj/item/clothing/glasses/eyepatch/hud
 
 /datum/gear/eyes/blindfold
-	display_name = "blindfold"
+	display_name = "Blindfold"
 	path = /obj/item/clothing/glasses/blindfold
 	flags = GEAR_HAS_COLOR_SELECTION
 
