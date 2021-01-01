@@ -138,6 +138,8 @@
 		. = paint_floor(A, user, params)
 	else if (istype(A, /obj/machinery/door/airlock))
 		. = paint_airlock(A, user)
+	else if (istype(A, /obj/item/weapon/light))
+		. = paint_light(A, user)
 	else if (istype(A, /mob/living/exosuit))
 		to_chat(user, SPAN_WARNING("You can't paint an active exosuit. Dismantle it first."))
 		. = FALSE
@@ -276,6 +278,11 @@
 	if (user.incapacitated() || !D || !user.Adjacent(D))
 		return FALSE
 	return choice
+
+/obj/item/device/paint_sprayer/proc/paint_light(obj/item/weapon/light/L, mob/user)
+	L.b_colour = paint_color
+	L.on_update_icon()
+	return TRUE
 
 /obj/item/device/paint_sprayer/attack_self(mob/user)
 	choose_decal()

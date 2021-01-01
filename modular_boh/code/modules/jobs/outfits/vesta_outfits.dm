@@ -141,6 +141,16 @@
 	name = OUTFIT_JOB_NAME("Counselor - Marine Corps")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+/decl/hierarchy/outfit/job/torch/crew/medical/chemist
+	name = OUTFIT_JOB_NAME("Laboratory Technician - Fleet")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/medical
+	shoes = /obj/item/clothing/shoes/dutyboots
+
+/decl/hierarchy/outfit/job/torch/crew/medical/chemist/marine
+	name = OUTFIT_JOB_NAME("Laboratory Technician - Marine")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
+	shoes = /obj/item/clothing/shoes/dutyboots
 /***/
 
 // Security
@@ -236,6 +246,9 @@
 	name = OUTFIT_JOB_NAME("Deck Technician - Marine Corps")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/supply
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+/decl/hierarchy/outfit/job/torch/crew/supply/tech/fleet/prospector
+	name = OUTFIT_JOB_NAME("Salvage Technician - Fleet")
 /***/
 
 // Corporate

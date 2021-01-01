@@ -1,0 +1,4 @@
+author: Hekzder
+delete-after: True
+changes: 
+  - tweak: "Reverts Bay's voting system change to go back to our old voting system from pre-Rebayse Vesta/Hestia. Visible vote percentages are now back."

@@ -1,0 +1,12 @@
+author: EvenInDeathIStillServe
+delete-after: True
+changes: 
+  - rscadd: "Engineering duty gloves spawn in engineering lockers."
+  - rscadd: "Hand drill spawns in Engi-Vend, SE and CE lockers."
+  - rscadd: "Boron fusion, and colored R-UST."
+  - rscadd: "Adds maglights to autolathe designs."
+  - rscadd: "Auto-merging of stacks on the same tile, when dragged, dropped or spawned."
+  - rscadd: "Painting light tubes/bulbs with a paint gun."
+  - tweak: "You can unwrench high-pressure pipes, but with a long delay."
+  - tweak: "Matter cartridges can be partially loaded into an RCD to top it up."
+  - bugfix: "Chocolate milk carton should have chocolate milk now AND NOT NORMAL MILK."
