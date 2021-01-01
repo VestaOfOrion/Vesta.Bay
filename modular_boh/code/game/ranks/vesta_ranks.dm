@@ -604,7 +604,7 @@
 	sort_order = 14
 
 /datum/mil_rank/marine_corps/w5
-	name = "Major Warrant Officer of the Marine Corps (W-5)"
+	name = "General Warrant Officer (W-5)"
 	name_short = "MWOMC"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w5)
 	sort_order = 15

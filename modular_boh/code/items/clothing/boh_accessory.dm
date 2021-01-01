@@ -275,8 +275,8 @@
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w5
 	icon_state = "MW5"
 	overlay_state = "armyrank_warrant_stripe"
-	name = "ranks (W-5 major warrant officer of the marine corps)"
-	desc = "Insignia denoting the rank of Major Warrant Officer of the Marine Corps"
+	name = "ranks (W-5 general warrant officer)"
+	desc = "Insignia denoting the rank of General Warrant Officer"
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/officer
 	icon_state = "MO1A"
