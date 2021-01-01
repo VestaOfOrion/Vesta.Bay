@@ -6362,6 +6362,7 @@
 	icon_state = "2-4"
 	},
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	id_tag = "detdoor";
 	name = "Investigations";
 	secured_wires = 1
@@ -7674,6 +7675,7 @@
 /area/security/processing)
 "axO" = (
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	id_tag = "secprocessing";
 	name = "Security Processing"
 	},
@@ -8789,7 +8791,9 @@
 /area/security/wing)
 "aCy" = (
 /obj/machinery/door/airlock/glass/security{
-	name = "Security Processing"
+	door_color = "#134975";
+	name = "Security Processing";
+	stripe_color = "#0D304D"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -10509,6 +10513,7 @@
 /area/security/storage)
 "aKA" = (
 /obj/machinery/door/airlock/multi_tile/glass/security{
+	door_color = "#134975";
 	name = "Brig Wing"
 	},
 /obj/machinery/door/firedoor,
@@ -11091,8 +11096,10 @@
 /area/security/brig)
 "aMN" = (
 /obj/machinery/door/airlock/glass/security{
+	door_color = "#134975";
 	id_tag = "prisonentry";
-	name = "Brig Entry"
+	name = "Brig Entry";
+	stripe_color = "#0D304D"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -12445,7 +12452,8 @@
 	},
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Wing Maintenance";
-	secured_wires = 1
+	secured_wires = 1;
+	stripe_color = "#0D304D"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -15192,6 +15200,7 @@
 /area/security/wing)
 "bNL" = (
 /obj/effect/floor_decal/corner/red{
+	color = "#134975";
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -15268,9 +15277,6 @@
 /turf/simulated/floor/plating,
 /area/shuttle/escape_pod13/station)
 "bSm" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 10
-	},
 /obj/machinery/door/blast/regular{
 	density = 0;
 	dir = 4;
@@ -15281,7 +15287,9 @@
 	},
 /obj/machinery/door/airlock/multi_tile/glass/security{
 	dir = 8;
-	name = "Security Lobby"
+	door_color = "#134975";
+	name = "Security Lobby";
+	stripe_color = "#0D304D"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled,
@@ -15965,12 +15973,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/medical/foyer/storeroom)
-"cGB" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/firstdeck/fore)
 "cHb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -18880,6 +18882,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Equipment Storage"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -21357,8 +21360,8 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	dir = 6;
-	icon_state = "corner_white"
+	color = "#134975";
+	dir = 6
 	},
 /turf/simulated/floor/tiled,
 /area/security/wing)
@@ -23224,6 +23227,7 @@
 "lVb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	id_tag = "detdoor";
 	name = "Forensic Lab";
 	secured_wires = 1
@@ -24349,8 +24353,10 @@
 "nkb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/security{
+	door_color = "#134975";
 	id_tag = "detdoor";
-	name = "Locker Room"
+	name = "Locker Room";
+	stripe_color = "#0D304D"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -26151,9 +26157,6 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "ptD" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 5
-	},
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/blast/regular{
 	density = 0;
@@ -26297,8 +26300,10 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/glass/security{
+	door_color = "#134975";
 	id_tag = "prisonexit";
-	name = "Brig Entry"
+	name = "Brig Entry";
+	stripe_color = "#0D304D"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
@@ -26735,7 +26740,8 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Wing Maintenance";
-	secured_wires = 1
+	secured_wires = 1;
+	stripe_color = "#0D304D"
 	},
 /obj/structure/cable/green{
 	d1 = 1;
@@ -29222,6 +29228,7 @@
 "sxG" = (
 /obj/machinery/door/airlock/multi_tile/glass/security{
 	dir = 8;
+	door_color = "#134975";
 	name = "Security Lobby"
 	},
 /obj/machinery/door/blast/regular{
@@ -29639,6 +29646,7 @@
 /area/rnd/xenobiology)
 "sTK" = (
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Security Interview Room"
 	},
 /obj/machinery/door/firedoor,
@@ -29781,6 +29789,7 @@
 	name = "Privacy Shutters"
 	},
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Brig Chief"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -29874,6 +29883,7 @@
 /area/medical/medicalhallway)
 "tgs" = (
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Brig Chief"
 	},
 /obj/machinery/door/firedoor,
@@ -30732,6 +30742,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Evidence Storage"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -31547,6 +31558,7 @@
 	pixel_x = -25
 	},
 /obj/effect/floor_decal/corner/red{
+	color = "#134975";
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -32047,8 +32059,8 @@
 	c_tag = "Security Wing - Lobby"
 	},
 /obj/effect/floor_decal/corner/red{
-	dir = 6;
-	icon_state = "corner_white"
+	color = "#134975";
+	dir = 6
 	},
 /obj/structure/bed/chair/padded/red,
 /turf/simulated/floor/tiled,
@@ -32271,8 +32283,8 @@
 /area/maintenance/firstdeck/aftstarboard)
 "xVr" = (
 /obj/effect/floor_decal/corner/red{
-	dir = 6;
-	icon_state = "corner_white"
+	color = "#134975";
+	dir = 6
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled,
@@ -43208,7 +43220,7 @@ atE
 aqi
 bNL
 ybv
-cGB
+pIA
 wcQ
 pIA
 cje

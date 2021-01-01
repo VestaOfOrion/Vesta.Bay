@@ -7345,6 +7345,7 @@
 "qo" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	id_tag = "cosdoor";
 	name = "Chief of Security";
 	secured_wires = 1
@@ -10933,6 +10934,7 @@
 /area/aquila/medical)
 "yR" = (
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Security Checkpoint";
 	secured_wires = 1
 	},
@@ -11208,6 +11210,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Security - Anti-Boarding Control"
 	},
 /obj/machinery/door/firedoor,
@@ -15734,6 +15737,7 @@
 /area/crew_quarters/heads/cobed)
 "NE" = (
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Security Checkpoint";
 	secured_wires = 1
 	},

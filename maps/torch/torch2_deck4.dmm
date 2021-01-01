@@ -6623,6 +6623,7 @@
 /area/maintenance/fourthdeck/aft)
 "vE" = (
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Security Checkpoint";
 	secured_wires = 1
 	},

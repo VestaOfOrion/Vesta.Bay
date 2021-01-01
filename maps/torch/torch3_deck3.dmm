@@ -9569,6 +9569,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/security{
+	door_color = "#134975";
 	name = "Security Checkpoint";
 	secured_wires = 1
 	},
@@ -13797,7 +13798,8 @@
 /area/maintenance/thirddeck/aftport)
 "Ga" = (
 /obj/machinery/door/airlock/maintenance{
-	name = "Security Checkpoint Maintenance"
+	name = "Security Checkpoint Maintenance";
+	stripe_color = "#0D304D"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/monotile,
