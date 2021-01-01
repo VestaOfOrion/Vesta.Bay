@@ -60,11 +60,11 @@
 
 /obj/item/weapon/card/id/torch/silver/security
 	job_access_type = /datum/job/hos
-	detail_color = "#e00000"
+	detail_color = "#27313E"
 
 /obj/item/weapon/card/id/torch/crew/security
 	job_access_type = /datum/job/officer
-	detail_color = "#e00000"
+	detail_color = "#27313E"
 
 /obj/item/weapon/card/id/torch/crew/security/brigchief
 	job_access_type = /datum/job/warden
