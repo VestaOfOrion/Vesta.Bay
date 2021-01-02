@@ -1,0 +1,7 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - rscadd: "Two new aurora hairstyles Ponytail-wisp and Ponytail-spiky."
+  - tweak: "Long braid no longer makes you look like your are balding."
