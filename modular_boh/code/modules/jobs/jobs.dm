@@ -68,7 +68,7 @@ var/const/INF               =(1<<11)
 	selection_color = "#557e38"
 	economic_power = 4
 	minimal_player_age = 8
-	skill_points = 24
+	skill_points = 22
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/infantry/combat_tech
 	minimum_character_age = list(SPECIES_HUMAN = 20)
 	min_skill = list(	SKILL_CONSTRUCTION = SKILL_ADEPT,

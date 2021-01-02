@@ -1,0 +1,7 @@
+author: Hekzder
+delete-after: True
+changes: 
+  - tweak: "Roboticist and Squad Lead now have +2 skill points."
+  - tweak: "CMO, Resident, Medical Technician, Scientist, Combat Technician, and Bridge Officer now have -2 skill points."
+  - tweak: "Physician now has -4 skill points."
+  - tweak: "Psionic Advisor now has -6 skill points."
