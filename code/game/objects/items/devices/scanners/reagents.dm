@@ -1,7 +1,7 @@
 /obj/item/device/scanner/reagent
 	name = "reagent scanner"
 	desc = "A hand-held reagent scanner which identifies chemical agents."
-	icon_state = "spectrometer"
+	icon_state = "chem_reagentscanner"
 	item_state = "analyzer"
 
 	origin_tech = list(TECH_MAGNET = 2, TECH_BIO = 2)
@@ -28,6 +28,6 @@
 
 /obj/item/device/scanner/reagent/adv
 	name = "advanced reagent scanner"
-	icon_state = "adv_spectrometer"
+	icon_state = "chem_reagentscanner"
 	details = 1
 	origin_tech = list(TECH_MAGNET = 4, TECH_BIO = 2)

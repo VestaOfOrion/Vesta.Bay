@@ -4332,6 +4332,18 @@
 /obj/machinery/recharge_station/ascent,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/shuttle_port)
+"mJ" = (
+/obj/structure/table/rack/dark,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/binoculars,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/obj/item/device/gps,
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/fore_starboard_prow)
 "mM" = (
 /obj/machinery/light/ascent,
 /obj/effect/catwalk_plated/ascent,
@@ -12159,7 +12171,7 @@ ah
 as
 as
 as
-as
+mJ
 bz
 lG
 br

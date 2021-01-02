@@ -32,8 +32,8 @@
 		if(ascent_job.set_species_on_join == SPECIES_MANTID_GYNE && !is_species_whitelisted(joining, SPECIES_MANTID_GYNE))
 			to_chat(joining, SPAN_WARNING("You are not whitelisted to play a [SPECIES_MANTID_GYNE]."))
 			return FALSE
-		if(ascent_job.set_species_on_join == SPECIES_MONARCH_QUEEN && !is_species_whitelisted(joining, SPECIES_NABBER))
-			to_chat(joining, SPAN_WARNING("You must be whitelisted to play a [SPECIES_NABBER] to join as a [SPECIES_MONARCH_QUEEN]."))
+		if(ascent_job.set_species_on_join == SPECIES_MONARCH_QUEEN && !is_species_whitelisted(joining, SPECIES_MANTID_GYNE))
+			to_chat(joining, SPAN_WARNING("You must be whitelisted to play a [SPECIES_MANTID_GYNE] to join as a [SPECIES_MONARCH_QUEEN]."))
 			return FALSE
 
 /mob/living/carbon/human/proc/gyne_rename_lineage()

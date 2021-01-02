@@ -1,0 +1,5 @@
+author: Hekzder
+delete-after: True
+changes: 
+  - rscadd: "Lab Tech can now be SMC and NTEF at ranks of W-1, W-2, O-1, and O-2."
+  - rscadd: "Prospector can now be NTEF at ranks of E-3, E-4, and E-5."

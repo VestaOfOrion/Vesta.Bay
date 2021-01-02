@@ -252,19 +252,19 @@
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w1
 	icon_state = "MW1"
-	name = "ranks (W-1 warrant officer)"
-	desc = "Insignia denoting the rank of Warrant Officer"
+	name = "ranks (W-1 second warrant officer)"
+	desc = "Insignia denoting the rank of Second Warrant Officer"
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w2
 	icon_state = "MW2"
-	name = "ranks (W-2 second warrant officer"
-	desc = "Insignia denoting the rank of Second Warrant Officer"
+	name = "ranks (W-2 first warrant officer)"
+	desc = "Insignia denoting the rank of First Warrant Officer"
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w3
 	icon_state = "MW3"
 	overlay_state = "armyrank_warrant_silver"
-	name = "ranks (W-3 first warrant officer)"
-	desc = "Insignia denoting the rank of First Warrant Officer"
+	name = "ranks (W-3 master warrant officer)"
+	desc = "Insignia denoting the rank of Master Warrant Officer"
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w4
 	icon_state = "MW4"
