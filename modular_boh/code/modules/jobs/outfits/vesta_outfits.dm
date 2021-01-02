@@ -30,14 +30,6 @@
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/security
 	shoes = /obj/item/clothing/shoes/dutyboots
 
-/decl/hierarchy/outfit/job/torch/crew/command/sea/marineattache
-	name = OUTFIT_JOB_NAME("Marine Attache")
-	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
-	shoes = /obj/item/clothing/shoes/dutyboots
-	l_ear = /obj/item/device/radio/headset/sea
-	id_types = list(/obj/item/weapon/card/id/torch/crew/sea)
-	pda_type = /obj/item/modular_computer/pda/heads
-
 /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
 	uniform = /obj/item/clothing/under/solgov/utility/expeditionary/officer/command
 
@@ -286,7 +278,7 @@
 	shoes = /obj/item/clothing/shoes/dress
 	pda_type = /obj/item/modular_computer/pda/heads
 	id_types = list(/obj/item/weapon/card/id/torch/crew/psiadvisor)
-	l_hand =   /obj/item/weapon/storage/briefcase/foundation
+	l_hand =   /obj/item/weapon/storage/briefcase/foundation_inert
 	holster =  /obj/item/clothing/accessory/storage/holster/waist
 
 /decl/hierarchy/outfit/job/torch/crew/command/psiadvisor/nt
@@ -336,6 +328,14 @@
 /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
 	name = OUTFIT_JOB_NAME("Senior Enlisted Advisor - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/command
+	shoes = /obj/item/clothing/shoes/dutyboots
+	l_ear = /obj/item/device/radio/headset/sea
+	id_types = list(/obj/item/weapon/card/id/torch/crew/sea)
+	pda_type = /obj/item/modular_computer/pda/heads
+
+/decl/hierarchy/outfit/job/torch/crew/command/sea/marine
+	name = OUTFIT_JOB_NAME("Senior Enlisted Advisor - Marine")
+	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	shoes = /obj/item/clothing/shoes/dutyboots
 	l_ear = /obj/item/device/radio/headset/sea
 	id_types = list(/obj/item/weapon/card/id/torch/crew/sea)

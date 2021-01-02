@@ -160,6 +160,7 @@
 #define CULTURE_UNATHI_SALT_SWAMP     "Salt Swamp Clans"
 #define CULTURE_UNATHI_SPACE          "Space-Faring Clans"
 #define CULTURE_UNATHI_TERSTEN        "Tersten Clans"
+#define FACTION_UNATHI_KHARZA            "Kharza Fleet"
 
 #define HOME_SYSTEM_MOGHES          "Moghes"
 #define HOME_SYSTEM_OUERE           "Ouere"

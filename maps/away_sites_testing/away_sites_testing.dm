@@ -14,7 +14,7 @@
 	#include "../away/slavers/slavers_base.dm"
 	#include "../away/blueriver/blueriver.dm"
 	#include "../away/mobius_rift/mobius_rift.dm"
-//	#include "../away/icarus/icarus.dm" temporarily removed while we investigate Travis failures
+//	#include "../away/icarus/icarus.dm" temporarily removed while we investigate testing failures
 	#include "../away/errant_pisces/errant_pisces.dm"
 	#include "../away/lar_maria/lar_maria.dm"
 	#include "../away/skrellscoutship/skrellscoutship.dm"
@@ -22,6 +22,7 @@
 	#include "../away/ascent/ascent.dm"
 	#include "../away/meatstation/meatstation.dm"
 	#include "../away/miningstation/miningstation.dm"
+	#include "../away/mininghome/mininghome.dm"
 	#include "../away/scavver/scavver_gantry.dm"
 	#include "../away/voxship/voxship.dm"
 

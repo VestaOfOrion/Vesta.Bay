@@ -173,6 +173,14 @@
 	containername = "shield generator construction kit crate"
 	access = access_engine
 
+/decl/hierarchy/supply_pack/engineering/smsmall
+	name = "Power - Supermatter shard"
+	contains = list(/obj/machinery/power/supermatter/shard)
+	cost = 75
+	containertype = /obj/structure/closet/crate/secure/large/phoron
+	containername = "\improper Supermatter crate (CAUTION)"
+	access = access_ce
+
 /decl/hierarchy/supply_pack/engineering/smbig
 	name = "Power - Supermatter core"
 	contains = list(/obj/machinery/power/supermatter)

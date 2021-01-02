@@ -2,6 +2,7 @@
 #include "bearcat_jobs.dm"
 #include "bearcat_access.dm"
 #include "bearcat_radio.dm"
+#include "bearcat_shuttles.dm"
 
 /obj/effect/submap_landmark/joinable_submap/bearcat
 	name = "FTV Bearcat"
@@ -18,9 +19,13 @@
 /obj/effect/overmap/visitable/ship/bearcat
 	name = "light freighter"
 	color = "#00ffff"
-	vessel_mass = 60
+	vessel_mass = 10000
 	max_speed = 1/(10 SECONDS)
 	burn_delay = 10 SECONDS
+
+	initial_restricted_waypoints = list(
+		"Cargo shuttle" = list("nav_bearcat_dock")
+	)
 
 /obj/effect/overmap/visitable/ship/bearcat/New()
 	name = "[pick("FTV","ITV","IEV")] [pick("Bearcat", "Firebug", "Defiant", "Unsinkable","Horizon","Vagrant")]"
@@ -36,7 +41,7 @@
 	description = "A wrecked light freighter."
 	suffixes = list("bearcat/bearcat-1.dmm", "bearcat/bearcat-2.dmm")
 	cost = 1
-	shuttles_to_initialise = list(/datum/shuttle/autodock/ferry/lift)
+	shuttles_to_initialise = list(/datum/shuttle/autodock/ferry/lift, /datum/shuttle/autodock/overmap/bearcat_shuttle)
 	area_usage_test_exempted_root_areas = list(/area/ship)
 	apc_test_exempt_areas = list(
 		/area/ship/scrap/maintenance/engine/port = NO_SCRUBBER|NO_VENT,
@@ -49,7 +54,8 @@
 		/area/ship/scrap/escape_port = NO_SCRUBBER|NO_VENT,
 		/area/ship/scrap/escape_star = NO_SCRUBBER|NO_VENT,
 		/area/ship/scrap/shuttle/lift = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/ship/scrap/command/hallway = NO_SCRUBBER|NO_VENT
+		/area/ship/scrap/command/hallway = NO_SCRUBBER|NO_VENT,
+		/area/ship/scrap/bearcat_shuttle = NO_SCRUBBER
 	)
 	spawn_weight = 0.67
 

@@ -171,6 +171,7 @@
 	#include "../away/skrellscoutship/skrellscoutship.dm"
 	#include "../away/meatstation/meatstation.dm"
 	#include "../away/miningstation/miningstation.dm"
+	#include "../away/mininghome/mininghome.dm"
 	#include "../away/scavver/scavver_gantry.dm"
 	#include "../away/verne/verne.dm"
 
@@ -204,7 +205,7 @@
 	#include "../../modular_boh/code/items/clothing/terran-head.dm"
 	#include "../../modular_boh/code/items/clothing/terran-suit.dm"
 	#include "../../modular_boh/code/items/clothing/terran-under.dm"
-  #include "../../modular_boh/maps/boh_areas.dm"
+	#include "../../modular_boh/maps/boh_areas.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts.dm"
 	#include "../../modular_boh/loadouts/custom_loadouts_helpers.dm"
 	#include "../../modular_boh/code/modules/torch_security_state.dm"
@@ -216,6 +217,7 @@
 	#include "../../modular_boh/code/game/machinery/vending.dm"
 	#include "../../modular_boh/code/game/loadout/loadout_accessories.dm"
 	#include "../../modular_boh/loadouts/~defines.dm"
+	
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
 //###########################################################################################################

@@ -2,12 +2,12 @@
 	name = "laser"
 	icon_state = "laser"
 	temperature = T0C + 300
-	fire_sound='sound/weapons/Laser.ogg'
+	fire_sound='modular_boh/sounds/weapons/LaserShot_Rifle.ogg'
 	impact_sounds = list(BULLET_IMPACT_MEAT = SOUNDS_LASER_MEAT, BULLET_IMPACT_METAL = SOUNDS_LASER_METAL)
 	pass_flags = PASS_FLAG_TABLE | PASS_FLAG_GLASS | PASS_FLAG_GRILLE
 	damage = 40
 	damage_type = BURN
-	sharp = 1 //concentrated burns
+	sharp = TRUE
 	damage_flags = DAM_LASER
 	eyeblur = 4
 	hitscan = 1
@@ -27,6 +27,7 @@
 /obj/item/projectile/beam/smalllaser
 	damage = 25
 	armor_penetration = 10
+	fire_sound='modular_boh/sounds/weapons/LaserShot_Light.ogg'
 
 /obj/item/projectile/beam/midlaser
 	damage = 50
@@ -36,7 +37,7 @@
 /obj/item/projectile/beam/heavylaser
 	name = "heavy laser"
 	icon_state = "heavylaser"
-	fire_sound = 'sound/weapons/lasercannonfire.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/LaserShot_Heavy.ogg'
 	damage = 60
 	armor_penetration = 30
 	distance_falloff = 0.5
@@ -165,7 +166,7 @@
 /obj/item/projectile/beam/sniper
 	name = "sniper beam"
 	icon_state = "xray"
-	fire_sound = 'sound/weapons/marauder.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/LaserShot_Marauder.ogg'
 	damage = 50
 	armor_penetration = 10
 	stun = 3
@@ -181,7 +182,7 @@
 	icon_state = "stun"
 	fire_sound = 'sound/weapons/Taser.ogg'
 	damage_flags = 0
-	sharp = 0 //not a laser
+	sharp = FALSE
 	damage = 1//flavor burn! still not a laser, dmg will be reduce by energy resistance not laser resistances
 	damage_type = BURN
 	eyeblur = 1//Some feedback that you've been hit
@@ -212,8 +213,7 @@
 	icon_state = "omnilaser"
 	fire_sound = 'sound/weapons/plasma_cutter.ogg'
 	damage = 15
-	sharp = 1
-	edge = 1
+	edge = TRUE
 	damage_type = BURN
 	life_span = 5
 	pass_flags = PASS_FLAG_TABLE
@@ -291,7 +291,7 @@
 	name = "dark matter wave"
 	icon_state = "darkt"
 	damage_flags = 0
-	sharp = 0 //not a laser
+	sharp = FALSE
 	agony = 40
 	damage_type = STUN
 	muzzle_type = /obj/effect/projectile/stun/darkmatter/muzzle
