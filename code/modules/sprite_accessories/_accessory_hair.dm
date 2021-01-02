@@ -114,6 +114,20 @@
 	gender = FEMALE
 	flags = HAIR_TIEABLE
 
+/datum/sprite_accessory/hair/ponytail8
+	name = "Ponytail, Spiky"
+	icon_state = "hair_ponytail_spiky"
+	gender = FEMALE
+	flags = HAIR_TIEABLE
+	species_allowed = list(SPECIES_HUMAN)
+	
+/datum/sprite_accessory/hair/ponytail9
+	name = "Ponytail, Wisp"
+	icon_state = "hair_ponytail_wisp"
+	gender = FEMALE
+	flags = HAIR_TIEABLE
+	species_allowed = list(SPECIES_HUMAN)
+
 /datum/sprite_accessory/hair/half_pati
 	name = "Half-Pati"
 	icon_state = "hair_halfpati"
