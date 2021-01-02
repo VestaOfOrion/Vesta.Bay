@@ -1,0 +1,6 @@
+author: Gilvian
+
+delete-after: True
+
+changes: 
+  - tweak: "Adds Binos and GPS to colony and ascent seedship."

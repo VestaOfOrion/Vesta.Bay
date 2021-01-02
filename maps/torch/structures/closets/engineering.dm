@@ -34,6 +34,7 @@
 	name = "chief engineer's locker"
 	req_access = list(access_ce)
 	closet_appearance = /decl/closet_appearance/secure_closet/torch/engineering/ce
+	storage_capacity = 45
 
 /obj/structure/closet/secure_closet/engineering_chief_torch/WillContain()
 	return list(
@@ -42,6 +43,7 @@
 		/obj/item/clothing/head/hardhat/white,
 		/obj/item/clothing/head/welding,
 		/obj/item/clothing/gloves/insulated,
+		/obj/item/clothing/gloves/thick/duty/solgov/eng,
 		/obj/item/device/radio/headset/heads/ce,
 		/obj/item/device/radio/headset/heads/ce/alt,
 		/obj/item/weapon/storage/belt/utility/full,
@@ -49,6 +51,7 @@
 		/obj/item/clothing/suit/storage/hazardvest,
 		/obj/item/clothing/mask/gas,
 		/obj/item/device/multitool,
+		/obj/item/weapon/screwdriver/power,
 		/obj/item/device/flash,
 		/obj/item/weapon/gun/energy/confuseray,
 		/obj/item/taperoll/engineering,
@@ -87,6 +90,7 @@
 		/obj/item/device/flashlight,
 		/obj/item/taperoll/atmos,
 		/obj/item/clothing/gloves/insulated,
+		/obj/item/clothing/gloves/thick/duty/solgov/eng,
 		/obj/item/weapon/material/knife/folding/swiss/engineer,
 		/obj/item/clothing/head/hardhat/damage_control,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/industrial, /obj/item/weapon/storage/backpack/satchel/eng)),
@@ -107,6 +111,7 @@
 		/obj/item/clothing/suit/storage/hazardvest,
 		/obj/item/clothing/mask/gas,
 		/obj/item/weapon/storage/belt/utility/full,
+		/obj/item/weapon/screwdriver/power,
 		/obj/item/clothing/glasses/meson,
 		/obj/item/taperoll/engineering,
 		/obj/item/taperoll/atmos,
@@ -115,6 +120,7 @@
 		/obj/item/device/flashlight,
 		/obj/item/device/megaphone,
 		/obj/item/clothing/gloves/insulated,
+		/obj/item/clothing/gloves/thick/duty/solgov/eng,
 		/obj/item/weapon/material/knife/folding/swiss/engineer,
 		/obj/item/clothing/head/hardhat/damage_control/Yellow,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/industrial, /obj/item/weapon/storage/backpack/satchel/eng)),

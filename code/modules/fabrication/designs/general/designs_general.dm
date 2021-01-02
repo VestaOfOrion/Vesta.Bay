@@ -4,6 +4,9 @@
 /datum/fabricator_recipe/flashlight
 	path = /obj/item/device/flashlight
 
+/datum/fabricator_recipe/maglight
+	path = /obj/item/device/flashlight/maglight
+
 /datum/fabricator_recipe/floor_light
 	path = /obj/machinery/floor_light
 

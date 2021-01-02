@@ -580,26 +580,26 @@
 
 
 /datum/mil_rank/marine_corps/w1
-	name = "Warrant Officer (W-1)"
-	name_short = "WO"
+	name = "Second Warrant Officer (W-1)"
+	name_short = "2ndWO"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w1)
 	sort_order = 11
 
 /datum/mil_rank/marine_corps/w2
-	name = "Second Warrant Officer (W-2)"
-	name_short = "SWO"
+	name = "First Warrant Officer (W-2)"
+	name_short = "1stWO"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w2)
 	sort_order = 12
 
 /datum/mil_rank/marine_corps/w3
-	name = "First Warrant Officer (W-3)"
-	name_short = "FWO"
+	name = "Master Warrant Officer (W-3)"
+	name_short = "MWO"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w3)
 	sort_order = 13
 
 /datum/mil_rank/marine_corps/w4
 	name = "Major Warrant Officer (W-4)"
-	name_short = "MWO"
+	name_short = "MajWO"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w4)
 	sort_order = 14
 
