@@ -206,6 +206,11 @@ datum/gear/utility/crayonmre
 	path = /obj/item/clothing/accessory/armband/solgov/mp
 	allowed_roles = SECURITY_ROLES
 
+/datum/gear/accessory/armband_bluesec
+	display_name = "Security Armband"
+	path = /obj/item/clothing/accessory/armband/bluesec
+	allowed_roles = SECURITY_ROLES
+	
 /datum/gear/accessory/smc_patch
 	display_name = "Marine Corps patch"
 	path = /obj/item/clothing/accessory/solgov/smc_patch

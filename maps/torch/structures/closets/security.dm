@@ -4,29 +4,29 @@
 
 /decl/closet_appearance/secure_closet/torch/security
 	extra_decals = list(
-		"stripe_vertical_mid_full" = COLOR_NT_RED,
-		"security" = COLOR_NT_RED
+		"stripe_vertical_mid_full" = "#477190",
+		"security" = "#477190"
 	)
 
 /decl/closet_appearance/secure_closet/torch/security/forensics
 	extra_decals = list(
-		"stripe_vertical_mid_full" = COLOR_NT_RED,
-		"forensics" = COLOR_NT_RED
+		"stripe_vertical_mid_full" = "#477190",
+		"forensics" = "#477190"
 	)
 
 /decl/closet_appearance/secure_closet/torch/security/warden
 	extra_decals = list(
-		"stripe_vertical_left_full" = COLOR_NT_RED,
-		"stripe_vertical_right_full" = COLOR_NT_RED,
-		"security" = COLOR_NT_RED
+		"stripe_vertical_left_full" = "#477190",
+		"stripe_vertical_right_full" = "#477190",
+		"security" = "#477190"
 	)
 
 /decl/closet_appearance/secure_closet/torch/security/hos
 	extra_decals = list(
-		"stripe_vertical_left_full" = COLOR_NT_RED,
+		"stripe_vertical_left_full" = "#477190",
 		"stripe_vertical_mid_full" = COLOR_CLOSET_GOLD,
-		"stripe_vertical_right_full" = COLOR_NT_RED,
-		"security" = COLOR_CLOSET_GOLD
+		"stripe_vertical_right_full" = "#477190",
+		"security" = "#477190"
 	)
 
 /obj/structure/closet/secure_closet/security_torch

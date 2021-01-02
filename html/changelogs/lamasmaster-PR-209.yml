@@ -1,0 +1,8 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - rscadd: "New Security Colors, that being dark blue."
+  - tweak: "Shuttle pilot and command support have new security HUD Icons to match their departments."
+  - maptweak: "Darker brig."
