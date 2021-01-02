@@ -50,5 +50,5 @@
 
 /obj/item/clothing/accessory/armband/bluesec
 	name = "blue security armband"
-	desc = "A fancy blue armband with security logo!"
+	desc = "A fancy blue armband with a security logo!"
 	icon_state = "bluesec"
