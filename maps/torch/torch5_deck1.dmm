@@ -2480,7 +2480,7 @@
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -6360,7 +6360,7 @@
 	icon_state = "2-4"
 	},
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	id_tag = "detdoor";
 	name = "Investigations";
 	secured_wires = 1
@@ -6765,7 +6765,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -7643,7 +7643,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -7662,7 +7662,7 @@
 /area/security/processing)
 "axO" = (
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	id_tag = "secprocessing";
 	name = "Security Processing"
 	},
@@ -8055,7 +8055,9 @@
 	name = "Operation Checkpoint Shutters";
 	opacity = 0
 	},
-/obj/effect/floor_decal/corner/red/mono,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/aft)
 "ayG" = (
@@ -8135,7 +8137,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -8268,7 +8270,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -8279,7 +8281,7 @@
 	icon_state = "console"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -8548,7 +8550,6 @@
 	pixel_y = 7
 	},
 /obj/item/weapon/pen,
-/obj/item/weapon/folder/red,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -8556,9 +8557,10 @@
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled/dark,
 /area/security/processing)
 "aBw" = (
@@ -8747,7 +8749,7 @@
 /obj/item/weapon/gun/energy/gun/small/secure,
 /obj/structure/closet/secure_closet/security_torch/cadet,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -8778,7 +8780,7 @@
 /area/security/wing)
 "aCy" = (
 /obj/machinery/door/airlock/glass/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Security Processing";
 	stripe_color = "#0d304d"
 	},
@@ -9013,7 +9015,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -9503,10 +9505,10 @@
 	pixel_y = 7
 	},
 /obj/random/clipboard,
-/obj/item/weapon/folder/red,
 /obj/item/weapon/pen,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/sticky_pad/random,
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled/dark,
 /area/security/bo)
 "aFU" = (
@@ -9515,18 +9517,18 @@
 	pixel_y = -23
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "aFV" = (
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -9539,7 +9541,7 @@
 "aFX" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -9550,7 +9552,7 @@
 	pixel_y = -28
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -9560,7 +9562,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -9579,7 +9581,7 @@
 	pixel_y = -32
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -9589,7 +9591,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -10481,7 +10483,7 @@
 	pixel_x = 22
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -10702,7 +10704,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -10741,7 +10743,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -10988,7 +10990,7 @@
 /area/security/storage)
 "aMD" = (
 /obj/effect/floor_decal/corner/red/three_quarters{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/item/device/radio/intercom/department/security{
 	dir = 4;
@@ -11005,7 +11007,7 @@
 	icon_state = "1-2"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11024,7 +11026,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11040,7 +11042,7 @@
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11103,7 +11105,7 @@
 /area/security/brig)
 "aMN" = (
 /obj/machinery/door/airlock/glass/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	id_tag = "prisonentry";
 	name = "Brig Entry";
 	stripe_color = "#0d304d"
@@ -11546,7 +11548,7 @@
 	c_tag = "Security Armory - Tactical Armory"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11576,8 +11578,8 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 5
+	color = "#22425c";
+	dir = 6
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
@@ -11696,7 +11698,7 @@
 	pixel_y = -22
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -12418,7 +12420,7 @@
 	req_access = list("ACCESS_BRIG")
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -12443,7 +12445,7 @@
 	pixel_y = 20
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -12813,7 +12815,7 @@
 	pixel_y = 0
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -12930,7 +12932,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -14625,8 +14627,8 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 10
+	color = "#22425c";
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
@@ -15215,13 +15217,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/wing)
-"bNL" = (
-/obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/hallway/primary/firstdeck/fore)
 "bOb" = (
 /obj/machinery/status_display{
 	pixel_x = 32;
@@ -15304,7 +15299,7 @@
 	},
 /obj/machinery/door/airlock/multi_tile/glass/security{
 	dir = 8;
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Security Lobby";
 	stripe_color = "#0d304d"
 	},
@@ -15445,7 +15440,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -15607,7 +15602,7 @@
 	pixel_y = 0
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -15634,7 +15629,7 @@
 	pixel_y = 0
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
@@ -15680,7 +15675,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/item/weapon/stool/padded,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -15841,7 +15836,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/bed/chair/padded/blue,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -15970,7 +15965,7 @@
 	level = 2
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -16047,7 +16042,7 @@
 "cKO" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -16072,7 +16067,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -16313,14 +16308,14 @@
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/security/locker)
 "daN" = (
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -16363,7 +16358,7 @@
 /area/crew_quarters/safe_room/medical)
 "deo" = (
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/vending/security/accessory,
@@ -16487,7 +16482,7 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -16539,7 +16534,7 @@
 	},
 /obj/structure/flora/pottedplant/minitree,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -17083,7 +17078,7 @@
 "dZx" = (
 /obj/item/weapon/stool/padded,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -17597,7 +17592,7 @@
 /obj/item/weapon/crowbar/prybar,
 /obj/item/weapon/crowbar/prybar,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -18038,7 +18033,7 @@
 /obj/item/weapon/stool/padded,
 /obj/item/weapon/stool/padded,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -18475,7 +18470,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -18485,7 +18480,7 @@
 /area/security/detectives_office)
 "goa" = (
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/vending/security,
@@ -18514,7 +18509,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -18739,8 +18734,8 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 5
+	color = "#22425c";
+	dir = 9
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
@@ -18938,7 +18933,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Equipment Storage"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -19251,7 +19246,7 @@
 	pixel_y = -3
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -19290,7 +19285,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -19481,7 +19476,7 @@
 /obj/item/device/radio,
 /obj/item/device/radio,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
@@ -19995,7 +19990,7 @@
 	pixel_y = 24
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /obj/structure/bed/chair/padded/blue{
@@ -20258,13 +20253,21 @@
 	name = "Security Equipment Locker";
 	req_access = list("ACCESS_SECURITY")
 	},
-/obj/effect/floor_decal/corner/red/half,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/sign/warning/nosmoking_1{
 	dir = 1;
 	pixel_y = -32
 	},
 /obj/item/weapon/storage/mre/menu7,
+/obj/effect/floor_decal/corner/red,
+/obj/effect/floor_decal/corner/red{
+	color = "#134975";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
 "izd" = (
@@ -20784,7 +20787,7 @@
 	pixel_x = 24
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -20936,7 +20939,7 @@
 /area/hallway/primary/firstdeck/aft)
 "jpt" = (
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -20967,7 +20970,9 @@
 	name = "Operation Checkpoint Shutters";
 	opacity = 0
 	},
-/obj/effect/floor_decal/corner/red/mono,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/aft)
 "jqD" = (
@@ -21159,7 +21164,7 @@
 /area/command/armoury)
 "jAr" = (
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -21192,7 +21197,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -21935,7 +21940,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -21959,7 +21964,7 @@
 	pixel_y = 13
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -22040,7 +22045,7 @@
 	},
 /obj/item/weapon/storage/box/trackimp,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -22077,7 +22082,7 @@
 	pixel_x = 4;
 	pixel_y = 4
 	},
-/obj/item/weapon/folder/red,
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled/dark,
 /area/security/detectives_office)
 "kyb" = (
@@ -22404,7 +22409,7 @@
 	c_tag = "Brig - Solitary Holding"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -22506,7 +22511,7 @@
 	pixel_x = -21
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -22587,7 +22592,7 @@
 	pixel_x = 21
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -22762,7 +22767,7 @@
 	icon_state = "pipe-c"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -23083,7 +23088,7 @@
 /area/medical/sleeper)
 "lAy" = (
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -23281,7 +23286,7 @@
 "lVb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	id_tag = "detdoor";
 	name = "Forensic Lab";
 	secured_wires = 1
@@ -23293,7 +23298,7 @@
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/steel,
@@ -23767,7 +23772,7 @@
 	pixel_y = -22
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -23905,7 +23910,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -23913,7 +23918,7 @@
 "mCk" = (
 /obj/structure/bed/chair/padded/blue,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -24033,7 +24038,7 @@
 	pixel_y = -24
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -24047,7 +24052,7 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -24419,7 +24424,7 @@
 "nkb" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	id_tag = "detdoor";
 	name = "Locker Room";
 	stripe_color = "#0d304d"
@@ -24541,7 +24546,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -24683,10 +24688,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d1starboard)
 "nAb" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 9;
-	icon_state = "corner_white"
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -24703,6 +24704,10 @@
 /obj/machinery/newscaster/security_unit{
 	pixel_x = -32;
 	pixel_y = 0
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
@@ -24816,10 +24821,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "nIb" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 9;
-	icon_state = "corner_white"
-	},
 /obj/machinery/alarm{
 	alarm_id = "xenobio2_alarm";
 	dir = 4;
@@ -24832,6 +24833,10 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
 "nJb" = (
@@ -24898,10 +24903,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/detectives_office)
 "nPb" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 9;
-	icon_state = "corner_white"
-	},
 /obj/machinery/recharger/wallcharger{
 	dir = 4;
 	icon_state = "wrecharger0";
@@ -24917,6 +24918,10 @@
 	dir = 5
 	},
 /obj/item/weapon/stool/padded,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
 "nPH" = (
@@ -25274,7 +25279,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -25322,7 +25327,7 @@
 /obj/item/weapon/gun/energy/gun/small/secure,
 /obj/structure/closet/secure_closet/security_torch/cadet,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -25382,7 +25387,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -25699,11 +25704,6 @@
 /area/assembly/robotics/office)
 "oOb" = (
 /obj/machinery/disposal,
-/obj/effect/floor_decal/corner/red{
-	dir = 9;
-	icon_state = "corner_white"
-	},
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -25719,6 +25719,15 @@
 	pixel_x = 0;
 	pixel_y = -24
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
 "oOt" = (
@@ -25832,7 +25841,7 @@
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -25935,7 +25944,7 @@
 	icon_state = "1-4"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -26258,7 +26267,7 @@
 	pixel_y = -3
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -26329,7 +26338,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -26371,7 +26380,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/glass/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	id_tag = "prisonexit";
 	name = "Brig Entry";
 	stripe_color = "#0d304d"
@@ -26673,7 +26682,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -26716,7 +26725,7 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -27132,7 +27141,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -27727,7 +27736,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -27868,7 +27877,7 @@
 /obj/item/clothing/mask/gas/half,
 /obj/structure/table/rack,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -27953,7 +27962,11 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -28034,7 +28047,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -28046,7 +28059,7 @@
 	pixel_y = -3
 	},
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark,
@@ -28092,6 +28105,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock/security{
+	door_color = "#22425c";
 	name = "Security Checkpoint";
 	secured_wires = 1
 	},
@@ -28737,7 +28751,7 @@
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/structure/closet/crate/med_crate/trauma,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -29257,7 +29271,7 @@
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
-	color = "#134975"
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light,
@@ -29313,7 +29327,7 @@
 "sxG" = (
 /obj/machinery/door/airlock/multi_tile/glass/security{
 	dir = 8;
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Security Lobby"
 	},
 /obj/machinery/door/blast/regular{
@@ -29367,7 +29381,7 @@
 	pixel_y = 7
 	},
 /obj/item/weapon/pen,
-/obj/item/weapon/folder/red,
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled/dark,
 /area/security/questioning)
 "szb" = (
@@ -29454,7 +29468,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
@@ -29544,7 +29558,7 @@
 	pixel_y = 24
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -29732,7 +29746,7 @@
 /area/rnd/xenobiology)
 "sTK" = (
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Security Interview Room"
 	},
 /obj/machinery/door/firedoor,
@@ -29833,7 +29847,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#224663";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
@@ -29876,7 +29890,7 @@
 	name = "Privacy Shutters"
 	},
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Brig Chief"
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -29970,7 +29984,7 @@
 /area/medical/medicalhallway)
 "tgs" = (
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Brig Chief"
 	},
 /obj/machinery/door/firedoor,
@@ -30508,7 +30522,7 @@
 "tTN" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -30829,7 +30843,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Evidence Storage"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -30850,7 +30864,7 @@
 /area/maintenance/firstdeck/aftport)
 "uJd" = (
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -30876,7 +30890,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/item/weapon/stool/padded,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -30955,9 +30969,8 @@
 /area/command/armoury/tactical)
 "uPc" = (
 /obj/machinery/light,
-/obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 10
+/obj/effect/floor_decal/corner/red/half{
+	color = "#22425c"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/fore)
@@ -31131,7 +31144,7 @@
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -31270,8 +31283,8 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 9
+	color = "#22425c";
+	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/solitary)
@@ -31319,8 +31332,8 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 10
+	color = "#22425c";
+	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/solitary)
@@ -31500,7 +31513,11 @@
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -31650,8 +31667,8 @@
 	pixel_x = -25
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 1
+	color = "#22425c";
+	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
@@ -31849,7 +31866,7 @@
 /area/security/wing)
 "wzN" = (
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
@@ -31893,7 +31910,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -32062,7 +32079,7 @@
 	pixel_y = -24
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -32158,7 +32175,15 @@
 	},
 /obj/structure/bed/chair/padded/blue,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -43312,7 +43337,7 @@ atE
 atE
 atE
 aqi
-bNL
+wzN
 ybv
 pIA
 wcQ

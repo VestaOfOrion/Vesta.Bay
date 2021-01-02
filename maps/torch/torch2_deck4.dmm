@@ -330,6 +330,10 @@
 	tag_exterior_door = "admin_shuttle_dock_outer";
 	tag_interior_door = "admin_shuttle_dock_inner"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/hallway/primary/fourthdeck/aft)
 "bm" = (
@@ -1235,6 +1239,15 @@
 	icon_state = "bordercolorhalf"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "el" = (
@@ -1495,6 +1508,14 @@
 	},
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
@@ -1794,6 +1815,14 @@
 	dir = 8;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
 "gb" = (
@@ -2078,6 +2107,18 @@
 	pixel_y = 6;
 	req_access = list("ACCESS_CARGO")
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8;
+	icon_state = "warningcorner"
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
 "hc" = (
@@ -2304,6 +2345,9 @@
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
 	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "hw" = (
@@ -2413,6 +2457,18 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 1;
 	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 8;
@@ -3343,6 +3399,14 @@
 	dir = 8;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
 "lB" = (
@@ -3590,6 +3654,14 @@
 	dir = 1;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "ml" = (
@@ -3601,6 +3673,14 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/white{
@@ -3695,6 +3775,9 @@
 	color = "#134975"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "my" = (
@@ -3918,6 +4001,14 @@
 	dir = 8;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "np" = (
@@ -3928,6 +4019,14 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -3950,6 +4049,14 @@
 	dir = 8;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "nr" = (
@@ -3963,6 +4070,14 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -4008,6 +4123,9 @@
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
 	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "nv" = (
@@ -4049,6 +4167,11 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/white,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/white,
@@ -4150,6 +4273,17 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8;
 	icon_state = "warning"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
@@ -4272,6 +4406,11 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/white,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/white,
@@ -4596,6 +4735,11 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/white,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/white,
@@ -6028,9 +6172,8 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 10
+/obj/effect/floor_decal/corner/red/half{
+	color = "#22425c"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/center)
@@ -6060,6 +6203,10 @@
 	color = "#134975";
 	dir = 10
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/center)
 "uj" = (
@@ -6069,6 +6216,14 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
@@ -6601,6 +6756,9 @@
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
 	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "vB" = (
@@ -6620,6 +6778,9 @@
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
 	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "vC" = (
@@ -6631,7 +6792,7 @@
 /area/maintenance/fourthdeck/aft)
 "vE" = (
 /obj/machinery/door/airlock/security{
-	door_color = "#134975";
+	door_color = "#22425c";
 	name = "Security Checkpoint";
 	secured_wires = 1
 	},
@@ -6937,6 +7098,10 @@
 	color = "#134975"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
 "wJ" = (
@@ -6954,6 +7119,10 @@
 	color = "#134975";
 	dir = 5
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
 "wK" = (
@@ -6966,6 +7135,10 @@
 /obj/structure/disposalpipe/segment/bent,
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -6988,6 +7161,10 @@
 	},
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -7366,7 +7543,7 @@
 	icon_state = "1-4"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/white,
@@ -7376,6 +7553,10 @@
 /obj/structure/bed/chair/padded/blue,
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -7413,6 +7594,10 @@
 /obj/machinery/recharger,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
@@ -7655,7 +7840,7 @@
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -7663,6 +7848,30 @@
 	icon_state = "corner_white"
 	},
 /turf/simulated/floor/tiled/monotile,
+/area/hallway/primary/fourthdeck/fore)
+"zs" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "zt" = (
 /obj/structure/cable/green{
@@ -7674,7 +7883,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -7707,7 +7916,7 @@
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -7726,10 +7935,6 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/light,
-/obj/effect/floor_decal/corner/red{
-	color = "#134975";
-	dir = 10
-	},
 /obj/effect/floor_decal/corner/white{
 	dir = 8;
 	icon_state = "corner_white"
@@ -7765,6 +7970,10 @@
 /obj/structure/closet/emcloset,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
@@ -7813,6 +8022,10 @@
 /obj/structure/ladder/up,
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 6
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -7973,12 +8186,20 @@
 	color = "#134975";
 	dir = 6
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 6
+	},
 /turf/simulated/floor/tiled/dark,
 /area/eva)
 "AF" = (
 /obj/machinery/suit_storage_unit/security/alt,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -8052,6 +8273,10 @@
 	color = "#134975"
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
 "AO" = (
@@ -8062,6 +8287,10 @@
 	},
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -8133,8 +8362,12 @@
 	icon_state = "alarm0";
 	pixel_y = -22
 	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -8270,6 +8503,22 @@
 /obj/effect/floor_decal/corner/red/diagonal{
 	dir = 8;
 	icon_state = "corner_white_diagonal"
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8;
+	icon_state = "warningcorner"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 1;
@@ -8923,6 +9172,17 @@
 	dir = 1;
 	icon_state = "warningcorner"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
 "EI" = (
@@ -9068,6 +9328,10 @@
 	color = "#134975"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/eva)
 "Fi" = (
@@ -9160,6 +9424,14 @@
 /obj/random/maintenance/solgov/clean,
 /obj/effect/floor_decal/corner/red{
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 1;
@@ -9390,6 +9662,14 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 1;
@@ -10095,6 +10375,10 @@
 	color = "#134975";
 	dir = 6
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 6
+	},
 /turf/simulated/floor/tiled/dark,
 /area/eva)
 "Ir" = (
@@ -10342,6 +10626,14 @@
 	pixel_x = -32;
 	pixel_y = 0
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
 "Jy" = (
@@ -10497,6 +10789,10 @@
 	tag_exterior_door = "rescue_shuttle_dock_outer";
 	tag_interior_door = "rescue_shuttle_dock_inner"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/hallway/primary/fourthdeck/aft)
 "JQ" = (
@@ -10581,6 +10877,15 @@
 	pixel_x = 1;
 	pixel_y = 31
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
 "Kc" = (
@@ -10945,7 +11250,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -11457,6 +11762,14 @@
 	name = "\improper ESCAPE POD LAUNCH PATHWAY";
 	pixel_x = -32
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
 "My" = (
@@ -11512,6 +11825,14 @@
 /obj/structure/flora/pottedplant/large,
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
@@ -11912,6 +12233,14 @@
 	dir = 1;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "NC" = (
@@ -12230,6 +12559,10 @@
 	},
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -12870,6 +13203,10 @@
 	color = "#134975";
 	dir = 5
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
 "Qr" = (
@@ -13219,6 +13556,11 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/white,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/white,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "Rv" = (
@@ -13232,6 +13574,10 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -13396,6 +13742,22 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red/diagonal,
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /obj/effect/floor_decal/corner/white{
 	dir = 8;
 	icon_state = "corner_white"
@@ -13670,6 +14032,9 @@
 "Sv" = (
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
@@ -13951,6 +14316,14 @@
 	dir = 1;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/fore)
 "SV" = (
@@ -14203,6 +14576,10 @@
 	color = "#134975"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/hangcheck)
 "TD" = (
@@ -14223,6 +14600,10 @@
 /obj/machinery/papershredder,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#134975"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -14317,6 +14698,14 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 1;
 	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
 	},
 /obj/effect/floor_decal/corner/white{
 	dir = 8;
@@ -14456,6 +14845,10 @@
 	color = "#134975";
 	dir = 10
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/center)
 "Uq" = (
@@ -14466,6 +14859,10 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/monotile,
@@ -14540,6 +14937,14 @@
 	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/white{
@@ -15091,6 +15496,26 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
+"Wb" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/fourthdeck/fore)
 "Wc" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
@@ -16203,6 +16628,14 @@
 	dir = 8;
 	icon_state = "corner_white"
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/hallway/primary/fourthdeck/aft)
 "YS" = (
@@ -16349,6 +16782,14 @@
 "Zj" = (
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -16750,7 +17191,7 @@
 	pixel_y = -28
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#134975";
+	color = "#22425c";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/white{
@@ -29589,7 +30030,7 @@ Ye
 vx
 hE
 yb
-Le
+Wb
 le
 BV
 BV
@@ -29993,7 +30434,7 @@ ub
 vz
 hE
 nx
-ZZ
+zs
 le
 BX
 CX
