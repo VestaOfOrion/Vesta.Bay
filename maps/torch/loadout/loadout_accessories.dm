@@ -77,10 +77,10 @@
 	display_name = "master at arms brassard"
 	path = /obj/item/clothing/accessory/armband/solgov/ma
 	allowed_roles = SECURITY_ROLES
-
+/*
 /datum/gear/accessory/armband_security
 	allowed_roles = SECURITY_ROLES
-
+*/
 /datum/gear/accessory/armband_cargo
 	allowed_roles = SUPPLY_ROLES
 
