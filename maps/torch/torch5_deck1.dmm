@@ -11141,10 +11141,6 @@
 /area/security/brig)
 "aMQ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/light_switch{
-	pixel_x = 24;
-	pixel_y = -6
-	},
 /obj/structure/closet{
 	name = "Prisoner's Locker"
 	},
@@ -16683,6 +16679,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "dEb" = (
@@ -19106,19 +19106,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/firstdeck/aft)
-"hjk" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/light_switch{
-	pixel_x = -22
-	},
-/turf/simulated/floor/tiled/dark,
-/area/security/brig)
 "hku" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 4;
@@ -20265,8 +20252,7 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/red{
-	color = "#22425c";
-	dir = 10
+	color = "#22425c"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
@@ -22945,7 +22931,6 @@
 "lxb" = (
 /obj/structure/table/steel,
 /obj/item/weapon/paper_bin,
-/obj/item/weapon/folder/red,
 /obj/item/weapon/pen,
 /obj/machinery/requests_console{
 	announcementConsole = 1;
@@ -22957,6 +22942,7 @@
 /obj/item/device/taperecorder{
 	pixel_y = 0
 	},
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled/dark,
 /area/security/opscheck)
 "lxs" = (
@@ -25357,6 +25343,10 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#224663";
+	dir = 8
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "ooN" = (
@@ -26572,9 +26562,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery2)
-"pIA" = (
-/turf/simulated/floor/tiled,
-/area/hallway/primary/firstdeck/fore)
 "pIW" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/visible/blue,
@@ -28093,9 +28080,6 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "rsu" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 8
-	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
 	d1 = 1;
@@ -32440,6 +32424,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
@@ -43339,9 +43327,9 @@ atE
 aqi
 wzN
 ybv
-pIA
+wzN
 wcQ
-pIA
+wzN
 cje
 wzN
 wzN
@@ -44565,7 +44553,7 @@ bSz
 sTT
 xCn
 aLK
-hjk
+aLK
 uUC
 eVQ
 uVw
