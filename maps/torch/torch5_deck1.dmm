@@ -10623,6 +10623,14 @@
 /obj/structure/table/rack{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aKV" = (
@@ -10636,6 +10644,10 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -10938,6 +10950,14 @@
 	},
 /obj/item/device/radio,
 /obj/item/device/radio,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aLV" = (
@@ -11226,6 +11246,14 @@
 	dir = 8
 	},
 /obj/item/weapon/storage/box/teargas,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aNc" = (
@@ -11400,11 +11428,23 @@
 	dir = 8
 	},
 /obj/item/weapon/storage/box/flashbangs,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aOb" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/red{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11424,6 +11464,10 @@
 	health = 1e+007
 	},
 /obj/item/weapon/storage/box/bodybags,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 10
+	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "aOd" = (
@@ -13129,7 +13173,9 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/engineering{
-	name = "Robotics"
+	door_color = "#ffffff";
+	name = "Robotics";
+	stripe_color = "#a2819e"
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/assembly/robotics/office)
@@ -21332,6 +21378,10 @@
 	pixel_x = 5;
 	pixel_y = 5
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
 /turf/simulated/floor/tiled/dark,
 /area/operations_storage/security)
 "jJb" = (
@@ -21879,6 +21929,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red{
+	color = "#224663";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -21980,6 +22031,7 @@
 /area/command/armoury/tactical)
 "ktf" = (
 /obj/machinery/door/airlock/security{
+	door_color = "#224663";
 	name = "Auxillary Security Storage"
 	},
 /obj/machinery/door/firedoor,
@@ -23267,6 +23319,10 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 8
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#224663";
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/operations_storage)
 "lVb" = (
@@ -23587,6 +23643,10 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -25760,7 +25820,9 @@
 /area/operations_storage)
 "oPD" = (
 /obj/machinery/door/airlock/engineering{
-	name = "Robotics"
+	door_color = "#ffffff";
+	name = "Robotics";
+	stripe_color = "#a2819e"
 	},
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/monotile,
