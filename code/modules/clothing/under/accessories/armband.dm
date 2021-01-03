@@ -47,3 +47,8 @@
 	name = "peacekeeper armband"
 	desc = "An armband, worn by the crew to display which department they're assigned to. This one is blue and gold."
 	icon_state = "solblue"
+
+/obj/item/clothing/accessory/armband/bluesec
+	name = "blue security armband"
+	desc = "A fancy blue armband with a security logo!"
+	icon_state = "bluesec"

@@ -426,7 +426,7 @@ department tags
 /obj/item/clothing/accessory/solgov/department/security
 	name = "security insignia"
 	desc = "Insignia denoting assignment to the security department. These fit Surveyor Corps uniforms."
-	color = "#bf0000"
+	color = "#0c6bb0"
 
 /obj/item/clothing/accessory/solgov/department/security/service
 	icon_state = "dept_exped_service"
