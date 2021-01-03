@@ -1,0 +1,8 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - bugfix: "Unathi sprite for SMC urban uniform."
+  - rscadd: "Navy boots and gloves for SMC."
+  - rscdel: "Removed desert - tan boots from loadout."
