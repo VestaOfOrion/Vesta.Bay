@@ -67,4 +67,3 @@
 	display_name = "gloves, navy"
 	path = /obj/item/clothing/gloves/thick/navy
 	cost = 3
-	allowed_branches = MARINES_ONLY
