@@ -9,3 +9,4 @@ changes:
   - maptweak: "Adds a photocopier to the Polyp."
   - maptweak: "Adds a photocopier and shredder to the NTEF SEA office, changes his filing cabinet drawer to wall-mounted to save space."
   - maptweak: "Adds an ATM north of the PADV office and between the Medical exam room and Counselor's office."
+  - bugfix: "The SMC SEA's office door control now actually controls his office door, instead of the NTEF SEA's office door."
