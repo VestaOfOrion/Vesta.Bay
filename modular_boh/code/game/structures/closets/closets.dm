@@ -15,11 +15,24 @@
 	return 1
 
 //## VESTA.BAY # INFANTRY LOCKERS #############
+/decl/closet_appearance/secure_closet/torch/security/infantry
+	extra_decals = list(
+		"stripe_vertical_mid_full" = "#429661",
+		"security" = "#429661"
+	)
 
+/decl/closet_appearance/secure_closet/security/infantry/squad_lead
+	extra_decals = list(
+		"stripe_vertical_left_full" =  "#429661",
+		"stripe_vertical_right_full" = "#429661",
+		"stripe_vertical_mid_full" =  COLOR_CLOSET_GOLD,
+		"security" = "#429661"
+	)
+	
 /obj/structure/closet/secure_closet/infantry
 	name = "infantry locker"
 	req_access = list(access_infantry)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/security/warden
+	closet_appearance = /decl/closet_appearance/secure_closet/torch/security/infantry
 
 /obj/structure/closet/secure_closet/infantry/WillContain()
 	return list(
@@ -51,7 +64,7 @@
 /obj/structure/closet/secure_closet/inftech/ammo
 	name = "technician's support locker"
 	req_access = list(access_inftech)
-	closet_appearance = /decl/closet_appearance/secure_closet/torch/security/warden
+	closet_appearance = /decl/closet_appearance/secure_closet/torch/security/infantry
 
 /obj/structure/closet/secure_closet/inftech/ammo/WillContain()
 	return list(
@@ -63,7 +76,7 @@
 /obj/structure/closet/secure_closet/squad_lead
 	name = "squad leader's locker"
 	req_access = list(access_infcom)
-	closet_appearance = /decl/closet_appearance/secure_closet/security/hos
+	closet_appearance = /decl/closet_appearance/secure_closet/security/infantry/squad_lead
 
 /obj/structure/closet/secure_closet/squad_lead/WillContain()
 	return list(
