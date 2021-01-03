@@ -380,5 +380,5 @@
 	uniform = /obj/item/clothing/under/det/grey
 	suit = /obj/item/clothing/suit/storage/toggle/agent_jacket
 	shoes = /obj/item/clothing/shoes/dress
-	id_types = list(/obj/item/weapon/card/id/torch/crew/representative)
+	id_types = list(/obj/item/weapon/card/id/torch/crew/representative/guard)
 	pda_type = /obj/item/modular_computer/pda/heads/paperpusher
