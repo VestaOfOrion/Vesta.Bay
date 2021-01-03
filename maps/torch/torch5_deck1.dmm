@@ -6903,6 +6903,7 @@
 /obj/structure/table/standard,
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
+/obj/item/weapon/folder/white,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/exam_room)
 "auc" = (
@@ -20115,6 +20116,9 @@
 /obj/structure/table/woodentable_reinforced/walnut,
 /obj/item/weapon/paper_bin,
 /obj/item/weapon/pen,
+/obj/item/weapon/folder/nt,
+/obj/random/clipboard,
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/psiadvisor)
 "isb" = (
@@ -21668,6 +21672,7 @@
 	pixel_y = 7
 	},
 /obj/item/weapon/pen,
+/obj/random/clipboard,
 /turf/simulated/floor/wood/walnut,
 /area/medical/counselor)
 "jZb" = (
@@ -22437,6 +22442,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/staging)
+"kRr" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 5
+	},
+/obj/machinery/atm{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/firstdeck/aft)
 "kSb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -23278,6 +23292,9 @@
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/computer/modular/preset/medical{
 	dir = 8
+	},
+/obj/structure/filingcabinet/wallcabinet{
+	pixel_x = 26
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/exam_room)
@@ -25412,6 +25429,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/random/clipboard,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/exam_room)
 "onM" = (
@@ -26854,6 +26872,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/wing)
+"pYB" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/rnd/development)
 "pZb" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -29267,6 +29292,7 @@
 /obj/machinery/newscaster{
 	pixel_y = -32
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/rnd/research)
 "ssb" = (
@@ -55959,7 +55985,7 @@ aik
 nHe
 dnx
 ltb
-aii
+pYB
 aik
 jUb
 oUb
@@ -56356,7 +56382,7 @@ nCb
 nCb
 nCb
 nCb
-ivT
+kRr
 hib
 tiz
 aik
