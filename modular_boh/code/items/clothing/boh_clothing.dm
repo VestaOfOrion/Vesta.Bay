@@ -16,7 +16,6 @@
 /obj/item/clothing/accessory/cloak/boh
 	name = "greatcloak"
 	desc = "A simple, yet fancy cloak."
-	icon = 'modular_boh/icon/obj/obj_cloak.dmi'
 	icon_state = "cloak_alt"
 	icon_override = 'modular_boh/icon/mob/onmob_cloak.dmi'
 	accessory_icons = list(slot_tie_str = 'modular_boh/icon/mob/onmob_cloak.dmi', slot_w_uniform_str = 'modular_boh/icon/mob/onmob_cloak.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
