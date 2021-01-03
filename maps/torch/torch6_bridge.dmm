@@ -448,9 +448,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "aY" = (
@@ -4852,6 +4849,29 @@
 	},
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
+"jP" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/effect/catwalk_plated,
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
+/turf/simulated/floor/plating,
+/area/hallway/primary/bridge/aft)
 "jQ" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/effect/floor_decal/industrial/warning{
@@ -6316,7 +6336,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "ny" = (
@@ -6640,7 +6659,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "on" = (
@@ -16644,11 +16662,11 @@
 	pixel_x = -24;
 	pixel_y = 0
 	},
-/obj/structure/disposalpipe/trunk{
-	dir = 4
-	},
 /obj/machinery/disposal,
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Qi" = (
@@ -16997,9 +17015,6 @@
 "Rh" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
@@ -17554,10 +17569,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
-	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "SO" = (
@@ -17820,10 +17831,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/disposalpipe/segment{
-	dir = 8;
-	icon_state = "pipe-c"
-	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Tz" = (
@@ -18210,6 +18217,11 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/fore)
+"UM" = (
+/obj/effect/floor_decal/corner/blue/half,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "UN" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad,
@@ -19425,6 +19437,11 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/command/bridge_quarters)
+"Yu" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/plating,
+/area/command/msea)
 "Yw" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -35801,9 +35818,9 @@ ip
 ja
 DN
 kQ
-aV
-ne
-Qc
+jP
+UM
+Yu
 Qh
 Xh
 di
