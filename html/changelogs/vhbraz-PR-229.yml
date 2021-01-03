@@ -1,0 +1,6 @@
+author: Vhbraz
+
+delete-after: True
+
+changes: 
+  - tweak: "Fixes issues with prospector ID cards & headsets."

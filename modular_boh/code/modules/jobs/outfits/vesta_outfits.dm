@@ -249,6 +249,10 @@
 
 /decl/hierarchy/outfit/job/torch/crew/supply/tech/fleet/prospector
 	name = OUTFIT_JOB_NAME("Salvage Technician - Fleet")
+	id_types = list(/obj/item/weapon/card/id/torch/passenger/research/mining)
+	pda_type = /obj/item/modular_computer/pda/mining
+	flags = OUTFIT_FLAGS_JOB_DEFAULT | OUTFIT_EXTENDED_SURVIVAL
+	l_ear = /obj/item/device/radio/headset/headset_mining
 /***/
 
 // Corporate
