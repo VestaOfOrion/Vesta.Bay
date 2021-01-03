@@ -33,7 +33,7 @@
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
-	skill_points = 20
+	skill_points = 16
 
 	access = list(
 		access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
@@ -78,7 +78,7 @@
 	max_skill = list(   SKILL_MEDICAL     = SKILL_MAX,
 	                    SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_CHEMISTRY   = SKILL_MAX)
-	skill_points = 16
+	skill_points = 14
 
 	access = list(
 		access_medical, access_morgue, access_virology, access_maint_tunnels, access_emergency_storage,
@@ -134,7 +134,7 @@
 
 	software_on_spawn = list(/datum/computer_file/program/suit_sensors,
 							 /datum/computer_file/program/camera_monitor)
-	skill_points = 22
+	skill_points = 20
 
 /datum/job/medical_trainee
 	title = "Trainee Medical Technician"
