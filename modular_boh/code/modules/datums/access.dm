@@ -30,7 +30,7 @@
 	access_type = ACCESS_TYPE_NONE //Ruler of their own domain, CO cannot enter.
 
 /var/const/access_representative_guard = "ACCESS_TORCH_REPRESENTATIVE_GUARD"
-/datum/access/representative
+/datum/access/representative_guard
 	id = access_representative_guard
 	desc = "Federal Protection Agent"
 	region = ACCESS_REGION_COMMAND
