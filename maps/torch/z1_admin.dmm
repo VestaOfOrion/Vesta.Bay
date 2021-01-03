@@ -8339,6 +8339,7 @@
 /obj/structure/table/woodentable,
 /obj/random/single/lighter,
 /obj/random/toy,
+/obj/random/cash,
 /turf/simulated/floor/carpet/blue,
 /area/merchant_station)
 "aNa" = (
@@ -11636,6 +11637,15 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_cafe)
+"cUH" = (
+/obj/effect/step_trigger/thrower{
+	affect_ghosts = 1;
+	direction = 2;
+	name = "thrower_throwdown";
+	tiles = 0
+	},
+/turf/space,
+/area/space)
 "djm" = (
 /obj/item/weapon/beach_ball/holovolleyball,
 /turf/simulated/floor/holofloor/beach/sand,
@@ -11953,15 +11963,6 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_cafe)
-"kpD" = (
-/obj/effect/step_trigger/thrower{
-	affect_ghosts = 1;
-	direction = 2;
-	name = "thrower_throwdown";
-	tiles = 0
-	},
-/turf/space,
-/area/space)
 "kBT" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 4;
@@ -12061,6 +12062,13 @@
 	icon_state = "dark"
 	},
 /area/syndicate_elite_squad)
+"mJS" = (
+/obj/structure/closet/crate,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/loot,
+/obj/random/loot,
+/turf/simulated/floor/tiled/dark,
+/area/merchant_station)
 "mRm" = (
 /turf/simulated/floor/holofloor/beach/sand{
 	icon_state = "desert1"
@@ -12173,13 +12181,6 @@
 	name = "Shuttle Bay Blast Door"
 	},
 /area/syndicate_elite_squad)
-"oWt" = (
-/obj/structure/closet/crate,
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/random/loot,
-/obj/random/loot,
-/turf/simulated/floor/tiled/dark,
-/area/merchant_station)
 "pgJ" = (
 /obj/structure/holostool,
 /turf/simulated/floor/holofloor/tiled/stone,
@@ -12595,7 +12596,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -12797,7 +12798,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -12999,7 +13000,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -13201,7 +13202,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -13403,7 +13404,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -13605,7 +13606,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -13807,7 +13808,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -14009,7 +14010,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -14211,7 +14212,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -14413,7 +14414,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -14615,7 +14616,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -14817,7 +14818,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -15019,7 +15020,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -15221,7 +15222,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -15423,7 +15424,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -15625,7 +15626,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -15827,7 +15828,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -16029,7 +16030,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -16231,7 +16232,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -16433,7 +16434,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -16635,7 +16636,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -16837,7 +16838,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -17039,7 +17040,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -17208,7 +17209,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 ala
 ala
 ala
@@ -17241,7 +17242,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -17410,7 +17411,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 ala
 ala
 aLW
@@ -17443,7 +17444,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aab
 aab
 aab
@@ -17612,7 +17613,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 ala
 aLW
 aLW
@@ -17814,7 +17815,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 ala
 aLW
 aLW
@@ -18016,7 +18017,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -18218,7 +18219,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -18420,7 +18421,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -18622,7 +18623,7 @@ aca
 aca
 adJ
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -18824,7 +18825,7 @@ ajm
 ajA
 ajK
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -19026,7 +19027,7 @@ adl
 ajB
 ajL
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -19228,7 +19229,7 @@ adX
 ajC
 ajL
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -19430,7 +19431,7 @@ adl
 ajD
 ajL
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -19632,7 +19633,7 @@ ajn
 ajE
 ajM
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -19834,7 +19835,7 @@ aca
 aca
 adM
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -20036,7 +20037,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -20238,7 +20239,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -20440,7 +20441,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -20642,7 +20643,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -20844,7 +20845,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -21046,7 +21047,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aMf
 aMf
@@ -21248,7 +21249,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aMf
 aMs
@@ -21450,7 +21451,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aMf
 aMt
@@ -21652,7 +21653,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aMf
 aMu
@@ -21854,7 +21855,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aMf
 aMf
@@ -22056,7 +22057,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMf
@@ -22258,7 +22259,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMf
@@ -22460,7 +22461,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMf
@@ -22662,7 +22663,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMf
@@ -22864,7 +22865,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -23066,7 +23067,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -23268,7 +23269,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -23470,7 +23471,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMg
@@ -23672,7 +23673,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMg
@@ -23874,7 +23875,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMg
@@ -24076,7 +24077,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aMg
 aMg
@@ -24278,7 +24279,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aMh
 aMg
@@ -24480,7 +24481,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aMh
@@ -24682,7 +24683,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -24690,7 +24691,7 @@ aLW
 aLW
 aNC
 aOf
-oWt
+mJS
 aPq
 aQp
 aNC
@@ -24884,7 +24885,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -25086,7 +25087,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -25288,7 +25289,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -25490,7 +25491,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -25692,7 +25693,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLW
 aLW
 aLW
@@ -25894,7 +25895,7 @@ aab
 aab
 aab
 aab
-kpD
+cUH
 aLG
 aLG
 aLG
