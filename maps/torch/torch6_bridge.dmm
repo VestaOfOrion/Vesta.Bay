@@ -207,9 +207,9 @@
 	dir = 5;
 	icon_state = "intact"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 2;
-	icon_state = "pipe-c"
+/obj/structure/disposalpipe/junction{
+	dir = 4;
+	icon_state = "pipe-j1"
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
@@ -430,6 +430,9 @@
 	icon_state = "intact"
 	},
 /obj/effect/catwalk_plated,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/bridge/aft)
 "aW" = (
@@ -445,6 +448,9 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "aY" = (
@@ -4261,16 +4267,8 @@
 /turf/simulated/open,
 /area/hallway/primary/bridge/fore)
 "in" = (
-/obj/structure/sign/directions/engineering{
-	dir = 2;
-	pixel_z = 10
-	},
 /obj/structure/sign/directions/evac{
 	dir = 2
-	},
-/obj/structure/sign/directions/supply{
-	dir = 2;
-	pixel_z = -10
 	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/bridge/fore)
@@ -4894,28 +4892,10 @@
 	pixel_y = 3;
 	pixel_z = 0
 	},
-/obj/structure/sign/directions/security{
-	dir = 2;
-	pixel_y = -4;
-	pixel_z = 0
-	},
 /turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/bridge/aft)
 "jV" = (
 /turf/simulated/floor/tiled,
-/area/hallway/primary/bridge/aft)
-"jW" = (
-/obj/structure/sign/directions/infirmary{
-	dir = 2;
-	pixel_y = -4;
-	pixel_z = 0
-	},
-/obj/structure/sign/directions/science{
-	dir = 2;
-	pixel_y = 3;
-	pixel_z = 0
-	},
-/turf/simulated/wall/r_wall/prepainted,
 /area/hallway/primary/bridge/aft)
 "jX" = (
 /obj/structure/cable/green{
@@ -5468,13 +5448,6 @@
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/white/monotile,
 /area/aquila/medical)
-"lA" = (
-/obj/structure/sign/warning/high_voltage{
-	dir = 8;
-	icon_state = "shock"
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/crew_quarters/heads/office/cmo)
 "lB" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -6343,6 +6316,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "ny" = (
@@ -6597,6 +6571,10 @@
 	icon_state = "1-8"
 	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
 "oe" = (
@@ -6662,6 +6640,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "on" = (
@@ -7079,6 +7058,16 @@
 /obj/structure/closet/firecloset,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/turret_protected/ai_outer_chamber)
+"pw" = (
+/obj/effect/floor_decal/corner/blue/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "py" = (
 /obj/structure/filingcabinet/chestdrawer{
 	dir = 1
@@ -7407,10 +7396,8 @@
 /area/bridge)
 "qi" = (
 /obj/effect/floor_decal/corner/blue/three_quarters,
-/obj/machinery/firealarm{
-	dir = 8;
-	pixel_x = -24;
-	pixel_y = 0
+/obj/machinery/light{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
@@ -8802,6 +8789,15 @@
 /obj/structure/noticeboard{
 	pixel_x = 32
 	},
+/obj/item/device/taperecorder{
+	pixel_x = -4;
+	pixel_y = 2
+	},
+/obj/item/weapon/hand_labeler,
+/obj/item/weapon/storage/briefcase{
+	pixel_x = 3;
+	pixel_y = 0
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
 "tA" = (
@@ -9144,6 +9140,15 @@
 	},
 /obj/item/weapon/folder/envelope/rep,
 /obj/item/documents/scgr,
+/obj/item/weapon/pen/retractable/blue{
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/obj/item/weapon/pen/retractable/green,
+/obj/item/weapon/pen/retractable/red{
+	pixel_x = -1;
+	pixel_y = 3
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
 "uo" = (
@@ -9247,10 +9252,10 @@
 /area/crew_quarters/heads/cobed)
 "uz" = (
 /obj/structure/table/woodentable/walnut,
-/obj/item/device/flashlight/lamp/green,
 /obj/structure/noticeboard{
 	pixel_x = 32
 	},
+/obj/item/device/flashlight/lamp/green,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "uB" = (
@@ -9819,19 +9824,11 @@
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "vX" = (
-/obj/structure/filingcabinet/chestdrawer{
-	dir = 1
-	},
-/obj/item/weapon/folder/blue,
-/obj/item/weapon/folder/red,
-/obj/item/weapon/folder,
-/obj/item/weapon/folder/nt,
-/obj/item/weapon/folder/yellow,
-/obj/item/weapon/folder/white,
 /obj/machinery/newscaster/security_unit{
 	pixel_x = -32;
 	pixel_y = 0
 	},
+/obj/machinery/papershredder,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "vY" = (
@@ -10170,37 +10167,29 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "wD" = (
-/obj/structure/table/woodentable/walnut,
-/obj/machinery/photocopier/faxmachine/torch{
-	department = "Torch - SolGov Representative"
-	},
 /obj/item/device/radio/intercom{
 	dir = 4;
 	pixel_x = -21
 	},
 /obj/machinery/light,
+/obj/structure/filingcabinet/chestdrawer{
+	dir = 1
+	},
+/obj/item/weapon/folder/blue,
+/obj/item/weapon/folder/white,
+/obj/item/weapon/folder/yellow,
+/obj/item/weapon/folder/nt,
+/obj/item/weapon/folder,
+/obj/item/weapon/folder/red,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "wE" = (
-/obj/structure/table/woodentable/walnut,
-/obj/item/weapon/storage/briefcase{
-	pixel_x = 3;
-	pixel_y = 0
-	},
-/obj/item/weapon/hand_labeler,
-/obj/item/device/taperecorder{
-	pixel_x = -4;
-	pixel_y = 2
-	},
-/obj/item/device/camera{
-	pixel_x = 3;
-	pixel_y = -4
-	},
 /obj/structure/sign/double/icarus/solgovflag/right{
 	dir = 1;
 	icon_state = "solgovflag-right";
 	pixel_z = -32
 	},
+/obj/machinery/photocopier,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "wG" = (
@@ -10872,9 +10861,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/auxsolarbridge)
 "yi" = (
-/obj/structure/noticeboard{
-	pixel_x = -32
-	},
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/secure_closet/sea,
@@ -11534,6 +11520,9 @@
 	pixel_y = -25;
 	req_access = list("ACCESS_TORCH_SENIOR_ADVISOR")
 	},
+/obj/item/weapon/book/manual/military_law,
+/obj/item/weapon/book/manual/sol_sop,
+/obj/item/weapon/book/manual/solgov_law,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/msea)
 "Aj" = (
@@ -16650,12 +16639,16 @@
 	c_tag = "SMC Senior Enlisted Advisor - Office";
 	dir = 4
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24;
+	pixel_y = 0
 	},
-/obj/machinery/chemical_dispenser/bar_coffee/full{
-	pixel_y = 3
+/obj/structure/disposalpipe/trunk{
+	dir = 4
 	},
+/obj/machinery/disposal,
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Qi" = (
@@ -16888,16 +16881,9 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/item/weapon/pen/retractable/green,
-/obj/item/weapon/pen/retractable/red{
-	pixel_x = -1;
-	pixel_y = 3
+/obj/machinery/photocopier/faxmachine/torch{
+	department = "Torch - SolGov Representative"
 	},
-/obj/item/weapon/pen/retractable/blue{
-	pixel_x = -5;
-	pixel_y = -1
-	},
-/obj/item/weapon/book/manual/solgov_law,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "QV" = (
@@ -17012,10 +16998,9 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 5
 	},
-/obj/structure/table/standard{
-	name = "plastic table frame"
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/item/weapon/storage/box/glasses/pint,
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Ri" = (
@@ -17569,6 +17554,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 2;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/aft)
 "SO" = (
@@ -17790,6 +17779,15 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/cobed)
+"Tp" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "Tr" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -17822,6 +17820,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Tz" = (
@@ -19389,8 +19391,9 @@
 	pixel_y = 0
 	},
 /obj/effect/floor_decal/industrial/warning/fulltile,
-/obj/machinery/atm{
-	pixel_x = 32
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
@@ -33982,7 +33985,7 @@ in
 kL
 lD
 kL
-lA
+kJ
 Xx
 kJ
 fW
@@ -35190,8 +35193,8 @@ fI
 fI
 fI
 fI
-jW
-kM
+fI
+pw
 nb
 ne
 Ey
@@ -37009,7 +37012,7 @@ kl
 hS
 mU
 zJ
-kU
+Tp
 Bv
 HA
 QL

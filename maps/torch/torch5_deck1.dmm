@@ -2571,7 +2571,7 @@
 /obj/machinery/door/airlock/glass/medical{
 	autoset_access = 0;
 	name = "Medical Foyer";
-	req_access = list(list(access_medical,access_morgue,access_forensics_lockers))
+	req_access = list(list("ACCESS_MEDICAL","ACCESS_MORGUE","ACCESS_FORENSICS"))
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -3624,6 +3624,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "agq" = (
@@ -4109,6 +4110,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "ahk" = (
@@ -4535,6 +4537,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "aie" = (
@@ -4594,6 +4597,7 @@
 /obj/item/toy/desk/newtoncradle{
 	pixel_y = 10
 	},
+/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/foundation,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/psiadvisor)
 "aii" = (
@@ -4631,19 +4635,20 @@
 	dir = 1;
 	pixel_y = -26
 	},
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "ain" = (
-/obj/structure/table/woodentable/walnut,
-/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/teacup,
-/obj/item/weapon/reagent_containers/food/drinks/teapot,
-/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/teacup,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
 /obj/machinery/light_switch{
 	pixel_y = -24
 	},
+/obj/machinery/photocopier,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/psiadvisor)
 "aio" = (
@@ -6191,6 +6196,9 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 1
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "aqg" = (
@@ -6893,6 +6901,8 @@
 "aub" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/table/standard,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/exam_room)
 "auc" = (
@@ -17065,6 +17075,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10
 	},
+/obj/machinery/papershredder,
 /turf/simulated/floor/carpet/blue,
 /area/medical/counselor)
 "dWA" = (
@@ -20057,10 +20068,6 @@
 "ipc" = (
 /obj/structure/table/standard,
 /obj/item/weapon/storage/medical_lolli_jar,
-/obj/item/weapon/paper_bin{
-	pixel_x = -3;
-	pixel_y = 7
-	},
 /turf/simulated/floor/wood/walnut,
 /area/medical/counselor)
 "iqb" = (
@@ -20106,7 +20113,8 @@
 /area/rnd/development)
 "irV" = (
 /obj/structure/table/woodentable_reinforced/walnut,
-/obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/foundation,
+/obj/item/weapon/paper_bin,
+/obj/item/weapon/pen,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/office/psiadvisor)
 "isb" = (
@@ -20480,10 +20488,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "iMW" = (
-/obj/structure/bed/chair/padded/blue{
-	dir = 4;
-	icon_state = "chair_preview"
-	},
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
 	},
@@ -20925,6 +20929,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/aft)
 "jnd" = (
@@ -21658,6 +21663,11 @@
 /area/medical/surgery2)
 "jYZ" = (
 /obj/structure/table/standard,
+/obj/item/weapon/paper_bin{
+	pixel_x = -3;
+	pixel_y = 7
+	},
+/obj/item/weapon/pen,
 /turf/simulated/floor/wood/walnut,
 /area/medical/counselor)
 "jZb" = (
@@ -23367,6 +23377,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
+"lWO" = (
+/obj/effect/floor_decal/corner/green{
+	dir = 10;
+	icon_state = "corner_white"
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/firstdeck/center)
 "lYa" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9;
@@ -23997,10 +24015,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atm{
-	pixel_x = 32
-	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "mGb" = (
@@ -24516,6 +24534,9 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/atm{
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
@@ -27672,6 +27693,13 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
+"qSJ" = (
+/obj/structure/bed/chair/comfy/black,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/blue,
+/area/crew_quarters/heads/office/psiadvisor)
 "qTX" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/crate,
@@ -30308,6 +30336,10 @@
 /turf/simulated/floor/reinforced,
 /area/rnd/xenobiology)
 "twz" = (
+/obj/structure/bed/chair/padded/blue{
+	dir = 4;
+	icon_state = "chair_preview"
+	},
 /turf/simulated/floor/tiled/white,
 /area/medical/exam_room)
 "txb" = (
@@ -30682,9 +30714,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/hologram/holopad,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -30697,6 +30726,10 @@
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
+	},
+/obj/structure/disposalpipe/junction{
+	dir = 4;
+	icon_state = "pipe-j1"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/aft)
@@ -30802,6 +30835,11 @@
 /area/maintenance/firstdeck/aftstarboard)
 "uuS" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
+/obj/machinery/photocopier,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/exam_room)
 "uvj" = (
@@ -31295,8 +31333,6 @@
 /area/command/armoury)
 "vnC" = (
 /obj/effect/floor_decal/corner/paleblue/mono,
-/obj/structure/table/standard,
-/obj/item/weapon/paper_bin,
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "north bump";
@@ -31311,6 +31347,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/machinery/papershredder,
 /turf/simulated/floor/tiled/white/monotile,
 /area/medical/exam_room)
 "vpj" = (
@@ -32064,13 +32101,14 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
 	},
-/obj/structure/bed/chair/padded/blue{
-	dir = 4;
-	icon_state = "chair_preview"
-	},
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/machinery/disposal,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/aft)
 "xcW" = (
@@ -49856,7 +49894,7 @@ acF
 acE
 ycz
 ayj
-ure
+lWO
 aJQ
 aBD
 aCU
@@ -58343,7 +58381,7 @@ ruz
 dJp
 ahd
 ahp
-ahJ
+qSJ
 aih
 smJ
 cva

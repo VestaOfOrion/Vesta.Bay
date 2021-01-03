@@ -13974,6 +13974,7 @@
 /turf/simulated/floor/plating,
 /area/vacant/bar)
 "Ib" = (
+/obj/machinery/photocopier,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/analysis)
 "Ic" = (
