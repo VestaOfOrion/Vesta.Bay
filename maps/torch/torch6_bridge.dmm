@@ -2933,7 +2933,10 @@
 	dir = 4;
 	pixel_x = 26
 	},
-/obj/structure/disposalpipe/junction,
+/obj/structure/disposalpipe/junction{
+	dir = 1;
+	icon_state = "pipe-j2"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hallway/port)
 "fd" = (
