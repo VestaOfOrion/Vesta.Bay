@@ -62,3 +62,9 @@
 	display_name = "gloves, work"
 	path = /obj/item/clothing/gloves/thick
 	cost = 3
+
+/datum/gear/gloves/navy
+	display_name = "gloves, navy"
+	path = /obj/item/clothing/gloves/thick/navy
+	cost = 3
+	allowed_branches = MARINES_ONLY

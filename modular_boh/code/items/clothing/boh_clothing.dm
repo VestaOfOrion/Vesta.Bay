@@ -164,3 +164,25 @@
 	icon = 'icons/obj/clothing/obj_feet.dmi'
 	icon_state = "jackboots_thigh"
 	item_state = "jackboots_thigh"
+
+/obj/item/clothing/shoes/navyboots
+	name = "navy boots"
+	desc = "A pair of durable navy boots. Designed for use on-ship."
+	icon_state = "navy"
+	force = 3
+	armor = list(
+		melee = ARMOR_MELEE_RESISTANT, 
+		bullet = ARMOR_BALLISTIC_MINOR, 
+		laser = ARMOR_LASER_MINOR, 
+		energy = ARMOR_ENERGY_MINOR, 
+		bomb = ARMOR_BOMB_PADDED, 
+		bio = ARMOR_BIO_MINOR
+		)
+	siemens_coefficient = 0.7
+
+//#### Gloves
+/obj/item/clothing/gloves/thick/navy
+	name = "navy gloves"
+	desc = "A pair of durable navy gloves. Designed for use on-ship"
+	icon_state = "navy"
+	item_state = "mgloves"
