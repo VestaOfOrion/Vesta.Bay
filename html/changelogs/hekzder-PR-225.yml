@@ -1,0 +1,9 @@
+author: Hekzder
+delete-after: True
+changes: 
+  - maptweak: "Adds lights to various spots around D1 and B deck to fix dark spots."
+  - maptweak: "Replaces coffee dispenser in SMC SEA office with a disposals chute, as well as gives them copies of the same books the NTEF SEA has, and a light in the western part of their office."
+  - maptweak: "Gives the PADV a disposals chute, photocopier, shredder, and paper bin. Loses his tea set and a chair outside of his office in exchange."
+  - maptweak: "SGR had some of their tool related things moved to their back room but got a photocopier and shredder as a result."
+  - maptweak: "Adds a photocopier and shredder to the Medical exam room, and a shredder to the Counselor's office."
+  - maptweak: "Adds a photocopier to the Polyp."
