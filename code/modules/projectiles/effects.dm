@@ -165,7 +165,7 @@
 // Stun beam
 //----------------------------
 /obj/effect/projectile/stun/
-	light_color = "#32AAFF"
+	light_color = COLOR_CYAN
 
 /obj/effect/projectile/stun/tracer
 	icon_state = "beam_particle"
