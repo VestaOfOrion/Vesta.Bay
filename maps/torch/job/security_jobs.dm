@@ -26,7 +26,10 @@
 
 	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
 	                    SKILL_WEAPONS     = SKILL_MAX,
-	                    SKILL_FORENSICS   = SKILL_MAX)
+	                    SKILL_FORENSICS   = SKILL_MAX,
+						SKILL_MEDICAL     = SKILL_BASIC,
+						SKILL_ANATOMY     = SKILL_BASIC,
+						SKILL_CHEMISTRY   = SKILL_BASIC)
 	skill_points = 20
 
 	access = list(
@@ -79,7 +82,10 @@
 
 	max_skill = list(   SKILL_COMBAT      = SKILL_EXPERT,
 	                    SKILL_WEAPONS     = SKILL_EXPERT,
-	                    SKILL_FORENSICS   = SKILL_MAX)
+	                    SKILL_FORENSICS   = SKILL_MAX,
+						SKILL_MEDICAL     = SKILL_BASIC,
+						SKILL_ANATOMY     = SKILL_BASIC,
+						SKILL_CHEMISTRY   = SKILL_BASIC)
 	skill_points = 20
 
 	access = list(
@@ -122,7 +128,10 @@
 
 	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
 	                    SKILL_WEAPONS     = SKILL_MAX,
-	                    SKILL_FORENSICS   = SKILL_EXPERT)
+	                    SKILL_FORENSICS   = SKILL_EXPERT,
+						SKILL_MEDICAL     = SKILL_BASIC,
+						SKILL_ANATOMY     = SKILL_BASIC,
+						SKILL_CHEMISTRY   = SKILL_BASIC)
 
 	access = list(
 		access_security, access_brig, access_maint_tunnels,
