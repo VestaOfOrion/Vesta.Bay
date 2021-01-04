@@ -165,15 +165,30 @@
 // Stun beam
 //----------------------------
 /obj/effect/projectile/stun/
-	light_color = COLOR_YELLOW
+	light_color = "#32AAFF"
 
 /obj/effect/projectile/stun/tracer
-	icon_state = "stun"
+	icon_state = "beam_particle"
 
 /obj/effect/projectile/stun/muzzle
-	icon_state = "muzzle_stun"
+	icon_state = "muzzle_particle"
 
 /obj/effect/projectile/stun/impact
+	icon_state = "impact_particle"
+
+//----------------------------
+// Shock beam
+//----------------------------
+/obj/effect/projectile/shock/
+	light_color = COLOR_YELLOW
+
+/obj/effect/projectile/shock/tracer
+	icon_state = "stun"
+
+/obj/effect/projectile/shock/muzzle
+	icon_state = "muzzle_stun"
+
+/obj/effect/projectile/shock/impact
 	icon_state = "impact_stun"
 
 //----------------------------

@@ -197,6 +197,10 @@
 	damage = 2
 	agony = 60
 
+	muzzle_type = /obj/effect/projectile/shock/muzzle
+	tracer_type = /obj/effect/projectile/shock/tracer
+	impact_type = /obj/effect/projectile/shock/impact
+
 /obj/item/projectile/beam/stun/shock
 	name = "shock beam"
 	agony = 0
@@ -204,9 +208,17 @@
 	damage_type = ELECTROCUTE
 	fire_sound='sound/weapons/pulse.ogg'
 
+	muzzle_type = /obj/effect/projectile/shock/muzzle
+	tracer_type = /obj/effect/projectile/shock/tracer
+	impact_type = /obj/effect/projectile/shock/impact
+
 /obj/item/projectile/beam/stun/shock/heavy
 	name = "heavy shock beam"
 	damage = 30
+
+	muzzle_type = /obj/effect/projectile/shock/muzzle
+	tracer_type = /obj/effect/projectile/shock/tracer
+	impact_type = /obj/effect/projectile/shock/impact
 
 /obj/item/projectile/beam/plasmacutter
 	name = "plasma arc"
