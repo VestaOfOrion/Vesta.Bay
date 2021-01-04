@@ -354,3 +354,55 @@ var/const/INF               =(1<<11)
 
 /datum/job/roboticist/get_description_blurb()
 	return "You are the Roboticist. You are responsible for repairing, upgrading and handling ship synthetics (like robots). You are also responsible for the production of exosuits(mechs) and bots for various departments. You answer to the Chief Science Officer."
+
+//Federal Protection Agent (SolRep APA)
+
+/datum/job/sfpagent
+	title = "Federal Protection Agent"
+	department = "Support"
+	department_flag = SPT
+	total_positions = 1
+	spawn_positions = 1
+	supervisors = "the SolGov Representative and the Sol Federal Police"
+	selection_color = "#3d3d7f"
+	economic_power = 12
+	minimal_player_age = 0
+	minimum_character_age = list(SPECIES_HUMAN = 25, SPECIES_CUSTOM = 25)
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/sfp_agent
+	allowed_branches = list(/datum/mil_branch/solgov)
+	allowed_ranks = list(/datum/mil_rank/sol/agent)
+	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
+	                    SKILL_EVA         = SKILL_BASIC,
+	                    SKILL_COMBAT      = SKILL_BASIC,
+	                    SKILL_WEAPONS     = SKILL_BASIC,
+	                    SKILL_FORENSICS   = SKILL_BASIC)
+	max_skill = list(   SKILL_COMBAT      = SKILL_PROF,
+	                    SKILL_WEAPONS     = SKILL_PROF,
+	                    SKILL_FORENSICS   = SKILL_EXPERT)
+	skill_points = 20
+
+	access = list( //Same access as the SolGov Representative + Private access to their equipment locker
+		access_representative, access_representative_guard,
+		access_bridge, access_solgov_crew,
+		access_hangar, access_torch_fax, access_radio_comm
+	)
+
+	defer_roundstart_spawn = TRUE
+
+/datum/job/sfpagent/is_position_available()
+	if(..())
+		for(var/mob/M in GLOB.player_list)
+			if(M.client && M.mind && M.mind.assigned_role == "SolGov Representative")
+				return TRUE
+	return FALSE
+
+/datum/job/sfpagent/get_description_blurb()
+	return "You are the Federal Protection Agent. You are an agent of one of the many branches of the Sol Federal Police. \
+	Your job is to assist the Representative in their affairs. You are also expected to protect the Representative's life; even if it costs your own."
+
+/datum/job/sfpagent/post_equip_rank(var/mob/person)
+	for(var/mob/M in GLOB.player_list)
+		if(M.client && M.mind)
+			if(M.mind.assigned_role == "SolGov Representative")
+				to_chat(M, SPAN_NOTICE("<b>Your bodyguard, Agent [person.real_name], is present on [GLOB.using_map.full_name].</b>"))
+	..()

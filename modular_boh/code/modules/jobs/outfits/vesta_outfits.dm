@@ -371,3 +371,14 @@
 	name = OUTFIT_JOB_NAME("Roboticist - NTEF")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/exploration
 	shoes = /obj/item/clothing/shoes/dutyboots
+
+//Federal Protection Agent
+
+/decl/hierarchy/outfit/job/torch/crew/sfp_agent
+	name = OUTFIT_JOB_NAME("Federal Protecion Agent - SFP Agent")
+	l_ear = /obj/item/device/radio/headset/headset_com
+	uniform = /obj/item/clothing/under/det/grey
+	suit = /obj/item/clothing/suit/storage/toggle/agent_jacket
+	shoes = /obj/item/clothing/shoes/dress
+	id_types = list(/obj/item/weapon/card/id/torch/crew/representative_guard)
+	pda_type = /obj/item/modular_computer/pda/heads/paperpusher

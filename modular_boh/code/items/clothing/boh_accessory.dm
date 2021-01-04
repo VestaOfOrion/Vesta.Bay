@@ -17,7 +17,7 @@
 	name = "\improper Sixth Fleet patch"
 	desc = "A robust shoulder patch carrying insignia of Sixth Fleet."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi')
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
 	icon_state = "fleetpatch6"
 	on_rolled = list("down" = "none")
 
@@ -40,7 +40,7 @@
 /obj/item/clothing/accessory/ribbon/solgov/custom
 	icon_state = "ribbon_custom"
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi')
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
 
 /obj/item/clothing/accessory/ribbon/solgov/custom/color
 	icon_state = "ribbon_custom_color"

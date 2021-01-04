@@ -65,7 +65,7 @@
 		/obj/item/clothing/accessory/storage/holster/armpit,
 		/obj/item/weapon/storage/secure/briefcase,
 		/obj/item/clothing/shoes/laceup,
-		/obj/item/weapon/gun/energy/gun/small/secure/corporate,
+		/obj/item/gunbox,
 		/obj/item/clothing/under/rank/internalaffairs/plain/nt,
 		/obj/item/clothing/suit/storage/toggle/suit/black,
 		/obj/item/clothing/gloves/color/black,
