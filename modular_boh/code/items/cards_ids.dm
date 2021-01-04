@@ -17,3 +17,6 @@
 
 /obj/item/weapon/card/id/torch/crew/research/roboticist
 	job_access_type = /datum/job/roboticist
+
+/obj/item/weapon/card/id/torch/crew/representative_guard
+	job_access_type = /datum/job/sfpagent

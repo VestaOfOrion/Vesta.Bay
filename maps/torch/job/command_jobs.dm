@@ -336,6 +336,13 @@
 /datum/job/representative/get_description_blurb()
 	return "You are the Sol Gov Representative. You are a civilian assigned as both a diplomatic liaison for first contact and foreign affair situations on board. You are also responsible for monitoring for any serious missteps of justice, sol law or other ethical or legal issues aboard and informing and advising the Commanding Officer of them. You are a mid-level bureaucrat. You liaise between the crew and corporate interests on board. Send faxes back to Sol on mission progress and important events."
 
+
+/datum/job/representative/post_equip_rank(var/mob/person)
+	for(var/mob/M in GLOB.player_list)
+		if(M.client && M.mind)
+			if(M.mind.assigned_role == "Federal Protecion Agent")
+				to_chat(M, SPAN_NOTICE("<b>The SolGov Representative, [person.real_name], is present on [GLOB.using_map.full_name].</b>"))
+
 /datum/job/sea
 	title = "Senior Enlisted Advisor"
 	department = "Support"
