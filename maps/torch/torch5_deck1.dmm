@@ -2477,8 +2477,6 @@
 	pixel_x = 32
 	},
 /obj/structure/closet/secure_closet/security_torch,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
 	},
@@ -3008,8 +3006,11 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/medicalhallway)
 "afj" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/brig,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/security/wing)
 "afk" = (
@@ -5647,13 +5648,17 @@
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
 "amb" = (
-/obj/structure/closet{
-	name = "Evidence Closet"
-	},
-/obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet{
+	name = "Secure Evidence Locker";
+	req_access = list("ACCESS_SECURITY")
+	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
 "ami" = (
@@ -6044,15 +6049,17 @@
 /turf/simulated/floor/tiled/monotile,
 /area/assembly/robotics/office)
 "ape" = (
-/obj/structure/closet/secure_closet{
-	name = "Secure Evidence Locker";
-	req_access = list("ACCESS_SECURITY")
-	},
-/obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/camera/network/security{
 	c_tag = "Security Wing - Evidence Storage";
 	dir = 8
 	},
+/obj/structure/closet{
+	name = "Evidence Closet"
+	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
 "apf" = (
@@ -8755,9 +8762,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/firstdeck/aft)
 "aCu" = (
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/weapon/gun/energy/gun/small/secure,
 /obj/structure/closet/secure_closet/security_torch/cadet,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
@@ -9519,7 +9523,6 @@
 /obj/item/weapon/pen,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/sticky_pad/random,
-/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled/dark,
 /area/security/bo)
 "aFU" = (
@@ -10282,10 +10285,6 @@
 "aJo" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet/secure_closet/brigchief,
-/obj/item/device/radio,
-/obj/item/weapon/crowbar,
-/obj/item/clothing/mask/gas/half,
-/obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24;
@@ -10299,7 +10298,10 @@
 	pixel_y = -28
 	},
 /obj/structure/cable/green,
-/obj/item/gunbox,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bo)
 "aJp" = (
@@ -10862,8 +10864,11 @@
 	dir = 8
 	},
 /obj/structure/closet/secure_closet/brig,
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/device/radio/headset,
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark,
 /area/security/brig)
 "aLN" = (
@@ -11343,13 +11348,16 @@
 /turf/simulated/wall/prepainted,
 /area/security/wing)
 "aNL" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/brig,
 /obj/machinery/alarm{
 	dir = 8;
 	icon_state = "alarm0";
 	pixel_x = 24
 	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/security/wing)
 "aNP" = (
@@ -14683,6 +14691,13 @@
 	color = "#22425c";
 	dir = 9
 	},
+/obj/structure/table/rack,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/obj/item/weapon/storage/box/handcuffs,
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "biu" = (
@@ -15648,18 +15663,18 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "cix" = (
-/obj/machinery/vending/wallmed1{
-	dir = 4;
-	name = "Emergency NanoMed";
-	pixel_x = -30;
-	pixel_y = 0
+/obj/structure/closet{
+	name = "Evidence Closet"
 	},
-/obj/effect/floor_decal/corner/red{
-	color = "#22425c";
-	dir = 9
+/obj/machinery/light/small{
+	dir = 4
 	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
-/area/security/wing)
+/area/security/evidence)
 "cjb" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -16358,8 +16373,6 @@
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/security_torch,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
 	},
@@ -16497,14 +16510,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/medical/surgery2)
-"dkG" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/closet/secure_closet{
-	name = "Secure Evidence Locker";
-	req_access = list("ACCESS_SECURITY")
-	},
-/turf/simulated/floor/tiled/dark,
-/area/security/evidence)
 "dkJ" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -19570,6 +19575,7 @@
 	pixel_x = -24;
 	pixel_y = -6
 	},
+/obj/item/weapon/folder/blue,
 /turf/simulated/floor/tiled/dark,
 /area/security/bo)
 "hDV" = (
@@ -22553,10 +22559,13 @@
 /turf/simulated/floor/tiled/monotile,
 /area/assembly/chargebay)
 "kUt" = (
-/obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/closet{
 	name = "Evidence Closet"
 	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
 "kVb" = (
@@ -23209,6 +23218,10 @@
 /obj/structure/table/standard,
 /obj/item/device/tape/random,
 /obj/item/device/tape/random,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
 "lEb" = (
@@ -23284,8 +23297,11 @@
 	pixel_x = -24;
 	pixel_y = 0
 	},
-/obj/random/junk,
 /obj/structure/table/rack,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
 "lKn" = (
@@ -23372,7 +23388,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/steel,
 /obj/item/weapon/hand_labeler,
-/obj/item/weapon/storage/box/handcuffs,
 /turf/simulated/floor/tiled/dark,
 /area/security/locker)
 "lWb" = (
@@ -25407,9 +25422,6 @@
 	pixel_x = 22;
 	pixel_y = -10
 	},
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/bruise_pack,
-/obj/item/weapon/gun/energy/gun/small/secure,
 /obj/structure/closet/secure_closet/security_torch/cadet,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
@@ -25930,8 +25942,6 @@
 	icon_state = "pipe-c"
 	},
 /obj/structure/closet/secure_closet/security_torch,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
 	},
@@ -27297,6 +27307,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
 "qyb" = (
@@ -27713,8 +27727,12 @@
 /turf/simulated/floor/tiled/white,
 /area/security/detectives_office)
 "qSD" = (
-/obj/structure/closet{
-	name = "Evidence Closet"
+/obj/structure/closet/secure_closet{
+	name = "Secure Evidence Locker";
+	req_access = list("ACCESS_SECURITY")
+	},
+/obj/effect/floor_decal/corner/red/mono{
+	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
@@ -29165,6 +29183,10 @@
 	dir = 6
 	},
 /obj/structure/filingcabinet,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/evidence)
 "smJ" = (
@@ -29369,8 +29391,6 @@
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/security_torch,
-/obj/item/stack/medical/advanced/ointment,
-/obj/item/stack/medical/advanced/bruise_pack,
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
 	},
@@ -30673,6 +30693,10 @@
 	d1 = 1;
 	d2 = 8;
 	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/wing)
@@ -41843,7 +41867,7 @@ mJb
 aLA
 htq
 nlb
-cix
+uJd
 uJd
 qYy
 uJd
@@ -43043,9 +43067,9 @@ ajS
 vMw
 qSD
 amb
-dkG
+kUt
 ape
-amb
+cix
 kUt
 tkr
 xzK

@@ -1205,6 +1205,7 @@
 	pixel_x = 8;
 	pixel_y = -3
 	},
+/obj/random/drinkbottle,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "cq" = (
@@ -2401,7 +2402,8 @@
 	name = "plastic table frame"
 	},
 /obj/item/device/flashlight/lamp{
-	pixel_y = 3
+	pixel_x = -3;
+	pixel_y = 2
 	},
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/heads/office/cos)
@@ -2663,6 +2665,7 @@
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
 	},
+/obj/random/maintenance/solgov/clean,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bridgecheck)
 "eG" = (
@@ -3178,9 +3181,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/bridge/hallway/port)
 "fF" = (
-/obj/structure/flora/pottedplant/smelly{
-	desc = "This is some kind of tropical plant. It reeks of rotten eggs. This one has a hand-painted Nametag on the rim. It reads 'Steve'"
-	},
 /obj/machinery/alarm{
 	dir = 8;
 	icon_state = "alarm0";
@@ -3192,6 +3192,7 @@
 /obj/effect/floor_decal/corner/red/mono{
 	color = "#22425c"
 	},
+/obj/structure/flora/pottedplant/smelly,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "fG" = (
@@ -5927,7 +5928,6 @@
 	name = "head of security's locker"
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/item/weapon/book/manual/sol_sop,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -5942,7 +5942,6 @@
 	pixel_y = 27;
 	req_access = list("ACCESS_HEAD_OF_SECURITY")
 	},
-/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -6510,9 +6509,6 @@
 /obj/structure/table/standard{
 	name = "plastic table frame"
 	},
-/obj/item/device/binoculars,
-/obj/item/weapon/crowbar/prybar,
-/obj/random/maintenance/solgov/clean,
 /obj/machinery/button/blast_door{
 	desc = "A remote control-switch for shutters.";
 	id_tag = "bridge_checkpoint_shutters";
@@ -7527,12 +7523,11 @@
 "qx" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/food/snacks/cookie,
-/obj/item/weapon/reagent_containers/food/snacks/cookie,
-/obj/item/weapon/reagent_containers/food/snacks/cookie,
-/obj/item/weapon/reagent_containers/food/snacks/cookie,
-/obj/item/weapon/reagent_containers/food/snacks/cookie,
 /obj/item/weapon/storage/lunchbox/cat,
+/obj/item/weapon/reagent_containers/food/snacks/cookie,
+/obj/item/weapon/reagent_containers/food/snacks/cookie,
+/obj/item/weapon/reagent_containers/food/snacks/cookie,
+/obj/item/weapon/reagent_containers/food/snacks/cookie,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
 "qy" = (
@@ -8774,7 +8769,6 @@
 	pixel_y = 23
 	},
 /obj/structure/closet/secure_closet/sfpagent,
-/obj/item/weapon/storage/fancy/cigarettes/dromedaryco,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/sgr)
 "ty" = (
@@ -8782,7 +8776,6 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/random/drinkbottle,
 /obj/structure/sign/warning/nosmoking_1{
 	desc = "A warning sign which reads 'NO SMOKING'. Someone has scratched a variety of crude words in gutter across the entire sign.";
 	pixel_x = 0;
@@ -10170,6 +10163,8 @@
 	color = "#22425c";
 	dir = 6
 	},
+/obj/item/weapon/book/manual/military_law,
+/obj/item/weapon/book/manual/sol_sop,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "wD" = (
@@ -11056,8 +11051,6 @@
 /area/security/bridgecheck)
 "za" = (
 /obj/structure/closet/secure_closet/XO,
-/obj/random/drinkbottle,
-/obj/item/gunbox/executive,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/xo)
 "zb" = (
@@ -13063,8 +13056,6 @@
 "EP" = (
 /obj/effect/floor_decal/corner/paleblue/diagonal,
 /obj/structure/closet/secure_closet/CMO_torch,
-/obj/item/weapon/storage/belt/medical,
-/obj/item/weapon/book/manual/sol_sop,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/heads/office/cmo)
@@ -13149,6 +13140,7 @@
 	pixel_x = -23;
 	pixel_y = -3
 	},
+/obj/item/clothing/mask/gas/half,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "Fg" = (
@@ -13340,7 +13332,6 @@
 /area/hallway/primary/bridge/aft)
 "FL" = (
 /obj/structure/closet/secure_closet/bridgeofficer,
-/obj/item/clothing/accessory/storage/holster/thigh,
 /turf/simulated/floor/carpet/blue,
 /area/command/bridge_quarters)
 "FO" = (
@@ -14931,7 +14922,6 @@
 	pixel_y = 30
 	},
 /obj/item/weapon/aiModule/freeform,
-/obj/item/gunbox/captain,
 /turf/simulated/floor/carpet/blue,
 /area/crew_quarters/heads/cobed)
 "Ks" = (
@@ -17561,6 +17551,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
+/obj/random/drinkbottle,
 /turf/simulated/floor/carpet/blue2,
 /area/crew_quarters/heads/office/sgr)
 "SM" = (

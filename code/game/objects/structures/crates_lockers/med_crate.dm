@@ -1,15 +1,13 @@
 /obj/structure/closet/crate/med_crate/trauma
 	name = "\improper Trauma crate"
-	desc = "A crate with trauma equipment."
+	desc = "A crate with first aid equpiment equipment."
 	closet_appearance = /decl/closet_appearance/crate/medical/trauma
 
 /obj/structure/closet/crate/med_crate/trauma/WillContain()
 	return list(
-		/obj/item/stack/medical/splint = 2,
-		/obj/item/stack/medical/advanced/bruise_pack = 10,
-		/obj/item/weapon/reagent_containers/pill/sugariron = 6,
-		/obj/item/weapon/storage/pill_bottle/paracetamol = 2,
-		/obj/item/weapon/storage/pill_bottle/inaprovaline
+		/obj/item/stack/medical/advanced/bruise_pack = 6,
+		/obj/item/stack/medical/advanced/ointment = 6,
+		/obj/item/weapon/storage/pill_bottle/paracetamol
 		)
 
 /obj/structure/closet/crate/med_crate/burn

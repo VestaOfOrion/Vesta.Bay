@@ -127,6 +127,9 @@
 		/obj/item/clothing/gloves/thick,
 		/obj/item/device/flashlight/maglight,
 		/obj/item/weapon/material/knife/folding/swiss/sec,
+		/obj/item/weapon/crowbar/prybar,
+		/obj/item/device/radio,
+		/obj/item/clothing/mask/gas/half
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel/sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
 	)
