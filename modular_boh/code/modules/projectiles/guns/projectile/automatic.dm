@@ -31,6 +31,6 @@
 /obj/item/weapon/gun/projectile/automatic/skrell/on_update_icon()
 	..()
 	if(ammo_magazine)
-		icon_state = "skrellshotgun-[round(ammo_magazine.stored_ammo.len,3)]"
+		icon_state = "skrellshotgun-[round(ammo_magazine.stored_ammo.len,4)]"
 	else
 		icon_state = "skrellshotgun"
