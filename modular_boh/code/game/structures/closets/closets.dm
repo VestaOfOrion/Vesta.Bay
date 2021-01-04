@@ -150,7 +150,7 @@
 		/obj/item/weapon/material/knife/folding/swiss/officer,
 		/obj/item/weapon/storage/belt/holster/security,
 		/obj/item/weapon/storage/belt/security,
-		/obj/item/weapon/gun/energy/gun/small/secure
+		/obj/item/weapon/gun/energy/gun/small/secure,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel/sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
 	)

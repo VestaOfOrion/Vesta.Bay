@@ -1,0 +1,9 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - tweak: "Nerfs security Trauma crate."
+  - maptweak: "Few more decals around brig."
+  - tweak: "BC now starts with prybar instead of crowbar in locker."
+  - twear: "Cadet starts with backpack holster belt and combiknife like all the other members now."
