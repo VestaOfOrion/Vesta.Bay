@@ -1,0 +1,9 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - maptweak: "Cargo elevator now has railings and shutters so you cannot fall down (You will probably still do that lets be honest)."
+  - maptweak: "Wider merchant dock."
+  - maptweak: "Rearranged messhall to have few more tables and moved the vendors closer to hydroponics."
+  - maptweak: "Little nicer officer mess."
