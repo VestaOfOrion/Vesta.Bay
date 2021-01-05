@@ -64,7 +64,7 @@
 		return TOPIC_REFRESH
 
 	if(href_list["manual_landing"])
-		if(user.skill_check(SKILL_PILOT, SKILL_ADEPT))
+		if(user.skill_check(SKILL_PILOT, SKILL_EXPERT))
 			if(current_user && current_user != user)
 				to_chat(user, SPAN_WARNING("Someone is already performing a landing maneuver!"))
 				return TOPIC_REFRESH
