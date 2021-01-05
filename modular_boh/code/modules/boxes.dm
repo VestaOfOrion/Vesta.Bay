@@ -93,7 +93,7 @@
 /obj/item/armorbox/sol
 	name = "SolGov armor kit"
 
-/obj/item/armorbox_sol/attack_self(mob/living/user)
+/obj/item/armorbox/sol/attack_self(mob/living/user)
 	var/list/options = list()
 	options["Medium plate carrier"] = list(/obj/item/clothing/suit/armor/pcarrier/medium/sol)
 	options["Concealable light vest"] = list(/obj/item/clothing/accessory/armorplate/sneaky)
@@ -109,7 +109,7 @@
 /obj/item/armorbox/corporate
 	name = "corporate armor kit"
 
-/obj/item/armorbox_corporate/attack_self(mob/living/user)
+/obj/item/armorbox/corporate/attack_self(mob/living/user)
 	var/list/options = list()
 	options["Medium plate carrier"] = list(/obj/item/clothing/suit/armor/pcarrier/medium/nt)
 	options["Concealable light vest"] = list(/obj/item/clothing/accessory/armorplate/sneaky)
