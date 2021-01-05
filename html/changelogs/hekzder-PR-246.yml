@@ -1,0 +1,9 @@
+author: Hekzder
+delete-after: True
+changes: 
+  - rscadd: "Added body scanner to Bearcat and Established Colony."
+  - rscadd: "Added a role slot to Established Colony and Ship Colony, added two role slots to Bearcat."
+  - rscadd: "Added two more voidsuits and one more jetpack to compensate for more roles on the Bearcat."
+  - tweak: "Bearcat members, Colonists, and Crashed Survivors now have better minimum skills but less free skill points to spend. All roles have an overall net increase in skill points."
+  - rscadd: "Specialization alt-titles for medical and engineering to Bearcat and Colonies."
+  - tweak: "Ship colony spawn weight slightly decreased, established colony spawn weight slightly increased."

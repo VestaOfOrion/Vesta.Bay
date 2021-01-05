@@ -6,15 +6,34 @@
 	info = "Your ship has suffered a catastrophic amount of damage, leaving it dark and crippled in the depths of \
 	unexplored space. The Captain is dead, leaving you, previously the First Mate in charge. Organize what's left of \
 	your crew, and maybe you'll be able to survive long enough to be rescued."
+	min_skill = list(	SKILL_ANATOMY = SKILL_BASIC,
+						SKILL_MEDICAL = SKILL_BASIC,
+						SKILL_EVA = SKILL_ADEPT,
+						SKILL_WEAPONS = SKILL_ADEPT,
+						SKILL_COMBAT = SKILL_BASIC,
+						SKILL_PILOT = SKILL_ADEPT,
+						SKILL_ELECTRICAL = SKILL_BASIC,
+						SKILL_FINANCE = SKILL_BASIC,
+						SKILL_BUREAUCRACY = SKILL_BASIC)
+	skill_points = 16
 
 /datum/job/submap/bearcat_crewman
 	title = "Independant Crewman"
 	supervisors = "the Captain"
-	total_positions = 3
+	alt_titles = list(
+		"Independent Doctor",
+		"Independent Engineer")
+	total_positions = 5
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/crew
 	info = "Your ship has suffered a catastrophic amount of damage, leaving it dark and crippled in the depths of \
 	unexplored space. Work together with the Acting Captain and what's left of the crew, and maybe you'll be able \
 	to survive long enough to be rescued."
+	min_skill = list(	SKILL_ANATOMY = SKILL_BASIC,
+						SKILL_MEDICAL = SKILL_BASIC,
+						SKILL_EVA = SKILL_ADEPT,
+						SKILL_WEAPONS = SKILL_BASIC,
+						SKILL_ELECTRICAL = SKILL_BASIC)
+	skill_points = 18
 
 #define BEARCAT_OUTFIT_JOB_NAME(job_name) ("Bearcat - Job - " + job_name)
 

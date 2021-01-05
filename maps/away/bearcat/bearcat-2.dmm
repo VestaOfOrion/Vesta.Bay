@@ -1703,7 +1703,6 @@
 	dir = 9;
 	pixel_y = 0
 	},
-/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled/white,
 /area/ship/scrap/crew/cryo)
 "dg" = (
@@ -1976,17 +1975,11 @@
 /turf/simulated/floor/tiled,
 /area/ship/scrap/crew/hallway/port)
 "dI" = (
-/obj/structure/closet/crate,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/corner/beige{
 	dir = 9;
 	icon_state = "corner_white"
 	},
-/obj/random/shoes,
-/obj/random/shoes,
-/obj/random/hat,
-/obj/random/hat,
-/obj/random/masks,
 /obj/machinery/light/small{
 	dir = 1;
 	icon_state = "bulb1"
@@ -2050,23 +2043,19 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/scrap/crew/medbay)
 "dP" = (
-/obj/item/roller,
 /turf/simulated/floor/tiled/white,
 /area/ship/scrap/crew/medbay)
 "dQ" = (
 /obj/item/device/radio/intercom/map_preset/bearcat{
 	pixel_y = 32
 	},
-/obj/item/weapon/bedsheet/medical,
-/obj/structure/curtain/open/privacy,
-/obj/structure/bed/padded,
-/obj/item/clothing/accessory/stethoscope,
 /obj/machinery/alarm{
 	dir = 8;
 	icon_state = "alarm0";
 	pixel_x = 24;
 	req_access = newlist()
 	},
+/obj/machinery/bodyscanner,
 /turf/simulated/floor/tiled/white,
 /area/ship/scrap/crew/medbay)
 "dR" = (
@@ -2153,6 +2142,12 @@
 	icon_state = "corner_white"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/random/hat,
+/obj/random/hat,
+/obj/random/shoes,
+/obj/random/shoes,
+/obj/random/masks,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/cargo)
 "dY" = (
@@ -2543,6 +2538,8 @@
 /obj/item/weapon/glass_extra/straw,
 /obj/item/toy/therapy_blue,
 /obj/item/weapon/reagent_containers/spray/cleaner,
+/obj/item/roller,
+/obj/item/clothing/accessory/stethoscope,
 /turf/simulated/floor/tiled/white,
 /area/ship/scrap/crew/medbay)
 "ez" = (
@@ -4433,6 +4430,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/maintenance/engineering)
 "hD" = (
