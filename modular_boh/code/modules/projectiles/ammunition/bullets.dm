@@ -38,7 +38,7 @@
 	caliber = CALIBER_SKRELL_SHOTGUN
 	ammo_type = /obj/item/ammo_casing/skrell_shotgun
 	matter = list(MATERIAL_STEEL = 1240)
-	max_ammo = 12
+	max_ammo = 8
 	multiple_sprites = 1
 
 /obj/item/ammo_casing/skrell_shotgun
