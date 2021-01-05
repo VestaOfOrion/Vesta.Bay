@@ -83,6 +83,45 @@
 				to_chat(user, "You have chosen \the [AM]. This is probably worth more than what your Gyne thinks of you.")
 		qdel(src)
 
+//APA/FPA Armor Box
+/obj/item/armorbox
+	name = "armor kit"
+	desc = "A secure box containing a plate carrier."
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "lockbox"
+
+/obj/item/armorbox/sol
+	name = "SolGov armor kit"
+
+/obj/item/armorbox/sol/attack_self(mob/living/user)
+	var/list/options = list()
+	options["Medium plate carrier"] = list(/obj/item/clothing/suit/armor/pcarrier/medium)
+	options["Concealable light vest"] = list(/obj/item/clothing/accessory/armorplate/sneaky)
+	var/choice = input(user,"What type of armor?") as null|anything in options
+	if(src && choice)
+		var/list/things_to_spawn = options[choice]
+		for(var/new_type in things_to_spawn)
+			var/atom/movable/AM = new new_type(get_turf(src))
+			if(istype(AM, /obj/item/clothing/))
+				to_chat(user, "You have chosen \the [AM]. This is probably enough to stop a bullet. Probably.")
+		qdel(src)
+
+/obj/item/armorbox/corporate
+	name = "corporate armor kit"
+
+/obj/item/armorbox/corporate/attack_self(mob/living/user)
+	var/list/options = list()
+	options["Medium plate carrier"] = list(/obj/item/clothing/suit/armor/pcarrier/medium/nt)
+	options["Concealable light vest"] = list(/obj/item/clothing/accessory/armorplate/sneaky)
+	var/choice = input(user,"What type of armor?") as null|anything in options
+	if(src && choice)
+		var/list/things_to_spawn = options[choice]
+		for(var/new_type in things_to_spawn)
+			var/atom/movable/AM = new new_type(get_turf(src))
+			if(istype(AM, /obj/item/clothing/))
+				to_chat(user, "You have chosen \the [AM]. This is probably enough to stop a bullet. Probably.")
+		qdel(src)
+
 //# PSYKER ################################################################
 
 /obj/item/weapon/storage/box/psykerimplants
