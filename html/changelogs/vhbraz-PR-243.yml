@@ -1,0 +1,5 @@
+author: Vhbraz
+delete-after: True
+changes: 
+  - maptweak: "Fixes some atmos problems with the SSV's air tanks. Removes some exterior bits that were bugging out."
+  - tweak: "The skrellian combat belt can now PROPERLY holster the XV-5 through the holster verb."

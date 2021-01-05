@@ -111,7 +111,7 @@
 	icon_state = "fbriefcase"
 	item_state = "fbriefcase"
 	desc = "A large briefcase designed to carry vials of chemicals, with a digital locking system."
-	startswith = list(/obj/item/weapon/reagent_containers/glass/beaker/vial/jerraman, /obj/item/weapon/storage/box/syringes = 1)
+	startswith = list(/obj/item/weapon/reagent_containers/glass/beaker/vial/jerraman = 3, /obj/item/weapon/storage/box/syringes = 1)
 
 //# PSYKER ################################################################
 

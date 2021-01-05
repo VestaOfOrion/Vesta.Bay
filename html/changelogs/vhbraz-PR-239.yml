@@ -1,0 +1,4 @@
+author: Vhbraz
+delete-after: True
+changes: 
+  - bugfix: "Fixes a minor fucky-wucky with the QX-2 miniaturized railgun sprite."

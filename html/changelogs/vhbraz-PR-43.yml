@@ -1,0 +1,43 @@
+################################
+# Example Changelog File
+#
+# Note: This file, and files beginning with ".", and files that don't end in ".yml" will not be read. If you change this file, you will look really dumb.
+#
+# Your changelog will be merged with a master changelog. (New stuff added only, and only on the date entry for the day it was merged.)
+# When it is, any changes listed below will disappear.
+#
+# Valid Prefixes: 
+#   bugfix
+#   wip (For works in progress)
+#   tweak
+#   soundadd
+#   sounddel
+#   rscadd (general adding of nice things)
+#   rscdel (general deleting of nice things)
+#   imageadd
+#   imagedel
+#   maptweak
+#   spellcheck (typo fixes)
+#   experiment
+#   admin
+#################################
+
+# Your name.  
+author: Vhbraz
+
+# Optional: Remove this file after generating master changelog.  Useful for PR changelogs that won't get used again.
+delete-after: True
+
+# Any changes you've made.  See valid prefix list above.
+# INDENT WITH TWO SPACES.  NOT TABS.  SPACES.
+# SCREW THIS UP AND IT WON'T WORK.
+# Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
+# Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
+changes: 
+  - maptweak: "A completely new SSV map has been added alongside a new shuttle"
+  - tweak: "Numerous SSV weapons have received name tweaks as per how they were on Vesta"
+  - rscadd: "The QX-2 Miniaturized Railgun has been re-added with some changes. Credits for the sprites go to Lamasmaster"
+  - rscadd: "Skrellian Shields have been added. Credits for the sprites go to Memed Hans."
+  - imageadd: "Skrellian RIG sprites have been tweaked to be the same as Vesta's"
+  - imageadd: "Skrellian gas synthesizers and fusion power cell sprites have been tweaked to be the same as Vesta's"
+  - tweak: "The Skrellian Energy Machete has been tweaked to deal the same damage as an energy sword."

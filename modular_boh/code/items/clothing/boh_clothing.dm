@@ -1,10 +1,10 @@
 /obj/item/clothing/accessory/cloak
 	name = "cloak"
 	desc = "A simple, bland cloak."
+	icon = 'modular_boh/icon/obj/obj_cloak.dmi'
 	icon_state = "cloak"
-	icon = 'modular_boh/icon/boh/obj/clothing/obj_cloak.dmi'
-	icon_override = 'modular_boh/icon/mob/onmob_cloak_boh.dmi'
-	accessory_icons = list(slot_tie_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi', slot_w_uniform_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi')
+	icon_override = 'modular_boh/icon/mob/onmob_cloak.dmi'
+	accessory_icons = list(slot_tie_str = 'modular_boh/icon/mob/onmob_cloak.dmi', slot_w_uniform_str = 'modular_boh/icon/mob/onmob_cloak.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
 	var/fire_resist = T0C+100
 	allowed = list(/obj/item/weapon/tank/emergency)
 	slot_flags = SLOT_OCLOTHING | SLOT_TIE
@@ -14,11 +14,11 @@
 	slot = ACCESSORY_SLOT_OVER
 
 /obj/item/clothing/accessory/cloak/boh
+	name = "greatcloak"
 	desc = "A simple, yet fancy cloak."
-	icon = 'modular_boh/icon/boh/obj/clothing/obj_cloak.dmi'
 	icon_state = "cloak_alt"
-	icon_override = 'modular_boh/icon/mob/onmob_cloak_boh.dmi'
-	accessory_icons = list(slot_tie_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi', slot_w_uniform_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi')
+	icon_override = 'modular_boh/icon/mob/onmob_cloak.dmi'
+	accessory_icons = list(slot_tie_str = 'modular_boh/icon/mob/onmob_cloak.dmi', slot_w_uniform_str = 'modular_boh/icon/mob/onmob_cloak.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
 
 /obj/item/clothing/accessory/cloak/boh/dress
 	name = "boatcloak"
@@ -149,3 +149,40 @@
 	icon_open = "labcoat_cso_open"
 	icon_closed = "labcoat_cso"
 	body_parts_covered = UPPER_TORSO|ARMS
+
+//#### Boots
+/obj/item/clothing/shoes/dutyboots/knee
+	name = "knee high jackboots"
+	desc = "Tall synthleather boots with an artificial shine."
+	icon = 'icons/obj/clothing/obj_feet.dmi'
+	icon_state = "jackboots_knee"
+	item_state = "jackboots_knee"
+
+/obj/item/clothing/shoes/dutyboots/thigh
+	name = "thigh high jackboots"
+	desc = "Tall synthleather boots with an artificial shine."
+	icon = 'icons/obj/clothing/obj_feet.dmi'
+	icon_state = "jackboots_thigh"
+	item_state = "jackboots_thigh"
+
+/obj/item/clothing/shoes/navyboots
+	name = "navy boots"
+	desc = "A pair of durable navy boots. Designed for use on-ship."
+	icon_state = "navy"
+	force = 3
+	armor = list(
+		melee = ARMOR_MELEE_RESISTANT, 
+		bullet = ARMOR_BALLISTIC_MINOR, 
+		laser = ARMOR_LASER_MINOR, 
+		energy = ARMOR_ENERGY_MINOR, 
+		bomb = ARMOR_BOMB_PADDED, 
+		bio = ARMOR_BIO_MINOR
+		)
+	siemens_coefficient = 0.7
+
+//#### Gloves
+/obj/item/clothing/gloves/thick/navy
+	name = "navy gloves"
+	desc = "A pair of durable navy gloves. Designed for use on-ship"
+	icon_state = "navy"
+	item_state = "mgloves"

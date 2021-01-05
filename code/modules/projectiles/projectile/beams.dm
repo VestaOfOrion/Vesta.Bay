@@ -2,7 +2,7 @@
 	name = "laser"
 	icon_state = "laser"
 	temperature = T0C + 300
-	fire_sound='sound/weapons/Laser.ogg'
+	fire_sound='modular_boh/sounds/weapons/LaserShot_Rifle.ogg'
 	impact_sounds = list(BULLET_IMPACT_MEAT = SOUNDS_LASER_MEAT, BULLET_IMPACT_METAL = SOUNDS_LASER_METAL)
 	pass_flags = PASS_FLAG_TABLE | PASS_FLAG_GLASS | PASS_FLAG_GRILLE
 	damage = 40
@@ -27,6 +27,7 @@
 /obj/item/projectile/beam/smalllaser
 	damage = 25
 	armor_penetration = 10
+	fire_sound='modular_boh/sounds/weapons/LaserShot_Light.ogg'
 
 /obj/item/projectile/beam/midlaser
 	damage = 50
@@ -36,7 +37,7 @@
 /obj/item/projectile/beam/heavylaser
 	name = "heavy laser"
 	icon_state = "heavylaser"
-	fire_sound = 'sound/weapons/lasercannonfire.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/LaserShot_Heavy.ogg'
 	damage = 60
 	armor_penetration = 30
 	distance_falloff = 0.5
@@ -165,7 +166,7 @@
 /obj/item/projectile/beam/sniper
 	name = "sniper beam"
 	icon_state = "xray"
-	fire_sound = 'sound/weapons/marauder.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/LaserShot_Marauder.ogg'
 	damage = 50
 	armor_penetration = 10
 	stun = 3

@@ -17,11 +17,12 @@
 /datum/gear/shoes/boots/New()
 	..()
 	var/boots = list()
-	boots += /obj/item/clothing/shoes/jackboots
-	boots += /obj/item/clothing/shoes/workboots
 	boots += /obj/item/clothing/shoes/dutyboots
+	boots += /obj/item/clothing/shoes/dutyboots/knee
+	boots += /obj/item/clothing/shoes/dutyboots/thigh
 	boots += /obj/item/clothing/shoes/jungleboots
-	boots += /obj/item/clothing/shoes/desertboots
+	boots += /obj/item/clothing/shoes/navyboots
+	boots += /obj/item/clothing/shoes/workboots
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(boots)
 
 /datum/gear/shoes/color

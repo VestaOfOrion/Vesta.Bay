@@ -1,0 +1,12 @@
+author: Hekzder
+delete-after: True
+changes: 
+  - maptweak: "Adds lights to various spots around D1 and B deck to fix dark spots."
+  - maptweak: "Replaces coffee dispenser in SMC SEA office with a disposals chute, gives them the same bookcase the NTEF SEA has, a light in the western part of their office, an overall office expansion, a photocopier, shredder, and a potted plant."
+  - maptweak: "Gives the PADV a disposals chute, photocopier, shredder, paper bin, and a couple folders. Loses his tea set and a chair outside of his office in exchange."
+  - maptweak: "SGR had some of their tool related things moved to their back room but got a photocopier and shredder as a result."
+  - maptweak: "Adds a photocopier, shredder, and a wall mounted filing cabinet to the Medical exam room, and a shredder to the Counselor's office."
+  - maptweak: "Adds a photocopier to the Polyp."
+  - maptweak: "Adds a photocopier and shredder to the NTEF SEA office, changes his filing cabinet drawer to wall-mounted to save space."
+  - maptweak: "Adds an ATM north of the PADV office and between the Medical exam room and Counselor's office."
+  - bugfix: "The SMC SEA's office door control now actually controls his office door, instead of the NTEF SEA's office door."

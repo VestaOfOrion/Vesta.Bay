@@ -1,0 +1,5 @@
+author: Vhbraz
+delete-after: True
+changes: 
+  - maptweak: "Cent-com can no longer be reached by merchants."
+  - maptweak: "More randomized loot spawns have been added inside the Merchant's base."

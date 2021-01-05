@@ -24,5 +24,4 @@
 	if(!length(choices))
 		abort = 1
 		return
-	result_length = length(choices)
 	..()

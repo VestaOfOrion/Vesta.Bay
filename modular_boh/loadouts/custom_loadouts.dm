@@ -206,6 +206,11 @@ datum/gear/utility/crayonmre
 	path = /obj/item/clothing/accessory/armband/solgov/mp
 	allowed_roles = SECURITY_ROLES
 
+/datum/gear/accessory/armband_bluesec
+	display_name = "Security Armband"
+	path = /obj/item/clothing/accessory/armband/bluesec
+	allowed_roles = SECURITY_ROLES
+	
 /datum/gear/accessory/smc_patch
 	display_name = "Marine Corps patch"
 	path = /obj/item/clothing/accessory/solgov/smc_patch
@@ -318,7 +323,7 @@ datum/gear/utility/crayonmre
 	display_name = "Blaze, counselor"
 	path = /obj/item/clothing/accessory/solgov/specialty/counselor
 	allowed_roles = list(/datum/job/psychiatrist)
-
+	
 //################# HEAD EC OVERRIDE ####################
 
 /datum/gear/head/ECdepartment

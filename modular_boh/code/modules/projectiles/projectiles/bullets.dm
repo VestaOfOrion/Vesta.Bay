@@ -17,13 +17,21 @@
 /obj/item/projectile/bullet/sabot
 	name = "sabot"
 	icon_state= "rod"
-	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_shotgun.ogg'
 	damage = 35
 	armor_penetration = 80
 	damage_flags = DAM_EDGE
 
+/obj/item/projectile/bullet/magnetic/skrell_flechette
+	name = "flechette"
+	icon_state = "flechette"
+	damage = 40
+	armor_penetration = 100
+	fire_sound = 'sound/weapons/rapidslice.ogg'
+	distance_falloff = 0.5
+
 /obj/item/projectile/bullet/pistol/large
-	fire_sound = 'sound/weapons/gunshot/revolver_1.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/revolver_2.ogg'
 	damage = 50
 	distance_falloff = 1.5
 	armor_penetration = 15
@@ -35,7 +43,7 @@
 	distance_falloff = 0.50
 
 obj/item/projectile/bullet/pistol/strong/rubber
-	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
+	fire_sound = 'modular_boh/sounds/weapons/gunshot/revolver_1.ogg'
 	name = "less than lethal bullet"
 	damage_flags = 0
 	damage = 10

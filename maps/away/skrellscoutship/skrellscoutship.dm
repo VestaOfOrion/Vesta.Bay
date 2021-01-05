@@ -7,7 +7,7 @@
 /datum/map_template/ruin/away_site/skrellscoutship
 	name = "Skrellian Scout Ship"
 	id = "awaysite_skrell_scout"
-	description = "A Skrellian SDTF scouting vessel."
+	description = "A Skrellian SDTF scouting vessel. This one seems to be a heavier model."
 	suffixes = list("skrellscoutship/skrellscoutship_revamp.dmm")
 	cost = 0.5
 	shuttles_to_initialise = list(/datum/shuttle/autodock/overmap/skrellscoutship, /datum/shuttle/autodock/overmap/skrellscoutshuttle)
@@ -65,7 +65,8 @@
 	title = "Qrri-Vuxix"
 	supervisors = "your SDTF"
 	total_positions = 1
-	outfit_type = /decl/hierarchy/outfit/job/skrellscoutship
+	outfit_type = /decl/hierarchy/outfit/job/skrellscoutship/leader
+	allowed_ranks = list(/datum/mil_rank/skrell_fleet/vuxix)
 	info = "Your vessel is scouting through unknown space, working to map out any potential dangers, as well as potential allies."
 	is_semi_antagonist = TRUE
 	min_skill = list(SKILL_EVA = SKILL_ADEPT,
@@ -80,12 +81,12 @@
 	supervisors = "your Qrri-Vuxix"
 	total_positions = 5
 	whitelisted_species = list("Skrell")
-	outfit_type = /decl/hierarchy/outfit/job/skrellscoutship
-	info = "Your vessel is scouting through unknown space, working to map out any potential dangers, as well as potential allies."
 	branch = /datum/mil_branch/skrell_fleet
 	rank = /datum/mil_rank/skrell_fleet
 	allowed_branches = list(/datum/mil_branch/skrell_fleet)
-	allowed_ranks = list(/datum/mil_rank/skrell_fleet)
+	allowed_ranks = list(/datum/mil_rank/skrell_fleet/zuumqix)
+	outfit_type = /decl/hierarchy/outfit/job/skrellscoutship
+	info = "Your vessel is scouting through unknown space, working to map out any potential dangers, as well as potential allies."
 	skill_points = 30
 	is_semi_antagonist = TRUE
 	min_skill = list(SKILL_EVA = SKILL_ADEPT,
@@ -132,18 +133,6 @@
 	item_state = "skrell_suit"
 	worn_state = "skrell_suit"
 
-/decl/hierarchy/outfit/job/skrellscoutship
-	name = "Xilvuxix Crew"
-	uniform = /obj/item/clothing/under/skrelljumpsuit
-	shoes = /obj/item/clothing/shoes/dutyboots
-	gloves = /obj/item/clothing/gloves/thick/swat/skrell
-	pda_type = /obj/item/modular_computer/pda
-	pda_slot = slot_l_store
-	l_ear = /obj/item/device/radio/headset/map_preset/skrellscoutship
-	id_types = list(/obj/item/weapon/card/id/skrellscoutship)
-	l_pocket = /obj/item/clothing/accessory/badge/tags/skrell
-
-
 /obj/item/weapon/reagent_containers/food/condiment/psilocybin
 	label_text = "Psilocybin"
 	starting_reagents = list(/datum/reagent/psilocybin = 50)
@@ -158,29 +147,56 @@
 	label_text = "Ambrosia"
 	starting_reagents = list(/datum/reagent/space_drugs = 50)
 
+/decl/hierarchy/outfit/job/skrellscoutship
+	name = "Xilvuxix Crew"
+	uniform = /obj/item/clothing/under/skrelljumpsuit
+	shoes = /obj/item/clothing/shoes/dutyboots
+	gloves = /obj/item/clothing/gloves/thick/swat/skrell
+	pda_type = /obj/item/modular_computer/pda
+	pda_slot = slot_l_store
+	l_ear = /obj/item/device/radio/headset/map_preset/skrellscoutship
+	id_types = list(/obj/item/weapon/card/id/skrellscoutship)
+	l_pocket = /obj/item/clothing/accessory/badge/tags/skrell
+	r_pocket = /obj/item/clothing/accessory/skrellian/rank/SDTF/QZQX
+
+/decl/hierarchy/outfit/job/skrellscoutship/leader
+	name = "Xilvuxix Vuxix"
+	r_pocket = /obj/item/clothing/accessory/skrellian/rank/SDTF/QVX
 
 /datum/mil_branch/skrell_fleet
 	name = "Skrellian Defense Task Force"
 	name_short = "SDTF"
 	email_domain = "sdtf.qb"
+	rank_types = list(
+		/datum/mil_rank/skrell_fleet/zuumqix,
+		/datum/mil_rank/skrell_fleet/vuxix
+	)
+	spawn_rank_types = list(
+		/datum/mil_rank/skrell_fleet/zuumqix,
+		/datum/mil_rank/skrell_fleet/vuxix
+	)
 
-	rank_types = list(/datum/mil_rank/skrell_fleet)
-	spawn_rank_types = list(/datum/mil_rank/skrell_fleet)
+/datum/mil_rank/skrell_fleet/zuumqix
+	name = "Qrii-Zuumqix"
+	name_short = "QZQX"
+	accessory = list(/obj/item/clothing/accessory/skrellian/rank/SDTF/QZQX)
 
-/datum/mil_rank/skrell_fleet
-	name = "NULL"
+/datum/mil_rank/skrell_fleet/vuxix
+	name = "Qrii-Vuxix"
+	name_short = "QVX"
+	accessory = list(/obj/item/clothing/accessory/skrellian/rank/SDTF/QVX)
 
 /obj/machinery/power/apc/skrell
 	req_access = list(access_skrellscoutship)
 
 /obj/machinery/alarm/skrell
 	req_access = list(access_skrellscoutship)
-	target_temperature = T0C+40
+	target_temperature = T0C+70
 
 /obj/machinery/alarm/skrell/Initialize()
 	. = ..()
 	TLV["pressure"] =		list(ONE_ATMOSPHERE*0.80,ONE_ATMOSPHERE*0.90,ONE_ATMOSPHERE*1.30,ONE_ATMOSPHERE*1.40) /* kpa */
-	TLV["temperature"] =	list(T0C-26, T0C, T0C+80, T0C+90) // K
+	TLV["temperature"] =	list(T0C-26, T0C, T0C+90, T0C+110) // K
 
 /obj/machinery/alarm/skrell/server
 	target_temperature = T0C+10
@@ -211,7 +227,7 @@
 //Skrell Security Belt
 /obj/item/weapon/storage/belt/holster/skrell
 	name = "skrellian holster belt"
-	desc = "Can hold security gear like handcuffs and flashes. This one has a convenient holster."
+	desc = "Can hold security gear like handcuffs and flashes. This one has a convenient holster especially designed to accomodate the XV-5."
 	icon_state = "securitybelt"
 	item_state = "security"
 	storage_slots = 8
@@ -240,7 +256,8 @@
 		/obj/item/weapon/magnetic_ammo,
 		/obj/item/device/binoculars,
 		/obj/item/clothing/gloves,
-		/obj/item/weapon/gun/energy/gun/skrell
+	)
+	can_holster = list(/obj/item/weapon/gun/energy/gun/skrell
 		)
 
 //Skell Lights
@@ -303,3 +320,55 @@
 	color = "#40e0d0"
 	name = "thermal induction generator"
 	desc = "Made by Krri'gli Corp using thermal induction technology, this heater is guaranteed not to set anything, or anyone, on fire."
+
+//Skrell Machines
+
+// This is an absolutely stupid machine. Basically the same as the debug one with some alterations.
+// It is a placeholder for a proper reactor setup (probably a RUST descendant)
+/obj/machinery/power/skrell_reactor
+	name = "skrellian advanced fusion core"
+	desc = "A tall, gleaming assemblage of advanced alien machinery. It hums and crackles with restrained power."
+	icon = 'icons/obj/machines/power/fusion_core.dmi'
+	icon_state = "core1"
+	color = COLOR_CYAN
+	var/on = TRUE
+	var/output_power = 45 MEGAWATTS //it's the future, and this is a god darn fusion reactor. Why would it produce measly kilowatts?
+	var/image/field_image
+
+/obj/machinery/power/skrell_reactor/attack_hand(mob/user)
+	. = ..()
+
+	user.visible_message(SPAN_NOTICE("\The [user] switches \the [src] [on ? "off" : "on"]."))
+	on = !on
+	update_icon()
+
+/obj/machinery/power/skrell_reactor/on_update_icon()
+	. = ..()
+
+	if(!field_image)
+		field_image = image(icon = 'icons/obj/machines/power/fusion.dmi', icon_state = "emfield_s1")
+		field_image.color = COLOR_CYAN
+		field_image.alpha = 50
+		field_image.layer = SINGULARITY_LAYER
+		field_image.appearance_flags |= RESET_COLOR
+
+		var/matrix/M = matrix()
+		M.Scale(3)
+		field_image.transform = M
+
+	if(on)
+		overlays |= field_image
+		set_light(0.8, 1, 6, l_color = COLOR_CYAN)
+		icon_state = "core1"
+	else
+		overlays -= field_image
+		set_light(0)
+		icon_state = "core0"
+
+/obj/machinery/power/skrell_reactor/Initialize()
+	. = ..()
+	update_icon()
+
+/obj/machinery/power/skrell_reactor/Process()
+	if(on)
+		add_avail(output_power)

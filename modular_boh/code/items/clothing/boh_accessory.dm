@@ -17,7 +17,7 @@
 	name = "\improper Sixth Fleet patch"
 	desc = "A robust shoulder patch carrying insignia of Sixth Fleet."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi')
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
 	icon_state = "fleetpatch6"
 	on_rolled = list("down" = "none")
 
@@ -40,7 +40,7 @@
 /obj/item/clothing/accessory/ribbon/solgov/custom
 	icon_state = "ribbon_custom"
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
-	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak_boh.dmi')
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_cloak.dmi')
 
 /obj/item/clothing/accessory/ribbon/solgov/custom/color
 	icon_state = "ribbon_custom_color"
@@ -252,19 +252,19 @@
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w1
 	icon_state = "MW1"
-	name = "ranks (W-1 warrant officer)"
-	desc = "Insignia denoting the rank of Warrant Officer"
+	name = "ranks (W-1 second warrant officer)"
+	desc = "Insignia denoting the rank of Second Warrant Officer"
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w2
 	icon_state = "MW2"
-	name = "ranks (W-2 second warrant officer"
-	desc = "Insignia denoting the rank of Second Warrant Officer"
+	name = "ranks (W-2 first warrant officer)"
+	desc = "Insignia denoting the rank of First Warrant Officer"
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w3
 	icon_state = "MW3"
 	overlay_state = "armyrank_warrant_silver"
-	name = "ranks (W-3 first warrant officer)"
-	desc = "Insignia denoting the rank of First Warrant Officer"
+	name = "ranks (W-3 master warrant officer)"
+	desc = "Insignia denoting the rank of Master Warrant Officer"
 
 /obj/item/clothing/accessory/solgov/rank/marine_corps/warrant_officer/w4
 	icon_state = "MW4"
@@ -340,3 +340,26 @@
 	icon_state = "MO10"
 	name = "ranks (O-10 general)"
 	desc = "Insignia denoting the rank of General."
+
+// ### SDTF ranks.
+
+/obj/item/clothing/accessory/skrellian/rank/SDTF
+	name = "Skrellian Ranks"
+	desc = "Insigna denothing some sort of position in the SDTF. This one is blank."
+	icon = 'modular_boh/icon/obj/obj_skrell_accessories.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi', slot_wear_suit_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi')
+	icon_state = "skrell_blank"
+	on_rolled = list("down" = "none")
+	slot = ACCESSORY_SLOT_RANK
+	gender = PLURAL
+	high_visibility = 1
+
+/obj/item/clothing/accessory/skrellian/rank/SDTF/QZQX
+	name = "ranks (Qrii-Zuumqix)"
+	desc = "Skrellian holographic insigna denoting the position of Qrii-Zuumqix"
+	icon_state = "skrell_qriizuumqix"
+
+/obj/item/clothing/accessory/skrellian/rank/SDTF/QVX
+	name = "ranks (Qrii-Vuxix)"
+	desc = "Skrellian holographic insigna denoting the position of Qrii-Vuxix"
+	icon_state = "skrell_qriivuxix"
