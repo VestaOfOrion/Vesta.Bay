@@ -95,7 +95,7 @@
 
 /obj/item/armorbox/sol/attack_self(mob/living/user)
 	var/list/options = list()
-	options["Medium plate carrier"] = list(/obj/item/clothing/suit/armor/pcarrier/medium/sol)
+	options["Medium plate carrier"] = list(/obj/item/clothing/suit/armor/pcarrier/medium)
 	options["Concealable light vest"] = list(/obj/item/clothing/accessory/armorplate/sneaky)
 	var/choice = input(user,"What type of armor?") as null|anything in options
 	if(src && choice)
