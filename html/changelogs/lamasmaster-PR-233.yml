@@ -1,7 +1,0 @@
-author: lamasmaster
-
-delete-after: True
-
-changes: 
-  - bugfix: "Cloaks use correct sprites again."
-  - spellcheck: "Knee Jackboots not Jackboot."
