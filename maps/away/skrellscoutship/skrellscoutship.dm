@@ -227,7 +227,7 @@
 //Skrell Security Belt
 /obj/item/weapon/storage/belt/holster/skrell
 	name = "skrellian holster belt"
-	desc = "Can hold security gear like handcuffs and flashes. This one has a convenient holster."
+	desc = "Can hold security gear like handcuffs and flashes. This one has a convenient holster especially designed to accomodate the XV-5."
 	icon_state = "securitybelt"
 	item_state = "security"
 	storage_slots = 8
@@ -256,7 +256,8 @@
 		/obj/item/weapon/magnetic_ammo,
 		/obj/item/device/binoculars,
 		/obj/item/clothing/gloves,
-		/obj/item/weapon/gun/energy/gun/skrell
+	)
+	can_holster = list(/obj/item/weapon/gun/energy/gun/skrell
 		)
 
 //Skell Lights

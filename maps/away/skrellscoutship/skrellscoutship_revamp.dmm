@@ -478,6 +478,16 @@
 	dir = 1;
 	pixel_y = -32
 	},
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/armory)
 "cD" = (
@@ -1135,6 +1145,7 @@
 /area/ship/skrellscoutship/forestorage)
 "fI" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
 "fJ" = (
@@ -1155,11 +1166,6 @@
 	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
-"fK" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay2,
-/turf/space,
-/area/ship/skrellscoutship/wings/port)
 "fL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -1291,6 +1297,7 @@
 	tag_airpump = "xil_air_pumps";
 	tag_chamber_sensor = "xil_air_dock_sensor";
 	tag_exterior_door = "xil_air_external";
+	tag_exterior_sensor = null;
 	tag_interior_door = "xil_air_internal"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -1415,6 +1422,10 @@
 /obj/machinery/light/skrell{
 	dir = 8;
 	icon_state = "tube1"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 4;
+	id_tag = "xil_shuttle_pump_out_internal"
 	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutshuttle)
@@ -1629,6 +1640,7 @@
 "if" = (
 /obj/structure/closet/cabinet,
 /obj/item/device/radio/headset/map_preset/skrellscoutship,
+/obj/item/weapon/tape_roll/skrell,
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/crew/dormitories)
 "ig" = (
@@ -1654,6 +1666,13 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
+/obj/item/weapon/tape_roll/skrell,
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "in" = (
@@ -1907,6 +1926,13 @@
 /area/ship/skrellscoutship/hangar)
 "jU" = (
 /obj/structure/table/rack/dark,
+/obj/item/weapon/storage/belt/holster/skrell,
+/obj/item/weapon/storage/belt/holster/skrell,
+/obj/item/weapon/storage/belt/holster/skrell,
+/obj/item/weapon/storage/belt/holster/skrell,
+/obj/item/weapon/storage/belt/holster/skrell,
+/obj/item/weapon/storage/belt/holster/skrell,
+/obj/item/weapon/storage/belt/holster/skrell,
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/armory)
 "jX" = (
@@ -2166,11 +2192,6 @@
 	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutshuttle)
-"lD" = (
-/obj/machinery/light/navigation/delay2,
-/obj/structure/lattice,
-/turf/space,
-/area/ship/skrellscoutship/crew/medbay)
 "lF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2294,11 +2315,6 @@
 	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
-"mx" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay5,
-/turf/space,
-/area/ship/skrellscoutship/maintenance/atmos)
 "my" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/skrell,
@@ -2422,6 +2438,9 @@
 /obj/machinery/light/skrell{
 	dir = 8;
 	icon_state = "tube1"
+	},
+/obj/structure/sign/warning/caution{
+	pixel_x = -31
 	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
@@ -2564,7 +2583,7 @@
 	external_pressure_bound = 0;
 	external_pressure_bound_default = 0;
 	icon_state = "map_vent_in";
-	id_tag = "xil_n2_out";
+	id_tag = "n2_out_xil";
 	initialize_directions = 1;
 	internal_pressure_bound = 4000;
 	internal_pressure_bound_default = 4000;
@@ -2574,7 +2593,8 @@
 	use_power = 1
 	},
 /obj/machinery/air_sensor{
-	id_tag = "xil_n2_sensor"
+	id_tag = "xil_n2_sensor";
+	name = "SSV Nitrogen Supply"
 	},
 /turf/simulated/floor/reinforced/nitrogen,
 /area/ship/skrellscoutship/maintenance/atmos)
@@ -2667,8 +2687,8 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
 "oN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
 	},
 /obj/effect/paint/black,
 /turf/simulated/wall/r_titanium,
@@ -2915,11 +2935,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
-"qh" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay2,
-/turf/space,
-/area/ship/skrellscoutship/dock)
 "qj" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 8;
@@ -3168,10 +3183,9 @@
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutship/crew/medbay)
 "rj" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay5,
-/turf/space,
-/area/ship/skrellscoutship/command/vuxix)
+/obj/machinery/chemical_dispenser/ert,
+/turf/simulated/floor/tiled/skrell/white,
+/area/ship/skrellscoutship/crew/medbay)
 "rs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 4
@@ -3318,6 +3332,7 @@
 	pixel_x = 6;
 	pixel_y = 20
 	},
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutshuttle)
 "rZ" = (
@@ -3370,6 +3385,7 @@
 /obj/structure/handrail{
 	dir = 1
 	},
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutshuttle)
 "sl" = (
@@ -3378,7 +3394,7 @@
 	external_pressure_bound = 0;
 	external_pressure_bound_default = 0;
 	icon_state = "map_vent_in";
-	id_tag = "xil_o2_out";
+	id_tag = "o2_out_xil";
 	initialize_directions = 1;
 	internal_pressure_bound = 4000;
 	internal_pressure_bound_default = 4000;
@@ -3388,7 +3404,8 @@
 	use_power = 1
 	},
 /obj/machinery/air_sensor{
-	id_tag = "xil_o2_sensor"
+	id_tag = "xil_o2_sensor";
+	name = "SSV Oxygen Supply"
 	},
 /turf/simulated/floor/reinforced/oxygen,
 /area/ship/skrellscoutship/maintenance/atmos)
@@ -3768,8 +3785,11 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/brig)
 "uv" = (
-/turf/simulated/floor/reinforced/airless,
-/area/space)
+/obj/structure/sign/warning/vacuum{
+	pixel_x = 31
+	},
+/turf/simulated/floor/tiled/skrell/orange,
+/area/ship/skrellscoutship/maintenance/power)
 "uw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -4350,10 +4370,6 @@
 /area/ship/skrellscoutship/crew/kitchen)
 "xD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/light/skrell{
-	dir = 1;
-	icon_state = "tube1"
-	},
 /obj/structure/sign/bluecross_1{
 	pixel_y = 32
 	},
@@ -4586,10 +4602,12 @@
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/wings/starboard)
 "yJ" = (
-/obj/machinery/light/navigation/delay2,
-/obj/structure/lattice,
-/turf/space,
-/area/ship/skrellscoutship/command/armory)
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/wall/r_titanium,
+/area/ship/skrellscoutshuttle)
 "yL" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/toolbox/emergency,
@@ -4608,9 +4626,12 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/brig)
 "za" = (
-/obj/structure/lattice,
-/turf/space,
-/area/ship/skrellscoutship/crew/medbay)
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/wall/r_titanium,
+/area/ship/skrellscoutshuttle)
 "zb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4992,10 +5013,9 @@
 	dir = 10
 	},
 /obj/machinery/computer/air_control{
-	frequency = 1472;
 	input_tag = "xil_n2_in";
 	name = "Nitrogen Supply Control";
-	output_tag = "xil_n2_out";
+	output_tag = "n2_out_xil";
 	sensor_name = "SSV Nitrogen Supply";
 	sensor_tag = "xil_n2_sensor"
 	},
@@ -5222,7 +5242,7 @@
 "Ce" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	frequency = 1472;
+	frequency = 1441;
 	icon_state = "map_injector";
 	id = "xil_o2_in";
 	use_power = 1
@@ -5541,6 +5561,10 @@
 /obj/item/device/radio/intercom/map_preset/skrellscoutship{
 	pixel_y = 24
 	},
+/obj/machinery/light/skrell{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/hangar)
 "DW" = (
@@ -5666,6 +5690,10 @@
 /obj/machinery/light/skrell{
 	dir = 8;
 	icon_state = "tube1"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 8;
+	id_tag = "xil_shuttle_pump"
 	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutshuttle)
@@ -6009,7 +6037,7 @@
 "Gn" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	frequency = 1472;
+	frequency = 1441;
 	icon_state = "map_injector";
 	id = "xil_h2_in";
 	use_power = 1
@@ -6154,7 +6182,9 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/skrell_reactor,
+/obj/machinery/power/skrell_reactor{
+	density = 1
+	},
 /turf/simulated/floor/reinforced,
 /area/ship/skrellscoutship/maintenance/power)
 "He" = (
@@ -6366,10 +6396,9 @@
 "Io" = (
 /obj/machinery/computer/air_control{
 	dir = 1;
-	frequency = 1472;
 	input_tag = "xil_h2_in";
 	name = "Hydrogen Supply Control";
-	output_tag = "xil_h2_out";
+	output_tag = "h2_out_xil";
 	sensor_name = "SSV Hydrogen Supply";
 	sensor_tag = "xil_h2_sensor"
 	},
@@ -6932,10 +6961,11 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "LJ" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay5,
-/turf/space,
-/area/ship/skrellscoutship/dock)
+/obj/structure/sign/warning/high_voltage{
+	pixel_y = 30
+	},
+/turf/simulated/floor/reinforced,
+/area/ship/skrellscoutship/maintenance/power)
 "LK" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
@@ -7049,10 +7079,12 @@
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/toilets)
 "Mz" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay2,
-/turf/space,
-/area/ship/skrellscoutship/maintenance/power)
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 4
+	},
+/turf/simulated/wall/r_titanium,
+/area/ship/skrellscoutshuttle)
 "MC" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -7136,6 +7168,10 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/structure/sign/warning/vacuum{
+	dir = 1;
+	pixel_y = -35
 	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/wings/port)
@@ -7779,10 +7815,6 @@
 	pixel_y = -5
 	},
 /obj/machinery/cell_charger,
-/obj/machinery/light/skrell{
-	dir = 4;
-	icon_state = "tube1"
-	},
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "Pp" = (
@@ -7876,9 +7908,9 @@
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
 "PD" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay2,
-/turf/space,
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan,
+/obj/machinery/meter,
+/turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
 "PG" = (
 /obj/structure/bed/chair/office/comfy/black,
@@ -8198,6 +8230,10 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/structure/sign/warning/vacuum{
+	dir = 1;
+	pixel_y = -35
+	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/hangar)
 "QP" = (
@@ -8336,14 +8372,13 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/brig)
 "Rn" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay5,
-/turf/space,
-/area/ship/skrellscoutship/maintenance/power)
-"Rp" = (
-/obj/structure/lattice,
-/turf/space,
-/area/ship/skrellscoutship/command/armory)
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/machinery/meter,
+/turf/simulated/floor/tiled/skrell/orange,
+/area/ship/skrellscoutship/maintenance/atmos)
 "Rr" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -8693,10 +8728,9 @@
 "SN" = (
 /obj/machinery/computer/air_control{
 	dir = 1;
-	frequency = 1472;
 	input_tag = "xil_o2_in";
 	name = "Oxygen Supply Control";
-	output_tag = "xil_o2_out";
+	output_tag = "o2_out_xil";
 	sensor_name = "SSV Oxygen Supply";
 	sensor_tag = "xil_o2_sensor"
 	},
@@ -8817,7 +8851,7 @@
 "Tq" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	frequency = 1472;
+	frequency = 1441;
 	icon_state = "map_injector";
 	id = "xil_n2_in";
 	use_power = 1
@@ -8898,6 +8932,10 @@
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
+	},
+/obj/structure/sign/warning/high_voltage{
+	pixel_x = 1;
+	pixel_y = 27
 	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/power)
@@ -9065,12 +9103,12 @@
 /turf/simulated/wall/r_titanium,
 /area/ship/skrellscoutshuttle)
 "UO" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/cyan,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/cyan,
 /turf/simulated/floor/reinforced,
 /area/ship/skrellscoutship/wings/port)
 "UQ" = (
@@ -9380,7 +9418,6 @@
 /obj/structure/table/standard,
 /obj/item/clothing/accessory/storage/black_vest,
 /obj/item/clothing/head/helmet/skrell,
-/obj/item/clothing/accessory/storage/holster/thigh,
 /obj/item/device/radio/hailing,
 /obj/item/device/radio/headset/map_preset/skrellscoutship,
 /obj/item/weapon/storage/belt/holster/skrell,
@@ -9445,7 +9482,7 @@
 	external_pressure_bound = 0;
 	external_pressure_bound_default = 0;
 	icon_state = "map_vent_in";
-	id_tag = "xil_h2_out";
+	id_tag = "h2_out_xil";
 	initialize_directions = 1;
 	internal_pressure_bound = 4000;
 	internal_pressure_bound_default = 4000;
@@ -9455,7 +9492,8 @@
 	use_power = 1
 	},
 /obj/machinery/air_sensor{
-	id_tag = "xil_h2_sensor"
+	id_tag = "xil_h2_sensor";
+	name = "SSV Hydrogen Supply"
 	},
 /turf/simulated/floor/reinforced/hydrogen,
 /area/ship/skrellscoutship/maintenance/atmos)
@@ -9570,6 +9608,7 @@
 /area/ship/skrellscoutship/wings/port)
 "Xn" = (
 /obj/machinery/light/skrell,
+/obj/machinery/space_heater/skrell,
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/bridge)
 "Xo" = (
@@ -10043,6 +10082,11 @@
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
+	},
+/obj/machinery/meter,
+/obj/structure/sign/warning/compressed_gas{
+	pixel_x = 31;
+	pixel_y = 31
 	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
@@ -11992,7 +12036,6 @@ bS
 bS
 bS
 bS
-lD
 bS
 bS
 bS
@@ -12010,7 +12053,8 @@ bS
 bS
 bS
 bS
-yJ
+bS
+bS
 bS
 bS
 bS
@@ -12094,7 +12138,6 @@ bS
 bS
 bS
 bS
-za
 bS
 bS
 bS
@@ -12112,7 +12155,8 @@ bS
 bS
 bS
 bS
-Rp
+bS
+bS
 bS
 bS
 bS
@@ -12196,7 +12240,7 @@ bS
 bS
 bS
 bS
-za
+bS
 bS
 bS
 bS
@@ -12214,7 +12258,7 @@ bS
 bS
 bS
 bS
-Rp
+bS
 bS
 bS
 bS
@@ -12917,7 +12961,7 @@ MQ
 lP
 lP
 WU
-lP
+yJ
 oN
 dG
 Di
@@ -13019,7 +13063,7 @@ MQ
 MQ
 lP
 lP
-lP
+za
 BH
 wa
 Cp
@@ -13220,14 +13264,14 @@ Lg
 TB
 zr
 bv
-TB
+rj
 MQ
 lP
 lP
 ua
 sP
 aY
-lP
+Mz
 lP
 MQ
 lX
@@ -13329,7 +13373,7 @@ Wl
 UN
 ly
 yE
-Wl
+UN
 Ta
 MQ
 lX
@@ -16509,7 +16553,7 @@ hA
 NK
 dP
 dP
-uv
+bS
 bS
 bS
 ZE
@@ -17003,7 +17047,7 @@ CI
 Or
 Wp
 HS
-ga
+PD
 PK
 pq
 eR
@@ -17077,7 +17121,7 @@ bS
 bS
 bS
 bS
-qh
+bS
 Wf
 bS
 bS
@@ -17125,7 +17169,7 @@ bS
 bS
 bS
 ZE
-fK
+bS
 bS
 bS
 bS
@@ -17209,7 +17253,7 @@ Wp
 HS
 Yw
 dl
-ga
+PD
 AD
 eR
 eR
@@ -17486,7 +17530,7 @@ bS
 bS
 bS
 bS
-LJ
+bS
 bS
 bS
 bS
@@ -17513,7 +17557,7 @@ Te
 xE
 nm
 Qc
-gN
+Rn
 Aw
 Io
 II
@@ -17532,7 +17576,7 @@ bS
 bS
 bS
 bS
-rj
+bS
 bS
 bS
 bS
@@ -17712,7 +17756,7 @@ Ag
 AJ
 uI
 nm
-XI
+LJ
 Hd
 XI
 zh
@@ -17921,7 +17965,7 @@ nm
 nm
 eR
 ZS
-gN
+Rn
 Pz
 px
 Lx
@@ -18116,7 +18160,7 @@ sW
 vN
 tf
 Ez
-Ly
+uv
 nm
 nm
 nm
@@ -19132,7 +19176,6 @@ bS
 bS
 bS
 nm
-Mz
 bS
 bS
 bS
@@ -19150,7 +19193,8 @@ bS
 bS
 bS
 bS
-PD
+bS
+bS
 eR
 bS
 bS
@@ -19335,7 +19379,6 @@ bS
 bS
 bS
 bS
-Rn
 bS
 bS
 bS
@@ -19355,7 +19398,8 @@ bS
 bS
 bS
 bS
-mx
+bS
+bS
 bS
 bS
 bS
