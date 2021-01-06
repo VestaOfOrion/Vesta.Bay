@@ -16,7 +16,7 @@
 	appearance_flags =  HAS_UNDERWEAR | HAS_EYE_COLOR
 
 	sexybits_location = BP_GROIN
-
+/*
 	has_limbs = list(
 		BP_CHEST =  list("path" = /obj/item/organ/external/chest/kidan),
 		BP_GROIN =  list("path" = /obj/item/organ/external/groin/kidan),
@@ -30,7 +30,7 @@
 		BP_L_FOOT = list("path" = /obj/item/organ/external/foot/kidan),
 		BP_R_FOOT = list("path" = /obj/item/organ/external/foot/right/kidan)
 		)
-
+*/
 	override_organ_types = list(
 		BP_BRAIN = /obj/item/organ/internal/brain/kidan,
 		BP_EYES = /obj/item/organ/internal/eyes/kidan,

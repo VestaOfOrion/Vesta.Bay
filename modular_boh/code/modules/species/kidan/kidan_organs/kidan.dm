@@ -26,7 +26,7 @@
 	icon = 'modular_boh/icon/mob/species/kidan/organs.dmi'
 */
 
-// External
+/*
 
 /obj/item/organ/external/head/kidan
 
@@ -47,3 +47,4 @@
 /obj/item/organ/external/hand/kidan
 
 /obj/item/organ/external/hand/right/kidan
+*/
