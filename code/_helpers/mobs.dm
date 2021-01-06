@@ -42,6 +42,14 @@ proc/random_facial_hair_style(gender, var/species = SPECIES_HUMAN)
 		f_style = pick(valid_facialhairstyles)
 		return f_style
 
+proc/random_hair_gradient_style(gender, var/species = SPECIES_HUMAN)
+	var/g_style = "None"
+	var/datum/species/mob_species = all_species[species]
+	var/list/valid_gradientstyles = mob_species.get_gradient_styles()
+	if(valid_gradientstyles.len)
+		g_style = pick(valid_gradientstyles)
+		return g_style
+
 proc/random_name(gender, species = SPECIES_HUMAN)
 	if(species)
 		var/datum/species/current_species = all_species[species]

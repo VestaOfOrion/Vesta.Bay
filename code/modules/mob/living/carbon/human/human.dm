@@ -784,6 +784,12 @@
 		g_hair = hex2num(copytext(new_hair, 4, 6))
 		b_hair = hex2num(copytext(new_hair, 6, 8))
 
+	var/new_grad = input("Please select gradient color.", "Character Generation",rgb(r_grad,g_grad,b_grad)) as color
+	if(new_grad)
+		r_grad = hex2num(copytext(new_grad, 2, 4))
+		g_grad = hex2num(copytext(new_grad, 4, 6))
+		b_grad = hex2num(copytext(new_grad, 6, 8))
+
 	var/new_eyes = input("Please select eye color.", "Character Generation",rgb(r_eyes,g_eyes,b_eyes)) as color
 	if(new_eyes)
 		r_eyes = hex2num(copytext(new_eyes, 2, 4))
@@ -813,6 +819,24 @@
 	// if new style selected (not cancel)
 	if (new_style)
 		h_style = new_style
+
+	//VESTA.BAY | Hair gradients start
+	// gradients
+	var/list/all_grads = typesof(/datum/sprite_accessory/hair_gradients) - /datum/sprite_accessory/hair_gradients
+	var/list/grads = list()
+
+	// loop through potential gradients
+	for(var/x in all_grads)
+		var/datum/sprite_accessory/hair_gradients/H = new x // create new hair datum based on type x
+		grads.Add(H.name) // add gradient name to grads
+		qdel(H) // delete the gradient after it's all done
+
+	new_style = input("Please select gradient style", "Character Generation",g_style)  as null|anything in grads
+
+	// if new style selected (not cancel)
+	if (new_style)
+		g_style = new_style
+	//VESTA.BAY | Hair gradients end
 
 	// facial hair
 	var/list/all_fhairs = typesof(/datum/sprite_accessory/facial_hair) - /datum/sprite_accessory/facial_hair

@@ -11,6 +11,10 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	var/r_facial = 0					//Face hair color
 	var/g_facial = 0					//Face hair color
 	var/b_facial = 0					//Face hair color
+	var/g_style = "None"				//Hair gradient type (VESTA.BAY)
+	var/r_grad = 0					//Hair gradient color (VESTA.BAY)
+	var/g_grad = 0					//Hair gradient color (VESTA.BAY)
+	var/b_grad = 0					//Hair gradient color (VESTA.BAY)
 	var/s_tone = 0						//Skin tone
 	var/r_skin = 0						//Skin color
 	var/g_skin = 0						//Skin color
@@ -56,6 +60,9 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	pref.r_facial = R.read("facial_red")
 	pref.g_facial = R.read("facial_green")
 	pref.b_facial = R.read("facial_blue")
+	pref.r_grad = R.read("gradient_red")		//(VESTA.BAY)
+	pref.b_grad = R.read("gradient_green")		//(VESTA.BAY)
+	pref.g_grad = R.read("gradient_blue")		//(VESTA.BAY)
 	pref.s_tone = R.read("skin_tone")
 	pref.r_skin = R.read("skin_red")
 	pref.g_skin = R.read("skin_green")
@@ -63,6 +70,7 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	pref.s_base = R.read("skin_base")
 	pref.h_style = R.read("hair_style_name")
 	pref.f_style = R.read("facial_style_name")
+	pref.g_style = R.read("gradient_style_name")	//(VESTA.BAY)
 	pref.r_eyes = R.read("eyes_red")
 	pref.g_eyes = R.read("eyes_green")
 	pref.b_eyes = R.read("eyes_blue")
@@ -93,6 +101,9 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	W.write("facial_red", pref.r_facial)
 	W.write("facial_green", pref.g_facial)
 	W.write("facial_blue", pref.b_facial)
+	W.write("gradient_red", pref.r_grad)
+	W.write("gradient_green", pref.g_grad)
+	W.write("gradient_blue", pref.b_grad)
 	W.write("skin_tone", pref.s_tone)
 	W.write("skin_red", pref.r_skin)
 	W.write("skin_green", pref.g_skin)
@@ -100,6 +111,7 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	W.write("skin_blue", pref.b_skin)
 	W.write("hair_style_name", pref.h_style)
 	W.write("facial_style_name", pref.f_style)
+	W.write("gradient_style_name", pref.g_style)
 	W.write("eyes_red", pref.r_eyes)
 	W.write("eyes_green", pref.g_eyes)
 	W.write("eyes_blue", pref.b_eyes)
@@ -128,11 +140,15 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	pref.r_facial		= sanitize_integer(pref.r_facial, 0, 255, initial(pref.r_facial))
 	pref.g_facial		= sanitize_integer(pref.g_facial, 0, 255, initial(pref.g_facial))
 	pref.b_facial		= sanitize_integer(pref.b_facial, 0, 255, initial(pref.b_facial))
+	pref.r_grad			= sanitize_integer(pref.r_grad, 0, 255, initial(pref.r_grad))
+	pref.g_grad			= sanitize_integer(pref.g_grad, 0, 255, initial(pref.g_grad))
+	pref.b_grad			= sanitize_integer(pref.b_grad, 0, 255, initial(pref.b_grad))
 	pref.r_skin			= sanitize_integer(pref.r_skin, 0, 255, initial(pref.r_skin))
 	pref.g_skin			= sanitize_integer(pref.g_skin, 0, 255, initial(pref.g_skin))
 	pref.b_skin			= sanitize_integer(pref.b_skin, 0, 255, initial(pref.b_skin))
 	pref.h_style		= sanitize_inlist(pref.h_style, GLOB.hair_styles_list, initial(pref.h_style))
 	pref.f_style		= sanitize_inlist(pref.f_style, GLOB.facial_hair_styles_list, initial(pref.f_style))
+	pref.g_style		= sanitize_inlist(pref.g_style, GLOB.hair_gradients_list, initial(pref.g_style))
 	pref.r_eyes			= sanitize_integer(pref.r_eyes, 0, 255, initial(pref.r_eyes))
 	pref.g_eyes			= sanitize_integer(pref.g_eyes, 0, 255, initial(pref.g_eyes))
 	pref.b_eyes			= sanitize_integer(pref.b_eyes, 0, 255, initial(pref.b_eyes))
@@ -351,6 +367,11 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 		. += "<a href='?src=\ref[src];facial_color=1'>Change Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_facial, 2)][num2hex(pref.g_facial, 2)][num2hex(pref.b_facial, 2)]'><table  style='display:inline;' bgcolor='#[num2hex(pref.r_facial, 2)][num2hex(pref.g_facial, 2)][num2hex(pref.b_facial)]'><tr><td>__</td></tr></table></font> "
 	. += " Style: <a href='?src=\ref[src];facial_style=1'>[pref.f_style]</a><br>"
 
+	. += "<br><b>Hair Gradient</b><br>"
+	if(has_flag(mob_species, HAS_HAIR_COLOR))
+		. += "<a href='?src=\ref[src];facial_color=1'>Change Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_grad, 2)][num2hex(pref.g_grad, 2)][num2hex(pref.b_grad, 2)]'><table  style='display:inline;' bgcolor='#[num2hex(pref.r_grad, 2)][num2hex(pref.g_grad, 2)][num2hex(pref.b_grad)]'><tr><td>__</td></tr></table></font> "
+	. += " Style: <a href='?src=\ref[src];gradient_style=1'>[pref.g_style]</a><br>"
+
 	if(has_flag(mob_species, HAS_EYE_COLOR))
 		. += "<br><b>Eyes</b><br>"
 		. += "<a href='?src=\ref[src];eye_color=1'>Change Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_eyes, 2)][num2hex(pref.g_eyes, 2)][num2hex(pref.b_eyes, 2)]'><table  style='display:inline;' bgcolor='#[num2hex(pref.r_eyes, 2)][num2hex(pref.g_eyes, 2)][num2hex(pref.b_eyes)]'><tr><td>__</td></tr></table></font><br>"
@@ -492,6 +513,16 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 			pref.b_facial = hex2num(copytext(new_facial, 6, 8))
 			return TOPIC_REFRESH_UPDATE_PREVIEW
 
+	else if(href_list["grad_color"])
+		if(!has_flag(mob_species, HAS_HAIR_COLOR))
+			return TOPIC_NOACTION
+		var/new_grad = input(user, "Choose your character's hair gradient colour:", CHARACTER_PREFERENCE_INPUT_TITLE, rgb(pref.r_grad, pref.g_grad, pref.b_grad)) as color|null
+		if(new_grad && has_flag(all_species[pref.species], HAS_HAIR_COLOR) && CanUseTopic(user))
+			pref.r_grad = hex2num(copytext(new_grad, 2, 4))
+			pref.g_grad = hex2num(copytext(new_grad, 4, 6))
+			pref.b_grad = hex2num(copytext(new_grad, 6, 8))
+			return TOPIC_REFRESH_UPDATE_PREVIEW
+
 	else if(href_list["eye_color"])
 		if(!has_flag(mob_species, HAS_EYE_COLOR))
 			return TOPIC_NOACTION
@@ -537,6 +568,16 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 		mob_species = all_species[pref.species]
 		if(new_f_style && CanUseTopic(user) && mob_species.get_facial_hair_styles(pref.gender))
 			pref.f_style = new_f_style
+			return TOPIC_REFRESH_UPDATE_PREVIEW
+
+	else if(href_list["gradient_style"])
+		var/list/valid_gradientstyles = mob_species.get_gradient_styles()
+
+		var/new_g_style = input(user, "Choose your character's hair gradient style:", CHARACTER_PREFERENCE_INPUT_TITLE, pref.g_style)  as null|anything in valid_gradientstyles
+
+		mob_species = all_species[pref.species]
+		if(new_g_style && CanUseTopic(user))
+			pref.g_style = new_g_style
 			return TOPIC_REFRESH_UPDATE_PREVIEW
 
 	else if(href_list["marking_style"])
@@ -779,6 +820,16 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 	else
 		//this shouldn't happen
 		pref.f_style = GLOB.facial_hair_styles_list["Shaved"]
+
+/datum/category_item/player_setup_item/proc/ResetHairGradient()
+	var/datum/species/mob_species = all_species[pref.species]
+	var/list/valid_gradientstyles = mob_species.get_gradient_styles()
+
+	if(valid_gradientstyles.len)
+		pref.g_style = pick(valid_gradientstyles)
+	else
+		//this shouldn't happen
+		pref.g_style = GLOB.hair_gradients_list["None"]
 
 /datum/category_item/player_setup_item/physical/body/proc/sanitize_organs()
 	var/datum/species/mob_species = all_species[pref.species]

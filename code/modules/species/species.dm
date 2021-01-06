@@ -37,6 +37,7 @@
 
 	var/list/hair_styles
 	var/list/facial_hair_styles
+	var/list/gradient_styles
 
 	var/organs_icon		//species specific internal organs icons
 
@@ -713,6 +714,21 @@ The slots that you can use are found in items_clothing.dm and are the inventory 
 			facial_hair_style_by_gender[facialhairstyle] = S
 
 	return facial_hair_style_by_gender
+
+/datum/species/proc/get_gradient_styles()
+	var/list/L = LAZYACCESS(gradient_styles, type)
+	if(!L)
+		L = list()
+		LAZYSET(gradient_styles, type, L)
+		for(var/gradstyle in GLOB.hair_gradients_list)
+			var/datum/sprite_accessory/S = GLOB.hair_gradients_list[gradstyle]
+			if(S.species_allowed && !(get_bodytype() in S.species_allowed))
+				continue
+			if(S.subspecies_allowed && !(name in S.subspecies_allowed))
+				continue
+			ADD_SORTED(L, gradstyle, /proc/cmp_text_asc)
+			L[gradstyle] = S
+	return L
 
 /datum/species/proc/get_description(var/header, var/append, var/verbose = TRUE, var/skip_detail, var/skip_photo)
 	var/list/damage_types = list(

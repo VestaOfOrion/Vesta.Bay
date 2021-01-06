@@ -28,6 +28,7 @@ var/list/obj/item/device/uplink/world_uplinks = list()
 //Hairstyles
 GLOBAL_LIST_EMPTY(hair_styles_list)        //stores /datum/sprite_accessory/hair indexed by name
 GLOBAL_LIST_EMPTY(facial_hair_styles_list) //stores /datum/sprite_accessory/facial_hair indexed by name
+GLOBAL_LIST_EMPTY(hair_gradients_list)	   //stores /datum/sprite_accessory/hair_gradient indexed by name. VESTA.BAY
 
 var/global/list/skin_styles_female_list = list()		//unused
 GLOBAL_LIST_EMPTY(body_marking_styles_list)		//stores /datum/sprite_accessory/marking indexed by name
@@ -116,6 +117,15 @@ var/global/list/string_slot_flags = list(
 			continue
 		M = new path()
 		GLOB.body_marking_styles_list[M.name] = M
+
+	//Hair gradients - Initialize all /datum/sprite_accessory/hair_gradients into an list indexed by hairgradient-style name
+	paths = typesof(/datum/sprite_accessory/hair_gradients) - /datum/sprite_accessory/hair_gradients
+	for(var/path in paths)
+		var/datum/sprite_accessory/hair_gradients/H = path
+		if (!initial(H.name))
+			continue
+		H = new path()
+		GLOB.hair_gradients_list[H.name] = H
 
 	//Languages and species.
 	paths = typesof(/datum/language)-/datum/language

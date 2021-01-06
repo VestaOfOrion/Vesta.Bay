@@ -120,7 +120,7 @@
 	gender = FEMALE
 	flags = HAIR_TIEABLE
 	species_allowed = list(SPECIES_HUMAN)
-	
+
 /datum/sprite_accessory/hair/ponytail9
 	name = "Ponytail, Wisp"
 	icon_state = "hair_ponytail_wisp"
@@ -931,3 +931,46 @@
 	name = "Mullet-Hawk"
 	icon_state = "hair_mullethawk"
 	gender = MALE
+
+/*
+/////////////////////////////////////
+/  =-----------------------------=  /
+/  == Hair Gradient Definitions ==  /
+/  =-----------------------------=  /
+/////////////////////////////////////
+*/
+
+/datum/sprite_accessory/hair_gradients
+	icon = 'icons/mob/hair_gradients.dmi'
+
+/datum/sprite_accessory/hair_gradients/none
+	name = "None"
+	icon_state = "none"
+
+/datum/sprite_accessory/hair_gradients/fade_up
+	name = "Fade (Up)"
+	icon_state = "fadeup"
+
+/datum/sprite_accessory/hair_gradients/fade_down
+	name = "Fade (Down)"
+	icon_state = "fadedown"
+
+/datum/sprite_accessory/hair_gradients/fade_right
+	name = "Fade (Right)"
+	icon_state = "faderight"
+
+/datum/sprite_accessory/hair_gradients/fade_left
+	name = "Fade (Left)"
+	icon_state = "fadeleft"
+
+/datum/sprite_accessory/hair_gradients/vertical_split_right
+	name = "Vertical Split (Right)"
+	icon_state = "vsplit_right"
+
+/datum/sprite_accessory/hair_gradients/vertical_split_left
+	name = "Vertical Split (Left)"
+	icon_state = "vsplit_left"
+
+/datum/sprite_accessory/hair_gradients/horizontal
+	name = "Horizontal Split"
+	icon_state = "hsplit"
