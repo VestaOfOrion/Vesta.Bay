@@ -142,12 +142,12 @@
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 
-/decl/hierarchy/outfit/job/torch/crew/medical/chemist
+/decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist/fleet
 	name = OUTFIT_JOB_NAME("Laboratory Technician - Fleet")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
 
-/decl/hierarchy/outfit/job/torch/crew/medical/chemist/marine
+/decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist/marine
 	name = OUTFIT_JOB_NAME("Laboratory Technician - Marine")
 	uniform = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	shoes = /obj/item/clothing/shoes/dutyboots
