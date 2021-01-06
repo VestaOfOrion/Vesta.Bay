@@ -1,3 +1,4 @@
+/* We are using the file in Modular_Boh
 // The lighting system
 //
 // consists of light fixtures (/obj/machinery/light) and light tube/bulb items (/obj/item/weapon/light)
@@ -782,3 +783,4 @@
 #undef LIGHT_STAGE_COMPLETE
 #undef LIGHT_STAGE_WIRED
 #undef LIGHT_STAGE_EMPTY
+*/
