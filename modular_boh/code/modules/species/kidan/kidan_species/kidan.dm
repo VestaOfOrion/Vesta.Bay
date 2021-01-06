@@ -34,7 +34,7 @@
 	override_organ_types = list(
 		BP_BRAIN = /obj/item/organ/internal/brain/kidan,
 		BP_EYES = /obj/item/organ/internal/eyes/kidan,
-		BP_TRACH = /obj/item/organ/internal/lungs/kidan,
+		BP_LUNGS = /obj/item/organ/internal/lungs/kidan,
 		BP_LIVER = /obj/item/organ/internal/liver/kidan,
 		BP_HEART = /obj/item/organ/internal/heart/kidan,
 		BP_KIDNEYS = /obj/item/organ/internal/kidneys/kidan
