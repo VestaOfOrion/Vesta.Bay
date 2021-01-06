@@ -332,6 +332,9 @@ var/const/INF               =(1<<11)
 		/datum/mil_rank/fleet/e7,
 		/datum/mil_rank/fleet/w1,
 		/datum/mil_rank/fleet/w2,
+		/datum/mil_rank/fleet/o1,
+		/datum/mil_rank/fleet/o2,
+		/datum/mil_rank/fleet/o3,
 		/datum/mil_rank/civ/contractor
 		)
 	min_skill = list(   SKILL_COMPUTER		= SKILL_ADEPT,
