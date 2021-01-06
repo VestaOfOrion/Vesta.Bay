@@ -66,12 +66,14 @@
 	desc = ""
 	icon_state = "m_ipc_antenna_synth_curled_ADJ"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/curly_bug
 	name = "curly antennae, colorable"
 	desc = ""
 	icon_state = "curly_bug"
 	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/kidan_perky
 	name = "Kidan Perky Antennae"
