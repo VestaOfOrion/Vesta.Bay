@@ -17,6 +17,25 @@
 
 	sexybits_location = BP_GROIN
 
+	has_limbs = list(
+		BP_CHEST =  list("path" = /obj/item/organ/external/chest/kidan),
+		BP_GROIN =  list("path" = /obj/item/organ/external/groin/kidan),
+		BP_HEAD =   list("path" = /obj/item/organ/external/head/kidan),
+		BP_L_ARM =  list("path" = /obj/item/organ/external/arm/kidan),
+		BP_L_HAND = list("path" = /obj/item/organ/external/hand/kidan),
+		BP_R_ARM =  list("path" = /obj/item/organ/external/arm/right/kidan),
+		BP_R_HAND = list("path" = /obj/item/organ/external/hand/right/kidan),
+		BP_R_LEG =  list("path" = /obj/item/organ/external/leg/right/kidan),
+		BP_L_LEG =  list("path" = /obj/item/organ/external/leg/kidan),
+		BP_L_FOOT = list("path" = /obj/item/organ/external/foot/kidan),
+		BP_R_FOOT = list("path" = /obj/item/organ/external/foot/right/kidan)
+		)
+
 	override_organ_types = list(
-		BP_EYES = /obj/item/organ/internal/eyes/kidan
+		BP_BRAIN = /obj/item/organ/internal/brain/kidan,
+		BP_EYES = /obj/item/organ/internal/eyes/kidan,
+		BP_TRACH = /obj/item/organ/internal/lungs/kidan,
+		BP_LIVER = /obj/item/organ/internal/liver/kidan,
+		BP_HEART = /obj/item/organ/internal/heart/kidan,
+		BP_KIDNEYS = /obj/item/organ/internal/kidneys/kidan
 	)

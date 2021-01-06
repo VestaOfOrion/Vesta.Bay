@@ -200,6 +200,12 @@
 // Vox bits.
 #define BP_HINDTONGUE "hindtongue"
 
+/* Kidan Stuff
+
+#define BP_LANTERN "lantern"
+
+*/
+
 // Robo Organs.
 #define BP_POSIBRAIN         "posibrain"
 #define BP_VOICE             "vocal synthesiser"
