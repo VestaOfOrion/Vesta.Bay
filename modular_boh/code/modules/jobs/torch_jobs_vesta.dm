@@ -136,10 +136,12 @@
 		/datum/mil_rank/fleet/e4,
 		/datum/mil_rank/fleet/e5,
 		/datum/mil_rank/fleet/e6,
+		/datum/mil_rank/fleet/w1,
 		/datum/mil_rank/marine_corps/e3,
 		/datum/mil_rank/marine_corps/e4,
 		/datum/mil_rank/marine_corps/e5,
 		/datum/mil_rank/marine_corps/e6,
+		/datum/mil_rank/marine_corps/w1,
 		/datum/mil_rank/civ/contractor
 	)
 
@@ -477,12 +479,14 @@
 		/datum/mil_rank/fleet/w1,
 		/datum/mil_rank/fleet/w2,
 		/datum/mil_rank/fleet/w3,
+		/datum/mil_rank/fleet/w4,
 		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3,
 		/datum/mil_rank/fleet/o4,
 		/datum/mil_rank/marine_corps/w1,
 		/datum/mil_rank/marine_corps/w2,
 		/datum/mil_rank/marine_corps/w3,
+		/datum/mil_rank/marine_corps/w4,
 		/datum/mil_rank/marine_corps/o2,
 		/datum/mil_rank/marine_corps/o3,
 		/datum/mil_rank/marine_corps/o4
