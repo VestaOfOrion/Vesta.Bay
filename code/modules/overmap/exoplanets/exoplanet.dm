@@ -3,6 +3,8 @@
 	icon_state = "globe"
 	in_space = 0
 	known = 1
+	free_landing = TRUE
+
 	var/area/planetary_area
 	var/list/seeds = list()
 	var/list/animals = list()

@@ -5,7 +5,8 @@
 										/datum/job/mining),
 		/datum/species/nabber = list(/datum/job/ai, /datum/job/cyborg, /datum/job/janitor, /datum/job/scientist_assistant, /datum/job/chemist,
 									 /datum/job/roboticist, /datum/job/cargo_tech, /datum/job/chef, /datum/job/engineer, /datum/job/doctor, /datum/job/bartender),
-		/datum/species/vox = list(/datum/job/ai, /datum/job/cyborg),
+		/datum/species/vox = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant),
+		/datum/species/vox/armalis = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant),
 		/datum/species/human/mule = list(/datum/job/ai, /datum/job/cyborg, /datum/job/merchant)
 	)
 
@@ -27,7 +28,7 @@
 #undef HUMAN_ONLY_JOBS
 
 	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
-						/datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/psiadvisor, /datum/job/sea, /datum/job/sea/marine,
+						/datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/sfpagent, /datum/job/psiadvisor, /datum/job/sea, /datum/job/sea/marine,
 						/datum/job/bridgeofficer, /datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/explorer,
 						/datum/job/squad_lead, /datum/job/combat_tech, /datum/job/grunt,
 						/datum/job/senior_engineer, /datum/job/engineer, /datum/job/engineer_trainee,

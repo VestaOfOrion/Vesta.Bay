@@ -15,6 +15,8 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp, /datum/unarmed_attack/claws)
 
+	min_age = 18
+
 	description = "The Tajaran are a mammalian species resembling roughly felines, hailing from Meralar in the Rarkajar system. \
 	While reaching to the stars independently from outside influences, the humans engaged them in peaceful trade contact \
 	and have accelerated the fledgling culture into the interstellar age. Their history is full of war and highly fractious \

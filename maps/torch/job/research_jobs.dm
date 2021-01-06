@@ -88,7 +88,7 @@
 	)
 
 	minimal_access = list()
-	skill_points = 24
+	skill_points = 22
 
 /datum/job/scientist_assistant
 	title = "Research Assistant"

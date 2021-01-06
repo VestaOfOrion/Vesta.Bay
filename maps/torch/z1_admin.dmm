@@ -8339,6 +8339,7 @@
 /obj/structure/table/woodentable,
 /obj/random/single/lighter,
 /obj/random/toy,
+/obj/random/cash,
 /turf/simulated/floor/carpet/blue,
 /area/merchant_station)
 "aNa" = (
@@ -8685,6 +8686,7 @@
 	req_access = list("ACCESS_MERCHANT")
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/loot,
 /turf/simulated/floor/tiled/dark,
 /area/merchant_station)
 "aOd" = (
@@ -8697,11 +8699,17 @@
 "aOe" = (
 /obj/structure/closet/crate/freezer,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/contraband,
 /turf/simulated/floor/tiled/dark,
 /area/merchant_station)
 "aOf" = (
 /obj/structure/closet/crate,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/contraband,
 /turf/simulated/floor/tiled/dark,
 /area/merchant_station)
 "aOg" = (
@@ -8716,6 +8724,13 @@
 /obj/structure/largecrate,
 /obj/random/loot,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/random/contraband,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
 /turf/simulated/floor/tiled/dark,
 /area/merchant_station)
 "aOr" = (
@@ -8900,6 +8915,16 @@
 /area/merchant_station)
 "aON" = (
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/largecrate,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
 /turf/simulated/floor/tiled/dark,
 /area/merchant_station)
 "aOY" = (
@@ -9544,6 +9569,7 @@
 "aRt" = (
 /obj/structure/table/rack,
 /obj/random/loot,
+/obj/random/contraband,
 /turf/simulated/floor/tiled,
 /area/merchant_station)
 "aRu" = (
@@ -9554,6 +9580,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/random/loot,
 /obj/random/loot,
+/obj/random/contraband,
 /turf/simulated/floor/tiled,
 /area/merchant_station)
 "aRv" = (
@@ -9651,6 +9678,9 @@
 	},
 /obj/item/weapon/pen,
 /obj/random/clipboard,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
 /turf/simulated/floor/tiled,
 /area/merchant_station)
 "aRU" = (
@@ -10646,6 +10676,7 @@
 "aVl" = (
 /obj/structure/table/steel,
 /obj/item/weapon/storage/toolbox/mechanical,
+/obj/random/contraband,
 /turf/simulated/floor/tiled,
 /area/merchant_station)
 "aVm" = (
@@ -10738,6 +10769,7 @@
 	dir = 4;
 	pixel_y = 8
 	},
+/obj/random/contraband,
 /turf/simulated/floor/plating,
 /area/merchant_station)
 "aVF" = (
@@ -10851,6 +10883,15 @@
 "aVP" = (
 /obj/structure/closet/crate,
 /obj/effect/decal/cleanable/dirt,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
 /turf/simulated/floor/tiled,
 /area/merchant_station)
 "aVQ" = (
@@ -10959,6 +11000,14 @@
 /area/merchant_station)
 "aWo" = (
 /obj/structure/closet/crate,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
 /turf/simulated/floor/plating,
 /area/merchant_station)
 "aWp" = (
@@ -11624,6 +11673,15 @@
 	},
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_cafe)
+"cUH" = (
+/obj/effect/step_trigger/thrower{
+	affect_ghosts = 1;
+	direction = 2;
+	name = "thrower_throwdown";
+	tiles = 0
+	},
+/turf/space,
+/area/space)
 "djm" = (
 /obj/item/weapon/beach_ball/holovolleyball,
 /turf/simulated/floor/holofloor/beach/sand,
@@ -12040,6 +12098,13 @@
 	icon_state = "dark"
 	},
 /area/syndicate_elite_squad)
+"mJS" = (
+/obj/structure/closet/crate,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/loot,
+/obj/random/loot,
+/turf/simulated/floor/tiled/dark,
+/area/merchant_station)
 "mRm" = (
 /turf/simulated/floor/holofloor/beach/sand{
 	icon_state = "desert1"
@@ -12178,6 +12243,12 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/merchant_station)
+"pFO" = (
+/obj/structure/table/rack,
+/obj/random/hardsuit,
+/obj/random/hardsuit,
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "pTy" = (
 /turf/simulated/shuttle/wall{
 	icon_state = "wall3"
@@ -12282,6 +12353,20 @@
 	icon_state = "desert2"
 	},
 /area/holodeck/source_temple)
+"rPO" = (
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/largecrate,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/contraband,
+/turf/simulated/floor/tiled/dark,
+/area/merchant_station)
 "skD" = (
 /obj/effect/floor_decal/beach{
 	dir = 8;
@@ -12567,7 +12652,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -12769,7 +12854,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -12971,7 +13056,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -13173,7 +13258,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -13375,7 +13460,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -13577,7 +13662,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -13779,7 +13864,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -13981,7 +14066,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -14183,7 +14268,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -14385,7 +14470,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -14587,7 +14672,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -14789,7 +14874,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -14991,7 +15076,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -15193,7 +15278,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -15395,7 +15480,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -15597,7 +15682,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -15799,7 +15884,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -16001,7 +16086,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -16203,7 +16288,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -16405,7 +16490,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -16607,7 +16692,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -16809,7 +16894,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -17011,7 +17096,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aab
 aab
 aab
@@ -17180,6 +17265,13 @@ aab
 aab
 aab
 aab
+cUH
+ala
+ala
+ala
+aLW
+aLW
+aLW
 aab
 aab
 aab
@@ -17206,14 +17298,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+cUH
 aab
 aab
 aab
@@ -17382,6 +17467,13 @@ aab
 aab
 aab
 aab
+cUH
+ala
+ala
+aLW
+aLW
+aLW
+aLW
 aab
 aab
 aab
@@ -17408,14 +17500,7 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+cUH
 aab
 aab
 aab
@@ -17584,13 +17669,13 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+cUH
+ala
+aLW
+aLW
+aLW
+aLW
+aLW
 aLW
 aLW
 aab
@@ -17786,11 +17871,11 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
-aab
-aab
+cUH
+ala
+aLW
+aLW
+aLW
 aLW
 aLW
 aLW
@@ -17988,9 +18073,9 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+cUH
+aLW
+aLW
 aLW
 aLW
 aLW
@@ -18190,9 +18275,9 @@ aab
 aab
 aab
 aab
-aab
-aab
-aab
+cUH
+aLW
+aLW
 aLW
 aLW
 aLW
@@ -18392,7 +18477,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -18594,7 +18679,7 @@ aca
 aca
 adJ
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -18796,7 +18881,7 @@ ajm
 ajA
 ajK
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -18998,7 +19083,7 @@ adl
 ajB
 ajL
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -19200,7 +19285,7 @@ adX
 ajC
 ajL
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -19402,7 +19487,7 @@ adl
 ajD
 ajL
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -19604,7 +19689,7 @@ ajn
 ajE
 ajM
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -19806,7 +19891,7 @@ aca
 aca
 adM
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -20008,7 +20093,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -20210,7 +20295,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -20412,7 +20497,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -20614,7 +20699,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -20816,7 +20901,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -21018,7 +21103,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aMf
 aMf
@@ -21220,7 +21305,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aMf
 aMs
@@ -21422,7 +21507,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aMf
 aMt
@@ -21624,7 +21709,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aMf
 aMu
@@ -21826,7 +21911,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aMf
 aMf
@@ -22028,7 +22113,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMf
@@ -22230,7 +22315,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMf
@@ -22432,7 +22517,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMf
@@ -22634,7 +22719,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMf
@@ -22836,7 +22921,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -23038,7 +23123,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -23240,7 +23325,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -23442,7 +23527,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMg
@@ -23644,7 +23729,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMg
@@ -23846,7 +23931,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMg
@@ -24048,7 +24133,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aMg
 aMg
@@ -24250,7 +24335,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aMh
 aMg
@@ -24452,7 +24537,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aMh
@@ -24654,7 +24739,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -24662,7 +24747,7 @@ aLW
 aLW
 aNC
 aOf
-aOf
+mJS
 aPq
 aQp
 aNC
@@ -24856,7 +24941,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -24879,7 +24964,7 @@ aUd
 aPc
 aPc
 aUY
-aVv
+pFO
 aVR
 aWo
 aMf
@@ -25058,7 +25143,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -25067,7 +25152,7 @@ aLW
 aNC
 aOh
 aON
-aON
+rPO
 aNC
 aNC
 aPc
@@ -25260,7 +25345,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -25462,7 +25547,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -25664,7 +25749,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLW
 aLW
 aLW
@@ -25866,7 +25951,7 @@ aab
 aab
 aab
 aab
-aab
+cUH
 aLG
 aLG
 aLG

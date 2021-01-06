@@ -60,8 +60,8 @@
 	                    SKILL_COMBAT      = SKILL_BASIC,
 	                    SKILL_WEAPONS     = SKILL_BASIC,
 	                    SKILL_FORENSICS   = SKILL_BASIC)
-	max_skill = list(   SKILL_COMBAT      = SKILL_EXPERT,
-	                    SKILL_WEAPONS     = SKILL_EXPERT,
+	max_skill = list(   SKILL_COMBAT      = SKILL_PROF,
+	                    SKILL_WEAPONS     = SKILL_PROF,
 	                    SKILL_FORENSICS   = SKILL_EXPERT)
 	alt_titles = list(
 		"Union Enforcer",

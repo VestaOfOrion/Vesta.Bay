@@ -1,3 +1,5 @@
+/* We are using the skrell_rigs file inside Modular_Boh
+
 // Rigs and gear themselves.
 
 //Define Rig Clothing
@@ -245,3 +247,4 @@
 /obj/item/weapon/cell/skrell/Process()
 	if(charge < maxcharge)
 		give(recharge_amount)
+*/

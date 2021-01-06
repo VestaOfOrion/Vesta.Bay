@@ -894,12 +894,12 @@
 /obj/structure/closet/hydrant{
 	pixel_x = -27
 	},
+/obj/effect/submap_landmark/spawnpoint/crashed_pod_survivor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/crashed_pod)
 "gD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /obj/effect/decal/cleanable/filth,
-/obj/item/device/binoculars,
 /obj/machinery/alarm{
 	dir = 4;
 	locked = 0;
@@ -907,6 +907,7 @@
 	pixel_y = 0;
 	req_access = list()
 	},
+/obj/effect/submap_landmark/spawnpoint/crashed_pod_survivor,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/crashed_pod)
 "gE" = (
@@ -1041,6 +1042,7 @@
 /obj/structure/table/steel_reinforced,
 /obj/machinery/recharger,
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/metal,
+/obj/item/device/binoculars,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/crashed_pod)
 "hm" = (
@@ -1054,10 +1056,6 @@
 "lG" = (
 /obj/effect/wallframe_spawn/reinforced/hull,
 /turf/simulated/floor/plating,
-/area/map_template/crashed_pod)
-"pO" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/tiled/dark,
 /area/map_template/crashed_pod)
 "vG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1253,7 +1251,7 @@ gw
 gG
 ay
 hm
-pO
+hi
 lG
 "}
 (10,1,1) = {"

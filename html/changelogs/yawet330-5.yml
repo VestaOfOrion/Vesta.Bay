@@ -1,7 +1,0 @@
-author: Yawet330
-
-delete-after: True
-
-changes: 
-  - tweak: "454 round buffed back up to 50 damage, ranged accuracy falloff decreased. :agony:"
-  - tweak: "454 round cost decreased on request of Purple"

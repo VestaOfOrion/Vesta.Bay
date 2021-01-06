@@ -64,7 +64,7 @@
 	name = "HUDpatch"
 	desc = "A Security-type heads-up display that connects directly to the optical nerve of the user, replacing the need for that useless eyeball."
 	hud = /obj/item/clothing/glasses/hud/security
-	eye_color = COLOR_RED
+	eye_color = COLOR_BLUE
 	req_access = list(access_security)
 
 /obj/item/clothing/glasses/eyepatch/hud/medical

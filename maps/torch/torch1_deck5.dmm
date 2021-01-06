@@ -1697,7 +1697,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "da" = (
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/fifthdeck/aft)
@@ -2592,7 +2592,16 @@
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/hangar)
 "eN" = (
-/turf/simulated/floor/tiled/monotile,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/catwalk,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance,
+/turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/fore)
 "eO" = (
 /obj/effect/floor_decal/carpet/blue2{
@@ -3803,7 +3812,7 @@
 "ic" = (
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "ie" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/hatch/maintenance,
@@ -7577,13 +7586,11 @@
 /area/quartermaster/expedition)
 "pQ" = (
 /obj/random/torchcloset,
-/obj/random/maintenance,
-/obj/random/maintenance,
 /obj/effect/floor_decal/corner/brown{
 	dir = 10
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "pR" = (
 /obj/machinery/disposal,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -7656,9 +7663,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/random/junk,
-/obj/structure/catwalk,
-/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/fore)
 "qa" = (
@@ -8834,10 +8839,10 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/fifthdeck/fore)
 "sg" = (
-/obj/effect/floor_decal/corner/brown{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/monotile,
+/obj/structure/disposalpipe/segment,
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/maintenance,
+/turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/fore)
 "sh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -8983,7 +8988,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "sv" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
@@ -8992,7 +8997,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "sw" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/effect/floor_decal/industrial/outline/grey,
@@ -9978,7 +9983,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "uL" = (
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
@@ -9992,7 +9997,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "uM" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -10011,7 +10016,7 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "uO" = (
 /obj/structure/cable/cyan{
 	d1 = 2;
@@ -10023,7 +10028,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "uP" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -10039,7 +10044,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "uQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -10057,7 +10062,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "uT" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -10666,6 +10671,7 @@
 	icon_state = "alarm0";
 	pixel_x = 24
 	},
+/obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/fore)
 "xa" = (
@@ -10679,7 +10685,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "xd" = (
 /obj/structure/bed/chair/office/comfy/red{
 	dir = 4;
@@ -10975,9 +10981,12 @@
 /area/maintenance/fifthdeck/aftport)
 "yj" = (
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/corner/brown/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "yk" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -11476,9 +11485,16 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
-/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/corner/brown/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
+/obj/effect/floor_decal/corner/brown/half{
+	dir = 4;
+	icon_state = "bordercolorhalf"
+	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "zO" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/r_n_d/destructive_analyzer,
@@ -11502,7 +11518,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "zW" = (
 /obj/structure/cable/cyan{
 	d2 = 2;
@@ -12244,7 +12260,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "CG" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 10;
@@ -12286,7 +12302,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "CR" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4;
@@ -12439,7 +12455,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "Dl" = (
 /obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_alc/full,
@@ -12585,7 +12601,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "DD" = (
 /obj/effect/floor_decal/carpet/blue2{
 	icon_state = "blue2"
@@ -12629,7 +12645,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "DG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -13077,7 +13093,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "Fd" = (
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/equipment)
@@ -13153,9 +13169,12 @@
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fifthdeck/fore)
 "Fw" = (
-/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/corner/brown/half{
+	dir = 1;
+	icon_state = "bordercolorhalf"
+	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "Fx" = (
 /obj/effect/paint/silver,
 /turf/simulated/wall/titanium,
@@ -13955,6 +13974,7 @@
 /turf/simulated/floor/plating,
 /area/vacant/bar)
 "Ib" = (
+/obj/machinery/photocopier,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/analysis)
 "Ic" = (
@@ -14777,7 +14797,7 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "La" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -16646,7 +16666,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "Rn" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/reinforced/airless,
@@ -18295,7 +18315,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/maintenance/fifthdeck/fore)
+/area/hallway/primary/fifthdeck/fore)
 "Xi" = (
 /turf/simulated/floor/reinforced/airless,
 /area/space)
@@ -31029,7 +31049,7 @@ ZP
 HF
 WK
 uK
-eN
+aF
 CF
 an
 an
@@ -32441,7 +32461,7 @@ fh
 uI
 LZ
 uI
-fh
+eN
 xa
 uS
 pQ
@@ -32644,7 +32664,7 @@ bD
 bD
 bD
 bD
-bD
+Fw
 ic
 Fv
 ct
@@ -32845,9 +32865,9 @@ Zj
 ho
 KH
 VA
-VA
+sg
 yj
-Fw
+FT
 FT
 hv
 gK
@@ -33049,7 +33069,7 @@ yc
 mh
 wZ
 zM
-sg
+Hx
 Hx
 so
 mN

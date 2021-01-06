@@ -10,7 +10,7 @@ The following conduct may result in a warning being logged against your account:
 * Inappropriate content.
 	* ERP verbs/Fetish content falls under this. These features will not be considered.
 * Comments on pull requests not addressing technical or code-related issues.
-	* Comments expressing dissatisfaction with a pull request’s features should be communicated/debated on Discord. The GitHub PR page is for discussing technical aspects of the PR. Balance changes should be kept to the #dev-public-discussion and #dev-discussion channels rather than GitHub.
+	* Comments expressing dissatisfaction with a pull request’s features should be communicated/debated on Discord. The GitHub PR page is for discussing technical aspects of the PR. Balance change discussion should be kept to the #dev-public-discussion and #dev-discussion channels rather than GitHub.
 	* The same rule applies to sprite, sound, or map contributions, though the rule will be applied more leniently here.
 	* The following are exempt from this rule: 
 		* The PR's author(s).
@@ -34,7 +34,7 @@ The following conduct is unacceptable and will result in up to three strikes, de
 
 
 ## Warnings and Punishments
-Accumulating three warnings will result in a repository ban. The Developer issuing the ban may optionally ban the violating contributor from development channels in Discord for the duration of their repository ban.
+Accumulating three warnings will result in a repository ban. The Maintainer issuing the ban may optionally ban the violating contributor from development channels in Discord for the duration of their repository ban.
 Warnings expire in six months from the date of warning.
 **Severe violations of this code of conduct may result in community or game server bans.** (Case-by-case basis).
 
