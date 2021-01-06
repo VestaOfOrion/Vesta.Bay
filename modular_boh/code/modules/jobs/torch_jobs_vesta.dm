@@ -9,8 +9,7 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o5,
-		/datum/mil_rank/fleet/o6,
-		/datum/mil_rank/fleet/o7
+		/datum/mil_rank/fleet/o6
 	)
 
 /datum/job/hop
