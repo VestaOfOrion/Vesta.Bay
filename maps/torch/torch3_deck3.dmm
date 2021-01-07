@@ -2563,6 +2563,8 @@
 	pixel_x = -24
 	},
 /obj/structure/closet/secure_closet/bar_torch,
+/obj/item/weapon/gun/projectile/shotgun/doublebarrel/beanbag,
+/obj/item/weapon/storage/box/ammo/beanbags,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/bar)
 "fv" = (
@@ -4519,6 +4521,16 @@
 /obj/structure/hygiene/sink/kitchen{
 	pixel_x = -32
 	},
+/obj/item/device/destTagger{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/obj/item/stack/package_wrap/twenty_five,
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/item/stack/material/cardboard/ten,
+/obj/item/weapon/hand_labeler,
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/galley)
 "iY" = (
