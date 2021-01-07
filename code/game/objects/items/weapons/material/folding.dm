@@ -1,4 +1,3 @@
-
 // folding/locking knives
 /obj/item/weapon/material/knife/folding
 	name = "pocketknife"
@@ -52,6 +51,7 @@
 		hitsound = 'sound/weapons/bladeslice.ogg'
 		w_class = ITEM_SIZE_NORMAL
 		attack_verb = list("slashed", "stabbed")
+		attack_cooldown_modifier = -1
 		..()
 	else
 		force = initial(force)
@@ -60,6 +60,7 @@
 		hitsound = initial(hitsound)
 		w_class = initial(w_class)
 		attack_verb = closed_attack_verbs
+		attack_cooldown_modifier = initial(attack_cooldown_modifier)
 
 /obj/item/weapon/material/knife/folding/on_update_icon()
 	if(open)
@@ -96,7 +97,6 @@
 	max_force = 15
 	force_divisor = 0.25
 	thrown_force_divisor = 0.25
-	attack_cooldown_modifier = -1
 	takes_colour = FALSE
 	worth_multiplier = 8
 

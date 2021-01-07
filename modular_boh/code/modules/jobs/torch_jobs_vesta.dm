@@ -28,7 +28,8 @@
 		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/research/fleet/cso
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/o4
+		/datum/mil_rank/fleet/o4,
+		/datum/mil_rank/fleet/o5
 	)
 
 /datum/job/cmo
@@ -38,7 +39,9 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o4,
-		/datum/mil_rank/marine_corps/o4
+		/datum/mil_rank/fleet/o5,
+		/datum/mil_rank/marine_corps/o4,
+		/datum/mil_rank/marine_corps/o5
 	)
 
 /datum/job/chief_engineer
@@ -182,10 +185,10 @@
 		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/medical/senior/marine
 	)
 	allowed_ranks = list(
-		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3,
-		/datum/mil_rank/marine_corps/o2,
+		/datum/mil_rank/fleet/o4,
 		/datum/mil_rank/marine_corps/o3,
+		/datum/mil_rank/marine_corps/o4,
 		/datum/mil_rank/civ/contractor
 	)
 
@@ -197,7 +200,9 @@
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/fleet/o1,
+		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/marine_corps/o1,
+		/datum/mil_rank/marine_corps/o2,
 		/datum/mil_rank/civ/contractor
 	)
 
@@ -248,8 +253,8 @@
 /datum/job/chemist
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
-		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/medical/chemist,
-		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/medical/chemist/marine
+		/datum/mil_branch/fleet = /decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist/fleet,
+		/datum/mil_branch/marine_corps = /decl/hierarchy/outfit/job/torch/crew/medical/contractor/chemist/marine
 	)
 	allowed_ranks = list(
 		/datum/mil_rank/civ/contractor,
@@ -283,6 +288,7 @@
 		/datum/mil_rank/fleet/o1,
 		/datum/mil_rank/fleet/o2,
 		/datum/mil_rank/fleet/o3,
+		/datum/mil_rank/fleet/o4,
 		/datum/mil_rank/civ/contractor = /decl/hierarchy/outfit/job/torch/passenger/research/scientist,
 		/datum/mil_rank/sol/scientist = /decl/hierarchy/outfit/job/torch/passenger/research/scientist/solgov
 	)

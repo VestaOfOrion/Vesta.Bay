@@ -556,6 +556,7 @@
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/green,
 /obj/effect/decal/cleanable/cobweb2,
+/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/crew/dorms1)
 "bi" = (
@@ -1140,6 +1141,7 @@
 	icon_state = "corner_white"
 	},
 /obj/item/weapon/bedsheet/ce,
+/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/crew/dorms2)
 "cl" = (
@@ -1633,6 +1635,7 @@
 /obj/structure/sign/poster{
 	pixel_y = 32
 	},
+/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/crew/dorms3)
 "dk" = (
@@ -1875,6 +1878,7 @@
 /obj/structure/curtain/open/bed,
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/brown,
+/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/crew/dorms3)
 "dH" = (
@@ -2112,7 +2116,6 @@
 /area/ship/scrap/maintenance/techstorage)
 "ec" = (
 /obj/item/weapon/stock_parts/circuitboard/helm,
-/obj/item/weapon/stock_parts/circuitboard/unary_atmos/cooler,
 /obj/structure/table/rack,
 /obj/effect/floor_decal/corner/yellow{
 	dir = 5;
@@ -2123,16 +2126,17 @@
 	req_access = newlist()
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/item/weapon/stock_parts/circuitboard/autolathe,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/maintenance/techstorage)
 "ed" = (
-/obj/item/weapon/stock_parts/circuitboard/autolathe,
-/obj/item/weapon/stock_parts/circuitboard/unary_atmos/heater,
-/obj/structure/table/rack,
 /obj/effect/floor_decal/corner/yellow{
 	dir = 5;
 	icon_state = "corner_white"
 	},
+/obj/structure/table/rack,
+/obj/item/weapon/stock_parts/circuitboard/unary_atmos/cooler,
+/obj/item/weapon/stock_parts/circuitboard/unary_atmos/heater,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/maintenance/techstorage)
 "ee" = (
@@ -2221,13 +2225,11 @@
 /obj/machinery/power/apc/derelict{
 	dir = 1
 	},
-/obj/structure/table/rack,
-/obj/item/weapon/tank/jetpack/oxygen,
-/obj/item/weapon/tank/jetpack/oxygen,
 /obj/structure/cable/green{
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/machinery/suit_storage_unit/engineering/salvage/bearcat,
 /turf/simulated/floor,
 /area/ship/scrap/maintenance/eva)
 "el" = (
@@ -2622,6 +2624,7 @@
 	dir = 8;
 	level = 2
 	},
+/obj/machinery/suit_storage_unit/engineering/salvage/bearcat,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/maintenance/eva)
 "eQ" = (
@@ -2673,6 +2676,9 @@
 /obj/item/device/radio/intercom/map_preset/bearcat{
 	pixel_y = -32
 	},
+/obj/item/weapon/tank/jetpack/oxygen,
+/obj/item/weapon/tank/jetpack/oxygen,
+/obj/item/weapon/tank/jetpack/oxygen,
 /turf/simulated/floor,
 /area/ship/scrap/maintenance/storage)
 "eU" = (
@@ -2719,6 +2725,7 @@
 	icon_state = "corner_white"
 	},
 /obj/item/weapon/bedsheet/red,
+/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/crew/dorms2)
 "gb" = (
@@ -2795,6 +2802,7 @@
 /obj/structure/curtain/open/bed,
 /obj/structure/bed/padded,
 /obj/item/weapon/bedsheet/brown,
+/obj/effect/submap_landmark/spawnpoint/crewman,
 /turf/simulated/floor/tiled/dark,
 /area/ship/scrap/crew/dorms1)
 "vY" = (

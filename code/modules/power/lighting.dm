@@ -1,3 +1,4 @@
+/* We are using the file in Modular_Boh
 // The lighting system
 //
 // consists of light fixtures (/obj/machinery/light) and light tube/bulb items (/obj/item/weapon/light)
@@ -82,7 +83,7 @@
 				playsound(loc, 'sound/items/Deconstruct.ogg', 75, TRUE)
 				qdel(src)
 				return
-			
+
 			if (LIGHT_STAGE_WIRED)
 				to_chat(user, SPAN_WARNING("You have to remove the wires first."))
 				return
@@ -601,7 +602,7 @@
 	var/sound_on
 	var/random_tone = TRUE
 	var/list/random_tone_options = list(
-		"#fefee0",
+		"#fffee0",
 		"#e0fefe",
 		"#fefefe",
 	)
@@ -782,3 +783,4 @@
 #undef LIGHT_STAGE_COMPLETE
 #undef LIGHT_STAGE_WIRED
 #undef LIGHT_STAGE_EMPTY
+*/

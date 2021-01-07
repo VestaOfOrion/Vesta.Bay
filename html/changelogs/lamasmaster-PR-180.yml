@@ -1,7 +1,0 @@
-author: lamasmaster
-
-delete-after: True
-
-changes: 
-  - tweak: "Removes regular Jackboots and replaces them with Knee and Thigh variants."
-  - tweak: "Buffs all boots up to same level as tactical (SMC) boots."

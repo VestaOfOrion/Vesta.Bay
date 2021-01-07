@@ -77,7 +77,8 @@
 		/obj/item/weapon/storage/belt/holster/general,
 		/obj/item/device/flashlight/maglight,
 		/obj/item/device/radio,
-		/obj/item/weapon/crowbar/prybar
+		/obj/item/weapon/crowbar/prybar,
+		/obj/item/armorbox/corporate
 	)
 
 /obj/structure/closet/secure_closet/representative

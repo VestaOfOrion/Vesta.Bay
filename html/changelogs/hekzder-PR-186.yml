@@ -1,5 +1,0 @@
-author: Hekzder
-delete-after: True
-changes: 
-  - rscadd: "Adds E-6 to Engineer to fix a rank gap present in Engineering."
-  - tweak: "Changes the SMC SEA hud icon from sharing the same as NTEF SEA to using a green version instead."

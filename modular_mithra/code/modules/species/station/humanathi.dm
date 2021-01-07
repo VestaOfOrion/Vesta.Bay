@@ -36,7 +36,7 @@
 	thirst_factor = DEFAULT_THIRST_FACTOR * 2 //Thirstier than Unathi
 	taste_sensitivity = TASTE_SENSITIVE
 
-	min_age = 18
+	min_age = 25
 	max_age = 260
 
 	body_temperature = null // cold-blooded, implemented the same way nabbers do it
