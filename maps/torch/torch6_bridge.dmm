@@ -4070,7 +4070,7 @@
 	},
 /obj/effect/floor_decal/corner/red/full,
 /obj/item/weapon/tank/emergency/oxygen/double,
-/obj/item/weapon/rig/hazard/equipped,
+/obj/item/weapon/rig/hazard/equipped/chief,
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "hU" = (

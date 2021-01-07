@@ -2483,6 +2483,9 @@
 	color = "#22425c"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/locker)
 "aey" = (
@@ -11592,18 +11595,11 @@
 /turf/simulated/floor/airless,
 /area/thruster/d1port)
 "aOE" = (
-/obj/machinery/alarm{
-	pixel_y = 24
-	},
-/obj/machinery/camera/network/security{
-	c_tag = "Security Armory - Tactical Armory"
-	},
-/obj/effect/floor_decal/corner/red{
-	color = "#22425c";
-	dir = 5
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/armoury)
+/area/security/bo)
 "aOF" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -11633,6 +11629,10 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/firealarm{
+	dir = 2;
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "aOI" = (
@@ -12576,6 +12576,9 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/foreport)
@@ -14627,18 +14630,15 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/medical/foyer/storeroom)
 "bdW" = (
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+006
-	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/table/rack,
+/obj/item/weapon/storage/box/ammo/beanbags/full,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/item/weapon/storage/box/flashbangs,
-/obj/item/weapon/storage/box/teargas,
-/obj/item/weapon/storage/box/smokes,
-/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "bhb" = (
@@ -14665,10 +14665,7 @@
 /area/medical/foyer)
 "bhL" = (
 /obj/effect/floor_decal/corner/red/diagonal,
-/obj/machinery/light/small{
-	dir = 4;
-	icon_state = "bulb1"
-	},
+/obj/machinery/light/small,
 /turf/simulated/floor/tiled/freezer,
 /area/security/brig)
 "bii" = (
@@ -14683,6 +14680,7 @@
 	color = "#22425c";
 	dir = 9
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
 "biu" = (
@@ -15133,10 +15131,6 @@
 	health = 1e+006
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/door/window/brigdoor/westright{
-	dir = 4;
-	name = "Hornet Case"
-	},
 /obj/structure/window/reinforced{
 	health = 1e+007
 	},
@@ -15144,8 +15138,30 @@
 	dir = 1
 	},
 /obj/structure/table/rack,
-/obj/item/weapon/gun/projectile/hornetsniper,
-/obj/item/weapon/storage/box/ammo/hornetammo,
+/obj/item/clothing/suit/armor/laserproof{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/clothing/suit/armor/laserproof{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/clothing/suit/armor/laserproof{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/clothing/suit/armor/laserproof{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/clothing/head/helmet/ablative,
+/obj/item/clothing/head/helmet/ablative,
+/obj/item/clothing/head/helmet/ablative,
+/obj/item/clothing/head/helmet/ablative,
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 4;
+	name = "Ablative Armor Case"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "bIb" = (
@@ -15162,18 +15178,16 @@
 /obj/structure/window/reinforced{
 	health = 1e+007
 	},
-/obj/machinery/door/window/brigdoor/westright{
-	dir = 4;
-	name = "Riot Shield Case"
-	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/item/weapon/shield/riot,
-/obj/item/weapon/shield/riot,
-/obj/item/weapon/shield/riot,
-/obj/item/weapon/shield/riot,
 /obj/structure/table/rack,
+/obj/item/weapon/gun/energy/ionrifle,
+/obj/item/weapon/gun/energy/ionrifle,
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 4;
+	name = "Ion Rifle case"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "bLb" = (
@@ -16861,6 +16875,7 @@
 	dir = 1
 	},
 /obj/structure/window/reinforced,
+/obj/item/weapon/gun/energy/stunrevolver/rifle,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "dMb" = (
@@ -17336,15 +17351,15 @@
 /turf/simulated/floor/tiled/dark,
 /area/medical/foyer/storeroom)
 "enM" = (
-/obj/machinery/door/airlock/highsecurity{
-	name = "Riot Armory"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/machinery/door/airlock/highsecurity{
+	name = "Tactical Armory - Riot"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
@@ -17695,25 +17710,9 @@
 /turf/simulated/floor/tiled/white,
 /area/medical/sleeper)
 "eRB" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 6;
-	icon_state = "corner_white"
-	},
-/obj/item/weapon/gun/energy/ionrifle,
-/obj/machinery/door/window/brigdoor/westright{
-	name = "Ion Rifle case"
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/structure/table/rack,
-/obj/structure/window/reinforced{
-	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/item/weapon/gun/energy/ionrifle,
+/obj/item/weapon/storage/box/smokes,
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "eRQ" = (
@@ -17843,19 +17842,28 @@
 	},
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/door/window/brigdoor/westright{
-	dir = 4;
-	name = "Laser Carbines Case"
-	},
 /obj/structure/window/reinforced{
 	health = 1e+007
 	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/item/weapon/gun/energy/laser/secure,
-/obj/item/weapon/gun/energy/laser/secure,
-/obj/item/weapon/gun/energy/laser/secure,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/suit/armor/bulletproof,
+/obj/item/clothing/head/helmet/ballistic,
+/obj/item/clothing/head/helmet/ballistic,
+/obj/item/clothing/head/helmet/ballistic,
+/obj/item/clothing/head/helmet/ballistic,
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 4;
+	name = "Ballistic Armor Case"
+	},
+/obj/machinery/camera/network/security{
+	c_tag = "Security Armory - Tactical - Lethal";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "fjM" = (
@@ -18958,10 +18966,6 @@
 /area/medical/locker)
 "haY" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot,
-/obj/item/clothing/head/helmet/riot,
 /obj/structure/window/reinforced{
 	dir = 1
 	},
@@ -18969,12 +18973,24 @@
 	dir = 8;
 	health = 1e+006
 	},
-/obj/machinery/door/window/brigdoor/westright{
-	dir = 4;
-	name = "Riot Helmet Case"
-	},
 /obj/structure/window/reinforced,
 /obj/structure/table/rack,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/suit/armor/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/item/clothing/head/helmet/riot,
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 4;
+	name = "Riot Armor Case"
+	},
+/obj/machinery/camera/network/security{
+	c_tag = "Security Armory - Tactical - Riot Control";
+	dir = 4
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "hbP" = (
@@ -19683,8 +19699,21 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/development)
 "hLf" = (
-/obj/machinery/mech_recharger,
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	health = 1e+007
+	},
+/obj/item/weapon/gun/projectile/hornetsniper,
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 4;
+	name = "Hornet Case"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "hLD" = (
@@ -19749,27 +19778,20 @@
 	health = 1e+006
 	},
 /obj/structure/table/rack,
-/obj/item/clothing/suit/armor/laserproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/suit/armor/laserproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/suit/armor/laserproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/suit/armor/laserproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/head/helmet/ablative,
-/obj/item/clothing/head/helmet/ablative,
-/obj/item/clothing/head/helmet/ablative,
-/obj/item/clothing/head/helmet/ablative,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/item/weapon/gun/energy/laser/secure,
+/obj/item/weapon/gun/energy/laser/secure,
+/obj/structure/window/reinforced{
+	health = 1e+007
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 4;
+	name = "Laser Carbines Case"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "hRe" = (
@@ -19777,27 +19799,13 @@
 /obj/structure/window/reinforced{
 	health = 1e+007
 	},
-/obj/item/clothing/suit/armor/bulletproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/suit/armor/bulletproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/suit/armor/bulletproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/suit/armor/bulletproof{
-	pixel_x = -2;
-	pixel_y = -2
-	},
-/obj/item/clothing/head/helmet/ballistic,
-/obj/item/clothing/head/helmet/ballistic,
-/obj/item/clothing/head/helmet/ballistic,
-/obj/item/clothing/head/helmet/ballistic,
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "hUb" = (
@@ -20463,22 +20471,12 @@
 /turf/simulated/floor/tiled/white,
 /area/rnd/development)
 "iLA" = (
-/obj/item/weapon/gun/energy/gun/secure,
-/obj/item/weapon/gun/energy/gun/secure,
 /obj/structure/table/rack,
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	health = 1e+007
-	},
-/obj/item/weapon/gun/energy/gun/secure,
+/obj/item/weapon/storage/box/flashbangs,
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/door/window/brigdoor/westright{
-	name = "Spare Smartguns Case"
-	},
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
@@ -21116,13 +21114,11 @@
 /area/rnd/research)
 "jwM" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+006
-	},
-/obj/structure/window/reinforced,
 /obj/structure/table/rack,
-/obj/item/weapon/storage/box/ammo/beanbags/full,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/item/weapon/storage/box/teargas,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "jxa" = (
@@ -21979,6 +21975,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/conference)
+"kqc" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/security/brig)
 "krc" = (
 /obj/machinery/keycard_auth/torch{
 	pixel_x = -24;
@@ -22325,7 +22328,7 @@
 /area/medical/staging)
 "kJu" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Security Armory"
+	name = "Security Armory - SECARM"
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -22645,17 +22648,22 @@
 /turf/simulated/floor/tiled/monotile,
 /area/assembly/chargebay)
 "lcI" = (
-/obj/machinery/camera/network/security{
-	c_tag = "Security Wing - Armory";
-	dir = 8
+/obj/item/weapon/gun/energy/gun/secure,
+/obj/item/weapon/gun/energy/gun/secure,
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 4
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 21
+/obj/structure/window/reinforced{
+	health = 1e+007
 	},
-/obj/effect/floor_decal/corner/red{
-	color = "#22425c";
-	dir = 6
+/obj/item/weapon/gun/energy/gun/secure,
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/door/window/brigdoor/westright{
+	name = "Spare Smartguns Case"
+	},
+/obj/structure/window/reinforced{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
@@ -22954,21 +22962,21 @@
 	dir = 8;
 	health = 1e+006
 	},
-/obj/machinery/door/window/brigdoor/westright{
-	dir = 4;
-	name = "Riot Armor Case"
-	},
 /obj/structure/window/reinforced{
 	health = 1e+007
 	},
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/suit/armor/riot,
-/obj/item/clothing/suit/armor/riot,
 /obj/structure/table/rack,
+/obj/item/weapon/shield/riot,
+/obj/item/weapon/shield/riot,
+/obj/item/weapon/shield/riot,
+/obj/item/weapon/shield/riot,
+/obj/machinery/door/window/brigdoor/westright{
+	dir = 4;
+	name = "Riot Shield Case"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "lwb" = (
@@ -24129,12 +24137,13 @@
 	dir = 4;
 	pixel_x = 21
 	},
-/obj/effect/floor_decal/corner/red{
-	dir = 6
+/obj/machinery/computer/modular/preset/security{
+	dir = 8
 	},
-/obj/effect/floor_decal/corner/red{
-	color = "#22425c";
-	dir = 6
+/obj/effect/floor_decal/industrial/outline/grey,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
@@ -24679,10 +24688,6 @@
 	},
 /obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/b,
 /obj/item/weapon/gun/projectile/automatic/bullpup_rifle/sec/b,
-/obj/item/ammo_magazine/mil_rifle/sec,
-/obj/item/ammo_magazine/mil_rifle/sec,
-/obj/item/ammo_magazine/mil_rifle/sec,
-/obj/item/ammo_magazine/mil_rifle/sec,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "nsb" = (
@@ -25727,8 +25732,14 @@
 /turf/simulated/wall/prepainted,
 /area/assembly/robotics/laboratory)
 "oLz" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/computer/modular/preset/security,
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/obj/structure/table/rack,
+/obj/item/ammo_magazine/mil_rifle/sec,
+/obj/item/ammo_magazine/mil_rifle/sec,
+/obj/item/ammo_magazine/mil_rifle/sec,
+/obj/item/ammo_magazine/mil_rifle/sec,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "oLK" = (
@@ -26038,6 +26049,10 @@
 /obj/effect/floor_decal/corner/red{
 	color = "#22425c";
 	dir = 9
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/storage)
@@ -26426,13 +26441,12 @@
 /area/maintenance/firstdeck/aftport)
 "pxv" = (
 /obj/machinery/camera/network/security{
-	c_tag = "Security Armory - Riot Control";
-	dir = 1
+	c_tag = "Security Armory - Tactical Armory";
+	dir = 8
 	},
-/obj/effect/floor_decal/corner/red{
-	color = "#22425c";
-	dir = 10
-	},
+/obj/item/weapon/storage/box/ammo/hornetammo,
+/obj/structure/table/rack,
+/obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "pyb" = (
@@ -26480,6 +26494,24 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/brig)
+"pza" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/security/wing)
 "pzb" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/rnd/research)
@@ -30420,6 +30452,12 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/firstdeck)
+"tAm" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/security/brig)
 "tAS" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/firstdeck/foreport)
@@ -30622,6 +30660,7 @@
 	pixel_x = -3;
 	pixel_y = -3
 	},
+/obj/machinery/light/small,
 /turf/simulated/floor/tiled/dark,
 /area/security/brig)
 "tTN" = (
@@ -30797,15 +30836,9 @@
 /obj/machinery/light,
 /obj/item/stack/material/plastic/fifty,
 /obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
 /obj/structure/table/rack,
 /obj/structure/window/reinforced{
 	health = 1e+007
-	},
-/obj/structure/window/reinforced{
-	dir = 8;
-	health = 1e+006
 	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark,
@@ -32453,7 +32486,7 @@
 /area/security/processing)
 "xRu" = (
 /obj/machinery/door/airlock/highsecurity{
-	name = "Tactical Armory"
+	name = "Tactical Armory - Lethal"
 	},
 /obj/machinery/door/firedoor,
 /obj/structure/cable/green{
@@ -40036,7 +40069,7 @@ jwM
 haY
 lvB
 bKx
-xCS
+hLf
 nrH
 fhZ
 bHz
@@ -40237,9 +40270,9 @@ sKR
 cZi
 wBa
 aLv
-pxv
-xCS
-aOE
+sBg
+sBg
+sBg
 sBg
 sBg
 sBg
@@ -40440,8 +40473,8 @@ dLf
 vyq
 eRB
 iLA
-xCS
-hLf
+pxv
+sBg
 aPu
 pjh
 imt
@@ -43060,7 +43093,7 @@ pUr
 aDI
 aEL
 asA
-asA
+aOE
 aIa
 lcS
 taR
@@ -43471,7 +43504,7 @@ jUP
 wmK
 sYT
 pQO
-pQO
+pza
 lyP
 pZy
 aRr
@@ -44278,7 +44311,7 @@ fHk
 eVQ
 oVb
 aMM
-oWb
+kqc
 rGU
 aDW
 aGP
@@ -44884,7 +44917,7 @@ aJy
 aKL
 aLL
 eVQ
-eVQ
+tAm
 fsP
 aGP
 aQy
