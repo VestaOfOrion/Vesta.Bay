@@ -487,7 +487,6 @@
 	display_name = "tower caps"
 	chems = list(/datum/reagent/woodpulp = list(10,1))
 	mutants = null
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/mushroom/towercap/New()
 	..()
@@ -685,7 +684,6 @@
 	display_name = "cabbages"
 	chems = list(/datum/reagent/nutriment = list(1,7), /datum/reagent/drink/juice/cabbage = list (3, 3))
 	kitchen_tag = "cabbage"
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/cabbage/New()
 	..()
@@ -919,7 +917,6 @@
 	seed_name = "sugarcane"
 	display_name = "sugarcanes"
 	chems = list(/datum/reagent/sugar = list(4,5))
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/sugarcane/New()
 	..()
@@ -939,7 +936,6 @@
 	seed_name = "watermelon"
 	display_name = "watermelon vine"
 	chems = list(/datum/reagent/nutriment = list(1,6), /datum/reagent/drink/juice/watermelon = list(10,6))
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/watermelon/New()
 	..()
@@ -964,7 +960,6 @@
 	display_name = "pumpkin vine"
 	chems = list(/datum/reagent/nutriment = list(1,6))
 	kitchen_tag = "pumpkin"
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/pumpkin/New()
 	..()
@@ -1034,7 +1029,6 @@
 	display_name = "grass"
 	chems = list(/datum/reagent/nutriment = list(1,20))
 	kitchen_tag = "grass"
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/grass/New()
 	..()
@@ -1260,7 +1254,6 @@
 	display_name = "bamboo"
 	chems = list(/datum/reagent/bamboo = list(6,1))
 	mutants = null
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/bamboo/New()
 	..()
@@ -1283,7 +1276,6 @@
 	seed_name = "melon"
 	display_name = "melon vine"
 	chems = list(/datum/reagent/nutriment = list(1,6), /datum/reagent/drink/juice/melon = list(10,6))
-	fruit_size = ITEM_SIZE_NORMAL
 
 /datum/seed/melon/New()
 	..()
