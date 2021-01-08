@@ -10192,7 +10192,6 @@
 "wE" = (
 /obj/structure/sign/double/icarus/solgovflag/right{
 	dir = 1;
-	pixel_y = -32;
 	pixel_z = -32
 	},
 /obj/machinery/photocopier,
