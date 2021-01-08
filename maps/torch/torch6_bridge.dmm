@@ -5974,7 +5974,6 @@
 	pixel_y = 27;
 	req_access = list("ACCESS_HEAD_OF_SECURITY")
 	},
-/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -10155,6 +10154,7 @@
 	pixel_x = 0;
 	pixel_y = -24
 	},
+/obj/item/gunbox,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/sea)
 "wx" = (
@@ -11973,6 +11973,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
 	},
+/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Bv" = (
