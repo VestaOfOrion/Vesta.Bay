@@ -57,6 +57,7 @@
 
 	blood_color = "#2299fc"
 	flesh_color = "#808d11"
+	organs_icon = 'icons/mob/human_races/species/vox/organs_vox.dmi'
 
 	reagent_tag = IS_VOX
 	maneuvers = list(/decl/maneuver/leap/grab)
@@ -72,7 +73,7 @@
 		BP_LUNGS =      /obj/item/organ/internal/lungs/vox,
 		BP_LIVER =      /obj/item/organ/internal/liver/vox,
 		BP_KIDNEYS =    /obj/item/organ/internal/kidneys/vox,
-		BP_BRAIN =      /obj/item/organ/internal/brain,
+		BP_BRAIN =      /obj/item/organ/internal/brain/vox,
 		BP_EYES =       /obj/item/organ/internal/eyes/vox,
 		BP_STACK =      /obj/item/organ/internal/voxstack,
 		BP_HINDTONGUE = /obj/item/organ/internal/hindtongue
@@ -159,11 +160,11 @@
 	toxins_mod = 1.2
 	strength = STR_HIGH
 	mob_size = MOB_LARGE
-	
+
 	bump_flag = HEAVY
-	
+
 	species_flags = SPECIES_FLAG_NO_MINOR_CUT
-	
+
 	speech_sounds = list('sound/voice/shriek1.ogg')
 	speech_chance = 25
 
@@ -183,7 +184,7 @@
 		slot_back_str =   list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" = -3, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  3, "y" = 8)),
 		slot_belt_str =   list("[NORTH]" = list("x" = 0, "y" = 8), "[EAST]" = list("x" = -4, "y" = 8), "[SOUTH]" = list("x" = 0, "y" = 8), "[WEST]" = list("x" =  4, "y" = 8))
 	)
-	
+
 /datum/species/vox/armalis/attempt_grab(var/mob/living/carbon/human/grabber, var/mob/living/target)
 	if(grabber != target)
 		grabber.unEquip(grabber.l_hand)
