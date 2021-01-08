@@ -4,13 +4,17 @@
 	name = "\improper Marine Corps Patch"
 	desc = "A robust shoulder patch, carrying the symbol of the Solar Marine Corps, or SMC for short."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi')
 	icon_state = "smcpatch"
+	on_rolled = list("down" = "none")
 
 /obj/item/clothing/accessory/solgov/smc_patch/xeno
 	name = "\improper Xenoic Division of the Marine Corps patch"
 	desc = "A robust shoulder patch, carrying the symbol-mascot of Xenoic division, yellow-eyed devil dog."
 	icon = 'modular_boh/icon/obj/obj_accessories_boh.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'modular_boh/icon/mob/onmob_accessories_boh.dmi')
 	icon_state = "smcpatch13"
+	on_rolled = list("down" = "none")
 
 // Sixth Fleet Patch, as for bonus
 /obj/item/clothing/accessory/solgov/fleet_patch/sixth
