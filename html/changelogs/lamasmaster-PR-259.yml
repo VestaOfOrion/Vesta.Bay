@@ -1,0 +1,7 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - maptweak: "Annual security armory tweak now with one less carbine but one more stunrifle."
+  - bugfix: "CoS hardsuit needs their ID access again."

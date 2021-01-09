@@ -4070,7 +4070,7 @@
 	},
 /obj/effect/floor_decal/corner/red/full,
 /obj/item/weapon/tank/emergency/oxygen/double,
-/obj/item/weapon/rig/hazard/equipped,
+/obj/item/weapon/rig/hazard/equipped/chief,
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "hU" = (
@@ -10192,7 +10192,6 @@
 "wE" = (
 /obj/structure/sign/double/icarus/solgovflag/right{
 	dir = 1;
-	pixel_y = -32;
 	pixel_z = -32
 	},
 /obj/machinery/photocopier,
