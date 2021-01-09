@@ -3111,12 +3111,17 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
 "gq" = (
-/obj/machinery/door/airlock/command{
-	name = "Third Deck Teleporter"
-	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/command{
+	name = "Third Deck Teleporter"
+	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/teleporter/thirddeck)
 "gr" = (
@@ -9405,7 +9410,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/civilian{
-	name = "Pool Room"
+	name = "Training Tank"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/pool)
@@ -9450,6 +9455,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
+"tY" = (
+/obj/structure/hygiene/drain/bath,
+/obj/item/weapon/bikehorn/rubberducky,
+/turf/simulated/floor/pool,
+/area/pool)
 "tZ" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -10691,21 +10701,21 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
 "xN" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 8
-	},
 /obj/structure/cable/green{
 	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+	d2 = 8;
+	icon_state = "2-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
 "xO" = (
@@ -11572,6 +11582,10 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/hallway/primary/thirddeck/ofd)
+"Ab" = (
+/obj/item/weapon/inflatable_duck,
+/turf/simulated/floor/pool,
+/area/pool)
 "Ae" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -17515,13 +17529,13 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/teleporter/thirddeck)
 "OE" = (
@@ -21012,12 +21026,12 @@
 	name = "west bump";
 	pixel_x = -24
 	},
-/obj/structure/cable/green,
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green,
 /turf/simulated/floor/tiled/dark,
 /area/teleporter/thirddeck)
 "XI" = (
@@ -31282,7 +31296,7 @@ yH
 Vk
 Qo
 CC
-CC
+tY
 Xc
 Zj
 IT
@@ -31684,7 +31698,7 @@ Yr
 Zn
 yH
 Zj
-Ph
+Ab
 Ph
 Ph
 Ph
