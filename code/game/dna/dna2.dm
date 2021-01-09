@@ -122,7 +122,7 @@ var/global/list/datum/dna/gene/dna_genes[0]
 	var/custom_species
 	var/base_species = "Custom Human"
 	var/list/species_traits = list()
-	var/blood_color = "#f5e400"
+	var/blood_color = "#a10808"
 
 //#########################################################################################
 //###### MITHRA Adds new variables to /datum/dna ##########################################
