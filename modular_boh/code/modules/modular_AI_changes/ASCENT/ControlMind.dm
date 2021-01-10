@@ -1,13 +1,5 @@
 #define NETWORK_ASCENT "UNKNOWN_SIGNAL"
 
-/mob/living/silicon/robot/flying/ascent/Initialize() //AUTISM
-	if(!camera)
-		camera = new /obj/machinery/camera(src)
-		camera.c_tag = real_name
-		camera.replace_networks(NETWORK_ASCENT)
-		if(wires.IsIndexCut(BORG_WIRE_CAMERA))
-			camera.status = 0
-
 /datum/job/submap/ascent/control_mind
 	title = "Ascent Control Mind"
 	supervisors = "The Monarch Serpentid Queen"
