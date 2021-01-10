@@ -11,6 +11,7 @@
 /mob/living/silicon/robot/drone/attack_ai(var/mob/living/silicon/ai/user)
 
 	if(!istype(user) || controlling_ai || !config.allow_drone_spawn)
+		to_chat(user, "<span class='warning'>ERROR:UNAUTHORISED ACCESS</span>")
 		return
 
 	if(stat != 2 || client || key)

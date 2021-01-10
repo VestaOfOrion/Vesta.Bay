@@ -6,6 +6,7 @@
 /mob/living/silicon/robot/flying/ascent/attack_ai(var/mob/living/silicon/ai/user)
 
 	if(!istype(user) || controlling_ai)
+		to_chat(user, "<span class='warning'>ERROR:UNAUTHORISED ACCESS</span>")
 		return
 
 	if(stat != 2 || client || key)
