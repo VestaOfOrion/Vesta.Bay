@@ -5,4 +5,7 @@
 	eye_icon = 'icons/mob/human_races/species/unathi/eyes.dmi'
 
 /obj/item/organ/internal/brain/unathi
+	name = "reptilian brain"
+	desc = "the brain of a lizard"
+	icon_state = "brain"
 	can_use_mmi = FALSE
