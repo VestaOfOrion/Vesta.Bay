@@ -23,6 +23,7 @@
 /mob/living/silicon/robot/flying/ascent/proc/assume_control(var/mob/living/silicon/ai/user)
 	user.controlling_drone = src
 	controlling_ai = user
+	connected_ai = user
 	verbs += /mob/living/silicon/robot/flying/ascent/proc/release_ai_control_verb
 	local_transmit = FALSE
 	languages = controlling_ai.languages.Copy()
@@ -44,7 +45,7 @@
 		user.mind.transfer_to(src)
 	else
 		key = user.key
-	updatename()
+	name = "Drone of "+controlling_ai.name //Lazy
 	to_chat(src, "<span class='notice'><b>You have shunted your primary control loop into \a [initial(name)].</b> Use the <b>Release Control</b> verb to return to your core.</span>")
 
 //Alows AI to force the production of drones to control
@@ -106,6 +107,7 @@
 			controlling_ai.key = key
 		to_chat(controlling_ai, "<span class='notice'>[message]</span>")
 		controlling_ai.controlling_drone = null
+		controlling_ai.laws = /datum/ai_laws/ascent //BECAUSE BAYCODE
 		controlling_ai = null
 	//releases controlled drone access to AI radio
 	QDEL_NULL(silicon_radio)

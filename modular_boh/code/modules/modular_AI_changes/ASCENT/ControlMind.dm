@@ -1,6 +1,16 @@
+#define NETWORK_ASCENT "UNKNOWN_SIGNAL"
+
+/mob/living/silicon/robot/flying/ascent/Initialize() //AUTISM
+	if(!camera)
+		camera = new /obj/machinery/camera(src)
+		camera.c_tag = real_name
+		camera.replace_networks(NETWORK_ASCENT)
+		if(wires.IsIndexCut(BORG_WIRE_CAMERA))
+			camera.status = 0
+
 /datum/job/submap/ascent/control_mind
 	title = "Ascent Control Mind"
-	supervisors = "the Gyne"
+	supervisors = "The Monarch Serpentid Queen"
 	total_positions = 1
 	info = "You are a Machine Intelligence of an independent Ascent vessel. The Gyne you assist, and her children, have wandered into this sector full of primitive bioforms. Try to keep them alive, and assist where you can."
 	set_species_on_join = /mob/living/silicon/ai/ascent
@@ -11,6 +21,7 @@
 /mob/living/silicon/ai/ascent
 	name = "Control Mind"
 	laws =   /datum/ai_laws/ascent
+	network = list("UNKNOWN_SIGNAL")
 
 
 /mob/living/silicon/ai/ascent/proc/controlmind_rename() //Should be handled by default AI spawn buuuut....
