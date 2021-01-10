@@ -384,7 +384,7 @@ var/const/INF               =(1<<11)
 	access = list( //Same access as the SolGov Representative + Private access to their equipment locker
 		access_representative, access_representative_guard, access_bridge, access_torch_fax, access_solgov_crew,
 		access_radio_comm,
-		access_security, access_sec_doors, access_medical, access_research, access_cargo, access_engine, access_hangar, access_infantry
+		access_sec_doors, access_medical, access_research, access_cargo, access_engine, access_hangar, access_infantry
 	)
 
 	defer_roundstart_spawn = TRUE
