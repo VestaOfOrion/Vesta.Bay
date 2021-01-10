@@ -19,6 +19,12 @@
 	icon_state = "glasses_large"
 	item_state = "glasses_large"
 
+/obj/item/clothing/glasses/prescription/gglasses
+	name = "round glasses" //Temporary placeholder object dure to landmark.dm conflict.
+	desc = "Makes you look a bit like a mad scientist."
+	icon_state = "glasses_round"
+	item_state = "glasses_round"
+
 /obj/item/clothing/glasses/prescription/round
 	name = "round glasses"
 	desc = "Makes you look a bit like a mad scientist."
