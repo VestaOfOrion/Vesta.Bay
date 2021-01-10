@@ -108,6 +108,11 @@
 		to_chat(controlling_ai, "<span class='notice'>[message]</span>")
 		controlling_ai.controlling_drone = null
 		controlling_ai.laws = /datum/ai_laws/ascent //BECAUSE BAYCODE
+		controlling_ai.add_language(LANGUAGE_EAL, 0)//Same with below
+		controlling_ai.add_language(LANGUAGE_ROBOT_GLOBAL, 0)//No communicating with primitive AI. Different communication protocols.
+		controlling_ai.add_language(LANGUAGE_MANTID_NONVOCAL, 1)//Give them clicky languages
+		controlling_ai.add_language(LANGUAGE_MANTID_VOCAL, 1)
+		controlling_ai.add_language(LANGUAGE_MANTID_BROADCAST, 1)
 		controlling_ai = null
 	//releases controlled drone access to AI radio
 	QDEL_NULL(silicon_radio)
@@ -116,5 +121,5 @@
 	default_language = all_languages[LANGUAGE_DRONE_GLOBAL]
 
 	verbs -= /mob/living/silicon/robot/flying/ascent/proc/release_ai_control_verb
-	updatename()
+	name = "Inactive Drone" //because UpdateName() got deprecated somehow and no longer works.
 	death()
