@@ -115,10 +115,10 @@
 /datum/gear/eyes/sunglasses/New()
 	..()
 	var/sunglasses = list()
-	sunglasses["Sunglasses"] = /obj/item/clothing/glasses/sunglasses
-	sunglasses["Tinted shades"] = /obj/item/clothing/glasses/sunglasses/tinted
-	sunglasses["Mirror shades"] = /obj/item/clothing/glasses/sunglasses/mirror
-	sunglasses["Large sunglasses"] = /obj/item/clothing/glasses/sunglasses/big
+	shades["Sunglasses"] = /obj/item/clothing/glasses/sunglasses
+	shades["Tinted shades"] = /obj/item/clothing/glasses/sunglasses/tinted
+	shades["Mirror shades"] = /obj/item/clothing/glasses/sunglasses/mirror
+	shades["Large sunglasses"] = /obj/item/clothing/glasses/sunglasses/big
 	gear_tweaks += new/datum/gear_tweak/path(sunglasses)
 
 
