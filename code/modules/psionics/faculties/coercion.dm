@@ -74,7 +74,6 @@
 	if(!question || user.incapacitated() || !do_after(user, 20))
 		return TRUE
 
-	var/started_mindread = world.time
 	to_chat(user, SPAN_NOTICE("<b>You dip your mentality into the surface layer of \the [target]'s mind, seeking an answer: <i>[question]</i></b>"))
 	to_chat(target, SPAN_NOTICE("<b>Your mind is compelled to answer: <i>[question]</i></b>"))
 
