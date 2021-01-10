@@ -1,0 +1,7 @@
+author: Vhbraz
+
+delete-after: True
+
+changes: 
+  - rscadd: "Skrellian uniforms have been added to the Loadout screen under Xenowear"
+  - maptweak: "Fixes missing SSV buttons"
