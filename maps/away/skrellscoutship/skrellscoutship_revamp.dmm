@@ -2187,7 +2187,7 @@
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
-	id_tag = "xil_shuttle";
+	id_tag = "xil_shuttle_airlock";
 	name = "Blast Doors"
 	},
 /turf/simulated/floor/tiled/skrell/red,
@@ -2327,7 +2327,9 @@
 /area/ship/skrellscoutship/crew/fit)
 "mD" = (
 /obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/portable_atmospherics/canister/air/airlock{
+	start_pressure = 603.975
+	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "mS" = (
@@ -3431,6 +3433,10 @@
 	pixel_x = -7;
 	pixel_y = 7
 	},
+/obj/machinery/light/skrell{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/crew/rec)
 "sq" = (
@@ -4055,13 +4061,6 @@
 	},
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/crew/kitchen)
-"vQ" = (
-/obj/machinery/light/skrell{
-	dir = 1;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/tiled/skrell/orange,
-/area/ship/skrellscoutship/crew/rec)
 "vR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -4265,9 +4264,11 @@
 	dir = 1;
 	level = 2
 	},
-/obj/machinery/recharger/wallcharger{
-	dir = 1;
-	pixel_y = -24
+/obj/machinery/button/blast_door{
+	id_tag = "xil_shuttle_sensors";
+	name = "Sensors Blast Door";
+	pixel_x = -4;
+	pixel_y = -26
 	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutshuttle)
@@ -4590,7 +4591,7 @@
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
-	id_tag = "xil_shuttle";
+	id_tag = "xil_shuttle_airlock";
 	name = "Blast Doors"
 	},
 /turf/simulated/floor/plating,
@@ -5221,9 +5222,15 @@
 	icon_state = "tube1"
 	},
 /obj/machinery/button/blast_door{
-	id_tag = "xil_shuttle";
-	name = "Shuttle Lockdown";
+	id_tag = "xil_shuttle_airlock";
+	name = "Airlock Blast Doors";
 	pixel_x = -27;
+	pixel_y = 24
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "xil_shuttle";
+	name = "Canopy Blast Doors";
+	pixel_x = -39;
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/skrell/red,
@@ -6372,6 +6379,12 @@
 /area/ship/skrellscoutship/wings/starboard)
 "HW" = (
 /obj/structure/bed/chair/comfy/red,
+/obj/machinery/button/blast_door{
+	id_tag = "xil_sensors";
+	name = "Sensors Blast Door";
+	pixel_x = 28;
+	pixel_y = 23
+	},
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/bridge)
 "Ig" = (
@@ -7815,6 +7828,7 @@
 	pixel_y = -5
 	},
 /obj/machinery/cell_charger,
+/obj/item/weapon/storage/box/syringes,
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "Pp" = (
@@ -16035,7 +16049,7 @@ Fo
 oR
 Xe
 Qz
-vQ
+cx
 WC
 tx
 NY
