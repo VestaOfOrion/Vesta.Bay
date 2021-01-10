@@ -107,7 +107,7 @@
 	path = /obj/item/clothing/glasses/material
 	allowed_roles = list(/datum/job/chief_engineer, /datum/job/engineer, /datum/job/mining)
 
-/datum/gear/eyes/shades/
+/datum/gear/eyes/sunglasses/
 	display_name = "Sunglasses"
 	path = /obj/item/clothing/glasses/sunglasses
 	cost = 3
