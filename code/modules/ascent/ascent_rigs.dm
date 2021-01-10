@@ -43,7 +43,8 @@
 		/obj/item/rig_module/device/welder,
 		/obj/item/rig_module/device/clustertool,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/maneuvering_jets
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
 		)
 	req_access = list(access_ascent)
 	var/mantid_caste = SPECIES_MANTID_ALATE
@@ -264,7 +265,8 @@
 		/obj/item/rig_module/device/welder,
 		/obj/item/rig_module/device/clustertool,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/maneuvering_jets
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
 	)
 
 /obj/item/weapon/rig/mantid/nabber
@@ -304,7 +306,8 @@
 		/obj/item/rig_module/device/welder,
 		/obj/item/rig_module/device/clustertool,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/maneuvering_jets
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
 	)
 	allowed = list(
 		/obj/item/clustertool,
@@ -396,7 +399,8 @@
 		/obj/item/rig_module/device/welder,
 		/obj/item/rig_module/device/clustertool,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/maneuvering_jets
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
 		)
 
 /obj/item/weapon/rig/mantid/gyne/seed
@@ -419,7 +423,8 @@
 		/obj/item/rig_module/device/welder,
 		/obj/item/rig_module/device/clustertool,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/maneuvering_jets
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
 	)
 
 /obj/item/weapon/rig/mantid/nabber/queen/seed
@@ -443,7 +448,8 @@
 		/obj/item/rig_module/device/welder,
 		/obj/item/rig_module/device/clustertool,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/maneuvering_jets
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
 	)
 
 /obj/item/weapon/rig/mantid/nabber/seed
@@ -467,5 +473,6 @@
 		/obj/item/rig_module/device/welder,
 		/obj/item/rig_module/device/clustertool,
 		/obj/item/rig_module/mounted/plasmacutter,
-		/obj/item/rig_module/maneuvering_jets
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/cooling_unit
 		)
