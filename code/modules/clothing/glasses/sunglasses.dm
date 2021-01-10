@@ -14,17 +14,22 @@
 
 /obj/item/clothing/glasses/sunglasses/mirror
 	name = "mirror shades"
-	desc = "In a style sometimes called pilot sunglasses. Reflective surface."
+	desc = "Sometimes called pilot sunglasses. Reflective surface."
 	icon_state = "shades_mirror"
 	item_state = "shades_mirror"
 
 /obj/item/clothing/glasses/sunglasses/prescription
 	name = "prescription sunglasses"
+	desc = "Glasses with polarizing lenses to protect a little against glare and blinding lights."
+	icon_state = "shades_black"
+	item_state = "shades_black"
+	darkness_view = -1
+	flash_protection = FLASH_PROTECTION_MINOR
 	prescription = 5
 
 /obj/item/clothing/glasses/sunglasses/big
 	name = "large sunglasses"
-	desc = "Thick lenses and layered filters make these large sunglasses good at protecting the eyes against harmful light."
+	desc = "Thick lenses and layered filters makes these big sunglasses good against a variety of flash attacks."
 	icon_state = "shades_big"
 	item_state = "shades_big"
 	flash_protection = FLASH_PROTECTION_MODERATE
