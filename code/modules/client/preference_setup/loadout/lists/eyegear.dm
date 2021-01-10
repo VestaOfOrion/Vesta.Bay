@@ -122,7 +122,7 @@
 	gear_tweaks += new/datum/gear_tweak/path(sunglasses)
 
 
-/datum/gear/eyes/shades/prescriptionsun
+/datum/gear/eyes/sunglasses/prescriptionsun
 	display_name = "Sunglasses, presciption"
 	path = /obj/item/clothing/glasses/sunglasses/prescription
 	cost = 3
