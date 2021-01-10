@@ -1,11 +1,11 @@
 /mob/living/silicon/robot/flying/ascent
-	var/mob/living/silicon/ai/ascent/controlling_ai
+	var/mob/living/silicon/ai/controlling_ai
 	var/obj/item/device/radio/drone_silicon_radio
 
-//Manages AI being able to take control of cyborgs
-/mob/living/silicon/robot/flying/ascent/attack_ai(var/mob/living/silicon/ai/ascent/user)
+//Manages AI being able to take control of cyborgs. Shit doesnt work.
+/mob/living/silicon/robot/flying/ascent/attack_ai(var/mob/living/silicon/ai/user)
 
-	if(!istype(user) || controlling_ai || !config.allow_drone_spawn)
+	if(!istype(user) || controlling_ai)
 		return
 
 	if(stat != 2 || client || key)
@@ -19,7 +19,7 @@
 	assume_control(user)
 
 //Actual code for this
-/mob/living/silicon/robot/flying/ascent/proc/assume_control(var/mob/living/silicon/ai/ascent/user)
+/mob/living/silicon/robot/flying/ascent/proc/assume_control(var/mob/living/silicon/ai/user)
 	user.controlling_drone = src
 	controlling_ai = user
 	verbs += /mob/living/silicon/robot/flying/ascent/proc/release_ai_control_verb
@@ -47,7 +47,7 @@
 	to_chat(src, "<span class='notice'><b>You have shunted your primary control loop into \a [initial(name)].</b> Use the <b>Release Control</b> verb to return to your core.</span>")
 
 //Alows AI to force the production of drones to control
-/obj/machinery/drone_fabricator/attack_ai(var/mob/living/silicon/ai/ascent/user)
+/obj/machinery/drone_fabricator/attack_ai(var/mob/living/silicon/ai/user)
 
 	if(!istype(user) || user.controlling_drone || !config.allow_drone_spawn)
 		return
@@ -78,12 +78,12 @@
 	drone_silicon_radio = null
 	. = ..(gibbed)
 
-/mob/living/silicon/ai/ascent/death(gibbed)
+/mob/living/silicon/ai/death(gibbed)
 	if(controlling_drone)
 		controlling_drone.release_ai_control("<b>WARNING: Primary control loop failure.</b> Session terminated.")
 	. = ..(gibbed)
 
-/mob/living/silicon/ai/ascent/Life()
+/mob/living/silicon/ai/Life()
 	. = ..()
 	if(controlling_drone && stat != CONSCIOUS)
 		controlling_drone.release_ai_control("<b>WARNING: Primary control loop failure.</b> Session terminated.")
