@@ -112,14 +112,14 @@
 	path = /obj/item/clothing/glasses/sunglasses
 	cost = 3
 
-/datum/gear/eyes/shades/New()
+/datum/gear/eyes/sunglasses/New()
 	..()
-	var/shades = list()
+	var/sunglasses = list()
 	shades["Sunglasses"] = /obj/item/clothing/glasses/sunglasses
 	shades["Tinted shades"] = /obj/item/clothing/glasses/sunglasses/tinted
 	shades["Mirror shades"] = /obj/item/clothing/glasses/sunglasses/mirror
 	shades["Large sunglasses"] = /obj/item/clothing/glasses/sunglasses/big
-	gear_tweaks += new/datum/gear_tweak/path(shades)
+	gear_tweaks += new/datum/gear_tweak/path(sunglasses)
 
 
 /datum/gear/eyes/shades/prescriptionsun
