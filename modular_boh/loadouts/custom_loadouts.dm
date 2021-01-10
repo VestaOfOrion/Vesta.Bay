@@ -523,3 +523,10 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/augmentation/implanted_circuitkit/right
 	display_name = "circuit augment - right arm (ROBOTIC)"
 	path = /obj/item/organ/internal/augment/active/simple/circuit/right
+
+///###################### XENOWEAR #########################
+/datum/gear/clothing/skrell_uniform
+	display_name = "skrellian uniform"
+	path = /obj/item/clothing/under/skrelljumpsuit
+	whitelisted = list(SPECIES_SKRELL)
+	sort_category = "Xenowear"
