@@ -2,7 +2,7 @@
 	name = "spell"
 	icon = 'icons/obj/projectiles.dmi'
 
-	nodamage = 1 //Most of the time, anyways
+	nodamage = TRUE //Most of the time, anyways
 
 	var/spell/targeted/projectile/carried
 

@@ -151,7 +151,8 @@ GLOBAL_LIST_INIT(exo_event_mob_count,list())// a list of all mobs currently spaw
 
 		chosen_area = pick(sites)
 		chosen_planet = map_sectors["[chosen_area.z]"]
-
+		affecting_z = GetConnectedZlevels(chosen_area.z)
+		
 	for (var/mob/M in players_on_site)
 		if (severity > EVENT_LEVEL_MODERATE)
 			to_chat(M, SPAN_DANGER(chosen_mob_list.arrival_message))
@@ -180,9 +181,10 @@ GLOBAL_LIST_INIT(exo_event_mob_count,list())// a list of all mobs currently spaw
 	if (no_show && prob(98))
 		return
 
-	spawn_mob(chosen_area)
+	spawn_mob()
 
-/datum/event/exo_awakening/proc/spawn_mob(area/chosen_area, list/category)
+
+/datum/event/exo_awakening/proc/spawn_mob()
 	if(!living_observers_present(affecting_z))
 		return
 
@@ -195,7 +197,11 @@ GLOBAL_LIST_INIT(exo_event_mob_count,list())// a list of all mobs currently spaw
 
 			if (prob(chosen_mob_list.spawn_near_chance))
 				var/mob/M = pick(players_on_site)
-				T = pick(trange(10, M) - trange(7, M))
+				var/turf/MT = get_turf(M)
+				if(MT)
+					T = pick(trange(10, MT) - trange(7, MT))
+				else
+					T = pick(area_turfs)
 			else
 				T = pick(area_turfs)
 
