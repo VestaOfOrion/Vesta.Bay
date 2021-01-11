@@ -20,11 +20,6 @@
 
 /obj/item/clothing/glasses/sunglasses/prescription
 	name = "prescription sunglasses"
-	desc = "Glasses with polarizing lenses to protect a little against glare and blinding lights."
-	icon_state = "shades_black"
-	item_state = "shades_black"
-	darkness_view = -1
-	flash_protection = FLASH_PROTECTION_MINOR
 	prescription = 5
 
 /obj/item/clothing/glasses/sunglasses/big

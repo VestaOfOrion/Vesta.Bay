@@ -124,7 +124,7 @@
 
 /datum/gear/eyes/shades/prescriptionsun
 	display_name = "Sunglasses, presciption"
-	path = /obj/item/clothing/glasses/sunglasses
+	path = /obj/item/clothing/glasses/sunglasses/prescription
 	cost = 3
 
 /datum/gear/eyes/hudpatch
