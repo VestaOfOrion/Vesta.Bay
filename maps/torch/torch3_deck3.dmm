@@ -12232,7 +12232,7 @@
 	name = "Blast Shields";
 	opacity = 0
 	},
-/turf/space,
+/turf/simulated/floor/plating,
 /area/pool)
 "Cj" = (
 /obj/machinery/light/spot{
@@ -30064,9 +30064,9 @@ ZN
 ZN
 ZN
 ZN
-aa
-aa
-Di
+ZN
+ZN
+vt
 Di
 BQ
 Fn
@@ -30080,8 +30080,8 @@ BQ
 Fn
 YB
 Di
-Di
-aa
+vt
+Iu
 Iu
 Cg
 Cg
@@ -30266,9 +30266,9 @@ ZN
 ZN
 ZN
 ZN
-aa
-aa
-Di
+ZN
+ZN
+vt
 lV
 Yr
 ZU
@@ -30282,14 +30282,14 @@ Yr
 Qf
 Yr
 np
-Di
-Iu
+vt
+IT
 IT
 Cg
 Cg
 Cg
 IT
-Iu
+IT
 BV
 BV
 BV
@@ -30484,7 +30484,7 @@ tc
 vy
 Yr
 IX
-vt
+yH
 IT
 zL
 Zj
