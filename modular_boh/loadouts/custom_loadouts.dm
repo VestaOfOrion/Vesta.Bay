@@ -540,7 +540,6 @@ datum/gear/head/ECdepartment/New()
 /datum/gear/tactical/helm_covers/New()
 	..()
 	var/helm = list()
-	helm += /obj/item/clothing/accessory/armor/helmcover
 	helm += /obj/item/clothing/accessory/armor/helmcover/blue
 	helm += /obj/item/clothing/accessory/armor/helmcover/navy
 	helm += /obj/item/clothing/accessory/armor/helmcover/saare
