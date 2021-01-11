@@ -34,6 +34,10 @@
 	name = "\improper Infantry Technician's Cabin"
 	req_access = list(access_inftech)
 
+/area/infantry/firingrange
+	name = "\improper Firing Range"
+	req_access = list(access_infantry)
+
 //Operations storage
 
 /area/operations_storage

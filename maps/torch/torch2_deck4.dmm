@@ -5089,10 +5089,6 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
-"rf" = (
-/obj/effect/floor_decal/corner/red,
-/turf/simulated/wall/r_wall/hull,
-/area/storage/auxillary/starboard)
 "rg" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 4;
@@ -27670,7 +27666,7 @@ aa
 aa
 aa
 RQ
-rf
+RQ
 RQ
 iZ
 ej

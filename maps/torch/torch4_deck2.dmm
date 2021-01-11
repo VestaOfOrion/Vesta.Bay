@@ -10301,12 +10301,12 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/tech)
 "yl" = (
-/obj/machinery/portable_atmospherics/canister/sleeping_agent,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/railing/mapped{
 	dir = 1;
 	icon_state = "railing0-1"
 	},
+/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,
 /turf/simulated/floor/plating,
 /area/engineering/atmos/storage)
 "yo" = (
