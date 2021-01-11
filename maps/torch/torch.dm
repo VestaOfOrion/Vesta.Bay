@@ -217,7 +217,8 @@
 	#include "../../modular_boh/code/game/machinery/vending.dm"
 	#include "../../modular_boh/code/game/loadout/loadout_accessories.dm"
 	#include "../../modular_boh/loadouts/~defines.dm"
-	
+	#include "../../modular_boh/code/modules/datums/uniform_vendor_boh.dm"
+
 //###########################################################################################################
 //# VESTA.BAY ################# ADDS FILES MANDATORY WHENEVER THE TORCH MAP IS CALLED #######################
 //###########################################################################################################
