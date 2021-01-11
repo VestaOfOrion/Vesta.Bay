@@ -6,6 +6,10 @@
 	darkness_view = -1
 	flash_protection = FLASH_PROTECTION_MINOR
 
+/obj/item/clothing/glasses/sunglasses/prescription
+	name = "prescription sunglasses"
+	prescription = 5
+
 /obj/item/clothing/glasses/sunglasses/tinted
 	name = "tinted sunglasses"
 	desc = "Sunglasses with a yellowish tint. Pretty stylish."
@@ -17,10 +21,6 @@
 	desc = "Sometimes called pilot sunglasses. Reflective surface."
 	icon_state = "shades_mirror"
 	item_state = "shades_mirror"
-
-/obj/item/clothing/glasses/sunglasses/prescription
-	name = "prescription sunglasses"
-	prescription = 5
 
 /obj/item/clothing/glasses/sunglasses/big
 	name = "large sunglasses"
