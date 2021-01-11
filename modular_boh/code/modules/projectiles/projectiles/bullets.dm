@@ -48,4 +48,4 @@ obj/item/projectile/bullet/pistol/strong/rubber
 	damage_flags = 0
 	damage = 10
 	agony = 40
-	embed = 0
+	embed = FALSE

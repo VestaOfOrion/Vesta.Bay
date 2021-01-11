@@ -156,23 +156,20 @@
 	. = ..()
 	reagents.add_reagent(/datum/reagent/drink/milk/soymilk, 50)
 
-/obj/item/weapon/reagent_containers/food/drinks/smallcarton
-	name = "small carton"
+/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton
+	name = "small milk carton"
 	volume = 30
 	icon_state = "mini-milk"
 
-/obj/item/weapon/reagent_containers/food/drinks/smallcarton/milk
-	name = "small milk carton"
-
-/obj/item/weapon/reagent_containers/food/drinks/smallcarton/milk/Initialize()
+/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton/Initialize()
 	. = ..()
 	reagents.add_reagent(/datum/reagent/drink/milk, 30)
 
-/obj/item/weapon/reagent_containers/food/drinks/smallcarton/chocolate
+/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton/chocolate
 	name = "small chocolate milk carton"
 	desc = "It's milk! This one is in delicious chocolate flavour."
 
-/obj/item/weapon/reagent_containers/food/drinks/smallcarton/chocolate/Initialize()
+/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton/chocolate/Initialize()
 	. = ..()
 	reagents.add_reagent(/datum/reagent/drink/milk/chocolate, 30)
 
@@ -331,3 +328,25 @@
 /obj/item/weapon/reagent_containers/food/drinks/tea/chai/Initialize()
 	. = ..()
 	reagents.add_reagent(/datum/reagent/drink/tea/chai, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/decafcoffee
+	name = "cup of decaf coffee"
+	desc = "A tall plastic cup of hot decaffeinated coffee."
+	icon_state = "coffee"
+	item_state = "coffee"
+	center_of_mass = "x=16;y=14"
+	filling_states = "100"
+	base_name = "cup"
+	base_icon = "cup"
+
+/obj/item/weapon/reagent_containers/food/drinks/decafcoffee/Initialize()
+	. = ..()
+	reagents.add_reagent(/datum/reagent/drink/decafcoffee, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/tea/decaf
+	name = "cup of decaf tea"
+	desc = "A tall plastic cup of hot decaffeinated tea."
+
+/obj/item/weapon/reagent_containers/food/drinks/tea/decaf/Initialize()
+	. = ..()
+	reagents.add_reagent(/datum/reagent/drink/tea/decaf, 30)

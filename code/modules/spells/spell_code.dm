@@ -20,7 +20,7 @@ var/list/spells = typesof(/spell) //needed for the badmin verb for now
 	var/charge_counter = 0 //can only cast spells if it equals recharge, ++ each decisecond if charge_type = Sp_RECHARGE or -- each cast if charge_type = Sp_CHARGES
 	var/still_recharging_msg = "<span class='notice'>The spell is still recharging.</span>"
 
-	var/silenced = 0 //not a binary - the length of time we can't cast this for
+	var/silenced = FALSE //not a binary - the length of time we can't cast this for
 	var/processing = 0 //are we processing already? Mainly used so that silencing a spell doesn't call process() again. (and inadvertedly making it run twice as fast)
 
 	var/holder_var_type = "bruteloss" //only used if charge_type equals to "holder_var"

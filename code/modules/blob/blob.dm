@@ -35,6 +35,10 @@
 	. = ..()
 	START_PROCESSING(SSobj, src)
 
+/obj/effect/blob/Destroy()
+	STOP_PROCESSING(SSobj, src)
+	. = ..()
+
 /obj/effect/blob/CanPass(var/atom/movable/mover, var/turf/target, var/height = 0, var/air_group = 0)
 	if(air_group || height == 0)
 		return 1
