@@ -34,6 +34,5 @@ delete-after: True
 # Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - tweak: "Green fatigues are available again."
   - tweak: "Loadout accessories have been organized into plate carriers, pouches, large pouches, and UBAC categories."
   - rscadd: "New categories to the uniform dispenser for Navy Utilities and Urban Utilities. Green is the default."
