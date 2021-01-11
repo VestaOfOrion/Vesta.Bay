@@ -790,8 +790,8 @@
 	icon_deny = "fitness-deny"
 	vend_delay = 6
 	base_type = /obj/machinery/vending/fitness
-	products = list(/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton = 8,
-					/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton/chocolate = 8,
+	products = list(/obj/item/weapon/reagent_containers/food/drinks/smallcarton/milk = 8,
+					/obj/item/weapon/reagent_containers/food/drinks/smallcarton/chocolate = 8,
 					/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle = 8,
 					/obj/item/weapon/reagent_containers/food/drinks/glass2/fitnessflask/proteinshake = 8,
 					/obj/item/weapon/reagent_containers/food/drinks/glass2/fitnessflask = 8,
@@ -799,8 +799,8 @@
 					/obj/item/weapon/reagent_containers/pill/diet = 8,
 					/obj/item/weapon/towel/random = 8)
 
-	prices = list(/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton = 3,
-					/obj/item/weapon/reagent_containers/food/drinks/milk/smallcarton/chocolate = 3,
+	prices = list(/obj/item/weapon/reagent_containers/food/drinks/smallcarton/milk = 3,
+					/obj/item/weapon/reagent_containers/food/drinks/smallcarton/chocolate = 3,
 					/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle = 2,
 					/obj/item/weapon/reagent_containers/food/drinks/glass2/fitnessflask/proteinshake = 20,
 					/obj/item/weapon/reagent_containers/food/drinks/glass2/fitnessflask = 5,
