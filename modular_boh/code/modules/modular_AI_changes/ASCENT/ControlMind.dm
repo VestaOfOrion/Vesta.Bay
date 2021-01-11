@@ -1,12 +1,5 @@
 #define NETWORK_ASCENT "UNKNOWN_SIGNAL"
 
-/datum/job/submap/ascent/control_mind
-	title = "Ascent Control Mind"
-	supervisors = "The Monarch Serpentid Queen"
-	total_positions = 2
-	info = "You are a Machine Intelligence of an independent Ascent vessel. The Gyne you assist, and her children, have wandered into this sector full of primitive bioforms. Try to keep them alive, and assist where you can."
-	set_species_on_join = /mob/living/silicon/ai/ascent
-
 /obj/effect/submap_landmark/spawnpoint/ascent_seedship/control
 	name = "Ascent Control Mind"
 
