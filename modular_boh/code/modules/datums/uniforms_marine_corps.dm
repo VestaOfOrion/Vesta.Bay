@@ -13,11 +13,9 @@
 	pt_under = /obj/item/clothing/under/solgov/pt/army
 	pt_shoes = /obj/item/clothing/shoes/black
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine
 	utility_shoes = /obj/item/clothing/shoes/dutyboots
-	utility_hat = /obj/item/clothing/head/solgov/utility/army
 	utility_hat_urban = /obj/item/clothing/head/solgov/utility/army/urban
 	utility_hat_navy = /obj/item/clothing/head/solgov/utility/fleet/marine
 	utility_extra = list(
@@ -48,7 +46,6 @@
 	name = "Marine Corps command"
 	departments = COM
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	utility_extra = list(
@@ -79,7 +76,6 @@
 	name = "Marine Corps engineering"
 	departments = ENG
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/engineering
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/engineering
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/engineering
 	utility_extra = list(
@@ -139,7 +135,6 @@
 	name = "Marine Corps security"
 	departments = SEC
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/security
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/security
 	utility_extra = list(
@@ -199,7 +194,6 @@
 	name = "Marine Corps medical"
 	departments = MED
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/medical
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/medical
 	utility_extra = list(
@@ -258,7 +252,6 @@
 	name = "Marine Corps supply"
 	departments = SUP
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/supply
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/supply
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/supply
 	utility_extra = list(
@@ -315,8 +308,6 @@
 		/obj/item/clothing/head/soft/solgov
 	)
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
-
 	service_hat = /obj/item/clothing/head/solgov/service/army/command
 	service_over = /obj/item/clothing/suit/storage/solgov/service/army/command
 	service_extra = list(/obj/item/clothing/head/solgov/service/army/garrison/command)
@@ -329,7 +320,6 @@
 	name = "Marine Corps service"
 	departments = SRV
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/service
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/service
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/service
 	utility_extra = list(
@@ -377,7 +367,6 @@
 	name = "Marine Corps exploration"
 	departments = EXP
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/exploration
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/exploration
 	utility_extra = list(
@@ -425,7 +414,6 @@
 	name = "Marine Corps command support"
 	departments = SPT
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 
@@ -454,7 +442,6 @@
 		/obj/item/clothing/gloves/thick/duty/solgov/cmd
 	)
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 
@@ -480,7 +467,6 @@
 		/obj/item/clothing/gloves/thick/duty/solgov/cmd
 	)
 
-	utility_under = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
 	utility_under_navy = /obj/item/clothing/under/solgov/utility/fleet/combat/marine/command
 
