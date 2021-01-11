@@ -348,7 +348,8 @@ datum/gear/head/ECdepartment/New()
 //################# CUSTOM_ARMOR ########################
 
 /datum/gear/tactical/pcarrier_grey
-	display_name = "Grey plate carrier"
+	display_name = "Grey civilian plate carrier"
+	description = "A grey plate carrier in a high visibility off-white."
 	path = /obj/item/clothing/suit/armor/pcarrier/grey
 	slot = slot_wear_suit
 
@@ -373,6 +374,48 @@ datum/gear/head/ECdepartment/New()
 	armors["Blue ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue/ipc
 	armors["Green ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/green/ipc
 	gear_tweaks += new/datum/gear_tweak/path(armors)
+
+/datum/gear/tactical/armor_pouches
+	display_name = "armor pouches selection"
+	path = /obj/item/clothing/accessory/storage/pouches
+	cost = 1
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/armor_pouches/New()
+	..()
+	var/pouches = list()
+	pouches["green armor pouches"] = /obj/item/clothing/accessory/storage/pouches/green
+	pouches["navy armor pouches"] = /obj/item/clothing/accessory/storage/pouches/navy
+	pouches["black armor pouches"] = /obj/item/clothing/accessory/storage/pouches
+	gear_tweaks += new/datum/gear_tweak/path(pouches)
+
+/datum/gear/tactical/armor_pouches/big
+	display_name = "large armor pouches selection"
+	path = /obj/item/clothing/accessory/storage/pouches
+	cost = 1
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/armor_pouches/big/New()
+	..()
+	var/big_pouches = list()
+	big_pouches["large green armor pouches"] = /obj/item/clothing/accessory/storage/pouches/large/green
+	big_pouches["large navy armor pouches"] = /obj/item/clothing/accessory/storage/pouches/large/navy
+	big_pouches["large black armor pouches"] = /obj/item/clothing/accessory/storage/pouches/large
+	gear_tweaks += new/datum/gear_tweak/path(big_pouches)
+
+/datum/gear/tactical/ubac_selection
+	display_name = "UBAC shirt selection"
+	path = /obj/item/clothing/accessory/ubac
+	cost = 1
+	allowed_branches = TACTICOOL_BRANCHES
+
+/datum/gear/tactical/ubac_selection/New()
+	..()
+	var/ubac = list()
+	ubac["green UBAC shirt"] = /obj/item/clothing/accessory/ubac/green
+	ubac["navy UBAC shirt"] = /obj/item/clothing/accessory/ubac/blue
+	ubac["black UBAC shirt"] = /obj/item/clothing/accessory/ubac
+	gear_tweaks += new/datum/gear_tweak/path(ubac)
 
 /datum/gear/tactical/kevlar
 	display_name = "Kevlar selection"
@@ -412,6 +455,7 @@ datum/gear/head/ECdepartment/New()
 	..()
 	var/uniform = list()
 	uniform += /obj/item/clothing/under/solgov/utility/fleet/combat/marine
+	uniform += /obj/item/clothing/under/solgov/utility/army
 	uniform += /obj/item/clothing/under/solgov/utility/army/urban
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
 
@@ -460,6 +504,7 @@ datum/gear/head/ECdepartment/New()
 	..()
 	var/cover = list()
 	cover += /obj/item/clothing/head/solgov/utility/army/urban
+	cover += /obj/item/clothing/head/solgov/utility/army
 	cover += /obj/item/clothing/head/solgov/utility/fleet/marine
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
 
@@ -487,6 +532,20 @@ datum/gear/head/ECdepartment/New()
 	beret += /obj/item/clothing/head/beret/pcrc
 	beret += /obj/item/clothing/head/beret/saare
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(beret)
+
+/datum/gear/tactical/helm_covers
+	display_name = "helmet covers"
+	path = /obj/item/clothing/accessory/armor/helmcover
+
+/datum/gear/tactical/helm_covers/New()
+	..()
+	var/helm = list()
+	helm += /obj/item/clothing/accessory/armor/helmcover/blue
+	helm += /obj/item/clothing/accessory/armor/helmcover/navy
+	helm += /obj/item/clothing/accessory/armor/helmcover/saare
+	helm += /obj/item/clothing/accessory/armor/helmcover/pcrc
+	helm += /obj/item/clothing/accessory/armor/helmcover/nt
+	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(helm)
 
 //################# AUGMENTS ###############################
 
