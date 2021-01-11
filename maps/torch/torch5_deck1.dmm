@@ -12897,17 +12897,12 @@
 /area/security/solitary)
 "aSq" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/access_button{
-	command = "cycle_interior";
-	frequency = 1379;
-	master_tag = "bridgeport_airlock";
-	name = "interior access button";
-	pixel_x = 22;
-	pixel_y = -8;
-	req_access = list("ACCESS_MAINT")
+/obj/machinery/door/airlock/maintenance{
+	name = "Security Wing Maintenance";
+	secured_wires = 1;
+	stripe_color = "#0d304d"
 	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/foreport)
 "aSs" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -13014,11 +13009,11 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d1port)
 "aST" = (
-/obj/structure/sign/warning/airlock{
-	dir = 1;
-	icon_state = "doors"
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/machinery/light/small{
+	dir = 8
 	},
-/turf/simulated/wall/r_wall/prepainted,
+/turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/foreport)
 "aSY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -13265,46 +13260,22 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d1port)
 "aTp" = (
-/obj/machinery/oxygen_pump{
-	pixel_x = -32
+/obj/structure/sign/warning/airlock{
+	dir = 1;
+	icon_state = "doors"
 	},
-/obj/effect/floor_decal/techfloor{
-	dir = 8;
-	icon_state = "techfloor_edges"
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
-	dir = 4;
-	id_tag = "bridgeport_pump"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/simulated/wall/r_wall/prepainted,
 /area/maintenance/firstdeck/foreport)
 "aTq" = (
-/obj/machinery/airlock_sensor{
+/obj/machinery/door/airlock/external{
 	frequency = 1379;
-	id_tag = "bridgeport_sensor";
-	pixel_x = 25;
-	pixel_y = 12
+	icon_state = "closed";
+	id_tag = "bridgeport_inner";
+	locked = 1;
+	name = "Engineering External Access"
 	},
-/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
-	dir = 8;
-	frequency = 1379;
-	id_tag = "bridgeport_airlock";
-	pixel_x = 25;
-	req_access = list("ACCESS_MAINT");
-	tag_airpump = "bridgeport_pump";
-	tag_chamber_sensor = "bridgeport_sensor";
-	tag_exterior_door = "bridgeport_outer";
-	tag_interior_door = "bridgeport_inner"
-	},
-/obj/effect/floor_decal/techfloor{
-	dir = 4;
-	icon_state = "techfloor_edges"
-	},
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 9;
-	icon_state = "intact"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/machinery/atmospherics/pipe/simple/visible,
+/turf/simulated/floor/plating,
 /area/maintenance/firstdeck/foreport)
 "aTA" = (
 /obj/structure/closet/crate/secure/biohazard,
@@ -13533,19 +13504,44 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/thruster/d1port)
 "aTZ" = (
+/obj/machinery/oxygen_pump{
+	pixel_x = -32
+	},
 /obj/effect/floor_decal/techfloor{
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
-/obj/machinery/light/small{
-	dir = 8
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+	dir = 4;
+	id_tag = "bridgeport_pump"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/foreport)
 "aUa" = (
+/obj/machinery/airlock_sensor{
+	frequency = 1379;
+	id_tag = "bridgeport_sensor";
+	pixel_x = 25;
+	pixel_y = 12
+	},
+/obj/machinery/embedded_controller/radio/airlock/airlock_controller{
+	dir = 8;
+	frequency = 1379;
+	id_tag = "bridgeport_airlock";
+	pixel_x = 25;
+	req_access = list("ACCESS_MAINT");
+	tag_airpump = "bridgeport_pump";
+	tag_chamber_sensor = "bridgeport_sensor";
+	tag_exterior_door = "bridgeport_outer";
+	tag_interior_door = "bridgeport_inner"
+	},
 /obj/effect/floor_decal/techfloor{
 	dir = 4;
 	icon_state = "techfloor_edges"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 9;
+	icon_state = "intact"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/firstdeck/foreport)
@@ -21868,8 +21864,11 @@
 /area/hallway/primary/firstdeck/center)
 "kny" = (
 /obj/effect/floor_decal/corner/red/diagonal,
-/obj/structure/hygiene/toilet{
-	dir = 8
+/obj/structure/hygiene/shower{
+	dir = 8;
+	icon_state = "shower";
+	pixel_x = 0;
+	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/security/brig)
@@ -24491,12 +24490,16 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
 "nkz" = (
-/obj/effect/floor_decal/industrial/warning/corner,
-/obj/machinery/light/small{
-	dir = 8
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/structure/hygiene/shower{
+	dir = 8;
+	icon_state = "shower";
+	pixel_x = 0;
+	pixel_y = 0
 	},
-/turf/simulated/floor/tiled/dark,
-/area/maintenance/firstdeck/foreport)
+/obj/random/soap,
+/turf/simulated/floor/tiled/freezer,
+/area/security/brig)
 "nlb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -29473,15 +29476,18 @@
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
 "sCb" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1379;
-	icon_state = "closed";
-	id_tag = "bridgeport_inner";
-	locked = 1;
-	name = "Engineering External Access"
-	},
 /obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/floor/plating,
+/obj/machinery/access_button{
+	command = "cycle_interior";
+	frequency = 1379;
+	master_tag = "bridgeport_airlock";
+	name = "interior access button";
+	pixel_x = 25;
+	pixel_y = -25;
+	req_access = list("ACCESS_MAINT")
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/foreport)
 "sCu" = (
 /obj/structure/railing/mapped{
@@ -43386,7 +43392,7 @@ pza
 pQO
 pQO
 aRr
-nkz
+aBb
 aST
 aTp
 aTZ
@@ -43791,7 +43797,7 @@ aNH
 aqx
 aRt
 aBb
-aBb
+jTV
 tAS
 tAS
 tAS
@@ -43993,7 +43999,7 @@ mtk
 aGP
 aRu
 aSs
-tAS
+jTV
 tAS
 tAS
 tAS
@@ -44195,7 +44201,7 @@ aDW
 aGP
 aRu
 jTV
-tAS
+jTV
 tAS
 tAS
 tAS
@@ -46209,7 +46215,7 @@ aGP
 aGP
 aGP
 kny
-kny
+nkz
 aGP
 aPC
 aQA
