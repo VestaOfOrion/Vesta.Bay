@@ -1,0 +1,8 @@
+author: Vhbraz
+
+delete-after: True
+
+changes: 
+  - maptweak: "Infantry and Security now have shooting ranges."
+  - maptweak: "Phoron canisters were added in the D2 auxiliary atmospherics storage"
+  - maptweak: "Quality-of-life changes and improvements made to the D3 cabins; MSEA and SCG rep offices."
