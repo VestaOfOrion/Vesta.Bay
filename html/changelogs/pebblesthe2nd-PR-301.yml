@@ -1,0 +1,4 @@
+author: Pebblesthe2nd
+delete-after: True
+changes: 
+  - rscadd: "Update pass to ensure a large number of new sprites follow quality standards regarding palettes, saturation, outlines. Adds animation for camera, could not solve code. Adds missing onmob sprite for Plasma Pulse gun."
