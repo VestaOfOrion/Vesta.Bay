@@ -1178,6 +1178,19 @@
 	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
+"fK" = (
+/obj/machinery/alarm/skrell{
+	pixel_y = 14
+	},
+/obj/structure/table/glass,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/turf/simulated/floor/tiled/skrell/white,
+/area/ship/skrellscoutship/crew/medbay)
 "fL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -8834,11 +8847,11 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/brig)
 "SU" = (
-/obj/structure/bed/roller,
 /obj/machinery/light/skrell{
 	dir = 1;
 	icon_state = "tube1"
 	},
+/obj/machinery/sleeper,
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "Ta" = (
@@ -14750,7 +14763,7 @@ IK
 ps
 fG
 TB
-Xu
+fK
 Xr
 Xr
 Xr
