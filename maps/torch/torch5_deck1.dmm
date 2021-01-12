@@ -77,6 +77,14 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/fuelbay/aux)
+"aal" = (
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Miscellaneous Test Chamber";
+	dir = 8;
+	network = list("Research","Miscellaneous Reseach")
+	},
+/turf/simulated/floor/reinforced,
+/area/rnd/misc_lab)
 "aam" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -523,6 +531,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
+"abg" = (
+/obj/machinery/atmospherics/valve,
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Xenobotany Laboratory";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/rnd/xenobiology/xenoflora)
 "abi" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 1;
@@ -28042,14 +28058,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/misc_lab)
-"rkb" = (
-/obj/machinery/atmospherics/valve,
-/obj/machinery/camera/network/research{
-	c_tag = "Research - Xenobotany Laboratory";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/rnd/xenobiology/xenoflora)
 "rkX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -29251,14 +29259,6 @@
 	name = "bluespacerift"
 	},
 /obj/item/device/radio/beacon,
-/turf/simulated/floor/reinforced,
-/area/rnd/misc_lab)
-"srb" = (
-/obj/machinery/camera/network/research{
-	c_tag = "Research - Miscellaneous Test Chamber";
-	dir = 8;
-	network = list("Research","Miscellaneous Reseach")
-	},
 /turf/simulated/floor/reinforced,
 /area/rnd/misc_lab)
 "sru" = (
@@ -56378,7 +56378,7 @@ bmb
 pRb
 qib
 qMb
-rkb
+abg
 rJb
 rYb
 rib
@@ -57189,7 +57189,7 @@ qOb
 qSb
 rLb
 rZb
-srb
+aal
 ryb
 aHQ
 aTe
