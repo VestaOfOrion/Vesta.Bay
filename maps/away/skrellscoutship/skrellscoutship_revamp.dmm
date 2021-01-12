@@ -5297,13 +5297,36 @@
 /area/ship/skrellscoutshuttle)
 "BV" = (
 /obj/structure/table/rack/dark,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/armory)
 "Ce" = (
@@ -6028,6 +6051,9 @@
 	autoset_access = 0;
 	name = "Command Hardsuit";
 	req_access = list("ACCESS_SKRELLSCOUT")
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
 	},
 /turf/simulated/floor/carpet/blue,
 /area/ship/skrellscoutship/command/vuxix)
@@ -8375,8 +8401,8 @@
 "QW" = (
 /obj/machinery/atmospherics/omni/filter{
 	tag_east = 1;
-	tag_north = 2;
-	tag_south = 8
+	tag_south = 8;
+	tag_west = 2
 	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
