@@ -2704,12 +2704,13 @@
 "eV" = (
 /obj/machinery/fabricator,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/camera/network/engineering{
-	c_tag = "Robotics - Lower";
-	dir = 8
-	},
 /obj/machinery/light{
 	dir = 4
+	},
+/obj/machinery/camera/network/research{
+	c_tag = "Robotics - Lower";
+	dir = 8;
+	network = list("Research","Miscellaneous Reseach")
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/assembly/robotics)
@@ -6132,6 +6133,10 @@
 /obj/item/device/robotanalyzer,
 /obj/item/weapon/storage/toolbox/mechanical,
 /obj/item/weapon/storage/firstaid/surgery,
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Robotics Surgical Theater";
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics/surgery)
 "ne" = (
@@ -14185,9 +14190,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/foyer)
 "IL" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Robotics Surgical Theater"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -14202,6 +14204,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/science{
+	name = "Robotics Surgical Theater"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/assembly/robotics/surgery)
@@ -14795,7 +14800,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/science{
 	name = "Robotics Workshop"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -16752,10 +16757,6 @@
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 8;
 	icon_state = "edge"
-	},
-/obj/machinery/camera/network/engineering{
-	c_tag = "Engineering - Robotics Surgical Theater";
-	dir = 4
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/white,
@@ -36562,7 +36563,7 @@ eG
 bK
 XP
 XP
-cA
+su
 cz
 cz
 eV
@@ -36764,7 +36765,7 @@ eG
 bK
 bw
 XP
-su
+cA
 dm
 fD
 XP
