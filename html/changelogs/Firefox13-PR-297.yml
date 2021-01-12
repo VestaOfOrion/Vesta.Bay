@@ -35,4 +35,4 @@ delete-after: True
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
   - bugfix: "Engineering doors and cameras in robotics are no more, they're properly research now."
-  - bugifx: "Extra camera in PADV office removed, existing camera fixed(engineers could access it for some reason)."
+  - bugfix: "Extra camera in PADV office removed, existing camera fixed(engineers could access it for some reason)."
