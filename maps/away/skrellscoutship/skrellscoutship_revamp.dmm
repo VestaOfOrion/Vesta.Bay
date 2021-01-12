@@ -237,7 +237,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
 	dir = 4;
-	id_tag = "xil_shuttle_dock_pump"
+	id_tag = "xil_shuttle_pump_out_external"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/skrellscoutshuttle)
@@ -3656,14 +3656,14 @@
 /obj/machinery/ion_engine{
 	dir = 4
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	dir = 4;
-	id_tag = "xil_shuttle_dock_pump"
-	},
 /obj/machinery/airlock_sensor{
 	frequency = 1331;
 	id_tag = "xil_shuttle_sensor_external";
 	pixel_y = 22
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 4;
+	id_tag = "xil_shuttle_pump_out_external"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/skrellscoutshuttle)
