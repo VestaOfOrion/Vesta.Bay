@@ -2972,13 +2972,12 @@
 "ka" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor,
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
-	id_tag = "eva_sensor";
-	pixel_x = 0;
+	id_tag = "eva_airlock_sensor";
 	pixel_y = -25
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3152,8 +3151,7 @@
 /area/hallway/primary/fourthdeck/aft)
 "kP" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 2;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/machinery/light{
 	dir = 1
@@ -3504,8 +3502,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 2;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
@@ -3987,6 +3984,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"nd" = (
+/obj/effect/shuttle_landmark/merc/dock,
+/turf/space,
+/area/space)
 "ng" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -4975,7 +4976,7 @@
 "qJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -4984,12 +4985,21 @@
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	icon_state = "closed";
-	id_tag = "eva_outer";
+	id_tag = "eva_airlock_outer";
 	locked = 1;
 	name = "EVA External Access"
 	},
 /obj/effect/shuttle_landmark/scavver_gantry/torch/two,
 /obj/effect/shuttle_landmark/skrellscoutshuttle/altdock,
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1380;
+	master_tag = "eva_airlock";
+	name = "exterior access button";
+	pixel_x = -9;
+	pixel_y = -21;
+	req_access = list("ACCESS_MAINT")
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
 "qR" = (
@@ -5089,6 +5099,10 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
+"rf" = (
+/obj/effect/floor_decal/corner/red,
+/turf/simulated/wall/r_wall/hull,
+/area/storage/auxillary/starboard)
 "rg" = (
 /obj/effect/floor_decal/corner/mauve{
 	dir = 4;
@@ -8230,8 +8244,7 @@
 /area/maintenance/fourthdeck/foreport)
 "Am" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 2;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
@@ -8243,10 +8256,10 @@
 	name = "EVA Airlock Console";
 	pixel_y = 24;
 	req_access = list("ACCESS_EVA");
-	tag_airpump = "eva_pump";
-	tag_chamber_sensor = "eva_sensor";
-	tag_exterior_door = "eva_outer";
-	tag_interior_door = "eva_inner"
+	tag_airpump = "eva_airlock_pump";
+	tag_chamber_sensor = "eva_airlock_sensor";
+	tag_exterior_door = "eva_airlock_outer";
+	tag_interior_door = "eva_airlock_inner"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
@@ -10695,7 +10708,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -11519,7 +11532,7 @@
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	icon_state = "closed";
-	id_tag = "eva_inner";
+	id_tag = "eva_airlock_inner";
 	locked = 1;
 	name = "EVA Internal Access"
 	},
@@ -12643,6 +12656,10 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/eva)
+"OD" = (
+/obj/effect/shuttle_landmark/admin/out,
+/turf/space,
+/area/space)
 "OG" = (
 /obj/structure/railing/mapped,
 /obj/structure/sign/deck/fourth{
@@ -14808,7 +14825,6 @@
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
-/obj/effect/shuttle_landmark/admin/out,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "TY" = (
@@ -24040,7 +24056,7 @@ aa
 aa
 aa
 aa
-aa
+nd
 aa
 aa
 aa
@@ -27666,7 +27682,7 @@ aa
 aa
 aa
 RQ
-RQ
+rf
 RQ
 iZ
 ej
@@ -41590,7 +41606,7 @@ aa
 aa
 aa
 aa
-aa
+OD
 TX
 UT
 QM
