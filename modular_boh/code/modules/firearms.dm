@@ -410,6 +410,9 @@
 	magazine_type = /obj/item/ammo_magazine/magnum/rubber
 	starts_loaded = 1
 
+/obj/item/weapon/gun/projectile/shotgun/doublebarrel/beanbag
+	ammo_type = /obj/item/ammo_casing/shotgun/beanbag
+
 //General Custom Weaponry -> ENERGY
 
 /obj/item/weapon/gun/energy/pulse_rifle/pistol/epp

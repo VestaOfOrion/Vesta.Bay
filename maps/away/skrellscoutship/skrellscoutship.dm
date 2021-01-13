@@ -256,6 +256,7 @@
 		/obj/item/weapon/magnetic_ammo,
 		/obj/item/device/binoculars,
 		/obj/item/clothing/gloves,
+		/obj/item/weapon/shield/energy/skrell,
 	)
 	can_holster = list(/obj/item/weapon/gun/energy/gun/skrell
 		)

@@ -1,0 +1,8 @@
+author: lamasmaster
+
+delete-after: True
+
+changes: 
+  - maptweak: "Gives chef mailing equipment."
+  - rscadd: "Gives bartender back his shotgun."
+  

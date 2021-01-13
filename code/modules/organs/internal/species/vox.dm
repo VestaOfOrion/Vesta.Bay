@@ -1,34 +1,38 @@
 //vox got different organs within. This will also help with regular surgeons knowing the organs within an alien as alien as vox.
 /obj/item/organ/internal/heart/vox
-	icon_state = "vox heart"
+	icon_state = "organ_voxheart"
 	dead_icon = null
 	parent_organ = BP_GROIN
 
 /obj/item/organ/internal/lungs/vox
 	name = "air capillary sack" //Like birds, Vox absorb gas via air capillaries.
-	icon_state = "vox lung"
+	icon_state = "organ_voxlung"
 
 /obj/item/organ/internal/kidneys/vox
 	name = "filtration bladder"
-	icon_state = "lungs" //wow are vox kidneys fat.
+	icon_state = "organ_voxkidney"
 	color = "#99ccff"
 	parent_organ = BP_CHEST
 
 /obj/item/organ/internal/liver/vox
 	name = "waste tract"
+	icon_state = "organ_voxliver"
 	parent_organ = BP_CHEST
 	color = "#0033cc"
 
 /obj/item/organ/internal/eyes/vox
 	eye_icon = 'icons/mob/human_races/species/vox/eyes.dmi'
+	icon_state = "organ_voxeyes"
 	color = "#0033cc"
 
 /obj/item/organ/internal/eyes/vox/armalis
 	eye_icon = 'icons/mob/human_races/species/vox/armalis_eyes.dmi'
+	icon_state = "organ_voxeyes"
 	color = "#0033cc"
 
 /obj/item/organ/internal/stomach/vox
 	name = "gizzard"
+	icon_state = "organ_voxheart"
 	color = "#0033cc"
 	var/global/list/gains_nutriment_from_inedible_reagents = list(
 		/datum/reagent/woodpulp =      3,
@@ -142,7 +146,7 @@
 						mat_stack.set_amount(mat_stack.amount + taking_sheets)
 						sheets -= taking_sheets
 						updated_stacks = TRUE
-						
+
 				// Create new stacks if needed.
 				while(sheets > 0)
 					var/obj/item/stack/material/mat_stack = new M.stack_type(src)
@@ -158,11 +162,19 @@
 	name = "hindtongue"
 	desc = "Some kind of severed bird tongue."
 	parent_organ = BP_HEAD
-	icon_state = "hindtongue"
+	icon_state = "organ_voxhindtongue"
 	organ_tag = BP_HINDTONGUE
+
+/obj/item/organ/internal/brain/vox
+	name = "brain"
+	desc = "A birdbrain."
+	parent_organ = BP_HEAD
+	icon_state = "organ_voxbrain"
+	organ_tag = BP_BRAIN
 
 /obj/item/organ/internal/voxstack
 	name = "cortical stack"
+	desc = "Advanced alien technology."
 	parent_organ = BP_HEAD
 	icon_state = "cortical-stack"
 	organ_tag = BP_STACK

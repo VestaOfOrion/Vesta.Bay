@@ -98,7 +98,7 @@
 		return loc
 
 /mob
-	var/mob/observer/eye/eyeobj
+	var/mob/observer/eye/freelook/eyeobj
 
 /mob/proc/EyeMove(n, direct)
 	if(!eyeobj)

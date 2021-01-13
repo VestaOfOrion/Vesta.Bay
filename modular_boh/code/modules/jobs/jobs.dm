@@ -382,9 +382,9 @@ var/const/INF               =(1<<11)
 	skill_points = 20
 
 	access = list( //Same access as the SolGov Representative + Private access to their equipment locker
-		access_representative, access_representative_guard,
-		access_bridge, access_solgov_crew,
-		access_hangar, access_torch_fax, access_radio_comm
+		access_representative, access_representative_guard, access_bridge, access_torch_fax, access_solgov_crew,
+		access_radio_comm,
+		access_sec_doors, access_medical, access_research, access_cargo, access_engine, access_hangar, access_infantry
 	)
 
 	defer_roundstart_spawn = TRUE
@@ -406,3 +406,35 @@ var/const/INF               =(1<<11)
 			if(M.mind.assigned_role == "SolGov Representative")
 				to_chat(M, SPAN_NOTICE("<b>Your bodyguard, Agent [person.real_name], is present on [GLOB.using_map.full_name].</b>"))
 	..()
+
+/datum/job/liaison
+	access = list(
+		access_liaison, access_bridge, access_torch_fax, access_solgov_crew, access_keycard_auth,
+		access_nanotrasen, access_commissary,
+		access_radio_comm, access_radio_serv,
+		access_sec_doors, access_medical, access_research, access_cargo, access_engine, access_hangar
+	)
+
+/datum/job/bodyguard
+	access = list(
+		access_liaison, access_bridge, access_torch_fax, access_solgov_crew,
+		access_nanotrasen, access_commissary,
+		access_radio_comm, access_radio_serv,
+		access_sec_doors, access_medical, access_research, access_cargo, access_engine, access_hangar
+	)
+
+/datum/job/representative
+	access = list(
+		access_representative, access_bridge, access_torch_fax, access_solgov_crew,
+		access_radio_comm,
+		access_sec_doors, access_medical, access_research, access_cargo, access_engine, access_hangar, access_infantry
+	)
+
+datum/job/sea
+	access = list(
+		access_sec_doors, access_security, access_medical, access_engine, access_maint_tunnels, access_external_airlocks, access_emergency_storage,
+		access_teleporter, access_eva, access_bridge, access_all_personal_lockers, access_janitor,
+		access_kitchen, access_cargo, access_RC_announce, access_keycard_auth, access_aquila, access_guppy_helm,
+		access_solgov_crew, access_gun, access_expedition_shuttle, access_guppy, access_senadv, access_hangar, access_torch_fax,
+		access_radio_comm, access_radio_eng, access_radio_med, access_radio_sec, access_radio_serv, access_radio_sup, access_radio_exp
+		)

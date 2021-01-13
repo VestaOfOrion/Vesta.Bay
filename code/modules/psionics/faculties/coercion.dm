@@ -74,12 +74,11 @@
 	if(!question || user.incapacitated() || !do_after(user, 20))
 		return TRUE
 
-	var/started_mindread = world.time
 	to_chat(user, SPAN_NOTICE("<b>You dip your mentality into the surface layer of \the [target]'s mind, seeking an answer: <i>[question]</i></b>"))
 	to_chat(target, SPAN_NOTICE("<b>Your mind is compelled to answer: <i>[question]</i></b>"))
 
 	var/answer =  input(target, question, "Read Mind") as null|text
-	if(!answer || world.time > started_mindread + 60 SECONDS || user.stat != CONSCIOUS || target.stat == DEAD)
+	if(!answer || user.stat != CONSCIOUS || target.stat == DEAD)
 		to_chat(user, SPAN_NOTICE("<b>You receive nothing useful from \the [target].</b>"))
 	else
 		to_chat(user, SPAN_NOTICE("<b>You skim thoughts from the surface of \the [target]'s mind: <i>[answer]</i></b>"))

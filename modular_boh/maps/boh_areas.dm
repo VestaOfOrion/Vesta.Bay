@@ -66,9 +66,10 @@
 	icon_state = "pink"
 	req_access = list(access_robotics)
 
-//Radio Host
-/area/radio_host
-	name = "\improper Radio Host Office"
+//Pool
+/area/pool
+	name = "\improper Pool"
+	icon_state = "fitness"
 
 //SMC attache
 /area/command/msea
@@ -134,4 +135,4 @@
 	name = "\improper Security - Anti-Boarding Control Room"
 	icon_state = "security"
 	req_access = list(access_brig)
-//	
+//

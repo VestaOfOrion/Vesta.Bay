@@ -13,6 +13,13 @@
 	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/wings/starboard)
+"ag" = (
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 6
+	},
+/turf/simulated/wall/r_titanium,
+/area/ship/skrellscoutshuttle)
 "ah" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -227,6 +234,10 @@
 "bn" = (
 /obj/machinery/ion_engine{
 	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 4;
+	id_tag = "xil_shuttle_pump_out_external"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/skrellscoutshuttle)
@@ -892,10 +903,11 @@
 /turf/simulated/floor/reinforced/airless,
 /area/ship/skrellscoutship/command/bridge)
 "ej" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	id_tag = "xil_shuttle_pump_out_external"
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 4
 	},
-/turf/simulated/floor/reinforced,
+/turf/simulated/wall/r_titanium,
 /area/ship/skrellscoutshuttle)
 "el" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1166,6 +1178,19 @@
 	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
+"fK" = (
+/obj/machinery/alarm/skrell{
+	pixel_y = 14
+	},
+/obj/structure/table/glass,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/obj/item/roller,
+/turf/simulated/floor/tiled/skrell/white,
+/area/ship/skrellscoutship/crew/medbay)
 "fL" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
@@ -1563,6 +1588,13 @@
 	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/brig)
+"hI" = (
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 5
+	},
+/turf/simulated/wall/r_titanium,
+/area/ship/skrellscoutshuttle)
 "hM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2187,7 +2219,7 @@
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
-	id_tag = "xil_shuttle";
+	id_tag = "xil_shuttle_airlock";
 	name = "Blast Doors"
 	},
 /turf/simulated/floor/tiled/skrell/red,
@@ -2327,7 +2359,9 @@
 /area/ship/skrellscoutship/crew/fit)
 "mD" = (
 /obj/machinery/atmospherics/portables_connector,
-/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/portable_atmospherics/canister/air/airlock{
+	start_pressure = 603.975
+	},
 /turf/simulated/floor/tiled/skrell,
 /area/ship/skrellscoutship/dock)
 "mS" = (
@@ -2427,6 +2461,13 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/skrellscoutship/crew/fit)
+"nC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 9
+	},
+/obj/effect/paint/black,
+/turf/simulated/wall/r_titanium,
+/area/ship/skrellscoutshuttle)
 "nG" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2487,6 +2528,9 @@
 	dir = 2;
 	id_tag = "xil_shuttle";
 	name = "Blast Doors"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/ship/skrellscoutshuttle)
@@ -3431,6 +3475,10 @@
 	pixel_x = -7;
 	pixel_y = 7
 	},
+/obj/machinery/light/skrell{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/crew/rec)
 "sq" = (
@@ -3617,6 +3665,21 @@
 	},
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/crew/dormitories)
+"tI" = (
+/obj/machinery/ion_engine{
+	dir = 4
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1331;
+	id_tag = "xil_shuttle_sensor_external";
+	pixel_y = 22
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 4;
+	id_tag = "xil_shuttle_pump_out_external"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/ship/skrellscoutshuttle)
 "tK" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/portables_connector,
@@ -4055,13 +4118,6 @@
 	},
 /turf/simulated/floor/tiled/skrell/green,
 /area/ship/skrellscoutship/crew/kitchen)
-"vQ" = (
-/obj/machinery/light/skrell{
-	dir = 1;
-	icon_state = "tube1"
-	},
-/turf/simulated/floor/tiled/skrell/orange,
-/area/ship/skrellscoutship/crew/rec)
 "vR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -4099,6 +4155,9 @@
 	dir = 2;
 	id_tag = "xil_shuttle_sensor";
 	name = "Blast Doors"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 4
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/skrellscoutshuttle)
@@ -4265,9 +4324,11 @@
 	dir = 1;
 	level = 2
 	},
-/obj/machinery/recharger/wallcharger{
-	dir = 1;
-	pixel_y = -24
+/obj/machinery/button/blast_door{
+	id_tag = "xil_shuttle_sensor";
+	name = "Sensors Blast Door";
+	pixel_x = -4;
+	pixel_y = -26
 	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutshuttle)
@@ -4590,7 +4651,7 @@
 	},
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
-	id_tag = "xil_shuttle";
+	id_tag = "xil_shuttle_airlock";
 	name = "Blast Doors"
 	},
 /turf/simulated/floor/plating,
@@ -5221,22 +5282,51 @@
 	icon_state = "tube1"
 	},
 /obj/machinery/button/blast_door{
-	id_tag = "xil_shuttle";
-	name = "Shuttle Lockdown";
+	id_tag = "xil_shuttle_airlock";
+	name = "Airlock Blast Doors";
 	pixel_x = -27;
+	pixel_y = 24
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "xil_shuttle";
+	name = "Canopy Blast Doors";
+	pixel_x = -39;
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutshuttle)
 "BV" = (
 /obj/structure/table/rack/dark,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
-/obj/item/clothing/glasses/material,
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/armory)
 "Ce" = (
@@ -5962,6 +6052,9 @@
 	name = "Command Hardsuit";
 	req_access = list("ACCESS_SKRELLSCOUT")
 	},
+/obj/item/clothing/mask/gas/syndicate{
+	name = "skrellian mask"
+	},
 /turf/simulated/floor/carpet/blue,
 /area/ship/skrellscoutship/command/vuxix)
 "FG" = (
@@ -6372,6 +6465,12 @@
 /area/ship/skrellscoutship/wings/starboard)
 "HW" = (
 /obj/structure/bed/chair/comfy/red,
+/obj/machinery/button/blast_door{
+	id_tag = "xil_sensors";
+	name = "Sensors Blast Door";
+	pixel_x = 28;
+	pixel_y = 23
+	},
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/bridge)
 "Ig" = (
@@ -6691,6 +6790,11 @@
 /obj/item/weapon/gun/magnetic/railgun/flechette/skrell/vesta,
 /turf/simulated/floor/tiled/skrell/blue,
 /area/ship/skrellscoutship/command/armory)
+"Ki" = (
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/manifold/hidden/black,
+/turf/simulated/wall/r_titanium,
+/area/ship/skrellscoutshuttle)
 "Kk" = (
 /obj/effect/wallframe_spawn/reinforced_phoron/hull,
 /obj/effect/paint/black,
@@ -7080,8 +7184,8 @@
 /area/ship/skrellscoutship/crew/toilets)
 "Mz" = (
 /obj/effect/paint/black,
-/obj/machinery/atmospherics/pipe/simple/hidden/black{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/hidden/black{
+	dir = 1
 	},
 /turf/simulated/wall/r_titanium,
 /area/ship/skrellscoutshuttle)
@@ -7815,6 +7919,7 @@
 	pixel_y = -5
 	},
 /obj/machinery/cell_charger,
+/obj/item/weapon/storage/box/syringes,
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "Pp" = (
@@ -8296,8 +8401,8 @@
 "QW" = (
 /obj/machinery/atmospherics/omni/filter{
 	tag_east = 1;
-	tag_north = 2;
-	tag_south = 8
+	tag_south = 8;
+	tag_west = 2
 	},
 /turf/simulated/floor/tiled/skrell/orange,
 /area/ship/skrellscoutship/maintenance/atmos)
@@ -8768,24 +8873,19 @@
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/brig)
 "SU" = (
-/obj/structure/bed/roller,
 /obj/machinery/light/skrell{
 	dir = 1;
 	icon_state = "tube1"
 	},
+/obj/machinery/sleeper,
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "Ta" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
-	dir = 1;
-	id_tag = "xil_shuttle_pump_out_external"
+/obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 9
 	},
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
-	id_tag = "xil_shuttle_sensor_external";
-	pixel_y = 22
-	},
-/turf/simulated/floor/reinforced,
+/turf/simulated/wall/r_titanium,
 /area/ship/skrellscoutshuttle)
 "Tb" = (
 /obj/structure/cable/green{
@@ -9386,8 +9486,10 @@
 /turf/simulated/floor/tiled/skrell/white,
 /area/ship/skrellscoutship/crew/medbay)
 "Wl" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/effect/paint/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/black{
+	dir = 10
+	},
 /turf/simulated/wall/r_titanium,
 /area/ship/skrellscoutshuttle)
 "Wm" = (
@@ -12356,7 +12458,7 @@ nY
 dn
 lP
 lP
-bn
+tI
 bn
 MQ
 lX
@@ -12447,8 +12549,8 @@ TB
 TB
 TB
 MQ
-lP
-lP
+Mz
+Ta
 lP
 rX
 nH
@@ -12458,8 +12560,8 @@ iD
 Sc
 oB
 lP
-lP
-lP
+Wl
+Ki
 MQ
 lX
 lX
@@ -12663,7 +12765,7 @@ GW
 wV
 lP
 sM
-lP
+ej
 MQ
 lX
 Qb
@@ -12753,7 +12855,7 @@ fE
 TB
 TB
 MQ
-lP
+ej
 HR
 cG
 Lz
@@ -12855,8 +12957,8 @@ Xr
 xA
 TB
 MQ
-lP
-lP
+Wl
+hI
 Ea
 Nk
 sj
@@ -12866,8 +12968,8 @@ zK
 PN
 BI
 lP
-lP
-lP
+ag
+Ta
 MQ
 lX
 aB
@@ -12958,8 +13060,8 @@ Wk
 TB
 MQ
 MQ
-lP
-lP
+Wl
+hI
 WU
 yJ
 oN
@@ -12967,8 +13069,8 @@ dG
 Di
 lP
 Zt
-lP
-lP
+ag
+Ta
 MQ
 MQ
 lX
@@ -13061,15 +13163,15 @@ TB
 TB
 MQ
 MQ
-lP
-lP
+Wl
+hI
 za
 BH
 wa
 Cp
 lP
-lP
-lP
+ag
+Ta
 MQ
 MQ
 ys
@@ -13164,13 +13266,13 @@ Eb
 Bu
 MQ
 MQ
-lP
+ej
 Er
 Ru
 zs
 Ru
 gP
-lP
+ej
 MQ
 MQ
 QB
@@ -13266,13 +13368,13 @@ zr
 bv
 rj
 MQ
-lP
-lP
+Wl
+hI
 ua
 sP
 aY
 Mz
-lP
+Ta
 MQ
 lX
 mY
@@ -13368,13 +13470,13 @@ Qd
 os
 Pg
 MQ
-ej
+MQ
 Wl
 UN
 ly
 yE
-UN
-Ta
+nC
+MQ
 MQ
 lX
 vj
@@ -14687,7 +14789,7 @@ IK
 ps
 fG
 TB
-Xu
+fK
 Xr
 Xr
 Xr
@@ -16035,7 +16137,7 @@ Fo
 oR
 Xe
 Qz
-vQ
+cx
 WC
 tx
 NY

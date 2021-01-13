@@ -2,7 +2,7 @@ GLOBAL_LIST_INIT(mob_spawners, list())
 
 /datum/build_mode/mob_mode
 	name = "Mob Spawning"
-	icon_state = "buildmode10"
+	icon_state = "buildmode11"
 	var/area/current_area
 	var/turf/current_turf
 	var/turf/center
@@ -261,7 +261,7 @@ GLOBAL_LIST_INIT(mob_spawners, list())
 
 	var/datum/mob_spawner/spawner = GLOB.mob_spawners[current_turf]
 
-	if (!spawner && !pa["right"])
+	if (!spawner)
 		spawner = new /datum/mob_spawner
 		spawner.area = current_area
 		GLOB.mob_spawners[current_turf] = spawner
@@ -271,10 +271,6 @@ GLOBAL_LIST_INIT(mob_spawners, list())
 
 	if (pa["ctrl"])
 		if (pa["left"])
-			if (!spawner)
-				to_chat(user, SPAN_WARNING("There is no spawner in this area to copy from!"))
-				return
-
 			copied_spawner = spawner.copy()
 			to_chat(user, "Spawner from area [current_area] copied.")
 

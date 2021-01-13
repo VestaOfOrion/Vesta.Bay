@@ -7,7 +7,7 @@
 
 	layer = SIDE_WINDOW_LAYER
 	anchored = 1.0
-	atom_flags = ATOM_FLAG_NO_TEMP_CHANGE
+	atom_flags = ATOM_FLAG_NO_TEMP_CHANGE | ATOM_FLAG_CAN_BE_PAINTED
 	obj_flags = OBJ_FLAG_ROTATABLE
 	alpha = 180
 	var/material/reinf_material
@@ -21,6 +21,8 @@
 	var/polarized = 0
 	var/basestate = "window"
 	var/reinf_basestate = "rwindow"
+	var/paint_color
+	var/base_color // The windows initial color. Used for resetting purposes.
 	rad_resistance_modifier = 0.5
 	blend_objects = list(/obj/machinery/door, /turf/simulated/wall) // Objects which to blend with
 	noblend_objects = list(/obj/machinery/door/window)
@@ -47,7 +49,6 @@
 
 	name = "[reinf_material ? "reinforced " : ""][material.display_name] window"
 	desc = "A window pane made from [material.display_name]."
-	color =  material.icon_colour
 
 	if (start_dir)
 		set_dir(start_dir)
@@ -64,6 +65,8 @@
 	if (constructed)
 		set_anchored(FALSE)
 		construction_state = 0
+
+	base_color = get_color()
 
 	update_connections(1)
 	update_icon()
@@ -94,6 +97,23 @@
 			to_chat(user, "<span class='warning'>It looks moderately damaged.</span>")
 		else
 			to_chat(user, "<span class='danger'>It looks heavily damaged.</span>")
+
+	if (paint_color)
+		to_chat(user, SPAN_NOTICE("The glass is stained with paint."))
+
+/obj/structure/window/get_color()
+	if (paint_color)
+		return paint_color
+	else if (material?.icon_colour)
+		return material.icon_colour
+	else if (base_color)
+		return base_color
+	else
+		..()
+
+/obj/structure/window/set_color(color)
+	paint_color = color
+	update_icon()
 
 /obj/structure/window/CanFluidPass(var/coming_from)
 	return (!is_fulltile() && coming_from != dir)
@@ -299,7 +319,7 @@
 			playsound(src, 'sound/items/Welder.ogg', 80, 1)
 			construction_state = 0
 			set_anchored(0)
-	else if (!istype(W, /obj/item/weapon/rcd))
+	else if (!istype(W, /obj/item/weapon/rcd) && !istype(W, /obj/item/device/paint_sprayer))
 		user.setClickCooldown(DEFAULT_ATTACK_COOLDOWN)
 		if(W.damtype == BRUTE || W.damtype == BURN)
 			user.do_attack_animation(src)
@@ -392,6 +412,12 @@
 		basestate = initial(basestate)
 	overlays.Cut()
 	layer = FULL_WINDOW_LAYER
+	if (paint_color)
+		color = paint_color
+	else if (material?.icon_colour)
+		color = material.icon_colour
+	else
+		color = GLASS_COLOR
 	if(!is_fulltile())
 		layer = SIDE_WINDOW_LAYER
 		icon_state = basestate
@@ -424,6 +450,7 @@
 
 /obj/structure/window/proc/process_icon(basestate, icon_group, damage_group, connections, img_dir, damage_alpha)
 	var/image/I = image(icon, "[basestate][icon_group][connections]", dir = img_dir)
+	I.color = get_color()
 	overlays += I
 
 	if (damage_group == "_onframe")
@@ -518,11 +545,11 @@
 	if(!polarized)
 		return
 	if(opacity)
-		animate(src, color=material.icon_colour, time=5)
-		set_opacity(0)
+		animate(src, color=get_color(), time=5)
+		set_opacity(FALSE)
 	else
 		animate(src, color=GLASS_COLOR_TINTED, time=5)
-		set_opacity(1)
+		set_opacity(TRUE)
 
 /obj/structure/window/proc/is_on_frame()
 	if(locate(/obj/structure/wall_frame) in loc)
