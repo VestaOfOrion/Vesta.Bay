@@ -3,4 +3,4 @@ author: gilvian
 delete-after: True
 
 changes: 
-  - rcsadd: "adds a really weird and abstract exoplanet structure."
+  - rscadd: "adds a really weird and abstract exoplanet structure."
