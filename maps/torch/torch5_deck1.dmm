@@ -77,6 +77,14 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/engineering/fuelbay/aux)
+"aal" = (
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Miscellaneous Test Chamber";
+	dir = 8;
+	network = list("Research","Miscellaneous Reseach")
+	},
+/turf/simulated/floor/reinforced,
+/area/rnd/misc_lab)
 "aam" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -523,6 +531,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/center)
+"abg" = (
+/obj/machinery/atmospherics/valve,
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Xenobotany Laboratory";
+	dir = 8
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/rnd/xenobiology/xenoflora)
 "abi" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 1;
@@ -2574,7 +2590,7 @@
 /obj/machinery/door/airlock/glass/medical{
 	autoset_access = 0;
 	name = "Medical Foyer";
-	req_access = list(list(access_medical,access_morgue,access_forensics_lockers))
+	req_access = list(list("ACCESS_MEDICAL","ACCESS_MORGUE","ACCESS_FORENSICS"))
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -4173,10 +4189,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/rnd/development)
 "ahv" = (
-/obj/machinery/camera/network/medbay{
-	c_tag = "Infirmary - Counselor's Therapy Room";
-	dir = 4
-	},
 /obj/machinery/light{
 	dir = 8
 	},
@@ -4673,7 +4685,7 @@
 /obj/machinery/camera/network/command{
 	c_tag = "Psionic Advisor - Office";
 	dir = 1;
-	network = list("Command","Engineering")
+	network = list("Command")
 	},
 /obj/item/device/radio/intercom{
 	dir = 1;
@@ -13137,10 +13149,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/engineering{
-	door_color = "#ffffff";
-	name = "Robotics";
-	stripe_color = "#a2819e"
+/obj/machinery/door/airlock/science{
+	name = "Robotics"
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/assembly/robotics/office)
@@ -20283,11 +20293,11 @@
 /obj/machinery/recharger/wallcharger{
 	pixel_y = 24
 	},
-/obj/machinery/camera/network/engineering{
-	c_tag = "Engineering - Robotics Office"
-	},
 /obj/item/weapon/book/manual/ripley_build_and_repair,
 /obj/item/weapon/book/manual/robotics_cyborgs,
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Robotics Office"
+	},
 /turf/simulated/floor/tiled,
 /area/assembly/robotics/office)
 "izb" = (
@@ -25843,12 +25853,11 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/operations_storage)
 "oPD" = (
-/obj/machinery/door/airlock/engineering{
-	door_color = "#ffffff";
-	name = "Robotics";
-	stripe_color = "#a2819e"
-	},
 /obj/structure/disposalpipe/segment,
+/obj/machinery/door/airlock/science{
+	name = "Robotics"
+	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/monotile,
 /area/assembly/robotics/office)
 "oQb" = (
@@ -28049,14 +28058,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/rnd/misc_lab)
-"rkb" = (
-/obj/machinery/atmospherics/valve,
-/obj/machinery/camera/network/research{
-	c_tag = "Research - Xenobotany Laboratory";
-	dir = 8
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/rnd/xenobiology/xenoflora)
 "rkX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -29258,14 +29259,6 @@
 	name = "bluespacerift"
 	},
 /obj/item/device/radio/beacon,
-/turf/simulated/floor/reinforced,
-/area/rnd/misc_lab)
-"srb" = (
-/obj/machinery/camera/network/research{
-	c_tag = "Research - Miscellaneous Test Chamber";
-	dir = 8;
-	network = list("Research","Miscellaneous Reseach")
-	},
 /turf/simulated/floor/reinforced,
 /area/rnd/misc_lab)
 "sru" = (
@@ -56385,7 +56378,7 @@ bmb
 pRb
 qib
 qMb
-rkb
+abg
 rJb
 rYb
 rib
@@ -57196,7 +57189,7 @@ qOb
 qSb
 rLb
 rZb
-srb
+aal
 ryb
 aHQ
 aTe
