@@ -1,0 +1,6 @@
+
+author: Electric
+delete-after: True
+changes:
+  - tweak: "Expanded access for SGR, CL, and their bodyguards. They all have basic department accesses and can enter the hangar. SGR and CL can swipe for code red."
+  - tweak: "SEA has security door access."

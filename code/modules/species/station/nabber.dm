@@ -473,7 +473,7 @@
 
 	genders = list(FEMALE)
 
-	total_health = 150
+	total_health = 200
 
 	mob_size = MOB_MEDIUM
 	breath_pressure = 21
