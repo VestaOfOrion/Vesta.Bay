@@ -1,4 +1,4 @@
 author: Pebblesthe2nd
 delete-after: True
 changes: 
-  - rscadd: "New glasses, sunglasses. Some old ones replaced. Loadout glasses cleaned up."
+  - rscadd: "New glasses, sunglasses, sprites and objects, updates to realted old sprites. Minor restructure in loadout, two new subgroups, sunglasses and prescription sunglasses."
