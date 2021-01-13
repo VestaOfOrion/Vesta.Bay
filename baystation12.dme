@@ -1260,7 +1260,7 @@
 #include "code\modules\admin\buildmode\edit.dm"
 #include "code\modules\admin\buildmode\ladders.dm"
 #include "code\modules\admin\buildmode\light_maker.dm"
-#include "code\modules\admin\buildmode\mobspawning.dm"
+#include "code\modules\admin\buildmode\mob_spawning.dm"
 #include "code\modules\admin\buildmode\move_into.dm"
 #include "code\modules\admin\buildmode\overlay.dm"
 #include "code\modules\admin\buildmode\portals.dm"
