@@ -4663,6 +4663,10 @@
 /obj/effect/shuttle_landmark/ascent_seedship/torch/trichoptera,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
+"pB" = (
+/obj/effect/shuttle_landmark/admin/out,
+/turf/space,
+/area/space)
 "pD" = (
 /obj/structure/railing/mapped{
 	dir = 8;
@@ -41620,7 +41624,7 @@ aa
 aa
 aa
 aa
-aa
+pB
 TX
 UT
 QM
