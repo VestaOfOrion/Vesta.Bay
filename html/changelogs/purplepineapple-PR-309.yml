@@ -37,3 +37,4 @@ changes:
   - rscadd: "Added an unlocked suit cycler for offships."
   - tweak: "The Bearcat now has an unlocked suit cycler and the armory has been given slightly better weaponry than bolt actions."
   - bugfix: "Removed the doors in the wall of the Bearcat's atmospherics room."
+  - bugfix: "The secure storage of the bearcat now is locked to Captain access."
