@@ -69,8 +69,9 @@
 	icon_state = "yellow"
 
 /area/ship/scrap/hidden
-	name = "Unknown" //shielded compartment
+	name = "Secure Storage" //Bearcat Armory/Storage
 	icon_state = "auxstorage"
+	req_access = list(access_bearcat_captain)
 
 /area/ship/scrap/escape_port
 	name = "Port Escape Pods"

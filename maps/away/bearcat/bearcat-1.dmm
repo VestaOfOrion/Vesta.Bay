@@ -2217,7 +2217,7 @@
 /turf/simulated/floor,
 /area/ship/scrap/maintenance/storage)
 "ej" = (
-/obj/machinery/suit_cycler,
+/obj/machinery/suit_cycler/crashed,
 /turf/simulated/floor,
 /area/ship/scrap/maintenance/eva)
 "ek" = (
@@ -2624,7 +2624,6 @@
 	dir = 8;
 	level = 2
 	},
-/obj/machinery/suit_storage_unit/engineering/salvage/bearcat,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/maintenance/eva)
 "eQ" = (
