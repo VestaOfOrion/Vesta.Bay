@@ -1,6 +1,0 @@
-author: Vhbraz
-
-delete-after: True
-
-changes: 
-  - rscadd: "Overmap movement is now pixel based. All credits go to Loaf"
