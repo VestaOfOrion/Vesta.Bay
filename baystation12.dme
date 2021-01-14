@@ -3300,3 +3300,4 @@
 #include "modular_mithra\code\modules\sprite_accessories\accessory_tajara.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE
+#include "code\modules\clothing\glasses\prescsun.dm"
