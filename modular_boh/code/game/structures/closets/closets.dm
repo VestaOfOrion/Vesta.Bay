@@ -18,7 +18,7 @@
 /decl/closet_appearance/secure_closet/torch/security/infantry
 	extra_decals = list(
 		"stripe_vertical_mid_full" = "#429661",
-		"security" = "#429661"
+		"infantry" = "#429661"
 	)
 
 /decl/closet_appearance/secure_closet/security/infantry/squad_lead
@@ -26,7 +26,7 @@
 		"stripe_vertical_left_full" =  "#429661",
 		"stripe_vertical_right_full" = "#429661",
 		"stripe_vertical_mid_full" =  COLOR_CLOSET_GOLD,
-		"security" = "#429661"
+		"infantry" = "#429661"
 	)
 
 /obj/structure/closet/secure_closet/infantry
