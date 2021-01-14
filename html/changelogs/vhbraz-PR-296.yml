@@ -1,8 +1,0 @@
-author: Vhbraz
-
-delete-after: True
-
-changes: 
-  - maptweak: "Changes the SSV-S airlock pipes a little in order to make them work better."
-  - tweak: "Skrellian combat belts can now hold their shields."
-  - maptweak: "SSV now has sleepers"
