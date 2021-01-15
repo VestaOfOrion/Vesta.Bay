@@ -5,7 +5,8 @@
 	icon_state = "tablet"
 	icon_state_unpowered = "tablet"
 	item_state = "tablet"
-
+	slot_flags = SLOT_BELT
+	
 	hardware_flag = PROGRAM_TABLET
 	max_hardware_size = 1
 	w_class = ITEM_SIZE_SMALL
