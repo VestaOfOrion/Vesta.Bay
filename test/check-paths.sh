@@ -31,7 +31,7 @@ exactly 2 "/mob text paths" '"/mob'
 exactly 10 "/obj text paths" '"/obj'
 exactly 8 "/turf text paths" '"/turf'
 exactly 118 "to_world uses" '\sto_world\('
-exactly 65 "to_world_log uses" '\sto_world_log\('
+exactly 66 "to_world_log uses" '\sto_world_log\('
 exactly 0 "world<< uses" 'world<<|world[[:space:]]<<'
 exactly 0 "world.log<< uses" 'world.log<<|world.log[[:space:]]<<'
 exactly 110 "<< uses" '(?<!<)<<(?!<)' -P
@@ -41,7 +41,7 @@ exactly 3 "update_icon() override" '/update_icon\((.*)\)'  -P
 exactly 1 "goto use" 'goto '
 exactly 490 "spawn uses" 'spawn\s*\(\s*(-\s*)?\d*\s*\)' -P
 exactly 0 "tag uses" '\stag = ' -P '**/*.dmm'
-exactly 262 "/global/ or /static/ vars defined" '/(global|static)/' -P
+exactly 251 "/global/ or /static/ vars defined" '/(global|static)/' -P
 # With the potential exception of << if you increase any of these numbers you're probably doing it wrong
 
 broken_files=0

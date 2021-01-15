@@ -339,6 +339,7 @@
 	dir = 8;
 	icon_state = "pipe-c"
 	},
+/obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "aL" = (
@@ -738,6 +739,10 @@
 /area/maintenance/bridge/aftstarboard)
 "by" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "bz" = (
@@ -2555,6 +2560,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "ez" = (
@@ -2566,6 +2574,10 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "eA" = (
@@ -3049,6 +3061,25 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"fq" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/obj/random/maintenance/solgov/clean,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/aftport)
 "fu" = (
 /obj/structure/sign/warning/high_voltage{
 	dir = 8;
@@ -3428,6 +3459,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "gd" = (
@@ -4070,7 +4102,7 @@
 	},
 /obj/effect/floor_decal/corner/red/full,
 /obj/item/weapon/tank/emergency/oxygen/double,
-/obj/item/weapon/rig/hazard/equipped,
+/obj/item/weapon/rig/hazard/equipped/chief,
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
 "hU" = (
@@ -5942,7 +5974,6 @@
 	pixel_y = 27;
 	req_access = list("ACCESS_HEAD_OF_SECURITY")
 	},
-/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
@@ -10119,6 +10150,7 @@
 	pixel_x = 0;
 	pixel_y = -24
 	},
+/obj/item/gunbox,
 /turf/simulated/floor/carpet,
 /area/crew_quarters/heads/office/sea)
 "wx" = (
@@ -10192,7 +10224,6 @@
 "wE" = (
 /obj/structure/sign/double/icarus/solgovflag/right{
 	dir = 1;
-	pixel_y = -32;
 	pixel_z = -32
 	},
 /obj/machinery/photocopier,
@@ -11521,10 +11552,6 @@
 	c_tag = "AI Core - Outer";
 	dir = 8
 	},
-/obj/structure/flora/pottedplant/unusual{
-	desc = "More loyal than the crew.";
-	name = "Steven"
-	},
 /turf/simulated/floor/tiled/monotile,
 /area/turret_protected/ai)
 "Am" = (
@@ -11942,6 +11969,7 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
 	},
+/obj/item/gunbox,
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Bv" = (
@@ -12210,6 +12238,10 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "Ce" = (
@@ -12389,6 +12421,14 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/turret_protected/ai_outer_chamber)
+"CC" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/obj/random/maintenance/solgov/clean,
+/turf/simulated/floor/tiled/techfloor,
+/area/maintenance/bridge/foreport)
 "CD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -12613,12 +12653,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
-"Dh" = (
-/obj/structure/closet/firecloset,
-/turf/simulated/floor/tiled/techmaint,
-/area/turret_protected/ai_outer_chamber)
 "Dq" = (
 /obj/structure/bed/chair/padded/blue,
 /obj/structure/sign/double/icarus/solgovflag/left{
@@ -13031,7 +13071,6 @@
 	locked = 0;
 	pixel_x = 24
 	},
-/obj/structure/closet/secure_closet/guncabinet/PPE,
 /turf/simulated/floor/tiled/steel_ridged,
 /area/turret_protected/ai_outer_chamber)
 "EM" = (
@@ -13220,6 +13259,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_outer_chamber)
+"Fs" = (
+/obj/random/closet,
+/obj/random/maintenance/solgov/clean,
+/obj/random/maintenance/solgov/clean,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/aftport)
 "Ft" = (
 /obj/machinery/sleeper{
 	dir = 8
@@ -13626,7 +13671,11 @@
 /obj/structure/cable/cyan{
 	icon_state = "0-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/obj/machinery/porta_turret{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/plating,
 /area/turret_protected/ai)
 "Gy" = (
 /obj/structure/cable/green{
@@ -13671,7 +13720,9 @@
 /obj/machinery/light/spot{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/guncabinet/sidearm/combined,
+/obj/structure/closet/secure_closet/guncabinet/PPE{
+	req_access = list(list("ACCESS_BRIDGE","ACCESS_ARMORY","ACCESS_TORCH_ARMORY","ACCESS_HEAD_OF_SECURITY","ACCESS_HEAD_OF_PERSONNEL","ACCESS_CHIEF_ENGINEER","ACCESS_CHIEF_MEDICAL_OFFICER","ACCESS_RESEARCH_DIRECTOR","ACCESS_TORCH_SENIOR_ADVISOR"))
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/turret_protected/ai_outer_chamber)
 "GG" = (
@@ -14681,6 +14732,10 @@
 /obj/item/weapon/hand_labeler,
 /turf/simulated/floor/carpet/blue,
 /area/command/bridge_quarters)
+"Jr" = (
+/obj/random/maintenance/solgov/clean,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/aftport)
 "Jt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -14788,6 +14843,7 @@
 /area/turret_protected/ai_outer_chamber)
 "JT" = (
 /obj/effect/floor_decal/industrial/outline/grey,
+/obj/random/maintenance/solgov/clean,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/bridge/forestarboard)
 "JV" = (
@@ -15475,9 +15531,6 @@
 /area/turret_protected/ai_outer_chamber)
 "Mt" = (
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/porta_turret{
-	dir = 8
-	},
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
@@ -15488,7 +15541,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/monotile,
 /area/turret_protected/ai)
 "Mu" = (
 /obj/structure/table/standard,
@@ -15849,6 +15902,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "Nz" = (
@@ -16131,7 +16188,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/tiled/monotile,
+/obj/machinery/porta_turret{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/plating,
 /area/turret_protected/ai)
 "Or" = (
 /turf/simulated/floor/airless,
@@ -16532,7 +16593,11 @@
 	icon_state = "alarm0";
 	pixel_y = -22
 	},
-/turf/simulated/floor/tiled/monotile,
+/obj/machinery/porta_turret{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/plating,
 /area/turret_protected/ai)
 "PN" = (
 /obj/structure/cable/cyan{
@@ -16998,6 +17063,10 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4;
+	icon_state = "spline_fancy"
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "Re" = (
@@ -17032,6 +17101,7 @@
 	dir = 9;
 	icon_state = "intact-supply"
 	},
+/obj/machinery/drone_fabricator/torch/adv,
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_data_chamber)
 "Rh" = (
@@ -17083,6 +17153,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_outer_chamber)
+"Rn" = (
+/obj/random/maintenance/solgov/clean,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/foreport)
 "Rp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -17147,6 +17221,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
+"RB" = (
+/obj/random/closet,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/aftport)
 "RC" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -17418,6 +17496,10 @@
 /obj/item/weapon/book/manual/solgov_law,
 /obj/item/weapon/book/manual/sol_sop,
 /obj/item/weapon/book/manual/military_law,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/command/msea)
 "Sj" = (
@@ -18156,6 +18238,7 @@
 /area/turret_protected/ai_outer_chamber)
 "Uo" = (
 /obj/structure/bed/chair/padded/green,
+/obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
 "Ur" = (
@@ -18845,6 +18928,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
+"Wo" = (
+/obj/random/maintenance/solgov/clean,
+/turf/simulated/floor/tiled/techfloor,
+/area/maintenance/bridge/foreport)
 "Wp" = (
 /turf/simulated/floor/reinforced/airless,
 /area/turret_protected/ai_outer_chamber)
@@ -18906,8 +18993,11 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "WI" = (
-/obj/structure/closet/secure_closet/guncabinet/sidearm/small,
-/turf/simulated/floor/tiled/techmaint,
+/obj/machinery/porta_turret{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/grey,
+/turf/simulated/floor/plating,
 /area/turret_protected/ai_outer_chamber)
 "WK" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -19930,6 +20020,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/cl)
@@ -29436,7 +29530,7 @@ vP
 IE
 sB
 wS
-Ht
+Rn
 oB
 wS
 tg
@@ -29639,7 +29733,7 @@ mz
 sB
 wS
 Ht
-oB
+Wo
 wS
 tg
 tg
@@ -31657,7 +31751,7 @@ Rf
 vX
 wD
 sL
-NW
+CC
 NW
 gP
 NW
@@ -34283,7 +34377,7 @@ Lb
 Mb
 Jo
 iH
-xl
+fq
 CN
 CN
 CN
@@ -35894,7 +35988,7 @@ yi
 Bt
 oY
 oh
-Pc
+Jr
 Pc
 Tc
 Pc
@@ -36096,8 +36190,8 @@ TQ
 TY
 oY
 oh
-Pc
-Pc
+RB
+Jr
 Tc
 Pc
 CN
@@ -36705,7 +36799,7 @@ oh
 oh
 Pc
 Tc
-Pc
+Fs
 CN
 CN
 ad
@@ -43966,7 +44060,7 @@ Ki
 SP
 Ki
 Be
-Vt
+SP
 SS
 QP
 oH
@@ -47194,7 +47288,7 @@ Ms
 Ms
 Ms
 Hm
-Dh
+WI
 XP
 WI
 Hm

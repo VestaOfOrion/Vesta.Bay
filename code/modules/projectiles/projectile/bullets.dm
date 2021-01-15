@@ -5,8 +5,7 @@
 	damage = 50
 	damage_type = BRUTE
 	damage_flags = DAM_BULLET | DAM_SHARP
-	nodamage = 0
-	embed = 1
+	embed = TRUE
 	penetration_modifier = 1.0
 	var/mob_passthrough_check = 0
 
@@ -121,7 +120,7 @@
 /* short-casing projectiles, like the kind used in pistols or SMGs */
 
 /obj/item/projectile/bullet/pistol
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_pistol.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot_pistol.ogg'
 	damage = 45
 	distance_falloff = 3
 
@@ -131,7 +130,7 @@
 	distance_falloff = 4
 
 /obj/item/projectile/bullet/pistol/strong
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/revolver_1.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot_strong.ogg'
 	damage = 50
 	penetration_modifier = 0.8
 	distance_falloff = 2.5
@@ -142,25 +141,25 @@
 	damage_flags = 0
 	damage = 5
 	agony = 30
-	embed = 0
+	embed = FALSE
 
 /obj/item/projectile/bullet/pistol/rubber/holdout
 	agony = 20
 
 //4mm. Tiny, very low damage, does not embed, but has very high penetration. Only to be used for the experimental SMG.
 /obj/item/projectile/bullet/flechette
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_4mm.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot_4mm.ogg'
 	damage = 23
 	penetrating = 1
 	armor_penetration = 70
-	embed = 0
+	embed = FALSE
 	distance_falloff = 2
 
 /* shotgun projectiles */
 
 /obj/item/projectile/bullet/shotgun
 	name = "slug"
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_shotgun.ogg'
+	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
 	damage = 65
 	armor_penetration = 10
 
@@ -169,7 +168,7 @@
 	damage = 25
 	damage_flags = 0
 	agony = 60
-	embed = 0
+	embed = FALSE
 	armor_penetration = 0
 	distance_falloff = 3
 
@@ -177,7 +176,7 @@
 //Overall less damage than slugs in exchange for more damage at very close range and more embedding
 /obj/item/projectile/bullet/pellet/shotgun
 	name = "shrapnel"
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_shotgun.ogg'
+	fire_sound = 'sound/weapons/gunshot/shotgun.ogg'
 	damage = 30
 	pellets = 6
 	range_step = 1
@@ -186,7 +185,7 @@
 /* "Rifle" rounds */
 
 /obj/item/projectile/bullet/rifle
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_AR.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot3.ogg'
 	damage = 45
 	armor_penetration = 25
 	penetration_modifier = 1.5
@@ -194,13 +193,13 @@
 	distance_falloff = 1.5
 
 /obj/item/projectile/bullet/rifle/military
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_gunshot_carbine.ogg'
+	fire_sound = 'sound/weapons/gunshot/gunshot2.ogg'
 	damage = 40
 	armor_penetration = 35
 	penetration_modifier = 1
 
 /obj/item/projectile/bullet/rifle/shell
-	fire_sound = 'modular_boh/sounds/weapons/gunshot/new_sniper.ogg'
+	fire_sound = 'sound/weapons/gunshot/sniper.ogg'
 	damage = 80
 	stun = 3
 	weaken = 3
@@ -231,7 +230,7 @@
 /obj/item/projectile/bullet/blank
 	invisibility = 101
 	damage = 1
-	embed = 0
+	embed = FALSE
 
 /* Practice */
 
@@ -252,8 +251,8 @@
 	damage_type = PAIN
 	damage_flags = 0
 	damage = 0
-	nodamage = 1
-	embed = 0
+	nodamage = TRUE
+	embed = FALSE
 
 /obj/item/projectile/bullet/pistol/cap/Process()
 	qdel(src)

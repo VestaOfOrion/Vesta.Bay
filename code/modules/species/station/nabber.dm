@@ -29,6 +29,7 @@
 	blood_color = "#525252"
 	flesh_color = "#525252"
 	blood_oxy = 0
+	organs_icon = 'icons/mob/human_races/species/nabber/organs_nabber.dmi'
 
 	reagent_tag = IS_NABBER
 
@@ -85,8 +86,8 @@
 		BP_EYES =     /obj/item/organ/internal/eyes/insectoid/nabber,
 		BP_TRACH =    /obj/item/organ/internal/lungs/insectoid/nabber,
 		BP_LIVER =    /obj/item/organ/internal/liver/insectoid/nabber,
-		BP_HEART =    /obj/item/organ/internal/heart/open,
-		BP_STOMACH =  /obj/item/organ/internal/stomach,
+		BP_HEART =    /obj/item/organ/internal/heart/open/nabber,
+		BP_STOMACH =  /obj/item/organ/internal/stomach/nabber,
 		BP_PHORON =   /obj/item/organ/internal/phoron,
 		BP_ACETONE =  /obj/item/organ/internal/acetone,
 		BP_VOICE =    /obj/item/organ/internal/voicebox/nabber
@@ -472,7 +473,7 @@
 
 	genders = list(FEMALE)
 
-	total_health = 150
+	total_health = 200
 
 	mob_size = MOB_MEDIUM
 	breath_pressure = 21

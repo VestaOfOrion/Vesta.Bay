@@ -692,8 +692,12 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "cv" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/hull,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 8;
+	id_tag = "skipjack_shuttle_dock_pump"
+	},
+/obj/effect/floor_decal/industrial/warning/full,
+/turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "cw" = (
 /obj/random/obstruction,
@@ -2739,6 +2743,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fourthdeck/aft)
+"iW" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "closed";
+	id_tag = "skipjack_shuttle_dock_outer";
+	locked = 1;
+	name = "Docking Port Airlock"
+	},
+/obj/machinery/shield_diffuser,
+/turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
 "iZ" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/auxillary/starboard)
@@ -2972,13 +2987,12 @@
 "ka" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor,
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
-	id_tag = "eva_sensor";
-	pixel_x = 0;
+	id_tag = "eva_airlock_sensor";
 	pixel_y = -25
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -3105,6 +3119,12 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"ky" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
 "kA" = (
 /obj/structure/curtain,
 /turf/simulated/floor/tiled/freezer,
@@ -3152,8 +3172,7 @@
 /area/hallway/primary/fourthdeck/aft)
 "kP" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 2;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/machinery/light{
 	dir = 1
@@ -3504,8 +3523,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 2;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
@@ -3987,6 +4005,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"nd" = (
+/obj/effect/shuttle_landmark/merc/dock,
+/turf/space,
+/area/space)
 "ng" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -4975,7 +4997,7 @@
 "qJ" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -4984,12 +5006,21 @@
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	icon_state = "closed";
-	id_tag = "eva_outer";
+	id_tag = "eva_airlock_outer";
 	locked = 1;
 	name = "EVA External Access"
 	},
 /obj/effect/shuttle_landmark/scavver_gantry/torch/two,
 /obj/effect/shuttle_landmark/skrellscoutshuttle/altdock,
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1380;
+	master_tag = "eva_airlock";
+	name = "exterior access button";
+	pixel_x = -9;
+	pixel_y = -21;
+	req_access = list("ACCESS_MAINT")
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
 "qR" = (
@@ -8064,6 +8095,10 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/fourthdeck/fore)
+"zB" = (
+/obj/effect/shuttle_landmark/skipjack/dock,
+/turf/space,
+/area/space)
 "zC" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -8234,8 +8269,7 @@
 /area/maintenance/fourthdeck/foreport)
 "Am" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 2;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
@@ -8247,10 +8281,10 @@
 	name = "EVA Airlock Console";
 	pixel_y = 24;
 	req_access = list("ACCESS_EVA");
-	tag_airpump = "eva_pump";
-	tag_chamber_sensor = "eva_sensor";
-	tag_exterior_door = "eva_outer";
-	tag_interior_door = "eva_inner"
+	tag_airpump = "eva_airlock_pump";
+	tag_chamber_sensor = "eva_airlock_sensor";
+	tag_exterior_door = "eva_airlock_outer";
+	tag_interior_door = "eva_airlock_inner"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/eva)
@@ -9214,6 +9248,10 @@
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
+"EA" = (
+/obj/structure/sign/warning/docking_area,
+/turf/simulated/wall/r_wall/hull,
+/area/hallway/primary/fourthdeck/fore)
 "EE" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
@@ -10254,6 +10292,10 @@
 /obj/machinery/computer/shuttle_control/lift/cargo,
 /turf/simulated/floor/tiled/steel_grid,
 /area/turbolift/cargo_lift)
+"HM" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
 "HP" = (
 /obj/machinery/camera/network/fourth_deck{
 	c_tag = "Fourth Deck - Adherent Maintenance";
@@ -10286,11 +10328,6 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/aft)
 "HR" = (
-/obj/effect/floor_decal/industrial/warning/full,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 1;
-	id_tag = "skipjack_shuttle_dock_pump"
-	},
 /obj/machinery/airlock_sensor{
 	frequency = 1380;
 	id_tag = "skipjack_shuttle_dock_sensor";
@@ -10304,6 +10341,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "HS" = (
@@ -10457,17 +10495,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
-"Io" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1380;
-	icon_state = "closed";
-	id_tag = "skipjack_shuttle_dock_outer";
-	locked = 1;
-	name = "Docking Port Airlock"
-	},
-/obj/machinery/shield_diffuser,
-/turf/simulated/floor/plating,
-/area/hallway/primary/fourthdeck/fore)
 "Iq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -10587,6 +10614,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"IG" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	id_tag = "skipjack_shuttle_dock_pump"
+	},
+/obj/effect/floor_decal/industrial/warning/full,
+/turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
 "IL" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -10699,7 +10734,7 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
-	id_tag = "eva_pump"
+	id_tag = "eva_airlock_pump"
 	},
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -11069,9 +11104,9 @@
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fourthdeck/port)
 "Kn" = (
-/obj/effect/shuttle_landmark/skipjack/dock,
-/turf/space,
-/area/space)
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/turf/simulated/floor/plating,
+/area/hallway/primary/fourthdeck/fore)
 "Ko" = (
 /obj/effect/shuttle_landmark/ert/dock,
 /obj/effect/shuttle_landmark/skrellscout/dock,
@@ -11523,7 +11558,7 @@
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
 	icon_state = "closed";
-	id_tag = "eva_inner";
+	id_tag = "eva_airlock_inner";
 	locked = 1;
 	name = "EVA Internal Access"
 	},
@@ -12647,6 +12682,10 @@
 /obj/effect/floor_decal/industrial/outline/grey,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/eva)
+"OD" = (
+/obj/effect/shuttle_landmark/admin/out,
+/turf/space,
+/area/space)
 "OG" = (
 /obj/structure/railing/mapped,
 /obj/structure/sign/deck/fourth{
@@ -14812,7 +14851,6 @@
 	name = "Docking Port Airlock"
 	},
 /obj/machinery/shield_diffuser,
-/obj/effect/shuttle_landmark/admin/out,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
 "TY" = (
@@ -24044,7 +24082,7 @@ aa
 aa
 aa
 aa
-aa
+nd
 aa
 aa
 aa
@@ -28908,10 +28946,10 @@ AH
 BK
 BK
 BK
-aa
-aa
-aa
-aa
+WZ
+WZ
+WZ
+WZ
 aa
 aa
 aa
@@ -29110,11 +29148,11 @@ FZ
 ek
 YK
 WZ
+IG
+IG
+IG
+WZ
 Nv
-aa
-aa
-aa
-aa
 aa
 aa
 aa
@@ -29312,12 +29350,12 @@ fk
 GB
 Ho
 HR
-Io
 Kn
-aa
-aa
-aa
-aa
+Kn
+HM
+ky
+iW
+zB
 aa
 aa
 aa
@@ -29515,10 +29553,10 @@ ct
 WZ
 WZ
 cv
-aa
-aa
-aa
-aa
+cv
+cv
+WZ
+EA
 aa
 aa
 aa
@@ -29716,10 +29754,10 @@ Gb
 GC
 Hp
 Hp
-aa
-aa
-aa
-aa
+WZ
+WZ
+WZ
+WZ
 aa
 aa
 aa
@@ -41594,7 +41632,7 @@ aa
 aa
 aa
 aa
-aa
+OD
 TX
 UT
 QM

@@ -48,14 +48,6 @@
 		/datum/species/plasmasans	= list(/datum/mil_branch/civilian, /datum/mil_branch/solgov),
 	)
 
-	species_to_rank_blacklist = list(
-		/datum/species/machine = list(
-			/datum/mil_branch/solgov = list(
-				/datum/mil_rank/sol/agent
-			)
-		)
-	)
-
 	species_to_rank_whitelist = list(
 		/datum/species/machine = list(
 			/datum/mil_branch/expeditionary_corps = list(

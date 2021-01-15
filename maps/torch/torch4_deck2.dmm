@@ -1408,6 +1408,21 @@
 /obj/item/weapon/stock_parts/circuitboard/arcade/orion_trail,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/tech)
+"ct" = (
+/obj/item/device/integrated_circuit_printer,
+/obj/item/device/integrated_electronics/analyzer,
+/obj/item/device/integrated_electronics/wirer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/structure/table/steel,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/assembly/robotics)
 "cu" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker"
@@ -1716,6 +1731,19 @@
 /obj/random/tech_supply,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/storage/tech)
+"dd" = (
+/obj/machinery/fabricator,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Robotics Lower";
+	dir = 8;
+	icon_state = "camera"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/assembly/robotics)
 "de" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1965,6 +1993,24 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/medical)
+"dI" = (
+/obj/effect/floor_decal/corner/research{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/floordetail/edgedrain{
+	dir = 5;
+	icon_state = "edge"
+	},
+/obj/machinery/vending/wallmed1{
+	pixel_y = 32
+	},
+/obj/structure/table/standard,
+/obj/item/device/robotanalyzer,
+/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/weapon/storage/firstaid/surgery,
+/turf/simulated/floor/tiled/white,
+/area/assembly/robotics/surgery)
 "dJ" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -2658,21 +2704,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/storage/medical)
-"eR" = (
-/obj/item/device/integrated_circuit_printer,
-/obj/item/device/integrated_electronics/analyzer,
-/obj/item/device/integrated_electronics/wirer,
-/obj/item/device/integrated_electronics/debugger,
-/obj/structure/table/steel,
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/assembly/robotics)
 "eS" = (
 /obj/structure/table/rack,
 /obj/item/weapon/gun/launcher/syringe,
@@ -2700,18 +2731,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
-/area/assembly/robotics)
-"eV" = (
-/obj/machinery/fabricator,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/camera/network/engineering{
-	c_tag = "Robotics - Lower";
-	dir = 8
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile,
 /area/assembly/robotics)
 "eW" = (
 /obj/structure/disposalpipe/segment,
@@ -6116,24 +6135,6 @@
 "nc" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/seconddeck/foreport)
-"nd" = (
-/obj/effect/floor_decal/corner/research{
-	dir = 8;
-	icon_state = "corner_white"
-	},
-/obj/effect/floor_decal/floordetail/edgedrain{
-	dir = 5;
-	icon_state = "edge"
-	},
-/obj/machinery/vending/wallmed1{
-	pixel_y = 32
-	},
-/obj/structure/table/standard,
-/obj/item/device/robotanalyzer,
-/obj/item/weapon/storage/toolbox/mechanical,
-/obj/item/weapon/storage/firstaid/surgery,
-/turf/simulated/floor/tiled/white,
-/area/assembly/robotics/surgery)
 "ne" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -14185,9 +14186,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/engineering/foyer)
 "IL" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Robotics Surgical Theater"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -14202,6 +14200,9 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/science{
+	name = "Robotics Surgical Theater"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/assembly/robotics/surgery)
@@ -14795,7 +14796,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/engineering{
+/obj/machinery/door/airlock/science{
 	name = "Robotics Workshop"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -16753,10 +16754,6 @@
 	dir = 8;
 	icon_state = "edge"
 	},
-/obj/machinery/camera/network/engineering{
-	c_tag = "Engineering - Robotics Surgical Theater";
-	dir = 4
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics/surgery)
@@ -17067,6 +17064,11 @@
 	dir = 2;
 	icon_state = "computer";
 	name = "Robotics Operating Computer"
+	},
+/obj/machinery/camera/network/research{
+	c_tag = "Research - Robotics Surgical Theater";
+	dir = 4;
+	icon_state = "camera"
 	},
 /turf/simulated/floor/tiled/white,
 /area/assembly/robotics/surgery)
@@ -35959,7 +35961,7 @@ bY
 cv
 dk
 dk
-eR
+ct
 QA
 su
 fy
@@ -36562,10 +36564,10 @@ eG
 bK
 XP
 XP
-cA
+su
 cz
 cz
-eV
+dd
 XO
 qt
 QQ
@@ -36764,7 +36766,7 @@ eG
 bK
 bw
 XP
-su
+cA
 dm
 fD
 XP
@@ -37576,7 +37578,7 @@ bK
 bK
 ei
 XP
-nd
+dI
 WH
 un
 PS

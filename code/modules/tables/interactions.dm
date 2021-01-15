@@ -64,16 +64,30 @@
 	return 1
 
 
-/obj/structure/table/MouseDrop_T(obj/O as obj, mob/user as mob)
-
-	if ((!( istype(O, /obj/item/weapon) ) || user.get_active_hand() != O))
-		return ..()
-	if(isrobot(user))
+/obj/structure/table/MouseDrop_T(obj/O as obj, mob/user as mob, src_location, over_location, src_control, over_control, params)
+	if(istype(O.loc, /mob)) //If placing an item
+		if ((!( istype(O, /obj/item/weapon) ) || user.get_active_hand() != O))
+			return ..()
+		if(isrobot(user))
+			return
+		user.unequip_item()
+		if (O.loc != src.loc)
+			step(O, get_dir(O, src))
 		return
-	user.unequip_item()
-	if (O.loc != src.loc)
-		step(O, get_dir(O, src))
-	return
+
+	else if(istype(O.loc, /turf) && istype(O, /obj/item)) //If pushing an item on the tabletop
+		var/obj/item/I = O
+
+		if(O.CanMouseDrop(loc, user))
+			if(O.w_class <= user.can_pull_size)
+				O.forceMove(loc)
+				auto_align(I, params, TRUE)
+			else
+				to_chat(user, SPAN_WARNING("[I] won't budge!"))
+			return
+
+	return ..()
+
 
 /obj/structure/table/attackby(obj/item/W, mob/user, var/click_params)
 	if (!W) return
@@ -116,7 +130,7 @@ closest to where the cursor has clicked on.
 Note: This proc can be overwritten to allow for different types of auto-alignment.
 */
 /obj/item/var/center_of_mass = "x=16;y=16" //can be null for no exact placement behaviour
-/obj/structure/table/proc/auto_align(obj/item/W, click_params)
+/obj/structure/table/proc/auto_align(obj/item/W, click_params, var/animate = FALSE)
 	if (!W.center_of_mass) // Clothing, material stacks, generally items with large sprites where exact placement would be unhandy.
 		W.pixel_x = rand(-W.randpixel, W.randpixel)
 		W.pixel_y = rand(-W.randpixel, W.randpixel)
@@ -139,8 +153,18 @@ Note: This proc can be overwritten to allow for different types of auto-alignmen
 
 	var/list/center = cached_key_number_decode(W.center_of_mass)
 
-	W.pixel_x = (CELLSIZE * (cell_x + 0.5)) - center["x"]
-	W.pixel_y = (CELLSIZE * (cell_y + 0.5)) - center["y"]
+	var/target_x = (CELLSIZE * (cell_x + 0.5)) - center["x"]
+	var/target_y = (CELLSIZE * (cell_y + 0.5)) - center["y"]
+
+	if (animate)
+		var/dist_x = abs(W.pixel_x - target_x)
+		var/dist_y = abs(W.pixel_y - target_y)
+		var/dist = sqrt((dist_x*dist_x)+(dist_y*dist_y))
+
+		animate(W, pixel_x=target_x, pixel_y=target_y,time=dist*0.5)
+	else
+		W.pixel_x = target_x
+		W.pixel_y = target_y
 	W.pixel_z = 0
 
 /obj/structure/table/rack/auto_align(obj/item/W, click_params)

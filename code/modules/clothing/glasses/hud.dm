@@ -58,10 +58,10 @@
 
 /obj/item/clothing/glasses/hud/security/jensenshades
 	name = "augmented shades"
-	desc = "Polarized bioneural eyewear, designed to augment your vision."
+	desc = "Polarized neuro-optical eyewear, designed to augment your vision."
 	gender = PLURAL
-	icon_state = "jensenshades"
-	item_state = "jensenshades"
+	icon_state = "shades_jensen"
+	item_state = "shades_jensen"
 	vision_flags = SEE_MOBS
 	see_invisible = SEE_INVISIBLE_NOLIGHTING
 

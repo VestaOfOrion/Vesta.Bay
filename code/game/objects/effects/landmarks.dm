@@ -3,7 +3,7 @@
 	icon = 'icons/effects/landmarks.dmi'
 	icon_state = "x2"
 	anchored = 1.0
-	unacidable = 1
+	unacidable = TRUE
 	simulated = 0
 	invisibility = 101
 	var/delete_me = 0
@@ -119,7 +119,7 @@
 	new /obj/item/clothing/under/gimmick/rank/captain/suit(src.loc)
 	new /obj/item/clothing/head/flatcap(src.loc)
 	new /obj/item/clothing/suit/storage/toggle/labcoat/mad(src.loc)
-	new /obj/item/clothing/glasses/prescription/gglasses(src.loc)
+	new /obj/item/clothing/glasses/prescription/round(src.loc)
 	delete_me = 1
 
 /obj/effect/landmark/costume/elpresidente/New()

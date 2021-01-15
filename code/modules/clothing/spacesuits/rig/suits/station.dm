@@ -360,6 +360,10 @@
 		/obj/item/rig_module/cooling_unit
 		)
 
+/obj/item/weapon/rig/hazard/equipped/chief
+	name = "Chief of Security hazard hardsuit control module"
+	req_access = list(access_hos)
+
 /obj/item/weapon/rig/zero
 	name = "null suit control module"
 	suit_type = "null hardsuit"
