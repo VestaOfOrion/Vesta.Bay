@@ -238,6 +238,12 @@ ARMCHAIR(yellow)
 	title = "multi-tile airlock assembly"
 	result_type = /obj/structure/door_assembly/multi_tile
 
+/datum/stack_recipe/furniture/ore_box
+	title = "ore box"
+	result_type = /obj/structure/ore_box
+	req_amount = 20
+	time = 50
+
 /datum/stack_recipe/furniture/crate
 	title = "crate"
 	result_type = /obj/structure/closet/crate
