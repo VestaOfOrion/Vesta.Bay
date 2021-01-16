@@ -70,7 +70,7 @@
 			return ..()
 		if(isrobot(user))
 			return
-		if (!ismob(target))
+		if(!ismob(target))
 			return
 		user.unequip_item()
 		if (O.loc != src.loc)
