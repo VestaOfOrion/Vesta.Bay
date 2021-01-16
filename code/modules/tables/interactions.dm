@@ -70,8 +70,6 @@
 			return ..()
 		if(isrobot(user))
 			return
-		if(!ismob(target))
-			return
 		user.unequip_item()
 		if (O.loc != src.loc)
 			step(O, get_dir(O, src))
