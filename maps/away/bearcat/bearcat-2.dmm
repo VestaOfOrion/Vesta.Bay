@@ -5157,10 +5157,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/scrap/maintenance/power)
-"iN" = (
-/obj/machinery/door/airlock/autoname/bearcat,
-/turf/simulated/wall,
-/area/ship/scrap/maintenance/atmos)
 "iO" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 6
@@ -6427,6 +6423,9 @@
 	},
 /obj/random/projectile,
 /obj/random/projectile,
+/obj/random/energy,
+/obj/random/ammo_magazine_smug,
+/obj/random/ammo_magazine_smug,
 /turf/simulated/floor/plating,
 /area/ship/scrap/hidden)
 "Od" = (
@@ -6459,8 +6458,8 @@
 	},
 /obj/structure/table/rack,
 /obj/item/weapon/gun/projectile/heavysniper/boltaction,
-/obj/item/weapon/gun/projectile/heavysniper/boltaction,
-/obj/item/weapon/gun/projectile/heavysniper/boltaction,
+/obj/item/weapon/gun/projectile/shotgun/pump,
+/obj/item/weapon/gun/projectile/automatic/machine_pistol,
 /turf/simulated/floor/plating,
 /area/ship/scrap/hidden)
 "Qe" = (
@@ -13042,7 +13041,7 @@ ge
 go
 gB
 gL
-iN
+ha
 hk
 hz
 hQ
@@ -13164,7 +13163,7 @@ ge
 ge
 gC
 gf
-iN
+ha
 hl
 hA
 hR
