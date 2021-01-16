@@ -985,20 +985,6 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/plating,
 /area/crew_quarters/heads/office/cl)
-"bW" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/effect/floor_decal/industrial/outline/orange,
-/obj/machinery/power/apc/super/critical{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/bluegrid,
-/area/turret_protected/ai_data_chamber)
 "bX" = (
 /obj/machinery/door/blast/shutters{
 	density = 0;
@@ -4164,16 +4150,18 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/aquila/head)
 "hZ" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/obj/structure/cable{
+/obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled/techmaint,
+/obj/effect/paint/black,
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/wall/r_wall/hull,
 /area/turret_protected/ai_data_chamber)
 "id" = (
 /obj/machinery/door/blast/shutters{
@@ -4492,6 +4480,15 @@
 /turf/simulated/floor/tiled/monotile,
 /area/crew_quarters/heads/office/ce)
 "iQ" = (
+/obj/machinery/power/apc/super/critical{
+	dir = 4;
+	name = "west bump";
+	pixel_x = 25
+	},
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "iR" = (
@@ -4787,6 +4784,11 @@
 	dir = 8;
 	pixel_x = 6;
 	pixel_y = 0
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
@@ -5365,8 +5367,8 @@
 	dir = 4;
 	icon_state = "warningcorner"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
@@ -5895,6 +5897,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
@@ -7235,11 +7242,6 @@
 /obj/structure/railing/mapped{
 	dir = 8;
 	icon_state = "railing0-1"
-	},
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "earm_stairs";
-	name = "Chamber Lockdown"
 	},
 /turf/simulated/open,
 /area/turret_protected/ai_data_chamber)
@@ -9716,20 +9718,15 @@
 /area/turret_protected/ai)
 "vD" = (
 /obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable/cyan{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/camera/all/command{
+	c_tag = "AI Core - Entrance"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "vE" = (
@@ -9779,7 +9776,7 @@
 /obj/structure/window/phoronreinforced{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_data_chamber)
 "vN" = (
 /obj/structure/cable/cyan{
@@ -12344,6 +12341,12 @@
 /area/maintenance/bridge/aftport)
 "Cq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "Cr" = (
@@ -13615,6 +13618,11 @@
 /area/hallway/primary/bridge/fore)
 "Gp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_data_chamber)
 "Gq" = (
@@ -15230,6 +15238,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "Lr" = (
@@ -15316,9 +15334,6 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/item/device/radio/intercom/locked/ai_private{
 	pixel_y = 22
 	},
@@ -15379,23 +15394,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/aquila/secure_storage)
-"LZ" = (
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_x = 0
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/turret_protected/ai_data_chamber)
 "Ma" = (
 /obj/structure/railing/mapped{
 	dir = 1;
@@ -16153,19 +16151,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
 "Ol" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_x = 0
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/obj/effect/floor_decal/industrial/outline/orange,
-/turf/simulated/floor/bluegrid,
+/turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "Om" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -16824,7 +16810,7 @@
 /obj/structure/window/phoronreinforced{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_data_chamber)
 "Qv" = (
 /obj/structure/cable/green{
@@ -17056,6 +17042,12 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "Rd" = (
@@ -17102,6 +17094,11 @@
 	icon_state = "intact-supply"
 	},
 /obj/machinery/drone_fabricator/torch/adv,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_data_chamber)
 "Rh" = (
@@ -18915,18 +18912,13 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bridgecheck)
 "Wl" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/light/spot{
-	dir = 4
-	},
+/obj/effect/paint/black,
 /obj/structure/cable/cyan{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/wall/r_wall/hull,
 /area/turret_protected/ai_data_chamber)
 "Wo" = (
 /obj/random/maintenance/solgov/clean,
@@ -18983,9 +18975,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -19280,12 +19269,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_data_chamber)
 "XN" = (
@@ -19342,25 +19325,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/bridge)
-"XS" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/machinery/computer/station_alert/all{
-	dir = 1;
-	icon_state = "computer"
-	},
-/obj/structure/window/phoronreinforced,
-/turf/simulated/floor/tiled/techmaint,
-/area/turret_protected/ai_data_chamber)
 "XW" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -19407,16 +19371,10 @@
 /area/aquila/storage)
 "Yc" = (
 /obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/hologram/holopad,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/floor_decal/industrial/warning{
@@ -48499,8 +48457,8 @@ ad
 Mg
 FQ
 Gq
-bW
-Br
+Ol
+FQ
 vM
 Br
 mR
@@ -48701,8 +48659,8 @@ ad
 zL
 FQ
 vD
-LZ
-XS
+Ol
+FQ
 qy
 CI
 Ba
@@ -48904,7 +48862,7 @@ Mg
 FQ
 LA
 Ol
-EO
+FQ
 Qs
 EO
 US
@@ -49106,7 +49064,7 @@ Mg
 FQ
 WB
 XM
-hZ
+FQ
 Yc
 li
 Rc
@@ -49308,7 +49266,7 @@ Mg
 FQ
 SM
 pP
-pP
+FQ
 Yw
 gu
 Cq
@@ -49716,7 +49674,7 @@ PN
 qk
 PN
 PN
-PN
+hZ
 lc
 Mg
 ad
