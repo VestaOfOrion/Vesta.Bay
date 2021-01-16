@@ -7,7 +7,8 @@
 	icon_state = "base"
 	initialize_directions = 0
 	level = 1
-
+	layer = ABOVE_CATWALK_LAYER
+	
 	var/configuring = 0
 
 	var/tag_north = ATM_NONE
