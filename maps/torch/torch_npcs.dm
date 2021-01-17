@@ -5,7 +5,7 @@
 
 /mob/living/carbon/human/monkey/punitelli/New()
 	..()
-	name = "Warrant Officer Punitelli VII"
+	name = "Warrant Officer Punitelli VIII"
 	real_name = name
 	gender = MALE
 	var/obj/item/clothing/C
