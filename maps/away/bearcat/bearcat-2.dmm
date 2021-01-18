@@ -3188,27 +3188,6 @@
 /obj/effect/paint/red,
 /turf/simulated/wall/r_wall,
 /area/ship/scrap/maintenance/engine/starboard)
-"fE" = (
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id_tag = "scraplock";
-	name = "External Blast Doors";
-	opacity = 0
-	},
-/turf/space,
-/area/space)
-"fF" = (
-/obj/structure/lattice,
-/obj/machinery/door/blast/regular{
-	density = 0;
-	icon_state = "pdoor0";
-	id_tag = "scraplock";
-	name = "External Blast Doors";
-	opacity = 0
-	},
-/turf/space,
-/area/space)
 "fG" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
@@ -12059,7 +12038,7 @@ dR
 dR
 dR
 fk
-fE
+aa
 aa
 aa
 aa
@@ -12425,7 +12404,7 @@ dR
 eC
 dR
 fk
-fF
+bY
 bY
 aa
 aa
@@ -15109,7 +15088,7 @@ eh
 eS
 fh
 fB
-fF
+bY
 aa
 aa
 aa
@@ -15475,7 +15454,7 @@ eh
 eh
 eh
 fD
-fE
+aa
 aa
 aa
 aa
