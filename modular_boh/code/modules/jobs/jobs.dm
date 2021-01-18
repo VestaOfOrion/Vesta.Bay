@@ -412,7 +412,7 @@ var/const/INF               =(1<<11)
 		access_liaison, access_bridge, access_torch_fax, access_solgov_crew, access_keycard_auth, access_sec_guard,
 		access_nanotrasen, access_commissary,
 		access_radio_comm, access_radio_serv,
-		access_security, access_medical, access_research, access_cargo, access_engine, access_hangar
+		access_sec_doors, access_security, access_medical, access_research, access_cargo, access_engine, access_hangar
 	)
 
 /datum/job/bodyguard
