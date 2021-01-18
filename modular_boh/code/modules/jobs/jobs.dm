@@ -427,7 +427,7 @@ var/const/INF               =(1<<11)
 	access = list(
 		access_representative, access_bridge, access_torch_fax, access_solgov_crew,
 		access_radio_comm,
-		access_security, access_medical, access_research, access_cargo, access_engine, access_hangar, access_infantry
+		access_sec_doors, access_security, access_medical, access_research, access_cargo, access_engine, access_hangar, access_infantry
 	)
 
 datum/job/sea
