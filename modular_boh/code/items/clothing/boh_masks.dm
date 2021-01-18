@@ -5,6 +5,5 @@
 	icon_override = 'modular_boh/icon/boh/mob/onmob/onmob_mask.dmi'
 	icon_state = "gillcover"
 	item_state = "gillcover"
-	item_flags = ITEM_FLAG_AIRTIGHT
 	species_restricted = list(SPECIES_SKRELL)
 	pull_mask = 0
