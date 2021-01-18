@@ -1,7 +1,0 @@
-author: Vhbraz
-
-delete-after: True
-
-changes: 
-  - bugfix: "Tintable windows now return to their base color when un-tinted. All credits go to SierraKomodo."
-  - tweak: "Makes the original window color closer to the old one. All credits go to SierraKomodo."

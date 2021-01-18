@@ -23,7 +23,7 @@
 #################################
 
 # Your name.  
-author: Alejodbort
+author: PurplePineapple
 
 # Optional: Remove this file after generating master changelog.  Useful for PR changelogs that won't get used again.
 delete-after: True
@@ -34,4 +34,7 @@ delete-after: True
 # Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - rscadd: "Adds sprites on hand for the both tablets in both hands."
+  - rscadd: "Added an unlocked suit cycler for offships."
+  - tweak: "The Bearcat now has an unlocked suit cycler and the armory has been given slightly better weaponry than bolt actions."
+  - bugfix: "Removed the doors in the wall of the Bearcat's atmospherics room."
+  - bugfix: "The secure storage of the bearcat now is locked to Captain access."

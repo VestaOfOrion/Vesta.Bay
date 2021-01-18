@@ -1,5 +1,0 @@
-author: Pebblesthe2nd
-delete-after: True
-changes: 
-  - rscadd: "code/modules/clothing/glasses/prescsun.dm added to baystation12.dme, enabling sorting sunglasses and prescription sunglasses in two subcategories just like ordinary glasses."
-  - rscadd:  "New glasses, sunglasses, sprites and objects, updates to realted old sprites. Minor restructure in loadout, two new subgroups, sunglasses and prescription sunglasses."
