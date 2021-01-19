@@ -25,7 +25,7 @@
 // Overmap objects.
 /obj/effect/overmap/visitable/ship/landable/ascent_seedship
 	name = ASCENT_COLONY_SHIP_NAME
-	shuttle = "Ascent Seed"
+	shuttle = "Ascent Seedship"
 	desc = "Wake signature indicates a small to medium sized vessel of unknown design."
 	multiz = 1
 	icon_state = "ship"

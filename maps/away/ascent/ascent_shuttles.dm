@@ -50,12 +50,11 @@
 /obj/machinery/computer/shuttle_control/explore/ascent/seedship
 	name = "ascent seedship control console"
 	req_access = list(access_skrellscoutship)
-	shuttle_tag = "Ascent Seed"
+	shuttle_tag = "Ascent Seedship"
 
 /obj/effect/shuttle_landmark/ascent_seedship/start
 	name = "Amphiesmenoptera Docked"
 	landmark_tag = "nav_hangar_ascent_one"
-	docking_controller = "ascent_port_dock"
 	base_area = /area/ship/ascent/hangar
 	base_turf = /turf/simulated/floor/ascent
 	movable_flags = MOVABLE_FLAG_EFFECTMOVE
@@ -70,10 +69,9 @@
 	warmup_time = 5
 	current_location = "nav_hangar_ascent_one"
 	range = 2
-	dock_target = "ascent_port_shuttle_dock"
 	shuttle_area = /area/ship/ascent/shuttle_starboard
 	defer_initialisation = TRUE
 	flags = SHUTTLE_FLAGS_PROCESS
 	skill_needed = SKILL_BASIC
-	mothershuttle = "Ascent Seed"
+	mothershuttle = "Ascent Seedship"
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/ascent
