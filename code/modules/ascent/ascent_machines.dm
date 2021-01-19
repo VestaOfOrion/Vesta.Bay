@@ -84,6 +84,7 @@ MANTIDIFY(/obj/machinery/door/airlock/external/bolted, "mantid airlock", "door")
 	icon = 'icons/obj/machines/fabricators/nanofabricator.dmi'
 	icon_state = "nanofab"
 	base_icon_state = "nanofab"
+	fab_status_flags = FAB_HACKED
 	req_access = list(access_ascent)
 	base_type = /obj/machinery/fabricator
 	construct_state = /decl/machine_construction/default/no_deconstruct

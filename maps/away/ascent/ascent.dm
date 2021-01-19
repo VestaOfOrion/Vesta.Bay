@@ -17,23 +17,35 @@
 	suffixes = list("ascent/ascent-1.dmm")
 	cost = 0.5
 	shuttles_to_initialise = list(
-		/datum/shuttle/autodock/overmap/ascent, 
-		/datum/shuttle/autodock/overmap/ascent/two
+		/datum/shuttle/autodock/overmap/ascent,
+		/datum/shuttle/autodock/overmap/ascent_seedship
 	)
 	spawn_weight = 0.67
 
 // Overmap objects.
-/obj/effect/overmap/visitable/ship/ascent_seedship
+/obj/effect/overmap/visitable/ship/landable/ascent_seedship
 	name = ASCENT_COLONY_SHIP_NAME
+	shuttle = "Ascent Seed"
 	desc = "Wake signature indicates a small to medium sized vessel of unknown design."
-	vessel_mass = 6500
-	fore_dir = WEST
+	multiz = 1
+	icon_state = "ship"
+	moving_state = "ship_moving"
+	color = "#491749"
+	vessel_mass = 10000
+	fore_dir = EAST
 	max_speed = 1/(1 SECOND)
 	hide_from_reports = TRUE
+	vessel_size = SHIP_SIZE_SMALL
 	initial_restricted_waypoints = list(
-		"Trichoptera" = list("nav_hangar_ascent_one"),
-		"Lepidoptera" = list("nav_hangar_ascent_two")
+		"Amphiesmenoptera" = list("nav_hangar_ascent_one")
 	)
+
+/obj/effect/overmap/visitable/sector/ascent_space
+	name = "Empty Sector"
+	desc = "Slight traces of a cloaking device are present. Unable to determine exact location."
+	in_space = 1
+	icon_state = "event"
+	hide_from_reports = TRUE
 
 /obj/effect/submap_landmark/joinable_submap/ascent_seedship
 	name = ASCENT_COLONY_SHIP_NAME
