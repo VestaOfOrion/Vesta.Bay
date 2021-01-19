@@ -211,6 +211,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
+"bw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/wall/r_wall/ascent,
+/area/ship/ascent/atmos)
 "bx" = (
 /obj/machinery/alarm/ascent{
 	pixel_y = 24
@@ -432,8 +439,11 @@
 /area/ship/ascent/infirmary_hallway)
 "cv" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 4;
+	dir = 10;
 	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
@@ -720,6 +730,13 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"eD" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 10;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/atmos)
 "eM" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/recharger{
@@ -2812,6 +2829,9 @@
 /obj/machinery/light/ascent{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on/ascent{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/atmos)
 "py" = (
@@ -3872,6 +3892,15 @@
 /obj/structure/closet/crate,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/mat_pros)
+"vF" = (
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 5
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/atmos)
 "vH" = (
 /obj/machinery/portable_atmospherics/canister/methyl_bromide,
 /obj/machinery/atmospherics/portables_connector{
@@ -4192,13 +4221,12 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "xx" = (
-/obj/machinery/atmospherics/pipe/simple/visible/green{
-	dir = 10;
-	icon_state = "intact"
-	},
 /obj/machinery/pipedispenser{
 	color = "PURPLE";
 	name = "Mantid Plumbing Contraption"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on/ascent{
+	dir = 8
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
@@ -4670,6 +4698,17 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
+"zE" = (
+/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/atmos)
 "zG" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	color = "PURPLE";
@@ -4996,6 +5035,19 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
+"Bw" = (
+/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/engineering)
 "Bx" = (
 /obj/structure/table/rack/dark,
 /obj/item/clustertool,
@@ -5453,12 +5505,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
 "DA" = (
@@ -5472,11 +5524,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
 	},
 /obj/structure/cable{
 	d1 = 2;
@@ -5678,6 +5725,10 @@
 	},
 /area/ship/ascent/shuttle_starboard)
 "EE" = (
+/obj/machinery/atmospherics/unary/vent_pump/on/ascent{
+	dir = 1;
+	level = 2
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
 "EJ" = (
@@ -6729,6 +6780,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	dir = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
 "JJ" = (
@@ -7071,6 +7128,9 @@
 	dir = 6;
 	icon_state = "intact"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
 "LI" = (
@@ -7081,6 +7141,27 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/wing_starboard)
+"LJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	dir = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "LO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -7786,18 +7867,18 @@
 "PN" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	dir = 1;
 	icon_state = "2-4"
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "PS" = (
@@ -7999,6 +8080,11 @@
 "QZ" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/light/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
 "Ra" = (
@@ -9183,6 +9269,26 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/infirmary)
+"Xa" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "Xc" = (
 /obj/machinery/porta_turret/mantid,
 /obj/structure/window/phoronreinforced,
@@ -9850,6 +9956,15 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
+"ZM" = (
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/engineering)
 "ZP" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
 	id_tag = "ascent_seedship_port_pumps"
@@ -13637,9 +13752,9 @@ yU
 Dw
 GA
 jv
-tF
-QC
-Bb
+ZM
+Bw
+LJ
 ya
 jc
 jc
@@ -14121,8 +14236,8 @@ pJ
 Fy
 jX
 kB
-So
-Sv
+Xa
+bw
 pw
 tp
 EE
@@ -14224,7 +14339,7 @@ YQ
 jX
 Hw
 BS
-di
+zE
 LH
 Xt
 oX
@@ -14328,7 +14443,7 @@ Hw
 BS
 di
 cv
-mE
+vF
 cH
 mt
 Kr
@@ -14430,7 +14545,7 @@ JE
 Ry
 di
 xx
-lt
+eD
 lt
 yN
 OK
