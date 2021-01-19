@@ -447,6 +447,31 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
+"cB" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "cE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -592,7 +617,8 @@
 	dir = 4
 	},
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "dB" = (
@@ -909,13 +935,14 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/door/airlock/ascent,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	dir = 1;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "fv" = (
@@ -1315,7 +1342,8 @@
 /obj/item/robot_parts/robot_component/armour/light,
 /obj/item/robot_parts/robot_component/armour/light,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "hv" = (
@@ -1348,7 +1376,8 @@
 /obj/item/stack/nanopaste,
 /obj/item/stack/nanopaste,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "hI" = (
@@ -1877,7 +1906,8 @@
 /obj/item/device/multitool/mantid,
 /obj/item/device/multitool/mantid,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "kv" = (
@@ -2132,6 +2162,27 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
+"lF" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	dir = 1;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "lG" = (
 /obj/machinery/light/ascent{
 	dir = 4
@@ -2243,7 +2294,8 @@
 /obj/item/stack/material/aluminium/fifty,
 /obj/item/stack/material/glass/fifty,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "mk" = (
@@ -2371,7 +2423,8 @@
 	name = "Containment Shield"
 	},
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/engineering)
 "nk" = (
@@ -3662,7 +3715,8 @@
 "uq" = (
 /obj/structure/table/rack/dark,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "ut" = (
@@ -4086,6 +4140,20 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/gyne_quarters)
+"wq" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	dir = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/wing_starboard)
 "ws" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -4256,7 +4324,8 @@
 /obj/item/robot_parts/robot_component/diagnosis_unit,
 /obj/item/robot_parts/robot_component/diagnosis_unit,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "xF" = (
@@ -5691,7 +5760,8 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/engineering)
 "Ek" = (
@@ -6654,7 +6724,8 @@
 /area/ship/ascent/infirmary)
 "Jt" = (
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/engineering)
 "Ju" = (
@@ -6717,22 +6788,16 @@
 	},
 /obj/machinery/power/apc/hyper/ascent/west,
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d2 = 4;
+	dir = 8;
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "JC" = (
@@ -6912,12 +6977,6 @@
 /obj/structure/bed/chair/padded/purple/ascent/gyne,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
@@ -7246,7 +7305,8 @@
 /obj/machinery/recharge_station/ascent,
 /obj/effect/submap_landmark/spawnpoint/ascent_seedship/drone,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "Mh" = (
@@ -7576,6 +7636,15 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
+"On" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	dir = 1;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/wing_starboard)
 "Oq" = (
 /obj/machinery/alarm/ascent{
 	dir = 8;
@@ -7614,12 +7683,6 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
@@ -7629,7 +7692,8 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/engineering)
 "OD" = (
@@ -7783,7 +7847,8 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/engineering)
 "Pw" = (
@@ -7874,10 +7939,9 @@
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
@@ -8263,6 +8327,19 @@
 "RT" = (
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/central_hallway)
+"RZ" = (
+/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/central_hallway)
 "Sf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -8292,7 +8369,8 @@
 /obj/item/robot_parts/robot_component/actuator,
 /obj/item/robot_parts/robot_component/actuator,
 /turf/simulated/floor/greengrid{
-	color = "PURPLE"
+	color = "PURPLE";
+	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/robotics)
 "Si" = (
@@ -8407,12 +8485,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
 	},
 /obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
@@ -13448,8 +13520,8 @@ kb
 LS
 tF
 yU
-Dj
-Ob
+cB
+wq
 uu
 uu
 uu
@@ -13551,7 +13623,7 @@ wa
 JI
 Dx
 PN
-ya
+On
 uu
 uu
 uu
@@ -15895,8 +15967,8 @@ Hd
 cO
 dS
 MF
-cO
-Bb
+RZ
+lF
 ya
 lT
 yg
