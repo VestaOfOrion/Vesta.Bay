@@ -7,12 +7,12 @@
 	current_location = "nav_ascent_seedship_start"
 	shuttle_area = list(
 		/area/ship/ascent, /area/ship/ascent/bridge, /area/ship/ascent/gyne_quarters, /area/ship/ascent/queen_quarters,
-		/area/ship/ascent/habitation, /area/ship/ascent/briefing, /area/ship/ascent/wing_port, 
-		/area/ship/ascent/wing_starboard, /area/ship/ascent/infirmary, /area/ship/ascent/infirmary_hallway, 
-		/area/ship/ascent/lab, /area/ship/ascent/or, /area/ship/ascent/sub_acute, /area/ship/ascent/engineering, 
-		/area/ship/ascent/atmos, /area/ship/ascent/storage, /area/ship/ascent/hydroponics, /area/ship/ascent/hangar, 
-		/area/ship/ascent/central_hallway, /area/ship/ascent/armory, /area/ship/ascent/xeno_cells, 
-		/area/ship/ascent/laboratory_xeno, /area/ship/ascent/laboratory, /area/ship/ascent/cafeteria, 
+		/area/ship/ascent/habitation, /area/ship/ascent/briefing, /area/ship/ascent/wing_port,
+		/area/ship/ascent/wing_starboard, /area/ship/ascent/infirmary, /area/ship/ascent/infirmary_hallway,
+		/area/ship/ascent/lab, /area/ship/ascent/or, /area/ship/ascent/sub_acute, /area/ship/ascent/engineering,
+		/area/ship/ascent/atmos, /area/ship/ascent/storage, /area/ship/ascent/hydroponics, /area/ship/ascent/hangar,
+		/area/ship/ascent/central_hallway, /area/ship/ascent/armory, /area/ship/ascent/xeno_cells,
+		/area/ship/ascent/laboratory_xeno, /area/ship/ascent/laboratory, /area/ship/ascent/cafeteria,
 		/area/ship/ascent/garden, /area/ship/ascent/robotics, /area/ship/ascent/mat_pros
 		)
 	defer_initialisation = TRUE

@@ -253,12 +253,8 @@
 /area/ship/ascent/mat_pros)
 "bC" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/weapon/disk/astrodata{
-	color = null;
-	desc = "A complex attomechanical data-storage solution used by the ascent, containing a wealth of information on this Seedship's origin point, stellar journey, and potential landing sites. Automatically updated from the vessel's central processing strata. This would probably best stay onboard.";
-	name = "astronavigational data disk"
-	},
 /obj/machinery/light/ascent,
+/obj/item/weapon/disk/ascent,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/gyne_quarters)
 "bD" = (
@@ -670,6 +666,24 @@
 /obj/structure/flora/pottedplant/unusual,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/gyne_quarters)
+"ee" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/habitation)
 "eh" = (
 /obj/structure/flora/ausbushes/lavendergrass{
 	color = "PURPLE"
@@ -738,20 +752,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
-"eH" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/light/ascent,
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_port)
 "eM" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/recharger{
@@ -916,23 +916,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
-"fu" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	name = "\improper Mantid Emergency Shutter"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/central_hallway)
 "fv" = (
 /obj/machinery/atmospherics/unary/vent_pump/on/ascent{
 	dir = 8
@@ -970,6 +953,14 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/wing_port)
+"fE" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/habitation)
 "fL" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/meat/beef,
@@ -1711,21 +1702,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
-"jx" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_starboard)
 "jy" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/ascent,
@@ -1750,21 +1726,6 @@
 /obj/item/weapon/rig/mantid/nabber,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
-"jC" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_starboard)
 "jG" = (
 /turf/simulated/wall/r_wall/ascent,
 /area/ship/ascent/sub_acute)
@@ -2082,24 +2043,6 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/briefing)
-"lp" = (
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	dir = 4;
-	name = "\improper Mantid Emergency Shutter"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/habitation)
 "lq" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/storage/box/syringes,
@@ -2357,16 +2300,6 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory_xeno)
-"mx" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/habitation)
 "mA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on/ascent,
 /turf/simulated/floor/tiled/ascent,
@@ -2377,32 +2310,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
-"mF" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/ascent,
-/area/ship/ascent/queen_quarters)
-"mN" = (
-/obj/machinery/alarm/ascent{
-	pixel_y = 24
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_starboard)
 "mO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on/ascent{
 	dir = 1
@@ -2512,11 +2419,6 @@
 /area/ship/ascent/queen_quarters)
 "nx" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/weapon/disk/astrodata{
-	color = null;
-	desc = "An advanced ascent storage pattern containing a replica of multiple well-known pieces of Control Mind datasculpting, taking advantage of the several additional dimensions of space within the Worldnet. Very popular amoung Gynes and Serpentid Queens. Warning: May cause existential dread, uncontrolled emotional responses, and spontaneous insanity in primitive lifeforms.";
-	name = "N-dimensional artform disk"
-	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/queen_quarters)
 "nA" = (
@@ -2616,6 +2518,24 @@
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
+"nN" = (
+/obj/machinery/alarm/ascent{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "nP" = (
 /obj/structure/window/phoronreinforced{
 	dir = 1
@@ -2685,6 +2605,20 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/sub_acute)
+"nZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "ob" = (
 /obj/machinery/light/ascent{
 	dir = 8
@@ -3561,23 +3495,6 @@
 /obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
-"sX" = (
-/obj/machinery/alarm/ascent{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_port)
 "ta" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -3661,7 +3578,6 @@
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/bridge)
 "tA" = (
-/obj/effect/catwalk_plated/ascent,
 /obj/effect/catwalk_plated/ascent,
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -3869,22 +3785,6 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
-"uO" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_x = 0
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/central_hallway)
 "uS" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,
@@ -4131,6 +4031,23 @@
 /obj/item/weapon/storage/toolbox/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"vV" = (
+/obj/machinery/alarm/ascent{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "vX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/alarm/ascent{
@@ -4344,6 +4261,24 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
+"xu" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/cafeteria)
 "xw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -4467,16 +4402,6 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/xeno_cells)
-"xL" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/cafeteria)
 "xQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -4706,6 +4631,14 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/laboratory)
+"ze" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/queen_quarters)
 "zf" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/meat/beef,
@@ -4969,20 +4902,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/laboratory)
-"At" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/light/ascent,
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_port)
 "Aw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -5282,6 +5201,16 @@
 /obj/machinery/light/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/mat_pros)
+"BR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/habitation)
 "BS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5918,6 +5847,21 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
+"EY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "Fd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
@@ -6108,31 +6052,6 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/sub_acute)
-"FW" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_starboard)
 "FX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10
@@ -6228,6 +6147,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/airlock/ascent,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Go" = (
@@ -6259,24 +6183,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
-"Gt" = (
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	dir = 4;
-	name = "\improper Mantid Emergency Shutter"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/cafeteria)
 "Gu" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/meat/beef,
@@ -6954,27 +6860,6 @@
 	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/garden)
-"JH" = (
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	dir = 4;
-	name = "\improper Mantid Emergency Shutter"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_x = 0
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/central_hallway)
 "JI" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -7203,23 +7088,6 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hangar)
-"KX" = (
-/obj/machinery/alarm/ascent{
-	dir = 1;
-	pixel_y = -24
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_port)
 "Lb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -8222,6 +8090,22 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
+"QG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/central_hallway)
 "QJ" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -8891,6 +8775,31 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"TU" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "Ua" = (
 /obj/structure/table/rack/dark,
 /obj/item/device/personal_shield/mantid,
@@ -8968,6 +8877,21 @@
 "Un" = (
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/hydroponics)
+"Up" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "Ur" = (
 /obj/machinery/atmospherics/unary/vent_pump/on/ascent{
 	dir = 1;
@@ -9066,7 +8990,6 @@
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/shuttle_starboard)
 "US" = (
-/obj/effect/catwalk_plated/ascent,
 /obj/effect/catwalk_plated/ascent,
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -9485,6 +9408,16 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/infirmary)
+"WX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/cafeteria)
 "Xa" = (
 /obj/machinery/door/firedoor/autoset{
 	color = "PURPLE";
@@ -9561,6 +9494,27 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
+"Xu" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/central_hallway)
 "Xy" = (
 /obj/structure/flora/pottedplant/mysterious,
 /turf/simulated/floor/ascent,
@@ -9591,14 +9545,6 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/shuttle_starboard)
-"XG" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/habitation)
 "XH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -9678,6 +9624,20 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
+"XS" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "XT" = (
 /obj/structure/bed/chair/padded/purple/ascent/gyne,
 /turf/simulated/floor/tiled/ascent,
@@ -9738,6 +9698,7 @@
 "Ye" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/light/ascent,
+/obj/item/weapon/disk/ascent/queen,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/queen_quarters)
 "Yh" = (
@@ -9758,6 +9719,23 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hangar)
+"Yl" = (
+/obj/machinery/alarm/ascent{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "Yn" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -13793,7 +13771,7 @@ CC
 lH
 ns
 SZ
-mF
+ze
 Ye
 nA
 nA
@@ -13895,7 +13873,7 @@ bR
 lH
 ns
 SZ
-mF
+ze
 nx
 nA
 nA
@@ -14085,7 +14063,7 @@ yU
 be
 tF
 yU
-jx
+Up
 hd
 jc
 jc
@@ -14159,7 +14137,7 @@ qk
 AD
 jX
 tD
-KX
+Yl
 Sv
 zG
 Oy
@@ -15105,7 +15083,7 @@ WA
 yU
 yU
 yU
-jx
+Up
 hd
 yj
 yj
@@ -15615,7 +15593,7 @@ vv
 RT
 an
 vv
-jx
+Up
 hd
 yj
 Wx
@@ -15791,7 +15769,7 @@ AG
 AG
 AG
 tD
-At
+XS
 vv
 BN
 iJ
@@ -16226,7 +16204,7 @@ er
 oE
 wB
 pB
-fu
+Gm
 SJ
 Ip
 Hc
@@ -16429,7 +16407,7 @@ QW
 kU
 vv
 gS
-JH
+Xu
 vv
 JS
 Ob
@@ -16531,7 +16509,7 @@ Ys
 kU
 vv
 RT
-uO
+QG
 vv
 lF
 ya
@@ -16845,7 +16823,7 @@ Zs
 Zs
 Zs
 Zs
-lp
+ee
 Zs
 Zs
 Zs
@@ -16913,7 +16891,7 @@ jB
 hp
 hp
 ri
-eH
+nZ
 vv
 fz
 RT
@@ -16947,7 +16925,7 @@ Zs
 Zs
 GN
 gA
-mx
+BR
 gA
 GN
 Zs
@@ -17049,7 +17027,7 @@ Zs
 Zs
 Zs
 lX
-XG
+fE
 ox
 Zs
 Zs
@@ -17145,13 +17123,13 @@ vv
 dS
 Gr
 vv
-jC
+EY
 hd
 Zs
 Zs
 yR
 gA
-mx
+BR
 gA
 yR
 Zs
@@ -17253,7 +17231,7 @@ iV
 iV
 iV
 iV
-Gt
+xu
 iV
 iV
 iV
@@ -17347,7 +17325,7 @@ QW
 kU
 vv
 RT
-uO
+QG
 vv
 lF
 ya
@@ -17355,7 +17333,7 @@ iV
 zI
 eV
 Wb
-xL
+WX
 eV
 Cm
 Gb
@@ -17449,7 +17427,7 @@ QW
 kU
 vv
 RT
-uO
+QG
 vv
 lF
 ya
@@ -17551,7 +17529,7 @@ Ew
 kU
 vv
 RT
-uO
+QG
 vv
 lF
 ya
@@ -17559,7 +17537,7 @@ iV
 IF
 uJ
 uJ
-xL
+WX
 Xq
 Cm
 Gb
@@ -17655,7 +17633,7 @@ vv
 RT
 vt
 vv
-FW
+TU
 Of
 sD
 tQ
@@ -17729,7 +17707,7 @@ Dn
 hp
 hp
 ri
-sX
+vV
 vv
 fz
 RT
@@ -17757,7 +17735,7 @@ ep
 RT
 Ga
 vv
-mN
+nN
 ya
 iV
 sa
@@ -17961,7 +17939,7 @@ yY
 yv
 RT
 vv
-jx
+Up
 hd
 iV
 iV

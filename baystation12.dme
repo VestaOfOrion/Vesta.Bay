@@ -3214,6 +3214,7 @@
 #include "modular_boh\code\modules\clothing.dm"
 #include "modular_boh\code\modules\firearms.dm"
 #include "modular_boh\code\modules\material.dm"
+#include "modular_boh\code\modules\ascent\ascent_flavor.dm"
 #include "modular_boh\code\modules\augment\augments.dm"
 #include "modular_boh\code\modules\circuitboards\circuitboards.dm"
 #include "modular_boh\code\modules\clothing\clothing.dm"
