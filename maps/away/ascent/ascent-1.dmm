@@ -22,12 +22,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "ak" = (
@@ -45,12 +45,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "as" = (
@@ -228,12 +228,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "by" = (
@@ -302,12 +302,12 @@
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	color = "PURPLE"
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "bN" = (
@@ -363,12 +363,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/habitation)
 "cg" = (
@@ -429,12 +429,12 @@
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "cv" = (
@@ -447,31 +447,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
-"cB" = (
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	dir = 4;
-	name = "\improper Mantid Emergency Shutter"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_starboard)
 "cE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -597,12 +572,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/habitation)
 "dx" = (
@@ -669,12 +644,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/power/apc/hyper/ascent/north,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/hyper/ascent/north,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/gyne_quarters)
 "dQ" = (
@@ -763,6 +738,20 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
+"eH" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "eM" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/recharger{
@@ -784,6 +773,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -794,7 +784,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "eR" = (
@@ -804,12 +798,12 @@
 	color = "PURPLE";
 	name = "\improper Mantid Emergency Shutter"
 	},
+/obj/machinery/door/airlock/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
 "eU" = (
@@ -834,12 +828,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "eX" = (
@@ -877,16 +871,11 @@
 	dir = 4
 	},
 /obj/machinery/power/apc/hyper/ascent/north,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/habitation)
 "fj" = (
@@ -938,10 +927,9 @@
 /obj/machinery/door/airlock/ascent,
 /obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
@@ -958,15 +946,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/light/ascent{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/light/ascent{
-	dir = 1
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "fA" = (
@@ -1066,13 +1054,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "gm" = (
@@ -1119,13 +1106,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/robotics)
 "gA" = (
@@ -1163,24 +1150,24 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "gH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "gI" = (
@@ -1206,12 +1193,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
 	},
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
@@ -1289,13 +1270,12 @@
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "hj" = (
@@ -1309,11 +1289,11 @@
 "hl" = (
 /obj/structure/bed/roller,
 /obj/machinery/power/apc/hyper/ascent/north,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "ho" = (
@@ -1404,13 +1384,12 @@
 "hZ" = (
 /obj/structure/window/phoronreinforced,
 /obj/machinery/power/apc/hyper/ascent/north,
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
-	},
 /obj/machinery/light/ascent{
 	dir = 1
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
@@ -1434,12 +1413,12 @@
 /obj/item/stack/medical/resin,
 /obj/machinery/atmospherics/unary/vent_pump/on/ascent,
 /obj/machinery/power/apc/hyper/ascent/north,
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2";
+	pixel_y = 0
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/or)
 "ij" = (
@@ -1478,12 +1457,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "iC" = (
@@ -1500,12 +1479,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "iJ" = (
@@ -1529,12 +1508,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "iP" = (
@@ -1732,6 +1711,21 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"jx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "jy" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/ascent,
@@ -1756,6 +1750,21 @@
 /obj/item/weapon/rig/mantid/nabber,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
+"jC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "jG" = (
 /turf/simulated/wall/r_wall/ascent,
 /area/ship/ascent/sub_acute)
@@ -1817,23 +1826,6 @@
 "jZ" = (
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/lab)
-"ka" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_port)
 "kb" = (
 /obj/structure/window/phoronreinforced,
 /obj/effect/catwalk_plated/ascent,
@@ -1850,13 +1842,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "ko" = (
@@ -1889,12 +1880,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "ku" = (
@@ -1928,13 +1919,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "kz" = (
@@ -1968,30 +1958,20 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/briefing)
-"kH" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/hangar)
 "kI" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
+/obj/machinery/power/apc/hyper/ascent/south,
 /obj/structure/cable{
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc/hyper/ascent/south,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory)
 "kJ" = (
@@ -2007,13 +1987,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/machinery/computer/cryopod/ascent_spawn{
+	pixel_x = -32
+	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
-	},
-/obj/machinery/computer/cryopod/ascent_spawn{
-	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/queen_quarters)
@@ -2035,13 +2015,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "kN" = (
@@ -2049,10 +2028,9 @@
 	dir = 5
 	},
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory)
@@ -2104,6 +2082,24 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/briefing)
+"lp" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/habitation)
 "lq" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/storage/box/syringes,
@@ -2149,6 +2145,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -2156,10 +2153,14 @@
 	},
 /obj/structure/cable{
 	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "lF" = (
@@ -2169,17 +2170,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
@@ -2362,6 +2357,16 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory_xeno)
+"mx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/habitation)
 "mA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on/ascent,
 /turf/simulated/floor/tiled/ascent,
@@ -2372,6 +2377,32 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
+"mF" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/queen_quarters)
+"mN" = (
+/obj/machinery/alarm/ascent{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
 "mO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on/ascent{
 	dir = 1
@@ -2394,15 +2425,15 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/or)
 "nd" = (
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "ng" = (
@@ -2431,14 +2462,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
@@ -2545,12 +2576,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "nI" = (
@@ -2664,8 +2695,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/power/apc/hyper/ascent/west,
-/obj/structure/cable,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/robotics)
 "of" = (
@@ -2687,15 +2718,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
 "oi" = (
@@ -2723,9 +2754,9 @@
 /obj/structure/bed/chair/padded/purple/ascent{
 	dir = 1
 	},
-/obj/structure/cable,
 /obj/machinery/power/apc/hyper/ascent/south,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/sub_acute)
 "oC" = (
@@ -2753,7 +2784,9 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "oL" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -2763,6 +2796,11 @@
 /area/ship/ascent/wing_port)
 "oR" = (
 /obj/structure/flora/pottedplant/mysterious,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/queen_quarters)
 "oT" = (
@@ -2891,12 +2929,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "pB" = (
@@ -2905,17 +2943,22 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "pD" = (
@@ -2984,12 +3027,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "pW" = (
@@ -3033,12 +3076,27 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -3123,11 +3181,11 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on/ascent{
 	dir = 4
 	},
+/obj/machinery/power/apc/hyper/ascent/north,
 /obj/structure/cable{
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc/hyper/ascent/north,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/garden)
 "qT" = (
@@ -3144,17 +3202,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/power/apc/hyper/ascent/north,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/power/apc/hyper/ascent/north,
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "rd" = (
@@ -3195,18 +3253,22 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
+	icon_state = "1-4"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "rm" = (
@@ -3254,12 +3316,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "rs" = (
@@ -3269,13 +3331,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/garden)
 "rA" = (
@@ -3283,6 +3345,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -3293,7 +3356,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "rD" = (
@@ -3371,13 +3438,13 @@
 /area/ship/ascent/cafeteria)
 "sf" = (
 /obj/effect/catwalk_plated/ascent,
+/obj/machinery/light/ascent{
+	dir = 1
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/light/ascent{
-	dir = 1
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
@@ -3416,12 +3483,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "sx" = (
@@ -3452,12 +3519,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
 "sE" = (
@@ -3494,6 +3561,23 @@
 /obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"sX" = (
+/obj/machinery/alarm/ascent{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "ta" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -3518,11 +3602,6 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "tm" = (
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
-	},
 /obj/machinery/power/apc/hyper/ascent/west,
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
@@ -3601,12 +3680,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
 "tD" = (
@@ -3628,12 +3707,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "tP" = (
@@ -3650,17 +3729,17 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
 "tU" = (
@@ -3680,18 +3759,12 @@
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory)
 "tX" = (
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hangar)
 "ua" = (
@@ -3731,12 +3804,12 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "uy" = (
@@ -3769,12 +3842,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "uJ" = (
@@ -3796,6 +3869,22 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
+"uO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/central_hallway)
 "uS" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,
@@ -3839,15 +3928,15 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/machinery/light/ascent{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/light/ascent{
-	dir = 1
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "vh" = (
@@ -3898,16 +3987,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/machinery/alarm/ascent{
 	dir = 1;
 	pixel_y = -24
 	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "vv" = (
@@ -3920,13 +4010,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/briefing)
 "vx" = (
@@ -3997,13 +4087,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/lab)
 "vR" = (
@@ -4018,15 +4107,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/habitation)
 "vS" = (
@@ -4066,16 +4155,16 @@
 	icon_state = "4-8"
 	},
 /obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
@@ -4090,12 +4179,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "wm" = (
@@ -4107,10 +4196,9 @@
 	dir = 4
 	},
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory_xeno)
@@ -4121,13 +4209,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/light/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "wo" = (
@@ -4140,20 +4228,6 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/gyne_quarters)
-"wq" = (
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	dir = 4;
-	name = "\improper Mantid Emergency Shutter"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/ascent,
-/area/ship/ascent/wing_starboard)
 "ws" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -4170,13 +4244,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/light/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "wx" = (
@@ -4252,15 +4326,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "xq" = (
@@ -4280,12 +4354,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "xx" = (
@@ -4307,12 +4381,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "xC" = (
@@ -4356,12 +4430,12 @@
 "xI" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "xJ" = (
@@ -4393,17 +4467,26 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/xeno_cells)
+"xL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/cafeteria)
 "xQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "xW" = (
@@ -4454,12 +4537,12 @@
 /area/ship/ascent/bridge)
 "yl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "yp" = (
@@ -4521,13 +4604,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "yx" = (
@@ -4563,17 +4645,6 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
-"yK" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/ascent,
-/area/ship/ascent/queen_quarters)
 "yL" = (
 /obj/machinery/computer/ship/sensors/ascent{
 	dir = 1
@@ -4619,13 +4690,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "zb" = (
@@ -4678,12 +4749,12 @@
 	name = "\improper Mantid Emergency Shutter"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/airlock/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory)
 "zq" = (
@@ -4725,12 +4796,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "zA" = (
@@ -4751,12 +4822,12 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "zC" = (
@@ -4898,17 +4969,31 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/laboratory)
+"At" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "Aw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
 "AA" = (
@@ -4987,21 +5072,6 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory_xeno)
-"Bb" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
-/turf/simulated/floor/ascent,
-/area/ship/ascent/wing_starboard)
 "Be" = (
 /obj/machinery/airlock_sensor{
 	frequency = 1331;
@@ -5048,6 +5118,11 @@
 /area/ship/ascent/shuttle_starboard)
 "Bl" = (
 /obj/effect/catwalk_plated/ascent,
+/obj/machinery/power/apc/hyper/ascent/north,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -5055,13 +5130,13 @@
 	},
 /obj/structure/cable{
 	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
-	},
-/obj/machinery/power/apc/hyper/ascent/north,
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
@@ -5105,18 +5180,11 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
 "Bw" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	name = "\improper Mantid Emergency Shutter"
+/obj/machinery/atmospherics/unary/vent_pump/on/ascent{
+	dir = 8
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/ascent,
-/area/ship/ascent/engineering)
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/wing_port)
 "Bx" = (
 /obj/structure/table/rack/dark,
 /obj/item/clustertool,
@@ -5144,15 +5212,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/alarm/ascent{
+	pixel_y = 24
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/alarm/ascent{
-	pixel_y = 24
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "BB" = (
@@ -5184,15 +5252,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/light/ascent{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/light/ascent{
-	dir = 1
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "BP" = (
@@ -5221,12 +5289,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "BU" = (
@@ -5234,12 +5302,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "BV" = (
@@ -5249,13 +5317,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/queen_quarters)
@@ -5333,12 +5401,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "Cm" = (
@@ -5399,18 +5467,17 @@
 "CF" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
+	icon_state = "1-4"
 	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "CH" = (
@@ -5421,12 +5488,12 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "CJ" = (
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "CK" = (
@@ -5530,12 +5597,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "Dn" = (
@@ -5586,9 +5653,8 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -5599,7 +5665,11 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "DD" = (
@@ -5691,24 +5761,23 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "DU" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
@@ -5741,13 +5810,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/sub_acute)
@@ -5829,11 +5898,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/machinery/power/apc/hyper/ascent/north,
 /obj/structure/cable{
 	d2 = 4;
 	icon_state = "0-4"
 	},
-/obj/machinery/power/apc/hyper/ascent/north,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
 "EV" = (
@@ -5841,12 +5910,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "Fd" = (
@@ -5863,13 +5932,13 @@
 /obj/structure/table/steel_reinforced,
 /obj/item/stack/material/phoron/ten,
 /obj/machinery/atmospherics/unary/vent_pump/on/ascent,
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
-	},
 /obj/machinery/power/apc/hyper/ascent/north,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2";
+	pixel_y = 0
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/lab)
 "Fg" = (
@@ -5883,15 +5952,15 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8
 	},
+/obj/machinery/light/ascent{
+	dir = 8
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/light/ascent{
-	dir = 8
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Fj" = (
@@ -5969,15 +6038,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/gyne_quarters)
 "FE" = (
@@ -5993,12 +6062,12 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/briefing)
 "FJ" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on/ascent,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/hydroponics)
 "FL" = (
@@ -6039,16 +6108,41 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/sub_acute)
-"FX" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 10
+"FW" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_starboard)
+"FX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "FY" = (
@@ -6069,13 +6163,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "4-8";
+	pixel_x = 0
 	},
-/obj/machinery/light/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Gb" = (
@@ -6093,18 +6188,22 @@
 "Gg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "Gh" = (
@@ -6151,14 +6250,33 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/central_hallway)
+"Gt" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
 	},
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
-/area/ship/ascent/central_hallway)
+/area/ship/ascent/cafeteria)
 "Gu" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/weapon/reagent_containers/food/snacks/meat/beef,
@@ -6277,12 +6395,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Hb" = (
@@ -6295,12 +6413,12 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "Hd" = (
@@ -6358,10 +6476,9 @@
 	dir = 9
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/briefing)
@@ -6415,15 +6532,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/storage)
 "HF" = (
@@ -6474,13 +6591,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/mat_pros)
 "HX" = (
@@ -6501,12 +6618,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Ib" = (
@@ -6515,13 +6632,12 @@
 	},
 /obj/structure/table/rack/dark,
 /obj/item/weapon/storage/bag/trash/purple/ascent,
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
-	},
 /obj/machinery/power/apc/hyper/ascent/north,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/laboratory_xeno)
 "Ic" = (
@@ -6579,12 +6695,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "Is" = (
@@ -6674,12 +6790,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "IX" = (
@@ -6701,8 +6817,11 @@
 	color = "PURPLE";
 	name = "microparticle bombardment jet"
 	},
-/obj/structure/cable,
 /obj/machinery/power/apc/hyper/ascent/south,
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/queen_quarters)
 "Js" = (
@@ -6711,15 +6830,15 @@
 	dir = 4;
 	name = "\improper Mantid Emergency Shutter"
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "Jt" = (
@@ -6756,18 +6875,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/machinery/power/apc/hyper/ascent/north,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
 /obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
+	d2 = 2;
+	icon_state = "0-2"
 	},
-/obj/machinery/power/apc/hyper/ascent/north,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "Jx" = (
@@ -6787,16 +6905,16 @@
 	dir = 8
 	},
 /obj/machinery/power/apc/hyper/ascent/west,
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2";
+	pixel_y = 0
+	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
@@ -6819,12 +6937,12 @@
 "JE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "JG" = (
@@ -6836,6 +6954,27 @@
 	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
 	},
 /area/ship/ascent/garden)
+"JH" = (
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/central_hallway)
 "JI" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -6844,12 +6983,6 @@
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
@@ -6878,12 +7011,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "JW" = (
@@ -6965,12 +7098,12 @@
 	color = "PURPLE";
 	dir = 4
 	},
+/obj/machinery/power/apc/hyper/ascent/north,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/machinery/power/apc/hyper/ascent/north,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/mat_pros)
 "Kx" = (
@@ -6978,15 +7111,9 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/briefing)
@@ -7023,10 +7150,9 @@
 	dir = 9
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
@@ -7059,12 +7185,12 @@
 "KU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "KW" = (
@@ -7077,6 +7203,23 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hangar)
+"KX" = (
+/obj/machinery/alarm/ascent{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/wing_port)
 "Lb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
@@ -7202,23 +7345,17 @@
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/wing_starboard)
 "LJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/effect/catwalk_plated/ascent,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
@@ -7290,15 +7427,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/or)
 "Mf" = (
@@ -7344,12 +7481,12 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "MD" = (
@@ -7367,12 +7504,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "MH" = (
@@ -7394,12 +7531,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "MP" = (
@@ -7436,12 +7573,11 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/laboratory)
 "MY" = (
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
-	},
 /obj/machinery/power/apc/hyper/ascent/north,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/infirmary_hallway)
 "MZ" = (
@@ -7449,9 +7585,9 @@
 	dir = 4;
 	icon_state = "intact"
 	},
-/obj/structure/cable,
 /obj/machinery/power/apc/hyper/ascent/south,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/xeno_cells)
 "Nb" = (
@@ -7542,17 +7678,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d2 = 4;
+	icon_state = "1-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
 "NQ" = (
@@ -7581,12 +7712,12 @@
 /turf/simulated/wall/r_wall/ascent,
 /area/ship/ascent/shuttle_starboard)
 "NY" = (
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "NZ" = (
@@ -7607,12 +7738,12 @@
 "Of" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "Og" = (
@@ -7635,15 +7766,6 @@
 	},
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
-/area/ship/ascent/wing_starboard)
-"On" = (
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/wing_starboard)
 "Oq" = (
 /obj/machinery/alarm/ascent{
@@ -7673,6 +7795,7 @@
 	dir = 4;
 	pixel_x = -24
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -7683,7 +7806,11 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "OA" = (
@@ -7701,11 +7828,11 @@
 	dir = 9
 	},
 /obj/machinery/power/apc/hyper/ascent/south,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/storage)
 "OF" = (
@@ -7762,15 +7889,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
 	},
+/obj/machinery/light/ascent{
+	dir = 1
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/machinery/light/ascent{
-	dir = 1
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "OP" = (
@@ -7798,12 +7925,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Pb" = (
@@ -7916,6 +8043,7 @@
 "PF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -7926,7 +8054,11 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "PN" = (
@@ -7934,14 +8066,19 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
-	d1 = 4;
+	d1 = 1;
 	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "1-8"
 	},
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
@@ -8092,12 +8229,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "QP" = (
@@ -8117,12 +8254,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/storage)
 "QW" = (
@@ -8144,11 +8281,6 @@
 "QZ" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/light/ascent,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
 "Ra" = (
@@ -8158,12 +8290,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -8273,18 +8405,22 @@
 "Ry" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
+	icon_state = "1-4"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "RF" = (
@@ -8328,18 +8464,18 @@
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/central_hallway)
 "RZ" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
-/obj/machinery/door/firedoor/autoset{
-	color = "PURPLE";
-	name = "\improper Mantid Emergency Shutter"
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/ascent,
-/area/ship/ascent/central_hallway)
+/area/ship/ascent/wing_port)
 "Sf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -8347,17 +8483,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/power/apc/hyper/ascent/south,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/power/apc/hyper/ascent/south,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "Sh" = (
@@ -8385,10 +8521,9 @@
 	dir = 9
 	},
 /obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/queen_quarters)
@@ -8404,12 +8539,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "Sp" = (
@@ -8424,13 +8559,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory)
@@ -8481,16 +8616,36 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
@@ -8520,11 +8675,6 @@
 "SZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/queen_quarters)
@@ -8563,6 +8713,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -8573,7 +8724,6 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "Ti" = (
@@ -8595,12 +8745,11 @@
 	},
 /obj/item/weapon/storage/box/beakers,
 /obj/item/weapon/material/knife/kitchen/cleaver/ascent,
-/obj/structure/cable{
-	d2 = 4;
-	dir = 8;
-	icon_state = "0-4"
-	},
 /obj/machinery/power/apc/hyper/ascent/north,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/hydroponics)
 "Tm" = (
@@ -8650,15 +8799,15 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/machinery/door/airlock/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/door/airlock/ascent{
-	dir = 4
-	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/lab)
 "TD" = (
@@ -8699,10 +8848,9 @@
 	dir = 8
 	},
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory)
@@ -8716,13 +8864,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/machinery/light/ascent{
+	dir = 8
+	},
 /obj/structure/cable{
 	d1 = 2;
 	d2 = 4;
 	icon_state = "2-4"
-	},
-/obj/machinery/light/ascent{
-	dir = 8
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/briefing)
@@ -8768,12 +8916,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/storage)
 "Ug" = (
@@ -8853,13 +9001,14 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/light/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "4-8";
+	pixel_x = 0
 	},
-/obj/machinery/light/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "UG" = (
@@ -8986,12 +9135,13 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
-	icon_state = "4-8"
+	icon_state = "4-8";
+	pixel_x = 0
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Vm" = (
@@ -9053,11 +9203,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
 	},
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
@@ -9202,13 +9347,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "Wz" = (
@@ -9230,14 +9375,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/machinery/light/ascent,
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "WB" = (
@@ -9293,12 +9437,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "WM" = (
@@ -9347,17 +9491,17 @@
 	dir = 4;
 	name = "\improper Mantid Emergency Shutter"
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/effect/catwalk_plated/ascent,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
@@ -9394,13 +9538,13 @@
 "Xn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "Xq" = (
@@ -9447,6 +9591,14 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/shuttle_starboard)
+"XG" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/habitation)
 "XH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -9454,12 +9606,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "XI" = (
@@ -9479,7 +9631,9 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
 "XK" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
 /obj/machinery/light/ascent{
 	dir = 1
 	},
@@ -9516,12 +9670,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "XT" = (
@@ -9614,12 +9768,12 @@
 "Yo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "Yp" = (
@@ -9739,13 +9893,13 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/airlock/ascent,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/ascent,
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary_hallway)
 "YL" = (
@@ -9755,13 +9909,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/or)
 "YM" = (
@@ -9819,28 +9972,32 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 1;
 	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
+	icon_state = "1-4"
 	},
-/obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "Zb" = (
 /obj/structure/bed/roller,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "Zd" = (
@@ -9888,13 +10045,12 @@
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/mat_pros)
 "Zp" = (
@@ -9904,13 +10060,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "Zr" = (
@@ -9919,12 +10074,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/habitation)
 "Zs" = (
@@ -9940,12 +10095,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "Zv" = (
@@ -9988,13 +10143,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 1;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/garden)
 "ZE" = (
@@ -10004,13 +10158,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	dir = 4;
-	icon_state = "2-4"
-	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "ZI" = (
@@ -10029,14 +10182,18 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
 "ZM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/effect/catwalk_plated/ascent,
 /obj/structure/cable{
-	d1 = 2;
+	d1 = 4;
 	d2 = 8;
-	icon_state = "2-8"
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/ascent,
-/area/ship/ascent/engineering)
+/area/ship/ascent/wing_port)
 "ZP" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
 	id_tag = "ascent_seedship_port_pumps"
@@ -12675,7 +12832,7 @@ dN
 Io
 nR
 fa
-Hw
+ki
 pG
 PT
 PT
@@ -12981,7 +13138,7 @@ Es
 hI
 pY
 ig
-Hw
+Bw
 XQ
 PT
 Mf
@@ -13010,8 +13167,8 @@ tF
 Yn
 mp
 QC
-Bb
-ya
+LJ
+AN
 uu
 ja
 eh
@@ -13113,7 +13270,7 @@ FR
 Ka
 yU
 xm
-ya
+hd
 Ql
 Sw
 Sw
@@ -13214,7 +13371,7 @@ lY
 qL
 YC
 QC
-Bb
+lF
 ya
 Ql
 Sw
@@ -13316,7 +13473,7 @@ yU
 WC
 tF
 QC
-Bb
+lF
 vZ
 uu
 tP
@@ -13389,8 +13546,8 @@ ig
 ig
 ig
 ig
-Hw
-BS
+tD
+RZ
 di
 vh
 OQ
@@ -13418,7 +13575,7 @@ GA
 Vx
 tF
 QC
-Bb
+lF
 ya
 uu
 uu
@@ -13491,8 +13648,8 @@ ig
 ig
 ig
 ig
-Hw
-BS
+ri
+ZM
 Sv
 gx
 GI
@@ -13520,8 +13677,8 @@ kb
 LS
 tF
 yU
-cB
-wq
+Dj
+Ob
 uu
 uu
 uu
@@ -13623,7 +13780,7 @@ wa
 JI
 Dx
 PN
-On
+ya
 uu
 uu
 uu
@@ -13635,8 +13792,8 @@ nA
 CC
 lH
 ns
-yK
-lH
+SZ
+mF
 Ye
 nA
 nA
@@ -13724,7 +13881,7 @@ MP
 oC
 QZ
 yU
-Bb
+lF
 ya
 jc
 jc
@@ -13737,8 +13894,8 @@ nA
 bR
 lH
 ns
-yK
-lH
+SZ
+mF
 nx
 nA
 nA
@@ -13824,10 +13981,10 @@ yU
 Dw
 GA
 jv
-ZM
-Bw
+tF
+QC
 LJ
-ya
+AN
 jc
 jc
 jc
@@ -13899,7 +14056,7 @@ jX
 jX
 jX
 jX
-Hw
+ri
 DA
 eR
 KL
@@ -13928,8 +14085,8 @@ yU
 be
 tF
 yU
-Bb
-ya
+jx
+hd
 jc
 jc
 jc
@@ -14001,8 +14158,8 @@ as
 qk
 AD
 jX
-Hw
-XQ
+tD
+KX
 Sv
 zG
 Oy
@@ -14030,7 +14187,7 @@ yU
 fj
 TT
 yU
-Bb
+lF
 vZ
 jc
 jc
@@ -14132,7 +14289,7 @@ QC
 be
 tF
 yU
-Bb
+lF
 ya
 jc
 jc
@@ -14234,7 +14391,7 @@ EJ
 wy
 US
 yU
-Bb
+lF
 ya
 jc
 TM
@@ -14336,7 +14493,7 @@ QC
 nT
 tA
 yU
-Bb
+lF
 ya
 sz
 Yp
@@ -14540,7 +14697,7 @@ QC
 tF
 fO
 yU
-Bb
+lF
 ya
 sz
 Yp
@@ -14642,7 +14799,7 @@ yU
 tF
 qN
 yU
-Bb
+lF
 vZ
 jc
 uZ
@@ -14744,7 +14901,7 @@ yU
 yU
 Ho
 yU
-Bb
+lF
 ya
 jc
 jc
@@ -14817,8 +14974,8 @@ Cc
 Cc
 AG
 AG
-Hw
-BS
+tD
+RZ
 Sv
 Sv
 Sv
@@ -14846,7 +15003,7 @@ yU
 yU
 Ej
 yU
-Bb
+lF
 ya
 jc
 jc
@@ -14919,8 +15076,8 @@ ut
 LC
 AG
 AG
-Hw
-BS
+ri
+ZM
 Sv
 Sv
 vv
@@ -14934,7 +15091,7 @@ kU
 kU
 kU
 kU
-kH
+tX
 kU
 kU
 kU
@@ -14948,8 +15105,8 @@ WA
 yU
 yU
 yU
-Bb
-ya
+jx
+hd
 yj
 yj
 Og
@@ -15050,8 +15207,8 @@ FX
 kn
 yU
 yU
-Bb
-ya
+LJ
+AN
 yj
 HD
 HF
@@ -15138,7 +15295,7 @@ Ak
 te
 Hd
 Hd
-kH
+tX
 Hd
 Hd
 Ap
@@ -15152,7 +15309,7 @@ RT
 FX
 kn
 yU
-Bb
+lF
 vZ
 yj
 nS
@@ -15356,8 +15513,8 @@ vv
 mA
 zB
 vv
-Bb
-ya
+LJ
+AN
 yj
 Kt
 lS
@@ -15458,8 +15615,8 @@ vv
 RT
 an
 vv
-Bb
-ya
+jx
+hd
 yj
 Wx
 lS
@@ -15531,8 +15688,8 @@ ut
 rD
 AG
 AG
-Hw
-BS
+ri
+ZM
 vv
 an
 RT
@@ -15560,7 +15717,7 @@ vv
 RT
 wt
 vv
-Bb
+lF
 ya
 yj
 fP
@@ -15633,8 +15790,8 @@ Qa
 AG
 AG
 AG
-Hw
-wn
+tD
+At
 vv
 BN
 iJ
@@ -15662,7 +15819,7 @@ vv
 dS
 DT
 vv
-Bb
+lF
 vZ
 yj
 yj
@@ -15764,7 +15921,7 @@ vv
 dS
 MF
 vv
-Bb
+lF
 ya
 yj
 yj
@@ -15967,7 +16124,7 @@ Hd
 cO
 dS
 MF
-RZ
+cO
 lF
 ya
 lT
@@ -16272,7 +16429,7 @@ QW
 kU
 vv
 gS
-gG
+JH
 vv
 JS
 Ob
@@ -16374,9 +16531,9 @@ Ys
 kU
 vv
 RT
-eW
+uO
 vv
-Bb
+lF
 ya
 Zs
 iY
@@ -16478,7 +16635,7 @@ vv
 mA
 Vj
 vv
-Bb
+lF
 vZ
 Zs
 iY
@@ -16580,7 +16737,7 @@ vv
 mA
 Vj
 vv
-Bb
+lF
 ya
 Zs
 Zs
@@ -16653,8 +16810,8 @@ io
 fS
 hp
 hp
-Hw
-BS
+tD
+RZ
 vv
 GY
 pg
@@ -16682,13 +16839,13 @@ vv
 mA
 Vj
 vv
-Bb
+lF
 ya
 Zs
 Zs
 Zs
 Zs
-vR
+lp
 Zs
 Zs
 Zs
@@ -16755,8 +16912,8 @@ io
 jB
 hp
 hp
-Hw
-wn
+ri
+eH
 vv
 fz
 RT
@@ -16784,13 +16941,13 @@ vv
 RT
 Ga
 vv
-Bb
+lF
 ya
 Zs
 Zs
 GN
 gA
-dw
+mx
 gA
 GN
 Zs
@@ -16886,13 +17043,13 @@ vv
 dS
 Gr
 vv
-Bb
-ya
+LJ
+AN
 Zs
 Zs
 Zs
 lX
-ce
+XG
 ox
 Zs
 Zs
@@ -16988,13 +17145,13 @@ vv
 dS
 Gr
 vv
-Bb
-ya
+jC
+hd
 Zs
 Zs
 yR
 gA
-dw
+mx
 gA
 yR
 Zs
@@ -17090,13 +17247,13 @@ vv
 dS
 Gr
 vv
-Bb
+lF
 vZ
 iV
 iV
 iV
 iV
-og
+Gt
 iV
 iV
 iV
@@ -17164,7 +17321,7 @@ EV
 Mx
 Xn
 JE
-ka
+Ry
 vv
 eW
 RT
@@ -17190,15 +17347,15 @@ QW
 kU
 vv
 RT
-eW
+uO
 vv
-Bb
+lF
 ya
 iV
 zI
 eV
 Wb
-tC
+xL
 eV
 Cm
 Gb
@@ -17292,9 +17449,9 @@ QW
 kU
 vv
 RT
-eW
+uO
 vv
-Bb
+lF
 ya
 iV
 lU
@@ -17394,15 +17551,15 @@ Ew
 kU
 vv
 RT
-eW
+uO
 vv
-Bb
+lF
 ya
 iV
 IF
 uJ
 uJ
-tC
+xL
 Xq
 Cm
 Gb
@@ -17498,7 +17655,7 @@ vv
 RT
 vt
 vv
-eQ
+FW
 Of
 sD
 tQ
@@ -17571,8 +17728,8 @@ fv
 Dn
 hp
 hp
-Hw
-XQ
+ri
+sX
 vv
 fz
 RT
@@ -17600,7 +17757,7 @@ ep
 RT
 Ga
 vv
-xm
+mN
 ya
 iV
 sa
@@ -17673,8 +17830,8 @@ io
 ei
 hp
 hp
-Hw
-BS
+tD
+RZ
 vv
 MJ
 ZE
@@ -17702,8 +17859,8 @@ dM
 OW
 yv
 vv
-Bb
-ya
+LJ
+AN
 iV
 zf
 Tv
@@ -17804,8 +17961,8 @@ yY
 yv
 RT
 vv
-Bb
-ya
+jx
+hd
 iV
 iV
 Pb
@@ -17906,7 +18063,7 @@ dM
 RT
 RT
 vv
-Bb
+lF
 vZ
 XC
 GG
@@ -18008,7 +18165,7 @@ ep
 Iw
 DK
 vv
-Bb
+lF
 ya
 XC
 Tj
@@ -18110,7 +18267,7 @@ ep
 vv
 Qg
 vv
-Bb
+lF
 ya
 XC
 IK
