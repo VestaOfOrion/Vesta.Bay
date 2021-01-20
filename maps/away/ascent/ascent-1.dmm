@@ -127,6 +127,11 @@
 	id_tag = "ascent_seedship_port_internal"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "bb" = (
@@ -174,6 +179,19 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"bf" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle/ascent,
+/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle/ascent,
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_mess";
+	name = "Mess Hall Lockdown";
+	pixel_x = 23;
+	pixel_y = 3
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/cafeteria)
 "bg" = (
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/hydroponics/ascent{
@@ -211,6 +229,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
+"br" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal{
+	color = "PURPLE";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/cafeteria)
 "bw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -241,6 +266,11 @@
 /obj/machinery/door/firedoor/autoset{
 	color = "PURPLE";
 	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_hydro";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
@@ -546,6 +576,13 @@
 /area/ship/ascent/atmos)
 "dl" = (
 /obj/structure/bed/chair/padded/purple/ascent/gyne,
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_garden";
+	name = "Garden Lockdown";
+	pixel_x = 12;
+	pixel_y = 26
+	},
 /turf/simulated/floor/grass{
 	color = "#db4adb";
 	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
@@ -601,6 +638,11 @@
 /obj/machinery/door/firedoor/autoset{
 	color = "PURPLE";
 	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/door/blast/regular/open{
+	color = "PURPLE";
+	id_tag = "ascent_shuttle";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
@@ -1127,6 +1169,11 @@
 	pixel_x = -25;
 	pixel_y = 1
 	},
+/obj/machinery/door/blast/regular/open{
+	color = "PURPLE";
+	id_tag = "ascent_shuttle";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
 "gG" = (
@@ -1338,6 +1385,11 @@
 /obj/machinery/door/airlock/external/bolted/ascent{
 	frequency = 1331;
 	id_tag = "ascent_seedship_fore_external"
+	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
@@ -1658,12 +1710,23 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/black{
 	dir = 8
 	},
+/obj/machinery/door/blast/regular/open{
+	color = "PURPLE";
+	dir = 4;
+	id_tag = "ascent_shuttle";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
 "jp" = (
 /obj/machinery/door/airlock/external/bolted/ascent{
 	frequency = 1331;
 	id_tag = "ascent_seedship_port_external"
+	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
@@ -2300,6 +2363,12 @@
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/laboratory_xeno)
+"mz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/cafeteria)
 "mA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on/ascent,
 /turf/simulated/floor/tiled/ascent,
@@ -2377,6 +2446,17 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/black{
+	color = "PURPLE";
+	dir = 1
+	},
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_hydro";
+	name = "Hydroponics Lockdown";
+	pixel_x = -25;
+	pixel_y = -25
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
@@ -2660,6 +2740,10 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	color = "PURPLE";
+	dir = 4
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
@@ -3002,6 +3086,12 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/or)
 "ql" = (
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	dir = 2;
+	id_tag = "ascent_waste";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent{
 	initial_gas = newlist()
 	},
@@ -3226,6 +3316,11 @@
 	pixel_x = 25;
 	pixel_y = 7
 	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "rp" = (
@@ -3346,6 +3441,13 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/laboratory_xeno)
+"rV" = (
+/obj/machinery/portable_atmospherics/hydroponics/ascent,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/hydroponics)
 "rX" = (
 /obj/effect/wallframe_spawn/reinforced_phoron/ascent,
 /obj/machinery/door/firedoor/autoset{
@@ -3516,6 +3618,11 @@
 /area/ship/ascent/hangar)
 "tj" = (
 /obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_outer";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "tm" = (
@@ -3540,6 +3647,13 @@
 	icon_state = "intact"
 	},
 /obj/machinery/light/ascent,
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_waste";
+	name = "Waste Release";
+	pixel_x = 10;
+	pixel_y = -34
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/atmos)
 "tr" = (
@@ -3601,6 +3715,10 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	color = "PURPLE";
+	dir = 4
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
@@ -3773,6 +3891,20 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/mat_pros)
+"uM" = (
+/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	dir = 2;
+	id_tag = "ascent_garden";
+	name = "mantid deployable protective barrier"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/garden)
 "uN" = (
 /obj/machinery/door/firedoor/autoset{
 	color = "PURPLE";
@@ -3793,6 +3925,11 @@
 /obj/machinery/atmospherics/unary/vent_pump/on/ascent,
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/gyne_quarters)
+"uV" = (
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/ascent,
+/area/ship/ascent/bridge)
 "uW" = (
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
@@ -4259,6 +4396,7 @@
 	dir = 4
 	},
 /obj/effect/catwalk_plated/ascent,
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/bridge)
 "xu" = (
@@ -4375,6 +4513,9 @@
 /area/ship/ascent/infirmary)
 "xJ" = (
 /obj/machinery/portable_atmospherics/hydroponics/ascent,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
 "xK" = (
@@ -4720,6 +4861,11 @@
 	pixel_y = -8
 	},
 /obj/effect/shuttle_landmark/ascent_main/start,
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "zx" = (
@@ -5096,6 +5242,9 @@
 /obj/machinery/light/ascent{
 	dir = 4
 	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
 "Bw" = (
@@ -5344,6 +5493,11 @@
 	color = "PURPLE";
 	name = "\improper Mantid Emergency Shutter"
 	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_mess";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
 "Cr" = (
@@ -5481,6 +5635,11 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "CW" = (
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_outer";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent{
 	initial_gas = newlist()
 	},
@@ -5708,6 +5867,10 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/visible/black{
+	color = "PURPLE";
+	dir = 1
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
 "DY" = (
@@ -5724,6 +5887,12 @@
 	color = "PURPLE";
 	dir = 4;
 	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	dir = 2;
+	id_tag = "ascent_garden";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/garden)
@@ -5757,6 +5926,7 @@
 /obj/structure/cable/cyan{
 	icon_state = "0-8"
 	},
+/obj/machinery/light/ascent,
 /turf/simulated/floor/greengrid{
 	color = "PURPLE";
 	initial_gas = list("methyl_bromide" = 51.9919, "oxygen" = 51.9919)
@@ -5934,6 +6104,9 @@
 /area/ship/ascent/wing_starboard)
 "Fm" = (
 /obj/effect/catwalk_plated/ascent,
+/obj/machinery/atmospherics/pipe/manifold4w/visible/black{
+	color = "PURPLE"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/hydroponics)
 "Fn" = (
@@ -6093,6 +6266,11 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/central_hallway)
 "Gb" = (
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_outer";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent{
 	initial_gas = newlist()
 	},
@@ -7027,6 +7205,16 @@
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/robotics)
+"KI" = (
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_outer";
+	name = "mantid deployable protective barrier"
+	},
+/turf/simulated/floor/ascent{
+	initial_gas = newlist()
+	},
+/area/ship/ascent/bridge)
 "KL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -7042,6 +7230,11 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/atmos)
 "KO" = (
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_outer";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent{
 	initial_gas = newlist()
 	},
@@ -7177,12 +7370,13 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/machinery/power/apc/hyper/ascent/south{
-	dir = 1;
-	pixel_y = 18
-	},
 /obj/machinery/light/ascent{
 	dir = 8
+	},
+/obj/machinery/power/apc/debug/skrell{
+	color = "PURPLE";
+	dir = 1;
+	pixel_y = 19
 	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/shuttle_starboard)
@@ -7248,6 +7442,11 @@
 /area/ship/ascent/laboratory_xeno)
 "LQ" = (
 /obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_outer";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
 "LR" = (
@@ -7361,6 +7560,11 @@
 /obj/machinery/door/airlock/external/bolted/ascent{
 	frequency = 1331;
 	id_tag = "ascent_seedship_port_internal"
+	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
@@ -7551,6 +7755,10 @@
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	color = "PURPLE";
+	dir = 4
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
@@ -8033,6 +8241,11 @@
 	color = "PURPLE";
 	name = "\improper Mantid Emergency Shutter"
 	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_gyne";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/gyne_quarters)
 "Qk" = (
@@ -8055,6 +8268,11 @@
 /obj/machinery/door/airlock/external/bolted/ascent{
 	frequency = 1331;
 	id_tag = "ascent_port_outer"
+	},
+/obj/machinery/door/blast/regular/open{
+	color = "PURPLE";
+	id_tag = "ascent_shuttle";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
@@ -8533,6 +8751,35 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
+"SM" = (
+/obj/machinery/light/ascent{
+	dir = 4
+	},
+/obj/effect/catwalk_plated/ascent,
+/obj/structure/table/steel_reinforced,
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_outer";
+	name = "Outer Lockdown";
+	pixel_x = -4;
+	pixel_y = -2
+	},
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "Airlock Lockdown";
+	pixel_x = 8;
+	pixel_y = 9
+	},
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_bridge_inner";
+	name = "Inner Bridge Lockdown";
+	pixel_x = -4;
+	pixel_y = 9
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/bridge)
 "SN" = (
 /obj/structure/window/phoronreinforced{
 	dir = 4
@@ -8656,6 +8903,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 5
 	},
+/obj/machinery/door/blast/regular/open{
+	color = "PURPLE";
+	dir = 4;
+	id_tag = "ascent_shuttle";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
 "Tv" = (
@@ -8725,6 +8978,12 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/black{
 	dir = 8
 	},
+/obj/machinery/door/blast/regular/open{
+	color = "PURPLE";
+	dir = 4;
+	id_tag = "ascent_shuttle";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
 "TL" = (
@@ -8764,6 +9023,11 @@
 	id_tag = "ascent_seedship_fore_internal"
 	},
 /obj/effect/catwalk_plated/ascent,
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "TT" = (
@@ -8875,6 +9139,10 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
 "Un" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black{
+	color = "PURPLE";
+	dir = 6
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/hydroponics)
 "Up" = (
@@ -9113,6 +9381,16 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/engineering)
+"Vy" = (
+/obj/machinery/portable_atmospherics/hydroponics/ascent,
+/obj/machinery/light/ascent{
+	dir = 4
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/hydroponics)
 "VD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on/ascent,
 /obj/machinery/light/ascent{
@@ -9124,9 +9402,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/effect/catwalk_plated/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/cafeteria)
@@ -9151,6 +9427,11 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/catwalk_plated/ascent,
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_air";
+	name = "mantid deployable protective barrier"
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_starboard)
 "Wb" = (
@@ -9438,6 +9719,20 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/wing_port)
+"Xb" = (
+/obj/effect/wallframe_spawn/reinforced_phoron/ascent,
+/obj/machinery/door/firedoor/autoset{
+	color = "PURPLE";
+	dir = 4;
+	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/door/blast/regular{
+	color = "PURPLE";
+	id_tag = "ascent_bridge_inner";
+	name = "mantid deployable protective barrier"
+	},
+/turf/simulated/floor/ascent,
+/area/ship/ascent/bridge)
 "Xc" = (
 /obj/machinery/porta_turret/mantid,
 /obj/structure/window/phoronreinforced,
@@ -9602,6 +9897,12 @@
 	color = "PURPLE";
 	dir = 4;
 	name = "\improper Mantid Emergency Shutter"
+	},
+/obj/machinery/door/blast/regular/open{
+	color = "PURPLE";
+	dir = 4;
+	id_tag = "ascent_shuttle";
+	name = "mantid deployable protective barrier"
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/shuttle_starboard)
@@ -11519,7 +11820,7 @@ AK
 AK
 KO
 KO
-Ql
+uM
 Ee
 JG
 oY
@@ -11620,8 +11921,8 @@ AK
 AK
 AK
 KO
-Ql
-Ql
+uM
+uM
 oY
 oY
 oY
@@ -11722,7 +12023,7 @@ AK
 AK
 KO
 KO
-Ql
+uM
 rO
 rO
 pW
@@ -11823,8 +12124,8 @@ AK
 AK
 AK
 KO
-Ql
-Ql
+uM
+uM
 jT
 rO
 kY
@@ -11925,7 +12226,7 @@ AK
 AK
 KO
 KO
-Ql
+uM
 rO
 rO
 kY
@@ -12026,8 +12327,8 @@ AK
 AK
 AK
 KO
-Ql
-Ql
+uM
+uM
 rO
 Bq
 kY
@@ -12128,7 +12429,7 @@ AK
 AK
 KO
 KO
-Ql
+uM
 rO
 rO
 rO
@@ -12229,8 +12530,8 @@ AK
 AK
 AK
 KO
-Ql
-Ql
+uM
+uM
 rO
 rO
 rO
@@ -12331,7 +12632,7 @@ AK
 AK
 uC
 uu
-Ql
+uM
 GF
 it
 GF
@@ -17434,7 +17735,7 @@ ya
 iV
 lU
 uJ
-uJ
+mz
 VE
 Gu
 Cm
@@ -17536,7 +17837,7 @@ ya
 iV
 IF
 uJ
-uJ
+br
 WX
 Xq
 Cm
@@ -17843,7 +18144,7 @@ iV
 zf
 Tv
 tC
-Tv
+bf
 KA
 Cm
 Gb
@@ -18047,7 +18348,7 @@ XC
 GG
 sj
 nk
-xJ
+rV
 by
 CW
 CW
@@ -18149,7 +18450,7 @@ XC
 Tj
 FJ
 DU
-xJ
+rV
 by
 CW
 AK
@@ -18251,7 +18552,7 @@ XC
 IK
 Un
 Fm
-Bu
+Vy
 by
 CW
 AK
@@ -18331,11 +18632,11 @@ YM
 YM
 YM
 DY
-DY
+uV
 xq
 DY
-xq
-DY
+SM
+uV
 DY
 YM
 YM
@@ -18426,8 +18727,8 @@ SY
 SY
 AK
 AK
-AK
-ci
+KI
+Xb
 Sq
 JZ
 YM
@@ -18443,8 +18744,8 @@ YM
 YM
 JZ
 DQ
-ci
-AK
+Xb
+KI
 AK
 AK
 vv
@@ -18528,9 +18829,9 @@ SY
 SY
 AK
 AK
-AK
-ci
-ci
+KI
+Xb
+Xb
 is
 YM
 YM
@@ -18544,9 +18845,9 @@ YM
 YM
 YM
 is
-ci
-ci
-AK
+Xb
+Xb
+KI
 AK
 AK
 Vs
@@ -18630,10 +18931,10 @@ SY
 SY
 AK
 AK
-AK
-AK
-ci
-ci
+KI
+KI
+Xb
+Xb
 wZ
 JZ
 YM
@@ -18645,10 +18946,10 @@ rm
 YM
 JZ
 UQ
-ci
-ci
-AK
-AK
+Xb
+Xb
+KI
+KI
 AK
 AK
 Qj
@@ -18733,9 +19034,9 @@ SY
 AK
 AK
 AK
-AK
-AK
-ci
+KI
+KI
+Xb
 ep
 pb
 DY
@@ -18747,9 +19048,9 @@ DY
 DY
 pb
 ep
-ci
-AK
-AK
+Xb
+KI
+KI
 AK
 AK
 AK
@@ -18836,21 +19137,21 @@ AK
 AK
 AK
 AK
-AK
-AK
+KI
+KI
 ep
-ci
-ci
-ci
-ci
-ci
-ci
-ci
-ci
-ci
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
+Xb
 ep
-AK
-AK
+KI
+KI
 AK
 AK
 AK
@@ -18941,15 +19242,15 @@ AK
 AK
 AK
 ep
-JW
-AK
-AK
-AK
-AK
-AK
-AK
-AK
-JW
+KI
+KI
+KI
+KI
+KI
+KI
+KI
+KI
+KI
 ep
 AK
 AK

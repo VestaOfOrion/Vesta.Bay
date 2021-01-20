@@ -10,9 +10,10 @@
 		"NTEV Gaunt" = list("nav_hangar_calypso"), 	//can't have random shuttles popping inside the ship
 		"NTRP Garuda" = list("nav_hangar_guppy"),
 		"NTSC Byakhee" = list("nav_hangar_aquila"),
-		"Trichoptera" = list("nav_trichoptera_altdock"), //restricts Trichoptera specific docking waypoint on deck 4 portside
+		"Amphiesmenoptera" = list("nav_trichoptera_altdock"), //restricts Amphiesmenoptera specific docking waypoint on deck 4 portside
 		"Skrellian Scout" = list("nav_skrellscout_dock"), //restricts Skrell Scoutship specific docking waypoint on deck 4 portside
 		"Skrellian Shuttle" = list("nav_skrellscoutsh_altdock"),
+		"Ascent Seedship" = list("nav_ascent_main_dock"), //restritcts the main ascent ship to dock on deck 4 starboard quarter.
 		"Rescue" = list("nav_ert_dock"), //restricts ERT Shuttle specific docking waypoint on deck 4 portside
 		"ITV The Reclaimer" = list("nav_hangar_gantry_torch"), //gantry shuttles
 		"ITV Vulcan" = list("nav_hangar_gantry_torch_two"),

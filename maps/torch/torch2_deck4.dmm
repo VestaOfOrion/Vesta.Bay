@@ -12658,6 +12658,7 @@
 /area/eva)
 "OD" = (
 /obj/effect/shuttle_landmark/admin/out,
+/obj/effect/shuttle_landmark/ascent_main/dock,
 /turf/space,
 /area/space)
 "OG" = (
@@ -41405,7 +41406,7 @@ aa
 aa
 aa
 aa
-Yj
+pz
 tG
 RR
 aJ
@@ -41451,7 +41452,7 @@ JP
 aJ
 Px
 Ms
-pz
+Yj
 aa
 aa
 aa

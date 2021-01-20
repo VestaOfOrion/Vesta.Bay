@@ -31,7 +31,7 @@
 	icon_state = "ship"
 	moving_state = "ship_moving"
 	color = "#491749"
-	vessel_mass = 10000
+	vessel_mass = 4000
 	fore_dir = EAST
 	max_speed = 1/(1 SECOND)
 	hide_from_reports = TRUE

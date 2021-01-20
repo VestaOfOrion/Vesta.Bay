@@ -25,6 +25,10 @@
 	name = "Uncharted Space"
 	landmark_tag = "nav_ascent_seedship_start"
 
+/obj/effect/shuttle_landmark/ascent_main/dock //We use this one to dock with the Dagon
+	name = "Seedship Docking Port"
+	landmark_tag = "nav_ascent_main_dock"
+
 //Amphiesmenoptera (A.K.A old Trichoptera) - Shuttle One, Port Side
 
 /obj/effect/overmap/visitable/ship/landable/ascent
@@ -73,5 +77,6 @@
 	defer_initialisation = TRUE
 	flags = SHUTTLE_FLAGS_PROCESS
 	skill_needed = SKILL_BASIC
+	dock_target = "ascent_starboard"
 	mothershuttle = "Ascent Seedship"
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/ascent
