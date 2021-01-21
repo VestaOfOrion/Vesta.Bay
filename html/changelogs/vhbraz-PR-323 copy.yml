@@ -1,0 +1,8 @@
+author: Vhbraz
+
+delete-after: True
+
+changes: 
+  - maptweak: "A new, completely revamped Ascent ship has been added. Gyne simps rejoice."
+  - maptweak: "The Ascent Ship can now travel through Z-levels and starts inside an empty sector, like the Skrell Scout Ship."
+  - maptweak: "The main Ascent Ship can now dock with the Dagon"
