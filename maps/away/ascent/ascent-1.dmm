@@ -2218,21 +2218,6 @@
 "lH" = (
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/queen_quarters)
-"lJ" = (
-/obj/structure/table/rack/dark,
-/obj/machinery/light/ascent{
-	dir = 1
-	},
-/obj/item/weapon/rig/mantid,
-/obj/item/weapon/rig/mantid,
-/obj/structure/window/phoronreinforced{
-	dir = 8
-	},
-/obj/structure/window/phoronreinforced{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/ascent,
-/area/ship/ascent/armory)
 "lL" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/item/device/lightreplacer,
@@ -2430,6 +2415,21 @@
 	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/or)
+"mU" = (
+/obj/structure/table/rack/dark,
+/obj/machinery/light/ascent{
+	dir = 1
+	},
+/obj/item/weapon/rig/mantid,
+/obj/item/weapon/rig/mantid,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/armory)
 "nd" = (
 /obj/machinery/door/airlock/ascent{
 	dir = 4;
@@ -2701,15 +2701,18 @@
 /area/ship/ascent/engineering)
 "nU" = (
 /obj/structure/table/rack/dark,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
 /obj/machinery/light/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "nV" = (
@@ -7622,24 +7625,19 @@
 /area/ship/ascent/sub_acute)
 "Ml" = (
 /obj/structure/table/rack/dark,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
-/obj/item/weapon/reagent_containers/hypospray/autoinjector/ascent,
 /obj/machinery/light/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "Mx" = (
@@ -8634,6 +8632,8 @@
 /obj/machinery/light/ascent{
 	dir = 1
 	},
+/obj/item/weapon/storage/med_pouch/ascent,
+/obj/item/weapon/storage/med_pouch/ascent,
 /obj/item/weapon/storage/med_pouch/ascent,
 /obj/item/weapon/storage/med_pouch/ascent,
 /obj/item/weapon/storage/med_pouch/ascent,
@@ -17173,7 +17173,7 @@ hp
 AK
 hp
 hp
-lJ
+mU
 Wz
 io
 of
