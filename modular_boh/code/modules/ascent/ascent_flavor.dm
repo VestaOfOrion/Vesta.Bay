@@ -9,4 +9,4 @@
 	
 obj/item/weapon/disk/ascent/queen
 	name = "\improper N-dimensional artform disk"
-	desc = "An advanced ascent storage pattern containing a replica of multiple well-known pieces of Control Mind datasculpting, taking advantage of the several additional dimensions of space within the Worldnet. Very popular amoung Gynes and Serpentid Queens. Warning: May cause existential dread, uncontrolled emotional responses, and spontaneous insanity in primitive lifeforms."
+	desc = "An advanced ascent storage pattern containing a replica of multiple well-known pieces of Control Mind datasculpting, taking advantage of the several additional dimensions of space within the Worldnet. Very popular among Gynes and Serpentid Queens. Warning: May cause existential dread, uncontrolled emotional responses, and spontaneous insanity in primitive lifeforms."

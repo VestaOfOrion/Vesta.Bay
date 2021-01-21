@@ -57,7 +57,7 @@
 	shuttle_tag = "Ascent Seedship"
 
 /obj/effect/shuttle_landmark/ascent_seedship/start
-	name = "Amphiesmenoptera Docked"
+	name = "Amphiesmenoptera Dock"
 	landmark_tag = "nav_hangar_ascent_one"
 	base_area = /area/ship/ascent/hangar
 	base_turf = /turf/simulated/floor/ascent
@@ -77,6 +77,5 @@
 	defer_initialisation = TRUE
 	flags = SHUTTLE_FLAGS_PROCESS
 	skill_needed = SKILL_BASIC
-	dock_target = "ascent_starboard"
 	mothershuttle = "Ascent Seedship"
 	ceiling_type = /turf/simulated/floor/shuttle_ceiling/ascent

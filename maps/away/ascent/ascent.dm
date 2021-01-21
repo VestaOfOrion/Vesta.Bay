@@ -17,8 +17,8 @@
 	suffixes = list("ascent/ascent-1.dmm")
 	cost = 0.5
 	shuttles_to_initialise = list(
-		/datum/shuttle/autodock/overmap/ascent,
-		/datum/shuttle/autodock/overmap/ascent_seedship
+		/datum/shuttle/autodock/overmap/ascent_seedship,
+		/datum/shuttle/autodock/overmap/ascent
 	)
 	spawn_weight = 0.67
 
@@ -31,7 +31,7 @@
 	icon_state = "ship"
 	moving_state = "ship_moving"
 	color = "#491749"
-	vessel_mass = 4000
+	vessel_mass = 2500
 	fore_dir = EAST
 	max_speed = 1/(1 SECOND)
 	hide_from_reports = TRUE
