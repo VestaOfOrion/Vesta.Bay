@@ -270,10 +270,10 @@
 /area/ship/ascent/gyne_quarters)
 "bD" = (
 /obj/structure/table/rack/dark,
-/obj/item/weapon/tank/mantid/reactor/oxygen,
-/obj/item/weapon/tank/mantid/reactor/oxygen,
-/obj/item/weapon/tank/mantid/reactor/oxygen,
-/obj/item/weapon/tank/mantid/reactor/oxygen,
+/obj/item/weapon/tank/jetpack/ascent,
+/obj/item/weapon/tank/jetpack/ascent,
+/obj/item/weapon/tank/jetpack/ascent,
+/obj/item/weapon/tank/jetpack/ascent,
 /obj/structure/window/phoronreinforced{
 	dir = 4
 	},
@@ -1037,6 +1037,10 @@
 /area/ship/ascent/bridge)
 "fS" = (
 /obj/structure/table/rack/dark,
+/obj/item/weapon/tank/mantid/reactor/oxygen,
+/obj/item/weapon/tank/mantid/reactor/oxygen,
+/obj/item/weapon/tank/mantid/reactor/oxygen,
+/obj/item/weapon/tank/mantid/reactor/oxygen,
 /obj/structure/window/phoronreinforced{
 	dir = 4
 	},
@@ -1045,10 +1049,6 @@
 	dir = 1;
 	name = "serpentid equipment storage"
 	},
-/obj/item/clothing/suit/space/void/ascent,
-/obj/item/clothing/suit/space/void/ascent,
-/obj/item/clothing/head/helmet/space/void/ascent,
-/obj/item/clothing/head/helmet/space/void/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "fZ" = (
@@ -2218,6 +2218,21 @@
 "lH" = (
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/queen_quarters)
+"lJ" = (
+/obj/structure/table/rack/dark,
+/obj/machinery/light/ascent{
+	dir = 1
+	},
+/obj/item/weapon/rig/mantid,
+/obj/item/weapon/rig/mantid,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/ascent,
+/area/ship/ascent/armory)
 "lL" = (
 /obj/effect/catwalk_plated/ascent,
 /obj/item/device/lightreplacer,
@@ -3938,6 +3953,13 @@
 /obj/item/weapon/reagent_containers/food/snacks/meat/syntiflesh,
 /obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle/ascent,
 /obj/machinery/atmospherics/unary/vent_pump/on/ascent,
+/obj/machinery/button/blast_door{
+	color = "PURPLE";
+	id_tag = "ascent_combat";
+	name = "Armory Alate Combat RIG Blast Door";
+	pixel_x = 8;
+	pixel_y = 9
+	},
 /turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/gyne_quarters)
 "uW" = (
@@ -5200,8 +5222,11 @@
 	color = "PURPLE";
 	name = "alate equipment storage"
 	},
-/obj/item/weapon/rig/mantid,
-/obj/item/weapon/rig/mantid,
+/obj/item/weapon/rig/mantid/seed,
+/obj/item/weapon/rig/mantid/seed,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "Bg" = (
@@ -9045,18 +9070,10 @@
 /area/ship/ascent/lab)
 "TD" = (
 /obj/structure/table/rack/dark,
-/obj/item/weapon/tank/jetpack/ascent,
-/obj/item/weapon/tank/jetpack/ascent,
-/obj/item/weapon/tank/jetpack/ascent,
-/obj/item/weapon/tank/jetpack/ascent,
-/obj/structure/window/phoronreinforced{
-	dir = 4
-	},
-/obj/machinery/door/window/brigdoor{
-	color = "PURPLE";
-	dir = 1;
-	name = "serpentid equipment storage"
-	},
+/obj/item/clothing/head/helmet/space/void/ascent,
+/obj/item/clothing/head/helmet/space/void/ascent,
+/obj/item/clothing/suit/space/void/ascent,
+/obj/item/clothing/suit/space/void/ascent,
 /turf/simulated/floor/ascent,
 /area/ship/ascent/armory)
 "TF" = (
@@ -9659,19 +9676,12 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/infirmary)
 "Wz" = (
-/obj/structure/table/rack/dark,
-/obj/item/clothing/head/helmet/space/void/ascent,
-/obj/item/clothing/head/helmet/space/void/ascent,
-/obj/item/clothing/suit/space/void/ascent,
-/obj/item/clothing/suit/space/void/ascent,
-/obj/structure/window/phoronreinforced{
-	dir = 4
-	},
-/obj/machinery/door/window/brigdoor{
+/obj/machinery/door/blast/regular{
 	color = "PURPLE";
-	name = "alate equipment storage"
+	id_tag = "ascent_combat";
+	name = "alate combat hardsuits"
 	},
-/turf/simulated/floor/ascent,
+/turf/simulated/floor/tiled/ascent,
 /area/ship/ascent/armory)
 "WA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -17163,7 +17173,7 @@ hp
 AK
 hp
 hp
-hp
+lJ
 Wz
 io
 of
