@@ -114,7 +114,6 @@ Class Procs:
 
 	var/list/processing_parts // Component parts queued for processing by the machine. Expected type: /obj/item/weapon/stock_parts
 	var/processing_flags         // What is being processed
-	var/silicon_restriction = FALSE // FALSE or one of the STATUS_* flags. If set, will force the given status flag if a silicon tries to access the machine.
 
 /obj/machinery/Initialize(mapload, d=0, populate_parts = TRUE)
 	. = ..()
@@ -224,12 +223,6 @@ Class Procs:
 		return STATUS_CLOSE
 
 	if(user.direct_machine_interface(src))
-		var/mob/living/silicon/silicon = user
-		if (silicon_restriction && ismachinerestricted(silicon))
-			if (silicon_restriction == STATUS_CLOSE)
-				to_chat(user, SPAN_WARNING("Remote AI systems detected. Firewall protections forbid remote AI access."))
-			return silicon_restriction
-
 		return ..()
 
 	if(stat & NOSCREEN)
