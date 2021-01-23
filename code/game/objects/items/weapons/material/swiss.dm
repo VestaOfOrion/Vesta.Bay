@@ -21,7 +21,6 @@
 
 	var/active_tool = SWISSKNF_CLOSED
 	var/tools = list(SWISSKNF_LBLADE, SWISSKNF_CLIFTER, SWISSKNF_COPENER)
-	var/can_use_tools = FALSE
 	var/sharp_tools = list(SWISSKNF_LBLADE, SWISSKNF_SBLADE, SWISSKNF_GBLADE, SWISSKNF_WBLADE)
 
 /obj/item/weapon/material/knife/folding/swiss/attack_self(mob/user)
@@ -91,13 +90,13 @@
 			overlays += blood_overlay
 
 /obj/item/weapon/material/knife/folding/swiss/iscrowbar()
-	return active_tool == SWISSKNF_CROWBAR && can_use_tools
+	return active_tool == SWISSKNF_CROWBAR
 
 /obj/item/weapon/material/knife/folding/swiss/isscrewdriver()
-	return (active_tool == SWISSKNF_CLIFTER || active_tool == SWISSKNF_COPENER) && can_use_tools
+	return (active_tool == SWISSKNF_CLIFTER || active_tool == SWISSKNF_COPENER)
 
 /obj/item/weapon/material/knife/folding/swiss/iswirecutter()
-	return active_tool == SWISSKNF_WCUTTER && can_use_tools
+	return active_tool == SWISSKNF_WCUTTER
 
 /obj/item/weapon/material/knife/folding/swiss/ishatchet()
 	return active_tool == SWISSKNF_WBLADE
@@ -108,12 +107,14 @@
 		. = ..()
 		update_force()
 		return
-	if(istype(target, /obj/item))
-		if(target.w_class <= ITEM_SIZE_NORMAL)
-			can_use_tools = TRUE
-			. = ..()
-			can_use_tools = FALSE
+	if(istype(target, /obj))
+		if(active_tool == SWISSKNF_CROWBAR && !istype(target,/obj/item))
+			to_chat(user,"<span class = 'notice'>[src] doesn't provide enough leverage to do that!</span>")
 			return
+		if(active_tool in list(SWISSKNF_CROWBAR, SWISSKNF_CLIFTER, SWISSKNF_COPENER, SWISSKNF_WCUTTER, SWISSKNF_WBLADE))
+			to_chat(user,"<span class = 'notice'>You start preparing to use [src]'s [active_tool] on [target]...</span>")
+			if(!do_after(user,3 SECONDS,src))
+				return
 	return ..()
 
 /obj/item/weapon/material/knife/folding/swiss/officer
