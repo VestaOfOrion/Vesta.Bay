@@ -568,13 +568,6 @@ datum/gear/head/ECdepartment/New()
 	display_name = "mechanical polytool - left arm (ROBOTIC)"
 	path = /obj/item/organ/internal/augment/active/polytool/engineer/left
 	cost = 4
-	allowed_roles = list(
-		/datum/job/rd, /datum/job/scientist, /datum/job/roboticist, 
-		/datum/job/scientist_assistant, /datum/job/assistant, 
-		/datum/job/senior_scientist, /datum/job/chief_engineer, 
-		/datum/job/senior_engineer, /datum/job/engineer, 
-		/datum/job/engineer_trainee, /datum/job/mining
-	) //Engineering, Research and Prospectors/Salvage Techs.
 
 /datum/gear/augmentation/implanted_toolkit/right
 	display_name = "mechanical polytool - right arm (ROBOTIC)"
@@ -584,7 +577,6 @@ datum/gear/head/ECdepartment/New()
 	display_name = "circuit augment - left arm (ROBOTIC)"
 	path = /obj/item/organ/internal/augment/active/simple/circuit/left
 	cost = 4
-	allowed_roles = TECHNICAL_ROLES
 
 /datum/gear/augmentation/implanted_circuitkit/right
 	display_name = "circuit augment - right arm (ROBOTIC)"
