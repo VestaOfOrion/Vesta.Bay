@@ -1,7 +1,0 @@
-author: Yawet330
-
-delete-after: True
-
-changes: 
-  - tweak: "Reverts VHBraz's PR involving polytools.  https://github.com/VestaOfOrion/Vesta.Bay/pull/317"
-  
