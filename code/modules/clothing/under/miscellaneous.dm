@@ -787,7 +787,7 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
 
 /obj/item/clothing/under/maiddress
-	name = "Maid Dress"
+	name = "maid dress"
 	desc = "A plain uniform traditionally worn by housemaids."
 	icon_state = "maiddress"
 	worn_state = "maiddress"
