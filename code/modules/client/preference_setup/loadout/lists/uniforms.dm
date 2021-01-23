@@ -100,7 +100,7 @@
 
 /datum/gear/uniform/contractor_skirt
 	display_name = "contractor utility skirt"
-	path = obj/item/clothing/under/solgov/utilityskirt
+	path = /obj/item/clothing/under/solgov/utilityskirt
 
 /datum/gear/uniform/skirt_c
 	display_name = "short skirt, colour select"
