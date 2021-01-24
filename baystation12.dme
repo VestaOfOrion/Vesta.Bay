@@ -3206,6 +3206,7 @@
 #include "modular_boh\code\items\clothing\boh_armor.dm"
 #include "modular_boh\code\items\clothing\boh_clothing.dm"
 #include "modular_boh\code\items\clothing\boh_hats.dm"
+#include "modular_boh\code\items\clothing\boh_masks.dm"
 #include "modular_boh\code\items\psyker\agent_items.dm"
 #include "modular_boh\code\items\weapons\shields.dm"
 #include "modular_boh\code\items\weapons\melee\energy.dm"
