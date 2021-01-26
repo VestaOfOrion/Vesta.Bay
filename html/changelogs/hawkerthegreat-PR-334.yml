@@ -1,0 +1,6 @@
+author: HawkerTheGreat
+
+delete-after: True
+
+changes: 
+  - bugfix: "Restores various Solgov/Classic Voidsuit sprites for Unathi and Skrell."
