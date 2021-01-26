@@ -1,0 +1,13019 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/handrail{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/obj/machinery/vending/wallmed1{
+	dir = 1;
+	icon_state = "wallmed";
+	name = "Emergency NanoMed";
+	pixel_x = 0;
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/airlock)
+"ao" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Crew Area"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"ax" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"ay" = (
+/obj/machinery/shipsensors,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/airless,
+/area/aquila/passenger)
+"az" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/space,
+/area/shuttle/merchant/home)
+"aF" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/machinery/door/window/brigdoor/eastright{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
+"ba" = (
+/obj/effect/paint/red,
+/turf/simulated/wall/titanium,
+/area/aquila/secure_storage)
+"be" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"bm" = (
+/obj/machinery/pointdefense{
+	id_tag = null;
+	initial_id_tag = "gunship_pd"
+	},
+/obj/machinery/power/terminal,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/aquila/head)
+"br" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"bK" = (
+/obj/structure/closet/medical_wall{
+	pixel_x = -32
+	},
+/obj/item/weapon/reagent_containers/glass/bottle/stoxin,
+/obj/item/weapon/reagent_containers/glass/bottle/stoxin,
+/obj/item/weapon/reagent_containers/syringe,
+/obj/item/clothing/mask/surgical,
+/obj/item/clothing/gloves/latex,
+/obj/item/weapon/tank/anesthetic,
+/obj/item/clothing/mask/breath/medical,
+/obj/structure/iv_drip,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/firstaid,
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"bR" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/obj/machinery/computer/ship/engines,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"cd" = (
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/head)
+"cp" = (
+/obj/effect/paint/red,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/medical)
+"cy" = (
+/obj/effect/paint/red,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/secure_storage)
+"cG" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1;
+	icon_state = "warningcorner"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"cR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Aft Passageway";
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/alarm{
+	dir = 1;
+	icon_state = "alarm0";
+	pixel_y = -22
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/airlock)
+"do" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor/airless,
+/area/aquila/secure_storage)
+"dx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/overmap/visitable/ship/landable/aquila{
+	desc = "A PM-24 modular transport, broadcasting SC codes and the callsign \"Dagon-1 Byakhee\".";
+	name = "NTSC Byakhee";
+	shuttle = "NTSC Byakhee"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"dD" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/aquila/medical)
+"dM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/airlock)
+"dR" = (
+/obj/effect/paint/hull,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/cockpit)
+"dT" = (
+/obj/structure/hygiene/sink{
+	dir = 8;
+	icon_state = "sink";
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/obj/structure/cable/cyan,
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"dY" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"ea" = (
+/obj/effect/floor_decal/industrial/warning/cee{
+	dir = 1;
+	icon_state = "warningcee"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"ep" = (
+/obj/machinery/button/blast_door{
+	id_tag = "aquila_shutters";
+	name = "Protective Shutters Control";
+	pixel_x = -32;
+	pixel_y = 8
+	},
+/obj/machinery/turretid/stun{
+	enabled = 0;
+	name = "Byakhee point defense control";
+	pixel_x = 32;
+	req_access = list("ACCESS_TORCH_AQUILA_HELM")
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 1;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "gunship_disperser_door";
+	name = "Cannon Access";
+	pixel_x = -32;
+	pixel_y = -3;
+	pixel_z = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"er" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"eK" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"eS" = (
+/obj/effect/paint/silver,
+/turf/simulated/wall/r_titanium,
+/area/shuttle/merchant/home)
+"fa" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"fJ" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	frequency = 1331;
+	id_tag = "aquila_shuttle";
+	pixel_y = 24;
+	req_access = list("ACCESS_TORCH_CREW");
+	tag_exterior_sensor = "aquila_shuttle_sensor_external"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 2;
+	id_tag = "aquila_shuttle_pump"
+	},
+/obj/structure/handrail,
+/obj/effect/floor_decal/techfloor{
+	dir = 1;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"fU" = (
+/obj/effect/paint/hull,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/cockpit)
+"gb" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"gZ" = (
+/obj/machinery/disperser/middle{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/aquila/head)
+"hd" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"hG" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/storage)
+"hY" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"if" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/machinery/computer/cryopod{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/passenger)
+"im" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"iq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"iv" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor/airless,
+/area/aquila/maintenance)
+"iw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/machinery/disperser/back{
+	dir = 1
+	},
+/obj/structure/ship_munition/disperser_charge/emp,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/head)
+"iy" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 21
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 8;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"ja" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"jn" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 4;
+	id_tag = "aquila_shuttle_pump_out_external"
+	},
+/obj/machinery/airlock_sensor{
+	dir = 4;
+	frequency = 1331;
+	id_tag = "aquila_shuttle_sensor_external";
+	pixel_x = 25;
+	pixel_y = -6
+	},
+/obj/structure/handrail{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1331;
+	master_tag = "aquila_shuttle";
+	name = "exterior access button";
+	pixel_x = 23;
+	pixel_y = 6
+	},
+/turf/simulated/floor/airless,
+/area/aquila/airlock)
+"jt" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/storage)
+"jS" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	dir = 8;
+	enabled = 0;
+	lethal = 1
+	},
+/turf/simulated/floor/airless,
+/area/aquila/cockpit)
+"ku" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "gunship_disperser_door";
+	name = "Cannon Security Door"
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/aquila/head)
+"kv" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engineering"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"kx" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/random/single/cola,
+/obj/item/device/radio/intercom{
+	dir = 4;
+	pixel_x = -21
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"ky" = (
+/obj/machinery/door/window/brigdoor/eastright{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"kU" = (
+/obj/machinery/computer/shuttle_control/explore/aquila{
+	name = "byakhee control console";
+	shuttle_tag = "NTSC Byakhee"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"kV" = (
+/obj/structure/table/standard,
+/obj/item/weapon/reagent_containers/spray/sterilizine,
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"lb" = (
+/obj/machinery/computer/air_control{
+	dir = 1;
+	name = "Atmospheric Sensors";
+	sensor_tag = "calypso_out"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"ld" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/random/smokes,
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"lg" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"lG" = (
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 26
+	},
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup,
+/obj/effect/floor_decal/industrial/outline/orange,
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/medical)
+"lH" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "aquila_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/passenger)
+"lP" = (
+/obj/structure/catwalk,
+/obj/machinery/meter,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"lQ" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/alarm{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -22;
+	pixel_y = 0
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/obj/machinery/pointdefense_control{
+	id_tag = null;
+	initial_id_tag = "gunship_pd"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"mf" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1;
+	icon_state = "warningcorner"
+	},
+/obj/structure/handrail,
+/obj/machinery/firealarm{
+	dir = 2;
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/maintenance)
+"mh" = (
+/obj/structure/table/standard,
+/obj/item/weapon/defibrillator/loaded,
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Infirmary";
+	dir = 8
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 26
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"mk" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"mL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/power/apc/shuttle/aquila{
+	name = "south bump";
+	pixel_y = -28
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 6
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/head)
+"mY" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"no" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/emcloset,
+/obj/machinery/firealarm{
+	dir = 2;
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/storage)
+"nC" = (
+/obj/structure/table/standard,
+/obj/item/weapon/reagent_containers/syringe/antiviral,
+/obj/item/weapon/reagent_containers/syringe/antiviral,
+/obj/item/stack/medical/advanced/bruise_pack,
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"nI" = (
+/obj/structure/ship_munition/disperser_charge/explosive,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/secure_storage)
+"nJ" = (
+/obj/structure/table/rack,
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
+"nK" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/maintenance)
+"nO" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"nR" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"or" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"oz" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"oG" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "aquila_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/cockpit)
+"oJ" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engine Room 2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
+"pa" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/power/apc/hyper/shuttle/aquila{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/maintenance)
+"pg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"pm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"pv" = (
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 8;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/passenger)
+"pG" = (
+/obj/machinery/power/port_gen/pacman{
+	anchored = 1;
+	sheets = 25
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/maintenance)
+"qs" = (
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	icon_state = "pdoor0";
+	id_tag = "aquila_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/passenger)
+"qB" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 8;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"qU" = (
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"rk" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"rA" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/effect/floor_decal/corner/lime{
+	dir = 5
+	},
+/obj/item/device/radio/beacon/anchored{
+	level = 1
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"rJ" = (
+/obj/effect/paint/red,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 4
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/maintenance)
+"rO" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Cockpit"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"sh" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/handrail{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/obj/effect/floor_decal/techfloor,
+/obj/item/device/radio/intercom/hailing{
+	dir = 1;
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"sq" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/passenger)
+"sr" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
+"su" = (
+/obj/machinery/door/window/brigdoor/eastleft,
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"sw" = (
+/obj/effect/paint/hull,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/head)
+"sG" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/aquila/maintenance)
+"sW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"te" = (
+/obj/effect/paint/hull,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/passenger)
+"tk" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Secure Storage"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/secure_storage)
+"to" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engine Room 1"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
+"tq" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"tu" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	autoset_access = 0;
+	frequency = 1331;
+	icon_state = "closed";
+	id_tag = "aquila_shuttle_inner";
+	locked = 1;
+	name = "Byahkee External Access";
+	req_access = list("ACCESS_TORCH_CREW")
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"tU" = (
+/obj/machinery/light/small,
+/obj/structure/catwalk,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"tY" = (
+/obj/structure/bed/chair/shuttle{
+	dir = 1;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"up" = (
+/obj/machinery/button/blast_door{
+	id_tag = "gunship_disperser"
+	},
+/obj/structure/table/steel_reinforced,
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/head)
+"ut" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/machinery/microwave,
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Crew Compartment"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"ve" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/binary/pump{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"vp" = (
+/obj/structure/closet/crate,
+/obj/random/toolbox,
+/obj/random/powercell,
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/obj/item/weapon/storage/bag/trash,
+/obj/item/weapon/storage/bag/trash,
+/obj/item/weapon/storage/bag/trash,
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 9;
+	icon_state = "intact"
+	},
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/random_multi/single_item/boombox,
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"vJ" = (
+/obj/effect/paint/hull,
+/obj/structure/sign/ntefcrest,
+/turf/simulated/wall/titanium,
+/area/aquila/airlock)
+"vN" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad/longrange,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"vX" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/door/window/brigdoor/eastleft{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
+"xb" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/airlock)
+"xn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 1;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"xs" = (
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "gunship_disperser";
+	name = "Chamber Security Door"
+	},
+/turf/simulated/floor/plating,
+/area/aquila/head)
+"xx" = (
+/obj/effect/paint/red,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 10;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/medical)
+"xz" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8;
+	icon_state = "warningcorner"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"xE" = (
+/obj/structure/table/standard,
+/obj/item/weapon/storage/firstaid/surgery,
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"xK" = (
+/obj/machinery/computer/ship/disperser,
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/head)
+"xU" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/fuel,
+/turf/simulated/floor/airless,
+/area/aquila/maintenance)
+"xY" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 2;
+	id_tag = "aquila_shuttle_pump"
+	},
+/obj/machinery/oxygen_pump{
+	pixel_y = 32
+	},
+/obj/structure/handrail,
+/obj/effect/floor_decal/techfloor{
+	dir = 1;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"yc" = (
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
+/obj/structure/ship_munition/disperser_charge/explosive,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/secure_storage)
+"yk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/power/apc/shuttle/aquila{
+	name = "south bump";
+	pixel_y = -28
+	},
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/airlock)
+"yo" = (
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byakhee - Cockpit";
+	dir = 8
+	},
+/obj/machinery/computer/modular/preset/cardslot/command,
+/obj/item/device/radio/intercom/hailing{
+	dir = 8;
+	pixel_x = 24
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"ys" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
+"yV" = (
+/obj/effect/paint/hull,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/head)
+"yX" = (
+/obj/structure/handrail{
+	dir = 8;
+	icon_state = "handrail"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"yY" = (
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/closet/crate/freezer,
+/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,
+/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,
+/obj/machinery/alarm{
+	dir = 4;
+	icon_state = "alarm0";
+	pixel_x = -22;
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"yZ" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Storage"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/storage)
+"zx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"zz" = (
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/passenger)
+"zS" = (
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"zV" = (
+/turf/simulated/wall/r_wall/hull,
+/area/hallway/primary/bridge/aft)
+"Ai" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/obj/item/weapon/paper_bin{
+	pixel_x = 1;
+	pixel_y = 9
+	},
+/obj/item/weapon/pen,
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"Ap" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor/airless,
+/area/aquila/medical)
+"Ax" = (
+/obj/effect/paint/red,
+/turf/simulated/wall/titanium,
+/area/aquila/medical)
+"Bf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/shuttle_landmark/torch/hangar/aquila{
+	name = "NTSC Byakhee Hangar"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/hologram/holopad/longrange,
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"Bt" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/cockpit)
+"BA" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8;
+	icon_state = "warningcorner"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"BE" = (
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"BM" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/fuel{
+	dir = 1;
+	icon_state = "map"
+	},
+/turf/simulated/floor/airless,
+/area/shuttle/merchant/home)
+"BQ" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/maintenance)
+"BY" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/cyan,
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"Cj" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"Cq" = (
+/obj/machinery/optable,
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"Cr" = (
+/obj/structure/bed/chair/shuttle/blue,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"CO" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"CQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9;
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/maintenance)
+"CS" = (
+/obj/machinery/disperser/front{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/aquila/head)
+"CT" = (
+/obj/machinery/alarm{
+	frequency = 1439;
+	pixel_y = 23;
+	req_access = list(list("ACCESS_ENGINE_EQUIP","ACCESS_ATMOS"))
+	},
+/obj/machinery/cryopod,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/passenger)
+"CU" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"Dp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/item/device/radio/intercom{
+	dir = 1;
+	pixel_y = -28
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8;
+	icon_state = "warningcorner"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/airlock)
+"Dv" = (
+/obj/machinery/pointdefense{
+	id_tag = null;
+	initial_id_tag = "gunship_pd"
+	},
+/obj/machinery/power/terminal,
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/aquila/cockpit)
+"DB" = (
+/obj/machinery/atmospherics/unary/tank/air{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/blue,
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/maintenance)
+"DO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/window/phoronreinforced,
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 1;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/head)
+"Ey" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "closed";
+	id_tag = "merchant_ship_interior";
+	locked = 1;
+	name = "Ship Exterior"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"Ez" = (
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"EN" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/airlock)
+"Fe" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/secure_closet/crew,
+/obj/random/maintenance/solgov/clean,
+/obj/random/maintenance/solgov/clean,
+/obj/random/maintenance/solgov/clean,
+/obj/item/device/radio/intercom{
+	dir = 4;
+	pixel_x = -21
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/storage)
+"Fi" = (
+/obj/effect/paint/red,
+/turf/simulated/wall/titanium,
+/area/aquila/maintenance)
+"FU" = (
+/obj/machinery/recharge_station,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/airlock)
+"Gx" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"Gy" = (
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"GN" = (
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
+"GS" = (
+/obj/machinery/door/airlock/external{
+	autoset_access = 0;
+	frequency = 1331;
+	icon_state = "closed";
+	id_tag = "aquila_shuttle_outer";
+	locked = 1;
+	name = "Byahkee External Access";
+	req_access = list("ACCESS_TORCH_CREW")
+	},
+/obj/machinery/shield_diffuser,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"Hf" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"Hm" = (
+/obj/machinery/computer/ship/helm{
+	req_access = list(list("ACCESS_TORCH_AQUILA_HELM"))
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"HH" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"HI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"HU" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/airless,
+/area/aquila/secure_storage)
+"Ih" = (
+/obj/machinery/computer/ship/sensors,
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"Iu" = (
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	icon_state = "pdoor0";
+	id_tag = "aquila_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/cockpit)
+"Iv" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/handrail,
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"Iz" = (
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"IP" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "aquila_shutters";
+	name = "Protective Shutters";
+	opacity = 0
+	},
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/airlock)
+"Ja" = (
+/obj/machinery/shield_diffuser,
+/obj/machinery/door/airlock/external{
+	autoset_access = 0;
+	frequency = 1331;
+	icon_state = "closed";
+	id_tag = "aquila_shuttle_dock_outer";
+	locked = 1;
+	name = "Docking Port Airlock";
+	req_access = list("ACCESS_TORCH_CREW")
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/hallway/primary/bridge/aft)
+"Jb" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/secure_closet/crew,
+/obj/random/maintenance/solgov/clean,
+/obj/random/maintenance/solgov/clean,
+/obj/random/maintenance/solgov/clean,
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/storage)
+"Jr" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/door/window/brigdoor/eastright,
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
+"JD" = (
+/obj/structure/table/glass,
+/obj/machinery/door/window/brigdoor/eastright{
+	dir = 2
+	},
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"JT" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"Ka" = (
+/obj/structure/table/rack,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/machinery/light/small{
+	dir = 4;
+	icon_state = "bulb1"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/storage)
+"Kf" = (
+/obj/machinery/power/smes/buildable/preset/torch/shuttle{
+	RCon_tag = "Shuttle - Aquila"
+	},
+/obj/structure/cable/cyan,
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"Kl" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/ship_munition/disperser_charge/emp,
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/secure_storage)
+"Kr" = (
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/airlock)
+"KC" = (
+/obj/structure/table/standard,
+/obj/item/clothing/gloves/latex,
+/obj/item/clothing/mask/surgical,
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 21
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"KQ" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/medical)
+"KY" = (
+/obj/machinery/meter,
+/obj/machinery/atmospherics/pipe/simple/hidden/cyan{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"LG" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/airlock)
+"Mj" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
+"Mw" = (
+/obj/effect/paint/red,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 9;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/secure_storage)
+"MM" = (
+/obj/structure/closet/secure_closet{
+	name = "merchant's locker";
+	req_access = list("ACCESS_MERCHANT")
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"Nb" = (
+/obj/effect/paint/hull,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/wall/titanium,
+/area/aquila/cockpit)
+"Nk" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"Ny" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/machinery/access_button{
+	command = "cycle_interior";
+	frequency = 1331;
+	master_tag = "aquila_shuttle";
+	name = "interior access button";
+	pixel_x = -24;
+	pixel_y = -24;
+	req_access = newlist()
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"NB" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 10;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/airless,
+/area/aquila/medical)
+"NF" = (
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"NW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/storage)
+"NY" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/device/radio,
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/storage)
+"NZ" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/item/device/radio/intercom{
+	dir = 8;
+	pixel_x = 21
+	},
+/obj/structure/handrail,
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 1;
+	name = "north bump";
+	pixel_y = 24
+	},
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/secure_storage)
+"Or" = (
+/obj/structure/table/rack,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/structure/window/reinforced{
+	health = 1e+006
+	},
+/obj/machinery/door/window/brigdoor/eastleft,
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
+"OL" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Crew Area"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"OP" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8;
+	icon_state = "warning"
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"OW" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"OZ" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/structure/closet/secure_closet/guncabinet/sidearm/small,
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"Pk" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
+	dir = 1;
+	id_tag = "aquila_shuttle_pump_out_internal"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/oxygen_pump{
+	pixel_y = 32
+	},
+/obj/structure/handrail,
+/obj/effect/floor_decal/techfloor{
+	dir = 1;
+	icon_state = "techfloor_edges"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"Pr" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/passenger)
+"PK" = (
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/random/snack,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"PL" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/head)
+"Qf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/handrail,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"Qn" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/effect/paint/hull,
+/turf/simulated/floor/plating,
+/area/aquila/medical)
+"Qw" = (
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/obj/structure/cable/cyan{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/firealarm{
+	dir = 2;
+	pixel_y = 24
+	},
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/passenger)
+"Qy" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/empty,
+/obj/effect/floor_decal/industrial/outline/red,
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/medical)
+"QO" = (
+/obj/machinery/atmospherics/pipe/manifold/visible,
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Docking Port";
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/structure/handrail{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"QP" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -26
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/blast/regular/open{
+	density = 0;
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "gunship_disperser";
+	name = "Security Shutters";
+	opacity = 0
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/head)
+"QU" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"Rb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"Rc" = (
+/turf/space,
+/area/space)
+"Rh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"Rp" = (
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/aquila/maintenance)
+"Rs" = (
+/obj/structure/shuttle/engine/heater,
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/airless,
+/area/shuttle/merchant/home)
+"RF" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Passenger Seating"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled/dark,
+/area/aquila/passenger)
+"RI" = (
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Seating";
+	dir = 1
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 8;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/passenger)
+"RT" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 8;
+	health = 1e+006
+	},
+/obj/item/device/eftpos,
+/obj/machinery/recharger,
+/turf/simulated/floor/carpet/blue,
+/area/shuttle/merchant/home)
+"RZ" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/space)
+"So" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Engineering"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/maintenance)
+"Sr" = (
+/obj/item/device/radio/intercom{
+	dir = 4;
+	pixel_x = -21
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/passenger)
+"Sx" = (
+/turf/simulated/floor/tiled/dark,
+/area/aquila/passenger)
+"SN" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Cockpit"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+"Tc" = (
+/obj/machinery/computer/ship/helm{
+	req_access = list(list("ACCESS_TORCH_AQUILA_HELM"))
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"To" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Infirmary"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/aquila/medical)
+"TD" = (
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/aquila/secure_storage)
+"Uq" = (
+/obj/machinery/bodyscanner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"Ut" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/cockpit)
+"UA" = (
+/obj/machinery/computer/ship/sensors,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"Vw" = (
+/obj/machinery/computer/ship/engines{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"VE" = (
+/obj/machinery/body_scanconsole{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/monotile,
+/area/aquila/medical)
+"VL" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/secure_storage)
+"VR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"VX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/secure_storage)
+"VY" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/passenger)
+"Wb" = (
+/obj/structure/table/steel_reinforced,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/recharger{
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/storage)
+"Wf" = (
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"Wg" = (
+/obj/structure/table/rack,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/obj/structure/cable/cyan{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/camera/network/aquila{
+	c_tag = "Byahkee - Storage Compartment";
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/storage)
+"Wi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"Wu" = (
+/obj/machinery/light/small,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 5;
+	icon_state = "intact"
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1331;
+	id_tag = "aquila_shuttle_sensor";
+	pixel_x = 0;
+	pixel_y = -24
+	},
+/obj/structure/handrail{
+	dir = 1;
+	icon_state = "handrail"
+	},
+/obj/effect/floor_decal/techfloor,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/aquila/airlock)
+"Wy" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9;
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 9;
+	icon_state = "corner_white"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/passenger)
+"WE" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/alarm{
+	pixel_y = 24
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/monotile,
+/area/aquila/storage)
+"Xc" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1";
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/obj/machinery/power/apc/shuttle/aquila{
+	dir = 8;
+	name = "west bump";
+	pixel_x = -24
+	},
+/obj/structure/cable/cyan{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"Xt" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Infirmary"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/aquila/medical)
+"Xu" = (
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 1;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 26
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"Ya" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Atmospherics"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"Yb" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/head)
+"Yx" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/air/airlock{
+	start_pressure = 1900
+	},
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/techfloor,
+/area/aquila/maintenance)
+"YK" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/lime{
+	dir = 10
+	},
+/obj/structure/cable/cyan{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/mess)
+"YS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/cyan{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/storage)
+"YY" = (
+/obj/machinery/porta_turret{
+	dir = 8;
+	enabled = 0;
+	lethal = 1
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/airless,
+/area/aquila/cockpit)
+"ZD" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/aquila/storage)
+"ZF" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/table/rack,
+/obj/random/maintenance/solgov/clean,
+/obj/random/maintenance/solgov/clean,
+/obj/random/maintenance/solgov/clean,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/airlock)
+"ZG" = (
+/obj/effect/paint/hull,
+/turf/simulated/wall/titanium,
+/area/aquila/secure_storage)
+"ZV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/bed/chair/shuttle/blue{
+	dir = 1;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/aquila/cockpit)
+
+(1,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(2,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(3,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(4,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(5,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(6,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(7,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(8,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(9,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(10,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(11,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(12,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(13,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(14,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(15,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(16,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(17,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(18,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(19,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(20,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(21,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(22,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(23,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(24,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(25,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(26,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(27,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(28,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(29,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(30,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(31,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(32,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(33,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(34,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(35,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(36,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(37,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(38,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(39,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(40,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(41,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(42,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(43,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(44,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(45,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(46,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(47,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(48,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(49,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(50,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(51,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(52,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(53,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(54,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(55,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(56,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(57,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(58,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(59,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(60,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+Mj
+eS
+eS
+eS
+Mj
+eS
+eS
+eS
+eS
+eS
+eS
+eS
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(61,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+GN
+Or
+Jr
+Or
+GN
+Or
+Jr
+GN
+GN
+eS
+sr
+sr
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(62,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+eS
+eS
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+eS
+sr
+sr
+Rs
+az
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(63,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+eS
+eS
+eS
+sr
+eS
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+to
+sr
+sr
+BM
+az
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(64,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+sr
+sr
+sr
+sr
+eS
+GN
+GN
+GN
+GN
+GN
+nJ
+nJ
+GN
+GN
+eS
+sr
+sr
+BM
+az
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(65,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+ys
+eS
+eS
+sr
+sr
+sr
+sr
+eS
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+eS
+sr
+sr
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(66,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+nR
+nR
+eS
+eS
+eS
+Ya
+eS
+eS
+GN
+GN
+GN
+GN
+GN
+nJ
+nJ
+GN
+GN
+eS
+eS
+eS
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(67,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+ys
+Tc
+nR
+Vw
+eS
+nR
+nR
+MM
+eS
+ky
+RT
+lg
+GN
+GN
+GN
+GN
+GN
+GN
+ys
+nR
+nR
+nR
+ys
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(68,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+ys
+nR
+tY
+nR
+rO
+nR
+nR
+nR
+OL
+Ez
+Ez
+JD
+GN
+GN
+nJ
+nJ
+GN
+GN
+Ey
+nR
+nR
+nR
+Ey
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(69,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+ys
+UA
+nR
+lb
+eS
+nR
+nR
+MM
+eS
+su
+Ai
+nO
+GN
+GN
+GN
+GN
+GN
+GN
+ys
+nR
+nR
+nR
+ys
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(70,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+nR
+nR
+eS
+eS
+eS
+kv
+eS
+eS
+GN
+GN
+GN
+GN
+GN
+nJ
+nJ
+GN
+GN
+eS
+eS
+eS
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(71,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+ys
+eS
+eS
+nR
+nR
+nR
+nR
+eS
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+eS
+sr
+sr
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(72,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+nR
+nR
+nR
+nR
+eS
+GN
+GN
+GN
+GN
+GN
+nJ
+nJ
+GN
+GN
+eS
+sr
+sr
+Rs
+az
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(73,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+eS
+eS
+eS
+nR
+eS
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+oJ
+sr
+sr
+BM
+az
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(74,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+eS
+eS
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+GN
+eS
+sr
+sr
+BM
+az
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(75,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+GN
+vX
+aF
+vX
+GN
+aF
+vX
+GN
+GN
+eS
+sr
+sr
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(76,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+eS
+Mj
+eS
+eS
+eS
+Mj
+eS
+eS
+eS
+eS
+eS
+eS
+eS
+eS
+eS
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(77,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+Iz
+or
+ja
+ja
+eK
+jn
+zV
+Ja
+zV
+hG
+hG
+hG
+hG
+hG
+ZG
+ZG
+ba
+ba
+ba
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(78,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+Iz
+HH
+Yb
+Yb
+Yb
+PL
+vJ
+GS
+IP
+hG
+NY
+Wb
+Fe
+Jb
+ZG
+VL
+yc
+HU
+TD
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(79,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+or
+dY
+xs
+CS
+gZ
+iw
+EN
+Pk
+sh
+hG
+no
+jt
+NW
+YS
+tk
+VX
+nI
+do
+TD
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(80,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+HH
+bm
+yV
+xK
+DO
+QP
+xb
+fJ
+Wu
+hG
+WE
+ZD
+Ka
+Wg
+ZG
+NZ
+Kl
+do
+TD
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(81,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+or
+ja
+ja
+rk
+YY
+sw
+up
+cd
+mL
+xb
+xY
+QO
+hG
+hG
+yZ
+hG
+hG
+ZG
+ZG
+cy
+Mw
+ba
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(82,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+ja
+QU
+Dv
+Nb
+Ut
+Ut
+sw
+Yb
+Yb
+ku
+xb
+LG
+tu
+xb
+FU
+dM
+BQ
+Yx
+DB
+DB
+rJ
+ea
+OP
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(83,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Ut
+oG
+oG
+fU
+lQ
+Ut
+ut
+kx
+Xc
+pm
+LG
+ZF
+Ny
+Nk
+Nk
+cR
+nK
+Cj
+KY
+BY
+rJ
+Fi
+im
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(84,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iu
+Hm
+BE
+bR
+ZV
+Bt
+PK
+Gy
+HI
+pg
+LG
+Iv
+iq
+zS
+zS
+aj
+BQ
+pa
+Rb
+vp
+iv
+sG
+im
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(85,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iu
+kU
+ep
+OW
+sW
+SN
+be
+Wi
+vN
+YK
+ao
+rA
+dx
+Bf
+Rh
+Kr
+So
+CQ
+tq
+Kf
+iv
+sG
+im
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(86,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iu
+Ih
+BE
+yo
+xn
+Bt
+qU
+Wf
+VR
+Gy
+LG
+Qf
+er
+zS
+zS
+Dp
+BQ
+mf
+lP
+hY
+xU
+sG
+im
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(87,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Ut
+oG
+oG
+fU
+OZ
+Ut
+Cr
+ld
+mY
+Xu
+LG
+fa
+iy
+qB
+yX
+yk
+BQ
+Rp
+ve
+tU
+rJ
+Fi
+im
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(88,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+JT
+CO
+Dv
+dR
+Ut
+Ut
+te
+Pr
+Pr
+Pr
+Pr
+RF
+Pr
+KQ
+Qn
+To
+KQ
+Qy
+lG
+pG
+rJ
+ea
+cG
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(89,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+hd
+JT
+JT
+CU
+jS
+te
+Pr
+Qw
+Sr
+VY
+Wy
+if
+KQ
+Gx
+ax
+KQ
+KQ
+KQ
+KQ
+xx
+cp
+Ax
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(90,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+BA
+Dv
+ay
+qs
+Sx
+Sx
+Sx
+zz
+sq
+Xt
+gb
+zx
+oz
+yY
+dT
+bK
+nC
+Ap
+dD
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(91,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+hd
+RZ
+Pr
+Pr
+CT
+pv
+pv
+pv
+RI
+KQ
+Uq
+br
+NF
+NF
+NF
+NF
+Cq
+Ap
+dD
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(92,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+Iz
+HH
+Pr
+Pr
+Pr
+lH
+lH
+Pr
+Pr
+KQ
+VE
+mk
+Hf
+mh
+KC
+kV
+xE
+NB
+dD
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(93,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Iz
+Iz
+Iz
+Iz
+Iz
+xz
+JT
+JT
+JT
+JT
+JT
+JT
+CU
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+KQ
+Ax
+Ax
+Ax
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(94,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(95,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(96,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(97,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(98,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(99,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
+(100,1,1) = {"
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+Rc
+"}
