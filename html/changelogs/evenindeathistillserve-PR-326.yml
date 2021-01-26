@@ -1,0 +1,5 @@
+author: EvenInDeathIStillServe
+delete-after: True
+
+changes: 
+  - rscadd: "Re-added AI drone shells, AI helm control, and interacting with offmaps they have camera coverage on (shuttles)."
