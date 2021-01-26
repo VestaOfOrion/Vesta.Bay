@@ -126,6 +126,11 @@
 	worn_state = "suit_nt"
 	starting_accessories = list(/obj/item/clothing/accessory/toggleable/corpjacket/nanotrasen, /obj/item/clothing/accessory/corptie/nanotrasen)
 
+/obj/item/clothing/under/rank/scientist/nanotrasen/skirt
+	name = "\improper Nanotrasen polo and skirt"
+	desc = "A fashionable polo and skirt belonging to NanoTrasen, a megacorporation primarily concerned with the research of new and dangerous technologies."
+	icon_state = "skirt_nt"
+	worn_state = "skirt_nt"
 //Heph. Industries
 /obj/item/clothing/under/rank/guard/heph
 	name = "cyan security guard uniform"
