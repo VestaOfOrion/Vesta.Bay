@@ -69,12 +69,27 @@
 	allowed_ranks = list(/datum/mil_rank/skrell_fleet/vuxix)
 	info = "Your vessel is scouting through unknown space, working to map out any potential dangers, as well as potential allies."
 	is_semi_antagonist = TRUE
-	min_skill = list(SKILL_EVA = SKILL_ADEPT,
-					SKILL_PILOT = SKILL_ADEPT,
-					SKILL_HAULING = SKILL_ADEPT,
-					SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_MEDICAL = SKILL_BASIC)
+	min_skill = list(SKILL_BUREAUCRACY   = SKILL_EXPERT,
+					SKILL_FINANCE       = SKILL_EXPERT,
+					SKILL_EVA           = SKILL_EXPERT,
+					SKILL_MECH          = SKILL_EXPERT,
+					SKILL_PILOT         = SKILL_EXPERT,
+					SKILL_HAULING       = SKILL_NONE,
+					SKILL_COMPUTER      = SKILL_PROF,
+					SKILL_BOTANY        = SKILL_EXPERT,
+					SKILL_COOKING       = SKILL_EXPERT,
+					SKILL_COMBAT        = SKILL_PROF,
+					SKILL_WEAPONS       = SKILL_EXPERT,
+					SKILL_FORENSICS     = SKILL_EXPERT,
+					SKILL_CONSTRUCTION  = SKILL_EXPERT,
+					SKILL_ELECTRICAL    = SKILL_EXPERT,
+					SKILL_ATMOS         = SKILL_EXPERT,
+					SKILL_ENGINES       = SKILL_EXPERT,
+					SKILL_DEVICES       = SKILL_EXPERT,
+					SKILL_SCIENCE       = SKILL_EXPERT,
+					SKILL_MEDICAL       = SKILL_EXPERT,
+					SKILL_ANATOMY       = SKILL_EXPERT,
+					SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 /datum/job/submap/skrellscoutship_crew
 	title = "Qrri-Zuumqix"
@@ -89,11 +104,27 @@
 	info = "Your vessel is scouting through unknown space, working to map out any potential dangers, as well as potential allies."
 	skill_points = 30
 	is_semi_antagonist = TRUE
-	min_skill = list(SKILL_EVA = SKILL_ADEPT,
-					SKILL_HAULING = SKILL_ADEPT,
-					SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_MEDICAL = SKILL_BASIC)
+	min_skill = list(SKILL_BUREAUCRACY   = SKILL_EXPERT,
+					SKILL_FINANCE       = SKILL_EXPERT,
+					SKILL_EVA           = SKILL_EXPERT,
+					SKILL_MECH          = SKILL_EXPERT,
+					SKILL_PILOT         = SKILL_EXPERT,
+					SKILL_HAULING       = SKILL_NONE,
+					SKILL_COMPUTER      = SKILL_PROF,
+					SKILL_BOTANY        = SKILL_EXPERT,
+					SKILL_COOKING       = SKILL_EXPERT,
+					SKILL_COMBAT        = SKILL_PROF,
+					SKILL_WEAPONS       = SKILL_EXPERT,
+					SKILL_FORENSICS     = SKILL_EXPERT,
+					SKILL_CONSTRUCTION  = SKILL_EXPERT,
+					SKILL_ELECTRICAL    = SKILL_EXPERT,
+					SKILL_ATMOS         = SKILL_EXPERT,
+					SKILL_ENGINES       = SKILL_EXPERT,
+					SKILL_DEVICES       = SKILL_EXPERT,
+					SKILL_SCIENCE       = SKILL_EXPERT,
+					SKILL_MEDICAL       = SKILL_EXPERT,
+					SKILL_ANATOMY       = SKILL_EXPERT,
+					SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 /datum/job/submap/skrellscoutship_crew/equip(var/mob/living/carbon/human/H, var/alt_title, var/datum/mil_branch/branch, var/datum/mil_rank/grade)
 	. = ..(H, alt_title, branch, grade)	//passing through arguments

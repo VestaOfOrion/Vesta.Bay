@@ -15,15 +15,49 @@
 	allowed_ranks = list(
 		/datum/mil_rank/ec/o1
 	)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-	                    SKILL_EVA         = SKILL_ADEPT,
-	                    SKILL_SCIENCE     = SKILL_ADEPT,
-	                    SKILL_PILOT       = SKILL_BASIC)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX,
-	                    SKILL_COMBAT      = SKILL_EXPERT,
-	                    SKILL_WEAPONS     = SKILL_EXPERT)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 	skill_points = 22
 
 	access = list(
@@ -71,11 +105,49 @@
 		access_mining, access_pilot, access_solgov_crew, access_eva, access_explorer, access_research,
 		access_radio_exp, access_radio_sci, access_radio_sup
 	)
-	min_skill = list(	SKILL_EVA   = SKILL_BASIC,
-						SKILL_PILOT = SKILL_ADEPT)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 /datum/job/explorer
 	title = "Explorer"
@@ -94,12 +166,49 @@
 		/datum/mil_rank/ec/e3,
 		/datum/mil_rank/ec/e5
 	)
-	min_skill = list(   SKILL_EVA = SKILL_BASIC)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX,
-	                    SKILL_COMBAT      = SKILL_EXPERT,
-	                    SKILL_WEAPONS     = SKILL_EXPERT)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 	access = list(
 		access_explorer, access_maint_tunnels, access_eva, access_emergency_storage,

@@ -73,10 +73,49 @@ Civilian
 	latejoin_at_spawnpoints = 1
 	access = list(access_merchant)
 	announced = FALSE
-	min_skill = list(   SKILL_FINANCE = SKILL_ADEPT,
-	                    SKILL_PILOT	  = SKILL_BASIC)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 	skill_points = 24
 	required_language = null
 	give_psionic_implant_on_join = FALSE

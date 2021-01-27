@@ -34,16 +34,49 @@ var/const/INF               =(1<<11)
 	skill_points = 26
 	is_whitelisted = TRUE
 	minimum_character_age = list(SPECIES_HUMAN = 25)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
-						SKILL_EVA         = SKILL_ADEPT,
-						SKILL_PILOT       = SKILL_BASIC,
-						SKILL_COMBAT      = SKILL_ADEPT,
-						SKILL_WEAPONS     = SKILL_ADEPT)
+	min_skill = list(   SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(	SKILL_COMBAT      = SKILL_PROF,
-						SKILL_WEAPONS     = SKILL_PROF,
-						SKILL_EVA		  = SKILL_EXPERT,
-						SKILL_HAULING     = SKILL_PROF)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 	software_on_spawn = list(/datum/computer_file/program/deck_management,
 							 /datum/computer_file/program/reports)
@@ -71,17 +104,49 @@ var/const/INF               =(1<<11)
 	skill_points = 22
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/infantry/combat_tech
 	minimum_character_age = list(SPECIES_HUMAN = 20)
-	min_skill = list(	SKILL_CONSTRUCTION = SKILL_ADEPT,
-						SKILL_ELECTRICAL   = SKILL_ADEPT,
-						SKILL_MEDICAL      = SKILL_BASIC,
-						SKILL_COMBAT       = SKILL_ADEPT,
-						SKILL_WEAPONS      = SKILL_ADEPT)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(	SKILL_COMBAT       = SKILL_EXPERT,
-						SKILL_WEAPONS      = SKILL_PROF,
-						SKILL_EVA		   = SKILL_EXPERT,
-						SKILL_CONSTRUCTION = SKILL_EXPERT,
-						SKILL_ELECTRICAL   = SKILL_EXPERT)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 	alt_titles = list(
 		"Combat Engineer",
@@ -119,13 +184,49 @@ var/const/INF               =(1<<11)
 	selection_color = "#557e38"
 	skill_points = 18
 	minimum_character_age = list(SPECIES_HUMAN = 18)
-	min_skill = list(	SKILL_COMBAT       = SKILL_ADEPT,
-						SKILL_WEAPONS      = SKILL_ADEPT,
-						SKILL_EVA          = SKILL_BASIC)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(	SKILL_COMBAT      = SKILL_EXPERT,
-						SKILL_WEAPONS     = SKILL_EXPERT,
-						SKILL_EVA		  = SKILL_EXPERT)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 	alt_titles = list(
 		"Grunt",
@@ -169,15 +270,49 @@ var/const/INF               =(1<<11)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/psiadvisor
 	allowed_branches = list(/datum/mil_branch/civilian)
 	allowed_ranks = list(/datum/mil_rank/civ/foundationadvisor)
-	min_skill = list(
-		SKILL_BUREAUCRACY = SKILL_EXPERT,
-		SKILL_FINANCE = SKILL_ADEPT,
-		SKILL_MEDICAL = SKILL_BASIC
-	)
-	max_skill = list(
-		SKILL_COMBAT     = SKILL_EXPERT,
-		SKILL_WEAPONS     = SKILL_EXPERT
-	)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
+
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 	skill_points = 24
 	access = list(access_psiadvisor, access_security, access_medical, access_engine, access_maint_tunnels, access_external_airlocks,
 				access_eva, access_bridge, access_cargo, access_RC_announce, access_solgov_crew, access_hangar)
@@ -215,11 +350,49 @@ var/const/INF               =(1<<11)
 	alt_titles = list(
 		"Forensics Trainee"
 		)
-	min_skill = list(   SKILL_EVA         = SKILL_ADEPT,
-	                    SKILL_COMBAT      = SKILL_BASIC)
-	max_skill = list(   SKILL_COMBAT      = SKILL_EXPERT,
-	                    SKILL_WEAPONS     = SKILL_EXPERT,
-	                    SKILL_FORENSICS   = SKILL_EXPERT)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
+	
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 	skill_points = 16
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/security/maa
 	allowed_branches = list(
@@ -264,17 +437,49 @@ var/const/INF               =(1<<11)
 		/datum/mil_rank/fleet/e9_alt1
 	)
 
-	min_skill = list(   SKILL_EVA        = SKILL_BASIC,
-	                    SKILL_COMBAT     = SKILL_BASIC,
-	                    SKILL_WEAPONS    = SKILL_ADEPT)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(   SKILL_COMBAT       = SKILL_EXPERT,
-	                    SKILL_WEAPONS      = SKILL_EXPERT,
-	                    SKILL_PILOT        = SKILL_EXPERT,
-	                    SKILL_CONSTRUCTION = SKILL_EXPERT,
-	                    SKILL_ELECTRICAL   = SKILL_EXPERT,
-	                    SKILL_ENGINES      = SKILL_EXPERT,
-	                    SKILL_ATMOS        = SKILL_EXPERT)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 	skill_points = 24
 
 
@@ -334,19 +539,49 @@ var/const/INF               =(1<<11)
 		/datum/mil_rank/fleet/w2,
 		/datum/mil_rank/civ/contractor
 		)
-	min_skill = list(   SKILL_COMPUTER		= SKILL_ADEPT,
-	                    SKILL_DEVICES		= SKILL_ADEPT,
-	                    SKILL_EVA           = SKILL_ADEPT,
-	                    SKILL_ANATOMY       = SKILL_ADEPT,
-	                    SKILL_MECH          = HAS_PERK)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
-	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
-	                    SKILL_ELECTRICAL   = SKILL_MAX,
-	                    SKILL_ATMOS        = SKILL_EXPERT,
-	                    SKILL_ENGINES      = SKILL_EXPERT,
-	                    SKILL_DEVICES      = SKILL_MAX,
-	                    SKILL_MEDICAL      = SKILL_EXPERT,
-	                    SKILL_ANATOMY      = SKILL_EXPERT)
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 	skill_points = 22
 
 	access = list(access_maint_tunnels, access_research, access_robotics, access_nanotrasen, access_solgov_crew, access_surgery, access_medical)
@@ -371,14 +606,49 @@ var/const/INF               =(1<<11)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/sfp_agent
 	allowed_branches = list(/datum/mil_branch/solgov)
 	allowed_ranks = list(/datum/mil_rank/sol/agent)
-	min_skill = list(   SKILL_BUREAUCRACY = SKILL_ADEPT,
-	                    SKILL_EVA         = SKILL_BASIC,
-	                    SKILL_COMBAT      = SKILL_BASIC,
-	                    SKILL_WEAPONS     = SKILL_BASIC,
-	                    SKILL_FORENSICS   = SKILL_BASIC)
-	max_skill = list(   SKILL_COMBAT      = SKILL_PROF,
-	                    SKILL_WEAPONS     = SKILL_PROF,
-	                    SKILL_FORENSICS   = SKILL_EXPERT)
+	min_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
+
+	max_skill = list(	SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 	skill_points = 20
 
 	access = list( //Same access as the SolGov Representative + Private access to their equipment locker

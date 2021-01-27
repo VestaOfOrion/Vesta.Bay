@@ -13,27 +13,27 @@
 	allowed_branches = null
 	skill_points = 25
 	give_psionic_implant_on_join = FALSE
-	max_skill = list(   SKILL_BUREAUCRACY = SKILL_MAX,
-	                    SKILL_FINANCE = SKILL_MAX,
-	                    SKILL_EVA = SKILL_MAX,
-	                    SKILL_MECH = SKILL_MAX,
-	                    SKILL_PILOT = SKILL_MAX,
-	                    SKILL_HAULING = SKILL_MAX,
-	                    SKILL_COMPUTER = SKILL_MAX,
-	                    SKILL_BOTANY = SKILL_MAX,
-	                    SKILL_COOKING = SKILL_MAX,
-	                    SKILL_COMBAT = SKILL_MAX,
-	                    SKILL_WEAPONS = SKILL_MAX,
-	                    SKILL_FORENSICS = SKILL_MAX,
-	                    SKILL_CONSTRUCTION = SKILL_MAX,
-	                    SKILL_ELECTRICAL = SKILL_MAX,
-	                    SKILL_ATMOS = SKILL_MAX,
-	                    SKILL_ENGINES = SKILL_MAX,
-	                    SKILL_DEVICES = SKILL_MAX,
-	                    SKILL_SCIENCE = SKILL_MAX,
-	                    SKILL_MEDICAL = SKILL_MAX,
-	                    SKILL_ANATOMY = SKILL_MAX,
-	                    SKILL_CHEMISTRY = SKILL_MAX)
+	max_skill = list(   SKILL_BUREAUCRACY   = SKILL_EXPERT,
+						SKILL_FINANCE       = SKILL_EXPERT,
+						SKILL_EVA           = SKILL_EXPERT,
+						SKILL_MECH          = SKILL_EXPERT,
+						SKILL_PILOT         = SKILL_EXPERT,
+						SKILL_HAULING       = SKILL_NONE,
+						SKILL_COMPUTER      = SKILL_PROF,
+						SKILL_BOTANY        = SKILL_EXPERT,
+						SKILL_COOKING       = SKILL_EXPERT,
+						SKILL_COMBAT        = SKILL_PROF,
+						SKILL_WEAPONS       = SKILL_EXPERT,
+						SKILL_FORENSICS     = SKILL_EXPERT,
+						SKILL_CONSTRUCTION  = SKILL_EXPERT,
+						SKILL_ELECTRICAL    = SKILL_EXPERT,
+						SKILL_ATMOS         = SKILL_EXPERT,
+						SKILL_ENGINES       = SKILL_EXPERT,
+						SKILL_DEVICES       = SKILL_EXPERT,
+						SKILL_SCIENCE       = SKILL_EXPERT,
+						SKILL_MEDICAL       = SKILL_EXPERT,
+						SKILL_ANATOMY       = SKILL_EXPERT,
+						SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 	var/info = "You have survived a terrible disaster. Make the best of things that you can."
 	var/rank

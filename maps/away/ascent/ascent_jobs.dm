@@ -116,13 +116,27 @@
 	is_semi_antagonist = TRUE
 	var/requires_supervisor = FALSE
 	var/set_species_on_join = SPECIES_MANTID_GYNE
-	min_skill = list(SKILL_EVA = SKILL_ADEPT,
-					SKILL_PILOT = SKILL_ADEPT,
-					SKILL_HAULING = SKILL_ADEPT,
-					SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_SCIENCE = SKILL_ADEPT,
-					SKILL_MEDICAL = SKILL_BASIC)
+	min_skill = list(SKILL_BUREAUCRACY   = SKILL_EXPERT,
+					SKILL_FINANCE       = SKILL_EXPERT,
+					SKILL_EVA           = SKILL_EXPERT,
+					SKILL_MECH          = SKILL_EXPERT,
+					SKILL_PILOT         = SKILL_EXPERT,
+					SKILL_HAULING       = SKILL_NONE,
+					SKILL_COMPUTER      = SKILL_PROF,
+					SKILL_BOTANY        = SKILL_EXPERT,
+					SKILL_COOKING       = SKILL_EXPERT,
+					SKILL_COMBAT        = SKILL_PROF,
+					SKILL_WEAPONS       = SKILL_EXPERT,
+					SKILL_FORENSICS     = SKILL_EXPERT,
+					SKILL_CONSTRUCTION  = SKILL_EXPERT,
+					SKILL_ELECTRICAL    = SKILL_EXPERT,
+					SKILL_ATMOS         = SKILL_EXPERT,
+					SKILL_ENGINES       = SKILL_EXPERT,
+					SKILL_DEVICES       = SKILL_EXPERT,
+					SKILL_SCIENCE       = SKILL_EXPERT,
+					SKILL_MEDICAL       = SKILL_EXPERT,
+					SKILL_ANATOMY       = SKILL_EXPERT,
+					SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 /datum/job/submap/ascent/is_position_available()
 	. = ..()
@@ -187,11 +201,27 @@
 	set_species_on_join = SPECIES_MANTID_ALATE
 	outfit_type = /decl/hierarchy/outfit/job/ascent/tech
 	requires_supervisor = "Ascent Gyne"
-	min_skill = list(SKILL_EVA = SKILL_ADEPT,
-					SKILL_HAULING = SKILL_ADEPT,
-					SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_MEDICAL = SKILL_BASIC,)
+	min_skill = list(SKILL_BUREAUCRACY   = SKILL_EXPERT,
+					SKILL_FINANCE       = SKILL_EXPERT,
+					SKILL_EVA           = SKILL_EXPERT,
+					SKILL_MECH          = SKILL_EXPERT,
+					SKILL_PILOT         = SKILL_EXPERT,
+					SKILL_HAULING       = SKILL_NONE,
+					SKILL_COMPUTER      = SKILL_PROF,
+					SKILL_BOTANY        = SKILL_EXPERT,
+					SKILL_COOKING       = SKILL_EXPERT,
+					SKILL_COMBAT        = SKILL_PROF,
+					SKILL_WEAPONS       = SKILL_EXPERT,
+					SKILL_FORENSICS     = SKILL_EXPERT,
+					SKILL_CONSTRUCTION  = SKILL_EXPERT,
+					SKILL_ELECTRICAL    = SKILL_EXPERT,
+					SKILL_ATMOS         = SKILL_EXPERT,
+					SKILL_ENGINES       = SKILL_EXPERT,
+					SKILL_DEVICES       = SKILL_EXPERT,
+					SKILL_SCIENCE       = SKILL_EXPERT,
+					SKILL_MEDICAL       = SKILL_EXPERT,
+					SKILL_ANATOMY       = SKILL_EXPERT,
+					SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 /datum/job/submap/ascent/drone
 	title = "Ascent Drone"
@@ -209,12 +239,27 @@
 	set_species_on_join = SPECIES_MONARCH_WORKER
 	outfit_type = /decl/hierarchy/outfit/job/ascent/worker
 	requires_supervisor = "Serpentid Queen"
-	min_skill = list(SKILL_EVA = SKILL_ADEPT,
-					SKILL_HAULING = SKILL_ADEPT,
-					SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_SCIENCE = SKILL_ADEPT,
-					SKILL_MEDICAL = SKILL_BASIC)
+	min_skill = list(SKILL_BUREAUCRACY   = SKILL_EXPERT,
+					SKILL_FINANCE       = SKILL_EXPERT,
+					SKILL_EVA           = SKILL_EXPERT,
+					SKILL_MECH          = SKILL_EXPERT,
+					SKILL_PILOT         = SKILL_EXPERT,
+					SKILL_HAULING       = SKILL_NONE,
+					SKILL_COMPUTER      = SKILL_PROF,
+					SKILL_BOTANY        = SKILL_EXPERT,
+					SKILL_COOKING       = SKILL_EXPERT,
+					SKILL_COMBAT        = SKILL_PROF,
+					SKILL_WEAPONS       = SKILL_EXPERT,
+					SKILL_FORENSICS     = SKILL_EXPERT,
+					SKILL_CONSTRUCTION  = SKILL_EXPERT,
+					SKILL_ELECTRICAL    = SKILL_EXPERT,
+					SKILL_ATMOS         = SKILL_EXPERT,
+					SKILL_ENGINES       = SKILL_EXPERT,
+					SKILL_DEVICES       = SKILL_EXPERT,
+					SKILL_SCIENCE       = SKILL_EXPERT,
+					SKILL_MEDICAL       = SKILL_EXPERT,
+					SKILL_ANATOMY       = SKILL_EXPERT,
+					SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 /datum/job/submap/ascent/msq
 	title = "Serpentid Queen"
@@ -223,11 +268,27 @@
 	info = "You are a Monarch Serpentid Queen living on an independant Ascent vessel. Assist the Gyne in her duties and tend to your Workers."
 	outfit_type = /decl/hierarchy/outfit/job/ascent/queen
 	set_species_on_join = SPECIES_MONARCH_QUEEN
-	min_skill = list(SKILL_EVA = SKILL_ADEPT,
-					SKILL_HAULING = SKILL_ADEPT,
-					SKILL_COMBAT = SKILL_ADEPT,
-					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_MEDICAL = SKILL_BASIC)
+	min_skill = list(SKILL_BUREAUCRACY   = SKILL_EXPERT,
+					SKILL_FINANCE       = SKILL_EXPERT,
+					SKILL_EVA           = SKILL_EXPERT,
+					SKILL_MECH          = SKILL_EXPERT,
+					SKILL_PILOT         = SKILL_EXPERT,
+					SKILL_HAULING       = SKILL_NONE,
+					SKILL_COMPUTER      = SKILL_PROF,
+					SKILL_BOTANY        = SKILL_EXPERT,
+					SKILL_COOKING       = SKILL_EXPERT,
+					SKILL_COMBAT        = SKILL_PROF,
+					SKILL_WEAPONS       = SKILL_EXPERT,
+					SKILL_FORENSICS     = SKILL_EXPERT,
+					SKILL_CONSTRUCTION  = SKILL_EXPERT,
+					SKILL_ELECTRICAL    = SKILL_EXPERT,
+					SKILL_ATMOS         = SKILL_EXPERT,
+					SKILL_ENGINES       = SKILL_EXPERT,
+					SKILL_DEVICES       = SKILL_EXPERT,
+					SKILL_SCIENCE       = SKILL_EXPERT,
+					SKILL_MEDICAL       = SKILL_EXPERT,
+					SKILL_ANATOMY       = SKILL_EXPERT,
+					SKILL_CHEMISTRY     = SKILL_EXPERT)
 
 // Spawn points.
 /obj/effect/submap_landmark/spawnpoint/ascent_seedship
