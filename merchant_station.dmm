@@ -77,6 +77,18 @@
 	},
 /turf/simulated/floor/wood,
 /area/shuttle/merchant/home)
+"aN" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 8;
+	icon_state = "pdoor0";
+	id_tag = "merchant_shuttle_lockdown";
+	name = "External Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
 "ba" = (
 /obj/effect/paint/red,
 /turf/simulated/wall/titanium,
@@ -226,6 +238,13 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/aquila/airlock)
+"di" = (
+/obj/machinery/door/blast/regular{
+	id_tag = "merchant_sensor_shroud";
+	name = "Sensor Shroud"
+	},
+/turf/simulated/floor/airless,
+/area/shuttle/merchant/home)
 "do" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -353,6 +372,18 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/airlock)
+"eE" = (
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 2;
+	icon_state = "pdoor0";
+	id_tag = "merchant_shuttle_lockdown";
+	name = "External Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
 "eK" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 6
@@ -446,6 +477,18 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/space)
+"hx" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 8;
+	icon_state = "pdoor0";
+	id_tag = "merchant_shuttle_lockdown";
+	name = "External Blast Doors";
+	opacity = 0
+	},
+/turf/simulated/floor/airless,
+/area/shuttle/merchant/home)
 "hG" = (
 /obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
@@ -462,6 +505,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
+"ic" = (
+/obj/machinery/power/shield_generator,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "if" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -745,6 +792,10 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/aquila/medical)
+"mx" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "mL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -788,6 +839,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
+"nd" = (
+/obj/machinery/computer/modular/preset/civilian{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "no" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/emcloset,
@@ -822,17 +879,6 @@
 /obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
 /area/aquila/maintenance)
-"nO" = (
-/obj/structure/table/glass,
-/obj/structure/window/reinforced{
-	health = 1e+006
-	},
-/obj/structure/window/reinforced{
-	dir = 4;
-	health = 1e+006
-	},
-/turf/simulated/floor/carpet/blue,
-/area/shuttle/merchant/home)
 "nR" = (
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/merchant/home)
@@ -949,19 +995,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/maintenance)
-"pJ" = (
-/obj/structure/table/reinforced,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
-"qm" = (
-/obj/machinery/airlock_sensor{
-	frequency = 1380;
-	id_tag = "merchant_ship_interior_sensor";
-	pixel_x = 28;
-	pixel_y = 0
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "qs" = (
 /obj/machinery/door/blast/regular/open{
 	density = 0;
@@ -974,6 +1007,14 @@
 /obj/effect/paint/hull,
 /turf/simulated/floor/plating,
 /area/aquila/passenger)
+"qy" = (
+/obj/machinery/computer/air_control{
+	dir = 1;
+	name = "Atmospheric Sensors";
+	sensor_tag = "merchant_sensor"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "qB" = (
 /obj/machinery/light{
 	dir = 4
@@ -1029,9 +1070,23 @@
 	},
 /turf/simulated/wall/titanium,
 /area/aquila/maintenance)
+"rM" = (
+/obj/structure/flora/pottedplant/tropical,
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
 "rO" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Cockpit"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"rQ" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "closed";
+	id_tag = "merchant_ship_exterior";
+	locked = 1;
+	name = "Ship Exterior"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/merchant/home)
@@ -1274,24 +1329,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/shuttle/merchant/home)
-"wy" = (
-/obj/machinery/air_sensor{
-	id_tag = "merchant_sensor"
-	},
-/obj/machinery/access_button{
-	command = "cycle_exterior";
-	frequency = 1380;
-	master_tag = "merchant_ship_dock";
-	pixel_y = 24
-	},
-/obj/machinery/airlock_sensor{
-	frequency = 1380;
-	id_tag = "merchant_ship_exterior_sensor";
-	pixel_x = -9;
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "xb" = (
 /obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
@@ -1311,10 +1348,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
-"xr" = (
-/obj/machinery/computer/ship/engines,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "xs" = (
 /obj/machinery/door/blast/regular{
 	dir = 4;
@@ -1424,10 +1457,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
-"ys" = (
-/obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/effect/paint/hull,
-/turf/simulated/floor/plating,
+"yD" = (
+/obj/machinery/hologram/holopad/longrange,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/merchant/home)
 "yV" = (
 /obj/effect/paint/hull,
@@ -1507,10 +1539,6 @@
 "zV" = (
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/bridge/aft)
-"Ad" = (
-/obj/machinery/power/shield_generator,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "Ai" = (
 /obj/structure/table/glass,
 /obj/structure/window/reinforced{
@@ -1540,10 +1568,6 @@
 /obj/effect/paint/red,
 /turf/simulated/wall/titanium,
 /area/aquila/medical)
-"AR" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/airless,
-/area/shuttle/merchant/home)
 "Bf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1617,6 +1641,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
+"Cp" = (
+/obj/machinery/computer/ship/engines,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "Cq" = (
 /obj/machinery/optable,
 /turf/simulated/floor/tiled/white/monotile,
@@ -1788,25 +1816,10 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/aquila/storage)
-"Fh" = (
-/obj/machinery/hologram/holopad/longrange,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "Fi" = (
 /obj/effect/paint/red,
 /turf/simulated/wall/titanium,
 /area/aquila/maintenance)
-"Fn" = (
-/obj/structure/bed/chair/shuttle{
-	dir = 4;
-	icon_state = "shuttle_chair_preview"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
-"Fx" = (
-/obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "FU" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1817,13 +1830,20 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/aquila/airlock)
-"Gu" = (
-/obj/machinery/door/airlock/external{
+"Gj" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 4;
+	display_name = "Merchant Ship Docking Control";
 	frequency = 1380;
-	icon_state = "closed";
-	id_tag = "merchant_ship_exterior";
-	locked = 1;
-	name = "Ship Exterior"
+	id_tag = "merchant_ship_dock";
+	pixel_x = -28;
+	pixel_y = 0;
+	req_access = list("ACCESS_MERCHANT");
+	tag_chamber_sensor = "merchant_station_sensor";
+	tag_exterior_door = "merchant_ship_exterior";
+	tag_exterior_sensor = "merchant_ship_exterior_sensor";
+	tag_interior_door = "merchant_ship_interior";
+	tag_interior_sensor = "merchant_ship_interior_sensor"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/merchant/home)
@@ -1836,6 +1856,11 @@
 "Gy" = (
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
+"GK" = (
+/obj/machinery/shipsensors,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/airless,
+/area/shuttle/merchant/home)
 "GN" = (
 /turf/simulated/floor/wood,
 /area/shuttle/merchant/home)
@@ -1901,6 +1926,10 @@
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
+"In" = (
+/obj/structure/flora/pottedplant/minitree,
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
 "Iu" = (
 /obj/machinery/door/blast/regular/open{
 	density = 0;
@@ -2062,31 +2091,31 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
-"KZ" = (
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	dir = 4;
-	display_name = "Merchant Ship Docking Control";
-	frequency = 1380;
-	id_tag = "merchant_ship_dock";
-	pixel_x = -28;
-	pixel_y = 0;
-	req_access = list("ACCESS_MERCHANT");
-	tag_chamber_sensor = "merchant_station_sensor";
-	tag_exterior_door = "merchant_ship_exterior";
-	tag_exterior_sensor = "merchant_ship_exterior_sensor";
-	tag_interior_door = "merchant_ship_interior";
-	tag_interior_sensor = "merchant_ship_interior_sensor"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "LG" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/hull,
 /turf/simulated/floor/plating,
 /area/aquila/airlock)
+"Me" = (
+/obj/structure/bed/chair/shuttle{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "merchant_sensor_shroud";
+	name = "Sensor Shroud";
+	pixel_x = 23;
+	pixel_y = -22
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "Mj" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /turf/simulated/floor/plating,
+/area/shuttle/merchant/home)
+"Mt" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/merchant/home)
 "Mw" = (
 /obj/effect/paint/red,
@@ -2112,9 +2141,6 @@
 	},
 /turf/simulated/wall/titanium,
 /area/aquila/cockpit)
-"Nj" = (
-/turf/simulated/floor/airless,
-/area/shuttle/merchant/home)
 "Nk" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2198,6 +2224,19 @@
 	},
 /turf/simulated/floor/tiled,
 /area/aquila/secure_storage)
+"Oc" = (
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "merchant_ship_interior_sensor";
+	pixel_x = 28;
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"Ol" = (
+/obj/structure/flora/pottedplant/smalltree,
+/turf/simulated/floor/wood,
+/area/shuttle/merchant/home)
 "Or" = (
 /obj/structure/table/rack,
 /obj/structure/window/reinforced{
@@ -2300,11 +2339,17 @@
 /obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
 /area/aquila/head)
-"PQ" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 8
+"PY" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	health = 1e+006
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
+/obj/structure/window/reinforced{
+	dir = 4;
+	health = 1e+006
+	},
+/obj/structure/flora/pottedplant/deskfern,
+/turf/simulated/floor/carpet/blue,
 /area/shuttle/merchant/home)
 "Qf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2520,14 +2565,6 @@
 "Sx" = (
 /turf/simulated/floor/tiled/dark,
 /area/aquila/passenger)
-"SH" = (
-/obj/machinery/computer/air_control{
-	dir = 1;
-	name = "Atmospheric Sensors";
-	sensor_tag = "merchant_sensor"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "SN" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Cockpit"
@@ -2579,10 +2616,17 @@
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/merchant/home)
-"VC" = (
-/obj/machinery/shipsensors,
-/obj/effect/floor_decal/industrial/hatch/yellow,
-/turf/simulated/floor/airless,
+"Vw" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	dir = 8;
+	icon_state = "pdoor0";
+	id_tag = "merchant_shuttle_lockdown";
+	name = "External Blast Doors";
+	opacity = 0
+	},
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/turf/simulated/floor/plating,
 /area/shuttle/merchant/home)
 "VE" = (
 /obj/machinery/body_scanconsole{
@@ -2864,6 +2908,33 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/airless,
 /area/aquila/cockpit)
+"Zj" = (
+/obj/machinery/air_sensor{
+	id_tag = "merchant_sensor"
+	},
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1380;
+	master_tag = "merchant_ship_dock";
+	pixel_y = 24
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "merchant_ship_exterior_sensor";
+	pixel_x = -9;
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"Zu" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/blast_door{
+	id_tag = "merchant_shuttle_lockdown";
+	name = "Shuttle Lockdown";
+	pixel_y = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "ZD" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -9001,14 +9072,14 @@ Rc
 Rc
 Rc
 eS
-Mj
+eS
+aN
 eS
 eS
-eS
-Mj
-eS
+aN
 eS
 eS
+aN
 eS
 eS
 eS
@@ -9103,15 +9174,15 @@ Rc
 Rc
 Rc
 eS
+In
 GN
-Or
 Jr
 Or
-GN
+Ol
 Or
 Jr
 GN
-GN
+In
 eS
 sr
 sr
@@ -9503,8 +9574,8 @@ Rc
 Rc
 Rc
 eS
-ys
-eS
+aN
+Vw
 eS
 sr
 sr
@@ -9605,8 +9676,8 @@ Rc
 Rc
 Rc
 eS
-xr
-pJ
+Cp
+Zu
 eS
 eS
 eS
@@ -9621,7 +9692,7 @@ GN
 nJ
 nJ
 GN
-GN
+rM
 eS
 eS
 eS
@@ -9706,10 +9777,10 @@ Rc
 Rc
 Rc
 Rc
-ys
+eE
 Tc
 tY
-Fx
+mx
 eS
 nR
 nR
@@ -9724,11 +9795,11 @@ GN
 GN
 GN
 GN
-ys
+Mj
 nR
 nR
 nR
-ys
+eE
 Rc
 Rc
 Rc
@@ -9808,9 +9879,9 @@ Rc
 Rc
 Rc
 Rc
-ys
+eE
 UA
-Fh
+yD
 nR
 rO
 nR
@@ -9910,10 +9981,10 @@ Rc
 Rc
 Rc
 Rc
-ys
-pJ
-Fn
-SH
+eE
+Mt
+Me
+qy
 eS
 nR
 nR
@@ -9921,18 +9992,18 @@ MM
 eS
 su
 Ai
-nO
+PY
 GN
 GN
 GN
 GN
 GN
 GN
-ys
+Mj
 nR
 nR
 nR
-ys
+eE
 Rc
 Rc
 Rc
@@ -10013,8 +10084,8 @@ Rc
 Rc
 Rc
 eS
-Ad
-PQ
+ic
+nd
 eS
 eS
 eS
@@ -10029,7 +10100,7 @@ GN
 nJ
 nJ
 GN
-GN
+rM
 eS
 eS
 eS
@@ -10115,13 +10186,13 @@ Rc
 Rc
 Rc
 eS
-ys
-eS
+aN
+Vw
 eS
 eS
 eS
 nR
-KZ
+Gj
 eS
 GN
 GN
@@ -10219,10 +10290,10 @@ Rc
 Rc
 Rc
 Rc
-Nj
-VC
-AR
-qm
+di
+GK
+hx
+Oc
 nR
 eS
 GN
@@ -10325,7 +10396,7 @@ eS
 eS
 eS
 eS
-Gu
+rQ
 eS
 GN
 GN
@@ -10427,7 +10498,7 @@ Rc
 Rc
 Rc
 eS
-wy
+Zj
 eS
 GN
 GN
@@ -10531,15 +10602,15 @@ Rc
 Rc
 Rc
 eS
-GN
-vX
-aF
-vX
+In
 GN
 aF
 vX
+Ol
+aF
+vX
 GN
-GN
+In
 eS
 sr
 sr
@@ -10633,14 +10704,14 @@ Rc
 Rc
 Rc
 eS
-Mj
+eS
+aN
 eS
 eS
-eS
-Mj
-eS
+aN
 eS
 eS
+aN
 eS
 eS
 eS
