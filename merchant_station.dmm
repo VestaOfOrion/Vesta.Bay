@@ -600,12 +600,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/aquila/head)
-"kv" = (
-/obj/machinery/door/airlock/hatch{
-	name = "Engineering"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "kx" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -639,14 +633,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/aquila/medical)
-"lb" = (
-/obj/machinery/computer/air_control{
-	dir = 1;
-	name = "Atmospheric Sensors";
-	sensor_tag = "calypso_out"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/merchant/home)
 "ld" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -963,6 +949,19 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/aquila/maintenance)
+"pJ" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"qm" = (
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "merchant_ship_interior_sensor";
+	pixel_x = 28;
+	pixel_y = 0
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "qs" = (
 /obj/machinery/door/blast/regular/open{
 	density = 0;
@@ -1275,6 +1274,24 @@
 	},
 /turf/simulated/floor/wood,
 /area/shuttle/merchant/home)
+"wy" = (
+/obj/machinery/air_sensor{
+	id_tag = "merchant_sensor"
+	},
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1380;
+	master_tag = "merchant_ship_dock";
+	pixel_y = 24
+	},
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "merchant_ship_exterior_sensor";
+	pixel_x = -9;
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "xb" = (
 /obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
@@ -1294,6 +1311,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/cockpit)
+"xr" = (
+/obj/machinery/computer/ship/engines,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "xs" = (
 /obj/machinery/door/blast/regular{
 	dir = 4;
@@ -1486,6 +1507,10 @@
 "zV" = (
 /turf/simulated/wall/r_wall/hull,
 /area/hallway/primary/bridge/aft)
+"Ad" = (
+/obj/machinery/power/shield_generator,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "Ai" = (
 /obj/structure/table/glass,
 /obj/structure/window/reinforced{
@@ -1515,6 +1540,10 @@
 /obj/effect/paint/red,
 /turf/simulated/wall/titanium,
 /area/aquila/medical)
+"AR" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/airless,
+/area/shuttle/merchant/home)
 "Bf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1759,10 +1788,25 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/aquila/storage)
+"Fh" = (
+/obj/machinery/hologram/holopad/longrange,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "Fi" = (
 /obj/effect/paint/red,
 /turf/simulated/wall/titanium,
 /area/aquila/maintenance)
+"Fn" = (
+/obj/structure/bed/chair/shuttle{
+	dir = 4;
+	icon_state = "shuttle_chair_preview"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
+"Fx" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "FU" = (
 /obj/machinery/recharge_station,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1773,6 +1817,16 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/aquila/airlock)
+"Gu" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "closed";
+	id_tag = "merchant_ship_exterior";
+	locked = 1;
+	name = "Ship Exterior"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "Gx" = (
 /obj/machinery/sleeper{
 	dir = 4
@@ -2008,6 +2062,23 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/aquila/maintenance)
+"KZ" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 4;
+	display_name = "Merchant Ship Docking Control";
+	frequency = 1380;
+	id_tag = "merchant_ship_dock";
+	pixel_x = -28;
+	pixel_y = 0;
+	req_access = list("ACCESS_MERCHANT");
+	tag_chamber_sensor = "merchant_station_sensor";
+	tag_exterior_door = "merchant_ship_exterior";
+	tag_exterior_sensor = "merchant_ship_exterior_sensor";
+	tag_interior_door = "merchant_ship_interior";
+	tag_interior_sensor = "merchant_ship_interior_sensor"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "LG" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/effect/paint/hull,
@@ -2041,6 +2112,9 @@
 	},
 /turf/simulated/wall/titanium,
 /area/aquila/cockpit)
+"Nj" = (
+/turf/simulated/floor/airless,
+/area/shuttle/merchant/home)
 "Nk" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2226,6 +2300,12 @@
 /obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
 /area/aquila/head)
+"PQ" = (
+/obj/machinery/computer/modular/preset/civilian{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "Qf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2440,6 +2520,14 @@
 "Sx" = (
 /turf/simulated/floor/tiled/dark,
 /area/aquila/passenger)
+"SH" = (
+/obj/machinery/computer/air_control{
+	dir = 1;
+	name = "Atmospheric Sensors";
+	sensor_tag = "merchant_sensor"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/merchant/home)
 "SN" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Cockpit"
@@ -2491,11 +2579,10 @@
 /obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/merchant/home)
-"Vw" = (
-/obj/machinery/computer/ship/engines{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
+"VC" = (
+/obj/machinery/shipsensors,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/airless,
 /area/shuttle/merchant/home)
 "VE" = (
 /obj/machinery/body_scanconsole{
@@ -9518,8 +9605,8 @@ Rc
 Rc
 Rc
 eS
-nR
-nR
+xr
+pJ
 eS
 eS
 eS
@@ -9621,8 +9708,8 @@ Rc
 Rc
 ys
 Tc
-nR
-Vw
+tY
+Fx
 eS
 nR
 nR
@@ -9722,8 +9809,8 @@ Rc
 Rc
 Rc
 ys
-nR
-tY
+UA
+Fh
 nR
 rO
 nR
@@ -9824,9 +9911,9 @@ Rc
 Rc
 Rc
 ys
-UA
-nR
-lb
+pJ
+Fn
+SH
 eS
 nR
 nR
@@ -9926,12 +10013,12 @@ Rc
 Rc
 Rc
 eS
-nR
-nR
+Ad
+PQ
 eS
 eS
 eS
-kv
+Ey
 eS
 eS
 GN
@@ -10031,10 +10118,10 @@ eS
 ys
 eS
 eS
+eS
+eS
 nR
-nR
-nR
-nR
+KZ
 eS
 GN
 GN
@@ -10132,10 +10219,10 @@ Rc
 Rc
 Rc
 Rc
-eS
-nR
-nR
-nR
+Nj
+VC
+AR
+qm
 nR
 eS
 GN
@@ -10238,7 +10325,7 @@ eS
 eS
 eS
 eS
-nR
+Gu
 eS
 GN
 GN
@@ -10340,7 +10427,7 @@ Rc
 Rc
 Rc
 eS
-eS
+wy
 eS
 GN
 GN
