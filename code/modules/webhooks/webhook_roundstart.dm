@@ -6,7 +6,7 @@
 	. = ..()
 	var/desc = "A new round is starting"
 	if(data && data["url"])
-		desc += " on [data["url"]]"
+		desc += " at byond://192.223.26.57:58844"
 	desc += "."
 
 	.["embeds"] = list(list(
