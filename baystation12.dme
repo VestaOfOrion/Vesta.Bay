@@ -3236,6 +3236,7 @@
 #include "modular_boh\code\modules\mob\living\living.dm"
 #include "modular_boh\code\modules\modular_computer\cloning.dm"
 #include "modular_boh\code\modules\nullglass\nullglass_misc.dm"
+#include "modular_boh\code\modules\organs\robolimbs.dm"
 #include "modular_boh\code\modules\organs\internal\stack.dm"
 #include "modular_boh\code\modules\power\apc.dm"
 #include "modular_boh\code\modules\power\lighting.dm"
