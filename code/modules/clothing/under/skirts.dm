@@ -42,6 +42,12 @@
 	worn_state = "skirt_swept"
 	body_parts_covered = LOWER_TORSO
 
+/obj/item/clothing/under/skirt/bartender
+	name = "dress skirt"
+	desc = "A fancy, black skirt with a white undershirt."
+	icon_state = "bartender_skirt"
+	worn_state = "bartender_skirt"
+
 // colour selection, needs to be different for loadout type selection
 
 /obj/item/clothing/under/skirt_c
@@ -72,6 +78,8 @@
 	desc = "A long silky sleeveless gown with a flared hem."
 	icon_state = "gowndress"
 	worn_state = "gowndress"
+
+
 
 // some preset dresses for uniform vendors
 /obj/item/clothing/under/skirt_c/dress/black

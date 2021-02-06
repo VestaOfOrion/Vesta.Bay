@@ -303,6 +303,13 @@
 	worn_state = "dress_fire"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 
+/obj/item/clothing/under/dress/black
+	name = "black dress"
+	desc = "A plain, black dress."
+	icon_state = "blackdress"
+	worn_state = "blackdress"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+
 /obj/item/clothing/under/dress/dress_fire
 	name = "flame dress"
 	desc = "A small black dress with blue flames print on it."
@@ -591,6 +598,12 @@
 	worn_state = "pcrc"
 	gender_icons = 1
 
+/obj/item/clothing/under/pcrcskirt
+	name = "\improper PCRC skirt"
+	desc = "A skirt belonging to Proxima Centauri Risk Control, a private security firm."
+	icon_state = "pcrc_skirt"
+	worn_state = "pcrc_skirt"
+
 /obj/item/clothing/under/pcrcsuit
 	name = "\improper PCRC suit"
 	desc = "A suit belonging to Proxima Centauri Risk Control, a private security firm. This one looks more formal than its utility counterpart."
@@ -598,6 +611,12 @@
 	item_state = "jensensuit"
 	worn_state = "pcrcsuit"
 	gender_icons = 1
+
+/obj/item/clothing/under/solgov/utilityskirt
+	name = "Utility Skirt"
+	desc = "A comfortable turtleneck and black utility skirt."
+	icon_state = "contractor_skirt"
+	worn_state = "contractor_skirt"
 
 /obj/item/clothing/under/grayson
 	name = "\improper Grayson overalls"
@@ -650,6 +669,12 @@
 	icon_state = "saare"
 	worn_state = "saare"
 	gender_icons = 1
+	
+/obj/item/clothing/under/saareskirt
+	name = "\improper SAARE skirt"
+	desc = "A skirt belonging to Strategic Assault and Asset Retention Enterprises, a minor private military corporation. Tactical, obviously."
+	icon_state = "saare_skirt"
+	worn_state = "saare_skirt"
 
 /obj/item/clothing/under/frontier
 	name = "frontier clothes"
@@ -760,3 +785,10 @@
 	icon_state = "kimono"
 	worn_state = "kimono"
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+
+/obj/item/clothing/under/maiddress
+	name = "maid dress"
+	desc = "A plain uniform traditionally worn by housemaids."
+	icon_state = "maiddress"
+	worn_state = "maiddress"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS

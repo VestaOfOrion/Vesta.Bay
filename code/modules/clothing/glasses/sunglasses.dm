@@ -1,20 +1,28 @@
 /obj/item/clothing/glasses/sunglasses
 	name = "sunglasses"
-	desc = "Glasses with treated lenses to prevent glare. They provide some rudamentary protection from dazzling attacks."
-	icon_state = "sun"
-	item_state = "sunglasses"
+	desc = "Glasses with polarizing lenses to protect a little against glare and blinding lights."
+	icon_state = "shades_black"
+	item_state = "shades_black"
 	darkness_view = -1
 	flash_protection = FLASH_PROTECTION_MINOR
 
-/obj/item/clothing/glasses/sunglasses/prescription
-	name = "prescription sunglasses"
-	prescription = 5
+/obj/item/clothing/glasses/sunglasses/tinted
+	name = "tinted sunglasses"
+	desc = "Sunglasses with a yellowish tint. Pretty stylish."
+	icon_state = "shades_tinted"
+	item_state = "shades_tinted"
+
+/obj/item/clothing/glasses/sunglasses/mirror
+	name = "mirror shades"
+	desc = "Sometimes called pilot sunglasses. Reflective surface."
+	icon_state = "shades_mirror"
+	item_state = "shades_mirror"
 
 /obj/item/clothing/glasses/sunglasses/big
-	name = "thick sunglasses"
-	desc = "Glasses with treated lenses to prevent glare. The thick, wide lenses protect against a variety of flash attacks."
-	icon_state = "bigsunglasses"
-	item_state = "bigsunglasses"
+	name = "large sunglasses"
+	desc = "Thick lenses and layered filters makes these big sunglasses good against a variety of flash attacks."
+	icon_state = "shades_big"
+	item_state = "shades_big"
 	flash_protection = FLASH_PROTECTION_MODERATE
 
 /obj/item/clothing/glasses/sunglasses/sechud

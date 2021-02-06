@@ -5,6 +5,7 @@
 	name = "drink"
 	desc = "Yummy!"
 	icon = 'icons/obj/drinks.dmi'
+	matter = list(MATERIAL_PLASTIC = 100)
 	icon_state = null
 	atom_flags = ATOM_FLAG_OPEN_CONTAINER
 	amount_per_transfer_from_this = 5
@@ -139,6 +140,7 @@
 	desc = "It's milk. White and nutritious goodness!"
 	icon_state = "milk"
 	item_state = "carton"
+	matter = list(MATERIAL_PLASTIC = 350)
 	center_of_mass = "x=16;y=9"
 
 /obj/item/weapon/reagent_containers/food/drinks/milk/Initialize()
@@ -248,6 +250,7 @@
 	amount_per_transfer_from_this = 10
 	volume = 120
 	center_of_mass = "x=17;y=7"
+	matter = list(MATERIAL_GLASS = 500)
 
 /obj/item/weapon/reagent_containers/food/drinks/pitcher
 	name = "insulated pitcher"
@@ -258,6 +261,7 @@
 	center_of_mass = "x=16;y=9"
 	filling_states = "15;30;50;70;85;100"
 	base_icon = "pitcher"
+	matter = list(MATERIAL_STEEL = 500, MATERIAL_PLASTIC = 200, MATERIAL_ALUMINIUM = 200)
 
 /obj/item/weapon/reagent_containers/food/drinks/flask
 	name = "\improper Captain's flask"
@@ -270,6 +274,7 @@
 	name = "shiny flask"
 	desc = "A shiny metal flask. It appears to have a Greek symbol inscribed on it."
 	icon_state = "shinyflask"
+	matter = list(MATERIAL_ALUMINIUM = 100, MATERIAL_STEEL = 200)
 
 /obj/item/weapon/reagent_containers/food/drinks/flask/lithium
 	name = "lithium flask"
@@ -307,6 +312,7 @@
 	filling_states = "100"
 	base_name = "cup"
 	base_icon = "cup"
+	matter = list(MATERIAL_PLASTIC = 150)
 
 /obj/item/weapon/reagent_containers/food/drinks/tea/black
 	name = "cup of black tea"

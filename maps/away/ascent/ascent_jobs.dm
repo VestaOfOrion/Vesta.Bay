@@ -110,7 +110,7 @@
 	supervisors = "nobody but yourself"
 	info = "You are the Gyne of an independent Ascent vessel. Your hunting has brought you to this remote sector full of crawling primitives. Impose your will, found a new nest, and bring prosperity to your lineage."
 	outfit_type = /decl/hierarchy/outfit/job/ascent
-	blacklisted_species = null
+	blacklisted_species = list(SPECIES_CUSTOM)
 	whitelisted_species = null
 	loadout_allowed = FALSE
 	is_semi_antagonist = TRUE

@@ -41,7 +41,8 @@
 		/obj/item/clothing/accessory/medal,
 		/obj/item/clothing/accessory/armor/tag,
 		/obj/item/clothing/ring,
-		/obj/item/weapon/passport
+		/obj/item/weapon/passport,
+		/obj/item/weapon/hand
 	)
 	slot_flags = SLOT_ID
 

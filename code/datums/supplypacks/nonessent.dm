@@ -58,6 +58,12 @@
 	cost = 40
 	containername = "musical instrument crate"
 
+/decl/hierarchy/supply_pack/nonessent/radio
+	name = "Rec - Music Radio"
+	contains = list(/obj/item/device/boombox/radio)
+	cost = 40
+	containername = "music radio crate"
+
 
 /decl/hierarchy/supply_pack/nonessent/llamps
 	num_contained = 3

@@ -1,6 +1,0 @@
-author: Jaroski
-delete-after: True
-changes: 
-  - tweak: "Marine patches tweaked to be opposite shoulder of dagon patch."
-  - bugfix: "Marine patches now actually appear onmob"
-  

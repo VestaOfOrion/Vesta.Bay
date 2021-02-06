@@ -169,7 +169,7 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 
 		var/vuln = 1 - M.get_blocked_ratio(null, TOX, damage_flags = DAM_BIO) //Are they protected by hazmat clothing?
 		if (vuln > 0.10 && prob(10))
-			M.reagents.add_reagent(/datum/reagent/zombie, 0.5) //Infect 'em
+			M.reagents.add_reagent(/datum/reagent/toxin/zombie, 0.5) //Infect 'em
 
 	if (H && H.stat != CONSCIOUS)
 		addtimer(CALLBACK(src, .proc/handle_death_infection, H), 1 SECOND)
@@ -224,7 +224,7 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 				var/obj/obstacle = locate(type) in dir
 				if (obstacle)
 					H.face_atom(obstacle)
-					obstacle.attack_generic(H, 10, "smashes")
+					obstacle.attack_hand(H)
 					break
 
 			walk_to(H, target.loc, 1, H.move_intent.move_delay * 1.25)
@@ -243,10 +243,8 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 				if (H.Adjacent(target)) //Check we're still next to them
 					H.consume()
 
-		for(var/mob/living/M in hearers(H, 15))
-			if (target == M) //If our target is still nearby
-				return
-		target = null //Target lost
+		if(get_dist(H, target) > 30) //If target is no longer nearby
+			target = null //Target lost
 
 	else
 		if (!H.lying)
@@ -294,10 +292,10 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 	if (vuln > 0.05)
 		if (prob(vuln * 100)) //Protective infection chance
 			if (prob(min(100 - target.get_blocked_ratio(zone, BRUTE) * 100, 70))) //General infection chance
-				target.reagents.add_reagent(/datum/reagent/zombie, 1) //Infect 'em
+				target.reagents.add_reagent(/datum/reagent/toxin/zombie, 1) //Infect 'em
 
 
-/datum/reagent/zombie
+/datum/reagent/toxin/zombie
 	name = "Liquid Corruption"
 	description = "A filthy, oily substance which slowly churns of its own accord."
 	taste_description = "decaying blood"
@@ -308,9 +306,11 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 	hidden_from_codex = TRUE
 	heating_products = null
 	heating_point = null
+	filterable = TRUE
 	should_admin_log = TRUE
+	strength = 3
 
-/datum/reagent/zombie/affect_blood(mob/living/carbon/M, alien, removed)
+/datum/reagent/toxin/zombie/affect_blood(mob/living/carbon/M, alien, removed)
 	if (!ishuman(M))
 		return
 	var/mob/living/carbon/human/H = M
@@ -338,27 +338,38 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 		M.hallucination(50, min(true_dose / 2, 50))
 		if (M.getBrainLoss() < 75)
 			M.adjustBrainLoss(rand(1, 2))
-		if (prob(0.5))
+		if (prob(1))
 			H.seizure()
 			H.adjustBrainLoss(rand(12, 24))
 		if (prob(5))
 			to_chat(M, SPAN_DANGER("<font style='font-size:[rand(2,3)]'>[pick(GLOB.zombie_messages["stage2"])]</font>"))
-		M.bodytemperature += 9
+		M.bodytemperature += 7.5
+		..()
 
 	if (true_dose >= 110)
-		M.adjustHalLoss(5)
+		M.adjustHalLoss(8)
 		M.make_dizzy(10)
 		if (prob(8))
 			to_chat(M, SPAN_DANGER("<font style='font-size:[rand(3,4)]'>[pick(GLOB.zombie_messages["stage3"])]</font>"))
+		M.bodytemperature += 9
 
 	if (true_dose >= 135)
 		if (prob(3))
 			H.zombify()
 
-	M.reagents.add_reagent(/datum/reagent/zombie, RAND_F(0.5, 1.5))
+	M.reagents.add_reagent(/datum/reagent/toxin/zombie, RAND_F(0.2, 0.8))
 
-/datum/reagent/zombie/affect_touch(mob/living/carbon/M, alien, removed)
+/datum/reagent/toxin/zombie/affect_touch(mob/living/carbon/M, alien, removed)
 	affect_blood(M, alien, removed * 0.5)
+
+/datum/chemical_reaction/zombie
+	name = "Liquid Corruption"
+	result = /datum/reagent/toxin/zombie
+	required_reagents = list(/datum/reagent/mutagen = 5, /datum/reagent/aslimetoxin = 1, /datum/reagent/three_eye = 1, /datum/reagent/toxin/bromide = 1)
+	result_amount = 5
+	minimum_temperature = 90 CELSIUS
+	maximum_temperature = 99 CELSIUS
+	mix_message = "The solution boils to produce a foul, crimson fluid. It appears to churn on its own accord."
 
 
 //// Zombie Procs
@@ -391,7 +402,7 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 		return
 
 	rejuvenate()
-	ChangeToHusk()
+	ChangeToHusk(FALSE)
 	visible_message(SPAN_DANGER("\The [src]'s skin decays before your very eyes!"), SPAN_DANGER("Your entire body is ripe with pain as it is consumed down to flesh and bones. You ... hunger. Not only for flesh, but to spread this gift. Use Abilities -> Consume to infect and feed upon your prey."))
 	log_admin("[key_name(src)] has transformed into a zombie!")
 
@@ -414,10 +425,10 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 
 	if (skillset && skillset.skill_list)
 		skillset.skill_list = list()
-		for(var/decl/hierarchy/skill/S in GLOB.skills) //Only want trained CQC and athletics
+		for(var/decl/hierarchy/skill/S in GLOB.skills) //Only want exp. CQC and trained athletics
 			skillset.skill_list[S.type] = SKILL_NONE
 		skillset.skill_list[SKILL_HAULING] = SKILL_ADEPT
-		skillset.skill_list[SKILL_COMBAT] = SKILL_ADEPT
+		skillset.skill_list[SKILL_COMBAT] = SKILL_EXPERT
 		skillset.on_levels_change()
 
 	species = all_species[SPECIES_ZOMBIE]
@@ -480,7 +491,7 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 		if (!target.lying && target.stat != DEAD) //Check victims are still prone
 			return
 
-		target.reagents.add_reagent(/datum/reagent/zombie, 35) //Just in case they haven't been infected already
+		target.reagents.add_reagent(/datum/reagent/toxin/zombie, 35) //Just in case they haven't been infected already
 		if (target.getBruteLoss() > target.maxHealth * 1.5)
 			if (target.stat != DEAD)
 				to_chat(src,SPAN_WARNING("You've scraped \the [target] down to the bones already!."))
@@ -526,7 +537,7 @@ GLOBAL_LIST_INIT(zombie_species, list(\
 
 /obj/item/weapon/reagent_containers/syringe/zombie/Initialize()
 	..()
-	reagents.add_reagent(/datum/reagent/zombie, 15)
+	reagents.add_reagent(/datum/reagent/toxin/zombie, 15)
 	mode = SYRINGE_INJECT
 	update_icon()
 

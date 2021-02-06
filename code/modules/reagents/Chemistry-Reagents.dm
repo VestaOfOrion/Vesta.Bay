@@ -26,6 +26,7 @@
 	var/alpha = 255
 	var/flags = 0
 	var/hidden_from_codex
+	var/filterable = TRUE // Can be filtered out via dialysis
 
 	var/glass_icon = DRINK_ICON_DEFAULT
 	var/glass_name = "something"
