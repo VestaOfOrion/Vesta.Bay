@@ -7,6 +7,7 @@
 	icon = 'icons/obj/device.dmi'
 	icon_state = "paint_sprayer"
 	item_state = "paint_sprayer"
+	matter = list(MATERIAL_STEEL = 2500, MATERIAL_PLASTIC = 1000, MATERIAL_ALUMINIUM = 500)
 	desc = "A slender and none-too-sophisticated device capable of applying paint on floors, walls, exosuits and certain airlocks."
 	var/decal = "Quarter-turf"
 	var/paint_color

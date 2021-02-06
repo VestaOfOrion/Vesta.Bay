@@ -1,48 +1,37 @@
 /*This file is a list of all preclaimed planes & layers
-
 All planes & layers should be given a value here instead of using a magic/arbitrary number.
-
 After fiddling with planes and layers for some time, I figured I may as well provide some documentation:
-
 What are planes?
 	Think of Planes as a sort of layer for a layer - if plane X is a larger number than plane Y, the highest number for a layer in X will be below the lowest
 	number for a layer in Y.
 	Planes also have the added bonus of having planesmasters.
-
 What are Planesmasters?
 	Planesmasters, when in the sight of a player, will have its appearance properties (for example, colour matrices, alpha, transform, etc)
 	applied to all the other objects in the plane. This is all client sided.
 	Usually you would want to add the planesmaster as an invisible image in the client's screen.
-
 What can I do with Planesmasters?
 	You can: Make certain players not see an entire plane,
 	Make an entire plane have a certain colour matrices,
 	Make an entire plane transform in a certain way,
 	Make players see a plane which is hidden to normal players - I intend to implement this with the antag HUDs for example.
 	Planesmasters can be used as a neater way to deal with client images or potentially to do some neat things
-
 How do planes work?
 	A plane can be any integer from -100 to 100. (If you want more, bug lummox.)
 	All planes above 0, the 'base plane', are visible even when your character cannot 'see' them, for example, the HUD.
 	All planes below 0, the 'base plane', are only visible when a character can see them.
-
 How do I add a plane?
 	Think of where you want the plane to appear, look through the pre-existing planes and find where it is above and where it is below
 	Slot it in in that place, and change the pre-existing planes, making sure no plane shares a number.
 	Add a description with a comment as to what the plane does.
-
 How do I make something a planesmaster?
 	Add the PLANE_MASTER appearance flag to the appearance_flags variable.
-
 What is the naming convention for planes or layers?
 	Make sure to use the name of your object before the _LAYER or _PLANE, eg: [NAME_OF_YOUR_OBJECT HERE]_LAYER or [NAME_OF_YOUR_OBJECT HERE]_PLANE
 	Also, as it's a define, it is standard practice to use capital letters for the variable so people know this.
-
 */
 
 /*
 	from stddef.dm, planes & layers built into byond.
-
 	FLOAT_LAYER = -1
 	AREA_LAYER = 1
 	TURF_LAYER = 2
@@ -56,7 +45,6 @@ What is the naming convention for planes or layers?
 	TOPDOWN_LAYER = 10000
 	BACKGROUND_LAYER = 20000
 	------
-
 	FLOAT_PLANE = -32767
 */
 
@@ -98,21 +86,22 @@ What is the naming convention for planes or layers?
 	#define EXPOSED_WIRE_LAYER          2.07
 	#define EXPOSED_WIRE_TERMINAL_LAYER 2.08
 	#define CATWALK_LAYER               2.09
-	#define BLOOD_LAYER                 2.10
-	#define MOUSETRAP_LAYER             2.11
-	#define PLANT_LAYER                 2.12
-	#define AO_LAYER                    2.13
+	#define ABOVE_CATWALK_LAYER         2.10
+	#define BLOOD_LAYER                 2.11
+	#define MOUSETRAP_LAYER             2.12
+	#define PLANT_LAYER                 2.13
+	#define AO_LAYER                    2.14
 	//HIDING MOB
-	#define HIDING_MOB_LAYER            2.14
-	#define SHALLOW_FLUID_LAYER         2.15
-	#define MOB_SHADOW_LAYER            2.16
+	#define HIDING_MOB_LAYER            2.15
+	#define SHALLOW_FLUID_LAYER         2.16
+	#define MOB_SHADOW_LAYER            2.17
 	//OBJ
-	#define BELOW_DOOR_LAYER            2.17
-	#define OPEN_DOOR_LAYER             2.18
-	#define BELOW_TABLE_LAYER           2.19
-	#define TABLE_LAYER                 2.20
-	#define BELOW_OBJ_LAYER             2.21
-	#define STRUCTURE_LAYER             2.22
+	#define BELOW_DOOR_LAYER            2.18
+	#define OPEN_DOOR_LAYER             2.19
+	#define BELOW_TABLE_LAYER           2.20
+	#define TABLE_LAYER                 2.21
+	#define BELOW_OBJ_LAYER             2.22
+	#define STRUCTURE_LAYER             2.23
 	// OBJ_LAYER                        3
 	#define ABOVE_OBJ_LAYER             3.01
 	#define CLOSED_DOOR_LAYER           3.02

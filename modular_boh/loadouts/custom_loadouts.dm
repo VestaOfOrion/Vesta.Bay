@@ -588,3 +588,9 @@ datum/gear/head/ECdepartment/New()
 	path = /obj/item/clothing/under/skrelljumpsuit
 	whitelisted = list(SPECIES_SKRELL)
 	sort_category = "Xenowear"
+
+/datum/gear/mask/breath/gill
+	display_name = "Skrellian gill cover"
+	path = /obj/item/clothing/mask/breath/gill
+	whitelisted = list(SPECIES_SKRELL)
+	sort_category = "Xenowear"

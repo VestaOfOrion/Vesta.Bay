@@ -83,10 +83,10 @@
 			playsound(loc, species.death_sound, 80, 1, 1)
 	handle_hud_list()
 
-/mob/living/carbon/human/proc/ChangeToHusk()
+/mob/living/carbon/human/proc/ChangeToHusk(var/removehair = TRUE)
 	if(MUTATION_HUSK in mutations)	return
 
-	if(species.name in HUMAN_SPECIES) //Only change hair, and not say, tentacles
+	if(removehair && (species.name in HUMAN_SPECIES)) //Only change hair, and not say, tentacles
 		if(f_style)
 			f_style = "Shaved"		//we only change the icon_state of the hair datum, so it doesn't mess up their UI/UE
 		if(h_style)

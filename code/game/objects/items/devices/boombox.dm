@@ -193,3 +193,29 @@
 	name = "boombox spawnpoint"
 	id = "boomtastic"
 	item_path = /obj/item/device/boombox/
+
+/obj/item/device/boombox/radio
+	name = "radio"
+	desc = "An advanced-looking piece of technology, able to tap into distant music radio stations."
+	icon_state = "radio"
+	item_state = "mus_radio"
+
+/obj/item/device/boombox/radio/Initialize()
+	..()
+	icon_state = pick("radio","radio2")
+
+/obj/item/device/boombox/radio/on_update_icon()
+	return
+
+/obj/item/device/boombox/radio/interact(var/mob/user)
+	if(!CanPhysicallyInteract(user))
+		return
+	var/dat = "<A href='?src=\ref[src];tracknum=1;'>NEXT</a>"
+	dat += "<A href='?src=\ref[src];tracknum=-1;'>PREV</a>"
+	dat += "<A href='?src=\ref[src];start=1;'>PLAY</a>"
+	dat += "<A href='?src=\ref[src];stop=1;'>STOP</a>"
+	dat += "<A href='?src=\ref[src];voldown=1;'>VOL -</a>"
+	dat += "<A href='?src=\ref[src];volup=1;'>VOL +</a>"
+	var/datum/browser/popup = new(user, "boombox", "Nano FM", 290, 110)
+	popup.set_content(dat)
+	popup.open()

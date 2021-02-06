@@ -974,6 +974,7 @@
 	dir = 4;
 	icon_state = "bulb1"
 	},
+/obj/effect/decal/cleanable/filth,
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/fore)
 "cx" = (
@@ -2374,15 +2375,6 @@
 /obj/item/weapon/bikehorn/rubberducky,
 /turf/simulated/floor/tiled/techmaint/vox,
 /area/voxship/fore)
-"fi" = (
-/obj/effect/floor_decal/corner_steel_grid/diagonal,
-/turf/simulated/floor/tiled/techmaint/vox,
-/area/voxship/fore)
-"fj" = (
-/obj/effect/floor_decal/corner_steel_grid/diagonal,
-/obj/effect/decal/cleanable/filth,
-/turf/simulated/floor/tiled/techmaint/vox,
-/area/voxship/fore)
 "fk" = (
 /obj/machinery/body_scanconsole{
 	dir = 1;
@@ -2825,6 +2817,15 @@
 /obj/machinery/atmospherics/pipe/vent/high_volume,
 /turf/simulated/floor/airless,
 /area/voxship/engineering)
+"gr" = (
+/obj/machinery/computer/cryopod{
+	pixel_x = -32
+	},
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint/vox,
+/area/voxship/fore)
 "gs" = (
 /obj/random/loot,
 /turf/simulated/floor/airless,
@@ -6894,8 +6895,8 @@ dr
 dQ
 em
 eO
-fi
-at
+bK
+gr
 at
 fX
 fX
@@ -6996,8 +6997,8 @@ ar
 dR
 en
 eP
-fj
 fx
+ar
 at
 at
 fX
