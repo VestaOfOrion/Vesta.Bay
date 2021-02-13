@@ -64,13 +64,13 @@
 
 /obj/item/clothing/gloves/thick/duty/solgov/sec
 	name = "security duty gloves"
-	desc = "These black duty gloves are made from durable synthetic materials, and have a lovely red accent color."
+	desc = "These black duty gloves are made from durable synthetic materials, and have a lovely pale blue accent color."
 	icon_state = "duty_gloves_sec"
 	item_state = "duty_gloves_sec"
 
 /obj/item/clothing/gloves/thick/duty/solgov/fingerless/sec
 	name = "fingerless security duty gloves"
-	desc = "These black duty gloves are made from durable synthetic materials, and have a lovely red accent color. This pair does not, in fact, protect your fingers."
+	desc = "These black duty gloves are made from durable synthetic materials, and have a lovely pale blue accent color. This pair does not, in fact, protect your fingers."
 	icon_state = "duty_gloves_sec_fingerless"
 	item_state = "duty_gloves_sec_fingerless"
 
