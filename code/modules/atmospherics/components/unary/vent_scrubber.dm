@@ -179,8 +179,6 @@
 		var/turf/T = get_turf(src)
 		if (node && node.level==1 && isturf(T) && !T.is_plating())
 			return SPAN_WARNING("You must remove the plating first.")
-		var/datum/gas_mixture/int_air = return_air()
-		var/datum/gas_mixture/env_air = loc.return_air()
 	return ..()
 
 /obj/machinery/atmospherics/unary/vent_scrubber/attackby(var/obj/item/weapon/W as obj, var/mob/user as mob)

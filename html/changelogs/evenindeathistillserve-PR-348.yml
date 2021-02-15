@@ -1,0 +1,5 @@
+author: EvenInDeathIStillServe
+
+delete-after: True
+changes: 
+  - tweak: "Unwrenching atmos devices is possible in high pressure, but takes longer."
