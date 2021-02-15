@@ -45,7 +45,7 @@ Thus, the two variables affect pump operation are set in New():
 	)
 	public_methods = list(
 		/decl/public_access/public_method/toggle_power,
-		/decl/public_access/public_method/refresh	
+		/decl/public_access/public_method/refresh
 	)
 	stock_part_presets = list(
 		/decl/stock_part_preset/radio/receiver/pump = 1,
@@ -176,10 +176,6 @@ Thus, the two variables affect pump operation are set in New():
 	if(state_path == /decl/machine_construction/default/deconstructed)
 		if (!(stat & NOPOWER) && use_power)
 			return SPAN_WARNING("You cannot take this [src] apart, turn it off first.")
-		var/datum/gas_mixture/int_air = return_air()
-		var/datum/gas_mixture/env_air = loc.return_air()
-		if ((int_air.return_pressure()-env_air.return_pressure()) > 2*ONE_ATMOSPHERE)
-			return SPAN_WARNING("You cannot take this [src] apart, it too exerted due to internal pressure.")
 	return ..()
 
 /decl/public_access/public_variable/pump_target_output
