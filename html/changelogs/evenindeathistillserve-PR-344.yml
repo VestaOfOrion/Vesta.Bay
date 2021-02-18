@@ -1,0 +1,6 @@
+author: EvenInDeathIStillServe
+
+delete-after: True
+
+changes: 
+  - tweak: "Removed delay on drawing items hidden in boots."
