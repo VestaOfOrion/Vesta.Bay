@@ -9,7 +9,7 @@
 	dir = SOUTH
 	initialize_directions = SOUTH|NORTH
 	layer = ABOVE_CATWALK_LAYER
-	
+
 	var/open = 0
 	var/openDuringInit = 0
 
@@ -214,13 +214,13 @@
 		return ..()
 	var/datum/gas_mixture/int_air = return_air()
 	var/datum/gas_mixture/env_air = loc.return_air()
+	var/wrench_time = 40
 	if ((int_air.return_pressure()-env_air.return_pressure()) > 2*ONE_ATMOSPHERE)
-		to_chat(user, "<span class='warning'>You cannot unwrench \the [src], it is too exerted due to internal pressure.</span>")
-		add_fingerprint(user)
-		return 1
+		to_chat(user, "<span class='warning'>\The [src] seems highly pressurized!</span>")
+		wrench_time = 80
 	playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
 	to_chat(user, "<span class='notice'>You begin to unfasten \the [src]...</span>")
-	if (do_after(user, 40, src))
+	if (do_after(user, wrench_time, src))
 		user.visible_message( \
 			"<span class='notice'>\The [user] unfastens \the [src].</span>", \
 			"<span class='notice'>You have unfastened \the [src].</span>", \
