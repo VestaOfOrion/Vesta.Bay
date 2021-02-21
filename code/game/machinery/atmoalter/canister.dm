@@ -15,7 +15,7 @@
 	var/canister_color = "yellow"
 	var/can_label = 1
 	start_pressure = 45 * ONE_ATMOSPHERE
-	var/temperature_resistance = 1000 + T0C
+	var/temperature_resistance = 500 + T0C
 	volume = 1000
 	interact_offline = 1 // Allows this to be used when not in powered area.
 	var/update_flag = 0
@@ -173,6 +173,8 @@ update_flag
 	return
 
 /obj/machinery/portable_atmospherics/canister/fire_act(datum/gas_mixture/air, exposed_temperature, exposed_volume)
+	if(prob(20))
+		health -= 20 //Damage from direct fire
 	if(exposed_temperature > temperature_resistance)
 		health -= 5
 		healthcheck()

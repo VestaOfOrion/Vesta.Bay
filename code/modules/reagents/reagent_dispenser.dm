@@ -245,7 +245,7 @@
 /obj/structure/reagent_dispensers/fueltank/fire_act(datum/gas_mixture/air, exposed_temperature, exposed_volume)
 	if (modded)
 		explode()
-	else if (exposed_temperature > T0C+500)
+	else if (prob(20)) //Chance of raw fire igniting volatile fuel should be independent of ambient temperature
 		explode()
 	return ..()
 

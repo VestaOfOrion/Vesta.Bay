@@ -73,6 +73,9 @@
 	else
 		update_icon()
 
+/obj/effect/blob/fire_act(datum/gas_mixture/air, exposed_temperature, exposed_volume)
+	take_damage(rand(40,80))
+
 /obj/effect/blob/proc/regen()
 	health = min(health + regen_rate, maxHealth)
 	update_icon()
