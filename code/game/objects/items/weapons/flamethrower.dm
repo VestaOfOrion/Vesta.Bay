@@ -195,8 +195,8 @@
 	target.assume_air(air_transfer)
 	//Burn it based on transfered gas
 	//target.hotspot_expose(part4.air_contents.temperature*2,300)
-	target.hotspot_expose((tank.air_contents.temperature*2) + 380,500) // -- More of my "how do I shot fire?" dickery. -- TLE
-	//location.hotspot_expose(1000,500,1)
+	//target.hotspot_expose((tank.air_contents.temperature*2) + 380,500) // -- More of my "how do I shot fire?" dickery. -- TLE
+	target.hotspot_expose(8000,1000,1)
 
 /obj/item/weapon/flamethrower/full/New(var/loc)
 	..()
