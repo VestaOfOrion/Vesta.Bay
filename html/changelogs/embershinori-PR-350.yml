@@ -1,6 +1,0 @@
-author: EmberShinori
-
-delete-after: True
-
-changes: 
-  - bugfix: "Fixes fsnap, fsnap2, and fsnap3 not working."
