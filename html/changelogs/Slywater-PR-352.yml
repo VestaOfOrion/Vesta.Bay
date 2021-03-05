@@ -34,6 +34,6 @@ delete-after: True
 # Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - Tweak: "Hematite can now be mined in planetary surface deposits."
+  - tweak: "Hematite can now be mined in planetary surface deposits."
   - rscadd: "Added condiments to bearcat and colonies."
   - bugfix: "Added scanner consoles to colony body scanners."
