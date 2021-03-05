@@ -1,6 +1,33 @@
 /datum/fabricator_recipe/bucket
 	path = /obj/item/weapon/reagent_containers/glass/bucket
 
+/datum/fabricator_recipe/drinkingglass
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/square
+
+/datum/fabricator_recipe/drinkingglass/rocks
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/rocks
+
+/datum/fabricator_recipe/drinkingglass/shake
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/shake
+
+/datum/fabricator_recipe/drinkingglass/cocktail
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/cocktail
+
+/datum/fabricator_recipe/drinkingglass/shot
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/shot
+
+/datum/fabricator_recipe/drinkingglass/pint
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/pint
+
+/datum/fabricator_recipe/drinkingglass/mug
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/mug
+
+/datum/fabricator_recipe/drinkingglass/wine
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/wine
+
+/datum/fabricator_recipe/drinkingglass/wine
+	path = /obj/item/weapon/reagent_containers/food/drinks/glass2/carafe
+
 /datum/fabricator_recipe/flashlight
 	path = /obj/item/device/flashlight
 
@@ -13,7 +40,7 @@
 /datum/fabricator_recipe/extinguisher
 	path = /obj/item/weapon/extinguisher/empty
 
-/datum/fabricator_recipe/extinguisher/mini
+/datum/fabricator_recipe/extinguisher_mini
 	path = /obj/item/weapon/extinguisher/mini/empty
 
 /datum/fabricator_recipe/jar
@@ -39,6 +66,9 @@
 
 /datum/fabricator_recipe/tape
 	path = /obj/item/device/tape
+
+/datum/fabricator_recipe/duct_tape
+	path = /obj/item/weapon/tape_roll
 
 /datum/fabricator_recipe/tube/large
 	path = /obj/item/weapon/light/tube/large
@@ -95,6 +125,3 @@
 
 /datum/fabricator_recipe/plunger
 	path = /obj/item/clothing/mask/plunger
-
-/datum/fabricator_recipe/toolbox
-	path = /obj/item/weapon/storage/toolbox
