@@ -40,6 +40,37 @@
 	},
 /turf/simulated/floor,
 /area/ship/scrap/command/bridge)
+"ae" = (
+/obj/structure/table/standard,
+/obj/effect/floor_decal/corner/red/diagonal,
+/obj/item/weapon/reagent_containers/glass/beaker{
+	pixel_x = 5
+	},
+/obj/item/weapon/book/manual/chef_recipes,
+/obj/item/weapon/reagent_containers/food/condiment/small/peppermill{
+	pixel_x = 3
+	},
+/obj/item/weapon/reagent_containers/food/condiment/enzyme,
+/obj/item/weapon/reagent_containers/glass/rag,
+/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker,
+/obj/item/weapon/reagent_containers/food/condiment/small/sugar,
+/turf/simulated/floor/tiled,
+/area/ship/scrap/crew/kitchen)
+"af" = (
+/obj/structure/closet/medical_wall{
+	name = "pill cabinet";
+	pixel_x = 26
+	},
+/obj/item/weapon/storage/pill_bottle/antidexafen,
+/obj/item/weapon/storage/pill_bottle/tramadol,
+/obj/item/weapon/storage/pill_bottle/antitox,
+/obj/item/weapon/storage/pill_bottle/kelotane,
+/obj/machinery/body_scanconsole{
+	dir = 1
+	},
+/obj/structure/iv_drip,
+/turf/simulated/floor/tiled/white,
+/area/ship/scrap/crew/medbay)
 "ag" = (
 /obj/machinery/computer/modular/preset/cardslot/command,
 /turf/simulated/floor/bluegrid/airless,
@@ -2074,20 +2105,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor,
 /area/ship/scrap/crew/kitchen)
-"dT" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/red/diagonal,
-/obj/item/weapon/reagent_containers/glass/beaker{
-	pixel_x = 5
-	},
-/obj/item/weapon/book/manual/chef_recipes,
-/obj/item/weapon/reagent_containers/food/condiment/small/peppermill{
-	pixel_x = 3
-	},
-/obj/item/weapon/reagent_containers/food/condiment/enzyme,
-/obj/item/weapon/reagent_containers/glass/rag,
-/turf/simulated/floor/tiled,
-/area/ship/scrap/crew/kitchen)
 "dU" = (
 /obj/item/weapon/stool/padded,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2215,18 +2232,6 @@
 	dir = 2;
 	level = 2
 	},
-/turf/simulated/floor/tiled/white,
-/area/ship/scrap/crew/medbay)
-"eg" = (
-/obj/structure/iv_drip,
-/obj/structure/closet/medical_wall{
-	name = "pill cabinet";
-	pixel_x = 26
-	},
-/obj/item/weapon/storage/pill_bottle/antidexafen,
-/obj/item/weapon/storage/pill_bottle/tramadol,
-/obj/item/weapon/storage/pill_bottle/antitox,
-/obj/item/weapon/storage/pill_bottle/kelotane,
 /turf/simulated/floor/tiled/white,
 /area/ship/scrap/crew/medbay)
 "eh" = (
@@ -12765,7 +12770,7 @@ cR
 di
 dw
 dE
-dT
+ae
 ej
 eE
 eY
@@ -14717,7 +14722,7 @@ dg
 oa
 dB
 dQ
-eg
+af
 ey
 eQ
 dB

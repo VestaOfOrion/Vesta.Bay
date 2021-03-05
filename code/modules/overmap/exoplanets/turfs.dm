@@ -150,6 +150,7 @@
 			color = E.grass_color
 	if(!resources)
 		resources = list()
+		resources[MATERIAL_HEMATITE] = 2
 	if(prob(70))
 		resources[MATERIAL_GRAPHITE] = rand(3,5)
 	if(prob(5))
