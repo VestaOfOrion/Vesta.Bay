@@ -451,9 +451,28 @@
 		M.visible_message("<span class='notice'>[user] decided life was worth living</span>")
 		mouthshoot = 0
 		return
+
+	if(!waterproof && submerged())
+		user.show_message("<span class = 'warning'>The weapon is not waterproof!</span>")
+		mouthshoot = 0
+		return
+	
+	if(!special_check(user))
+		mouthshoot = 0
+		return		
+		
+	if(safety())
+		if(user.a_intent == I_HURT && !user.skill_fail_prob(SKILL_WEAPONS, 100, SKILL_EXPERT, 0.5)) //reflex un-safeying
+			toggle_safety(user)
+		else
+			handle_click_safety(user)
+			mouthshoot = 0
+			return	
+		
 	var/obj/item/projectile/in_chamber = consume_next_projectile()
 	if (istype(in_chamber))
 		user.visible_message("<span class = 'warning'>[user] pulls the trigger.</span>")
+	
 		var/shot_sound = in_chamber.fire_sound? in_chamber.fire_sound : fire_sound
 		if(silenced)
 			playsound(user, shot_sound, 10, 1)
