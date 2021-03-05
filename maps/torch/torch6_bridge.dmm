@@ -15449,7 +15449,7 @@
 "Mc" = (
 /obj/machinery/door/airlock/glass/command{
 	id_tag = null;
-	name = "Aquila Dock";
+	name = "Byahkee Dock";
 	secured_wires = 1
 	},
 /obj/machinery/door/firedoor,
