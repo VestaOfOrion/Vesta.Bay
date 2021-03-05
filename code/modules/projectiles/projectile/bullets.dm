@@ -172,6 +172,14 @@
 	armor_penetration = 0
 	distance_falloff = 3
 
+//Skrell version of slug
+/obj/item/projectile/bullet/shotgun/flechette
+	name = "flechette"
+	fire_sound = 'sound/weapons/gunshot/new_shotgun.ogg'
+	damage = 60
+	armor_penetration = 80
+	distance_falloff = 1
+
 //Should do about 80 damage at 1 tile distance (adjacent), and 50 damage at 3 tiles distance.
 //Overall less damage than slugs in exchange for more damage at very close range and more embedding
 /obj/item/projectile/bullet/pellet/shotgun
@@ -181,6 +189,16 @@
 	pellets = 6
 	range_step = 1
 	spread_step = 10
+
+/obj/item/projectile/bullet/pellet/birdshot
+	name = "rubbershot"
+	fire_sound = 'sound/weapons/gunshot/gunshot_4mm.ogg'
+	damage = 2
+	pellets = 10
+	range_step = 1
+	spread_step = 10
+	agony = 8.5
+	embed = 0
 
 /* "Rifle" rounds */
 

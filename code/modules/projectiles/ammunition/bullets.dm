@@ -100,6 +100,24 @@
 	projectile_type = /obj/item/projectile/bullet/shotgun/beanbag
 	matter = list(MATERIAL_STEEL = 180)
 
+/obj/item/ammo_casing/shotgun/flechette
+	name = "flechette shell"
+	desc = "A skrellian flechette shell, this thing is huge"
+	icon_state = "fshell"
+	spent_icon = "fshell-spent"
+	caliber = CALIBER_SHOTGUN_BIG
+	projectile_type = /obj/item/projectile/bullet/shotgun/flechette
+	matter = list(MATERIAL_STEEL = 360)
+
+/obj/item/ammo_casing/shotgun/birdshot
+	name = "rubbershot shell"
+	desc = "A rubbershot shell."
+	icon = 'modular_boh/icon/boh/ammo.dmi'
+	icon_state = "bdshell"
+	spent_icon = "bdshell-spent"
+	projectile_type = /obj/item/projectile/bullet/pellet/birdshot
+	matter = list(MATERIAL_STEEL = 80)
+
 //Can stun in one hit if aimed at the head, but
 //is blocked by clothing that stops tasers and is vulnerable to EMP
 /obj/item/ammo_casing/shotgun/stunshell

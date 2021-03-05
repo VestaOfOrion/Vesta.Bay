@@ -77,3 +77,5 @@
 	..(newloc, MATERIAL_BAUXITE)
 /obj/item/weapon/ore/rutile/New(var/newloc)
 	..(newloc, MATERIAL_RUTILE)
+/obj/item/weapon/ore/hematite/New(var/newloc)
+	..(newloc, MATERIAL_HEMATITE)

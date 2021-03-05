@@ -91,10 +91,30 @@
 	matter = list(MATERIAL_STEEL = 1440, MATERIAL_GLASS = 2880)
 	marking_color = COLOR_MUZZLE_FLASH
 
+/obj/item/ammo_magazine/shotholder/flecchete
+	name = "flechette shell holder"
+	caliber = CALIBER_SHOTGUN_BIG
+	ammo_type = /obj/item/ammo_casing/shotgun/flechette
+	matter = list(MATERIAL_STEEL = 1700, MATERIAL_GLASS = 2900)
+	marking_color = COLOR_PURPLE
+
+/obj/item/ammo_magazine/shotholder/sabot
+	name = "sabot shell holder"
+	caliber = CALIBER_SABOT
+	ammo_type = /obj/item/ammo_casing/sabot
+	matter = list(MATERIAL_STEEL = 1240)
+	marking_color = COLOR_GUNMETAL
+
 /obj/item/ammo_magazine/shotholder/empty
 	name = "shotgun ammunition holder"
 	matter = list(MATERIAL_STEEL = 250)
 	initial_ammo = 0
+
+/obj/item/ammo_magazine/shotholder/birdshot
+	name = "rubbershot shell holder"
+	ammo_type = /obj/item/ammo_casing/shotgun/birdshot
+	matter = list(MATERIAL_STEEL = 620)
+	marking_color = COLOR_PALE_YELLOW
 
 /obj/item/ammo_magazine/machine_pistol
 	name = "stick magazine"
