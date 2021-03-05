@@ -1013,6 +1013,24 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/map_template/colony/medbay)
+"cd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 6
+	},
+/obj/machinery/body_scanconsole,
+/turf/simulated/floor/tiled/white,
+/area/map_template/colony/medbay)
 "ce" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging,
 /obj/machinery/atmospherics/unary/outlet_injector{
@@ -2256,22 +2274,39 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/colony/atmospherics)
 "ez" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/floor_decal/corner/red{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/colony/medbay)
+/obj/structure/closet/crate/freezer,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/item/weapon/storage/lunchbox/syndicate/filled,
+/obj/item/weapon/storage/lunchbox/cat/filled,
+/obj/item/weapon/storage/lunchbox/nt/filled,
+/obj/item/weapon/storage/lunchbox/nymph/filled,
+/obj/item/pizzabox/meat,
+/obj/item/pizzabox/margherita,
+/obj/item/pizzabox/mushroom,
+/obj/item/pizzabox/vegetable,
+/obj/item/weapon/storage/box/cola/spaceup,
+/obj/item/weapon/storage/box/cola/spacewind,
+/obj/item/weapon/storage/box/cola/icedtea,
+/obj/item/weapon/storage/box/cola/drgibb,
+/obj/item/weapon/reagent_containers/food/drinks/shaker,
+/obj/item/weapon/reagent_containers/food/drinks/pitcher,
+/obj/item/weapon/reagent_containers/glass/beaker/bowl,
+/obj/item/weapon/reagent_containers/food/condiment/salt,
+/obj/item/weapon/reagent_containers/food/condiment/enzyme,
+/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker,
+/obj/item/weapon/reagent_containers/food/condiment/small/sugar,
+/obj/item/weapon/reagent_containers/food/condiment/small/peppermill,
+/turf/simulated/floor/tiled/freezer,
+/area/map_template/colony/messhall)
 "eA" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
@@ -3333,37 +3368,6 @@
 	},
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/lino,
-/area/map_template/colony/messhall)
-"ge" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/obj/structure/closet/crate/freezer,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/item/weapon/storage/lunchbox/syndicate/filled,
-/obj/item/weapon/storage/lunchbox/cat/filled,
-/obj/item/weapon/storage/lunchbox/nt/filled,
-/obj/item/weapon/storage/lunchbox/nymph/filled,
-/obj/item/pizzabox/meat,
-/obj/item/pizzabox/margherita,
-/obj/item/pizzabox/mushroom,
-/obj/item/pizzabox/vegetable,
-/obj/item/weapon/storage/box/cola/spaceup,
-/obj/item/weapon/storage/box/cola/spacewind,
-/obj/item/weapon/storage/box/cola/icedtea,
-/obj/item/weapon/storage/box/cola/drgibb,
-/obj/item/weapon/reagent_containers/food/drinks/shaker,
-/obj/item/weapon/reagent_containers/food/drinks/pitcher,
-/obj/item/weapon/reagent_containers/glass/beaker/bowl,
-/obj/item/weapon/reagent_containers/food/condiment/salt,
-/obj/item/weapon/reagent_containers/food/condiment/enzyme,
-/turf/simulated/floor/tiled/freezer,
 /area/map_template/colony/messhall)
 "gf" = (
 /obj/effect/floor_decal/techfloor{
@@ -10196,7 +10200,7 @@ gb
 gI
 hx
 aI
-ge
+ez
 dk
 aI
 iR
@@ -10311,7 +10315,7 @@ dn
 eZ
 au
 dW
-ez
+cd
 ea
 aB
 fu

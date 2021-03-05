@@ -31,6 +31,7 @@
 		MATERIAL_OSMIUM =   /obj/item/weapon/ore/osmium,
 		MATERIAL_HYDROGEN = /obj/item/weapon/ore/hydrogen,
 		MATERIAL_SAND =     /obj/item/weapon/ore/glass,
+		MATERIAL_HEMATITE = /obj/item/weapon/ore/hematite,
 		MATERIAL_GRAPHITE = /obj/item/weapon/ore/coal,
 		MATERIAL_ALUMINIUM = /obj/item/weapon/ore/aluminium,
 		MATERIAL_RUTILE = /obj/item/weapon/ore/rutile

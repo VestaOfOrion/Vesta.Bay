@@ -15,6 +15,37 @@
 /obj/effect/catwalk_plated/dark,
 /turf/simulated/floor/plating,
 /area/map_template/colony2/engineering)
+"ac" = (
+/obj/item/device/radio/intercom/map_preset/playablecolony2{
+	pixel_y = 21
+	},
+/obj/machinery/bodyscanner,
+/turf/simulated/floor/tiled/white,
+/area/map_template/colony2/ship)
+"ad" = (
+/obj/structure/table/steel_reinforced,
+/obj/item/weapon/storage/firstaid/adv,
+/obj/item/weapon/storage/box/gloves,
+/obj/item/clothing/accessory/stethoscope,
+/obj/item/weapon/storage/firstaid/surgery,
+/turf/simulated/floor/tiled/white,
+/area/map_template/colony2/ship)
+"ae" = (
+/obj/machinery/body_scanconsole{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white,
+/area/map_template/colony2/ship)
+"af" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/item/weapon/storage/box/snack/tastybread,
+/obj/item/weapon/storage/box/glasses,
+/obj/effect/floor_decal/corner/paleblue/mono,
+/obj/item/weapon/reagent_containers/food/condiment/small/peppermill,
+/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker,
+/obj/item/weapon/reagent_containers/food/condiment/small/sugar,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/map_template/colony2/commons)
 "an" = (
 /obj/machinery/light/spot{
 	dir = 1
@@ -109,13 +140,6 @@
 /obj/machinery/recharge_station,
 /turf/simulated/floor/tiled/techmaint,
 /area/map_template/colony2/ship)
-"cq" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
-/obj/item/weapon/storage/box/snack/tastybread,
-/obj/item/weapon/storage/box/glasses,
-/obj/effect/floor_decal/corner/paleblue/mono,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/map_template/colony2/commons)
 "cr" = (
 /obj/effect/paint/ocean,
 /turf/simulated/wall/r_wall,
@@ -469,21 +493,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/colony2/ship)
-"gr" = (
-/obj/structure/table/steel_reinforced,
-/obj/item/weapon/storage/firstaid/surgery,
-/obj/item/clothing/accessory/stethoscope,
-/obj/item/device/radio/intercom/map_preset/playablecolony2{
-	pixel_y = 21
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/colony2/ship)
-"gw" = (
-/obj/structure/table/steel_reinforced,
-/obj/item/weapon/storage/firstaid/adv,
-/obj/item/weapon/storage/box/gloves,
 /turf/simulated/floor/tiled/white,
 /area/map_template/colony2/ship)
 "gD" = (
@@ -1486,9 +1495,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techmaint,
 /area/map_template/colony2/commons)
-"CQ" = (
-/turf/simulated/floor/tiled/white,
-/area/map_template/colony2/ship)
 "Dd" = (
 /obj/machinery/light{
 	dir = 8
@@ -3480,8 +3486,8 @@ Ls
 Og
 Og
 PU
-gr
-CQ
+ac
+ae
 UN
 eJ
 Vv
@@ -3523,14 +3529,14 @@ Ls
 Og
 Og
 PU
-gw
+ad
 EN
 UN
 gj
 FI
 Bc
 MN
-cq
+af
 fT
 Nf
 ob
