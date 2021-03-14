@@ -1,0 +1,6 @@
+author: EvenInDeathIStillServe
+
+delete-after: True
+changes: 
+  - rscadd: "RIG Gauntlets now cover whatever's in your hand slot when deployed."
+  - tweak: "Changed sec duty gloves' description to reflect their obvious blueness."
