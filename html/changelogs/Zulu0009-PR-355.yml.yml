@@ -34,6 +34,6 @@ delete-after: True
 # Also, all entries are changed into a single [] after a master changelog generation. Just remove the brackets when you add new entries.
 # Please surround your changes in  double quotes ("), as certain characters otherwise screws up compiling. The quotes will not show up in the changelog.
 changes: 
-  - maptweak: "Several map changes: expanded kitchen, reworked bar, new brig, added ore box to Vox ship, added an inlet to the Gaunt's disposal, changed the hydroponics layout and other small changes here and there."
-  - rscadd: "Added a holster belt (hopefully) to the PADV locker, added a smart service revolver to the FT locker for extra cool factor, added plungers around the ship and others."
+  - maptweak: "Several map changes: expanded kitchen, reworked bar, added ore box to Vox ship, added an inlet to the Gaunt's disposal, changed the hydroponics layout and other small changes here and there."
+  - rscadd: "Added a holster belt (hopefully) to the PADV locker, added a smart service revolver to the FT locker for extra cool factor."
   - spellcheck: "Fixed Byahkee to Byakhee as it should be."
