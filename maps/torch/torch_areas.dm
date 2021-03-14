@@ -1532,7 +1532,7 @@ area/assembly/robotics/office
 
 // Shuttles
 /area/shuttle/administration/centcom
-	name = "\improper Administration Shuttle"
+	name = "\improper Response Team Shuttle Beta"
 	icon_state = "shuttlered"
 	req_access = list(access_cent_general)
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
