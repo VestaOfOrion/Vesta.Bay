@@ -83,7 +83,7 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/map_template/rescue_base/brig
-	name = "\improper Response Team Brig"
+	name = "\improper Response Team Crew Brig"
 	icon_state = "brig"
 	requires_power = 0
 	dynamic_lighting = 1
@@ -94,7 +94,7 @@
 	icon_state = "yellow"
 
 /area/map_template/rescue_base/start
-	name = "\improper Response Team Shuttle Alpha"
+	name = "\improper Response Team Shuttle"
 	icon_state = "shuttlered"
 	base_turf = /turf/unsimulated/floor/rescue_base
 
