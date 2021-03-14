@@ -94,7 +94,7 @@
 	icon_state = "yellow"
 
 /area/map_template/rescue_base/start
-	name = "\improper Response Team Shuttle"
+	name = "\improper Response Team Shuttle Alpha"
 	icon_state = "shuttlered"
 	base_turf = /turf/unsimulated/floor/rescue_base
 
