@@ -2,15 +2,15 @@
 "af" = (
 /obj/machinery/door/window/brigdoor/westleft,
 /obj/machinery/door/window/brigdoor/eastright,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/map_template/rescue_base/brig)
 "aj" = (
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/medical)
 "am" = (
-/obj/structure/sign/solgov,
-/turf/simulated/wall/r_wall,
-/area/map_template/rescue_base/engineering)
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/base)
 "ao" = (
 /obj/structure/table/rack,
 /obj/item/clothing/suit/armor/bulletproof,
@@ -96,10 +96,7 @@
 /area/map_template/rescue_base/armory)
 "aI" = (
 /obj/effect/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/engineering)
 "aK" = (
 /obj/structure/mopbucket,
@@ -133,6 +130,10 @@
 /obj/structure/table/reinforced,
 /obj/machinery/chemical_dispenser/bar_alc/full,
 /obj/effect/floor_decal/corner/blue/diagonal,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/crew_quarters)
 "aO" = (
@@ -170,6 +171,10 @@
 /obj/item/weapon/stock_parts/circuitboard/aiupload{
 	pixel_x = -3;
 	pixel_y = -3
+	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
@@ -267,10 +272,13 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/brig)
 "bm" = (
-/obj/machinery/vending/dinnerware,
-/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/structure/closet/gimmick/tacticool,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
-/area/map_template/rescue_base/crew_quarters)
+/area/map_template/rescue_base/armory)
 "bn" = (
 /obj/structure/table/rack,
 /obj/item/weapon/rig/ert/assetprotection,
@@ -342,6 +350,7 @@
 /obj/item/weapon/grenade/chem_grenade/cleaner,
 /obj/item/weapon/grenade/chem_grenade/cleaner,
 /obj/effect/floor_decal/corner/blue/diagonal,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/crew_quarters)
 "bw" = (
@@ -453,16 +462,17 @@
 	dir = 2;
 	pixel_y = 22
 	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/crew_quarters)
 "bR" = (
 /obj/machinery/vending/coffee{
 	prices = list()
 	},
-/turf/unsimulated/floor{
-	dir = 1;
-	icon_state = "vault"
-	},
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/crew_quarters)
 "bT" = (
 /turf/simulated/floor/tiled/dark,
@@ -494,10 +504,7 @@
 /obj/machinery/recharger{
 	pixel_y = 4
 	},
-/turf/unsimulated/floor{
-	dir = 1;
-	icon_state = "vault"
-	},
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/crew_quarters)
 "cc" = (
 /obj/structure/table/rack,
@@ -521,6 +528,10 @@
 	},
 /obj/item/taperoll/police,
 /obj/item/taperoll/police,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/prep)
 "cd" = (
@@ -710,6 +721,10 @@
 	},
 /obj/structure/window/reinforced/crescent{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
@@ -938,6 +953,10 @@
 /obj/structure/noticeboard{
 	pixel_x = 32
 	},
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/base)
 "cR" = (
@@ -999,6 +1018,7 @@
 /area/map_template/rescue_base/medical)
 "cW" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
 "cX" = (
@@ -1062,6 +1082,10 @@
 /area/map_template/rescue_base/base)
 "df" = (
 /obj/machinery/vending/security,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/prep)
 "di" = (
@@ -1069,11 +1093,11 @@
 /turf/simulated/wall,
 /area/map_template/rescue_base/medical)
 "dj" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
 	},
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/base)
 "dm" = (
 /obj/machinery/recharger/wallcharger{
@@ -1101,6 +1125,7 @@
 /area/map_template/rescue_base/base)
 "dr" = (
 /obj/machinery/recharge_station,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/base)
 "ds" = (
@@ -1189,6 +1214,10 @@
 /area/map_template/rescue_base/engineering)
 "dJ" = (
 /obj/machinery/vending/assist,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/engineering)
 "dK" = (
@@ -1286,6 +1315,10 @@
 	pixel_x = -24;
 	pixel_y = -4
 	},
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
 "ec" = (
@@ -1373,10 +1406,7 @@
 	name = "Garage Exit";
 	p_open = 0
 	},
-/turf/unsimulated/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
 "eq" = (
 /obj/machinery/mech_recharger,
@@ -1478,6 +1508,7 @@
 /obj/item/weapon/cell/high,
 /obj/item/weapon/cell/high,
 /obj/item/weapon/cell/high,
+/obj/machinery/light,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/engineering)
 "eC" = (
@@ -1608,6 +1639,13 @@
 /obj/machinery/mech_recharger,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
+"eH" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light/navigation/delay2,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
 "eJ" = (
 /turf/unsimulated/mineral,
 /area/map_template/rescue_base)
@@ -1708,9 +1746,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "eZ" = (
-/obj/item/clothing/head/solgov/dress/fleet/command,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
-/area/map_template/rescue_base/start)
+/area/map_template/rescue_base/armory)
 "fa" = (
 /obj/machinery/computer/shuttle_control/multi/rescue,
 /turf/simulated/floor/tiled/dark,
@@ -1740,13 +1781,13 @@
 	dir = 8
 	},
 /obj/structure/closet/emcloset,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fd" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fe" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -1763,7 +1804,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "ff" = (
 /obj/structure/table/steel_reinforced,
@@ -1793,11 +1834,11 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fk" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fl" = (
 /obj/machinery/button/blast_door{
@@ -1811,7 +1852,7 @@
 	dir = 8;
 	icon_state = "handrail"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fm" = (
 /obj/machinery/computer/modular/preset/medical{
@@ -1848,7 +1889,7 @@
 	dir = 8;
 	icon_state = "handrail"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fr" = (
 /obj/machinery/light{
@@ -1875,16 +1916,16 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fu" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fv" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible,
 /obj/machinery/meter,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fw" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/shuttle{
@@ -1894,7 +1935,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fx" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -1919,7 +1960,7 @@
 	id_tag = "rescue_shuttle_inner";
 	name = "Ship External Access"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "fB" = (
 /obj/structure/flora/ausbushes/palebush,
@@ -2221,14 +2262,11 @@
 /area/map_template/rescue_base/start)
 "gs" = (
 /obj/structure/closet/crate/freezer/rations,
-/turf/simulated/floor/plating,
-/area/map_template/rescue_base/start)
-"gt" = (
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "gu" = (
 /obj/machinery/shieldwallgen,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "gv" = (
 /obj/structure/closet/secure_closet/chemical,
@@ -2257,11 +2295,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "gA" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/map_template/rescue_base/start)
+/obj/machinery/door/unpowered/simple/plastic/open,
+/turf/simulated/floor/tiled/freezer,
+/area/map_template/rescue_base/crew_quarters)
 "gB" = (
 /obj/structure/closet/secure_closet/medical1,
 /turf/simulated/floor/tiled/white,
@@ -2327,7 +2363,7 @@
 /obj/structure/closet/crate/secure{
 	req_access = list("ACCESS_CENT_SPECOPS")
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "gL" = (
 /obj/structure/table/glass,
@@ -2370,7 +2406,8 @@
 /area/map_template/rescue_base/start)
 "gQ" = (
 /obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating,
+/obj/structure/window/reinforced/crescent,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "gR" = (
 /obj/structure/window/reinforced{
@@ -2447,10 +2484,6 @@
 /area/map_template/rescue_base/start)
 "gY" = (
 /obj/structure/shuttle/engine/heater,
-/obj/structure/window/reinforced/crescent{
-	dir = 1
-	},
-/obj/effect/paint/sun,
 /turf/simulated/wall/titanium,
 /area/map_template/rescue_base/start)
 "gZ" = (
@@ -2486,6 +2519,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/window/reinforced/crescent,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "he" = (
@@ -2494,6 +2528,7 @@
 	},
 /obj/item/clothing/shoes/orange,
 /obj/item/clothing/under/color/orange,
+/obj/structure/window/reinforced/crescent,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "hf" = (
@@ -2505,11 +2540,13 @@
 /obj/item/weapon/reagent_containers/syringe/antiviral,
 /obj/item/weapon/reagent_containers/syringe/antiviral,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/structure/window/reinforced/crescent,
 /turf/simulated/floor/tiled/white,
 /area/map_template/rescue_base/start)
 "hh" = (
 /obj/structure/table/glass,
 /obj/item/weapon/storage/firstaid/surgery,
+/obj/structure/window/reinforced/crescent,
 /turf/simulated/floor/tiled/white,
 /area/map_template/rescue_base/start)
 "hi" = (
@@ -2519,6 +2556,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/window/reinforced/crescent,
 /turf/simulated/floor/tiled/white,
 /area/map_template/rescue_base/start)
 "hj" = (
@@ -2555,6 +2593,10 @@
 	},
 /turf/simulated/floor/asteroid,
 /area/map_template/rescue_base)
+"kD" = (
+/obj/machinery/floodlight,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
 "lm" = (
 /turf/simulated/wall,
 /area/map_template/rescue_base/crew_quarters)
@@ -2575,11 +2617,29 @@
 /obj/structure/catwalk,
 /turf/simulated/floor,
 /area/map_template/rescue_base)
+"lG" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/base)
 "lL" = (
 /obj/structure/table/reinforced,
 /obj/item/mech_equipment/light,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
+"lQ" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/base)
+"mM" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/medical)
 "mU" = (
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/plating,
@@ -2587,9 +2647,26 @@
 "nB" = (
 /turf/simulated/wall,
 /area/map_template/rescue_base/armory)
+"nT" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base/engineering)
 "ob" = (
 /turf/simulated/wall/r_wall,
 /area/map_template/rescue_base/brig)
+"ox" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/base)
+"pm" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/catwalk,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
 "pC" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 3
@@ -2602,6 +2679,24 @@
 	},
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/medical)
+"qJ" = (
+/obj/structure/table/reinforced,
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/hypospray,
+/obj/item/weapon/reagent_containers/glass/beaker/large,
+/obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
+/obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
+/obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/medical)
 "qK" = (
 /obj/item/device/radio/intercom/specops{
 	dir = 2;
@@ -2611,10 +2706,7 @@
 /area/map_template/rescue_base/base)
 "rI" = (
 /obj/effect/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/plating,
 /area/map_template/rescue_base/brig)
 "rT" = (
 /turf/simulated/wall/r_wall,
@@ -2622,10 +2714,31 @@
 "sl" = (
 /turf/simulated/wall,
 /area/map_template/rescue_base/brig)
+"sB" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/engineering)
 "sV" = (
 /obj/structure/sign/warning,
 /turf/simulated/wall/r_wall,
 /area/map_template/rescue_base/armory)
+"sW" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/brig)
+"sZ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/floodlight,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
 "tc" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 3
@@ -2636,6 +2749,14 @@
 /obj/machinery/vending/wallmed1,
 /turf/simulated/wall,
 /area/map_template/rescue_base/medical)
+"tq" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/freezer,
+/area/map_template/rescue_base/crew_quarters)
+"ui" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/armory)
 "wJ" = (
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/base)
@@ -2645,14 +2766,15 @@
 /area/map_template/rescue_base/armory)
 "xs" = (
 /obj/effect/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/plating,
 /area/map_template/rescue_base/medical)
 "ya" = (
 /turf/simulated/wall/r_wall,
 /area/map_template/rescue_base/engineering)
+"yn" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/crew_quarters)
 "yL" = (
 /obj/structure/table/rack,
 /obj/item/weapon/gun/energy/gun,
@@ -2684,12 +2806,28 @@
 /obj/machinery/door/airlock,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/base)
+"AY" = (
+/obj/item/device/flashlight/lamp/floodlamp,
+/obj/item/device/flashlight/lamp/floodlamp,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/engineering)
+"Bk" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light/navigation/delay4,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
 "Bw" = (
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/engineering)
 "BO" = (
 /obj/structure/table/reinforced,
 /obj/item/robot_parts/robot_component/armour/exosuit/combat,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
 "BW" = (
@@ -2705,6 +2843,10 @@
 /area/map_template/rescue_base/prep)
 "Dx" = (
 /obj/machinery/vending/security,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
 "DF" = (
@@ -2716,23 +2858,32 @@
 	dir = 4;
 	pixel_x = -24
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "DQ" = (
 /obj/structure/hygiene/drain,
+/obj/structure/curtain/open/shower,
 /turf/simulated/floor/tiled/freezer,
 /area/map_template/rescue_base/crew_quarters)
 "DR" = (
 /obj/structure/closet/secure_closet/infantry,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
+"Ec" = (
+/obj/machinery/light/navigation/delay2,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
+"Ef" = (
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
 "Eg" = (
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/prep)
 "Es" = (
-/obj/machinery/telecomms/allinone/ert,
-/turf/simulated/floor/plating,
+/obj/structure/window/reinforced/crescent,
+/turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/start)
 "EO" = (
 /obj/structure/table/rack,
@@ -2754,6 +2905,23 @@
 /obj/item/clothing/suit/armor/laserproof,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
+"EZ" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/catwalk,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
+"FF" = (
+/obj/machinery/mech_recharger,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/armory)
 "FI" = (
 /obj/machinery/door/airlock/multi_tile{
 	dir = 8
@@ -2764,9 +2932,17 @@
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/base)
+"Gs" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base/prep)
 "Hm" = (
 /obj/structure/table/reinforced,
 /obj/prefab/hand_teleporter,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/prep)
 "Ho" = (
@@ -2781,9 +2957,16 @@
 /turf/simulated/floor/asteroid,
 /area/map_template/rescue_base)
 "HI" = (
-/obj/structure/sign/warning/lethal_turrets,
-/turf/simulated/wall/r_wall,
-/area/map_template/rescue_base/engineering)
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/tiled/freezer,
+/area/map_template/rescue_base/crew_quarters)
+"Ii" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light/navigation/delay4,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
 "Ir" = (
 /obj/structure/sign/double/solgovflag/left,
 /turf/simulated/wall,
@@ -2811,14 +2994,44 @@
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
+"Oe" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/brig)
+"Oj" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet/captain,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/crew_quarters)
 "Ox" = (
 /obj/structure/sign/warning/secure_area/armory,
 /turf/simulated/wall,
 /area/map_template/rescue_base/armory)
+"OU" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet/captain,
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/crew_quarters)
 "PM" = (
 /obj/machinery/door/airlock/civilian,
 /turf/simulated/floor/plating,
 /area/map_template/rescue_base/base)
+"QN" = (
+/obj/machinery/shieldgen,
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/engineering)
 "RN" = (
 /obj/structure/railing/mapped{
 	dir = 4;
@@ -2829,6 +3042,13 @@
 "Sk" = (
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/medical)
+"Sp" = (
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/prep)
 "Tm" = (
 /obj/machinery/vending/medical,
 /turf/simulated/floor/tiled/dark,
@@ -2837,6 +3057,12 @@
 /obj/structure/closet/firecloset,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/base)
+"Vr" = (
+/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/effect/floor_decal/corner/blue/diagonal,
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/crew_quarters)
 "Vu" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
@@ -2853,6 +3079,10 @@
 /obj/item/weapon/aicard,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/prep)
+"Wt" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/tiled/dark,
+/area/map_template/rescue_base/medical)
 "WB" = (
 /turf/simulated/wall,
 /area/map_template/rescue_base/medical)
@@ -2860,6 +3090,17 @@
 /obj/machinery/vending/security/infantry,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/rescue_base/armory)
+"XM" = (
+/obj/machinery/light/navigation/delay3,
+/turf/simulated/floor/plating,
+/area/map_template/rescue_base)
+"XU" = (
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/turf/simulated/floor/asteroid,
+/area/map_template/rescue_base)
 "Yn" = (
 /obj/structure/sign/warning/smoking,
 /turf/simulated/wall,
@@ -3208,11 +3449,11 @@ bY
 gH
 do
 do
-dj
-dj
-dj
-dj
-dj
+BW
+BW
+BW
+BW
+BW
 do
 do
 eJ
@@ -3330,12 +3571,12 @@ aZ
 aZ
 bv
 lm
-bP
+OU
 bV
 bV
 bP
 ap
-wJ
+lG
 cA
 wJ
 cP
@@ -3392,7 +3633,7 @@ gH
 aq
 ba
 as
-as
+Vr
 lm
 bO
 bT
@@ -3455,13 +3696,13 @@ eJ
 lm
 aM
 aZ
-bm
+aZ
 bw
 lm
 bP
 bV
 bV
-bP
+Oj
 zF
 wJ
 cC
@@ -3527,7 +3768,7 @@ bT
 bT
 bO
 ap
-wJ
+lG
 wJ
 wJ
 wJ
@@ -3536,7 +3777,7 @@ wJ
 du
 BW
 wJ
-wJ
+dj
 dS
 ef
 er
@@ -3559,6 +3800,7 @@ eP
 eP
 eP
 eP
+Bk
 eP
 eP
 eP
@@ -3566,8 +3808,7 @@ eP
 eP
 eP
 eP
-eP
-eP
+Bk
 eP
 eP
 hj
@@ -3710,7 +3951,7 @@ gH
 gH
 gH
 lm
-aB
+HI
 lm
 bz
 lm
@@ -3730,7 +3971,7 @@ BW
 wJ
 wJ
 wJ
-wJ
+lQ
 et
 do
 eJ
@@ -3773,14 +4014,14 @@ eJ
 gH
 au
 aB
-aB
-aB
+gA
+tq
 lm
 lm
 lm
 lm
 bT
-bT
+yn
 VW
 VW
 BX
@@ -3793,7 +4034,7 @@ FI
 VW
 VW
 VW
-dV
+VW
 VW
 rT
 do
@@ -3803,6 +4044,7 @@ eJ
 bB
 eN
 eQ
+Ec
 eQ
 eQ
 eQ
@@ -3812,8 +4054,7 @@ eQ
 eQ
 eQ
 eQ
-eQ
-eQ
+XM
 eQ
 eU
 gi
@@ -3822,7 +4063,7 @@ gz
 fn
 fn
 fn
-fn
+Es
 gY
 hf
 eQ
@@ -3851,13 +4092,13 @@ cx
 cE
 cM
 cR
-dF
+Sp
 dF
 dF
 Wh
 dD
 dF
-dF
+Sp
 eh
 rT
 eJ
@@ -3909,7 +4150,7 @@ bK
 bg
 wJ
 wJ
-BX
+Gs
 cd
 dF
 dF
@@ -3923,13 +4164,13 @@ dF
 dF
 dF
 ei
-BX
+Gs
 bB
 bB
 bB
 bB
 bB
-eN
+eH
 eQ
 eU
 eU
@@ -3966,14 +4207,14 @@ gH
 aw
 aB
 DQ
-aB
+tq
 lm
 bK
 bB
 bg
 wJ
 wJ
-BX
+Gs
 ce
 dF
 dF
@@ -3987,7 +4228,7 @@ dF
 dF
 dF
 ej
-BX
+Gs
 bB
 bB
 bB
@@ -4037,7 +4278,7 @@ lm
 lm
 wJ
 wJ
-BX
+Gs
 cf
 dF
 dF
@@ -4051,7 +4292,7 @@ dF
 dF
 dF
 ek
-BX
+Gs
 bB
 bK
 bB
@@ -4060,7 +4301,7 @@ bB
 eN
 eQ
 eV
-eZ
+ff
 fg
 fn
 fn
@@ -4080,7 +4321,7 @@ eU
 eQ
 eQ
 eQ
-eQ
+Ef
 eQ
 hk
 bB
@@ -4115,7 +4356,7 @@ Hm
 dF
 dF
 el
-BX
+Gs
 bB
 bB
 bB
@@ -4161,10 +4402,10 @@ aU
 bM
 bM
 bM
-bM
+ui
 nB
 wJ
-wJ
+ox
 VW
 VW
 BX
@@ -4176,8 +4417,8 @@ dm
 FI
 VW
 VW
-BX
-BX
+Gs
+Gs
 VW
 rT
 ya
@@ -4242,14 +4483,14 @@ tc
 dP
 dP
 dP
-dP
+sB
 dP
 JJ
 ya
-bB
+XU
 bB
 fB
-eN
+eH
 eQ
 eU
 eU
@@ -4309,7 +4550,7 @@ dP
 dP
 dP
 yL
-aI
+nT
 bB
 bB
 bB
@@ -4330,8 +4571,8 @@ fn
 fn
 eU
 gs
-gA
-gt
+gf
+fn
 gQ
 gY
 hf
@@ -4362,10 +4603,10 @@ cj
 Sk
 cG
 Sk
-Sk
+mM
 di
 wJ
-wJ
+ox
 dB
 zm
 dP
@@ -4373,12 +4614,12 @@ dW
 em
 dP
 ey
-aI
+nT
 bB
 bB
 bB
-eN
-eQ
+sZ
+kD
 eQ
 eQ
 eQ
@@ -4392,10 +4633,10 @@ fU
 gb
 fn
 fn
-gt
-gt
-gt
-gt
+fn
+fn
+fn
+fn
 gQ
 gY
 hf
@@ -4427,7 +4668,7 @@ Sk
 cH
 Sk
 cS
-xs
+Wt
 wJ
 wJ
 aI
@@ -4437,12 +4678,12 @@ dX
 en
 dP
 ez
-aI
+nT
 bB
 bB
 bB
-eN
-eQ
+sZ
+kD
 eQ
 eQ
 eQ
@@ -4456,11 +4697,11 @@ ff
 gb
 fn
 fn
-gt
-gt
-gt
-gt
-gt
+fn
+fn
+fn
+fn
+Es
 gY
 hf
 eQ
@@ -4491,7 +4732,7 @@ Sk
 cI
 Sk
 cT
-xs
+Wt
 wJ
 wJ
 aI
@@ -4501,7 +4742,7 @@ dX
 en
 dP
 eA
-aI
+nT
 bB
 bK
 bB
@@ -4545,7 +4786,7 @@ bM
 bM
 bM
 bM
-bM
+ui
 Ox
 wJ
 wJ
@@ -4555,7 +4796,7 @@ Sk
 Sk
 Sk
 cU
-xs
+Wt
 wJ
 wJ
 aI
@@ -4566,10 +4807,10 @@ en
 dP
 eB
 ya
+XU
 bB
 bB
-bB
-eN
+eH
 eQ
 eU
 eU
@@ -4614,12 +4855,12 @@ nB
 qK
 wJ
 WB
-cm
+qJ
 cy
 cJ
 cO
 cV
-xs
+Wt
 wJ
 wJ
 Vy
@@ -4676,12 +4917,12 @@ nB
 nB
 nB
 wJ
-wJ
+ox
 WB
 WB
-xs
-xs
-xs
+Wt
+Wt
+Wt
 WB
 WB
 qK
@@ -4689,8 +4930,8 @@ wJ
 Vy
 dK
 dP
-dP
-dP
+AY
+AY
 dP
 eD
 ya
@@ -4730,6 +4971,13 @@ eJ
 "}
 (30,1,1) = {"
 do
+am
+dj
+wJ
+wJ
+wJ
+wJ
+dj
 wJ
 wJ
 wJ
@@ -4739,14 +4987,7 @@ wJ
 wJ
 wJ
 wJ
-wJ
-wJ
-wJ
-wJ
-wJ
-wJ
-wJ
-wJ
+dj
 wJ
 wJ
 wJ
@@ -4757,7 +4998,7 @@ dP
 dP
 dP
 eE
-am
+ya
 dZ
 dZ
 lD
@@ -4784,7 +5025,7 @@ eU
 eQ
 eQ
 eQ
-eQ
+Ef
 eQ
 hk
 bB
@@ -4794,7 +5035,7 @@ eJ
 "}
 (31,1,1) = {"
 do
-wJ
+am
 wJ
 wJ
 wJ
@@ -4817,12 +5058,12 @@ wJ
 Vy
 dM
 dP
-dY
+QN
 dY
 eu
 eF
-HI
-dZ
+ya
+pm
 dZ
 kc
 eN
@@ -4882,14 +5123,14 @@ ya
 ya
 ya
 ya
-aI
-aI
+nT
+nT
 ya
 ya
 dZ
 dZ
 HB
-eN
+eH
 eQ
 eU
 eU
@@ -4922,14 +5163,14 @@ eJ
 "}
 (33,1,1) = {"
 gk
-ar
+bm
 bM
 ar
 sl
 bh
 bq
 bs
-bs
+Oe
 bs
 bs
 bZ
@@ -4945,10 +5186,10 @@ wJ
 dC
 dN
 dQ
+EZ
 dZ
 dZ
-dZ
-dZ
+EZ
 dZ
 dZ
 dZ
@@ -5019,6 +5260,7 @@ dZ
 HB
 eN
 eQ
+Ec
 eQ
 eQ
 eQ
@@ -5028,8 +5270,7 @@ eQ
 eQ
 eQ
 eQ
-eQ
-eQ
+XM
 eQ
 eU
 gn
@@ -5069,7 +5310,7 @@ bM
 cW
 nB
 wJ
-wJ
+ox
 gk
 gk
 gk
@@ -5144,7 +5385,7 @@ bM
 bM
 BO
 gk
-bB
+XU
 eN
 eQ
 eT
@@ -5179,7 +5420,7 @@ eJ
 (37,1,1) = {"
 gk
 Ho
-bM
+eZ
 Ho
 sl
 rI
@@ -5261,7 +5502,7 @@ bM
 cZ
 nB
 wJ
-wJ
+ox
 gk
 gk
 gk
@@ -5287,6 +5528,7 @@ eS
 eS
 eS
 eS
+Ii
 eS
 eS
 eS
@@ -5294,8 +5536,7 @@ eS
 eS
 eS
 eS
-eS
-eS
+Ii
 eS
 eS
 hl
@@ -5311,11 +5552,11 @@ eJ
 eJ
 ob
 bk
-bs
+sW
 bI
 sl
 bI
-bs
+sW
 bk
 nB
 ct
@@ -5394,13 +5635,13 @@ do
 eJ
 gk
 ee
-eq
+FF
 eq
 bM
 bM
 Nv
 gk
-bB
+XU
 bK
 bB
 bB
@@ -5579,7 +5820,7 @@ eJ
 eJ
 do
 Tv
-wJ
+lQ
 wJ
 wJ
 do
@@ -5589,7 +5830,7 @@ eJ
 eJ
 gk
 hr
-bM
+eZ
 Nv
 gk
 eJ
