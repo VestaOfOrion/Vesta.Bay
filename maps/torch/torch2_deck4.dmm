@@ -10112,6 +10112,10 @@
 	icon_state = "bordercolorhalf"
 	},
 /obj/machinery/papershredder,
+/obj/machinery/light{
+	dir = 8;
+	icon_state = "tube1"
+	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "Hd" = (
@@ -40034,9 +40038,9 @@ XT
 XT
 XT
 YJ
+Xn
+YJ
 SY
-Xn
-Xn
 Xn
 Xn
 PI

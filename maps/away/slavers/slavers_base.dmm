@@ -2818,21 +2818,6 @@
 /obj/machinery/floodlight,
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/powatm)
-"gX" = (
-/obj/structure/table/steel,
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/item/stack/material/phoron{
-	amount = 25
-	},
-/obj/item/stack/material/phoron{
-	amount = 25
-	},
-/turf/simulated/floor/airless/ceiling,
-/area/slavers_base/powatm)
 "gY" = (
 /obj/machinery/light{
 	dir = 8
@@ -2907,9 +2892,10 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/item/stack/material/phoron{
-	amount = 25
-	},
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/powatm)
 "hj" = (
@@ -16577,7 +16563,7 @@ fQ
 gh
 gr
 gM
-gX
+hi
 hi
 hC
 hR
