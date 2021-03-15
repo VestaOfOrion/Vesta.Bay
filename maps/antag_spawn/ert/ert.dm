@@ -21,8 +21,8 @@
 	landmark_transition = "nav_ert_transition"
 	home_waypoint = "nav_ert_start"
 	announcer = "Proximity Sensor Array"
-	arrival_message = "Attention, vessel detected entering vessel proximity."
-	departure_message = "Attention, vessel detected leaving vessel proximity."
+	arrival_message = "Attention, vessel detected entering station proximity."
+	departure_message = "Attention, vessel detected leaving station proximity."
 
 /obj/effect/shuttle_landmark/ert/start
 	name = "Response Team Base"
@@ -83,7 +83,7 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/map_template/rescue_base/brig
-	name = "\improper Response Team Crew Brig"
+	name = "\improper Response Team Brig"
 	icon_state = "brig"
 	requires_power = 0
 	dynamic_lighting = 1
