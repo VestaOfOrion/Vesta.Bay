@@ -26928,7 +26928,7 @@
 /area/command/conference)
 "pXG" = (
 /obj/structure/table/standard,
-/obj/random/smokes,
+/obj/random/soap,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/firstdeck/forestarboard)
 "pYb" = (
