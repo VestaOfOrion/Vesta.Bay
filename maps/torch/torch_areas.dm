@@ -87,6 +87,9 @@
 /area/maintenance/substation/fourthdeck
 	name = "Fourth Deck Substation"
 
+/area/crew_quarters/safe_room/fourthdeck
+	name = "\improper Fourth Deck Safe Room"
+
 //Third Deck (Z-2)
 /area/hallway/primary/thirddeck/fore
 	name = "\improper Third Deck Fore Hallway"
