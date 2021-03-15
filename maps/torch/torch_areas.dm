@@ -768,10 +768,6 @@
 	name = "\improper Requisitions Office"
 	icon_state = "quart"
 
-/area/vacant/brig
-	name = "\improper Permanent Brig"
-	icon_state = "brig"
-
 /area/vacant/bar
 	name = "\improper Hidden Bar"
 	icon_state = "bar"
@@ -1067,6 +1063,11 @@
 /area/security/hangcheck
 	name = "\improper Fourth Deck Security Checkpoint"
 	icon_state = "checkpoint"
+
+/area/security/permabrig
+	name = "\improper Permanent Brig"
+	icon_state = "brig"
+	req_access = list(access_brig)
 
 // Medbay
 

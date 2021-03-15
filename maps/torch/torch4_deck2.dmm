@@ -10336,10 +10336,10 @@
 "yq" = (
 /obj/structure/table/rack,
 /obj/random/maintenance/solgov,
+/obj/random/maintenance/solgov,
+/obj/random/maintenance/solgov,
+/obj/random/maintenance/solgov,
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/random/maintenance/solgov,
-/obj/random/maintenance/solgov,
-/obj/random/maintenance/solgov,
 /turf/simulated/floor/tiled/techfloor,
 /area/maintenance/seconddeck/foreport)
 "yr" = (
@@ -11854,8 +11854,6 @@
 /area/vacant/cargo)
 "Cw" = (
 /obj/random/torchcloset,
-/obj/random/maintenance/solgov,
-/obj/random/maintenance/solgov,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/light{
 	dir = 4;
@@ -12269,11 +12267,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/maintenance/seconddeck/foreport)
-"Ds" = (
-/obj/random/torchcloset,
-/obj/random/maintenance/solgov,
-/turf/simulated/wall/walnut,
 /area/maintenance/seconddeck/foreport)
 "Dt" = (
 /obj/structure/cable/yellow{
@@ -36018,7 +36011,7 @@ BS
 BS
 CX
 mT
-lG
+pi
 Wp
 fT
 ag
@@ -36220,7 +36213,7 @@ BT
 Cr
 CY
 mT
-yq
+pi
 Wp
 ag
 ag
@@ -36422,7 +36415,7 @@ Bk
 Cv
 Bk
 Bk
-pi
+lG
 Wp
 ag
 ag
@@ -36624,7 +36617,7 @@ BU
 Cr
 Kh
 qp
-pi
+yq
 Wp
 aa
 aa
@@ -36825,7 +36818,7 @@ mT
 BV
 Cr
 PH
-Ds
+qp
 Wp
 Wp
 aa
