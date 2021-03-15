@@ -9813,7 +9813,6 @@
 	dir = 4;
 	icon_state = "techfloor_edges"
 	},
-/obj/item/pipe/injector,
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/fourthdeck)
 "Gg" = (
@@ -9997,10 +9996,6 @@
 	dir = 6;
 	icon_state = "techfloor_edges"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 5;
-	icon_state = "intact"
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/fourthdeck)
 "GF" = (
@@ -10010,9 +10005,6 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 8;
 	icon_state = "techfloor_edges"
-	},
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/fourthdeck)
@@ -10988,9 +10980,6 @@
 "JV" = (
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/fourthdeck)
 "JX" = (
