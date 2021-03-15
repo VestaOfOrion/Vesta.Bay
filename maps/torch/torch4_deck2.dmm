@@ -4590,12 +4590,18 @@
 /turf/simulated/open,
 /area/engineering/engineering_bay)
 "jA" = (
-/obj/structure/table/steel,
-/obj/item/weapon/storage/toolbox/mechanical,
-/obj/item/clothing/glasses/welding,
 /obj/item/modular_computer/telescreen/preset/engineering{
 	pixel_y = 32
 	},
+/obj/structure/table/rack{
+	dir = 8
+	},
+/obj/item/weapon/welder_tank/large,
+/obj/item/weapon/welder_tank/large,
+/obj/item/weapon/welder_tank/large,
+/obj/item/weapon/welder_tank/large,
+/obj/item/weapon/welder_tank/large,
+/obj/item/weapon/welder_tank/large,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "jB" = (
@@ -11279,7 +11285,6 @@
 	dir = 4
 	},
 /obj/structure/table/steel,
-/obj/item/stack/material/wood/fifty,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4;
 	icon_state = "warning"
@@ -11287,6 +11292,8 @@
 /obj/machinery/camera/network/engineering{
 	c_tag = "Engineering - Bay"
 	},
+/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/clothing/glasses/welding,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/engineering_bay)
 "AT" = (

@@ -6737,6 +6737,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/forestarboard)
+"nX" = (
+/obj/item/clothing/mask/plunger,
+/turf/simulated/floor/plating,
+/area/maintenance/thirddeck/foreport)
 "nZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -31183,7 +31187,7 @@ IT
 BX
 BX
 BX
-BX
+nX
 BV
 BV
 BV
