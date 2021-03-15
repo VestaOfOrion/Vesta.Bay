@@ -5,7 +5,7 @@
 	apc_test_exempt_areas = list(
 		/area/map_template/rescue_base = NO_SCRUBBER|NO_VENT|NO_APC
 	)
-		
+
 
 /datum/shuttle/autodock/multi/antag/rescue
 	name = "Rescue"
@@ -21,8 +21,8 @@
 	landmark_transition = "nav_ert_transition"
 	home_waypoint = "nav_ert_start"
 	announcer = "Proximity Sensor Array"
-	arrival_message = "Attention, vessel detected entering vessel proximity."
-	departure_message = "Attention, vessel detected leaving vessel proximity."
+	arrival_message = "Attention, vessel detected entering station proximity."
+	departure_message = "Attention, vessel detected leaving station proximity."
 
 /obj/effect/shuttle_landmark/ert/start
 	name = "Response Team Base"
@@ -42,7 +42,49 @@
 
 /area/map_template/rescue_base
 	name = "\improper Response Team Base"
-	icon_state = "yellow"
+	icon_state = "cave"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/map_template/rescue_base/medical
+	name = "\improper Response Team Medical Wing"
+	icon_state = "medbay"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/map_template/rescue_base/engineering
+	name = "\improper Response Team Engineering Wing"
+	icon_state = "engine"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/map_template/rescue_base/prep
+	name = "\improper Response Team Prep Room"
+	icon_state = "green"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/map_template/rescue_base/armory
+	name = "\improper Response Team Armory"
+	icon_state = "purple"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/map_template/rescue_base/crew_quarters
+	name = "\improper Response Team Crew Quarters"
+	icon_state = "crew_quarters"
+	requires_power = 0
+	dynamic_lighting = 1
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+
+/area/map_template/rescue_base/brig
+	name = "\improper Response Team Brig"
+	icon_state = "brig"
 	requires_power = 0
 	dynamic_lighting = 1
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
@@ -50,10 +92,9 @@
 /area/map_template/rescue_base/base
 	name = "\improper Barracks"
 	icon_state = "yellow"
-	dynamic_lighting = 0
 
 /area/map_template/rescue_base/start
-	name = "\improper Response Team Base"
+	name = "\improper Response Team Shuttle Alpha"
 	icon_state = "shuttlered"
 	base_turf = /turf/unsimulated/floor/rescue_base
 

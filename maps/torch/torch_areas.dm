@@ -87,6 +87,9 @@
 /area/maintenance/substation/fourthdeck
 	name = "Fourth Deck Substation"
 
+/area/crew_quarters/safe_room/fourthdeck
+	name = "\improper Fourth Deck Safe Room"
+
 //Third Deck (Z-2)
 /area/hallway/primary/thirddeck/fore
 	name = "\improper Third Deck Fore Hallway"
@@ -749,10 +752,6 @@
 /area/vacant/infirmary
 	name = "\improper Auxiliary Infirmary"
 	icon_state = "medbay"
-
-/area/vacant/monitoring
-	name = "\improper Auxiliary Monitoring Room"
-	icon_state = "engine_monitoring"
 
 /area/vacant/prototype
 	req_access = list(access_engine)
@@ -1532,7 +1531,7 @@ area/assembly/robotics/office
 
 // Shuttles
 /area/shuttle/administration/centcom
-	name = "\improper Administration Shuttle"
+	name = "\improper Response Team Shuttle Beta"
 	icon_state = "shuttlered"
 	req_access = list(access_cent_general)
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED

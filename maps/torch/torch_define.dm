@@ -21,7 +21,7 @@
 	dock_name     = "TBD"
 	boss_name     = "Central Command"
 	boss_short    = "Command"
-	company_name  = "NanoTransen"
+	company_name  = "NanoTrasen"
 	company_short = "NT"
 
 	map_admin_faxes = list(

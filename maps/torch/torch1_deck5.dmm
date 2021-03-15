@@ -623,11 +623,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/toxins)
 "bm" = (
-/obj/effect/floor_decal/industrial/loading{
-	dir = 8;
-	icon_state = "loadingarea"
-	},
-/obj/effect/floor_decal/industrial/warning,
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
@@ -635,6 +630,7 @@
 /obj/machinery/camera/network/exploration_shuttle{
 	c_tag = "Gaunt - Ejection Chute"
 	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "bn" = (
@@ -2678,20 +2674,26 @@
 	dir = 4;
 	icon_state = "handrail"
 	},
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/structure/disposaloutlet{
+	dir = 4
+	},
 /obj/effect/floor_decal/techfloor{
 	dir = 9;
 	icon_state = "techfloor_edges"
 	},
-/obj/machinery/conveyor_switch/oneway{
-	id = "cargobay";
-	name = "mining conveyor"
-	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "eY" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1;
 	icon_state = "techfloor_edges"
+	},
+/obj/effect/floor_decal/industrial/loading{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
@@ -7666,6 +7668,13 @@
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/fore)
+"pZ" = (
+/obj/effect/paint/hull,
+/obj/structure/disposalpipe/segment/bent{
+	dir = 1
+	},
+/turf/simulated/wall/titanium,
+/area/exploration_shuttle/cargo)
 "qa" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
@@ -7811,6 +7820,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/monotile,
 /area/quartermaster/expedition/eva)
+"qt" = (
+/obj/effect/paint/hull,
+/obj/structure/disposalpipe/segment/bent,
+/turf/simulated/wall/titanium,
+/area/exploration_shuttle/atmos)
 "qu" = (
 /obj/machinery/light_switch{
 	pixel_x = 22;
@@ -11159,6 +11173,15 @@
 /obj/machinery/fabricator,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/rnd)
+"yE" = (
+/obj/structure/disposaloutlet{
+	dir = 8
+	},
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/exploration_shuttle/cargo)
 "yG" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -11440,10 +11463,10 @@
 /obj/machinery/disposal/deliveryChute{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/warning,
 /obj/structure/disposalpipe/trunk{
-	dir = 8
+	dir = 1
 	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "zB" = (
@@ -11733,6 +11756,11 @@
 /obj/effect/floor_decal/industrial/outline,
 /obj/machinery/firealarm,
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration_shuttle/cargo)
+"AG" = (
+/obj/effect/paint/hull,
+/obj/structure/disposalpipe/segment/bent,
+/turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "AK" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -12877,16 +12905,12 @@
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/equipment)
 "Ep" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "cargobay"
-	},
-/obj/effect/floor_decal/industrial/warning,
 /obj/machinery/light{
 	dir = 1;
 	icon_state = "tube1"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "Es" = (
@@ -13430,10 +13454,10 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/analysis)
 "Gz" = (
-/obj/structure/disposaloutlet{
+/obj/structure/disposalpipe/trunk,
+/obj/machinery/disposal/deliveryChute{
 	dir = 8
 	},
-/obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/plating,
 /area/exploration_shuttle/cargo)
 "GB" = (
@@ -13996,14 +14020,10 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/petrov/rnd)
 "Id" = (
-/obj/machinery/conveyor{
-	dir = 8;
-	id = "cargobay"
-	},
-/obj/effect/floor_decal/industrial/warning,
 /obj/structure/sign/warning/moving_parts{
 	pixel_y = 32
 	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "Ih" = (
@@ -15183,11 +15203,10 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftport)
 "Mk" = (
-/obj/machinery/conveyor{
+/obj/effect/floor_decal/industrial/loading{
 	dir = 8;
-	id = "cargobay"
+	icon_state = "loadingarea"
 	},
-/obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "Ml" = (
@@ -15568,10 +15587,8 @@
 /turf/simulated/floor/plating,
 /area/maintenance/fifthdeck/aftstarboard)
 "Nw" = (
+/obj/structure/disposalpipe/segment/bent,
 /obj/effect/paint/hull,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "Nx" = (
@@ -18373,11 +18390,11 @@
 /turf/simulated/floor/tiled/white,
 /area/shuttle/petrov/equipment)
 "Xt" = (
-/obj/effect/paint/hull,
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
 	},
+/obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
 /area/exploration_shuttle/cargo)
 "Xx" = (
@@ -35098,7 +35115,7 @@ bi
 bi
 bi
 bi
-bi
+yE
 Gz
 Xt
 dK
@@ -35300,8 +35317,8 @@ ew
 ew
 ew
 ew
-ew
-dK
+qt
+pZ
 Nw
 eX
 fm
@@ -35503,7 +35520,7 @@ dT
 eg
 Ja
 Ar
-dK
+AG
 zx
 eY
 fn
