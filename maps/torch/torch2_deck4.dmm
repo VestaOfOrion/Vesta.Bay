@@ -1519,7 +1519,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/safe_room/fourthdeck)
 "fh" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -8689,7 +8689,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/safe_room/fourthdeck)
 "BZ" = (
 /obj/structure/cable/green{
@@ -9589,7 +9589,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/safe_room/fourthdeck)
 "Ft" = (
 /obj/structure/cable/green{
@@ -10009,7 +10009,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/fourthdeck)
 "GG" = (
-/turf/simulated/wall/prepainted,
+/turf/simulated/wall/r_wall/prepainted,
 /area/crew_quarters/safe_room/fourthdeck)
 "GI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -29793,7 +29793,7 @@ vv
 oB
 nx
 Le
-le
+ct
 BT
 CU
 GG
@@ -29995,7 +29995,7 @@ vw
 wF
 LJ
 mh
-le
+ct
 BU
 Gc
 Bm
@@ -30803,7 +30803,7 @@ wF
 wF
 Pv
 zy
-le
+ct
 BY
 GG
 fe

@@ -12275,11 +12275,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/seconddeck/foreport)
-"Ds" = (
-/obj/random/torchcloset,
-/obj/random/maintenance/solgov,
-/turf/simulated/wall/walnut,
-/area/maintenance/seconddeck/foreport)
 "Dt" = (
 /obj/structure/cable/yellow{
 	d2 = 4;
@@ -36629,7 +36624,7 @@ BU
 Cr
 Kh
 qp
-pi
+yq
 Wp
 aa
 aa
@@ -36830,7 +36825,7 @@ mT
 BV
 Cr
 PH
-Ds
+qp
 Wp
 Wp
 aa
