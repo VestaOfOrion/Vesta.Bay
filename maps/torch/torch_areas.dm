@@ -753,10 +753,6 @@
 	name = "\improper Auxiliary Infirmary"
 	icon_state = "medbay"
 
-/area/vacant/monitoring
-	name = "\improper Auxiliary Monitoring Room"
-	icon_state = "engine_monitoring"
-
 /area/vacant/prototype
 	req_access = list(access_engine)
 
