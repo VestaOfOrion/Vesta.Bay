@@ -4067,11 +4067,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/centcom/control)
-"aAc" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor,
-/area/centcom/control)
 "aAl" = (
 /obj/machinery/camera/network/ert{
 	c_tag = "Assault Armor South";
@@ -10444,14 +10439,6 @@
 	},
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_plaza)
-"fwb" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/effect/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "cult";
-	name = "plating"
-	},
-/area/centcom/holding)
 "fxB" = (
 /obj/structure/bed/chair/wood{
 	dir = 4;
@@ -20063,7 +20050,7 @@ aab
 aab
 aEE
 aGd
-aHy
+laD
 aHs
 aGd
 aHH
@@ -21866,7 +21853,7 @@ awR
 awa
 aCv
 aCv
-fwb
+aCv
 trE
 aCv
 aCv
@@ -24077,7 +24064,7 @@ awR
 pYq
 ayi
 pYq
-aAc
+pYq
 pYq
 azX
 pYq
