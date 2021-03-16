@@ -1575,6 +1575,15 @@
 "ss" = (
 /turf/unsimulated/wall,
 /area/map_template/ninja_dojo/dojo)
+"yd" = (
+/obj/machinery/door/unpowered/simple/wood{
+	dir = 4
+	},
+/turf/unsimulated/floor{
+	dir = 8;
+	icon_state = "wood"
+	},
+/area/map_template/ninja_dojo/dojo)
 "zr" = (
 /obj/effect/floor_decal/snow,
 /turf/unsimulated/wall,
@@ -1901,8 +1910,8 @@ aj
 aj
 aj
 aA
-bh
-bh
+yd
+yd
 aA
 aj
 aj
@@ -2202,8 +2211,8 @@ aj
 aj
 aj
 aA
-bh
-bh
+yd
+yd
 aA
 aj
 aj
@@ -2761,8 +2770,8 @@ aj
 aA
 aA
 aj
-bh
-bh
+yd
+yd
 aj
 aA
 aA

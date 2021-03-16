@@ -5987,7 +5987,7 @@
 /area/ship/scrap/bearcat_shuttle)
 "xb" = (
 /obj/structure/shuttle/engine/propulsion/burst/right,
-/turf/space,
+/turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "xK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -6426,7 +6426,7 @@
 /area/ship/scrap/bearcat_shuttle)
 "OX" = (
 /obj/structure/shuttle/engine/propulsion/burst/left,
-/turf/space,
+/turf/simulated/floor/plating,
 /area/ship/scrap/bearcat_shuttle)
 "PG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
