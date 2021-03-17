@@ -2487,11 +2487,11 @@
 /area/shuttle/administration/centcom)
 "atX" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	dir = 8;
 	frequency = 1380;
 	id_tag = "admin_shuttle_bay";
 	name = "shuttle bay controller";
 	pixel_x = 25;
-	pixel_y = 0;
 	tag_door = "admin_shuttle_bay_door"
 	},
 /turf/simulated/floor,
@@ -2588,16 +2588,24 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "aul" = (
-/obj/machinery/computer/modular/preset/cardslot/command{
-	dir = 8;
-	icon_state = "console"
-	},
+/obj/structure/closet/walllocker/emerglocker/north,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "aum" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor,
-/area/shuttle/administration/centcom)
+/obj/structure/table/steel,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/spacecash/bundle/c1000,
+/obj/item/weapon/paper_bin{
+	pixel_x = 1;
+	pixel_y = 9
+	},
+/obj/item/weapon/pen,
+/obj/random/clipboard,
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "aun" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1380;
@@ -2625,19 +2633,16 @@
 /turf/unsimulated/wall,
 /area/prison/solitary)
 "aut" = (
-/obj/structure/bed/chair/comfy/black{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/shuttle/administration/centcom)
-"auu" = (
-/obj/machinery/computer/shuttle_control{
+/obj/machinery/computer/modular/preset/merchant{
 	dir = 8;
-	req_access = list("ACCESS_CENT_GENERAL");
-	shuttle_tag = "Administration"
+	icon_state = "console"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/administration/centcom)
+/turf/simulated/floor/tiled,
+/area/merchant_station)
+"auu" = (
+/obj/machinery/merchant_pad,
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "auw" = (
 /obj/machinery/button/blast_door{
 	id_tag = "supply_shuttle";
@@ -2674,12 +2679,10 @@
 /turf/simulated/floor/tiled/freezer,
 /area/shuttle/administration/centcom)
 "auG" = (
-/obj/machinery/computer/modular/preset/security{
-	dir = 8;
-	icon_state = "console"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/administration/centcom)
+/obj/machinery/door/window/southright,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "auI" = (
 /obj/structure/synthesized_instrument/synthesizer/piano{
 	dir = 4
@@ -4466,10 +4469,9 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "aBO" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/handrail,
-/obj/machinery/oxygen_pump{
-	pixel_y = 26
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 8;
+	icon_state = "console"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
@@ -4637,10 +4639,13 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/holding)
 "aCv" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/handrail,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/administration/centcom)
+/obj/effect/decal/cleanable/ash,
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "merchantbelt1"
+	},
+/turf/simulated/floor/plating,
+/area/merchant_station)
 "aCy" = (
 /obj/item/weapon/stool/padded,
 /obj/effect/floor_decal/corner/red{
@@ -9607,7 +9612,9 @@
 /turf/simulated/floor/plating,
 /area/merchant_station)
 "aWp" = (
-/turf/space,
+/obj/structure/table/rack,
+/obj/item/weapon/storage/bag/cash,
+/turf/simulated/floor/tiled,
 /area/merchant_station)
 "aWy" = (
 /obj/structure/cable{
@@ -10009,6 +10016,12 @@
 /obj/item/clothing/accessory/storage/holster,
 /turf/simulated/floor/tiled/dark,
 /area/merchant_station)
+"bsr" = (
+/obj/structure/closet,
+/obj/item/clothing/shoes/laceup,
+/obj/item/clothing/under/vox/vox_casual,
+/turf/simulated/floor/plating,
+/area/merchant_station)
 "btb" = (
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/brown{
@@ -10052,6 +10065,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/centcom/holding)
+"bwd" = (
+/obj/structure/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/administration/centcom)
 "bxb" = (
 /obj/machinery/camera/network/crescent{
 	c_tag = "Crescent Arrivals North";
@@ -10075,6 +10094,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/centcom/holding)
+"bzo" = (
+/obj/machinery/recharger/wallcharger{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/administration/centcom)
 "bzZ" = (
 /obj/machinery/door/airlock/glass,
 /turf/simulated/floor,
@@ -10215,6 +10241,14 @@
 /obj/effect/paint/black,
 /turf/simulated/wall/r_titanium,
 /area/shuttle/administration/centcom)
+"cyr" = (
+/obj/machinery/computer/shuttle_control{
+	dir = 8;
+	req_access = list("ACCESS_CENT_GENERAL");
+	shuttle_tag = "Administration"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/shuttle/administration/centcom)
 "czt" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -10224,7 +10258,6 @@
 /obj/structure/sign/directions/medical{
 	dir = 4
 	},
-/obj/item/mech_equipment/shields,
 /obj/effect/paint/black,
 /turf/simulated/wall/r_titanium,
 /area/shuttle/administration/centcom)
@@ -10265,11 +10298,25 @@
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_cafe)
 "cUl" = (
-/obj/machinery/pointdefense{
-	id_tag = "Beta"
+/obj/structure/table/rack,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/administration/centcom)
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/obj/item/stack/material/steel{
+	amount = 50
+	},
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "cUH" = (
 /obj/effect/step_trigger/thrower{
 	affect_ghosts = 1;
@@ -10386,6 +10433,11 @@
 	},
 /turf/simulated/floor/holofloor/wood,
 /area/holodeck/source_cafe)
+"eIQ" = (
+/obj/structure/table/rack,
+/obj/random/medical,
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "eRk" = (
 /obj/structure/table/rack/holorack,
 /turf/simulated/floor/holofloor/wood{
@@ -10406,16 +10458,32 @@
 /turf/simulated/floor/holofloor/concrete,
 /area/holodeck/source_volleyball)
 "fjY" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/handrail{
-	dir = 1
-	},
 /obj/machinery/oxygen_pump{
 	dir = 1;
 	pixel_y = -27
 	},
+/obj/machinery/computer/modular/preset/security{
+	dir = 8;
+	icon_state = "console"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
+"fox" = (
+/obj/structure/table/rack,
+/obj/item/stack/material/aluminium,
+/obj/item/stack/material/aluminium,
+/obj/item/stack/material/aluminium,
+/obj/item/stack/material/aluminium,
+/turf/simulated/floor/tiled/airless,
+/area/merchant_station)
+"foE" = (
+/obj/structure/table/steel,
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_y = 8
+	},
+/turf/simulated/floor/plating,
+/area/merchant_station)
 "fpW" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -10454,13 +10522,17 @@
 /turf/simulated/floor/tiled/freezer,
 /area/shuttle/administration/centcom)
 "fRO" = (
-/obj/machinery/pointdefense{
-	dir = 8
+/obj/machinery/light/small{
+	dir = 4;
+	pixel_y = 8
 	},
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/handrail,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/administration/centcom)
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "merchantbelt1"
+	},
+/turf/simulated/floor/plating,
+/area/merchant_station)
 "fUF" = (
 /obj/structure/closet/secure_closet/bar{
 	req_access = list("ACCESS_BAR")
@@ -10473,6 +10545,12 @@
 "gnX" = (
 /turf/simulated/floor/holofloor/beach/water,
 /area/holodeck/source_temple)
+"gou" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/administration/centcom)
 "gse" = (
 /obj/structure/table/holo_woodentable,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -10499,12 +10577,15 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "hlf" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/handrail{
-	dir = 1
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4;
+	icon_state = "warning"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/shuttle/administration/centcom)
+/obj/machinery/conveyor_switch{
+	id = "merchantbelt1"
+	},
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "hzB" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -10749,6 +10830,13 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_plaza)
+"lvN" = (
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "merchantbelt1"
+	},
+/turf/simulated/floor/plating,
+/area/merchant_station)
 "lwD" = (
 /obj/structure/bed/chair/wood{
 	dir = 1;
@@ -11075,6 +11163,13 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor,
 /area/centcom/control)
+"pZB" = (
+/obj/effect/decal/cleanable/generic,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "pZD" = (
 /obj/machinery/vending/security/accessory,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -11380,6 +11475,12 @@
 "uJY" = (
 /turf/simulated/floor/holofloor/beach/sand,
 /area/holodeck/source_volleyball)
+"uKh" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/merchant_station)
 "uPe" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/beach/sand,
@@ -11437,6 +11538,16 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/holofloor/grass,
 /area/holodeck/source_plaza)
+"wdf" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/recharger/wallcharger{
+	dir = 4;
+	pixel_x = -20
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/shuttle/administration/centcom)
 "whq" = (
 /obj/machinery/vending/security/accessory,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -11486,8 +11597,8 @@
 /turf/simulated/floor/holofloor/carpet,
 /area/holodeck/source_cafe)
 "xyW" = (
-/obj/structure/closet/walllocker/emerglocker/north,
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/handrail,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "xHn" = (
 /obj/effect/floor_decal/spline/plain{
@@ -18666,8 +18777,8 @@ asR
 asS
 asX
 bBb
-atq
-bBb
+wdf
+bzo
 bBb
 bBb
 atq
@@ -18869,13 +18980,13 @@ asS
 whq
 bBb
 bBb
+xZF
+gME
+xZF
 bBb
-avJ
-bBb
-bBb
-bBb
-avJ
-bBb
+xZF
+gME
+xZF
 bBb
 avs
 gME
@@ -19074,8 +19185,8 @@ bBb
 atE
 asS
 xyW
-aut
 bBb
+bwd
 asS
 pxk
 bBb
@@ -19276,8 +19387,8 @@ bBb
 aAp
 asS
 aul
-auu
-auG
+bBb
+xZF
 asS
 ava
 bBb
@@ -19477,9 +19588,9 @@ bBb
 bBb
 qtu
 asS
-aum
-aum
-aum
+xZF
+bBb
+xZF
 asS
 avb
 bBb
@@ -19679,9 +19790,9 @@ ayh
 bBb
 aBN
 asS
-fRO
 xZF
-hlf
+gou
+xZF
 asS
 avc
 bBb
@@ -19882,7 +19993,7 @@ bBb
 xZF
 asS
 aBO
-xZF
+cyr
 fjY
 asS
 avd
@@ -20083,9 +20194,9 @@ asS
 atg
 xZF
 asS
-aCv
-xZF
-hlf
+wkp
+wkp
+wkp
 asS
 ave
 bBb
@@ -20285,9 +20396,9 @@ asS
 ats
 xZF
 asS
-cUl
+xZF
 vZi
-cUl
+xZF
 asS
 avf
 avJ
@@ -24089,28 +24200,28 @@ aON
 rPO
 aNC
 aNC
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aab
-aab
+aPc
+aPc
+aPc
+aPc
+auG
+aTs
+aMf
+cUl
+hlf
+uKh
+aPc
+aVw
+aVw
+aWi
+aMf
+aLW
+aLW
+aLW
+aLW
+aLW
+aLG
+aLG
 aab
 aab
 aab
@@ -24292,27 +24403,27 @@ aNC
 aNC
 aMf
 aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aab
-aab
+aum
+aut
+auu
+aMf
+aTq
+aCv
+fRO
+lvN
+pZB
+fox
+foE
+bsr
+eIQ
+aMf
+aLW
+aLW
+aLW
+aLW
+aLW
+aLG
+aLG
 aab
 aab
 aab
@@ -24493,28 +24604,28 @@ aLW
 aLW
 aLW
 aMf
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aab
-aab
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aMf
+aLW
+aLW
+aLW
+aLW
+aLW
+aLG
+aLG
 aab
 aab
 aab
@@ -24683,40 +24794,40 @@ aab
 aab
 aab
 aab
-cUH
-aLW
-aLW
-aLW
-aLW
-aLW
-aLW
-aLW
-aLW
-aLW
-aLW
-aLW
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
-aWp
 aab
-aab
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLW
+aLG
+aLG
 aab
 aab
 aab
@@ -24885,7 +24996,7 @@ aab
 aab
 aab
 aab
-cUH
+aab
 aLG
 aLG
 aLG
@@ -24897,28 +25008,28 @@ aLG
 aLG
 aLG
 aLG
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
-aab
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
+aLG
 aab
 aab
 aab
