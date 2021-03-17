@@ -2433,7 +2433,9 @@
 /turf/simulated/wall/r_titanium,
 /area/shuttle/administration/centcom)
 "atE" = (
-/obj/structure/table/rack,
+/obj/machinery/pointdefense_control{
+	id_tag = "Beta"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/administration/centcom)
 "atH" = (
@@ -3036,8 +3038,15 @@
 /turf/space,
 /area/space)
 "avY" = (
-/turf/unsimulated/wall,
-/area/centcom/specops)
+/obj/structure/table/rack,
+/obj/item/weapon/shield/riot/metal,
+/obj/item/weapon/shield/riot/metal,
+/obj/item/weapon/shield/riot/metal,
+/obj/item/weapon/shield/riot/metal,
+/obj/item/weapon/shield/riot/metal,
+/obj/item/weapon/shield/riot/metal,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/administration/centcom)
 "avZ" = (
 /turf/simulated/wall/r_wall,
 /area/centcom/creed)
@@ -3167,17 +3176,11 @@
 /area/centcom/creed)
 "aww" = (
 /obj/effect/wingrille_spawn/reinforced/crescent,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/creed)
 "awx" = (
 /obj/effect/wingrille_spawn/reinforced/crescent,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/control)
 "awy" = (
 /obj/machinery/telecomms/receiver/preset_cent,
@@ -3705,9 +3708,7 @@
 	name = "Research Facility";
 	opacity = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "steel"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/test)
 "ayo" = (
 /obj/machinery/vending/engineering,
@@ -3839,10 +3840,7 @@
 	name = "Special Operations";
 	opacity = 1
 	},
-/turf/unsimulated/floor{
-	dir = 8;
-	icon_state = "vault"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/specops)
 "ayV" = (
 /obj/structure/table/reinforced,
@@ -4637,12 +4635,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/centcom/holding)
 "aCv" = (
-/obj/effect/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "cult";
-	name = "plating"
-	},
-/area/centcom/holding)
+/obj/machinery/shieldwallgen,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/administration/centcom)
 "aCx" = (
 /turf/simulated/floor/tiled/dark,
 /area/centcom/holding)
@@ -4773,30 +4768,21 @@
 /obj/machinery/door/airlock/glass/security{
 	name = "Holding Cell"
 	},
-/turf/unsimulated/floor{
-	icon_state = "steel"
-	},
-/area/centcom/holding)
-"aDE" = (
-/obj/effect/wingrille_spawn/reinforced/crescent,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/holding)
 "aDF" = (
 /obj/machinery/door/blast/regular{
 	id_tag = "CentComPort";
 	name = "Security Doors"
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/plating,
 /area/centcom/holding)
 "aDG" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Arrivals Processing";
 	opacity = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/centcom/holding)
 "aDQ" = (
 /obj/effect/paint/black,
@@ -4919,7 +4905,7 @@
 	name = "Security Doors";
 	opacity = 0
 	},
-/turf/simulated/floor,
+/turf/simulated/floor/plating,
 /area/centcom/holding)
 "aEy" = (
 /obj/structure/table/reinforced,
@@ -4944,11 +4930,11 @@
 /area/shuttle/specops/centcom)
 "aEC" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	dir = 8;
 	frequency = 1380;
 	id_tag = "specops_shuttle_port";
 	name = "port docking hatch controller";
-	pixel_x = 24;
-	pixel_y = 0;
+	pixel_x = 18;
 	tag_door = "specops_shuttle_port_hatch"
 	},
 /obj/structure/bed/chair{
@@ -5000,9 +4986,7 @@
 	id_tag = "specops_centcom_dock_door";
 	locked = 1
 	},
-/turf/unsimulated/floor{
-	icon_state = "dark"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/specops)
 "aEY" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -5088,10 +5072,10 @@
 /area/centcom/holding)
 "aFK" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
+	dir = 1;
 	frequency = 1380;
 	id_tag = "specops_shuttle_fore";
 	name = "forward docking hatch controller";
-	pixel_x = 0;
 	pixel_y = -25;
 	tag_door = "specops_shuttle_fore_hatch"
 	},
@@ -5392,9 +5376,7 @@
 /obj/machinery/door/airlock/glass/medical{
 	name = "Arrivals Medbay"
 	},
-/turf/unsimulated/floor{
-	icon_state = "white"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/holding)
 "aHB" = (
 /obj/structure/sign/warning/airlock,
@@ -5985,10 +5967,7 @@
 	id_tag = "crescent_thunderdome";
 	name = "Thunderdome"
 	},
-/turf/unsimulated/floor{
-	dir = 5;
-	icon_state = "vault"
-	},
+/turf/simulated/floor/plating,
 /area/tdome)
 "aJM" = (
 /obj/structure/grille,
@@ -10470,8 +10449,11 @@
 /obj/machinery/pointdefense{
 	dir = 8
 	},
-/obj/machinery/pointdefense,
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	id_tag = "Beta"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "fUF" = (
 /obj/structure/closet/secure_closet/bar{
@@ -10502,8 +10484,11 @@
 	},
 /area/holodeck/source_temple)
 "hlf" = (
-/obj/machinery/pointdefense,
-/turf/simulated/floor,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/pointdefense{
+	id_tag = "Beta"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "hzB" = (
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -10735,8 +10720,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/centcom/control)
 "leW" = (
-/turf/simulated/floor,
-/area/centcom/specops)
+/obj/machinery/power/shield_generator,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/administration/centcom)
 "ljS" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -10763,7 +10749,7 @@
 /area/merchant_station)
 "lNQ" = (
 /obj/effect/wingrille_spawn/reinforced/crescent,
-/turf/simulated/floor/tiled/dark/monotile,
+/turf/simulated/floor/plating,
 /area/centcom/holding)
 "lRq" = (
 /obj/structure/bed/chair/wood{
@@ -10906,10 +10892,7 @@
 /area/holodeck/source_cafe)
 "nJc" = (
 /obj/effect/wallframe_spawn/reinforced,
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
+/turf/simulated/floor/plating,
 /area/centcom/specops)
 "nJl" = (
 /obj/structure/bed/chair/wood{
@@ -11058,7 +11041,12 @@
 /turf/simulated/floor/holofloor/beach/sand,
 /area/holodeck/source_volleyball)
 "qtu" = (
-/obj/machinery/pointdefense_control,
+/obj/structure/table/rack,
+/obj/item/weapon/storage/box/ammo/sniperammo,
+/obj/item/weapon/storage/box/ammo/sniperammo,
+/obj/item/weapon/storage/box/ammo/sniperammo/apds,
+/obj/item/weapon/storage/box/ammo/sniperammo/apds,
+/obj/item/weapon/gun/projectile/heavysniper,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/administration/centcom)
 "quq" = (
@@ -11226,7 +11214,7 @@
 /obj/machinery/door/airlock/glass/security{
 	name = "Airlock"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/centcom/holding)
 "tsJ" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -11446,7 +11434,9 @@
 /turf/simulated/floor/holofloor/beach/sand,
 /area/holodeck/source_volleyball)
 "xZF" = (
-/turf/simulated/floor,
+/obj/machinery/light/navigation/delay5,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 
 (1,1,1) = {"
@@ -17374,11 +17364,11 @@ aab
 aab
 asP
 asR
-asR
+hlf
 izl
 izl
 izl
-bBb
+avY
 bBb
 aug
 izl
@@ -17388,7 +17378,7 @@ auY
 izl
 izl
 izl
-asR
+hlf
 asR
 dWk
 dWk
@@ -17403,7 +17393,7 @@ azs
 dWk
 aAn
 aAE
-avY
+dWk
 azs
 azs
 dWk
@@ -17580,7 +17570,7 @@ izl
 izl
 atc
 atn
-bBb
+aCv
 bBb
 auh
 izl
@@ -18186,7 +18176,7 @@ izl
 aFq
 atf
 atp
-bBb
+aCv
 bBb
 auk
 izl
@@ -18620,7 +18610,7 @@ aBz
 aBJ
 aDB
 aDB
-leW
+azs
 aab
 aDy
 aDQ
@@ -19196,7 +19186,7 @@ asS
 asZ
 bBb
 bBb
-atE
+leW
 asS
 aul
 auu
@@ -20000,7 +19990,7 @@ aab
 aab
 asP
 asR
-asR
+hlf
 asS
 asS
 atg
@@ -20014,7 +20004,7 @@ ave
 bBb
 asS
 asS
-asR
+hlf
 asR
 avZ
 awv
@@ -20633,7 +20623,7 @@ aDB
 aBd
 azs
 azU
-leW
+azs
 aAK
 aDB
 aBB
@@ -21028,7 +21018,7 @@ ath
 avU
 avU
 awx
-awR
+axu
 awx
 axt
 aDB
@@ -21230,7 +21220,7 @@ avm
 avU
 avU
 awx
-awR
+axu
 awx
 axt
 aDB
@@ -21432,7 +21422,7 @@ avm
 avU
 avU
 awx
-awR
+axu
 awx
 axt
 aDB
@@ -21851,13 +21841,13 @@ awR
 awR
 awR
 awa
-aCv
-aCv
-aCv
+aJa
+aJa
+aJa
 trE
-aCv
-aCv
-aCv
+aJa
+aJa
+aJa
 aEE
 aFb
 aFb
@@ -22864,10 +22854,10 @@ awR
 awa
 aCS
 aDl
-aDE
+lNQ
 aCx
 aCx
-aDE
+lNQ
 aEG
 aFd
 aFd
@@ -23268,7 +23258,7 @@ axK
 aCA
 aCU
 aCx
-aDE
+lNQ
 aDU
 aEg
 byb
@@ -23672,7 +23662,7 @@ awR
 awa
 aCW
 aDm
-aDE
+lNQ
 aDV
 bxb
 lNQ
