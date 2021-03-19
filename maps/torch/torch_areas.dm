@@ -768,10 +768,6 @@
 	name = "\improper Requisitions Office"
 	icon_state = "quart"
 
-/area/vacant/brig
-	name = "\improper Permanent Brig"
-	icon_state = "brig"
-
 /area/vacant/bar
 	name = "\improper Hidden Bar"
 	icon_state = "bar"
@@ -1019,6 +1015,11 @@
 /area/security/storage
 	name = "\improper Security - Equipment Storage"
 	icon_state = "security"
+	req_access = list(access_brig)
+
+/area/security/permabrig
+	name = "\improper Permanent Brig"
+	icon_state = "brig"
 	req_access = list(access_brig)
 
 /area/security/armoury
