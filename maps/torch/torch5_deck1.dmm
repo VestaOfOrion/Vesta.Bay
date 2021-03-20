@@ -796,6 +796,9 @@
 /area/maintenance/firstdeck/forestarboard)
 "abF" = (
 /obj/machinery/shield_diffuser,
+/obj/structure/sign/warning/lethal_turrets{
+	pixel_x = 32
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/maintenance/firstdeck/forestarboard)
 "abG" = (
@@ -13867,6 +13870,9 @@
 /area/thruster/d1port)
 "aUz" = (
 /obj/machinery/shield_diffuser,
+/obj/structure/sign/warning/lethal_turrets{
+	pixel_x = 32
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/maintenance/firstdeck/foreport)
 "aUA" = (
@@ -14617,6 +14623,20 @@
 /obj/item/weapon/storage/box/ammo/beanbags/full,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
+"bfA" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/machinery/turretid{
+	dir = 4;
+	id_tag = "Deck1Turrets";
+	name = "Deck One Turret Control";
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/security/wing)
 "bgJ" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -19648,6 +19668,14 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/safe_room/medical)
+"hEd" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "Deck1Turrets"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/firstdeck/foreport)
 "hEU" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9;
@@ -29921,6 +29949,14 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/security/questioning)
+"sTP" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "Deck1Turrets"
+	},
+/turf/simulated/floor/plating,
+/area/maintenance/firstdeck/forestarboard)
 "sTT" = (
 /obj/structure/bed/chair{
 	dir = 8
@@ -41890,7 +41926,7 @@ qUl
 mVW
 nrF
 cKO
-cKO
+bfA
 cKO
 llM
 mJb
@@ -43082,7 +43118,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+sTP
 hBr
 hBr
 hBr
@@ -43130,7 +43166,7 @@ aRO
 rkX
 tAS
 tAS
-aaa
+hEd
 aaa
 aaa
 aaa
@@ -44294,7 +44330,7 @@ aaa
 aaa
 aaa
 aaa
-aaa
+sTP
 hBr
 hBr
 hBr
@@ -44342,7 +44378,7 @@ tAS
 tAS
 tAS
 tAS
-aaa
+hEd
 aaa
 aaa
 aaa

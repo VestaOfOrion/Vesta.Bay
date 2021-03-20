@@ -10244,7 +10244,6 @@
 /obj/structure/sign/directions/medical{
 	dir = 4
 	},
-/obj/item/mech_equipment/shields,
 /obj/effect/paint/black,
 /turf/simulated/wall/r_titanium,
 /area/shuttle/administration/centcom)
@@ -10487,12 +10486,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/shuttle/administration/centcom)
-"fRO" = (
-/obj/machinery/pointdefense{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/administration/centcom)
 "fUF" = (
 /obj/structure/closet/secure_closet/bar{
@@ -19814,7 +19807,7 @@ ayh
 bBb
 qtu
 asS
-fRO
+xZF
 oOX
 hlf
 asS
