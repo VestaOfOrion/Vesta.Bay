@@ -2932,7 +2932,8 @@
 /obj/machinery/porta_turret{
 	id_tag = "SQTurrets"
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
 "jv" = (
 /obj/structure/hygiene/toilet{
@@ -8869,7 +8870,8 @@
 /obj/machinery/porta_turret{
 	id_tag = "PQTurrets"
 	},
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/port)
 "CN" = (
 /obj/structure/closet/crate,

@@ -2664,7 +2664,7 @@
 	level = 2
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "eX" = (
 /obj/machinery/camera/network/exploration_shuttle{
 	c_tag = "Gaunt - Cargo Portside";
@@ -10491,7 +10491,7 @@
 	pixel_y = -32
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "wx" = (
 /obj/structure/table/standard,
 /obj/item/device/integrated_electronics/wirer,
@@ -10832,7 +10832,7 @@
 "xK" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "xL" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -11783,7 +11783,7 @@
 	pixel_x = -21
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "AP" = (
 /obj/machinery/sparker{
 	id_tag = "Isocell3";
@@ -11796,7 +11796,7 @@
 /obj/item/modular_computer/tablet/lease/preset/command,
 /obj/item/weapon/book/manual/nt_regs,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "AT" = (
 /obj/structure/table/steel,
 /obj/machinery/chemical_dispenser/bar_soft/full,
@@ -12024,7 +12024,7 @@
 "BH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "BJ" = (
 /obj/item/weapon/stool/padded,
 /turf/simulated/floor/tiled/white/monotile,
@@ -12310,7 +12310,7 @@
 	icon_state = "comfyofficechair_preview"
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "CL" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -12360,7 +12360,7 @@
 "CT" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/reinforced/airless,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "CV" = (
 /obj/structure/table/standard,
 /obj/item/device/scanner/health,
@@ -12578,7 +12578,7 @@
 /obj/structure/table/glass,
 /obj/item/device/paicard,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Dv" = (
 /turf/simulated/floor/reinforced,
 /area/shuttle/petrov/phoron)
@@ -13337,7 +13337,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Ge" = (
 /obj/random_multi/single_item/poppy,
 /turf/simulated/floor/tiled/techfloor,
@@ -13597,7 +13597,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Ha" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red{
 	dir = 4;
@@ -13640,7 +13640,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Hc" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/power/emitter,
@@ -13788,7 +13788,7 @@
 /obj/structure/table/glass,
 /obj/item/weapon/pen,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "HB" = (
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/petrov/rnd)
@@ -14567,7 +14567,7 @@
 	},
 /obj/effect/paint/silver,
 /turf/simulated/floor/plating,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Kh" = (
 /obj/structure/table/standard,
 /obj/item/weapon/folder/nt,
@@ -14770,7 +14770,7 @@
 	},
 /obj/machinery/papershredder,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "KU" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -15138,7 +15138,7 @@
 	},
 /obj/effect/paint/silver,
 /turf/simulated/floor/plating,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "LX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -16078,7 +16078,7 @@
 	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Pn" = (
 /obj/structure/hygiene/sink{
 	dir = 4;
@@ -16259,7 +16259,7 @@
 	pixel_y = -3
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Qd" = (
 /turf/simulated/wall/r_wall/hull,
 /area/vacant/bar)
@@ -16479,7 +16479,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "QI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research{
@@ -17350,7 +17350,7 @@
 "Tz" = (
 /obj/effect/paint/silver,
 /turf/simulated/wall/titanium,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "TA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -17441,7 +17441,7 @@
 /obj/item/weapon/folder/nt,
 /obj/item/weapon/folder/nt,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "TO" = (
 /obj/machinery/atmospherics/unary/vent_scrubber{
 	dir = 1;
@@ -17634,7 +17634,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "UC" = (
 /obj/structure/table/rack,
 /obj/random/maintenance/solgov,
@@ -17695,7 +17695,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white/monotile,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "UO" = (
 /turf/simulated/floor/tiled,
 /area/hallway/primary/fifthdeck/aft)
@@ -17994,7 +17994,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "VN" = (
 /obj/structure/closet/hydrant{
 	pixel_x = -32
@@ -18038,7 +18038,7 @@
 /area/exploration_shuttle/cargo)
 "VT" = (
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "VU" = (
 /obj/structure/table/rack,
 /obj/item/device/scanner/xenobio,
@@ -18151,7 +18151,7 @@
 	},
 /obj/structure/flora/pottedplant/unusual,
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "Wy" = (
 /obj/machinery/portable_atmospherics/canister/phoron,
 /obj/machinery/atmospherics/unary/vent_pump/tank{
@@ -18841,7 +18841,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/lino,
-/area/crew_quarters/heads/office/rd)
+/area/space)
 "YS" = (
 /obj/structure/cable/cyan{
 	d1 = 4;
