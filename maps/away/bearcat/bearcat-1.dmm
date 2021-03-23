@@ -2525,6 +2525,8 @@
 	dir = 10;
 	icon_state = "corner_white"
 	},
+/obj/item/weapon/stock_parts/circuitboard/mineral_processing,
+/obj/item/weapon/stock_parts/circuitboard/mining_processor,
 /turf/simulated/floor/tiled,
 /area/ship/scrap/maintenance/techstorage)
 "eF" = (
