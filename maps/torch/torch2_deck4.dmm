@@ -42,8 +42,15 @@
 /turf/space,
 /area/space)
 "aj" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/hull,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "SQTurrets"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/maintenance/fourthdeck/starboard)
 "ak" = (
 /turf/simulated/wall/r_wall/hull,
@@ -2928,13 +2935,13 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
 "ju" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning,
 /obj/machinery/porta_turret{
-	id_tag = "SQTurrets"
+	id_tag = "PQTurrets"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/maintenance/fourthdeck/starboard)
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/maintenance/fourthdeck/aft)
 "jv" = (
 /obj/structure/hygiene/toilet{
 	dir = 4
@@ -8865,14 +8872,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod7/station)
-"CL" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/porta_turret{
-	id_tag = "PQTurrets"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/maintenance/fourthdeck/port)
 "CN" = (
 /obj/structure/closet/crate,
 /obj/random/junk,
@@ -11176,8 +11175,12 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/eva)
 "Kl" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/hull,
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "PQTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/maintenance/fourthdeck/port)
 "Kn" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -13634,8 +13637,15 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "QU" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/hull,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/obj/machinery/porta_turret{
+	id_tag = "SQTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/maintenance/fourthdeck/aft)
 "QV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -40161,7 +40171,7 @@ aa
 aa
 aa
 aa
-ju
+aa
 aj
 aq
 NQ
@@ -40207,7 +40217,7 @@ iO
 Oa
 GT
 Kl
-CL
+aa
 aa
 aa
 aa
@@ -43191,7 +43201,7 @@ aa
 aa
 aa
 aa
-ju
+aa
 QU
 Vr
 Vr
@@ -43236,8 +43246,8 @@ ah
 mY
 OB
 Vr
-QU
-CL
+ju
+aa
 aa
 aa
 aa
