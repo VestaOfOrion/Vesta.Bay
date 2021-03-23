@@ -188,6 +188,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/multi_tile/glass/security{
 	door_color = "#22425c";
+	id_tag = "PermaDoor2";
 	name = "Permanent Brig";
 	stripe_color = "#0d304d"
 	},
@@ -202,9 +203,6 @@
 /turf/simulated/floor/tiled/monotile,
 /area/security/permabrig)
 "aC" = (
-/obj/structure/reagent_dispensers/peppertank{
-	pixel_y = -32
-	},
 /obj/structure/table/standard,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/monotile,
@@ -354,6 +352,11 @@
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "PermaDoor2";
+	name = "Brig Interior Door Bolts";
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/dark,
 /area/security/permabrig)
 "aZ" = (
@@ -3344,11 +3347,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/thirddeck/starboard)
 "gE" = (
-/obj/effect/shuttle_landmark/ninja/deck4{
-	name = "3rd Deck, Aft"
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "HydroTurrets"
 	},
-/turf/space,
-/area/space)
+/turf/simulated/floor/reinforced/airless,
+/area/security/permabrig)
 "gF" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -4675,6 +4679,21 @@
 /obj/effect/floor_decal/corner/green/half,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/aft)
+"jj" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/machinery/pointdefense{
+	id_tag = null;
+	initial_id_tag = "torch_primary_pd"
+	},
+/obj/structure/cable/green{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
 "jk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4706,6 +4725,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
+"jn" = (
+/turf/simulated/floor/reinforced/airless,
+/area/maintenance/thirddeck/aftstarboard)
 "jo" = (
 /obj/machinery/telecomms/server/presets/infantry,
 /turf/simulated/floor/bluegrid,
@@ -6456,6 +6478,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/holocontrol)
+"nm" = (
+/turf/simulated/floor/reinforced/airless,
+/area/security/permabrig)
 "nn" = (
 /obj/effect/wallframe_spawn/no_grille,
 /turf/simulated/floor/plating,
@@ -8290,11 +8315,15 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/machinery/turretid{
+	dir = 8;
+	id_tag = "GardenTurrets";
+	name = "Garden Turret Control";
+	pixel_x = 32
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/observation)
 "rQ" = (
-/obj/effect/wallframe_spawn/no_grille,
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
@@ -8306,7 +8335,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/wall/prepainted,
 /area/crew_quarters/observation)
 "rR" = (
 /obj/structure/cable/green{
@@ -8393,6 +8422,9 @@
 	},
 /turf/simulated/floor/tiled,
 /area/crew_quarters_boh/cabin_main)
+"sa" = (
+/turf/simulated/floor/reinforced/airless,
+/area/command/disperser)
 "sb" = (
 /turf/simulated/wall/walnut,
 /area/crew_quarters_boh/cabin_main/c1)
@@ -9906,6 +9938,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/sleep/bunk)
+"vq" = (
+/obj/effect/shuttle_landmark/ninja/deck4{
+	name = "3rd Deck, Aft"
+	},
+/turf/space,
+/area/space)
 "vs" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -9928,10 +9966,6 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/lime/three_quarters,
-/obj/item/device/radio/intercom/entertainment{
-	dir = 1;
-	pixel_y = -28
-	},
 /obj/machinery/camera/network/third_deck{
 	c_tag = "Third Deck Hallway - Observation Bubble";
 	dir = 4
@@ -9939,6 +9973,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 5;
 	icon_state = "intact"
+	},
+/obj/machinery/turretid{
+	dir = 1;
+	id_tag = "ObsTurrets";
+	name = "Observation Turret Control";
+	pixel_y = -32
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
@@ -10054,6 +10094,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
+"vQ" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "ObsTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/maintenance/thirddeck/aftstarboard)
 "vR" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -11039,6 +11086,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/crew_quarters/sleep/cryo)
+"yh" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "ObsTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/maintenance/thirddeck/aftport)
 "yj" = (
 /obj/random/trash,
 /turf/simulated/floor/tiled/techfloor,
@@ -11479,6 +11533,10 @@
 /obj/structure/bed/chair/pew/mahogany,
 /turf/simulated/floor/tiled/dark,
 /area/chapel/main)
+"zw" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/crew_quarters/observation)
 "zx" = (
 /obj/machinery/power/apc{
 	dir = 2;
@@ -12246,6 +12304,13 @@
 	},
 /turf/simulated/floor/tiled,
 /area/storage/tools)
+"BN" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "OFDTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/command/disperser)
 "BO" = (
 /obj/effect/floor_decal/spline/fancy/black{
 	dir = 8;
@@ -16222,6 +16287,7 @@
 	initial_id_tag = "torch_primary_pd"
 	},
 /obj/structure/cable/green,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "KC" = (
@@ -16646,6 +16712,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/fore)
+"LD" = (
+/obj/structure/catwalk,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "GardenTurrets"
+	},
+/turf/simulated/floor/plating,
+/area/crew_quarters/observation)
 "LE" = (
 /obj/machinery/computer/air_control{
 	dir = 2;
@@ -18580,6 +18654,9 @@
 /obj/effect/floor_decal/corner/green/half,
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/thirddeck/aft)
+"QG" = (
+/turf/simulated/floor/reinforced/airless,
+/area/maintenance/thirddeck/aftport)
 "QH" = (
 /obj/structure/table/standard,
 /obj/item/weapon/material/bell,
@@ -19875,9 +19952,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/closet/shipping_wall/filled{
-	pixel_y = 32
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -19888,6 +19962,11 @@
 	},
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/turretid{
+	id_tag = "HydroTurrets";
+	name = "Starboard Turret Control";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled,
 /area/hydroponics)
 "Un" = (
@@ -20607,6 +20686,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
+/obj/machinery/turretid{
+	id_tag = "OFDTurrets";
+	name = "Port Turret Control";
+	pixel_y = 39
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/command/disperser)
 "VT" = (
@@ -21115,6 +21199,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "Xs" = (
@@ -29853,6 +29938,7 @@ aa
 aa
 aa
 aa
+LD
 aa
 aa
 aa
@@ -29866,8 +29952,7 @@ aa
 aa
 aa
 aa
-aa
-aa
+LD
 aa
 aa
 aa
@@ -30055,7 +30140,7 @@ aa
 aa
 aa
 aa
-aa
+zw
 qx
 qx
 qx
@@ -30069,7 +30154,7 @@ qx
 qx
 qx
 qx
-aa
+zw
 aa
 aa
 aa
@@ -41140,13 +41225,13 @@ aa
 aa
 aa
 aa
+gE
 aa
 aa
 aa
 aa
 aa
-aa
-aa
+gE
 aa
 aa
 aa
@@ -41342,13 +41427,13 @@ aa
 aa
 aa
 aa
-aa
+nm
 nW
 nW
 nW
 nW
 nW
-aa
+nm
 aa
 aa
 aa
@@ -41400,13 +41485,13 @@ aa
 aa
 aa
 aa
+BN
 aa
 aa
 aa
 aa
 aa
-aa
-aa
+BN
 aa
 aa
 aa
@@ -41544,13 +41629,13 @@ aa
 aa
 aa
 aa
-aa
+nm
 nW
 aw
 at
 aw
 nW
-aa
+nm
 aa
 aa
 aa
@@ -41602,13 +41687,13 @@ aa
 aa
 aa
 aa
-aa
+sa
 Qq
 Qq
 Im
 Qq
 Qq
-aa
+sa
 aa
 aa
 aa
@@ -41804,13 +41889,13 @@ aI
 aa
 aa
 aa
-aa
+sa
 Qq
 Ic
 In
 ix
 Qq
-aa
+sa
 aa
 aa
 aa
@@ -48640,7 +48725,7 @@ aT
 aT
 aT
 aT
-aI
+jn
 aI
 aI
 Su
@@ -48652,7 +48737,7 @@ Su
 Su
 aI
 aI
-aI
+QG
 jZ
 jZ
 jZ
@@ -48842,7 +48927,7 @@ aT
 aT
 aI
 aI
-aI
+jn
 aI
 Sp
 KR
@@ -48854,7 +48939,7 @@ xi
 KR
 mv
 aI
-aI
+QG
 aI
 aI
 jZ
@@ -49044,19 +49129,19 @@ aT
 aa
 aa
 aa
-aa
-aa
-SO
-aa
-aa
-aa
-aa
-aa
-aa
+jn
 aa
 SO
 aa
 aa
+aa
+aa
+aa
+aa
+aa
+jj
+aa
+QG
 aa
 aa
 aa
@@ -49246,6 +49331,7 @@ aa
 aa
 aa
 aa
+vQ
 aa
 aa
 aa
@@ -49257,8 +49343,7 @@ aa
 aa
 aa
 aa
-aa
-aa
+yh
 aa
 aa
 aa
@@ -55110,8 +55195,8 @@ aa
 aa
 aa
 aa
+vq
 aa
-gE
 aa
 aa
 aa

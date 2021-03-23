@@ -42,8 +42,15 @@
 /turf/space,
 /area/space)
 "aj" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/hull,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "SQTurrets"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/maintenance/fourthdeck/starboard)
 "ak" = (
 /turf/simulated/wall/r_wall/hull,
@@ -470,6 +477,31 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/starboard)
+"bH" = (
+/obj/effect/floor_decal/corner/red{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 8;
+	icon_state = "corner_white"
+	},
+/obj/machinery/turretid{
+	dir = 4;
+	id_tag = "SQTurrets";
+	name = "Starboard Quarter Dock Turret Control";
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/hallway/primary/fourthdeck/aft)
 "bI" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -2903,8 +2935,13 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/lounge)
 "ju" = (
-/turf/simulated/wall/r_wall/hull,
-/area/space)
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/porta_turret{
+	id_tag = "PQTurrets"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/maintenance/fourthdeck/aft)
 "jv" = (
 /obj/structure/hygiene/toilet{
 	dir = 4
@@ -3338,6 +3375,11 @@
 	pixel_x = -24;
 	pixel_y = 6
 	},
+/obj/machinery/turretid{
+	id_tag = "EVATurrets";
+	name = "Main Dock Turret Control";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/eva)
 "ld" = (
@@ -3405,6 +3447,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/escape_pod9/station)
+"lp" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "EVATurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/eva)
 "lr" = (
 /obj/structure/catwalk,
 /turf/simulated/open,
@@ -9557,6 +9606,12 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/effect/catwalk_plated,
+/obj/machinery/turretid{
+	dir = 8;
+	id_tag = "PBTurrets";
+	name = "Port Bow Dock Turret Control";
+	pixel_x = 32
+	},
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/fore)
 "Fp" = (
@@ -10077,6 +10132,13 @@
 /obj/effect/catwalk_plated,
 /turf/simulated/floor/plating,
 /area/hallway/primary/fourthdeck/aft)
+"GV" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "PBTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/hallway/primary/fourthdeck/fore)
 "GW" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/fourthdeck/port)
@@ -11113,8 +11175,12 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/eva)
 "Kl" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/hull,
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "PQTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/maintenance/fourthdeck/port)
 "Kn" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
@@ -11508,6 +11574,30 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
+"Lt" = (
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/effect/floor_decal/corner/red{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/red{
+	color = "#22425c";
+	dir = 9
+	},
+/obj/effect/floor_decal/corner/white{
+	dir = 1;
+	icon_state = "corner_white"
+	},
+/obj/machinery/turretid{
+	dir = 4;
+	id_tag = "PQTurrets";
+	name = "Port Quarter Dock Turret Control";
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark,
+/area/hallway/primary/fourthdeck/aft)
 "Lu" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -13547,8 +13637,15 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/hallway/primary/fourthdeck/aft)
 "QU" = (
-/obj/structure/sign/warning/docking_area,
-/turf/simulated/wall/r_wall/hull,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1;
+	icon_state = "warning"
+	},
+/obj/machinery/porta_turret{
+	id_tag = "SQTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
 /area/maintenance/fourthdeck/aft)
 "QV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -14345,11 +14442,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/machinery/requests_console{
-	department = "EVA";
-	pixel_x = -32;
-	pixel_y = 0
-	},
 /obj/machinery/light{
 	dir = 8
 	},
@@ -14868,6 +14960,12 @@
 /obj/effect/floor_decal/corner/white{
 	dir = 8;
 	icon_state = "corner_white"
+	},
+/obj/machinery/turretid{
+	dir = 4;
+	id_tag = "SBTurrets";
+	name = "Starboard Bow Dock Turret Control";
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/hallway/primary/fourthdeck/fore)
@@ -15646,6 +15744,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/command/pathfinder)
+"VV" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "SBTurrets"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/hallway/primary/fourthdeck/fore)
 "VW" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/waterstore)
@@ -25538,7 +25643,7 @@ aa
 aa
 aa
 aa
-aa
+lp
 aa
 aa
 aa
@@ -25552,7 +25657,7 @@ aa
 aa
 aa
 aa
-aa
+lp
 aa
 aa
 aa
@@ -28958,8 +29063,8 @@ aa
 aa
 aa
 aa
-aa
-aa
+VV
+WZ
 WZ
 WZ
 WZ
@@ -28999,7 +29104,7 @@ WZ
 WZ
 WZ
 WZ
-aa
+GV
 aa
 aa
 aa
@@ -29766,12 +29871,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-ju
-ju
-ju
-ju
+VV
+WZ
+WZ
+WZ
+WZ
+WZ
 PM
 UO
 XH
@@ -29807,7 +29912,7 @@ WZ
 WZ
 WZ
 WZ
-aa
+GV
 aa
 aa
 aa
@@ -41486,7 +41591,7 @@ RR
 aJ
 bk
 Mx
-YR
+bH
 YR
 YR
 YR
@@ -41520,7 +41625,7 @@ KU
 uj
 uj
 uj
-uj
+Lt
 Jx
 JP
 aJ
@@ -43141,7 +43246,7 @@ ah
 mY
 OB
 Vr
-QU
+ju
 aa
 aa
 aa
