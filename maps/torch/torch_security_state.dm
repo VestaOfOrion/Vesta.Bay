@@ -59,6 +59,8 @@
 	overlay_status_display = "status_display_violet"
 	alert_border = "alert_border_violet"
 
+	var/static/datum/announcement/priority/security/security_announcement_violet = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/misc/violetalert.ogg'))
+
 	up_description = "A major medical emergency has developed. Medical personnel are required to report to their supervisor for orders, and non-medical personnel are required to obey all relevant instructions from medical staff."
 	down_description = "Code violet procedures are now in effect; Medical personnel are required to report to their supervisor for orders, and non-medical personnel are required to obey relevant instructions from medical staff."
 
@@ -75,6 +77,8 @@
 	alert_border = "alert_border_orange"
 
 	psionic_control_level = PSI_IMPLANT_LOG
+
+	var/static/datum/announcement/priority/security/security_announcement_orange = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/misc/orangealert1.ogg'))
 
 	up_description = "A major engineering emergency has developed. Engineering personnel are required to report to their supervisor for orders, and non-engineering personnel are required to evacuate any affected areas and obey relevant instructions from engineering staff."
 	down_description = "Code orange procedures are now in effect; Engineering personnel are required to report to their supervisor for orders, and non-engineering personnel are required to evacuate any affected areas and obey relevant instructions from engineering staff."
@@ -94,6 +98,9 @@
 	alert_border = "alert_border_blue"
 
 	psionic_control_level = PSI_IMPLANT_LOG
+
+	var/static/datum/announcement/priority/security/security_announcement_red = new(do_log = 0, do_newscast = 1, new_sound = sound('sound/misc/notice1.ogg'))
+
 
 	up_description = "A major security emergency has developed. Security personnel are to report to their supervisor for orders, are permitted to search staff and facilities, and may have weapons visible on their person."
 	down_description = "Code blue procedures are now in effect. Security personnel are to report to their supervisor for orders, are permitted to search staff and facilities, and may have weapons visible on their person."
@@ -128,7 +135,7 @@
 /decl/security_level/default/torchdept/code_delta
 	name = "code delta"
 	icon = 'icons/misc/security_state.dmi'
-	
+
 	light_max_bright = 0.75
 	light_inner_range = 0.1
 	light_outer_range = 3
