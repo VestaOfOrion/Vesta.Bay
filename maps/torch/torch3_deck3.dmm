@@ -417,13 +417,15 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/storage/tools)
 "bh" = (
-/obj/item/device/radio/intercom/department/security{
-	dir = 4;
-	pixel_x = -21
-	},
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
 	dir = 9
+	},
+/obj/machinery/turretid{
+	dir = 4;
+	id_tag = "HydroTurrets";
+	name = "Starboard Turret Control";
+	pixel_x = -32
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/permabrig)
@@ -4725,9 +4727,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/thirddeck/aft)
-"jn" = (
-/turf/simulated/floor/reinforced/airless,
-/area/maintenance/thirddeck/aftstarboard)
 "jo" = (
 /obj/machinery/telecomms/server/presets/infantry,
 /turf/simulated/floor/bluegrid,
@@ -10094,13 +10093,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
 /area/crew_quarters/sleep/bunk)
-"vQ" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/porta_turret{
-	id_tag = "ObsTurrets"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/maintenance/thirddeck/aftstarboard)
 "vR" = (
 /obj/machinery/light/spot{
 	dir = 8
@@ -11092,7 +11084,7 @@
 	id_tag = "ObsTurrets"
 	},
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/thirddeck/aftport)
+/area/hallway/primary/thirddeck/aft)
 "yj" = (
 /obj/random/trash,
 /turf/simulated/floor/tiled/techfloor,
@@ -14199,6 +14191,10 @@
 /obj/effect/floor_decal/corner/red{
 	color = "#134975";
 	dir = 9
+	},
+/obj/item/device/radio/intercom/department/security{
+	dir = 4;
+	pixel_x = -21
 	},
 /turf/simulated/floor/tiled/dark,
 /area/security/permabrig)
@@ -18656,7 +18652,7 @@
 /area/hallway/primary/thirddeck/aft)
 "QG" = (
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/thirddeck/aftport)
+/area/hallway/primary/thirddeck/aft)
 "QH" = (
 /obj/structure/table/standard,
 /obj/item/weapon/material/bell,
@@ -19962,11 +19958,6 @@
 	},
 /obj/machinery/portable_atmospherics/hydroponics,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/turretid{
-	id_tag = "HydroTurrets";
-	name = "Starboard Turret Control";
-	pixel_y = 32
-	},
 /turf/simulated/floor/tiled,
 /area/hydroponics)
 "Un" = (
@@ -48523,8 +48514,8 @@ aT
 aT
 aT
 aT
-aT
-aT
+MM
+MM
 MM
 Su
 qt
@@ -48534,8 +48525,8 @@ Kt
 PT
 Su
 MM
-jZ
-jZ
+MM
+MM
 jZ
 jZ
 jZ
@@ -48725,7 +48716,7 @@ aT
 aT
 aT
 aT
-jn
+QG
 aI
 aI
 Su
@@ -48927,7 +48918,7 @@ aT
 aT
 aI
 aI
-jn
+QG
 aI
 Sp
 KR
@@ -49129,7 +49120,7 @@ aT
 aa
 aa
 aa
-jn
+QG
 aa
 SO
 aa
@@ -49331,7 +49322,7 @@ aa
 aa
 aa
 aa
-vQ
+yh
 aa
 aa
 aa

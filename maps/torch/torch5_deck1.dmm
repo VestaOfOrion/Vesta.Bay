@@ -2723,6 +2723,11 @@
 	dir = 1
 	},
 /obj/structure/catwalk,
+/obj/machinery/turretid{
+	id_tag = "Deck1Turrets";
+	name = "Deck One Turret Control";
+	pixel_y = 32
+	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/forestarboard)
 "aeL" = (
@@ -11642,10 +11647,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/firstdeck/fore)
-"aOK" = (
-/obj/machinery/status_display,
-/turf/simulated/wall/r_wall/prepainted,
-/area/security/wing)
 "aOL" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -12567,6 +12568,11 @@
 	},
 /obj/machinery/light/small{
 	dir = 1
+	},
+/obj/machinery/turretid{
+	id_tag = "Deck1Turrets";
+	name = "Deck One Turret Control";
+	pixel_y = 32
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/foreport)
@@ -14623,20 +14629,6 @@
 /obj/item/weapon/storage/box/ammo/beanbags/full,
 /turf/simulated/floor/tiled/dark,
 /area/security/armoury)
-"bfA" = (
-/obj/structure/disposalpipe/segment,
-/obj/effect/floor_decal/corner/red{
-	color = "#22425c";
-	dir = 9
-	},
-/obj/machinery/turretid{
-	dir = 4;
-	id_tag = "Deck1Turrets";
-	name = "Deck One Turret Control";
-	pixel_x = -32
-	},
-/turf/simulated/floor/tiled/dark,
-/area/security/wing)
 "bgJ" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -41926,7 +41918,7 @@ qUl
 mVW
 nrF
 cKO
-bfA
+cKO
 cKO
 llM
 mJb
@@ -43765,7 +43757,7 @@ aMK
 aNL
 afj
 afj
-aOK
+tkr
 aRs
 aSq
 sCb

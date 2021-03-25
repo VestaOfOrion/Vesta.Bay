@@ -51,7 +51,7 @@
 	icon_state = "warning"
 	},
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/starboard)
+/area/hallway/primary/fourthdeck/aft)
 "ak" = (
 /turf/simulated/wall/r_wall/hull,
 /area/maintenance/fourthdeck/forestarboard)
@@ -110,10 +110,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/deckchief)
-"av" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/port)
 "aw" = (
 /turf/simulated/wall/r_titanium,
 /area/shuttle/escape_pod7/station)
@@ -563,13 +559,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/maintenance/fourthdeck/forestarboard)
-"bX" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "warning"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/starboard)
 "bY" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -2941,7 +2930,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/aft)
+/area/hallway/primary/fourthdeck/aft)
 "jv" = (
 /obj/structure/hygiene/toilet{
 	dir = 4
@@ -4706,7 +4695,7 @@
 "pp" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/aft)
+/area/hallway/primary/fourthdeck/aft)
 "pr" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/emcloset,
@@ -7381,7 +7370,7 @@
 	icon_state = "warning"
 	},
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/aft)
+/area/hallway/primary/fourthdeck/aft)
 "xb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 8;
@@ -11181,7 +11170,7 @@
 	id_tag = "PQTurrets"
 	},
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/port)
+/area/hallway/primary/fourthdeck/aft)
 "Kn" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/plating,
@@ -13646,7 +13635,7 @@
 	id_tag = "SQTurrets"
 	},
 /turf/simulated/floor/reinforced/airless,
-/area/maintenance/fourthdeck/aft)
+/area/hallway/primary/fourthdeck/aft)
 "QV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -40374,7 +40363,7 @@ aa
 aa
 aa
 aa
-bX
+wX
 wW
 aD
 Lm
@@ -40418,7 +40407,7 @@ By
 tg
 Ke
 jX
-av
+pp
 aa
 aa
 aa
@@ -40576,7 +40565,7 @@ aa
 aa
 aa
 aa
-bX
+wX
 wW
 aF
 bf
@@ -40620,7 +40609,7 @@ By
 tg
 Ni
 jX
-av
+pp
 aa
 aa
 aa
@@ -40778,7 +40767,7 @@ aa
 aa
 aa
 aa
-bX
+wX
 wW
 aG
 bf
@@ -40822,7 +40811,7 @@ By
 tg
 Ni
 jX
-av
+pp
 aa
 aa
 aa
@@ -40980,7 +40969,7 @@ aa
 aa
 aa
 aa
-bX
+wX
 wW
 aH
 bf
@@ -41024,7 +41013,7 @@ By
 tg
 Ni
 jX
-av
+pp
 aa
 aa
 aa
@@ -41182,7 +41171,7 @@ aa
 aa
 aa
 aa
-bX
+wX
 wW
 aI
 bf
@@ -41226,7 +41215,7 @@ By
 tg
 Kf
 jX
-av
+pp
 aa
 aa
 aa

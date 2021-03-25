@@ -3087,7 +3087,7 @@
 	icon_state = "shock"
 	},
 /turf/simulated/wall/r_wall/hull,
-/area/maintenance/bridge/forestarboard)
+/area/bridge/storage)
 "fv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 8
@@ -4571,7 +4571,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
-/area/maintenance/bridge/forestarboard)
+/area/bridge/storage)
 "iX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -7633,7 +7633,7 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
-/area/maintenance/bridge/foreport)
+/area/crew_quarters/heads/office/co)
 "qB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -19662,6 +19662,11 @@
 	pixel_x = -23;
 	pixel_y = 0
 	},
+/obj/machinery/turretid{
+	id_tag = "BridgeTurrets";
+	name = "CO Office Turret Control";
+	pixel_y = 32
+	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/heads/office/co)
 "YA" = (
@@ -27338,7 +27343,7 @@ af
 af
 af
 af
-af
+Fp
 oA
 aa
 aa
@@ -27356,7 +27361,7 @@ vA
 aa
 aa
 ae
-tg
+Mz
 tg
 tg
 tg
@@ -27540,7 +27545,7 @@ af
 af
 af
 af
-af
+Fp
 fu
 XQ
 XQ
@@ -27558,7 +27563,7 @@ Es
 aa
 aa
 sx
-tg
+Mz
 tg
 tg
 tg
