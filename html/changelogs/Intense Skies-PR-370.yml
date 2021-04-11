@@ -1,0 +1,9 @@
+
+# Your name.  
+author: intense-skies
+
+
+delete-after: True
+
+changes: 
+  - bugfix: "Allows Yeosa and Tajarans to be played on off-ships."
