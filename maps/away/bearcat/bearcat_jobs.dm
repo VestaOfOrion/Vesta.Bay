@@ -33,7 +33,7 @@
 						SKILL_EVA = SKILL_ADEPT,
 						SKILL_WEAPONS = SKILL_BASIC,
 						SKILL_ELECTRICAL = SKILL_BASIC)
-	skill_points = 18
+	skill_points = 24
 
 #define BEARCAT_OUTFIT_JOB_NAME(job_name) ("Bearcat - Job - " + job_name)
 

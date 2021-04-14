@@ -29,7 +29,7 @@ GLOBAL_LIST_INIT(crashed_pod_areas, new)
 	min_skill = list(	SKILL_ANATOMY = SKILL_BASIC,
 						SKILL_MEDICAL = SKILL_BASIC,
 						SKILL_EVA = SKILL_BASIC)
-	skill_points = 22
+	skill_points = 26
 
 /decl/hierarchy/outfit/job/survivor
 	name = OUTFIT_JOB_NAME("Survivor")

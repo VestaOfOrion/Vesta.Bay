@@ -18,7 +18,7 @@
 		SKILL_PILOT   = SKILL_MAX,
 		SKILL_SCIENCE = SKILL_MAX,
 	)
-	skill_points = 20//skills copied from Torch pilot + gun
+	skill_points = 24//skills copied from Torch pilot + gun
 
 /datum/job/submap/CTI_engineer
 	title = "CTI Engineer"
@@ -45,7 +45,7 @@
 		SKILL_ATMOS        = SKILL_MAX,
 		SKILL_ENGINES      = SKILL_MAX,
 	)
-	skill_points = 20//skills copied from torch eng
+	skill_points = 24//skills copied from torch eng
 
 /datum/job/submap/CTI_Undergraduate_Xenoscience_Researcher
 	title = "CTI Undergraduate Xenoscience Researcher"
@@ -62,14 +62,17 @@
 		SKILL_COMPUTER    = SKILL_BASIC,
 		SKILL_DEVICES     = SKILL_BASIC,
 		SKILL_SCIENCE     = SKILL_ADEPT,
+		SKILL_MEDICAL     = SKILL_BASIC,
+		SKILL_ANATOMY     = SKILL_BASIC
 	)
 
 	max_skill = list(
 		SKILL_ANATOMY = SKILL_MAX,
 		SKILL_DEVICES = SKILL_MAX,
 		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_MEDICAL = SKILL_MAX,
 	)
-	skill_points = 20//skills copied from Torch sci
+	skill_points = 28//skills copied from Torch sci
 
 #define VERNE_OUTFIT_JOB_NAME(job_name) ("CTI Research Vessel - Job - " + job_name)
 /decl/hierarchy/outfit/job/verne
