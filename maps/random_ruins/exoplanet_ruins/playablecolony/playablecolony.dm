@@ -33,7 +33,7 @@
 						SKILL_BOTANY = SKILL_BASIC,
 						SKILL_EVA = SKILL_BASIC,
 						SKILL_ELECTRICAL = SKILL_BASIC)
-	skill_points = 20
+	skill_points = 24
 
 /decl/hierarchy/outfit/job/colonist
 	name = OUTFIT_JOB_NAME("Colonist")
