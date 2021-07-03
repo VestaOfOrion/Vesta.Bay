@@ -15,3 +15,8 @@
 	light_overlay = "EMS_light"
 	flags_inv = 0
 	species_restricted = list("exclude")
+
+/obj/item/clothing/head/beret/solgov/orbital
+	name = "orbital assault beret"
+	desc = "A blue beret denoting orbital assault training. For helljumpers that are more inclined towards style than safety."
+	icon_state = "beret_blue"
