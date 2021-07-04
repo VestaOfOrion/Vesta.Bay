@@ -150,6 +150,11 @@
 	path = /obj/item/clothing/mask/surgical
 	cost = 2
 
+/datum/gear/gas_mask
+	display_name = "basic gas mask"
+	path = /obj/item/clothing/mask/gas
+	cost = 2
+
 /datum/gear/smokingpipe
 	display_name = "pipe, smoking"
 	path = /obj/item/clothing/mask/smokable/pipe
