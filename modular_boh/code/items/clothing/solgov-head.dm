@@ -66,7 +66,7 @@
 	icon_state = "navyutility"
 
 /obj/item/clothing/head/solgov/utility/army
-	name = "Marine utility cover"
+	name = "green utility cover"
 	desc = "A green utility cover bearing the crest of the SCG Marine Corp."
 	icon_state = "greenutility"
 

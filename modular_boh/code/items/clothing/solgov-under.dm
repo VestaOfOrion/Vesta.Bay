@@ -273,7 +273,7 @@
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/fleet)
 
 /obj/item/clothing/under/solgov/utility/army
-	name = "marine fatigues"
+	name = "green fatigues"
 	desc = "The utility uniform of the SCG Marine Corps, made from durable material."
 	icon_state = "greenutility"
 	item_state = "jensensuit"
