@@ -373,6 +373,8 @@ datum/gear/head/ECdepartment/New()
 	armors["Navy ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/navy/ipc
 	armors["Blue ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/blue/ipc
 	armors["Green ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/green/ipc
+	armors["Tan plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/tan
+	armors["Tan ipc plate carrier"] = /obj/item/clothing/suit/armor/pcarrier/tan/ipc
 	gear_tweaks += new/datum/gear_tweak/path(armors)
 
 /datum/gear/tactical/armor_pouches
@@ -431,6 +433,7 @@ datum/gear/head/ECdepartment/New()
 	armors["Navy kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/navy
 	armors["Blue kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/blue
 	armors["Green kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/green
+	armors["Tan kevlar"] = /obj/item/clothing/suit/armor/pcarrier/kevlar/tan
 	gear_tweaks += new/datum/gear_tweak/path(armors)
 
 //################# XENOWEAR ############################
@@ -456,6 +459,8 @@ datum/gear/head/ECdepartment/New()
 	var/uniform = list()
 	uniform += /obj/item/clothing/under/solgov/utility/fleet/combat/marine
 	uniform += /obj/item/clothing/under/solgov/utility/army/urban
+	uniform += /obj/item/clothing/under/solgov/utility/army/tan
+	uniform += /obj/item/clothing/under/solgov/utility/army
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(uniform)
 
 /datum/gear/uniform/fleet
@@ -505,6 +510,7 @@ datum/gear/head/ECdepartment/New()
 	cover += /obj/item/clothing/head/solgov/utility/army/urban
 	cover += /obj/item/clothing/head/solgov/utility/army
 	cover += /obj/item/clothing/head/solgov/utility/fleet/marine
+	cover += /obj/item/clothing/head/solgov/utility/army/tan
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(cover)
 
 /datum/gear/head/self_protection_helmet
