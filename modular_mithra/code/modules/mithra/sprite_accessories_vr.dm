@@ -321,6 +321,7 @@
 	icon_state = "taj"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "taj-inner"
 
 /datum/sprite_accessory/ears/bunnyhc
 	name = "bunny, colorable"

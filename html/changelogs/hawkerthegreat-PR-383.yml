@@ -1,0 +1,6 @@
+author: HawkerTheGreat
+
+delete-after: True
+
+changes: 
+  - bugfix: "Restores sprites for Tajara markings and fixes base body greyscale."

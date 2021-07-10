@@ -1,4 +1,5 @@
 /datum/sprite_accessory/marking/taj
+	icon = 'modular_mithra/icons/mob/human_races/species/tajaran/default_markings.dmi'
 	name = "Socks Coloration (Taj)"
 	icon_state = "taj_pawsocks"
 	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
