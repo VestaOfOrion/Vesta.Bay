@@ -25,7 +25,7 @@ jobs:
           python tools/GenerateChangelog/ss13_genchangelog.py html/changelog.html html/changelogs
           
       - name: Push Changelog
-        uses: actions-js/push@v1.2
+        uses: actions-js/push@v1.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           message: Automatic Changelog Generation
